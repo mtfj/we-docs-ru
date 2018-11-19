@@ -14,6 +14,12 @@
 **Ключевые особенности:**
 
 .. raw:: html
+
+   <br/><br/>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/EKa5Gh9whgU" frameborder="0" allowfullscreen></iframe>
+   <br/><br/>
+
+.. raw:: html
 <ul>
   <li><strong>Пропускная способность сети</strong></li>
   Использование протокола Waves NG  и оптимизация сетевых протоколов позволяет достичь пропускной способности 1200 tps.<br><br>
@@ -38,7 +44,6 @@
 </ul>
 
 Последнюю версию релиза и конфигурационного файла для подключению к сети вы можете найти в разделе `Релизы платформы <https://github.com/vostokplatform/Vostok-Releases>`_.
-
 
 .. toctree::
    :maxdepth: 1
