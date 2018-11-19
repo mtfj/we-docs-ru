@@ -64,9 +64,9 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'hyperledger-fabricdocs'
-copyright = u'2017, hyperledger'
-author = u'hyperledger'
+project = u'Vostok'
+copyright = u'2017, vostok'
+author = u'vostok'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -122,7 +122,7 @@ def setup(app):
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'hyperledger-fabricdocsdoc'
+htmlhelp_basename = 'vostok-docs'
 
 
 # -- Options for LaTeX output ---------------------------------------------
