@@ -136,19 +136,6 @@ man_pages = [
 ]
 
 
-# -- Options for Texinfo output -------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'vostok-docs', u'vostok-docs Documentation',
-     author, 'vostok-docs', 'One line description of project.',
-     'Miscellaneous'),
-]
-
-
-
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
