@@ -7,10 +7,8 @@ modularity and versatility for a broad set of industry use cases.
 .. toctree::
    :maxdepth: 1
 
-   tst
-   whatis
-   whatsnew
-   key_concepts
+   test
+
 
 
 .. note:: If you have questions not addressed by this documentation, or run into
