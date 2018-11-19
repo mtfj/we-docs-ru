@@ -149,8 +149,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'hyperledger-fabricdocs.tex', u'hyperledger-fabricdocs Documentation',
-     u'hyperledger', 'manual'),
+    (master_doc, 'vostok-docs.tex', u'Vostok-docs Documentation',
+     u'vostok', 'manual'),
 ]
 
 
@@ -159,7 +159,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'hyperledger-fabricdocs', u'hyperledger-fabricdocs Documentation',
+    (master_doc, 'vostok-docs', u'vostok-docs Documentation',
      [author], 1)
 ]
 
@@ -170,8 +170,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'hyperledger-fabricdocs', u'hyperledger-fabricdocs Documentation',
-     author, 'hyperledger-fabricdocs', 'One line description of project.',
+    (master_doc, 'vostok-docs', u'vostok-docs Documentation',
+     author, 'vostok-docs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
