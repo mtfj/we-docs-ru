@@ -27,4 +27,5 @@
    :maxdepth: 1
 
    test
+   tree-section
 
