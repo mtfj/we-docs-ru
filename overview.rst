@@ -5,8 +5,9 @@ Paragraph text.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Содержание раздела
 
-   features
-   roadmap
+   overview/features
+   overview/links
+   overview/roadmap
