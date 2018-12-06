@@ -9,7 +9,7 @@ Figure below describes general Vostok Node architecture.
 
 Different architectures may require different approach to the blockchain consensus.  In the main chain we use PoS algorithm, which supports the economical model based on VST token holdings, making profits from network maintenance proportional to a stake in VST token held by a node. On the other hand, for corporate sidechains it may make more sense to provide consensus algorithm that does not require introduction of any new entities and is more focused on required technical parameters of the network such as throughput.  To this end we implement the following consensus algorithms, in addition to PoS: Proof of Authority and PBFT. In a permissioned blockchain they basically serve the same purpose of providing basic and simple consensus for a system with a small to moderate amount of nodes, focusing on speed.  The goal of consensus protocols in permissioned systems is to provide the validators succession, and provide for the distributed nature of the system. Sybil attacks that undermine the security of open blockchains are impossible in this case, since all the validating nodes are vetted by a centralized administrator. Thus the focus in the consensus algorithms in permissioned blockchains is not on the scarce resource that has to be used in order to be eligible for the mining reward, but  on the system decentralization and fairness.
 
-.. image:: img/paltform-model.png
+.. image:: img/platform-model.png
 
 
 Main idea: basically we have a fractal network, where side- and sub-chains replicate the main chain, and the main chain is used as a global arbiter and reference chain, sidechains are meant to be customizable and potentially interacting with the main chain
