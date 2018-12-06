@@ -3,14 +3,14 @@
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Содержание раздела
 
-   architecture
-   components
-   protocol
-   consensus
-   cryptography
-   authorization
-   blocks-and-transactions
-   smart-contracts
+   how-the-platform-works/architecture
+   how-the-platform-works/components
+   how-the-platform-works/protocol
+   how-the-platform-works/consensus
+   how-the-platform-works/cryptography
+   how-the-platform-works/authorization
+   how-the-platform-works/blocks-and-transactions
+   how-the-platform-works/smart-contracts
