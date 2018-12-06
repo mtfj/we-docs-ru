@@ -4,6 +4,39 @@
 В этом разделе приведена структура хранения транзакций в блокчейн-платформе Восток.
 Для некоторых типов транзакций введено версионирование.
 
+.. table:: Типы транзакций
+===   ==========================
+№	    Transaction type
+===   ==========================
+1	    GenesisTransaction
+2	    PaymentTransaction*
+3	    IssueTransaction
+4	    TransferTransaction
+5	    ReissueTransaction
+6	    BurnTransaction
+7	    ExchangeTransaction
+8	    LeaseTransaction
+9	    LeaseCancelTransaction
+10	  CreateAliasTransaction
+11	  MassTransferTransaction
+12	  DataTransaction
+13	  SetScriptTransaction
+14	  SponsorFeeTransaction
+===   ==========================
+
+(*) - не используется
+
+
+1. Genesis transaction
+~~~~~~~~~~~~~~~~~~~~~~~
+.. csv-table::
+   :header: "Field","Type","Length"
+   :widths: 40, 10, 5
+
+   Transaction type (1),Byte,1
+   Timestamp,Long,8
+   Recipient's address,Bytes,26
+   Amount,Long,8
 
 3. Issue Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,7 +59,6 @@
    Script,option[script],N,N,Y
    Proofs,proofs,64,N,Y
    Signature,Bytes,64,Y,N
-
 
 
 4. Transfer Transaction
