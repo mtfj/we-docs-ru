@@ -7,3 +7,7 @@
 
    components/client
    components/data-service
+   components/explorer
+   components/monitoring
+   components/wallet
+   components/ide
