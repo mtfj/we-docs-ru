@@ -8,174 +8,154 @@
 3. Issue Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+.. csv-table::
+   :header: "Field","Type","Length","v1","v2"
+   :widths: 40, 10, 5, 10, 10
+
+   Transaction Type,Byte,1,Y,Y
+   Version,Byte,1,N,Y
+   ChainId,Byte,1,N,Y
+   Sender's Public Key,PublicKeyAccount,32,Y,Y
+   Name,Bytes,maximum N,Y,Y
+   Description,Bytes,maximum N,Y,Y
+   Quantity,Long,8,Y,Y
+   Decimals,Byte,1,Y,Y
+   Reissuable,Byte,1,Y,Y
+   Fee,Long,8,Y,Y
+   Timestamp,Long,8,Y,Y
+   Script,option[script],N,N,Y
+   Proofs,proofs,64,N,Y
+   Signature,Bytes,64,Y,N
+
+
+
+4. Transfer Transaction
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :header: "Field","Type","Length","v1","v2"
    :widths: 40, 10, 5, 10, 10
 
-   Transaction Type,Byte,1,"+","+"
-   Version,Byte,1,"-",'+'
-   ChainId,Byte,1,'-','+'
-   Sender's Public Key,PublicKeyAccount,32,+,+
-   Name,Bytes,maximum N,+,+
-   Description,Bytes,maximum N,+,+
-   Quantity,Long,8,+,+
-   Decimals,Byte,1,+,+
-   Reissuable,Byte,1,+,+
-   Fee,Long,8,+,+
-   Timestamp,Long,8,+,+
-   Script,option[script],N,-,+
-   Proofs,proofs,64,-,+
-   Signature,Bytes,64,+,-
-
-.. table::
- =======
-    Field	Type	Length	Transaction Version1	Transaction version2
-==========
-   Transaction Type	Byte	1	+	+
-   Version	Byte	1	-	+
-   ChainId	Byte	1	-	+
-   Sender's Public Key	PublicKeyAccount	32	+	+
-   Name	Bytes	maximum N	+	+
-   Description	Bytes	maximum N	+	+
-   Quantity	Long	8	+	+
-   Decimals	Byte	1	+	+
-   Reissuable	Byte	1	+	+
-   Fee	Long	8	+	+
-   Timestamp	Long	8	+	+
-   Script	option[script]	N	-	+
-   Proofs	proofs	64	-	+
-   Signature	Bytes	64	+	-
-
-
-.. table::
-.. csv-table:: CSV-таблица
-      :header: "Field","Type","Length","v1","v2"
-      :widths: 40, 10, 5, 10, 10
-
-Transaction Type,Byte,1,+,+
-Version,Byte,1,-,+
-      ChainId,Byte,1,-,+
-      Sender's Public Key,PublicKeyAccount,32,+,+
-      Name,Bytes,maximum N,+,+
-      Description,Bytes,maximum N,+,+
-      Quantity,Long,8,+,+
-      Decimals,Byte,1,+,+
-      Reissuable,Byte,1,+,+
-      Fee,Long,8,+,+
-      Timestamp,Long,8,+,+
-      Script,option[script],N,-,+
-      Proofs,proofs,64,-,+
-      Signature,Bytes,64,+,-
-
-4. Transfer Transaction
-~~~~~~~~~~~~~~~~~~~~~~~
-
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| Transaction Type | Byte | 1 | + | + |
-| version | Byte | 1 | - | + |
-| chainId | Byte | 1 | - | + |
-| Sender's Public Key | PublicKeyAccount | 32 | + | + |
-| Recipient's Address Or Alias object bytes | Byte | M | + | + |
-| assetId | Bytes | 32 | + | + |
-| Fee assetId | Bytes | 32 | + | + |
-| Amount | Long | 8 | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Attachment | Bytes | N | + | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+    Transaction Type,Byte,1,Y,Y
+    version,Byte,1,N,Y
+    chainId,Byte,1,N,Y
+    Sender's Public Key,PublicKeyAccount,32,Y,Y
+    Recipient's Address Or Alias object bytes,Byte,M,Y,Y
+    assetId,Bytes,32,Y,Y
+    Fee assetId,Bytes,32,Y,Y
+    Amount,Long,8,Y,Y
+    Fee,Long,8,Y,Y
+    Timestamp,Long,8,Y,Y
+    Attachment,Bytes,N,Y,Y
+    Proofs,proofs,64,N,Y
+    Signature,Bytes,64,Y,N
 
 5. Reissue Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| transactionType | Byte | 1 | + | + |
-| version | Byte | 1 | - | + |
-| chainId | Byte | 1 | - | + |
-| Sender's Public Key | PublicKeyAccount | 32 | + | + |
-| Asset ID | Bytes | 32 | + | + |
-| Quantity | Long | 8 | + | + |
-| Reissuable | Boolean | 1 | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+
+.. csv-table::
+   :header: "Field","Type","Length","v1","v2"
+   :widths: 40, 10, 5, 10, 10
+
+   transactionType,Byte,1,Y,Y
+   version,Byte,1,N,Y
+   chainId,Byte,1,N,Y
+   Sender's Public Key,PublicKeyAccount,32,Y,Y
+   Asset ID,Bytes,32,Y,Y
+   Quantity,Long,8,Y,Y
+   Reissuable,Boolean,1,Y,Y
+   Fee,Long,8,Y,Y
+   Timestamp,Long,8,Y,Y
+   Proofs,proofs,64,N,Y
+   Signature,Bytes,64,Y,N
 
 6. Burn Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| Transaction Type | Byte | 1 | + | + |
-| Version | Byte | 1 | - | + |
-| ChainId | Byte | 1 | - | + |
-| Sender's Public Key | PublicKeyAccount | 32 | + | + |
-| AssetId | Bytes | 32 | + | + |
-| Quantity | Long | 8 | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+
+.. csv-table::
+   :header: "Field","Type","Length","v1","v2"
+   :widths: 40, 10, 5, 10, 10
+
+    Transaction Type,Byte,1,Y,Y
+    Version,Byte,1,N,Y
+    ChainId,Byte,1,N,Y
+    Sender's Public Key,PublicKeyAccount,32,Y,Y
+    AssetId,Bytes,32,Y,Y
+    Quantity,Long,8,Y,Y
+    Fee,Long,8,Y,Y
+    Timestamp,Long,8,Y,Y
+    Proofs,proofs,64,N,Y
+    Signature,Bytes,64,Y,N
 
 7. Exchange Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| Transaction Type | Byte | 1 | + | + |
-| Version | Byte | 1 | - | + |
-| ChainId | Byte | 1 | - | + |
-| Buy order | Bytes | 4 | + | + |
-| Sell Order | Bytes | 4 | + | + |
-| Price | Long | 8 | + | + |
-| Amount | Long | 8 | + | + |
-| Buy matcher fee | Long | 8 | + | + |
-| Sell matcher fee | Long | 8 | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+
+.. csv-table::
+    :header: "Field","Type","Length","v1","v2"
+    :widths: 40, 10, 5, 10, 10
+
+    Transaction Type,Byte,1,Y,Y
+    Version,Byte,1,N,Y
+    ChainId,Byte,1,N,Y
+    Buy order,Bytes,4,Y,Y
+    Sell Order,Bytes,4,Y,Y
+    Price,Long,8,Y,Y
+    Amount,Long,8,Y,Y
+    Buy matcher fee,Long,8,Y,Y
+    Sell matcher fee,Long,8,Y,Y
+    Fee,Long,8,Y,Y
+    Timestamp,Long,8,Y,Y
+    Proofs,proofs,64,N,Y
+    Signature,Bytes,64,Y,N
 
 8. Lease Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| Transaction Type | Byte | 1 | + | + |
-| Version | Byte | 1 | - | + |
-| ChainId | Byte | 1 | - | + |
-| Sender's Public Key | PublicKeyAccount | 32 | + | + |
-| Recipient's Address Or Alias object bytes | Byte | M | + | + |
-| Amount | Long | 8 | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+.. csv-table::
+   :header: "Field","Type","Length","v1","v2"
+   :widths: 40, 10, 5, 10, 10
+
+   Transaction Type,Byte,1,Y,Y
+   Version,Byte,1,N,Y
+   ChainId,Byte,1,N,Y
+   Sender's Public Key,PublicKeyAccount,32,Y,Y
+   Recipient's Address Or Alias object bytes,Byte,M,Y,Y
+   Amount,Long,8,Y,Y
+   Fee,Long,8,Y,Y
+   Timestamp,Long,8,Y,Y
+   Proofs,proofs,64,N,Y
+   Signature,Bytes,64,Y,N
 
 9. Lease Cancel Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| Transaction Type | Byte | 1 | + | + |
-| Version | Byte | 1 | - | + |
-| ChainId | Byte | 1 | - | + |
-| Sender's Public Key | PublicKeyAccount | 32 | + | + |
-| LeaseId | ByteStr | 1 | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+
+.. csv-table::
+   :header: "Field","Type","Length","v1","v2"
+   :widths: 40, 10, 5, 10, 10
+
+   Transaction Type,Byte,1,Y,Y
+   Version,Byte,1,N,Y
+   ChainId,Byte,1,N,Y
+   Sender's Public Key,PublicKeyAccount,32,Y,Y
+   LeaseId,ByteStr,1,Y,Y
+   Fee,Long,8,Y,Y
+   Timestamp,Long,8,Y,Y
+   Proofs,proofs,64,N,Y
+   Signature,Bytes,64,Y,N
 
 10. Create Alias Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| Transaction Type | Byte | 1 | + | + |
-| Version | Byte | 1 | - | + |
-| ChainId | Byte | 1 | - | + |
-| Sender's Public Key | PublicKeyAccount | 32 | + | + |
-| Alias | Bytes | n | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+
+.. csv-table::
+   :header: "Field","Type","Length","v1","v2"
+   :widths: 40, 10, 5, 10, 10
+
+   Transaction Type,Byte,1,Y,Y
+   Version,Byte,1,N,Y
+   ChainId,Byte,1,N,Y
+   Sender's Public Key,PublicKeyAccount,32,Y,Y
+   Alias,Bytes,n,Y,Y
+   Fee,Long,8,Y,Y
+   Timestamp,Long,8,Y,Y
+   Proofs,proofs,64,N,Y
+   Signature,Bytes,64,Y,N
