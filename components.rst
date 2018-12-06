@@ -5,5 +5,5 @@
    :maxdepth: 1
    :caption: Содержание раздела
 
-   client
+   component-description/client
    data-service
