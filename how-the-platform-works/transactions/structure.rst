@@ -3,29 +3,54 @@
 
 В этом разделе приведена структура хранения транзакций в блокчейн-платформе Восток.
 
-Для некоторых типов транзакций введено версионирование.  Для транзакций версии 2 актуально следующее:
-* добавлены поля 'version' и 'script'.
-* поле 'signature' заменено на 'proofs'.
+Для некоторых типов транзакций введено версионирование.
+Для транзакций версии 2 актуально следующее:
+- добавлены поля 'version' и 'script';
+- поле 'signature' заменено на 'proofs'.
 
 3. Issue Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-| Field | Type | Length | Transaction Version1 | Transaction version2 |
-| :--- | :--- | :--- | :--- | :--- |
-| Transaction Type | Byte | 1 | + | + |
-| Version | Byte | 1 | - | + |
-| ChainId | Byte | 1 | - | + |
-| Sender's Public Key | PublicKeyAccount | 32 | + | + |
-| Name | Bytes | maximum N | + | + |
-| Description | Bytes | maximum N | + | + |
-| Quantity | Long | 8 | + | + |
-| Decimals | Byte | 1 | + | + |
-| Reissuable | Byte | 1 | + | + |
-| Fee | Long | 8 | + | + |
-| Timestamp | Long | 8 | + | + |
-| Script | option\[script\] | N | - | + |
-| Proofs | proofs | 64 | - | + |
-| Signature | Bytes | 64 | + | - |
+.. table::
+.. csv-table:: CSV-таблица
+   :header: "Field","Type","Length","v1","v2"
+   :widths: 40, 10, 5, 10, 10
+
+   Transaction Type,Byte,1,+,+
+   Version,Byte,1,-,+
+   ChainId,Byte,1,-,+
+   Sender's Public Key,PublicKeyAccount,32,+,+
+   Name,Bytes,maximum N,+,+
+   Description,Bytes,maximum N,+,+
+   Quantity,Long,8,+,+
+   Decimals,Byte,1,+,+
+   Reissuable,Byte,1,+,+
+   Fee,Long,8,+,+
+   Timestamp,Long,8,+,+
+   Script,option[script],N,-,+
+   Proofs,proofs,64,-,+
+   Signature,Bytes,64,+,-
+
+
+.. table::
+.. csv-table:: CSV-таблица
+      :header: "Field","Type","Length","v1","v2"
+      :widths: 40, 10, 5, 10, 10
+
+Transaction Type,Byte,1,+,+
+Version,Byte,1,-,+
+      ChainId,Byte,1,-,+
+      Sender's Public Key,PublicKeyAccount,32,+,+
+      Name,Bytes,maximum N,+,+
+      Description,Bytes,maximum N,+,+
+      Quantity,Long,8,+,+
+      Decimals,Byte,1,+,+
+      Reissuable,Byte,1,+,+
+      Fee,Long,8,+,+
+      Timestamp,Long,8,+,+
+      Script,option[script],N,-,+
+      Proofs,proofs,64,-,+
+      Signature,Bytes,64,+,-
 
 4. Transfer Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
