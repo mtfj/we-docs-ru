@@ -13,9 +13,9 @@
    :header: "Field","Type","Length","v1","v2"
    :widths: 40, 10, 5, 10, 10
 
-   Transaction Type,Byte,1,"+",+
-   Version,Byte,1,"-",+
-   ChainId,Byte,1,-,+
+   Transaction Type,Byte,1,"+","+"
+   Version,Byte,1,"-",'+'
+   ChainId,Byte,1,'-','+'
    Sender's Public Key,PublicKeyAccount,32,+,+
    Name,Bytes,maximum N,+,+
    Description,Bytes,maximum N,+,+
@@ -31,7 +31,7 @@
 .. table::
  =======
     Field	Type	Length	Transaction Version1	Transaction version2
-==========    
+==========
    Transaction Type	Byte	1	+	+
    Version	Byte	1	-	+
    ChainId	Byte	1	-	+
