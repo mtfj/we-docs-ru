@@ -15,7 +15,7 @@
 Последнюю версию релиза и конфигурационного файла для подключению к сети вы можете найти в разделе `Релизы платформы <https://github.com/vostokplatform/Vostok-Releases>`_.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    overview
    how-the-platform-works
