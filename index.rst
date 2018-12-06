@@ -26,6 +26,8 @@
 .. toctree::
    :maxdepth: 1
 
-   test
-   tree-section
-
+   overview
+   how-the-platform-works
+   how-to-setup
+   how-to-use
+   faq
