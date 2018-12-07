@@ -197,26 +197,25 @@
    :header: "#","Field","Length"
    :widths: 15, 40, 15
 
-   #,Field name,Length
-   1,Transaction type (0x0b),1
-   2,Version (0x01),1
-   3,Sender's public key,32
-   4,Asset flag (0-Waves, 1-Asset),1
-   5,Asset ID, if any,0 / 32
-   6,Number of transfers,2
-   7,AddressOrAlias object for transfer 1,variable
-   8,Amount for transfer 1,8
-   9,AddressOrAlias object for transfer 2,variable
-   10,Amount for transfer 2,8
+   1,"Transaction type (0x0b)",1
+   2,"Version (0x01)",1
+   3,"Sender's public key",32
+   4,"Asset flag (0-Waves, 1-Asset)",1
+   5,"Asset ID, if any","0 / 32"
+   6,"Number of transfers",2
+   7,"AddressOrAlias object for transfer 1",variable
+   8,"Amount for transfer 1",8
+   9,"AddressOrAlias object for transfer 2",variable
+   10,"Amount for transfer 2",8
    ...,...,...
-   N+0,Timestamp,8
-   N+1,Fee,8
-   N+2,Attachment length,2
-   N+3,Attachment bytes,variable
-   N+4,Proofs version (0x01),1
-   N+5,Proof count,2
-   N+6,Proof1 length (64),2
-   N+7,Proof1,64
+   "N+0",Timestamp,8
+   "N+1",Fee,8
+   "N+2","Attachment length",2
+   "N+3","Attachment bytes",variable
+   "N+4","Proofs version (0x01)",1
+   "N+5","Proof count",2
+   "N+6","Proof1 length (64)",2
+   "N+7",Proof1,64
 
 12. Data Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
