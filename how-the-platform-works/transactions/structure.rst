@@ -5,26 +5,24 @@
 Для некоторых типов транзакций введено версионирование.
 
 .. table:: Типы транзакций
-===   ==========================
+===   ==============================================
 №	    Transaction type
-===   ==========================
-1	    GenesisTransaction
-2	    PaymentTransaction*
-3	    IssueTransaction
-4	    TransferTransaction
-5	    ReissueTransaction
-6	    BurnTransaction
-7	    ExchangeTransaction
+===   ==============================================
+1	    Genesis Transaction
+2	    Payment Transaction (не используется)
+3	    Issue Transaction
+4	    Transfer Transaction
+5	    Reissue Transaction
+6	    Burn Transaction
+7	    Exchange Transaction
 8	    LeaseTransaction
-9	    LeaseCancelTransaction
-10	  CreateAliasTransaction
-11	  MassTransferTransaction
-12	  DataTransaction
-13	  SetScriptTransaction
-14	  SponsorFeeTransaction
-===   ==========================
-
-(*) - не используется
+9	    LeaseCancel Transaction
+10	  CreateAlias Transaction
+11	  MassTransfer Transaction
+12	  Data Transaction
+13	  SetScript Transaction
+14	  SponsoredFee Transaction
+===   ==============================================
 
 
 1. Genesis transaction
@@ -191,3 +189,88 @@
    Timestamp,Long,8,Y,Y
    Proofs,proofs,64,N,Y
    Signature,Bytes,64,Y,N
+
+11. MassTransfer Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "#","Field","Length"
+   :widths: 15, 40, 15
+
+   #,Field name,Length
+   1,Transaction type (0x0b),1
+   2,Version (0x01),1
+   3,Sender's public key,32
+   4,Asset flag (0-Waves, 1-Asset),1
+   5,Asset ID, if any,0 / 32
+   6,Number of transfers,2
+   7,AddressOrAlias object for transfer 1,variable
+   8,Amount for transfer 1,8
+   9,AddressOrAlias object for transfer 2,variable
+   10,Amount for transfer 2,8
+   ...,...,...
+   N+0,Timestamp,8
+   N+1,Fee,8
+   N+2,Attachment length,2
+   N+3,Attachment bytes,variable
+   N+4,Proofs version (0x01),1
+   N+5,Proof count,2
+   N+6,Proof1 length (64),2
+   N+7,Proof1,64
+
+12. Data Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   .. csv-table::
+      :header: "#","Field","Length"
+      :widths: 15, 40, 15
+
+      1,Reserved (Always 0),1
+      2,Transaction type (0x0c),1
+      3,Version (0x01),1
+      4,Sender's public key,32
+      5,Number of data entries,2
+      6,Key1 byte size,2
+      7,Key1 bytes, UTF-8 encoded,variable
+      8,Value1 type: 0 = integer 1 = boolean 2 = binary array,1
+      9,Value1 bytes,variable
+      ...,...,...
+      N,Timestamp,8
+      N+1,Fee,8
+      N+2,Proofs version (0x01),1
+      N+3,Proof count (1),1
+      N+4,Signature length (64),2
+      N+5,Signature,64
+
+13. SetScript Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+      :header: "Field","Type","Length"
+      :widths: 45, 15, 15
+
+      Transaction type (0x0e),Byte,1
+      Version (0x01),Byte,1
+      Sender's public key,Bytes,32
+      Asset ID,Bytes,32
+      Minimal fee in assets*,Long,8
+      Fee,Long,8
+      Timestamp,Long,8
+      Proofs**,Bytes,64
+
+
+14. SponsoredFee Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+    :header: "Field","Type","Length"
+    :widths: 45, 15, 15
+
+Transaction type (0x0e),Byte,1
+Version (0x01),Byte,1
+Sender's public key,Bytes,32
+Asset ID,Bytes,32
+Minimal fee in assets*,Long,8
+Fee,Long,8
+Timestamp,Long,8
+Proofs**,Bytes,64
