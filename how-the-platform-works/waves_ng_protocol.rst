@@ -11,7 +11,7 @@ Waves-NG - это протокол, разработанный на основе
 
 .. image:: img/wavesng_speed_comparison.jpg
     :scale: 100%
-    :alight: center
+    :align: center
     :alt: Кол-во транзакций в секнду у популярных блокчейн платформ.
 
 1. Процесс создания Liquid Block
