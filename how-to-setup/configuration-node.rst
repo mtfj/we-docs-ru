@@ -123,14 +123,12 @@
 
 3. Подписать genesis-блок утилитой `generators.jar`. Команда для подписания: `java -jar generators.jar GenesisBlockGenerator private-blockchain.conf`, где private-blockchain.conf, отредактированный п. 2 конф. файл ноды. После подписания поля `genesis-public-key-base-58` и `signature` конф. файла будут заполнены значениями открытого ключа и подписи. 
 
-Пример:
+  Пример:
 
-::
+  ::
 
-  genesis-public-key-base-58: "4ozcAj...penxrm"
-  signature: "5QNVGF...7Bj4Pc"
+    genesis-public-key-base-58: "4ozcAj...penxrm"
+    signature: "5QNVGF...7Bj4Pc"
 
-Если нода ранее работала с другой сетью блокчейна Vostok, то удалить папку ${user.home}"/vostok";
+  .. important:: Если нода ранее работала с другой сетью блокчейна Vostok, то не забудьте удалить папку ${user.home}"/vostok"
 
-Конфигруационный файл готов для `запуска`_ ноды.
-.. _`запуска`: install-node
