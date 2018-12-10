@@ -8,4 +8,6 @@ REST API ноды
 .. toctree::
    :maxdepth: 4
 
-   how-to-use/rest-api-node.rst
+   rest-api-node/address.rst
+   rest-api-node/alias.rst
+   rest-api-node/transactions.rst
