@@ -60,7 +60,7 @@ GET /transactions/address/{address}/limit/{limit}
 GET /transactions/unconfirmed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Возвращает все неподтвержденные транзакции в utx-pool ноды.
+Возвращает все неподтвержденные транзакции из utx-pool ноды.
 
 **Ответ метода:**
 
@@ -124,7 +124,7 @@ POST /transactions/calculateFee
 
 **Ответ метода**
 
-::
+.. code:: js
 
    {
      "feeAssetId": null,
@@ -142,6 +142,8 @@ POST /transactions/calculateFee
 
 POST /transactions/sign
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
 Подписывает транзакцию закрытым ключем отправителя, сохраненным в keystore ноды.
 
@@ -218,3 +220,7 @@ POST /transactions/broadcast
     "signature":"4gQyPXzJFEzMbsCd9u5n3B2WauEc4172ssyrXCL882oNa8NfNihnpKianHXrHWnZs1RzDLbQ9rcRYnSqxKWfEPJG",
     "alias":"dajzmj6gfuzmbfnhamsbuxivc"
    }
+
+GET /transactions/address/{address}/limit/{limit}?after={after}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Возвращает список транзакций, в которых в качестве одного из адресатов указан {address}.

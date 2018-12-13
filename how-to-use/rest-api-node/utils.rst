@@ -132,3 +132,16 @@ POST /utils/script/estimate
      "complexity": 11,
      "extraFee": 10001
    }
+
+GET /utils/time
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Возвращает текущее время на ноде.
+
+**Ответ метода:**
+
+.. code:: json
+
+   {
+   "system": 1544715343390,
+   "NTP": 1544715343390
+   }

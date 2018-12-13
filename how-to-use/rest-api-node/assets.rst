@@ -53,7 +53,7 @@ GET /assets/balance/{address}
 GET /assets/balance/{address}/{assetId}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Возвращает баланс адресата {address} по ассетсу {assetId}.
+Возвращает баланс адресата {address} по ассету {assetId}.
 
 **Ответ метода:**
 
