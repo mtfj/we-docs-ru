@@ -2,7 +2,7 @@
 =============
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :caption: Содержание раздела
 
    how-to-use/rest-api-node.rst
