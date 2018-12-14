@@ -5,11 +5,8 @@
 
 #. Подготовка окружения операционной системы
 
-   - Установка на Windows_
-   - Установка на Ubuntu_
-
-   .. _Ubuntu: how-to-setup/install-node.rst#install-ubuntu-bookmark
-   .. _Windows: how-to-setup/install-node.rst
+   - :ref:`install-windows` 
+   - :ref:`install-ubuntu` 
 
 #. Конфигурация ноды для подключения к сети
 

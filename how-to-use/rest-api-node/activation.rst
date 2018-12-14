@@ -7,7 +7,6 @@ Activation
     
     .. _здесь: rest-api-node
 
-    Тест
 
 GET /activation/status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
