@@ -5,8 +5,8 @@
 
 * Использование протокола Waves NG  и оптимизация сетевых протоколов позволяет достичь пропускной способности 1200 tps.
 * Майнинг блоков и операции различных типов в сети выполняются авторизованными участниками.
-* Возможность выбора криптографических алгоритмов  и алгоритма консенсуса для приватного проекта.
-*  All-in-one: Blockchain Explorer, Smart contracts toolkit, Token wallet, Permission manager, Node Configuration, Monitoring dashboards.
+* Возможность выбора криптографических алгоритмов и алгоритма консенсуса для приватного проекта.
+* All-in-one: Blockchain Explorer, Smart contracts toolkit, Token wallet, Permission manager, Node Configuration, Monitoring dashboards.
 * Смарт-аккаунты на языке RIDE или Тьюринг-полные смарт-контракты на любом языке программирования.
 * Sidechain. Перемещение активов и информации между проектами на Vostok Platform.
 * Построение аналитических отчетов на основе информации из блокчейн, передача данных в сторонние системы.

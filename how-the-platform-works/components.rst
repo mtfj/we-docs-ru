@@ -8,6 +8,6 @@
    components/client
    components/data-service
    components/explorer
-   components/monitoring
    components/wallet
+   components/monitoring
    components/ide
