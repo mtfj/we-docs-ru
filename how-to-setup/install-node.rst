@@ -1,6 +1,7 @@
 Установка ноды
 ===============
 
+.. _install-windows-bookmark:
 Установка на Windows
 ----------------------------
 
@@ -30,6 +31,7 @@
 .. _`JRE 1.8 (64-bit)`: http://www.oracle.com/technetwork/java/javase/downloads/2133155
 .. _`CryptoPro JCP 2.0`: https://www.cryptopro.ru/products/csp/jcp
 
+.. _install-ubuntu-bookmark:
 Установка на Ubuntu
 ----------------------------
 

@@ -19,6 +19,8 @@ REST API ноды
 
 Генерация значения поля ``rest-api.api-key-hash`` выполняется с использованием метода `/utils/hash/secure` REST API ноды.
 
+Примеры транзакций приведены `здесь <rest-api-node/transaction-example.rst>`_.
+
 **Спецификация интерфейса ноды**
 
 .. toctree::
