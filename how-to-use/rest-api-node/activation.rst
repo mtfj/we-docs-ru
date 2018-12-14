@@ -3,9 +3,7 @@ Activation
 
 .. sidebar:: REST API
 
-    Правила формирования запросов приведены здесь_
-    
-    .. _здесь: rest-api-node
+   Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
 
 
 GET /activation/status

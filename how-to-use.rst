@@ -11,6 +11,7 @@
 Подробная спецификация API:
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 2
 
    how-to-use/rest-api-node

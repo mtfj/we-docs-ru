@@ -26,6 +26,7 @@ REST API ноды
 **Спецификация интерфейса ноды**
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
 
    rest-api-node/activation.rst
