@@ -1,6 +1,10 @@
 Assets
 =========
 
+.. sidebar:: REST API
+
+   Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
+   
 GET /assets/balance/{address}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

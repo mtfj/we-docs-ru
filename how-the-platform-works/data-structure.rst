@@ -6,4 +6,5 @@
    :maxdepth: 4
    :caption: Содержание раздела
 
-   transactions/structure
+   blocks-and-transactions/blocks-structure
+   blocks-and-transactions/transactions-structure
