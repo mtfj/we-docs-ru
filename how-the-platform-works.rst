@@ -12,5 +12,5 @@
    how-the-platform-works/consensus
    how-the-platform-works/cryptography
    how-the-platform-works/authorization
-   how-the-platform-works/blocks-and-transactions
+   how-the-platform-works/data-structure
    how-the-platform-works/smart-contracts

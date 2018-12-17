@@ -42,7 +42,9 @@
 
 Пример запуска из консоли: 
 
-`java -jar generators.jar GrantRolesApp [configfile]`
+.. code:: js
+
+    java -jar generators.jar GrantRolesApp [configfile]
 
 Пример конфига:
 
