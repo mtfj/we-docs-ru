@@ -7,4 +7,4 @@
    :caption: Содержание раздела
 
    data-structures/blocks-structure
-   data-structure/transactions-structure
+   data-structures/transactions-structure
