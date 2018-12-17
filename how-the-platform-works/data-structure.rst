@@ -1,4 +1,4 @@
-Блоки и транзакции
+Структура объектов платформы
 ========================================
 
 
@@ -6,5 +6,5 @@
    :maxdepth: 4
    :caption: Содержание раздела
 
-   blocks-and-transactions/blocks-structure
-   blocks-and-transactions/transactions-structure
+   data-structures/blocks-structure
+   data-structure/transactions-structure
