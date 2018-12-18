@@ -20,9 +20,4 @@ Xmx flag Specifies the maximum size of the memory allocation pool for a Java vir
 .. _`JRE 1.8 (64-bit)`: http://www.oracle.com/technetwork/java/javase/downloads/2133155
 .. _`CryptoPro JCP 2.0`: https://www.cryptopro.ru/products/csp/jcp
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Установка и конфигурация ноды
 
-   ../how-to-setup/install-node.rst
-   ../how-to-setup/configuration-node.rst

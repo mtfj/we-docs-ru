@@ -12,16 +12,3 @@
 * Построение аналитических отчетов на основе информации из блокчейн, передача данных в сторонние системы.
 
 Подробнее в разделе "Как устроена платформа"
-
-.. toctree::
-   :maxdepth: 1
-
-   
-   ../how-the-platform-works/components
-   ../how-the-platform-works/waves-ng-protocol
-   ../how-the-platform-works/consensus
-   ../how-the-platform-works/anchoring
-   ../how-the-platform-works/cryptography
-   ../how-the-platform-works/authorization
-   ../how-the-platform-works/data-structures
-   ../how-the-platform-works/smart-contracts
