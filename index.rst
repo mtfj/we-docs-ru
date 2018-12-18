@@ -40,6 +40,7 @@
    :caption: Как настроить
    :name: how-to-setup
 
+   how-to-setup/system-requirement
    how-to-setup/install-node
    how-to-setup/configuration-node
 
