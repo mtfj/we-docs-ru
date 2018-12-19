@@ -1,9 +1,7 @@
 Transactions
 =============
 
-.. sidebar:: REST API
-
-   Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
+.. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`. Посмотреть :ref:`примеры <transaction-example>` транзакций.
    
 GET /transactions/info/{id}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -149,21 +147,49 @@ POST /transactions/sign
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
-Подписывает транзакцию закрытым ключем отправителя, сохраненным в keystore ноды.
+Подписывает транзакцию закрытым ключем отправителя, сохраненным в keystore ноды. После подписания ответ метода должен быть подан на вход метода :ref:`Broadcast <broadcast>`
 
 **Примеры запросов**
 
+========= ===================
+ID        Тип транзакции                                                                                                                        
+========= ===================
+3         :ref:`Issue <tx-issue>`          
+4         :ref:`Transfer <tx-transfer>`
+5         Reissue             
+6         Burn                
+7         Exchange            
+8         Lease                
+9         Lease Cancel        
+10        :ref:`Alias <tx-alias>`              
+11        Mass Transfer        
+12        :ref:`Data <tx-data>`                
+13        :ref:`Set Script <tx-setscript>`           
+14        Set Sponsorship     
+101       Permission (for Genesis block)  
+102       :ref:`Permission <tx-permission>`   
+========= =================== 
+
+.. _tx-issue:
+
+**3. Issue**
+
 .. code:: js
 
-   {
-    "type": 10,
-    "timestamp": 1516171819000,
-    "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-    "fee": 100000,
-    "alias": "ALIAS",
+   { 
+      "type": 3,
+      "name": "Test Asset 1",
+      "quantity": 100000000000,
+      "description": "Some description",
+      "sender": "3FSCKyfFo3566zwiJjSFLBwKvd826KXUaqR",
+      "decimals": 8,
+      "reissuable": true,
+      "fee": 100000000
    }
 
-или
+.. _tx-transfer:
+
+**4. Transfer**
 
 .. code:: js
 
@@ -176,7 +202,78 @@ POST /transactions/sign
      "attachment": "string"
    }
 
-**Ответ метода**
+.. _tx-alias:
+
+**10. Alias**
+
+.. code:: js
+
+   {
+      "type": 10,
+      "timestamp": 1516171819000,
+      "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
+      "fee": 100000,
+      "alias": "ALIAS",
+   }
+
+.. _tx-data:
+
+**12. Data**
+
+.. code:: js
+
+   {
+      "type": 12,
+      "version": 1,
+      "sender": "3PHxBMyy2RvW6Z6uFKJ8VpXM1id4QptAwN2",
+      "password": "1234",
+      "data": [
+         {
+         "key": "objectId",
+         "type": "string",
+         "value": "obj:123:1234"
+         }
+      ],
+      "fee": 100000 
+   }
+
+.. _tx-setscript:
+
+**13. Set Script**
+
+.. code:: js
+
+   {
+      "type": 13,
+      "version": 1,
+      "sender": "3MpPZXBK9pKzRNWALKcQnCt3AiY8DPCXZeq",
+      "fee": 1000000,
+      "script": "AQQAAAAAAByRtYXRjaDAGB8ueOsI="
+   }
+
+.. _tx-permission:
+
+**102. Permission**
+
+.. code:: js
+
+   {
+      "type":102,
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "target":"3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac",
+
+      # Тип полномочий, которые требуется установить или удалить. Возможные значения: "miner", "issuer", "dex", "permissioner", "blacklister", "banned"
+      "role":"miner",
+
+      # Тип операции "add" (добавить полномочия) или "remove" (удалить полномочия)
+      "opType”:"add",
+
+      # Дата действия permission
+      "dueTimestamp":1528975127294
+   }
+
+
+**Пример ответа метода**
 
 .. code:: js
 
@@ -191,6 +288,7 @@ POST /transactions/sign
     "alias":"dajzmj6gfuzmbfnhamsbuxivc"
    }
 
+.. _broadcast:
 
 POST /transactions/broadcast
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
