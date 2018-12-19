@@ -3,6 +3,12 @@
 
 (нужно перевести и переработать текст)
 
+
+.. image:: img/architecture-node-1.png
+
+
+.. image:: img/architecture-client-1.png
+
 Vostok platform provides out-of-the-box solution for launching a custom permissioned chain for the given business case. The focus is made on flexibility of the custom chain, its customization features.  Therefore it is of a vital importance to provide a module architecture that  supports different consensus algorithms, cryptography schemes, and role models.
 
 Figure below describes general Vostok Node architecture.
