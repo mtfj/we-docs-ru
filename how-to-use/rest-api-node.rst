@@ -13,13 +13,17 @@ REST API ноды
 
 требуется обязательная передача параметра ``X-Api-Key`` со значением секретной фразы, hash которой указан в конфигурационном файле ноды (поле ``rest-api.api-key-hash``).
 
+Генерация значения поля ``rest-api.api-key-hash`` выполняется с использованием метода `/utils/hash/secure` REST API ноды.
+
 Пример запроса: 
 
 .. code::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: 1' -d '1' 'http://2.testnet-pos.vostoknodes.com:6862/transactions/calculateFee'
+    curl -X POST 
+    --header 'Content-Type: application/json' 
+    --header 'Accept: application/json' 
+    --header 'X-API-Key: 1' -d '1' 'http://2.testnet-pos.vostoknodes.com:6862/transactions/calculateFee'
 
-Генерация значения поля ``rest-api.api-key-hash`` выполняется с использованием метода `/utils/hash/secure` REST API ноды.
 
 Примеры транзакций приведены на странице :ref:`transaction-example`.
 
