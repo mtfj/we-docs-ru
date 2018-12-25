@@ -23,6 +23,8 @@ POST /utils/hash/secure
      "hash": "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
    }
 
+.. _utils-hash:
+
 POST /utils/hash/fast
 ~~~~~~~~~~~~~~~~~~~~~
 

@@ -1,7 +1,7 @@
 Системные требования
 =======================
 
-**Системные требования**
+Ниже представлены аппартные и системные требования.
 
 .. csv-table::
    :header: "Вариант","vCPU","RAM", "SSD", "Режим работы JVM"
@@ -10,14 +10,20 @@
     "Минимальные требования","1","3Gb","30Gb","java -Xmx3072M -jar"
     "Рекомендуемые требования","2+","4+ Gb","30+ Gb","java -Xmx4096M -jar"
 
-Xmx flag Specifies the maximum size of the memory allocation pool for a Java virtual machine (JVM), Add -Xmx option before -jar parameter, Choose size depending on your host RAM. 
+.. hint:: "Xmx" - флаг, определяющий максимальный размер доступной для JVM памяти.
 
-**Требования к окружению**
+**Требования к окружению для ноды**
 
-- `JRE 1.8 (64-bit)`_
-- `CryptoPro JCP 2.0`_ 
+- `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_
+- `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ 
 
-.. _`JRE 1.8 (64-bit)`: http://www.oracle.com/technetwork/java/javase/downloads/2133155
-.. _`CryptoPro JCP 2.0`: https://www.cryptopro.ru/products/csp/jcp
+**Требования к окружению для корпоративного клиента и дата-сервиса**
+
+- `Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_
+- `Docker-compose <https://docs.docker.com/compose/install/>`_
+- `node.js <https://nodejs.org/en/download/>`_ LTS версии 10+
+- `npm <https://www.npmjs.com/>`_ 6+  
+
+
 
 
