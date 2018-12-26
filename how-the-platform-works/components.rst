@@ -9,5 +9,3 @@
    components/data-service
    components/explorer
    components/wallet
-   components/monitoring
-   components/ide
