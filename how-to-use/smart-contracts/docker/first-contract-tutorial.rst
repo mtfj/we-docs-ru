@@ -68,15 +68,11 @@
 
 1. Скачать и установить `Docker for Developers <https://www.docker.com/get-started>`_
 
-.. hint:: В настройках Docker, возможно, потребуется включить признак "Expose deamon on .... without TLS"
+.. hint:: В настройках Docker включить признак "Expose deamon on .... without TLS"
 
 2. Подготовить образ контракта. В папке ``sum-contract-kv`` создать следующие файлы:
 
-sum-contract-kv
-  |
-  +- contract.py (см. листринг программы выше)
-  +- run.sh
-  +- Dockerfile
+.. image:: ../../../img/sum-contract-structure.png
 
 Листинг файла run.sh
 
@@ -140,18 +136,18 @@ sum-contract-kv
 .. code:: js
 
     {
-    "type": 103,
-    "id": "sjqEHZzo57c9Mnrxi8V3LbyQxxLCUfBt1B9asL1pPNX",
-    "sender": "3FQyQ1nSXtyEfBrFr6GxfNtEKWdtVNKWdPu",
-    "senderPublicKey": "5LiQqduJQWCHNP9qvFhCHYi2tvCQP8Pv4LVWt2p5vYzBWXcEGQLJCaWiJwkt95EtLssb1byhWB3bZ3G1d66ToyxU",
-    "fee": 500000,
-    "timestamp": 1545915704290,
-    "proofs": [
-        "2byc9emJV5Qn6qeiqqt8bVNbYdsfgqVwUkB3zd8pnJbx9ni2tpS785r4JFz1XJpQN8jCrPhrmGBvRaPNm2QR8MTN"
-    ],
-    "version": 1,
-    "image": "localhost:5000/sum-contract-kv",
-    "params": []
+        "type": 103,
+        "id": "sjqEHZzo57c9Mnrxi8V3LbyQxxLCUfBt1B9asL1pPNX",
+        "sender": "3FQyQ1nSXtyEfBrFr6GxfNtEKWdtVNKWdPu",
+        "senderPublicKey": "5LiQqduJQWCHNP9qvFhCHYi2tvCQP8Pv4LVWt2p5vYzBWXcEGQLJCaWiJwkt95EtLssb1byhWB3bZ3G1d66ToyxU",
+        "fee": 500000,
+        "timestamp": 1545915704290,
+        "proofs": [
+            "2byc9emJV5Qn6qeiqqt8bVNbYdsfgqVwUkB3zd8pnJbx9ni2tpS785r4JFz1XJpQN8jCrPhrmGBvRaPNm2QR8MTN"
+        ],
+        "version": 1,
+        "image": "localhost:5000/sum-contract-kv",
+        "params": []
     }
 
 5. Отправить подписанную транзакцию в блокчейн. Ответ от метода sign необходимо передать на вход для метода broadcast.
