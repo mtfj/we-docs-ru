@@ -39,6 +39,7 @@ REST API ноды
    rest-api-node/assets.rst
    rest-api-node/blocks.rst
    rest-api-node/consensus.rst
+   rest-api-node/contracts.rst
    rest-api-node/leasing.rst
    rest-api-node/node.rst
    rest-api-node/peers.rst

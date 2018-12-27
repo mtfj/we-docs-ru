@@ -7,7 +7,6 @@
    :name: overview
 
    overview/overview
-   overview/features
    overview/links
    overview/roadmap
 
