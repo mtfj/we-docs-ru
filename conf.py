@@ -169,13 +169,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Sphinx.tex', u'Vostok platform`s documentation',
-   u'Vostok', 'manual'),
+  ('index', 'Sphinx.tex', u'Техническое описание платформы',
+   u'https://vostok.io', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+#latex_logo = 'img/logo-1.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
