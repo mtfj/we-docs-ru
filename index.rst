@@ -10,6 +10,7 @@
    overview/links
    overview/roadmap
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Как устроена платформа
@@ -25,6 +26,7 @@
    how-the-platform-works/smart-contracts
    how-the-platform-works/anchoring
 
+
 .. toctree::
    :maxdepth: 1
    :caption: Установка и настройка
@@ -34,14 +36,17 @@
    how-to-setup/install-node
    how-to-setup/configuration-node
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Использование
    :name: how-to-use
 
    how-to-use/rest-api-node
-   how-to-use/smart-contracts
+   how-to-use/smart-contracts-ride
+   how-to-use/smart-contracts-docker
    how-to-use/role-management
+
 
 .. toctree::
    :maxdepth: 1

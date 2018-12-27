@@ -1,5 +1,5 @@
-Смарт-контракты
-=================
+Смарт-контракты RIDE
+=====================
 
 .. toctree::
    :maxdepth: 3
@@ -11,8 +11,4 @@
    smart-contracts/ride/examples
    smart-contracts/ride/helpful-waves-docs-links
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Смарт-контракты Docker (Тьюринг полные)
 
-   smart-contracts/docker/first-contract-tutorial
