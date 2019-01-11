@@ -1,0 +1,9 @@
+﻿.wy-nav-content {
+    max-width: 1050px
+ }
+
+ div.wy-menu p.caption {
+    margin-top: 10px;
+    margin-left: -10px;
+    color: white;
+ }

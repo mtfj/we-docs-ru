@@ -49,7 +49,6 @@ templates_path = ['_templates']
 # recommonmark is a python utility that allows markdown to be used within
 # Sphinx projects.
 # Installed version as per directive in docs/requirement.txt
-from recommonmark.parser import CommonMarkParser
 
 source_parsers = {
     '.md': CommonMarkParser,
@@ -101,6 +100,13 @@ todo_include_todos = True
 
 # -- Options for HTML output ----------------------------------------------
 
+
+
+
+
+
+
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
@@ -127,7 +133,8 @@ html_theme_options = {
 html_static_path = ['_static']
 
 def setup(app):
-    app.add_stylesheet('css/custom.css')
+    #app.add_stylesheet('css/custom.css')
+    app.add_stylesheet('theme_override.css')
 
 html_logo = 'img/logo-1.png'
 
