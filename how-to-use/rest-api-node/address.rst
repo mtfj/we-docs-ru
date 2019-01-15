@@ -59,21 +59,6 @@ POST /addresses/balance/details
       "3N65yEf31ojBZUvpu4LCo7n8D73juFtheUJ", "3N11u447zghwj9MemYkrkt9v9xDaMwTY9nG"
     ]
   }
- 
-GET /addresses/balance/{address}/{confirmations}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Получение баланса для адреса {address} после количества подтверждений >= значению {confirmations}.
-
-**Ответ метода:**
-
-.. code:: js
-
-  {
-    "address": "3N3keodUiS8WLEw9W4BKDNxgNdUpwSnpb3K",
-    "confirmations": 500,
-    "balance": 100945388397565
-  }
 
 GET /addresses/effectiveBalance/{address}/{confirmations}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
