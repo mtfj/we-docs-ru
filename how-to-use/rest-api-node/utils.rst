@@ -146,6 +146,18 @@ GET /utils/time
 .. code:: json
 
    {
-   "system": 1544715343390,
-   "NTP": 1544715343390
+      "system": 1544715343390,
+      "NTP": 1544715343390
+   }
+
+POST /utils/reload-wallet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Перезагружает keystore ноды. Выполняется, если новая ключевая пара была создана в keystore без перезапуска ноды.
+
+**Ответ метода:**
+
+.. code:: json
+
+   {
+      "message": "Wallet reloaded successfully"
    }

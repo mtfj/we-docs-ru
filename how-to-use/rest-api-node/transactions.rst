@@ -85,6 +85,17 @@ GET /transactions/unconfirmed
      }
    ]
 
+GET /transactions/unconfirmed/size
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Возвращает количество транзакций, находящихся в UTX-пуле.
+
+GET /unconfirmed/info/{id}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Запрос сведений по транзакции из UTX-пула по ее ID.
+
+
 POST /transactions/calculateFee
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
