@@ -1,3 +1,5 @@
 {
+    "outline.problems.enabled": false,
+    "outline.problems.colors": false,
     "restructuredtext.confPath": "${workspaceFolder}"
 }
