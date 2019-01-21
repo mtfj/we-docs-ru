@@ -1,9 +1,35 @@
 ﻿.wy-nav-content {
-    max-width: 1050px
- }
+   max-width: 1050px
+}
 
- div.wy-menu p.caption {
-    margin-top: 10px;
-    margin-left: -10px;
-    color: white;
- }
+div.wy-menu p.caption {
+   margin-top: 10px;
+   margin-left: -10px;
+   color: white;
+}
+
+.wy-side-nav-search a.icon-home {
+  color: transparent;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 100%;
+  margin: 0px;
+  position: absolute;
+  display: block;
+  top: -50px;
+}
+
+.wy-side-nav-search {
+  background-color: white;
+  padding-bottom: 0;
+}
+
+.wy-side-nav-search input[type=text] {
+  border-color: #cccccc;
+  border-radius: 10px;
+}
+
+.wy-side-nav-search img {
+  background-color: #ffffff;
+
+}

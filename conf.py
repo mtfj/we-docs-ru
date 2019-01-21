@@ -136,7 +136,7 @@ def setup(app):
     #app.add_stylesheet('css/custom.css')
     app.add_stylesheet('theme_override.css')
 
-html_logo = 'img/logo-1.png'
+# html_logo = 'img/logo-1.png'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -182,7 +182,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = 'img/logo-1.png'
+latex_logo = '_static/img/logo.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.

@@ -21,7 +21,7 @@
 2.	Скачать и установить `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ (или версию выше)
     Если в процессе инсталляции возникают ошибки, связанные с JRE, то необходимо проверить корректность пути до файла java.exe пакета JRE, указанного в системной переменной ``PATH``
 
-3.	Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате jar-файла и файл конфигурации example-devnet.conf. Порядок конфигурирования ноды приведен в разделе :ref:`configuration-node` 
+3.	Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате jar-файла и файл конфигурации example-devnet.conf. Порядок конфигурирования ноды приведен в разделе :ref:`Конфигурация ноды <configuration-node>`
 
 #.	Запуск ноды выполняется командой 
 
@@ -29,7 +29,7 @@
     
         java -jar vostok-X.X.X.jar example-devnet.conf``
 
-.. _`"Конфигурация ноды"`: configuration-node
+
 
 .. _install-ubuntu:
 
@@ -55,7 +55,7 @@
 
 2. Скачать и установить `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ (или версию выше)        
 
-3. Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и файл конфигурации example-devnet.conf. Порядок конфигурирования ноды приведен в разделе :ref:`configuration-node`. Установка выполняется из deb-пакета. Команда для установки: 
+3. Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и файл конфигурации example-devnet.conf. Порядок конфигурирования ноды приведен в разделе :ref:`Конфигурация ноды <configuration-node>`. Установка выполняется из deb-пакета. Команда для установки: 
 
    ::
 
