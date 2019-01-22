@@ -2,13 +2,11 @@
 {% block sidebartitle %}
 {{ super() }}
 <br>
-<!-- <a href="https://docs.vostok.io"><img style="background-color: #fff; height: unset; width: unset; border-radius: 0; padding: 0; margin: 0;" src="_static/img/logo-1.png" width="300" height="72"> 
--->
-<a href="https://docs.vostok.io"><img style="height: unset; width: unset; border-radius: 0; padding: 0; margin: 0;" src="{{ pathto("_static/img/logo.png", 1) }}" width="288" height="56">    
-</a>
+
+<div style="position: relative; top: -50px">
+    <a href="https://docs.vostok.io">
+        <img style="height: unset; width: unset; border-radius: 0; padding: 0; margin: 0;" src="{{ pathto("_static/img/logo.png", 1) }}" width="288" height="56">    
+    </a>
+</div>
 
 {% endblock %}
-
-
-
-
