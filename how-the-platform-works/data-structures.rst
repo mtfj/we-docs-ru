@@ -10,3 +10,4 @@
 
    data-structures/blocks-structure
    data-structures/transactions-structure
+   data-structures/network-messages
