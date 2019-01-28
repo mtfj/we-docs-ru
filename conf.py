@@ -39,10 +39,12 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-    'sphinx.ext.imgmath',
+    #'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'sphinx.ext.mathbase']
+    'sphinx.ext.graphviz',
+    'sphinx.ext.mathjax',
+    ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -160,7 +162,7 @@ man_pages = [
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+#'papersize': 'letterpaper',S
 
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
@@ -169,7 +171,7 @@ latex_elements = {
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
 'cmappkg': '\\usepackage{cmap}',
-'fontenc': '\usepackage[T1,T2A]{fontenc}',
+'fontenc': '\\usepackage[T1,T2A]{fontenc}',
 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
 }
 
