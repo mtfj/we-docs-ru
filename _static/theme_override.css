@@ -38,3 +38,27 @@ div.wy-menu p.caption {
  position: relative;
  top: 75px;  
 }
+
+/* -- math display ---------------------------------------------------------- */
+
+img.math {
+  vertical-align: middle;
+}
+
+div.body div.math p {
+  text-align: center;
+}
+
+span.eqno {
+  float: right;
+}
+
+span.eqno a.headerlink {
+  position: relative;
+  left: 0px;
+  z-index: 1;
+}
+
+div.math:hover a.headerlink {
+  visibility: visible;
+}
