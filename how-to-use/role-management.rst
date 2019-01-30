@@ -51,7 +51,7 @@
 .. code:: js
 
     permission-granter {
-    gost-crypto = no
+    wavesCrypto = no
     chain-id = T
     account = {
         addresses = [
