@@ -5,27 +5,27 @@
 Для некоторых типов транзакций введено версионирование.
 
 .. table:: Типы транзакций
-===   ==============================================
+===   ========================================================================================================================================================================================================
 №	  Transaction type
-===   ==============================================
-1	  Genesis Transaction
+===   ========================================================================================================================================================================================================
+1	  `Genesis transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/LgdxnrTMbNmGJ7a1XB62wtaubm7aeDhkrWSPE5jpLENWpsGY1XeHQWVqkf5KywZTxBrn6sGJksgsdM2BCcTy52R>`_
 2	  Payment Transaction (не используется)
-3	  Issue Transaction
-4	  Transfer Transaction
-5	  Reissue Transaction
-6	  Burn Transaction
-7	  Exchange Transaction
-8	  LeaseTransaction
-9	  LeaseCancel Transaction
-10	  CreateAlias Transaction
-11	  MassTransfer Transaction
-12	  Data Transaction
+3	  `Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_
+4	  `Transfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/3jDSuDCxnYakMezZ8KeH7TYtJrNM6RLpAvP6hrDFN3gE>`_
+5	  `Reissue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/4G7sWdcjWrkAemCt7z549m9vJbXS6i8ha6XCBN27ceXz>`_
+6	  `Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_
+7	  Exchange Transaction (не используется)
+8	  `LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_
+9	  `LeaseCancel Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/2SgUqYV5XPGzMwstSuwwtLe5WrFY4VEt2iGHZ5VLuv4B>`_
+10	  `CreateAlias Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/FheJMKF3b2nbzatoNXHyfUmUoR6x7sBJKLc7Yc2Sa4bm>`_
+11	  `MassTransfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/9Bu9jx2VVr4gRy9R2k3t7LmUFyv53UjnwwuCQE3XwyKu>`_
+12	  `Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_
 13	  SetScript Transaction
-14	  SponsoredFee Transaction
-101   Permission Transaction (for genesis block)
-102   Permission Transaction
-===   ==============================================
-
+14	  SponsoredFee Transaction (не используется)
+15    SetAssetScript
+101   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/5eduZZDRsuh24xcXE1w8ZXmg51YxVebXwuZy5E2Rwbtw6mQMhPmbiJEoaARMFT5UvuxPbiBTzwHDyW3zefEb44P2>`_ (for genesis block) 
+102   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_
+===   ========================================================================================================================================================================================================
 
 1. Genesis transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
