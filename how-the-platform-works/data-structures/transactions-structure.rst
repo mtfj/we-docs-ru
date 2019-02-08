@@ -6,7 +6,7 @@
 
 .. table:: Типы транзакций
 ===   ========================================================================================================================================================================================================
-№	  Transaction type
+№	  Тип транзакции
 ===   ========================================================================================================================================================================================================
 1	  `Genesis transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/LgdxnrTMbNmGJ7a1XB62wtaubm7aeDhkrWSPE5jpLENWpsGY1XeHQWVqkf5KywZTxBrn6sGJksgsdM2BCcTy52R>`_
 2	  Payment Transaction (не используется)
@@ -25,6 +25,9 @@
 15    SetAssetScript
 101   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/5eduZZDRsuh24xcXE1w8ZXmg51YxVebXwuZy5E2Rwbtw6mQMhPmbiJEoaARMFT5UvuxPbiBTzwHDyW3zefEb44P2>`_ (for genesis block) 
 102   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_
+103   CreateContract Transaction
+104   CallContract Transaction
+105   ExecutedContract Transaction
 ===   ========================================================================================================================================================================================================
 
 1. Genesis transaction
@@ -257,7 +260,7 @@
    Minimal fee in assets*,Long
    Fee,Long
    Timestamp,Long
-   Proofs**,Bytes
+   Proofs,Bytes
 
 
 14. SponsoredFee Transaction
@@ -274,7 +277,7 @@
    Minimal fee in assets*,Long
    Fee,Long
    Timestamp,Long
-   Proofs**,Bytes
+   Proofs,Bytes
 
 101. Permission Transaction (for genesis block)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -283,7 +286,7 @@
    :header: "Field","Type"
    :widths: 45, 15
 
-    Transaction, Type
+    Transaction type,Byte
     Target Address Or Alias object, Byte
     Timestamp,timestamp
     Role, Byte
@@ -296,7 +299,7 @@
    :widths: 45, 15
 
     Empty, Byte
-    Transaction, Type
+    Transaction type,Byte
     Version, Byte
     Sender's public key,Bytes
     Target Address Or Alias object, Byte
@@ -304,4 +307,61 @@
     OpType (Add/Remove), Byte
     Role, Byte
     [Optional] Due timestamp, timestamp
+
+.. _CreateContractTransaction:
+
+103. CreateContract Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   Image,Bytes
+   ImageHash,Bytes
+   params, Bytes
+
+.. _CallContractTransaction:   
+   
+104. CallContract Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   contractId,Bytes
+   params, Bytes
+
+.. _ExecutedContractTransaction:
+
+105. ExecutedContract Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   tx, Bytes 
+   results, Bytes
+
+tx represents a set of CreateContract Transaction fields.
 

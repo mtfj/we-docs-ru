@@ -23,7 +23,7 @@
 2.	Скачать и установить `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ (или версию выше)
     Если в процессе инсталляции возникают ошибки, связанные с JRE, то необходимо проверить корректность пути до файла java.exe пакета JRE, указанного в системной переменной ``PATH``
 3.	Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и конфигурационный файл `example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_
-4.  Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`
+4.  Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Подключение к сети" <configuration>`
 5.	Запустить ноду коммандой:
 
     .. code:: js
@@ -60,7 +60,7 @@
 
 3. Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и конфигурационный файл `example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_
 
-4. Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`
+4. Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Подключение к сети" <configuration>`
 
 5. Установить ноду из deb-пакета. Команда для установки: 
 
