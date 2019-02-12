@@ -22,13 +22,17 @@
 12	  `Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_
 13	  SetScript Transaction
 14	  SponsoredFee Transaction (не используется)
-15    SetAssetScript
+15    SetAssetScriptTransaction
 101   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/5eduZZDRsuh24xcXE1w8ZXmg51YxVebXwuZy5E2Rwbtw6mQMhPmbiJEoaARMFT5UvuxPbiBTzwHDyW3zefEb44P2>`_ (for genesis block) 
 102   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_
-103   CreateContract Transaction
-104   CallContract Transaction
-105   ExecutedContract Transaction
+103   CreateContractTransaction
+104   CallContractTransaction
+105   ExecutedContractTransaction
 ===   ========================================================================================================================================================================================================
+
+
+
+
 
 1. Genesis transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -279,7 +283,7 @@
    Timestamp,Long
    Proofs,Bytes
 
-101. Permission Transaction (for genesis block)
+101. PermissionTransaction (for genesis block)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -291,7 +295,7 @@
     Timestamp,timestamp
     Role, Byte
 
-102. Permission Transaction
+102. PermissionTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -310,7 +314,7 @@
 
 .. _CreateContractTransaction:
 
-103. CreateContract Transaction
+103. CreateContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -329,7 +333,7 @@
 
 .. _CallContractTransaction:   
    
-104. CallContract Transaction
+104. CallContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -347,7 +351,7 @@
 
 .. _ExecutedContractTransaction:
 
-105. ExecutedContract Transaction
+105. ExecutedContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -364,4 +368,40 @@
    results, Bytes
 
 tx represents a set of CreateContract Transaction fields.
+
+.. _DisableContractTransaction:
+
+106. DisableContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   contractId,Bytes
+   
+.. _UpdateContractTransaction:
+
+107. UpdateContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   Image,Bytes
+   ImageHash,Bytes
+   params, Bytes
 
