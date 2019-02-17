@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# ab3f0d6833084e82aed198fc3fb9dca6
+#: ../../how-to-setup/install-client.rst:4
+msgid "Установка клиента"
+msgstr ""
+
+# e39011e362364070984d4b6462795805
+#: ../../how-to-setup/install-client.rst:6
+msgid ""
+"**Последовательность действий для установки клиентской части приложения и"
+" необходимых для его запуска сервисов**"
+msgstr ""
+
+# d0f47144fd1d4c9585928d2dc04167b7
+#: ../../how-to-setup/install-client.rst:8
+msgid ""
+"Скачать и установить дистрибутивы `Docker CE "
+"<https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_ и `Docker-"
+"compose <https://docs.docker.com/compose/install/>`_"
+msgstr ""
+
+# b08e39ae73bf42dab85106778b4694de
+#: ../../how-to-setup/install-client.rst:9
+msgid ""
+"Скачать и разархивировать файл `frontend-deployment.zip "
+"<https://github.com/vostokplatform/Vostok-Releases/releases>`_"
+msgstr ""
+
+# 3139020eb37c414d964f8ea151f86f9e
+#: ../../how-to-setup/install-client.rst:10
+msgid ""
+"В конфигурационном файле приложения ``frontend-deployment/config/nginx-"
+"proxy.env`` указать путь до REST API и hostname ноды"
+msgstr ""
+
+# f95380472c8244f7a0a81e4058c1503e
+#: ../../how-to-setup/install-client.rst:19
+msgid "Запустить скрипт ``./deploy.sh``"
+msgstr ""
+
+# 94552f45e7254689ae2778c5af38f0a0
+#: ../../how-to-setup/install-client.rst:21
+msgid ""
+"Ознакомиться с подробным описанием компонентов установленного приложение "
+"возможно в разделе :ref:`\"Описание клиента\" <client>`."
+msgstr ""
+

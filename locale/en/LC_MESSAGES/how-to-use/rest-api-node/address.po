@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 1fa1861293e940d5ae26797413637bfb
+#: ../../how-to-use/rest-api-node/address.rst:2
+msgid "Address"
+msgstr ""
+
+# 20092562d8ab4e978a4baddb07407e0c
+#: ../../how-to-use/rest-api-node/address.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# 5e53e47f94564377b3ff8e8d163ab1c9
+#: ../../how-to-use/rest-api-node/address.rst:7
+msgid "GET /addresses"
+msgstr ""
+
+# 1b38f7891931446a87829fa4a230e6f4
+#: ../../how-to-use/rest-api-node/address.rst:9
+msgid ""
+"Получение всех адресов участников, ключевые пары которых хранятся в "
+"keystore ноды."
+msgstr ""
+
+# 1132786013104d5f88d17660f0c3e5a9
+# 39f6d5bec3c44772b20192776453b36e
+# 8d25736f0f7446ce861588521ac6f977
+# 2836fe7044b446bca15b5c32af3d18fc
+# 834048b74f734c1c9c5e0ded5c587cca
+# 5e40d44bcf4c4ffba6096a0fb02878ab
+# e2e7fe3dbe0f44f69734b452bc537cfe
+# 808035d121844bb0b8dc98205287d52d
+# 814233f4ebbb4341afd13fdcf7631bff
+# b0352cef883941dfb8858001c7936473
+# 60c5ddfd59ee4f0ea2fbad1ba05d5be1
+# b395e3a151ca4949bff21ab4ef0d5c81
+# 656566221bd64c4fa912796a73aa25f6
+# e3552dbed74c49eeb26d404f741f5973
+# 70c8d1a128734820999f4c4820e658b2
+#: ../../how-to-use/rest-api-node/address.rst:11
+#: ../../how-to-use/rest-api-node/address.rst:25
+#: ../../how-to-use/rest-api-node/address.rst:39
+#: ../../how-to-use/rest-api-node/address.rst:68
+#: ../../how-to-use/rest-api-node/address.rst:84
+#: ../../how-to-use/rest-api-node/address.rst:107
+#: ../../how-to-use/rest-api-node/address.rst:133
+#: ../../how-to-use/rest-api-node/address.rst:169
+#: ../../how-to-use/rest-api-node/address.rst:196
+#: ../../how-to-use/rest-api-node/address.rst:219
+#: ../../how-to-use/rest-api-node/address.rst:257
+#: ../../how-to-use/rest-api-node/address.rst:281
+#: ../../how-to-use/rest-api-node/address.rst:306
+#: ../../how-to-use/rest-api-node/address.rst:317
+#: ../../how-to-use/rest-api-node/address.rst:333
+msgid "**Ответ метода:**"
+msgstr ""
+
+# 4b15ad6f8a284cd984c0e46c5fa460a6
+#: ../../how-to-use/rest-api-node/address.rst:21
+msgid "GET /addresses/seq/{from}/{to}"
+msgstr ""
+
+# 0df18849d81c4c988ea2516edc22eecb
+#: ../../how-to-use/rest-api-node/address.rst:23
+msgid ""
+"Получение всех адресов участников, ключевые пары которых хранятся в "
+"keystore ноды в заданном диапазоне."
+msgstr ""
+
+# 0631efc0714c485a818b21f652745f25
+#: ../../how-to-use/rest-api-node/address.rst:35
+msgid "GET /addresses/balance/{address}"
+msgstr ""
+
+# 44acfc8a18ee48f2b48cd5ef70eed420
+#: ../../how-to-use/rest-api-node/address.rst:37
+msgid "Получение баланса для адреса {address}."
+msgstr ""
+
+# ccabd3f3c753465f8ac5b3fb66f25138
+#: ../../how-to-use/rest-api-node/address.rst:50
+msgid "POST /addresses/balance/details"
+msgstr ""
+
+# b1149c8230094cdeab4c2fd298a7a8ec
+#: ../../how-to-use/rest-api-node/address.rst:52
+msgid "Получение балансов для списка адресов."
+msgstr ""
+
+# 754e9f7454ad411aaa0a8f6a77895a77
+# cdd01f6194214d1395b9ee458b578bf5
+# 2694cc4e83b142a696de21b586930da5
+# c62ccd6c4cf6489181ec16d140c4b63d
+# 31c70a8b42924fa48d6a04ccc2a6d1f7
+# 0c1fd7e710764c5a87e12b492a928e52
+# 7e34975500014007a56cfcfb1d468003
+#: ../../how-to-use/rest-api-node/address.rst:54
+#: ../../how-to-use/rest-api-node/address.rst:97
+#: ../../how-to-use/rest-api-node/address.rst:161
+#: ../../how-to-use/rest-api-node/address.rst:186
+#: ../../how-to-use/rest-api-node/address.rst:211
+#: ../../how-to-use/rest-api-node/address.rst:235
+#: ../../how-to-use/rest-api-node/address.rst:269
+msgid "**Запрос метода:**"
+msgstr ""
+
+# fa0db10ad8204524b34c17d74664c6bd
+#: ../../how-to-use/rest-api-node/address.rst:64
+msgid "GET /addresses/balance/{address}/{confirmations}"
+msgstr ""
+
+# 53269c94e49943be953bf06fdf1838f5
+#: ../../how-to-use/rest-api-node/address.rst:66
+msgid ""
+"Получение баланса для адреса {address} после количества подтверждений >= "
+"значению {confirmations}."
+msgstr ""
+
+# 21379dab29124678a6f28d91d76d7ad8
+#: ../../how-to-use/rest-api-node/address.rst:79
+msgid "GET /addresses/effectiveBalance/{address}/{confirmations}"
+msgstr ""
+
+# 6229d42ac1824510a597f89f85816144
+#: ../../how-to-use/rest-api-node/address.rst:81
+msgid ""
+"Получение баланса для адреса {address} после количества подтверждений >= "
+"значению {confirmations}. Возвращается общий баланс участника, включая "
+"средства переданные участнику за лизинг."
+msgstr ""
+
+# 4612745b394149e588937b20808081ab
+#: ../../how-to-use/rest-api-node/address.rst:94
+msgid "GET /addresses/balance/details/{address}"
+msgstr ""
+
+# afb557c3a1b94de9965506ab4f9a7a23
+#: ../../how-to-use/rest-api-node/address.rst:95
+msgid "Возвращает подробные сведения о балансе адресата {address}."
+msgstr ""
+
+# 691b00f9b54e4773a5bec94db2b66bb8
+# 7dd2823684554102bcca9f2e30bd7736
+#: ../../how-to-use/rest-api-node/address.rst:121
+#: ../../how-to-use/rest-api-node/address.rst:145
+msgid "**Параметры ответа**"
+msgstr ""
+
+# 9d0b05555f3d42beb0842ffd77c668d4
+#: ../../how-to-use/rest-api-node/address.rst:123
+msgid "Regular — общий баланс участника, включая средства переданные в лизинг"
+msgstr ""
+
+# ddc6a60466cd4404b96608a968d212c1
+#: ../../how-to-use/rest-api-node/address.rst:124
+msgid ""
+"Available — общий баланс участника, за исключением средств переданных в "
+"лизинг"
+msgstr ""
+
+# 23677e57142649f2a2f9a3e6273b0497
+#: ../../how-to-use/rest-api-node/address.rst:125
+msgid ""
+"Effective — общий баланс участника, включая средства переданные участнику"
+" за лизинг (Available + средства переданные Вам в лизинг)"
+msgstr ""
+
+# 9600f345416348bfae165147aa42f903
+#: ../../how-to-use/rest-api-node/address.rst:126
+msgid ""
+"Generating — минимальный баланс участинка, включая средства переденные "
+"участнику за лизинг, за последние 1000 блоков (используется для майнинга)"
+msgstr ""
+
+# 49716ecb014b48fd96e276c01d909e2e
+#: ../../how-to-use/rest-api-node/address.rst:129
+msgid "GET /addresses/scriptInfo/{address}"
+msgstr ""
+
+# 64f47049a0e3480aae040742bfc747fc
+#: ../../how-to-use/rest-api-node/address.rst:131
+msgid "Получение данных об установленном скрипте на адресе {address}."
+msgstr ""
+
+# 25cbda69b74a448fb1c9eff542f87774
+#: ../../how-to-use/rest-api-node/address.rst:147
+msgid "\"address\" - адрес в формате Base58"
+msgstr ""
+
+# 9495e3487f44461b9b12f06d29e089ec
+#: ../../how-to-use/rest-api-node/address.rst:148
+msgid "\"script\" - Base64 представление скрипта"
+msgstr ""
+
+# fd67847268384fc8893ce86a37c930ac
+#: ../../how-to-use/rest-api-node/address.rst:149
+msgid "\"scriptText\" - исходный код скрипта"
+msgstr ""
+
+# 55484badd82745fdbaf086519b2a5534
+#: ../../how-to-use/rest-api-node/address.rst:150
+msgid "\"complexity\" - сложность скрипта"
+msgstr ""
+
+# 5a633b5103aa4b4ba6297e7cbed1600f
+#: ../../how-to-use/rest-api-node/address.rst:151
+msgid "\"extraFee\" - комиссия за исходящие транзакции, установленные скриптом"
+msgstr ""
+
+# 0cc87c61443344eabfc291f5b0d25b6a
+#: ../../how-to-use/rest-api-node/address.rst:154
+msgid "POST /addresses/sign/{address}"
+msgstr ""
+
+# c456516583e1473582655c12041c642c
+#: ../../how-to-use/rest-api-node/address.rst:158
+msgid ""
+"Возвращает закодированное в формарт Base58 сообщение, подписанное "
+"приватным ключом адресата {address}, сохраненным в keystore ноды. "
+"Сообщение сначала подписывается, после этого выполняется преобразование."
+msgstr ""
+
+# a5123ff003c745d29b98cfb83278916e
+#: ../../how-to-use/rest-api-node/address.rst:180
+msgid "POST /addresses/verify/{address}"
+msgstr ""
+
+# 500a6696488d47b8961f82e0d86222ae
+#: ../../how-to-use/rest-api-node/address.rst:184
+msgid ""
+"Проверяет подпись сообщения, выполненную адресатом {address}, в т.ч. "
+"созданную через метод POST /addresses/sign/{address}."
+msgstr ""
+
+# 0c03c8ecd4594c6c829633ccb0b76090
+#: ../../how-to-use/rest-api-node/address.rst:205
+msgid "POST /addresses/signText/{address}"
+msgstr ""
+
+# c1d5276e671748b084425b806a591fe2
+#: ../../how-to-use/rest-api-node/address.rst:209
+msgid ""
+"Возвращает сообщение, подписанное приватным ключом адресата {address}, "
+"сохраненным в keystore ноды."
+msgstr ""
+
+# efeace8dd17f4c94a328c161644e2bf8
+#: ../../how-to-use/rest-api-node/address.rst:229
+msgid "POST /addresses/verifyText/{address}"
+msgstr ""
+
+# f19d1a9696ad4be4ba388cde56a47062
+#: ../../how-to-use/rest-api-node/address.rst:233
+msgid ""
+"Проверяет подпись сообщения, выполненную адресатом {address}, в т.ч. "
+"созданную через метод POST /addresses/signText/{address}."
+msgstr ""
+
+# 9b5d3d6f0950494f922260f39e37c9cd
+#: ../../how-to-use/rest-api-node/address.rst:254
+msgid "GET /addresses/validate/{addressOrAlias}"
+msgstr ""
+
+# 9dae4ddc42794750aaaeca62cb9f450e
+#: ../../how-to-use/rest-api-node/address.rst:255
+msgid ""
+"Проверяет корректность заданого адресата или его псевдонима "
+"{addressOrAlias} в блокчейн-сети работающей ноды."
+msgstr ""
+
+# bf6f43b4d20a42d69544956a46455a23
+#: ../../how-to-use/rest-api-node/address.rst:267
+msgid "POST /addresses/validateMany"
+msgstr ""
+
+# d5168310841541f081cec2c64fa02cf7
+#: ../../how-to-use/rest-api-node/address.rst:303
+msgid "GET /addresses/publicKey/{publicKey}"
+msgstr ""
+
+# e97882dc4b5447b6ac862f0c1f248906
+#: ../../how-to-use/rest-api-node/address.rst:304
+msgid "Возвращает адрес участника на основании его публичного ключа."
+msgstr ""
+
+# 0a83eaf2f9b848cf826890722d5c169d
+#: ../../how-to-use/rest-api-node/address.rst:314
+msgid "GET /addresses/data/{address}"
+msgstr ""
+
+# 0807fc5c59ab40a39b61a91be4555540
+#: ../../how-to-use/rest-api-node/address.rst:315
+msgid "Возвращает все данные, записанные на аккаунт адресата {address}."
+msgstr ""
+
+# 215b6ce1cfab4e02bcfa336b202e4a71
+#: ../../how-to-use/rest-api-node/address.rst:330
+msgid "GET /addresses/data/{address}/{key}"
+msgstr ""
+
+# adda6fd6b2cc421782b0215bc33fc28c
+#: ../../how-to-use/rest-api-node/address.rst:331
+msgid ""
+"Возвращает данные, записанные на аккаунт адресата {address} по ключу "
+"{key}."
+msgstr ""
+

@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# e2760f3167c84de492406ccce26a1f79
+#: ../../how-the-platform-works/cryptography.rst:2
+msgid "Криптография"
+msgstr ""
+
+# 561226936891452e8e57083fd436c679
+#: ../../how-the-platform-works/cryptography.rst:4
+msgid ""
+"Для обеспечения безопасности в платформе Vostok используются "
+"криптографически стойкие алгоритмы, соответствующие требованиям ГОСТ, а "
+"также квалифицированные электронные подписи."
+msgstr ""
+
+# a031c4696c6042f096cc6b4288284e93
+#: ../../how-the-platform-works/cryptography.rst:6
+msgid ""
+"Платформа предоставляет выбор используемой криптографии, которая "
+"базируется на одном из стандартов:"
+msgstr ""
+
+# 1890939276254047ae007e2025fba2fd
+#: ../../how-the-platform-works/cryptography.rst:8
+msgid ""
+"ГОСТ-криптография - для реализации проектов в государственных структурах "
+"и ведомствах;"
+msgstr ""
+
+# 2634f297b32048309e317e36c4124630
+#: ../../how-the-platform-works/cryptography.rst:9
+msgid ""
+"Эллиптическая кривая Curve25519 - для проектов, в которых не требуется "
+"строгое соответствие ГОСТу (коммерческие компании, организации за "
+"пределами РФ)."
+msgstr ""
+
+# b825a83ab5fb42c3a782d6bfe9b195da
+#: ../../how-the-platform-works/cryptography.rst:12
+msgid "Предварительная обработка данных"
+msgstr ""
+
+# 4916a694149541f48e5556500302691a
+#: ../../how-the-platform-works/cryptography.rst:14
+msgid ""
+"Все байтовые последовательности перед операциями хеширования или "
+"подписания преобразовываются по алгоритму Base58 или Base64."
+msgstr ""
+
+# eeea64021c2b4ad18e7ee66c060dd348
+#: ../../how-the-platform-works/cryptography.rst:16
+msgid ""
+"Base64 — стандарт кодирования двоичных данных при помощи 64 символов "
+"ASCII. Алфавит кодирования содержит латинские символы и цифры A-Z, a-z и "
+"0-9 (62 знака) и 2 служебных символа. Каждые 3 исходных байта кодируются "
+"4 символами (увеличение на ¹⁄₃)."
+msgstr ""
+
+# 632d827aed8f4fa3a28690b194d6fe17
+#: ../../how-the-platform-works/cryptography.rst:18
+msgid ""
+"Base58 — вариант кодирования двоичных данных в виде буквенно-цифрового "
+"текста на основе латинского алфавита. Содержит 58 символов, исключены "
+"используемые в base64 символы 0, O, I, l, +, / . Применяется для передачи"
+" данных в разнородных сетях (транспортное кодирование)."
+msgstr ""
+
+# eb2453eed7164afcb9b7eddf775bba57
+#: ../../how-the-platform-works/cryptography.rst:23
+msgid "ГОСТ-криптография"
+msgstr ""
+
+# 70476e8c0840418daac62db530c2f522
+#: ../../how-the-platform-works/cryptography.rst:25
+msgid ""
+"Алгоритм хэширования реализован по ГОСТ Р 34.11 2012 \"Информационная "
+"технология. Криптографическая защита информации. Функция хэширования\". "
+"Используется функция «Стрибог» с размером блоков выходных данных 256 бит."
+msgstr ""
+
+# 26928c697a3f40608f94e1597256f10c
+#: ../../how-the-platform-works/cryptography.rst:28
+msgid ""
+"Алгоритмы формирования и проверки ЭЦП реализованы по ГОСТ Р 34.10-2012 "
+"\"Информационная технология. Криптографическая защита информации. "
+"Процессы формирования и проверки электронной цифровой подписи\". Длина "
+"ключей 256 бит."
+msgstr ""
+
+# 466c73258d9545c68dbd45fe3eb6219b
+#: ../../how-the-platform-works/cryptography.rst:34
+msgid "Использование эллиптической кривой Curve25519"
+msgstr ""
+
+# aed465a8bd7d43078fbfeda923ccb8c2
+#: ../../how-the-platform-works/cryptography.rst:36
+msgid ""
+"Алгоритм хэширования реализован последовательным хешированием функциями "
+"Blake2b256 и Keccak256. Размер блоков выходных данных 256 бит."
+msgstr ""
+
+# 5ee46658a2c14cf28a0bf012037ff3b4
+#: ../../how-the-platform-works/cryptography.rst:38
+msgid ""
+"Алгоритмы формирования и проверки ЭЦП реализованы на базе эллиптической "
+"кривой Curve25519 (ED25519 with X25519 keys). Длина ключей 128 бит."
+msgstr ""
+

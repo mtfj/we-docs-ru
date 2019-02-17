@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -206,3 +206,8 @@ latex_logo = '_static/img/logo.png'
 
 # Example configuration for intersphinx: refer to the Python standard library.
 # intersphinx_mapping = {'https://docs.python.org/': None
+
+
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
+gettext_uuid = True

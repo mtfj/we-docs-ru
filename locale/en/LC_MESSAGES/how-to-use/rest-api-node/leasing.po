@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# cf47c0ea99f44fb4956d11fdb8aa08f5
+#: ../../how-to-use/rest-api-node/leasing.rst:2
+msgid "Leasing"
+msgstr ""
+
+# 7e40771f37ef4087baf56e5cd87e2e4e
+#: ../../how-to-use/rest-api-node/leasing.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# bebb0ca0176942769bc8feb8a5ed2463
+#: ../../how-to-use/rest-api-node/leasing.rst:7
+msgid "GET /leasing/active/{address}"
+msgstr ""
+
+# ff61a1e4adb54d6a8df22da43c2bd548
+#: ../../how-to-use/rest-api-node/leasing.rst:9
+msgid ""
+"Возвращает список транзакций создания лизинга, в которых принимал участие"
+" {address}, как отправитель или получатель."
+msgstr ""
+
+# 0bd22352ae60468791d5549d92f9984e
+#: ../../how-to-use/rest-api-node/leasing.rst:11
+msgid "**Ответ метода:**"
+msgstr ""
+

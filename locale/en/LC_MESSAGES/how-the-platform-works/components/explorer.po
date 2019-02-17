@@ -1,0 +1,705 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 93b790c712e343b4a4d312302c10b558
+#: ../../how-the-platform-works/components/explorer.rst:2
+msgid "Раздел «Данные»"
+msgstr ""
+
+# d690f039c16545a5ad3690dfd88ff947
+#: ../../how-the-platform-works/components/explorer.rst:4
+msgid ""
+"Содержит информацию о транзакциях в блокчейне. Для получения информации "
+"используйте переключатели и поисковую строку с указанием полей транзакций"
+" для поиска. **Транзакции со смарт-контрактами появятся в релизе 0.8**"
+msgstr ""
+
+# 8999132fd40340909277e8afcf209b98
+#: ../../how-the-platform-works/components/explorer.rst:9
+msgid "Описание элементов интерфейса:"
+msgstr ""
+
+# 3e611f288dd049c7bd28954b96a44f53
+#: ../../how-the-platform-works/components/explorer.rst:11
+msgid "Навигация между разделами"
+msgstr ""
+
+# 047239c7d47e4154927af97761ec60e9
+#: ../../how-the-platform-works/components/explorer.rst:12
+msgid "Выход из клиента"
+msgstr ""
+
+# 07d55fff4940476695842c0db4ece3ba
+#: ../../how-the-platform-works/components/explorer.rst:13
+msgid "Переключатель отображаемых групп транзакций"
+msgstr ""
+
+# a846776b47e747c4948f99afd418319d
+#: ../../how-the-platform-works/components/explorer.rst:14
+msgid "Фильтры, контекстные выбранной группе транзакций"
+msgstr ""
+
+# 3a032bde61e8441382de80e60c756131
+# a40a143aefd8434a837962ed67153df9
+#: ../../how-the-platform-works/components/explorer.rst:15
+#: ../../how-the-platform-works/components/explorer.rst:18
+msgid "Список транзакций"
+msgstr ""
+
+# 0055c113b82e4896ba2f98be259c3845
+#: ../../how-the-platform-works/components/explorer.rst:19
+msgid ""
+"Отображает краткую информацию о транзакциях, отсортированную от свежих к "
+"старым. Переключатели и поиск определяют содержание списка."
+msgstr ""
+
+# eca4171cb05c4c7da6462e90b95607e4
+#: ../../how-the-platform-works/components/explorer.rst:22
+msgid "Переключатель между группами транзакций и пользователями"
+msgstr ""
+
+# 3b317eec1e134e07b3427e3add7acc26
+#: ../../how-the-platform-works/components/explorer.rst:24
+msgid ""
+"Переключатель формирует список транзакцияй выбранной группы или список "
+"пользователей:"
+msgstr ""
+
+# 47f5dfda093544bebfe4c3b6b4c1c02f
+#: ../../how-the-platform-works/components/explorer.rst:26
+msgid "Транзакции с данными"
+msgstr ""
+
+# 25663684bd784275a7d12117587b70e3
+#: ../../how-the-platform-works/components/explorer.rst:27
+msgid "Транзакции с токенами"
+msgstr ""
+
+# 676a546081b24865be245dc703db8a97
+#: ../../how-the-platform-works/components/explorer.rst:28
+msgid "Транзакции с разрешениями и псевдонимами пользователей"
+msgstr ""
+
+# 246916e8f1da421c81c69b5223c310f4
+#: ../../how-the-platform-works/components/explorer.rst:29
+msgid "Неподтверждённые транзакции"
+msgstr ""
+
+# 48cfb4879919421784302168ee64cc56
+#: ../../how-the-platform-works/components/explorer.rst:30
+msgid "Информация о пользователях"
+msgstr ""
+
+# fac2207b89d04813b33fe3134a97a6ca
+#: ../../how-the-platform-works/components/explorer.rst:32
+msgid ""
+"Пользователем в Vostok считается адрес с псевдонимом. Псевдоним "
+"присваивается при регистрации через интерфейс. Адреса, созданные другим "
+"способом, рассматриваются как служебные."
+msgstr ""
+
+# 4fd7cf9c3c4f4d53b14b104cf9022983
+#: ../../how-the-platform-works/components/explorer.rst:35
+msgid "Поиск"
+msgstr ""
+
+# 08112b154e714bbc94dfa380bc3e7c47
+#: ../../how-the-platform-works/components/explorer.rst:36
+msgid ""
+"Ищет в выбранных полях транзакций вхождения символов, введеных в "
+"поисковую строку. Для поиска по конкретной группе транзакций, укажите её "
+"переключателем."
+msgstr ""
+
+# 7362d0d67d094f949a6e71f32e258fc0
+#: ../../how-the-platform-works/components/explorer.rst:40
+msgid "**Описание полей транзакций, в которых идёт поиск**"
+msgstr ""
+
+# 819f02b253c3473c92d8b20da9329caa
+#: ../../how-the-platform-works/components/explorer.rst:42
+msgid ""
+"\"Искать в сообщениях и в описаниях токенов\" —  в сообщениях в "
+"трансферах и масс-трансферах и в описаниях токенов."
+msgstr ""
+
+# e699a1911d5946dea698e8cdbef804f4
+#: ../../how-the-platform-works/components/explorer.rst:43
+msgid ""
+"\"Искать по номеру блока\" — в поле «высота блока», в котором находится "
+"транзакция."
+msgstr ""
+
+# b4830a0ff4284e07b701dae44e0f9c96
+#: ../../how-the-platform-works/components/explorer.rst:44
+msgid ""
+"\"Искать в авторах и отправителях транзакций\" —  в адресах или "
+"псевдонимах отправителей транзакций."
+msgstr ""
+
+# c6e0cd368b4f4e46b03534e3a1738979
+#: ../../how-the-platform-works/components/explorer.rst:45
+msgid ""
+"\"Искать в получателях транзакций\" —  в адресах или псевдонимах "
+"отправителей транзакций."
+msgstr ""
+
+# f53372a1d6b3430596d5b37125b1115c
+#: ../../how-the-platform-works/components/explorer.rst:46
+msgid ""
+"\"Искать как участника\"  —  в адресах или псевдонимах отправителей и "
+"получателей транзакций."
+msgstr ""
+
+# 9ef347a53f384086b636d3ae4e9f3e9d
+#: ../../how-the-platform-works/components/explorer.rst:47
+msgid "\"Искать в идентификаторах транзакций\"  —  в идентификаторах транзакций."
+msgstr ""
+
+# 22863c06d2ee415bba372c6fc9613af7
+#: ../../how-the-platform-works/components/explorer.rst:48
+msgid ""
+"\"Искать в идентификаторах токена\"  —   в идентификаторах токенов. "
+"Идентификатор токена = идентификатору транзакции выпуска."
+msgstr ""
+
+# ac728f7f28584627824b53a5b84499ae
+#: ../../how-the-platform-works/components/explorer.rst:49
+msgid ""
+"\"Искать в подписях\" —  в подписях транзакций. Подпись транзакции — "
+"служебная информация и не отображается в интерфейсе."
+msgstr ""
+
+# 4862bc54ed204216ad5a979f080c0d9a
+#: ../../how-the-platform-works/components/explorer.rst:50
+msgid "\"Искать в транзакциях с данными\" —  в ключах и значениях транзакций."
+msgstr ""
+
+# bf894076839e4a89b46cfcfd2941c1d3
+#: ../../how-the-platform-works/components/explorer.rst:51
+msgid ""
+"\"Искать везде\" — ищет по всем вышеперечисленным полям, будет доступно в"
+" релизе 0.8."
+msgstr ""
+
+# cb2109f00fde41fbacd2828f4a95db51
+#: ../../how-the-platform-works/components/explorer.rst:53
+msgid ""
+"При поиске по данным используйте запрос ключ\\значение чтобы быстро "
+"получить нужную транзакцию."
+msgstr ""
+
+# 0a46a5815628492bbd5ff2680e69863b
+#: ../../how-the-platform-works/components/explorer.rst:55
+msgid "Для переключатели «Пользователи»"
+msgstr ""
+
+# 3010bdb6665b422a86dae7ef792131a6
+#: ../../how-the-platform-works/components/explorer.rst:57
+msgid "\"Искать по адресу\" —  в адресах пользователей."
+msgstr ""
+
+# cb368f99f84b4d19a0241893e5c7dbf3
+#: ../../how-the-platform-works/components/explorer.rst:58
+msgid "\"Искать в псевдонимах\" —  в псевдонимах пользователей."
+msgstr ""
+
+# f16a815cca254eb8bab4805023f68f02
+#: ../../how-the-platform-works/components/explorer.rst:61
+msgid "Карточки с информацией о транзакциях"
+msgstr ""
+
+# a36ca95214b94697a742ea8fbf75e744
+#: ../../how-the-platform-works/components/explorer.rst:62
+msgid "Содержат вкладки:"
+msgstr ""
+
+# 44513fece1374e5dbd7ae30060ae7db9
+#: ../../how-the-platform-works/components/explorer.rst:64
+msgid "Информация — данные о транзакции."
+msgstr ""
+
+# 466ab94f52884f05af42f2163b8e726c
+#: ../../how-the-platform-works/components/explorer.rst:65
+msgid "Пользователи — информация об участниках транзакции."
+msgstr ""
+
+# aa4af68f42b649578063fb2ed76fcc78
+#: ../../how-the-platform-works/components/explorer.rst:66
+msgid ""
+"Блок — информация о блоке, в котором находится транзакция и список "
+"транзакций в блоке."
+msgstr ""
+
+# fd6deb0e454745f9b518d7b407ff5b15
+#: ../../how-the-platform-works/components/explorer.rst:69
+msgid "Вкладка «Информация»"
+msgstr ""
+
+# 33e85141922a45f2b5edf2181dda5463
+#: ../../how-the-platform-works/components/explorer.rst:71
+msgid ""
+"Описание значения полей на вкладке «Информация» для различных типов "
+"транзакций"
+msgstr ""
+
+# a0dfc6dcafd745c6a1e4be6040c434a4
+#: ../../how-the-platform-works/components/explorer.rst:74
+msgid "Поле"
+msgstr ""
+
+# 49e3e05df34a43a0bc814dd9e50a89a0
+# a3d38523b1784f99b1d29dddf40f2d24
+# 8850287175cf43619eb22f7cabe50a57
+#: ../../how-the-platform-works/components/explorer.rst:1
+#: ../../how-the-platform-works/components/explorer.rst:74
+#: ../../how-the-platform-works/components/explorer.rst:102
+msgid "Описание"
+msgstr ""
+
+# e7deb6b2cf3c44008360d8e9c70f7c68
+#: ../../how-the-platform-works/components/explorer.rst:74
+msgid "Тип транзакции"
+msgstr ""
+
+# ec8e80dcd62243be8a3ab2731cbd121d
+#: ../../how-the-platform-works/components/explorer.rst:74
+msgid "Значение"
+msgstr ""
+
+# b5ae00ba268e4966a3b7b9c2f56ca77d
+#: ../../how-the-platform-works/components/explorer.rst:76
+msgid "Комиссия"
+msgstr ""
+
+# 4da693fd764340099287378b222592de
+#: ../../how-the-platform-works/components/explorer.rst:76
+msgid "Размер комиссии, удержанной за транзакцию"
+msgstr ""
+
+# c967c0c25ae24b9bb306ed8ed6134c45
+# 8aa67c2519054409bf731cd6e3108afc
+#: ../../how-the-platform-works/components/explorer.rst:76
+#: ../../how-the-platform-works/components/explorer.rst:79
+msgid "Для всех типов транзакций"
+msgstr ""
+
+# f51198e2589a49c0849707a62f07a771
+# 523bb93a88f0435f9ecd456c18fef1f7
+# db9db1bc6dc34844b3f57ee313f1ce4f
+# ac82df3bab0343e58e8774b48eb07499
+#: ../../how-the-platform-works/components/explorer.rst:1
+#: ../../how-the-platform-works/components/explorer.rst:76
+#: ../../how-the-platform-works/components/explorer.rst:85
+msgid "Число"
+msgstr ""
+
+# 701978029ce84360bd584054481e16f1
+# 185e2d7992254d40a6afc7ca4014fd0b
+# 52fb3ab83c584c85b24ec783058f8f05
+#: ../../how-the-platform-works/components/explorer.rst:1
+#: ../../how-the-platform-works/components/explorer.rst:79
+msgid "Дата"
+msgstr ""
+
+# b1028e954e9c41bd9f23674fa17f9ee2
+#: ../../how-the-platform-works/components/explorer.rst:79
+msgid "Дата попадания транзакции в блокчейн"
+msgstr ""
+
+# 7a9f781fcbab476badb2558ab88e3cb4
+#: ../../how-the-platform-works/components/explorer.rst:82
+msgid "Автор"
+msgstr ""
+
+# 972f37e67d894b348ad8db3a8dadc075
+# dce8a218b58242ac88fcbb41f7fd0246
+#: ../../how-the-platform-works/components/explorer.rst:82
+#: ../../how-the-platform-works/components/explorer.rst:90
+msgid "Псевдоним или адрес отправителя"
+msgstr ""
+
+# 2d64877595584a98a95c35f554bcc65c
+#: ../../how-the-platform-works/components/explorer.rst:82
+msgid "Данные Разрешения"
+msgstr ""
+
+# e7db819e2a1a4f41a4bf45b9bc18decc
+# 7421f023b6804a6286cfbfdf51f959f8
+# dbebf51b794b407d8da724d670c3a304
+# b7eefe7bd3404c7da9b64220cf1667c1
+# 5e17b470c9cc416e8ebe5c1aae4e5d12
+# ff326e4ae45449f3a435ba62a4a62e56
+# 84b54d401ee34c1caa40967b74a6b9c0
+# 45862975e738400ea722fb65e777b948
+# f968200449bc49f5bd68e812985c023f
+#: ../../how-the-platform-works/components/explorer.rst:82
+#: ../../how-the-platform-works/components/explorer.rst:90
+#: ../../how-the-platform-works/components/explorer.rst:94
+#: ../../how-the-platform-works/components/explorer.rst:97
+#: ../../how-the-platform-works/components/explorer.rst:100
+#: ../../how-the-platform-works/components/explorer.rst:102
+#: ../../how-the-platform-works/components/explorer.rst:107
+#: ../../how-the-platform-works/components/explorer.rst:109
+#: ../../how-the-platform-works/components/explorer.rst:111
+msgid "Текст"
+msgstr ""
+
+# a84a9526e3cf4d279182f1fd9078d134
+#: ../../how-the-platform-works/components/explorer.rst:85
+msgid "Список «Ключ-значение»"
+msgstr ""
+
+# 7f03b12e37314c45a45bc7b6b2b835fc
+#: ../../how-the-platform-works/components/explorer.rst:85
+msgid "Данные, переданные в транзакции"
+msgstr ""
+
+# 1f609fc26fae4ea5b9ad7b16837c65f4
+#: ../../how-the-platform-works/components/explorer.rst:85
+msgid "Данные"
+msgstr ""
+
+# f37d67cadd5443b6940aca05c85ef951
+#: ../../how-the-platform-works/components/explorer.rst:86
+msgid "Строка"
+msgstr ""
+
+# 5197bfdff2654bfd91ee42932dd5b883
+#: ../../how-the-platform-works/components/explorer.rst:87
+msgid "Булево значение"
+msgstr ""
+
+# f9014867f0894b8eb20072749ea695a9
+#: ../../how-the-platform-works/components/explorer.rst:88
+msgid "Байтовый массив"
+msgstr ""
+
+# 48642afa13ae4614b53cd702317f052d
+#: ../../how-the-platform-works/components/explorer.rst:90
+msgid "Отправитель"
+msgstr ""
+
+# b0139ef05eea46789b2655df04b535a2
+#: ../../how-the-platform-works/components/explorer.rst:90
+msgid "Отправка токенов Массовая отправка Лизинг"
+msgstr ""
+
+# 792ce466df51401a833797fa3d349608
+#: ../../how-the-platform-works/components/explorer.rst:94
+msgid "Получатель"
+msgstr ""
+
+# c6f30f3b82c5483d917c74142a055762
+#: ../../how-the-platform-works/components/explorer.rst:94
+msgid "Псевдоним или адрес получателя"
+msgstr ""
+
+# 7a0126d92ade4db188bb3f5c51a15d07
+#: ../../how-the-platform-works/components/explorer.rst:94
+msgid "Отправка токенов Лизинг"
+msgstr ""
+
+# 43583fbc3f73412d9c135031e8759448
+#: ../../how-the-platform-works/components/explorer.rst:97
+msgid "Сообщение"
+msgstr ""
+
+# c48656d834cf4b3686744a8f676741e8
+#: ../../how-the-platform-works/components/explorer.rst:97
+msgid "Текстовое сообщение отправителя"
+msgstr ""
+
+# 8de94257352941fd88921067ac9fd256
+#: ../../how-the-platform-works/components/explorer.rst:97
+msgid "Отправка токенов Массовая отправка"
+msgstr ""
+
+# 7a3e74b063e94dfc882bcc05efa27fe0
+#: ../../how-the-platform-works/components/explorer.rst:100
+msgid "Получатели"
+msgstr ""
+
+# e3d89acfca194534837925a95641a07c
+#: ../../how-the-platform-works/components/explorer.rst:100
+msgid "Псевдонимы или адреса получателей"
+msgstr ""
+
+# dc3572d6bf2340709a694ec728ccf996
+#: ../../how-the-platform-works/components/explorer.rst:100
+msgid "Массовая отправка"
+msgstr ""
+
+# 7c9fb799d5e24a3095d9e9b720937b1a
+#: ../../how-the-platform-works/components/explorer.rst:102
+msgid "Информация о токене от эмитента"
+msgstr ""
+
+# 5d6f97bf49b741df854919e0b0eeb1dc
+#: ../../how-the-platform-works/components/explorer.rst:102
+msgid "Выпуск токенов"
+msgstr ""
+
+# 7c80c4fd7df64c47b21525aafa06b022
+#: ../../how-the-platform-works/components/explorer.rst:104
+msgid "Тип"
+msgstr ""
+
+# a2feaf8b34f14713b232b61a50b8609c
+#: ../../how-the-platform-works/components/explorer.rst:104
+msgid "Определяет дополнительную эмиссию токенов"
+msgstr ""
+
+# cf6146e80fc245e8b6a648c0d14c122d
+#: ../../how-the-platform-works/components/explorer.rst:104
+msgid "Выпуск токенов Доп. эмиссия"
+msgstr ""
+
+# 9c8342fc7eab41459ecfc2d89a97307e
+#: ../../how-the-platform-works/components/explorer.rst:104
+msgid "Перевыпускаемые"
+msgstr ""
+
+# c64fbab3ca01471aa6e1b41a1ddc0a2b
+#: ../../how-the-platform-works/components/explorer.rst:105
+msgid "Неперевыпускаемые"
+msgstr ""
+
+# ef78cf212c404e069f0fa7dc758667c8
+#: ../../how-the-platform-works/components/explorer.rst:107
+msgid "Псевдоним"
+msgstr ""
+
+# 6ab20f7d0d6e48dca4e531d994c006a3
+#: ../../how-the-platform-works/components/explorer.rst:107
+msgid "Псевдоним, присвоенный пользователю"
+msgstr ""
+
+# 4c03a068cbe44387a4ff39bc10c90e54
+# 7246779fa7f94115aa5238c44a8a5cab
+#: ../../how-the-platform-works/components/explorer.rst:107
+#: ../../how-the-platform-works/components/explorer.rst:109
+msgid "Создание псевдонима"
+msgstr ""
+
+# c33481104ea449169f1b7d1b3c0a9f8f
+#: ../../how-the-platform-works/components/explorer.rst:109
+msgid "Привязан к адресу"
+msgstr ""
+
+# 5b4ea5c660d14b8ba3239e785a7e7761
+#: ../../how-the-platform-works/components/explorer.rst:109
+msgid "Адрес, ассоциированный с псевдонимом"
+msgstr ""
+
+# d3ba070d991242aa932276da3b1d9b9d
+#: ../../how-the-platform-works/components/explorer.rst:111
+msgid "Участник"
+msgstr ""
+
+# eb7d31b57315421b84a75949a1789e24
+#: ../../how-the-platform-works/components/explorer.rst:111
+msgid "Адрес или псевдоним пользователя, чьи разрешения изменила транзакция"
+msgstr ""
+
+# 2c4aa37766974242b9eabb04a7c9b747
+# 4663265764ff4314a244f77afa60b3e7
+# 9ec86759d8a3478eb99fe62b899e69ed
+#: ../../how-the-platform-works/components/explorer.rst:111
+#: ../../how-the-platform-works/components/explorer.rst:114
+#: ../../how-the-platform-works/components/explorer.rst:120
+msgid "Разрешения"
+msgstr ""
+
+# 648a3ebb46564c4bbdcef2bc2f002b8e
+#: ../../how-the-platform-works/components/explorer.rst:114
+msgid "Доступ"
+msgstr ""
+
+# 6f2700942ee34169923a69310ea9a88a
+#: ../../how-the-platform-works/components/explorer.rst:114
+msgid "Названия разрешений, которые изменила транзакция"
+msgstr ""
+
+# 4ee56e9704824acba27ba79d38b4ccbc
+#: ../../how-the-platform-works/components/explorer.rst:114
+msgid "Майнинг"
+msgstr ""
+
+# ab9642a11fee4181b5d4522bb4cf0674
+#: ../../how-the-platform-works/components/explorer.rst:115
+msgid "Управление токенами"
+msgstr ""
+
+# 1479fd96d73a4bb783eeca779092ebf8
+#: ../../how-the-platform-works/components/explorer.rst:116
+msgid "Управление разрешениями"
+msgstr ""
+
+# d1c168e2a9754fdfb9fcd04c755158a3
+#: ../../how-the-platform-works/components/explorer.rst:117
+msgid "Управление блокировками"
+msgstr ""
+
+# 6326890bbe0842dd8bda5979b2ed7a45
+#: ../../how-the-platform-works/components/explorer.rst:118
+msgid "Заблокированные"
+msgstr ""
+
+# 72d3fa8436594db38176e0359a9567c4
+#: ../../how-the-platform-works/components/explorer.rst:120
+msgid "Статус"
+msgstr ""
+
+# 214cf17e722642fb8dd3ffae7afe2d49
+#: ../../how-the-platform-works/components/explorer.rst:120
+msgid "Действие, произведенное с разрешениями"
+msgstr ""
+
+# fc6c6039e3804cfd83ac5cbb6312cedf
+#: ../../how-the-platform-works/components/explorer.rst:120
+msgid "Присвоено"
+msgstr ""
+
+# 1313eb08fc084204b254030cda662c55
+#: ../../how-the-platform-works/components/explorer.rst:121
+msgid "Отозвано"
+msgstr ""
+
+# a837a93b285e4e56b178b2aa6671743f
+#: ../../how-the-platform-works/components/explorer.rst:125
+msgid "Вкладка «Пользователи»"
+msgstr ""
+
+# 5510a8ff17304acba8e3410ee5714163
+#: ../../how-the-platform-works/components/explorer.rst:163
+msgid "Идентична для всех типов транзакций"
+msgstr ""
+
+# 6c6e5f326bf8416aa06dbe26868a34d9
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Параметр"
+msgstr ""
+
+# f70413b24d3743d7b9e66b31afa57c42
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Значения"
+msgstr ""
+
+# b09dbe99a98845fbb05f5521c479c51a
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Высота блока"
+msgstr ""
+
+# ba88fe52ead94e43a3518321fa14cd0a
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Высота блокчейна на которой блок добавлен в цепь"
+msgstr ""
+
+# 526722aeb5494174b70d45c431e86d00
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Версия"
+msgstr ""
+
+# a7327dd3986b4b87bbd6565010147356
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Тип блока"
+msgstr ""
+
+# 8fafa30b5a6548dc90ba28b5d6e005a1
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "1 для генезис 3 для остальных"
+msgstr ""
+
+# 39170c8a0e454f6cbea5c7f8f6210cb0
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Дата формирования"
+msgstr ""
+
+# b5ce10ec965a492f9952dc69a106d458
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Дата формирования блока"
+msgstr ""
+
+# 1421995df7ab498a9154a600cf1ad80a
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Предыдущий блок"
+msgstr ""
+
+# 240be15b817d43bb860d82d54e21957b
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Ссылка на блок"
+msgstr ""
+
+# b148ed126d6946eb81519fe69b47a703
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "id Блока"
+msgstr ""
+
+# d043bf6c40e241afb6de073cd45607f8
+# 6b06a8f464824208a0e03282243f2a49
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Подпись блока"
+msgstr ""
+
+# 72c8bf1c860c46d78c0fbc18d2c308fa
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Подпись"
+msgstr ""
+
+# f3148c3637834d53ae5b8e186958b476
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Сложность"
+msgstr ""
+
+# e26dcf0c29d24648aa1cd0e526ef02a5
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Служебный параметр"
+msgstr ""
+
+# d095047a7e6840b7a4422216156bc0f0
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Ссылка на POS"
+msgstr ""
+
+# b0d5c119a49e4857a25de5ad37d23dbb
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Размер"
+msgstr ""
+
+# 64384a977179458d9caa48578a44fb66
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Вес блока в байтах"
+msgstr ""
+
+# 5b121136f2f444f4b0f42c66fc99e65a
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Создан"
+msgstr ""
+
+# 7bbaef519ec1499fa5f03fa66b475cec
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Адрес майнера"
+msgstr ""
+
+# bdf06bdb4d974fc08f49d11ef9ae72ea
+#: ../../how-the-platform-works/components/explorer.rst:1
+msgid "Адрес в сети"
+msgstr ""
+

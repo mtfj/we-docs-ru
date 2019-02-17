@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 5fc23c18d92e4afa81802afd84ff27b6
+#: ../../how-to-use/rest-api-node/consensus.rst:2
+msgid "Consensus"
+msgstr ""
+
+# 206eca76f2e14d7687a7491df40ba713
+#: ../../how-to-use/rest-api-node/consensus.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# 36e67f0baa17401381d5e3d659767a41
+#: ../../how-to-use/rest-api-node/consensus.rst:7
+msgid "GET /consensus/algo"
+msgstr ""
+
+# cfcba1de56d94a4995afb7307b3cc4b8
+#: ../../how-to-use/rest-api-node/consensus.rst:8
+msgid "Возвращает тип алгоритма консенсуса, используемый в сети."
+msgstr ""
+
+# 4d0e5017e5504bc591fea7e1e435d8d2
+# 262880b67f184fc789feaaff95b448e5
+# 4ca7b2d9eb61463a9cf7e262be591de1
+# 71c5deea911247ca8ca1fe08e36e2f23
+# d2a59222c5e14c32adf3ac135e538266
+#: ../../how-to-use/rest-api-node/consensus.rst:10
+#: ../../how-to-use/rest-api-node/consensus.rst:22
+#: ../../how-to-use/rest-api-node/consensus.rst:39
+#: ../../how-to-use/rest-api-node/consensus.rst:58
+#: ../../how-to-use/rest-api-node/consensus.rst:78
+msgid "**Ответ метода:**"
+msgstr ""
+
+# cbe1db9b318249e4ae084318c57dc13f
+#: ../../how-to-use/rest-api-node/consensus.rst:19
+msgid "GET /consensus/settings"
+msgstr ""
+
+# 84f15b6bd28748af97a46c2d7c7d11f9
+#: ../../how-to-use/rest-api-node/consensus.rst:20
+msgid "Возвращает параметры консенсуса, заданные в конфигурационном файле ноды."
+msgstr ""
+
+# dbbbe04e5d6e4c8a9d891bc32ca20f33
+#: ../../how-to-use/rest-api-node/consensus.rst:36
+msgid "GET /consensus/minersAtHeight/{height}"
+msgstr ""
+
+# 84d78e79179542878c8aca3fa44db2eb
+#: ../../how-to-use/rest-api-node/consensus.rst:37
+msgid "Возвращает очередь майнеров на высоте {height}."
+msgstr ""
+
+# 51e5c077049c457493a5370f20608664
+#: ../../how-to-use/rest-api-node/consensus.rst:55
+msgid "GET /consensus/miners/{timestamp}"
+msgstr ""
+
+# ba970c0b1345453b8421efe7c1a3ca34
+#: ../../how-to-use/rest-api-node/consensus.rst:56
+msgid "Возвращает очередь майнеров на время {timestamp}."
+msgstr ""
+
+# d4a784263944424483753efd0944279e
+#: ../../how-to-use/rest-api-node/consensus.rst:74
+msgid "GET /consensus/bannedMiners/{height}"
+msgstr ""
+
+# 1956ed4a07184a33a9c871182ad6bf3d
+#: ../../how-to-use/rest-api-node/consensus.rst:75
+msgid "Возвращает список заблокированных майнеров на высоте {height}."
+msgstr ""
+
+# e94d35b17ae849099294d0ea22da83b0
+#: ../../how-to-use/rest-api-node/consensus.rst:88
+msgid "GET /consensus/basetarget/{blockId}"
+msgstr ""
+
+# 610df3f634a04ead9c2955fab4909263
+#: ../../how-to-use/rest-api-node/consensus.rst:89
+msgid ""
+"Возвращает значение `базовой сложности`_ (basetarget) создания блока "
+"{blockId}."
+msgstr ""
+
+# 96cad15266d043c7b89142674ec811c2
+#: ../../how-to-use/rest-api-node/consensus.rst:92
+msgid "GET /consensus/basetarget"
+msgstr ""
+
+# a527f05b86324baea490432ee1f3f648
+#: ../../how-to-use/rest-api-node/consensus.rst:93
+msgid ""
+"Возвращает значение `базовой сложности`_ (basetarget) создания последнего"
+" блока."
+msgstr ""
+
+# 4d6dc5f715154b6da998a6b1156201ab
+#: ../../how-to-use/rest-api-node/consensus.rst:96
+msgid "GET /consensus/generatingbalance/{address}"
+msgstr ""
+
+# 3e2478fc2e6641878469e7d2e04d7d0d
+#: ../../how-to-use/rest-api-node/consensus.rst:97
+msgid ""
+"Возвращает генерирующий баланс доступный для майниновой ноды {address} - "
+"минимальный баланс участинка, включая средства переденные участнику за "
+"лизинг, за последние 1000 блоков."
+msgstr ""
+
+# 2e9656d55a4e453a9cfac648e5c7751e
+#: ../../how-to-use/rest-api-node/consensus.rst:100
+msgid "GET /consensus/generationsignature/{blockId}"
+msgstr ""
+
+# cf86bee94d7d4ae0a1c35b22b19f0581
+#: ../../how-to-use/rest-api-node/consensus.rst:101
+msgid ""
+"Возвращает значение `генерирующей подписи`_ (generation signature) "
+"создания блока {blockId}."
+msgstr ""
+
+# 9feefb451f6741a4b72cf49751878ea5
+#: ../../how-to-use/rest-api-node/consensus.rst:104
+msgid "GET /consensus/generationsignature"
+msgstr ""
+
+# a7b55ebe799e4170a223c6f7bbe9b659
+#: ../../how-to-use/rest-api-node/consensus.rst:105
+msgid ""
+"Возвращает значение `генерирующей подписи`_ (generation signature) "
+"последнего блока."
+msgstr ""
+

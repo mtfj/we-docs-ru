@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 83fd5075665640a5b74c1b4d46f84f83
+#: ../../overview/links.rst:2
+msgid "Официальные ресурсы"
+msgstr ""
+
+# 5603a55da49a4c4bb8fc6db781842e2f
+#: ../../overview/links.rst:3
+msgid "`Официальный сайт блокчейн-платформы Восток <https://vostok.io>`_"
+msgstr ""
+
+# bbe267ffe5e54e1ebabbe8560fb0135e
+#: ../../overview/links.rst:4
+msgid "`Github проекта <https://github.com/vostokplatform>`_"
+msgstr ""
+
+# 9e79a705d1bc42f8aac1acf4b1eb2731
+#: ../../overview/links.rst:5
+msgid "`Официальный сайт блокчейн-платформы Waves <https://wavesplatform.com>`_"
+msgstr ""
+
