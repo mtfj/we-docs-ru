@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 955ec4cd4a9e4d3ab360f41b4ac4aed0
+#: ../../how-to-setup/configuration-file.rst:4
+msgid "Структура конфигурационного файла ноды"
+msgstr ""
+
+# 295f7c8ea3ff437e8c88749199f0f1dd
+#: ../../how-to-setup/configuration-file.rst:133
+msgid "Примеры конфигурационного файла ноды"
+msgstr ""
+
+# 3fc2e5b57dff4e089577be810bdc5e9f
+#: ../../how-to-setup/configuration-file.rst:135
+msgid "Node configuration example"
+msgstr ""
+
+# 96aebec4025d425599fdc0d5351114cc
+#: ../../how-to-setup/configuration-file.rst:138
+msgid "Конфигурационный файл"
+msgstr ""
+
+# 536b6be45dce4789af7bf71f9ca3f8bc
+#: ../../how-to-setup/configuration-file.rst:138
+msgid "Описание"
+msgstr ""
+
+# 00b2418b64034eac81404be40ce7c5e9
+#: ../../how-to-setup/configuration-file.rst:140
+msgid ""
+"`partnerNet.conf <https://github.com/vostokplatform/Vostok-"
+"Releases/blob/master/configs/partnerNet.conf>`_"
+msgstr ""
+
+# 781084583c084fe59d059f5025cb2ab4
+#: ../../how-to-setup/configuration-file.rst:140
+msgid ""
+"Конфигурационный файл для подключения к существующим общедоступным сетям "
+"Vostok"
+msgstr ""
+
+# aedea219b39b45ee9f083a4778c70731
+#: ../../how-to-setup/configuration-file.rst:141
+msgid ""
+"`example.conf <https://github.com/vostokplatform/Vostok-"
+"Releases/blob/master/configs/example.conf>`_"
+msgstr ""
+
+# eaeca13225314181bf8b80b080040d14
+#: ../../how-to-setup/configuration-file.rst:141
+msgid "Шаблон конфигурационного файла"
+msgstr ""
+

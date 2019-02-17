@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 168b7ffec7414b76af4f400d23de4dcb
+#: ../../how-to-use/rest-api-node/node.rst:2
+msgid "Node"
+msgstr ""
+
+# 52dcdd5d84404130afdf205b1485d8ec
+#: ../../how-to-use/rest-api-node/node.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# b38b2cf84748430a957cdc2f12048cb8
+#: ../../how-to-use/rest-api-node/node.rst:7
+msgid "GET /node/config"
+msgstr ""
+
+# 41a5e61d774345f6ab53f33537a946e7
+# c5ea24128da448b18aed101ed4368687
+#: ../../how-to-use/rest-api-node/node.rst:8
+#: ../../how-to-use/rest-api-node/node.rst:47
+msgid "Возвращает основные конфигурационные параметры ноды."
+msgstr ""
+
+# c309fbc194e04b27b8efc6225e97048c
+# d24ffc742ed247e5bf0aa4921f3b1014
+# 41dd792d7cc046a6a5b4db3caa1484a5
+#: ../../how-to-use/rest-api-node/node.rst:10
+#: ../../how-to-use/rest-api-node/node.rst:49
+#: ../../how-to-use/rest-api-node/node.rst:64
+msgid "**Ответ метода:**"
+msgstr ""
+
+# 71cce8d56a474238bcacfe6745e6a0d7
+#: ../../how-to-use/rest-api-node/node.rst:39
+msgid "POST /node/stop"
+msgstr ""
+
+# 7853de1ee9964607817b81b31a0539df
+#: ../../how-to-use/rest-api-node/node.rst:43
+msgid "Запрос останавливает ноду."
+msgstr ""
+
+# 54af1dc672874577b1e817c9339e8a59
+#: ../../how-to-use/rest-api-node/node.rst:46
+msgid "GET /node/status"
+msgstr ""
+
+# 4b11bfb9cc5844ab8b4a27d37d37712b
+#: ../../how-to-use/rest-api-node/node.rst:61
+msgid "GET /node/version"
+msgstr ""
+
+# f1e577c2ec014db1acb247f47b52f295
+#: ../../how-to-use/rest-api-node/node.rst:62
+msgid "Возвращает версию приложения."
+msgstr ""
+

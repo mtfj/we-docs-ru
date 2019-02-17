@@ -1,0 +1,804 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 17c9a19920674ad69b3d2d0f5bb351b9
+#: ../../how-the-platform-works/data-structures/network-messages.rst:2
+msgid "Сетевые сообщения"
+msgstr ""
+
+# 155a66474e304cd7a3208aed65ebf25d
+#: ../../how-the-platform-works/data-structures/network-messages.rst:4
+msgid ""
+"В этом разделе приведена структура сетевых сообщений в блокчейн-платформе"
+" Восток."
+msgstr ""
+
+# 9e404ed8998d4d0ea1e03210b775a766
+#: ../../how-the-platform-works/data-structures/network-messages.rst:8
+msgid "Network message"
+msgstr ""
+
+# 5efc5eadda064f24a6154345f1b10d20
+#: ../../how-the-platform-works/data-structures/network-messages.rst:10
+msgid ""
+"Все сетевые сообщения, за исключением Handshake, базируются на следующей "
+"структуре:"
+msgstr ""
+
+# 3763f388afea42899f9e6c1837bed7d4
+# 808bb7e9a6454ba0ae1ba8043771f1bf
+# 97248e0886c34d1c801a4a50a10145f3
+# ca645c2b8b18459cbbfd5ef99039a8e6
+# b7a2a07951e540469c2b76cd0b389b53
+# e73b81c09c4e42aead047c29dc984f33
+# 5d0cc4867c42489b861293cb856561b4
+# 12e7fc3e895d41219a095768a16cedac
+# f3c2fdbbe47e483483d0f2433284adde
+# 1d68b412379440be95be04fe3ad67378
+# 06a59d7f6e004f4c860420fff629fd7f
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "#"
+msgstr ""
+
+# caaf51e64ce44a0888500b9ca7b4a14a
+# 614e093686c84c109dfa578c2680c7bd
+# cfa6082d5c254e8e873baa05d6468bd6
+# 7cb70ebba28b48b49f04a802a6ec0592
+# b4082acbcaf8454684e79587386968a6
+# 74ab73d9c346473b8e7987e189738e6d
+# 60707f896c8846c68b8f8062e0f5035b
+# 5aa40f2f6b42490494b4efbe872ba534
+# 8b586934950a497cb7a45979a6af6440
+# f8b44191447e4e1a8793def5579ffb88
+# eec8d1949c1e4cd2985072342aea6392
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Поле"
+msgstr ""
+
+# c0bbc9ba42b145a2bc06d50d2e5b54b1
+# c1d8911630394964a8724a3c96a89d05
+# 1b962069d2a74c58a448399b68b8308f
+# a7444481a7a144639150c42df800946b
+# 94fd5cc23d5540c99c3c84a3cae64184
+# 037f90ef48af4ca8a3587a23118dc73e
+# 8baa8adafe0e478d8cabad6b09ca6786
+# dccddc3536f141f1a328f4bd49de0885
+# c576bde825cc468bb3bebd71e1cc8361
+# db79949b89d84d09b2118d98e0885ccf
+# e97f35e68fe844c89b26d14bb5de4cf0
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Тип"
+msgstr ""
+
+# ad30fe75df9a48468459711e64363ccd
+# aac9b0ec8ee544418f37fbd58b546fdc
+# 63a31d4ee0d847d49b7ca0b71a113976
+# d954eaa8b31f44a783993752d0698dcd
+# c949cd63dedf4d71b91782850ee39f93
+# 64d4b33ef1524c70918cc610a8e79798
+# 32500aa7aee341aaa288f37a8cd1d665
+# e1b70f4b1f6848d3b862f5805c3011cc
+# 2f92f558688a4e07a8365716962ce8f4
+# 13742f78abe140bf8cbf195f8a8bad2d
+# e5ca4dad46074d41853b6b54e14e337f
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Размерность"
+msgstr ""
+
+# 97d1b9c0deed4981bd192543b589ae45
+# 4df00250094342c59cad4891588fa008
+# 575e1601f8d041c9859be69a0ad5219f
+# f233dd0d9aec4935a24926b72eedc6ec
+# eba3e6b0d3af4f14a675d64bf27829cc
+# 5cb7b3491b964886ba7234cf1f994d8c
+# c0ad466f22804e93a41cd9d438409835
+# 46f9edaa88a645e38f912c68db284e04
+# 26dbe88f720c442bac695a6512544c31
+# 835a2c1183f046f585f17a5d79bf1d48
+# 5cb97ecac5cf4480970f7e6081af8aea
+# d97f108c2e51436096035732ee4d86ea
+# 73010c7239e24cdba79801ec9c7eeecf
+# 9e99b72c410b4380bce3e28048dfd922
+# 6cc528af38024f6982f5e761f9b47858
+# 7222ff1e1ea9408faee46fefbaf3ac76
+# 80dd999c713046b4a568f8978a1b0785
+# 4d219a27240245668308d80003a89d37
+# a10a852b756345ab9ca0cc943de7125a
+# e938f1b3c8e14973948f5af95672708a
+# dc3f1976b35646269f22600b3b27facf
+# 306bba1563bb4323869d689061a29c7b
+# 781cfe69ce274852888097ae1d583160
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "1"
+msgstr ""
+
+# b1abfe1cd5284d748a613245adcd574d
+# 8f184845039e493caa9aa815d35f5fa7
+# f583512d056d41c29b5fddf39772b3c3
+# 7617d4c5057b49ff9dc9d01d33f5fc7a
+# 9db891bb79e74281a4f00a114e2531e9
+# dac5f27b624a49a99861cc49aba294e6
+# d9feb55388b84378912d1c5a0b0f3395
+# 78bf6b242ee946608c01ec0e9e8320b8
+# 669151456c86457688077852ce8f9bc9
+# dd0cc260e6e84eeeb6c3b7f105a2e78c
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Packet length (BigEndian)"
+msgstr ""
+
+# 97d8dd22488e45899fcf94390f895861
+# 1b1f2b40dfdb40a2a64e08c7b33f18f0
+# ee9271e5f19a417486b71bd64044680e
+# 4ddbcfc01aa44c518393202e6479ec90
+# ea466ca1115b44e0921523e7d0b129c9
+# 228ffe692d1c485281c205c8f21e10cd
+# c3c34f42aa1248029b94fac137305418
+# e803942f25ad4b318d69be969f2a79e5
+# e967ce6aa0fc4385adabde68dc5298bc
+# b7a9ba96020f49f3965c4739a1859d88
+# 075ed233b055485a8534ba9e4cabc5d9
+# 72db83ff4c6c4df3b177b4247f5d2623
+# 592e0b40171043baa10cffb0e72db201
+# e6bfa4896ffe4a1883af3a972652dd91
+# 95f9f3893b9c49e0bbe373bef238a0a1
+# 1df4f93f189a43738b731b0a6fa4299b
+# 8c98b8d36b0646a794a63729bb6fd8f7
+# 2d5082e7908a413bae4d73d68c6e502e
+# 3b5f22b478ed4fb29f17bf9c2e66763d
+# dfb658bc1300439d81543c54560103b3
+# 20be78eebe084eb9ace0d0f8283f802e
+# 2c26b2c133c04c178b2753e6350ed463
+# 14a557555d09442f96c76606b1bdc1a2
+# 780e5409348f45a28a49ba34b1720088
+# 96a1f71913b94148a51b69df4be9924a
+# cd3f6b7cb9534f3ab0f965209eb68d5d
+# 0ec2d740f84f498f9e03ad2858ea3a14
+# 352cb419e8ed4918bcce96086fd4ec47
+# 9ccfbad51006402c9e3646ef9e6e0292
+# 2c3929c8f7774ecfaa6bb4b94c3dab97
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Int"
+msgstr ""
+
+# b38efbc10b1a43328fc21d90c8f926b7
+# 88640dd4bb014078bccec06679024777
+# ac710f1b01d6431fab8e158ef877e345
+# 0910a2e5514246c6a3a2bc262a7cda28
+# 0b110fe03a3544e3a044c06e396a0b78
+# 7f12a92254f34c108dbe9bd2d45ca6b6
+# 788c6294c22b4d6d80f632271b11ee4c
+# 544097f9b9b0470db4261a66bdd01a2b
+# ac35e9bd727a4d299946a70247090870
+# d80b7ad3dcb748cba710a40a86c136d5
+# 331a69efcafe405b9ea9505cc0a5fd10
+# 158d4e3d2e29486d9e3f0bc07f6b6085
+# 73881e5f4b4647729a28718a17a0918b
+# ed871cc2444e452fb64070771a075f9d
+# 8c2bc5d536c44bbb9661386f23df35d0
+# 9c20ee5360624c6b8881e687f520e2ec
+# 2a3291003b114c4c887965a8ae870848
+# a8641e245cbd4a1e9424138fde205669
+# 701a15f6d7d342a0820f05375bf7f595
+# efa77837e5484754bacd86762e17c61c
+# 92471e34c8fc47d9a5c353d1e6d8267f
+# 4bab29558ad14f369805a74623596e5d
+# 173b7d8f2e654138b07f3ceb1d8dc894
+# 8d0a883a41f245ddb111d3c920cb2c1d
+# 31a940cbf6324ae5a037ceecb54a496f
+# eb5b1ab7f5e24ff7997b92d98956494a
+# 7acd9a155434450880868f511da9cbc1
+# 84830cdbbf6c4856a423e5989816fe19
+# a51e9b2705d34fbfa50072ccecb502b6
+# 30b844f4ea604590a504e3d879df00d4
+# e04573a361de43dd937d745e65f9c343
+# cff1a8d0f51d493297957a37090bb770
+# 6a826fcf1f00478dbd003bfe8c8b5cf3
+# 5f01d27d042847a98b041731b93165fe
+# 7c91da9d63a24756adec18f075500949
+# 7bf19874f8af48fb85eeb6e2a5cb55e9
+# 109dd2756d914811b9abdf35d1ca5aac
+# 45e03cdf6ee3480f83e61ff4c143c617
+# 634231e7977d47a7aebbcdf387699a65
+# 70af29630c8d4cd2a000ad408c02516b
+# 18ade28342b84697815f91f9e0e1576a
+# 52202e9a4816477894dd47cc53d9b3b7
+# 35914342191f4eaeace407ece0c561f8
+# 1ff8e3a91c2744b29c80167a2655fb36
+# d19d7e1bbd8848d7b34004368eac1263
+# 4ad5725bfad14aec95dde11bc1df0a58
+# d907a24b8cc24eac8162ebe6cd0b9be5
+# 383d2e41b35d4fe98f551ed74b799c05
+# ddb3db79754c4fa3af4edad0800dca8d
+# ff63b35be32546169936eca492dd98bf
+# f7bea5e85fa94567911e728224740b94
+# c7027541882a48e68a67a846442d2980
+# 327a80c9b2b04bbb953d69cc69bbbe15
+# 1df8133a85a74ddeaced52ee61d5ed85
+# 189429657e9f476992f2121213fc31ba
+# 901c0ab5102649d6b106cfc07007f8b1
+# c662330a5efe4f8bb76f8d6dbbdf2c11
+# 290aa792578145e194b04a3dc319bcd2
+# df8f1b11b42b48ea80820d9042322cf2
+# 9eeca28ec30148a49b180a6c3cd0679f
+# 482f09d4032241d7b8eb8c5aea165cb3
+# ed1d6b0b75b34fb4a7d27232ad2c42f7
+# f30592f0ddd44be890b3e8dcbf73fa17
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "4"
+msgstr ""
+
+# 104275135d1e401abd37c1dc923b3b1c
+# b6fdd0ac671f4e21b0fdb11b83b1e09d
+# b02b64fc597648e48d599a9bcca31811
+# 2630b6b102004b108308080862add1b1
+# 52e1b5ce47c24eda8160fd41f5cdd4b2
+# 26ed71427d3043c7a8f9e4198b71555b
+# 638b6d8f3881481cb3d2dfd1ca625df8
+# 3e77a81edd7e41aabe8cd9f2f47a41b4
+# 081500b0e566419cbed77a982467aeab
+# fefd3b1d4cd148c09a6bbad51fd1ef26
+# cc46ec74c5d34aab97beb3fdc4ddb388
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "2"
+msgstr ""
+
+# 8d8b948c00834b0d9365637f8078e01c
+# 0e58ca98bc4b439c8c42adde5d1df3d2
+# 0d85ed764e134e31a469164020ac7b8a
+# c057efc82ff94d1fa52eaa4aee56c8f3
+# d75b8b1be8bb46d4b59e0609b9be077b
+# 28a9d3c7cf4e44c1a45dd52d4daf88b7
+# bb07058d8cb24a5b9f046fe5dc17dd78
+# 3112a705bd4d4f4a9c065b780e1d180f
+# e2184573b5fe4f2cbd3cc316b326934b
+# e048bfdb6bc247f386b217ddd8ad9773
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Magic Bytes"
+msgstr ""
+
+# 51c61a8b6cea41d6b7579900b0e32788
+# c894d31741a64863bea3e3f87e5661d1
+# 18b17e8841ad4b3dabafbe95d38cf250
+# 260dec3363eb496596744fe6eee3a0ab
+# 0a2e05cd07354ec7a580c5241117c546
+# 0657602664d142d6b6f30d192e193d65
+# 1729717ce37a409db39ee409cbdd8d62
+# f1d728a5fc9340d888d8fb34c0b08670
+# c1c1e59683bd4234b3f61b33770eb8d0
+# d76391370138429ca4df54ea4e9196a8
+# d92f05cbaa8548afa60f9bf3188cb40d
+# 98bf32cfea3f466eb4106e614396f3d2
+# 4c5a5b34c76d4bb8a7bd9db78ec1a89b
+# aecc8967741a42d29ed467a35df3baaf
+# 480aa7115ba34f9cb7d90a8b875b2725
+# 66c7b3011c154a5a9732840a731972da
+# 2d5db4c2f8f7403393483dbdecb87dfe
+# b8830251a7144194961911b924d3ff35
+# f037dca612b64d82be348e71e63bc0e7
+# 16a5a4ed152f48f4af49f9cfa6ff32ef
+# c6ffd3402e944478b9d3bc97df8498a2
+# cb84e7c515d34ad982b5af7348eb38aa
+# bce5319700014498a890c39cfbc171b6
+# 56b0e0ad7969494881eda25f582181da
+# 997c049eb6fb4615a2ed549d18792361
+# e8518bb77a2f475baf802169568acaab
+# d49ab58266194448938c0d8eb01d62dd
+# 9ea583dbf5574a9ead59a8e09d66b3c6
+# 19d5e3fa3d934173a9f3d7c80b6ae977
+# d002f8b334d74dc0b63766d7fde26309
+# adfe01b9f1a24634ba819c7a9fd06bea
+# 267282b6924e42c7a54f4b4a44537ff5
+# 69fb3be858c24430a6a277c55d1caba2
+# 8c44567f5be147db878892ab22e36830
+# cdcc47d1978644b7a87e12785d5ae5df
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Bytes"
+msgstr ""
+
+# d215c834a70943bfae124b6b530d2086
+# 7c13c12c2c1f4d2399c451b3dde0481a
+# 1726a99e52f34de68fc39e5d2448d84f
+# ca9ad90a2aca4e65b84f033af883bebb
+# 5ca9e37c6c3f4ea28d1cb2921d423b24
+# bd288ae76fa444cababe50dd4f3a828d
+# d0f206a3686d4d0aa80d5d0c18eaa0f9
+# f37e98075f82424e9e8a884b7178fd0d
+# 0000972803904ae9b42964926820da10
+# acd4b048de904b0b9851c43359258607
+# c56bb50b2d43496b8dee9e7d54fe0f74
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "3"
+msgstr ""
+
+# 3ad4caf0742c48f7b523b4e3ea489b26
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID"
+msgstr ""
+
+# 91b25a85e6c44fcc8162aeaaa4698d84
+# 91d41dd63fb947b1bdfa06f38455b7f4
+# c42a86cae5ca478683d98526cd86e058
+# 11a1f0c8a9f0470db4a37f991fde440c
+# 392e4eeffb264b5bb8c9f824e99c117c
+# f4fc0e80e610491ba401be56c2186f3b
+# 90d6c038a39a485a9a0199c36acb9676
+# 0e7b37943c7440f4be15b1a71e5e6aae
+# 64b0aae49801443ab1c215b9cecdb520
+# 00d904b1a6954257bdf8b2d3148bbb5c
+# 1ceefcb506f843a08000c62cfc0d2e5b
+# a8b1df5f280e4ada8bacb2ffbdb3b45b
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Byte"
+msgstr ""
+
+# b70815ab771042f488418d54c84b1024
+# 4bb129dfdccd4c288aa0e50c0e723033
+# c2a83cf226e74b55a52529bb2e0e2f40
+# f548b0d96ec842f599edc34c7c52a55c
+# 655e7dc11a344994bbb4b09fd42d6014
+# 1cba772d0e5d4e50b2bbe7e1932f0c67
+# 736f7551d8df4adebadd080beb5dfa84
+# d858ca19b62e4723a27dd4d6dad54203
+# 3abef817128a47289274e2038183f429
+# 2d2f945e1c69465fb8f6a9bf1fcdbd23
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Payload length"
+msgstr ""
+
+# 280a07930d814325a1218482bc196ae2
+# 36bafeac6949459f8714b87a5d95f019
+# 1a17af43f1ab45b7b95fb226fd1c2ab3
+# f7aa2662e2474bfdad32c1df7e77d547
+# 4cb234326753402a86c13b6e75e9dbb2
+# 6798f9f8e5294cb682c3af85990c8eee
+# f54b01865f884226bb3788ad7e1ba403
+# 5c470ce364f04b40b96384f605f01e97
+# 59cc9adc96f04535ab0968e268a269c3
+# 5efaed5a70b24a77848efcd3224d9336
+# d5b8fd7eeaff4de9b0f89cef115cac49
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "5"
+msgstr ""
+
+# fd4bd2a962a143ad9c6cb49d55feb04d
+# 6d479dda66914f518ed202b44e26e551
+# 50f0b06c14b7461aa4b3b8ce7a613778
+# b086d6b3fa674c2abdf9da3884a28e97
+# d81ad4741be14ead8dd2bbf872d95731
+# 40cb4310c8d24a9e8ff93d2b16c58c18
+# 04324533d4d64c2fbe7b488736f5d0e6
+# 30e994a8aa5a4c04bb20985573435cc0
+# ebfcede2565a4d60a4e23dca07e6826f
+# 5f72977a933b46d5be75d8b646210c20
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Payload checksum"
+msgstr ""
+
+# ab2eae994bbb43969771a86fe403840b
+# 92784d5aaee84883b925375fe6059303
+# 2009b00913f544b98040c3cc5bdc5923
+# 9b8a94a5ba8744a0b740b4484e95abd1
+# ccfc4b7bbcb34121ad5c4be007dd2f3d
+# ee005cf822914766b554fd18e52a5f13
+# 66ef8d52129845a6b4db7d36e142b4b8
+# cb9a273775344a04a03806613984b521
+# e5facba2387149caa4ee21cdb2e00040
+# 9dfd80854bd74c0c8b2edbe50fe6a966
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "6"
+msgstr ""
+
+# 3e7692edd99d44de94dd214512b8309e
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Payload"
+msgstr ""
+
+# 8447f56fdd82496480c8b5327fce6842
+# 82230524aac44e2c8913c4facd8c02c5
+# 31f7d3fdab4647ebb8f948a4e3d9e2a9
+# 2695e58c07224736848287d37c6e1410
+# 371888f117804bee98048606bceeb84e
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "N"
+msgstr ""
+
+# 9eea8f74f1334eec8b4907ba30550f0c
+#: ../../how-the-platform-works/data-structures/network-messages.rst:23
+msgid ""
+"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes"
+" of_FastHash_of Payload bytes. FastHash is hash function "
+"Blake2b256(data)."
+msgstr ""
+
+# 7fd5d91eddd14d3281d79f6fc46e5841
+#: ../../how-the-platform-works/data-structures/network-messages.rst:27
+msgid "Handshake message"
+msgstr ""
+
+# 1cb49de5020449ec9b8865954d669c79
+#: ../../how-the-platform-works/data-structures/network-messages.rst:29
+msgid ""
+"Handshake сообщение предназначена для первичного обмена данными между "
+"двумя нодами."
+msgstr ""
+
+# e6d49a8937344803b07252368d17d33a
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Application name length (N)"
+msgstr ""
+
+# 528ed3149a924ff7a7f8e1a8e37465d6
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Application name (UTF-8 encoded bytes)"
+msgstr ""
+
+# c09dc9c4498542f39feb526f3bb8f2fb
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Application version major"
+msgstr ""
+
+# 57e810dbca8844b08e21379d751aaa20
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Application version minor"
+msgstr ""
+
+# b70a9b84b02748799618141bffd4e00c
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Application version patch"
+msgstr ""
+
+# 49a726fa9a224114b653cbeef2615bdd
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Node name length (M)"
+msgstr ""
+
+# dc4e8118655846f0b5a0caf582e38e02
+# 5e1747d316bc4ba082c16720ea1656c7
+# 53f7010110a34dd0baedc6af626e83e0
+# 45efcc58f3934f899b110c7ee5989cd5
+# 4a9060c529b44819aba3d7d308f6737b
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "7"
+msgstr ""
+
+# 72f6b22a143d49e3840adff6ade60a59
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Node name (UTF-8 encoded bytes)"
+msgstr ""
+
+# 4b9190b1dabf490b9401bbe1813785f5
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "M"
+msgstr ""
+
+# 44cac69c719f423f91004b79f014bb47
+# cd6f9a30d50f4162baeee68ce02aabc8
+# dff1d11f0d9f40cabcc4c75ed99188e7
+# fa980de7a2f341ecad498b26d18340ce
+# 3c657b7c4a4649d5938e4389f62572d7
+# dfcbf9b513ed4e7cb0ca9b29e5adf199
+# 35fce4caa9c247708079af85c5447a56
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "8"
+msgstr ""
+
+# 47f436e36e144c379e5654420e45245d
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Node nonce"
+msgstr ""
+
+# b6f336aeb26842c2a07a53b9578f6b0e
+# 025df8ffe7f44d9eb1e134ac3ecc91e1
+# a129b68d363043b6986876738c43fbb9
+# a897e6ba83d646d4b27432f3e3eda5b1
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Long"
+msgstr ""
+
+# 99d9c90164904529ada454fa3cb9151e
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "9"
+msgstr ""
+
+# 122ce873b9334c61afcb6cc5641c92e3
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Declared address length (K) or 0 if no declared address was set"
+msgstr ""
+
+# 7d08dde4ca794da5a56ba14745f5deb2
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "10"
+msgstr ""
+
+# 2930e6852ccc43f884da8fbdabd69681
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Declared address bytes (if length is not 0)"
+msgstr ""
+
+# acd19ccc03384e6f89b741586efab11c
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "K"
+msgstr ""
+
+# 905874db3e814a46ba910ab9aa0ff289
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "11"
+msgstr ""
+
+# 17dc7a4cfd5f4d4b911608e719d03591
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Timestamp"
+msgstr ""
+
+# 83d4a6775c5e4dadb971286d5e5c98b9
+#: ../../how-the-platform-works/data-structures/network-messages.rst:49
+msgid "GetPeers message"
+msgstr ""
+
+# f3d6433528b64667a4dc074eea77a226
+#: ../../how-the-platform-works/data-structures/network-messages.rst:51
+msgid ""
+"GetPeers сообщение отправляется для запроса сетевых адресов участников "
+"сети."
+msgstr ""
+
+# 6687895186cc4673a0855e5d650a8e57
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x01)"
+msgstr ""
+
+# 859ba715f8ce4e8fb6490179903800e3
+#: ../../how-the-platform-works/data-structures/network-messages.rst:65
+msgid "Peers message"
+msgstr ""
+
+# 50f14b4ae83b4ccb93c7ac4a748108d3
+#: ../../how-the-platform-works/data-structures/network-messages.rst:67
+msgid "Peers сообщение является ответом на запрос GetPeers."
+msgstr ""
+
+# 7f173a951fff4cd58802134c3731443a
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x02)"
+msgstr ""
+
+# 490f1c6b3cb6478495793f56048b3b70
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Peers count (N)"
+msgstr ""
+
+# dce0437bd22143d09f01ec5722523a99
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Peer #1 IP address"
+msgstr ""
+
+# f6d5681b83544af5abe6185361a93b49
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Peer #1 port"
+msgstr ""
+
+# c656d6b3a7e04addbdaf3ed829fca97b
+# e76161e40b3e4d4084d502bee59b0a13
+# 36bc9580e83647609861440ee2848e9a
+# 6b09e8089f5442948c9f2d99ea257ecd
+# 5a661d1b8f4540bdaeac6cc1481497c2
+# 77821c3bb0ff4af0af48140fe01bdded
+# 11bda72eaaef4040b136367b5c4af64e
+# 2d3d0f2faff34e2bbdb065c8329f97da
+# f7ea5d3b01fa427da76e297cf460d97d
+# d02f4e9a0bcb4c46ae6623ce29268651
+# c8ed7c20d26846c892a87b820ba7be49
+# 68bede4e59a9406b9af00d2ce398d830
+# 680e48e02c694ed1aebaa87a43c09a7a
+# 0c5b594c1f434c10b1be24e6c4fce369
+# abf2b4454cba48ac821b834ac3fe51a0
+# fe185bbec131468dadfdcfc79246fbbc
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "..."
+msgstr ""
+
+# d6cd38de8ccf4570a96aaf81c03f5a4e
+# 0a5bd928f76047899a2230b6885c8094
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "6 + 2 * N - 1"
+msgstr ""
+
+# c3bd69938c06487eb3d00b29c2bbcd10
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Peer #N IP address"
+msgstr ""
+
+# e82f11f9f1e247358132f1ce5e067cbf
+# 85e607544b0646a2959d2afc754754c2
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "6 + 2 * N"
+msgstr ""
+
+# c9618fa1279e4093bda294f6be802ca1
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Peer #N port"
+msgstr ""
+
+# a2c68b9f274b4a69822e7b0e17808db9
+#: ../../how-the-platform-works/data-structures/network-messages.rst:86
+msgid "GetSignatures message"
+msgstr ""
+
+# 61cf5fcfe91d47228a3e72378196f96a
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x14)"
+msgstr ""
+
+# 1a8c547f088a41969a27a085cc25c51d
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block IDs count (N)"
+msgstr ""
+
+# 89f5e717c49e403880bfdff08193628e
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block #1 ID"
+msgstr ""
+
+# 8130f5d72c4c44baa88df6a90a54cab5
+# 472fa4a964e741eb8358ec9b8255fcb3
+# a2c3b6bb8fc0404db3a2299b8d8448fa
+# da91158659084981b652a6160487fbd7
+# dac47714a53d487db33d18d3b6eb0ce0
+# 83ed02211e234851b9b1df3871cccb87
+# 614b455d69164e48995c1a41feaf8dbf
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "64"
+msgstr ""
+
+# 8088c8cbc7e740bb8820ef37adccbb39
+# 8a7776272caa467b9ff57f9deda9b479
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "6 + N"
+msgstr ""
+
+# 2a608cbaaf9849f886d27e79593c1d32
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block #N ID"
+msgstr ""
+
+# 80d54cdac8044a23b407c3940e6ca66c
+#: ../../how-the-platform-works/data-structures/network-messages.rst:104
+msgid "Signatures message"
+msgstr ""
+
+# d053a25d19dd42408341bb50c3060101
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x15)"
+msgstr ""
+
+# daef73be7bd248b5a20a5ad5e193f5f9
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block signatures count (N)"
+msgstr ""
+
+# 078e4b3b71fd4c68b4a67904953c927c
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block #1 signature"
+msgstr ""
+
+# e3e1de9783c04ddf845a64e90c311427
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block #N signature"
+msgstr ""
+
+# 04d8a19ead8e431ca0c95591c0f96b3d
+#: ../../how-the-platform-works/data-structures/network-messages.rst:121
+msgid "GetBlock message"
+msgstr ""
+
+# 542b443e9a6f484eb183939cd6d037f4
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x16)"
+msgstr ""
+
+# 3f974fd2490949a9aa3dbacec59b17e8
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block ID"
+msgstr ""
+
+# 2d209d2f7ab74d569cd5ceca8b5d9468
+#: ../../how-the-platform-works/data-structures/network-messages.rst:136
+msgid "Block message"
+msgstr ""
+
+# 55d759bacd0642c3996d2c646dcd6936
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x17)"
+msgstr ""
+
+# eca06470ea3740da87c06a3b479f5808
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Block bytes (N)"
+msgstr ""
+
+# f9b8f4f8633d43f688f67fb6de21ea71
+#: ../../how-the-platform-works/data-structures/network-messages.rst:151
+msgid "Score message"
+msgstr ""
+
+# 2ef690734ebc4ab6be51a20f87f802db
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x18)"
+msgstr ""
+
+# 9077d89d62d645babf4eddb4592bafca
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Score (N bytes)"
+msgstr ""
+
+# 8466a3c3869b44a29a33cc520613aba3
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "BigInt"
+msgstr ""
+
+# 64ace2deaa564e569de14fc16319a08e
+#: ../../how-the-platform-works/data-structures/network-messages.rst:166
+msgid "Transaction message"
+msgstr ""
+
+# 92d6c24214094f3da1d2b6ebb721bc73
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x19)"
+msgstr ""
+
+# 92b10c5b708c401b90e0fcdb35220ad0
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Transaction (N bytes)"
+msgstr ""
+
+# d5079fc7b1b044399553aea5bf545739
+#: ../../how-the-platform-works/data-structures/network-messages.rst:181
+msgid "Checkpoint message"
+msgstr ""
+
+# bc3de8daab3048fea866e8aa0a93aea2
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Content ID (0x64)"
+msgstr ""
+
+# 1d09b36a229145e5a6e7f7aa0db68ff0
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Checkpoint items count (N)"
+msgstr ""
+
+# 80cadc86b0c440e2acae4cef88ec3db8
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Checkpoint #1 height"
+msgstr ""
+
+# 2f470460af3d4c53948b127ea7eb3702
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Checkpoint #1 signature"
+msgstr ""
+
+# 7c19b9c07a7642f4993e5090ece1a332
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Checkpoint #N height"
+msgstr ""
+
+# eef22f9eb5604f9ba7fdcb788620dfb1
+#: ../../how-the-platform-works/data-structures/network-messages.rst:1
+msgid "Checkpoint #N signature"
+msgstr ""
+
