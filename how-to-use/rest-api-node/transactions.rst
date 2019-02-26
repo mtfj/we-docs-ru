@@ -26,7 +26,6 @@ GET /transactions/info/{id}
      "recipient": "3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8",
      "assetId": "E9yZC4cVhCDfbjFJCc9CqkAtkoFy5KaCe64iaxHM2adG",
      "amount": 100000,
-     "feeAsset": null,
      "fee": 100000,
      "timestamp": 1479313236091,
      "attachment": "string",
@@ -77,7 +76,6 @@ GET /transactions/unconfirmed
        "recipient": "3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8",
        "assetId": "E9yZC4cVhCDfbjFJCc9CqkAtkoFy5KaCe64iaxHM2adG",
        "amount": 100000,
-       "feeAsset": null,
        "fee": 100000,
        "timestamp": 1479313236091,
        "attachment": "string",
@@ -107,9 +105,9 @@ POST /transactions/calculateFee
 
    "type" - Transaction type
    "senderPublicKey" - Public key of sender
-   "sender" is ignилиed
-   "fee" is ignилиed
-   and all the other parameters appropriate fили a transaction of the given type.
+   "sender" is ignored
+   "fee" is ignored
+   and all the other parameters appropriate for a transaction of the given type.
 
 **Запрос метода**
 
