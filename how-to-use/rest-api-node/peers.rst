@@ -107,3 +107,52 @@ GET /peers/suspended
       "timestamp": 1544704754619
     }
   ]
+
+POST /peers/identity
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Получение публичного ключа пира, к которому подключается нода для передачи конфиденциальных данных.
+
+**Запрос метода:**
+
+.. code:: js
+
+  {
+    "address": "3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8",
+    "signature": "6RwMUQcwrxtKDgM4ANes9Amu5EJgyfF9Bo6nTpXyD89ZKMAcpCM97igbWf2MmLXLdqNxdsUc68fd5TyRBEB6nqf"
+  }
+
+Параметры:
+
+- address - блокчейн-адрес, который соответствует параметру "privacy.owner-address" в конфигурационном файле ноды;
+- signature - электронная подпись от значения поля "address".
+
+**Ответ метода:**
+
+.. code:: js
+
+  {
+    "publicKey": "3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8"
+  }
+    
+Параметры:
+
+- publicKey - публичный ключ пира, связанный с параметром "privacy.owner-address" в его конфигурационном файле. Если выключен режим проверки handshakes, то параметр publicKey не отображается.  
+
+
+GET /peers/hostname/{address}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Получение hostname и IP-адреса ноды по ее адресу в сети Vostok.
+
+Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/hostname/3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8
+
+**Ответ метода:**
+
+.. code:: js
+
+  {
+    "hostname": "node1.vostok.io",
+    "ip": "10.0.0.1"
+  }
+  
