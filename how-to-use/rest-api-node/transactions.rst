@@ -156,7 +156,11 @@ POST /transactions/sign
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
+.. figure:: https://img.shields.io/badge/password-optional-orange.svg
+
 Подписывает транзакцию закрытым ключом отправителя, сохраненным в keystore ноды. После подписания ответ метода должен быть подан на вход метода :ref:`Broadcast <broadcast>`
+
+Передача пароля необходима в случае, если закрытый ключ хранится в keystore ноды.
 
 **Примеры запросов**
 
