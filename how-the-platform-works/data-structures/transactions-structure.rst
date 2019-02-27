@@ -14,14 +14,14 @@
 4	  :ref:`Transfer Transaction <TransferTransaction>`
 5	  :ref:`Reissue Transaction <ReissueTransaction>`
 6	  :ref:`Burn Transaction <BurnTransaction>`
-7	  Exchange Transaction (не используется)
+7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`
 8	  :ref:`Lease Transaction <LeaseTransaction>`
 9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`
 10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`
 11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`
 12	  :ref:`Data Transaction <DataTransaction>`
 13	  :ref:`SetScript Transaction <SetScriptTransaction>`
-14	  :ref:`SponsoredFee Transaction (не используется) <SponsoredFeeTransaction>`
+14	  :ref:`SponsorFee Transaction (не используется) <SponsorFeeTransaction>`
 15    :ref:`SetAssetScript <SetAssetScriptTransaction>`
 101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`
 102   :ref:`Permission Transaction <PermitTransaction>`
@@ -29,6 +29,8 @@
 104   :ref:`CallContract Transaction <CallContractTransaction>`
 105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`
 106   :ref:`DisableContract Transaction <DisableContractTransaction>`
+110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`
+111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
 ===   ========================================================================================================================================================================================================
 
 .. _GenesisTransaction:
@@ -43,7 +45,7 @@
    id               ,       ,+      ,       ,Byte
    fee              ,       ,+      ,       ,Long
    timestamp        ,       ,+      ,+      ,Long
-   signature        ,       ,+      ,?      ,ByteStr
+   signature        ,       ,+      ,       ,ByteStr
    recipient        ,       ,+      ,+      ,ByteStr
    amount           ,       ,+      ,+      ,Long
    height           ,       ,+      ,       , 
@@ -149,6 +151,7 @@
    version          ,+      ,+      ,+      ,Byte
    recipient        ,+      ,+      ,+      ,ByteStr
    assetId          ,+ (opt),+      ,+      ,ByteStr
+   feeAssetId       ,+ (opt),+      ,+      ,Bytes
    amount           ,+      ,+      ,+      ,Long
    attachment       ,+ (opt),+      ,+      ,Bytes
    password         ,+ (opt),       ,       ,String   
@@ -322,7 +325,7 @@
    version          ,+      ,+      ,+      ,Byte
    amount           ,+      ,+      ,+      ,Long
    recipient        ,+      ,+      ,+      ,ByteStr
-   ??status         ,       ,+      ,?      ,???
+   status           ,       ,+      ,       ,
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
@@ -370,8 +373,8 @@
    proofs           ,       ,+      ,+      ,List[ByteStr]
    version          ,+      ,+      ,+      ,Byte
    chainId          ,       ,+      ,+      ,Byte
-   leaseId          ,+ (txId),+      ,+      ,Byte
-   ??lease          ,?      ,+      ,?      ,???
+   leaseId          ,+ (txId),+     ,+      ,Byte
+   lease            ,       ,+      ,       ,
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
@@ -479,8 +482,8 @@
    assetId          ,+ (opt),+      ,+      ,ByteStr
    attachment       ,+ (opt),+      ,+      ,
    transfers        ,+      ,+      ,+      ,List[Transfer]
-   transferCount    ,       ,+      ,?      ,
-   totalAmount      ,       ,+      ,?      ,
+   transferCount    ,       ,+      ,+      ,
+   totalAmount      ,       ,+      ,       ,
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
@@ -614,7 +617,7 @@
    chainId          ,       ,+      ,+      ,Byte
    version          ,+      ,+      ,+      ,Byte
    script           ,+ (opt),+      ,+      ,Bytes
-   name             ,+ ??   ,+      ,+      ,Array[Byte]
+   name             ,+      ,+      ,+      ,Array[Byte]
    description      ,+ (opt),+      ,+      ,Array[Byte]
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
@@ -653,7 +656,7 @@
 
 .. _SponsorFeeTransaction:
 
-14. SponsoredFeeTransaction
+14. SponsorFeeTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -671,7 +674,7 @@
    assetId             ,+       ,+      ,       ,ByteStr
    minSponsorAssetFee  ,+ (opt) ,       ,+      ,
    password            ,+ (opt) ,       ,       ,String
-   height              ,        ,       ,       ,
+   height              ,        ,+      ,       ,
 
 **JSON для вызова метода sign**
 
@@ -939,13 +942,6 @@
    results          ,       ,+      ,+      ,List[DataEntry[_]]
    height           ,       ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
-
 **JSON транзакции в блокчейне**
 
 .. code:: js
@@ -1019,4 +1015,60 @@
     "version": 1,
     "contractId": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
     "height": 1632 
+    }
+
+.. _GenesisRegisterNodeTransaction:
+
+110. GenesisRegisterNodeTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
+
+   type             ,       ,+      ,+      ,Byte
+   id               ,       ,+      ,       ,Byte
+   fee              ,       ,+      ,       ,Long
+   timestamp        ,       ,+      ,+      ,Long
+   signature        ,       ,+      ,       ,Bytes
+   version          ,       ,       ,+      ,Byte
+   targetPubKey     ,       ,+      ,+      ,
+   height           ,       ,+      ,       ,
+
+**JSON транзакции в блокчейне**
+
+.. code:: js
+
+    {
+    
+    }
+
+.. _RegisterNodeTransaction:
+
+111. RegisterNodeTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
+
+   type             ,+      ,+      ,+      ,Byte
+   id               ,       ,+      ,       ,Byte
+   sender           ,+      ,+      ,       ,PublicKeyAccount
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
+   fee              ,       ,+      ,       ,Long
+   timestamp        ,+ (opt),+      ,+      ,Long
+   proofs           ,       ,+      ,+      ,List[ByteStr]
+   version          ,       ,       ,+      ,Byte
+   targetPubKey     ,+      ,+      ,+      ,PublicKeyAccount
+   nodeName         ,+      ,+      ,+      ,String
+   opType           ,+      ,+      ,+      ,
+   height           ,       ,+      ,       ,
+
+**JSON транзакции в блокчейне**
+
+.. code:: js
+
+    {
+    
     }
