@@ -15,7 +15,7 @@ REST API ноды
 
 Генерация значения поля ``rest-api.api-key-hash`` выполняется с использованием метода :ref:`/utils/hash/secure <utils-hash>` REST API ноды.
 
-В случае, если закрытый ключ хранится в ключевом хранилище ноды, перед публикацией транзакции в блокчейн-сети она должна быть подписана (вызов метода sign). Для этого необходимо передать в поле ``password`` транзакции пароль к закрытому ключу пользователя.
+Для подписания запросов ключем из keystore ноды в поле ``password`` запроса ``POST /transaction/sign`` требуется указания пароля доступа к keystore.
 
 Пример запроса: 
 
@@ -46,6 +46,7 @@ REST API ноды
    rest-api-node/node.rst
    rest-api-node/peers.rst
    rest-api-node/permissions.rst
+   rest-api-node/privacy.rst
    rest-api-node/transactions.rst
    rest-api-node/utils.rst
 
