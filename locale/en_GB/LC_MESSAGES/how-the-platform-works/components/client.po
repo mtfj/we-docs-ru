@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# a03210f7debc4767bf0b91feff5d3b1d
+#: ../../how-the-platform-works/components/client.rst:4
+msgid "Общее описание клиента"
+msgstr ""
+
+# 8bda5d551b244560b2c5c28a0451d5f0
+#: ../../how-the-platform-works/components/client.rst:6
+msgid ""
+"Клиент Vostok — это удобный способ управления вашим блокчейном для "
+"взаимодействия с партнёрами в публичной сети."
+msgstr ""
+
+# 956498f1aeba4cbfb94c102d9ab259aa
+#: ../../how-the-platform-works/components/client.rst:10
+msgid ""
+"**Клиент включает в себя разделы для использования всех возможностей "
+"блокчейна:**"
+msgstr ""
+
+# fc3275bea19b42c6859c71c1fca8673e
+#: ../../how-the-platform-works/components/client.rst:12
+msgid ""
+"Раздел «Данные» — позволяет легко найти информацию о транзакциях или "
+"пользователях благодаря гибкому поиску и развитой системе фильтров."
+msgstr ""
+
+# 5e5aee83cf21404c8fd44cdc7b25488b
+#: ../../how-the-platform-works/components/client.rst:13
+msgid ""
+"Раздел «Токены» — позволяет совершать транзакции, работать с наборами "
+"токенов."
+msgstr ""
+
+# 2fc62f72da8d493089146e23de08a927
+#: ../../how-the-platform-works/components/client.rst:14
+msgid ""
+"Раздел «Настройки» — позволит управлять разрешениями на действия "
+"пользователей в блокчейне и присваивать аккаунтам уникальные имена для "
+"удобства администрирования."
+msgstr ""
+
+# 4ff423e665a14d3cad94f4b60dc9272c
+#: ../../how-the-platform-works/components/client.rst:15
+msgid ""
+"Раздел «Запись данных» — позволит отправлять из интерфейса транзакции с "
+"данными и файлы."
+msgstr ""
+
+# 785435c47d3549c7a8e696e82d115bc2
+#: ../../how-the-platform-works/components/client.rst:16
+msgid ""
+"Раздел «Контракты» — позволит просматривать и редактировать код Тьюринг "
+"неполных контрактов, отлаживать и публиковать их. Также компонент "
+"предоставит удобные инструменты для работы с docker-репозиторием для "
+"Тьюринг-полных контрактов."
+msgstr ""
+
+# 4c77649007f645f78657993bad46ddfd
+#: ../../how-the-platform-works/components/client.rst:17
+msgid ""
+"Раздел «Мониторинг» — позволит в реальном времени отслеживать следующую "
+"нагрузку на блокчейн: объем транзакций, скорость их прохождения, "
+"потенциальные угрозы целостности цепочки."
+msgstr ""
+
+# 7c2fc23ca3cc4b78a5ff46f4e91c1277
+#: ../../how-the-platform-works/components/client.rst:18
+msgid ""
+"Сервис подготовки данных — не обладает пользовательским интерфейсом. "
+"Агрегирует данные из блокчейна для предоставления на клиент."
+msgstr ""
+

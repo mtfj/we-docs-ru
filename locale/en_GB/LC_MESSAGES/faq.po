@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: 2019-02-17 16:21+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"X-Generator: Poedit 2.2.1\n"
+
+# ad9de425eeac497999697eac5a4997ef
+#: ../../faq.rst:2
+msgid "Вопросы и ответы"
+msgstr "FAQ"
+
+# f463388880644d87ae797524d7b1e90c
+#: ../../faq.rst:5
+msgid "Организационные вопросы"
+msgstr "Organizational issues"
+
+# 8f09f67cc4ba40bdb123a42076a44031
+#: ../../faq.rst:8
+msgid "Как связаться с технической поддержкой?"
+msgstr "How do I contact technical support?"
+
+# e6022834df0e49c2883454f80c95d2b2
+#: ../../faq.rst:10
+msgid ""
+"Для контакта с технической поддержкой используйтей адрес "
+"`support@vostok.io <mailto: support@vostok.io>`_."
+msgstr ""
+"For contact with technical support, use the address "
+"'support@vostok.io <mailto: Support@vostok.io >'_."

@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# dc564b9c4bd7406c9ab78df2a6c167fc
+#: ../../how-to-use/rest-api-node/peers.rst:2
+msgid "Peers"
+msgstr ""
+
+# 8d58dee9d9514b86ae85aedbe94a206e
+#: ../../how-to-use/rest-api-node/peers.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# 7cac39c8844c4b15b4ce13f0c768e922
+#: ../../how-to-use/rest-api-node/peers.rst:7
+msgid "POST /peers/connect"
+msgstr ""
+
+# f296992d8ea54c889695892b7f60f0aa
+#: ../../how-to-use/rest-api-node/peers.rst:11
+msgid "Запрос на подключение нового узла к ноде."
+msgstr ""
+
+# b77350e7a3284642ae6315f3efa6b840
+# 371ef1f7d03943a7b2782168b5bf62bb
+#: ../../how-to-use/rest-api-node/peers.rst:13
+#: ../../how-to-use/rest-api-node/peers.rst:84
+msgid "**Запрос метода:**"
+msgstr ""
+
+# c449bc6e9e324ed3a9812e5e00180db4
+# 8f4b20b2d7974b8f94508bb789c19fe7
+# e7574ae2b77c4fea829efdcc622f0636
+# 3111e02da0e649eeaa8ee6ac15bde923
+# 820ce2a4ad7144ee849081c2b0e1f265
+#: ../../how-to-use/rest-api-node/peers.rst:22
+#: ../../how-to-use/rest-api-node/peers.rst:35
+#: ../../how-to-use/rest-api-node/peers.rst:64
+#: ../../how-to-use/rest-api-node/peers.rst:88
+#: ../../how-to-use/rest-api-node/peers.rst:100
+msgid "**Ответ метода:**"
+msgstr ""
+
+# e11d54e990a84215bc1774b52391e7b9
+#: ../../how-to-use/rest-api-node/peers.rst:32
+msgid "GET /peers/connected"
+msgstr ""
+
+# ab10a590f777470f9037e826c1b3e486
+#: ../../how-to-use/rest-api-node/peers.rst:33
+msgid "Возвращает список подключенных нод."
+msgstr ""
+
+# c7e1716e690f48b6806c1939520f9327
+#: ../../how-to-use/rest-api-node/peers.rst:57
+msgid "GET /peers/blacklisted"
+msgstr ""
+
+# 32a867e38caa40b690b370f74d7e2596
+#: ../../how-to-use/rest-api-node/peers.rst:58
+msgid "Возвращает список заблокированных (на сетевом уровне) нод."
+msgstr ""
+
+# c6778e55cca646d09ddbd1e1728f1f21
+#: ../../how-to-use/rest-api-node/peers.rst:61
+msgid "GET /peers/all"
+msgstr ""
+
+# db8a79c408804254bd41f8614a4661cb
+#: ../../how-to-use/rest-api-node/peers.rst:62
+msgid "Возвращает список всех известных нод."
+msgstr ""
+
+# c708682797f44ad39564d92d7135b036
+#: ../../how-to-use/rest-api-node/peers.rst:78
+msgid "POST /peers/clearblacklist"
+msgstr ""
+
+# 5db88c5b946942cc8e4dfd477770e25c
+#: ../../how-to-use/rest-api-node/peers.rst:82
+msgid "Очищает список заблокированных нод."
+msgstr ""
+
+# 3faac2d7426a4941baf1ae4c439e7d3e
+#: ../../how-to-use/rest-api-node/peers.rst:86
+msgid "Объект запроса передавать не обязательно."
+msgstr ""
+
+# 0e5cd6344e894123a7ec78a66bd884c6
+#: ../../how-to-use/rest-api-node/peers.rst:97
+msgid "GET /peers/suspended"
+msgstr ""
+
+# d6a78f56624743dc828e56debc02bd9c
+#: ../../how-to-use/rest-api-node/peers.rst:98
+msgid "Возвращает список suspended нод."
+msgstr ""
+

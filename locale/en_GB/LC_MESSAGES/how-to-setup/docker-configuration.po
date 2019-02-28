@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 74e81312dc6c4a2fa8c0124e88e3d889
+#: ../../how-to-setup/docker-configuration.rst:4
+msgid "Запуск docker-контрактов"
+msgstr ""
+
+# 5aca8633f3e842028f0022a7be04e0ef
+#: ../../how-to-setup/docker-configuration.rst:6
+msgid ""
+"Установка и исполнение docker-контрактов задается объектом ``docker-"
+"engine`` в конфигурационном файле ноды."
+msgstr ""
+
+# 99241a3a9d2d4276ab23f1cc2c6b486b
+#: ../../how-to-setup/docker-configuration.rst:32
+msgid "**Параметры:**"
+msgstr ""
+
+# 50fe77ae7c314ec7be7113f2ad6241ce
+#: ../../how-to-setup/docker-configuration.rst:34
+msgid ""
+"``enable`` - включение обработки транзакций для docker-контрактов "
+"(yes/no);"
+msgstr ""
+
+# c2ffd42ff7e745558fa3ef95e3f621cd
+#: ../../how-to-setup/docker-configuration.rst:35
+msgid ""
+"``integration-tests-mode-enable`` - режим тестирования docker-контрактов "
+"(yes/no);"
+msgstr ""
+
+# 11d217b1960e40c5a2f7454b3a00290d
+#: ../../how-to-setup/docker-configuration.rst:36
+msgid "``timeout`` - таймаут на выполнение контракта (в секундах);"
+msgstr ""
+
+# cabeff5657d246b89a2a9a7b3c7612f5
+#: ../../how-to-setup/docker-configuration.rst:37
+msgid "``memory`` - ограничение по памяти для контейнера контракта (в Мб);"
+msgstr ""
+
+# 2d4cd97320f14cc385d2b5f827ae4866
+#: ../../how-to-setup/docker-configuration.rst:38
+msgid ""
+"``stop-container-after-execution`` - обязательность остановки контейнера "
+"после исполнения (yes/no);"
+msgstr ""
+
+# ca40e934270c4311afaab877a6dda999
+#: ../../how-to-setup/docker-configuration.rst:39
+msgid ""
+"``remove-container-after-execution`` - обязательность удаления контейнера"
+" после исполнения (yes/no);"
+msgstr ""
+
+# 32257acce69640ed94de9d80958d8543
+#: ../../how-to-setup/docker-configuration.rst:40
+msgid "``allow-net-access`` - доступ к сети (yes/no);"
+msgstr ""
+
+# 32841b922e444f14aa2572a158a6f518
+#: ../../how-to-setup/docker-configuration.rst:41
+msgid ""
+"``remove-containers-on-shutdown`` - обязательность удаления всех "
+"контейнеров контрактов при остановке ноды (yes/no);"
+msgstr ""
+
+# 2d6f12d8326846998d943d103c39d079
+#: ../../how-to-setup/docker-configuration.rst:42
+msgid "``remote-registries`` - адреса удаленных репозиториев и доступов к ним;"
+msgstr ""
+
+# 1bc5a06fbe214ac798f1946b47c26ed1
+#: ../../how-to-setup/docker-configuration.rst:43
+msgid ""
+"``check-registry-auth-on-startup`` - обязательность проверки авторизации "
+"к репозиториям при запуске ноды (yes/no);"
+msgstr ""
+
+# 5a1409085cc74a458a6bb7b19b182466
+#: ../../how-to-setup/docker-configuration.rst:44
+msgid ""
+"``check-image-hash`` - обязательность проверки hash-суммы контракта перед"
+" его запуском. Проверка ведется по hash-сумме из CreateContract "
+"транзакции (yes/no)."
+msgstr ""
+

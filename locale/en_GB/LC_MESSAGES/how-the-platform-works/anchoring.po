@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 15207942314f488faba46edaa58bef63
+#: ../../how-the-platform-works/anchoring.rst:4
+msgid "Анкоринг"
+msgstr ""
+
+# be26a48c06ad4de4b87b6c2af200f7e9
+#: ../../how-the-platform-works/anchoring.rst:5
+msgid ""
+"В приватном блокчейне транзакции обрабатывает определенный список "
+"участников, каждый из которых заранее известен. Малое, по сравнению с "
+"публичным, количество участников, блоков и транзакций в приватном "
+"блокчейне несёт угрозу подмены информации. Перезапись цепочки блоков и "
+"транзакций, особенно в случае использования PoS консенсуса, становится "
+"реальной."
+msgstr ""
+
+# 13be784bdb7248ddb88f92eff15d12fe
+#: ../../how-the-platform-works/anchoring.rst:9
+msgid ""
+"Для повышения доверия участников приватного блокчейна к размещенным в нём"
+" данным разработан механизм анкоринга. Анкоринг позволяет проверить "
+"данные на неизменность. Гарантия неизменности достигается публикацией "
+"данных из приватного блокчейна в более крупную сеть, где подмена данных "
+"маловероятна из-за большего количества участников и блоков. Публикуемые "
+"данные — хэш от блоков приватной сети."
+msgstr ""
+
+# 9ea34203044047089144d4746a273961
+#: ../../how-the-platform-works/anchoring.rst:13
+msgid "Анкоринг работает следующим образом:"
+msgstr ""
+
+# 3ddc2adb7df7410e9f731299cd5b12bf
+#: ../../how-the-platform-works/anchoring.rst:15
+msgid ""
+"В конфигурационном файле указывается период анкоринга: раз в 10 блоков, "
+"раз в 100 блоков или иной."
+msgstr ""
+
+# 0e54e9a0cc20479e9f88734826dab108
+#: ../../how-the-platform-works/anchoring.rst:16
+msgid ""
+"Приватный блокчейн начинает регулярно создавать транзакции с данными в "
+"основной сети. Данные содержат хеш блока приватной сети и его высоту."
+msgstr ""
+
+# 3dadd2c77c8344118a2b6ea5eb27cf44
+#: ../../how-the-platform-works/anchoring.rst:17
+msgid ""
+"Нода приватной сети дожидается подтверждения успешной записи транзакции "
+"от основной сети, и получает идентификатор этой транзакции с данными."
+msgstr ""
+
+# dc9599d6f06b4f63901b55d90b1e2b8a
+#: ../../how-the-platform-works/anchoring.rst:18
+msgid ""
+"Затем, в приватной сети публикуется такая же транзакция с данными, "
+"дополнительно содержащая идентификатор транзакции с этими данными в "
+"основной сети."
+msgstr ""
+
+# b5c51e82469f442681cf953d1013fc6e
+#: ../../how-the-platform-works/anchoring.rst:20
+msgid ""
+"Взаимная связность двух и более сетей повышает их стойкость, т.к. для "
+"подлога или изменнения данных в результате `long-range атаки "
+"<https://medium.com/@abhisharm/understanding-proof-of-stake-through-its-"
+"flaws-part-3-long-range-attacks-672a3d413501/>`_  необходимо атаковать "
+"все связанные сети."
+msgstr ""
+

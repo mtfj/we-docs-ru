@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# fcdc52c0cf894bc0860c615ae0fbf9fa
+#: ../../how-to-use/rest-api-node.rst:4
+msgid "REST API ноды"
+msgstr ""
+
+# 2f2e0200dcef461ebf1e6a8ab1876bbc
+#: ../../how-to-use/rest-api-node.rst:6
+msgid ""
+"Блокчейн-платформа Восток предоставляет возможность взаимодействия с "
+"блокчейном, как в части получения данных (транзакции, блоки, балансы и "
+"др.), так и в части записи инфомрации в блокчейн (подписание и отправка "
+"транзакций). Указанное взаимодействие реализуется посредством RESTful API"
+" ноды."
+msgstr ""
+
+# aaa58f4780c5454394daec7235ea47be
+#: ../../how-to-use/rest-api-node.rst:8
+msgid "Для запросов, требующих:"
+msgstr ""
+
+# 389bc81600364ad1b6a460bb36011398
+#: ../../how-to-use/rest-api-node.rst:10
+msgid "доступ к keystore ноды (например, метод sign);"
+msgstr ""
+
+# 4aa46857cf5b41c68602fb60cf208088
+#: ../../how-to-use/rest-api-node.rst:11
+msgid "изменяющих состояние ноды (например, метод broadcast);"
+msgstr ""
+
+# 536ec4a687db409485b1f41d064a8537
+#: ../../how-to-use/rest-api-node.rst:12
+msgid "доступ к конфигурации ноды;"
+msgstr ""
+
+# 62ab7a123b8347388c1b41758afbd72a
+#: ../../how-to-use/rest-api-node.rst:14
+msgid ""
+"требуется обязательная передача параметра ``X-Api-Key`` со значением "
+"секретной фразы, hash которой указан в конфигурационном файле ноды (поле "
+"``rest-api.api-key-hash``)."
+msgstr ""
+
+# 69171307c2c243f78aab78c2e0d418a9
+#: ../../how-to-use/rest-api-node.rst:16
+msgid ""
+"Генерация значения поля ``rest-api.api-key-hash`` выполняется с "
+"использованием метода :ref:`/utils/hash/secure <utils-hash>` REST API "
+"ноды."
+msgstr ""
+
+# 738422825a7f4d50821e50e6113b325f
+#: ../../how-to-use/rest-api-node.rst:18
+msgid "Пример запроса:"
+msgstr ""
+
+# 55ac86edee5142039227572c5f71236b
+#: ../../how-to-use/rest-api-node.rst:28
+msgid "Примеры транзакций приведены на странице :ref:`transaction-example`."
+msgstr ""
+
+# cc999ab1a3384fa3ae893a894102efcd
+#: ../../how-to-use/rest-api-node.rst:30
+msgid "**Спецификация интерфейса ноды**"
+msgstr ""
+

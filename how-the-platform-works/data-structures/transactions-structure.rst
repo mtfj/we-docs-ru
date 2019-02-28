@@ -1,3 +1,5 @@
+.. _transaction-structure:
+
 Транзакции
 =====================
 
@@ -35,7 +37,7 @@
 
 .. _GenesisTransaction:
 
-1. GenesisTransaction
+1. Genesis transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
@@ -215,19 +217,6 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,       ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
-
-**JSON транзакции в блокчейне**
-
-.. code:: js
-
-    {
-    }
 
 .. _BurnTransaction:
 
@@ -253,19 +242,6 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,       ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
-
-**JSON транзакции в блокчейне**
-
-.. code:: js
-
-    {
-    }
 
 .. _ExchangeTransaction:
 
@@ -292,20 +268,6 @@
    sellMatcherFee   ,       ,+          ,+      ,Long
    height           ,       ,           ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
-
-**JSON транзакции в блокчейне**
-
-.. code:: js
-
-    {
-    }
-
 .. _LeaseTransaction:
 
 8. LeaseTransaction
@@ -329,12 +291,6 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
 
 **JSON транзакции в блокчейне**
 
@@ -378,12 +334,6 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
 
 **JSON транзакции в блокчейне**
 
@@ -437,12 +387,6 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
 
 **JSON транзакции в блокчейне**
 
@@ -487,12 +431,6 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
 
 **JSON транзакции в блокчейне**
 
@@ -676,19 +614,6 @@
    password            ,+ (opt) ,       ,       ,String
    height              ,        ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
-
-**JSON транзакции в блокчейне**
-
-.. code:: js
-
-    {
-    }
 
 .. _SetAssetScriptTransaction:
 
@@ -713,12 +638,6 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
 
 **JSON транзакции в блокчейне**
 
@@ -757,12 +676,6 @@
    role             ,       ,+      ,+      ,String
    height           ,       ,       ,       ,
 
-**JSON транзакции в блокчейне**
-
-.. code:: js
-
-    {
-    }
 
 .. _PermitTransaction:
 
@@ -788,13 +701,6 @@
    dueTimestamp     ,+ (opt),+      ,       ,Option[Long]
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
-
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
 
 **JSON транзакции в блокчейне**
 
@@ -993,12 +899,6 @@
    contractId       ,+      ,+      ,+      ,ByteStr
    height           ,       ,+      ,       ,
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-    {
-    }
 
 **JSON транзакции в блокчейне**
 
@@ -1035,14 +935,6 @@
    targetPubKey     ,       ,+      ,+      ,
    height           ,       ,+      ,       ,
 
-**JSON транзакции в блокчейне**
-
-.. code:: js
-
-    {
-    
-    }
-
 .. _RegisterNodeTransaction:
 
 111. RegisterNodeTransaction
@@ -1065,10 +957,3 @@
    opType           ,+      ,+      ,+      ,
    height           ,       ,+      ,       ,
 
-**JSON транзакции в блокчейне**
-
-.. code:: js
-
-    {
-    
-    }

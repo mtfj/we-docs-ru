@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 502372226a4946c69129552e642538fe
+#: ../../how-the-platform-works/smart-contracts/docker.rst:8
+msgid "Cмарт-контракты Docker"
+msgstr ""
+
+# daf8330661334914888676432d3a4537
+#: ../../how-the-platform-works/smart-contracts/docker.rst:10
+msgid "Функциональность Docker-контрактов доступна начиная с релиза версии 0.8."
+msgstr ""
+
+# b60ae41cb90d4439bc9cd13759bb2232
+#: ../../how-the-platform-works/smart-contracts/docker.rst:12
+msgid ""
+"В дополнение к контрактам, реализованным на базе :ref:`скриптов RIDE "
+"<ride>` для смарт-аккаунтов и смарт-ассетов, платформа Vostok "
+"предоставляет возможность разработки и использования Тьюринг-полных "
+"смарт-контрактов. Для реализации Тьюринг-полных контрактов выбран подход,"
+" в котором программы запускаются в изолированной среде Docker-контейнера."
+" При этом разработка приложений может выполняться без ограничений на "
+"используемый язык программирования. Каждое приложение запускается в "
+"Docker-контейнере для возможности изоляции и управления ресурсами, "
+"доступными конкретному приложению. Для хранения смарт-контрактов "
+"используется Docker Registry с доступом на чтение образов (Docker images)"
+" контрактов для машин с нодами. Доступ к состоянию ноды выполняется через"
+" REST API ноды."
+msgstr ""
+
+# baf94875d38248eabda218f210b48c2b
+#: ../../how-the-platform-works/smart-contracts/docker.rst:25
+msgid "Создание контракта"
+msgstr ""
+
+# 18c52247b1374e90b3b04d6446134181
+#: ../../how-the-platform-works/smart-contracts/docker.rst:27
+msgid ""
+"Создание смарт-контракта начинается с подготовки Docker-образа, который "
+"состоит из программного кода контракта, необходимого окружения и из "
+"специального сценарного файла Dockerfile. Подготовленный Docker-образ "
+"собирается (build) и отправляется в Docker Registry."
+msgstr ""
+
+# 3591539e6eeb44e6b55e3d55b5f6ef5f
+#: ../../how-the-platform-works/smart-contracts/docker.rst:30
+msgid "Пример Dockerfile: ::"
+msgstr ""
+
+# 7a3441b1117a4cbfa2f2d693c65f02dc
+#: ../../how-the-platform-works/smart-contracts/docker.rst:38
+msgid ""
+"Установка контракта реализуется через публикацию специальной "
+"(CreateContractTransaction) транзакции, содержащей ссылку на образ в "
+"Docker Registry. После получения транзакции нода скачивает образ по "
+"указанной в поле \"image\" ссылке, образ проверяется и запускается в виде"
+" Docker-контейнера."
+msgstr ""
+
+# 7a642afe38734d5d848c285b1c51d900
+#: ../../how-the-platform-works/smart-contracts/docker.rst:42
+msgid "Исполнение контракта"
+msgstr ""
+
+# b3ddff6948f2495799609e66110e757d
+#: ../../how-the-platform-works/smart-contracts/docker.rst:44
+msgid ""
+"Исполнение смарт-контрактов инициируется специальной "
+"(CallContractTransaction) транзакцией, в которой содержится идентификатор"
+" контракта и параметры для его вызова. По идентификатору транзакции "
+"определяется Docker-контейнер. Контейнер запускается, если не был запущен"
+" ранее. В контейнер передаются параметры запуска контракта. | "
+"Смарт-контракты изменяют своё состояние через обновление пар ключ - "
+"значение."
+msgstr ""
+
+# 87da7c0d9450419497ad12c56280d887
+#: ../../how-the-platform-works/smart-contracts/docker.rst:49
+msgid "Обновление контракта"
+msgstr ""
+
+# 0ce99b0cbe214aeca9da9ede389de12b
+#: ../../how-the-platform-works/smart-contracts/docker.rst:51
+msgid ""
+"Для обновления контракта его измененный код должен быть выложен в Docker "
+"Registry и опубликована специальная (UpdateContractTransaction) "
+"транзакция. В транзакции указывается ссылка на идентификатор контракта и "
+"обновленный Docker image."
+msgstr ""
+
+# 5233672fbde44a248f97127af63b379a
+#: ../../how-the-platform-works/smart-contracts/docker.rst:54
+msgid "Запрет вызова контракта"
+msgstr ""
+
+# 4c062aeee72a4b529dca43013952bcca
+#: ../../how-the-platform-works/smart-contracts/docker.rst:56
+msgid ""
+"При необходимости разработчик контракта может запретить его вызов. Для "
+"этого публикуется специальная (DisableContractTransaction) транзакция с "
+"указанием идентификатора контракта."
+msgstr ""
+
+# 8cbc48dc2ec948389ee309f5e051727a
+#: ../../how-the-platform-works/smart-contracts/docker.rst:59
+msgid "Описание транзакций"
+msgstr ""
+
+# 2818fce07499436c8bb3d7d227ac63c6
+#: ../../how-the-platform-works/smart-contracts/docker.rst:61
+msgid ""
+"Для реализации взаимодействия между блокчейном и Docker контрактом "
+"реализованы следующие транзакции:"
+msgstr ""
+
+# a3e76703a842476fbe6bcda99e322761
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "Код"
+msgstr ""
+
+# 8fb71b79c7c048e6b6529b1689394ef0
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "Тип транзакции"
+msgstr ""
+
+# d02a4343df9f4303a64cb2bc82cddeb5
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "Назначение"
+msgstr ""
+
+# 31075debffe1435c98f65dbf4c187dbe
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "103"
+msgstr ""
+
+# b13de986104e47a2bb391bb88ff2222a
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ":ref:`CreateContractTransaction <CreateContractTransaction>`"
+msgstr ""
+
+# ddf901798eac4227a928aa9e30b9bfdf
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ""
+"Инициализация контракта. Подписание транзакции производится пользователем"
+" с ролью :ref:`\"contract_developer\" <authorization>`"
+msgstr ""
+
+# eee3a5f4ea7b4f38bf6e16c6678db11b
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "104"
+msgstr ""
+
+# fceccd9d5930488e9f28ddc3f47a9960
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ":ref:`CallContractTransaction <CallContractTransaction>`"
+msgstr ""
+
+# c2584906385d4f28a47aa913b73595da
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ""
+"Вызов контракта. Подписание транзакции производится инициатором "
+"исполнения контракта"
+msgstr ""
+
+# 0073ef902f134af3ac515b6326bc95c2
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "105"
+msgstr ""
+
+# 7087acc3f5b847619ba4399170adfbfa
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ":ref:`ExecutedContractTransaction <ExecutedContractTransaction>`"
+msgstr ""
+
+# f48d9554b3ed496e978761fcd8c52927
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ""
+"Запись результата исполнения контракта на стейт контракта. |br|  "
+"Подписание транзакции производится нодой, формирующей блок"
+msgstr ""
+
+# cca767ba0e464b3985d75a5b7ee8f066
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "106"
+msgstr ""
+
+# bd98e01fbceb4dc29913afb4d770c473
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ":ref:`DisableContractTransaction <ExecutedContractTransaction>`"
+msgstr ""
+
+# eafd2568e2aa4c45834e287d1efa3567
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ""
+"Запрет вызова контракта. |br|  Подписание транзакции производится "
+"пользователем с ролью :ref:`\"contract_developer\" <authorization>`"
+msgstr ""
+
+# 664f533775cc441db91475143610d816
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid "107"
+msgstr ""
+
+# bf7b0954af90457898c4dfa49eeb24c1
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ":ref:`UpdateContractTransaction <UpdateContractTransaction>`"
+msgstr ""
+
+# a7aa7a224b6d497888727097558d4f60
+#: ../../how-the-platform-works/smart-contracts/docker.rst:1
+msgid ""
+"Обновление кода контракта. |br|  Подписание транзакции производится "
+"пользователем с ролью :ref:`\"contract_developer\" <authorization>`"
+msgstr ""
+
+# 3c36da40ecba428bbd79ee26e1e1495e
+#: ../../how-the-platform-works/smart-contracts/docker.rst:74
+msgid "Конфигурация ноды"
+msgstr ""
+
+# ffaf440fd67847b48310fcbbe05330fb
+#: ../../how-the-platform-works/smart-contracts/docker.rst:76
+msgid ""
+"Скачивание и исполнение Docker-контрактов, инициированных транзакциями с "
+"кодами ``103 - 107`` выполняется на нодах с включенной опцией ``docker-"
+"engine.enable = yes`` (подробнее в разделе :ref:`\"Установка и "
+"настройка\" > \"Запуск Docker-контрактов\" <docker-configuration>`)."
+msgstr ""
+
+# 0688c69c7611419a8519fc3bb5234ca6
+#: ../../how-the-platform-works/smart-contracts/docker.rst:80
+msgid "REST API"
+msgstr ""
+
+# f974e2aae0a640c3814ec6da2683a66d
+#: ../../how-the-platform-works/smart-contracts/docker.rst:82
+msgid ""
+"Описание REST API Docker-контрактов приведено в разделе "
+":ref:`\"Использование\" > \"REST API ноды\" > \"Contracts\" <contracts>`."
+msgstr ""
+
+# ab3cec911dc24dcf9f144a2e12c0f2f7
+#: ../../how-the-platform-works/smart-contracts/docker.rst:85
+msgid "Примеры реализации"
+msgstr ""
+
+# fec8c730df3947f68777dd3ec5b470ea
+#: ../../how-the-platform-works/smart-contracts/docker.rst:87
+msgid ":ref:`Создание простого контракта <first-contract-tutorial>`"
+msgstr ""
+

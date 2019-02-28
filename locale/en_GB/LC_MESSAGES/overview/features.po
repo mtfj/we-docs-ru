@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# ad22c7508f6448c39af6facfe73f99d0
+#: ../../overview/features.rst:2
+msgid "Возможности платформы"
+msgstr ""
+
+# 8186d367190b4896a5fcd2e640a3649f
+#: ../../overview/features.rst:4
+msgid "**Ключевые особенности:**"
+msgstr ""
+
+# 330c0afba16d4db791d3241d2ed5b51c
+#: ../../overview/features.rst:6
+msgid ""
+"Использование протокола Waves NG  и оптимизация сетевых протоколов "
+"позволяет достичь пропускной способности 1200 tps."
+msgstr ""
+
+# ff1d824e49494eac82e7e351b194cca7
+#: ../../overview/features.rst:7
+msgid ""
+"Майнинг блоков и операции различных типов в сети выполняются "
+"авторизованными участниками."
+msgstr ""
+
+# 2cf385ddd0e042e598dbab6de0dcc634
+#: ../../overview/features.rst:8
+msgid ""
+"Возможность выбора криптографических алгоритмов и алгоритма консенсуса "
+"для приватного проекта."
+msgstr ""
+
+# f35c6d29123c42b7b287a6831392eb80
+#: ../../overview/features.rst:9
+msgid ""
+"All-in-one: Blockchain Explorer, Smart contracts toolkit, Token wallet, "
+"Permission manager, Node Configuration, Monitoring dashboards."
+msgstr ""
+
+# 3ab13ee2be154a14954dd8f9fc51bac2
+#: ../../overview/features.rst:10
+msgid ""
+"Смарт-аккаунты на языке RIDE или Тьюринг-полные смарт-контракты на любом "
+"языке программирования."
+msgstr ""
+
+# 1e8a50a82f7149e88634aad02f807fe5
+#: ../../overview/features.rst:11
+msgid ""
+"Sidechain. Перемещение активов и информации между проектами на Vostok "
+"Platform."
+msgstr ""
+
+# 1d2de1ff147e4dee8d77c91bf46d58e4
+#: ../../overview/features.rst:12
+msgid ""
+"Построение аналитических отчетов на основе информации из блокчейн, "
+"передача данных в сторонние системы."
+msgstr ""
+
+# 09f0b08411584b9ebdb320db589d2695
+#: ../../overview/features.rst:14
+msgid "Подробнее в разделе \"Как устроена платформа\""
+msgstr ""
+

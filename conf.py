@@ -68,7 +68,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Vostok'
-copyright = u'2017, vostok'
+copyright = u'2018 - 2019, vostok'
 author = u'vostok'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -102,14 +102,6 @@ todo_include_todos = True
 
 
 # -- Options for HTML output ----------------------------------------------
-
-
-
-
-
-
-
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
@@ -206,3 +198,7 @@ latex_logo = '_static/img/logo.png'
 
 # Example configuration for intersphinx: refer to the Python standard library.
 # intersphinx_mapping = {'https://docs.python.org/': None
+
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
+gettext_uuid = True

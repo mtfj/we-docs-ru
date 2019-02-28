@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 449eab6491c94d399f38aa75d947598a
+#: ../../how-to-setup/install-node.rst:4
+msgid "Установка ноды"
+msgstr ""
+
+# eedeb0463255426cab2c2095896b7401
+#: ../../how-to-setup/install-node.rst:9
+msgid "Установка на Windows"
+msgstr ""
+
+# f7f48891a3f1479bbf9d5cc53a5b33d5
+#: ../../how-to-setup/install-node.rst:11
+msgid ""
+"**Последовательность действий для установки ноды на операционную систему "
+"Windows**"
+msgstr ""
+
+# a7470cffd48c4ba998413010fc4611db
+# 26e9204e365d482f8c4344633ed92ef4
+#: ../../how-to-setup/install-node.rst:13
+#: ../../how-to-setup/install-node.rst:61
+msgid ""
+"Скачать и установить `JRE 1.8 (64-bit) "
+"<http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_"
+msgstr ""
+
+# 924b49024c97494f960df351a6cbce87
+#: ../../how-to-setup/install-node.rst
+msgid "Корректность установки можно проверить командой ``java -version``."
+msgstr ""
+
+# 05997f27c3ad4b35ae93445219f3b8f6
+#: ../../how-to-setup/install-node.rst
+msgid ""
+"Если отображается следующий результат, то можно переходить к следующему "
+"шагу."
+msgstr ""
+
+# fb35f2e6103443178f7e3105e4a91dec
+# 638db0f2e2ff49719282771dbf1b8169
+#: ../../how-to-setup/install-node.rst:23
+#: ../../how-to-setup/install-node.rst:78
+msgid ""
+"Скачать и установить `CryptoPro JCP 2.0 "
+"<https://www.cryptopro.ru/products/csp/jcp>`_ (или версию выше)."
+msgstr ""
+
+# 32eec855a18c4fcb8a8743ca0a1e72c7
+#: ../../how-to-setup/install-node.rst
+msgid "При скачивании дистрибутива необходимо пройти регистрацию на сайте."
+msgstr ""
+
+# 0960e3d071694215a32d051857a78126
+#: ../../how-to-setup/install-node.rst
+msgid ""
+"При установке `CryptoPro JCP 2.0 "
+"<https://www.cryptopro.ru/products/csp/jcp>`_ необходимо убедиться что "
+"указан верный путь до исполняемого файла пакета JRE:"
+msgstr ""
+
+# 89e2ec390cef4a6980f513a8b094cb1a
+#: ../../how-to-setup/install-node.rst
+msgid ""
+"Если в процессе инсталляции возникают ошибки, связанные с JRE, то "
+"необходимо проверить корректность пути до файла java.exe пакета JRE, "
+"указанного в системной переменной ``PATH``"
+msgstr ""
+
+# 01568f6c1c5e41069b465fef960ec97b
+#: ../../how-to-setup/install-node.rst:35
+msgid ""
+"Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-"
+"Releases/releases>`_ ноды в jar-формате и конфигурационный файл "
+"`example.conf <https://github.com/vostokplatform/Vostok-"
+"Releases/blob/master/configs/example.conf>`_"
+msgstr ""
+
+# a09108dd0aa440728e0eec64870fea17
+#: ../../how-to-setup/install-node.rst
+msgid "Самая свежая версия приложений находится в шапке страницы:"
+msgstr ""
+
+# 907cfc11ce904e51aa5390d98b82915b
+#: ../../how-to-setup/install-node.rst:41
+msgid "node-x.x.x+VST-x.x.x.jar - приложение ноды Vostok"
+msgstr ""
+
+# 3a0a913672f54fd8b759cfc735408742
+#: ../../how-to-setup/install-node.rst:42
+msgid ""
+"generators-x.x.x+VST-x.x.x.jar - утилита для настройки параметров ноды "
+"Vostok и создания аккаунтов пользователей"
+msgstr ""
+
+# ebe8f30aa14d48f7872020dbb8a99c03
+# cc48ac3e6b394f83857adba2cb0f507a
+#: ../../how-to-setup/install-node.rst:45
+#: ../../how-to-setup/install-node.rst:82
+msgid ""
+"Отредактировать ``example.conf`` в соответствии с руководством "
+":ref:`\"Конфигурация ноды\" <configuration>`"
+msgstr ""
+
+# f4d692e3dcb0470d85ebe3fc26d5525f
+#: ../../how-to-setup/install-node.rst:46
+msgid "Запустить ноду коммандой:"
+msgstr ""
+
+# 594708e87444439887b1e83acd29ff22
+#: ../../how-to-setup/install-node.rst:57
+msgid "Установка на Ubuntu"
+msgstr ""
+
+# 0c0397016e1a4e2c914664e82fe25abb
+#: ../../how-to-setup/install-node.rst:59
+msgid ""
+"**Последовательность действий для установки ноды на операционную систему "
+"Ubuntu**"
+msgstr ""
+
+# 8d99467a793243998e24581ab07c68ad
+#: ../../how-to-setup/install-node.rst:69
+msgid ""
+"Корректность установки можно проверить командой ``java -version``. Если "
+"отображается следующий результат, то можно переходить к следующему шагу."
+msgstr ""
+
+# ea1a34dc615145b3b996b53a587b44a4
+#: ../../how-to-setup/install-node.rst:80
+msgid ""
+"Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-"
+"Releases/releases>`_ ноды в формате deb-пакета и конфигурационный файл "
+"`example.conf <https://github.com/vostokplatform/Vostok-"
+"Releases/blob/master/configs/example.conf>`_"
+msgstr ""
+
+# dbde3676ff5f4a12bf3b138360b746a9
+#: ../../how-to-setup/install-node.rst:84
+msgid "Установить ноду из deb-пакета. Команда для установки:"
+msgstr ""
+
+# 06f9b5e44ff845e5a596418c0aba389d
+#: ../../how-to-setup/install-node.rst:91
+msgid "Директория для конфигурационного файла - /etc/vostok/vostok.conf"
+msgstr ""
+
+# 19f95183f877426e99245ad319139431
+#: ../../how-to-setup/install-node.rst:92
+msgid "Директория для jar-файла и библиотек - /usr/share/vostok/"
+msgstr ""
+
+# 3c851bd942c841fdaeff2f6c168c42cf
+#: ../../how-to-setup/install-node.rst:93
+msgid "Директория для данных блокчейна - /var/lib/vostok/"
+msgstr ""
+
+# 8cb294d44f9a4cd1927791cbf627cf0a
+#: ../../how-to-setup/install-node.rst:95
+msgid "Запуск ноды выполняется командой:"
+msgstr ""
+
+# 6b3c4585f1294868995181cd62a037bf
+#: ../../how-to-setup/install-node.rst:101
+msgid "Остановка ноды выполняется командой:"
+msgstr ""
+

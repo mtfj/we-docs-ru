@@ -21,6 +21,7 @@
    how-the-platform-works/consensus
    how-the-platform-works/cryptography
    how-the-platform-works/authorization
+   how-the-platform-works/data-privacy
    how-the-platform-works/data-structures
    how-the-platform-works/smart-contracts
    how-the-platform-works/anchoring
