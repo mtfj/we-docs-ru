@@ -15,6 +15,8 @@ REST API ноды
 
 Генерация значения поля ``rest-api.api-key-hash`` выполняется с использованием метода :ref:`/utils/hash/secure <utils-hash>` REST API ноды.
 
+Для подписания запросов ключем из keystore ноды в поле ``password`` запроса ``POST /transaction/sign`` требуется указания пароля доступа к keystore.
+
 Пример запроса: 
 
 .. code::
