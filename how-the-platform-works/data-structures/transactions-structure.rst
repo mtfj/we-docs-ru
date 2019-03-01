@@ -40,19 +40,19 @@
 1. Genesis transaction
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+   :header: "Field","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10
 
-   type             ,       ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   fee              ,       ,+      ,       ,Long
-   timestamp        ,       ,+      ,+      ,Long
-   signature        ,       ,+      ,       ,ByteStr
-   recipient        ,       ,+      ,+      ,ByteStr
-   amount           ,       ,+      ,+      ,Long
-   height           ,       ,+      ,       , 
+   type             ,+      ,+      ,Byte
+   id               ,+      ,       ,Byte
+   fee              ,+      ,       ,Long
+   timestamp        ,+      ,+      ,Long
+   signature        ,+      ,       ,ByteStr
+   recipient        ,+      ,+      ,ByteStr
+   amount           ,+      ,+      ,Long
+   height           ,+      ,       , 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
     
@@ -110,7 +110,7 @@
       "fee": 100000000
    }
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -173,7 +173,7 @@
     }
 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -249,24 +249,24 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+   :header: "Field","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10
 
-   type             ,       ,+          ,+      ,Byte
-   id               ,       ,+          ,       ,Byte
-   sender           ,       ,+          ,       ,PublicKeyAccount
-   senderPublicKey  ,       ,+          ,+      ,PublicKeyAccount
-   fee              ,       ,+          ,+      ,Long
-   timestamp        ,       ,+          ,+      ,Long
-   proofs           ,       ,+          ,+      ,List[ByteStr]
-   version          ,       ,+          ,+      ,Byte
-   amount           ,       ,+          ,+      ,Long
-   Price            ,       ,+          ,+      ,Long
-   buyOrder         ,       ,+(order1)  ,+      ,Bytes
-   sellOrder        ,       ,+(order2)  ,+      ,Bytes
-   buyMatcherFee    ,       ,+          ,+      ,Long
-   sellMatcherFee   ,       ,+          ,+      ,Long
-   height           ,       ,           ,       ,
+   type             ,+          ,+      ,Byte
+   id               ,+          ,       ,Byte
+   sender           ,+          ,       ,PublicKeyAccount
+   senderPublicKey  ,+          ,+      ,PublicKeyAccount
+   fee              ,+          ,+      ,Long
+   timestamp        ,+          ,+      ,Long
+   proofs           ,+          ,+      ,List[ByteStr]
+   version          ,+          ,+      ,Byte
+   amount           ,+          ,+      ,Long
+   Price            ,+          ,+      ,Long
+   buyOrder         ,+(order1)  ,+      ,Bytes
+   sellOrder        ,+(order2)  ,+      ,Bytes
+   buyMatcherFee    ,+          ,+      ,Long
+   sellMatcherFee   ,+          ,+      ,Long
+   height           ,           ,       ,
 
 .. _LeaseTransaction:
 
@@ -292,7 +292,7 @@
    height           ,       ,+      ,       ,
 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -335,7 +335,7 @@
    height           ,       ,+      ,       ,
 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -388,7 +388,7 @@
    height           ,       ,+      ,       ,
 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -432,7 +432,7 @@
    height           ,       ,+      ,       ,
 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -500,7 +500,7 @@
         "fee": 100000
     }
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -572,7 +572,7 @@
         "script": "AQQAAAAAAByRtYXRjaDAGB8ueOsI="
     }
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -639,7 +639,7 @@
    height           ,       ,+      ,       ,
 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -665,16 +665,16 @@
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+   :widths: 10, 10, 10, 10
 
-   type             ,       ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   fee              ,       ,+      ,       ,Long
-   timestamp        ,       ,+      ,+      ,Long
-   signature        ,       ,+      ,       ,ByteStr
-   target           ,       ,+      ,+      ,ByteStr
-   role             ,       ,+      ,+      ,String
-   height           ,       ,       ,       ,
+   type             ,+      ,+      ,Byte
+   id               ,+      ,       ,Byte
+   fee              ,+      ,       ,Long
+   timestamp        ,+      ,+      ,Long
+   signature        ,+      ,       ,ByteStr
+   target           ,+      ,+      ,ByteStr
+   role             ,+      ,+      ,String
+   height           ,       ,       ,
 
 
 .. _PermitTransaction:
@@ -702,7 +702,7 @@
    password         ,+ (opt),       ,       ,String
    height           ,       ,+      ,       ,
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -750,7 +750,7 @@
     {
     }
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -797,7 +797,7 @@
     {
     }
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -833,22 +833,22 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+   :header: "Field","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10
 
-   type             ,       ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   sender           ,       ,+      ,       ,PublicKeyAccount
-   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
-   fee              ,       ,+      ,       ,Long
-   timestamp        ,       ,+      ,+      ,Long
-   proofs           ,       ,+      ,+      ,List[ByteStr]
-   version          ,       ,+      ,+      ,Byte
-   tx               ,       ,+      ,+      ,ExecutableTransaction
-   results          ,       ,+      ,+      ,List[DataEntry[_]]
-   height           ,       ,+      ,       ,
+   type             ,+      ,+      ,Byte
+   id               ,+      ,       ,Byte
+   sender           ,+      ,       ,PublicKeyAccount
+   senderPublicKey  ,+      ,+      ,PublicKeyAccount
+   fee              ,+      ,       ,Long
+   timestamp        ,+      ,+      ,Long
+   proofs           ,+      ,+      ,List[ByteStr]
+   version          ,+      ,+      ,Byte
+   tx               ,+      ,+      ,ExecutableTransaction
+   results          ,+      ,+      ,List[DataEntry[_]]
+   height           ,+      ,       ,
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -900,7 +900,7 @@
    height           ,       ,+      ,       ,
 
 
-**JSON транзакции в блокчейне**
+**Broadcasted JSON**
 
 .. code:: js
 
@@ -923,17 +923,17 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+   :header: "Field","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10
 
-   type             ,       ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   fee              ,       ,+      ,       ,Long
-   timestamp        ,       ,+      ,+      ,Long
-   signature        ,       ,+      ,       ,Bytes
-   version          ,       ,       ,+      ,Byte
-   targetPubKey     ,       ,+      ,+      ,
-   height           ,       ,+      ,       ,
+   type             ,+      ,+      ,Byte
+   id               ,+      ,       ,Byte
+   fee              ,+      ,       ,Long
+   timestamp        ,+      ,+      ,Long
+   signature        ,+      ,       ,Bytes
+   version          ,       ,+      ,Byte
+   targetPubKey     ,+      ,+      ,
+   height           ,+      ,       ,
 
 .. _RegisterNodeTransaction:
 
