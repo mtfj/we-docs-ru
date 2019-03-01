@@ -28,23 +28,54 @@ Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes of_Fas
 Handshake message
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Handshake сообщение предназначена для первичного обмена данными между двумя нодами.
+Handshake сообщение предназначена для первичного обмена данными между двумя нодами. Существует два вида handshake сообщений - авторизованный и неавторизованный. Авторизованный handshake содержит блокчейн-адрес владельца ноды и подпись.
+
+Неавторизованный Handshake
+-----------------------------------
 
 .. csv-table::
    :header: "#", "Поле","Тип","Размерность"
    :widths: 5, 30, 10, 5
 
-   1,Application name length (N),Byte,1
-   2,Application name (UTF-8 encoded bytes),Bytes,N
-   3,Application version major,Int,4
-   4,Application version minor,Int,4
-   5,Application version patch,Int,4
-   6,Node name length (M),Byte,1
-   7,Node name (UTF-8 encoded bytes),Bytes,M
-   8,Node nonce,Long,8
-   9,Declared address length (K) or 0 if no declared address was set,Int,4
-   10,Declared address bytes (if length is not 0),Bytes,K
-   11,Timestamp,Long,8
+   1,HandshakeType,byte,1
+   2,Application name length (N),Byte,1
+   3,Application name (UTF-8 encoded bytes),Bytes,N
+   4,Application version major,Int,4
+   5,Application version minor,Int,4
+   6,Application version patch,Int,4
+   7,Consensus name lenght (P), Byte,1
+   8,Consensus name lenght (UTF-8 encoded bytes), Bytes,P
+   9,Node name length (M),Byte,1
+   10,Node name (UTF-8 encoded bytes),Bytes,M
+   12,Node nonce,Long,8
+   13,Declared address length (K) or 0 if no declared address was set,Int,4
+   14,Declared address bytes (if length is not 0),Bytes,K
+   15,Peer port,Int,4
+   
+
+Авторизованный Handshake
+-----------------------------------
+
+.. csv-table::
+   :header: "#", "Поле","Тип","Размерность"
+   :widths: 5, 30, 10, 5
+
+   1,HandshakeType,byte,1
+   2,Application name length (N),Byte,1
+   3,Application name (UTF-8 encoded bytes),Bytes,N
+   4,Application version major,Int,4
+   5,Application version minor,Int,4
+   6,Application version patch,Int,4
+   7,Consensus name lenght (P), Byte,1
+   8,Consensus name lenght (UTF-8 encoded bytes), Bytes,P
+   9,Node name length (M),Byte,1
+   10,Node name (UTF-8 encoded bytes),Bytes,M
+   12,Node nonce,Long,8
+   13,Declared address length (K) or 0 if no declared address was set,Int,4
+   14,Declared address bytes (if length is not 0),Bytes,K
+   15,Peer port,Int,4
+   16,Node owner address,Bytes,26
+   17,Signature,Bytes,64
 
 
 GetPeers message
