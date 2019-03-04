@@ -196,6 +196,7 @@ ID        Тип транзакции
 
    { 
       "type": 3,
+      "version":2,
       "name": "Test Asset 1",
       "quantity": 100000000000,
       "description": "Some description",
@@ -212,12 +213,12 @@ ID        Тип транзакции
 .. code:: js
 
    {
-     "type": 4,
-     "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-     "recipient": "3P8JYPHrnXSfsWP1LVXySdzU1P83FE1ssDa",
-     "amount": 1317209272,
-     "fee": 100000,
-     "attachment": "string"
+      "type": 4,
+      "version": 2,
+      "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
+      "recipient": "3P8JYPHrnXSfsWP1LVXySdzU1P83FE1ssDa",
+      "amount": 1317209272,
+      "fee": 100000,
    }
 
 .. _tx-alias:
@@ -226,12 +227,12 @@ ID        Тип транзакции
 
 .. code:: js
 
-   {
-      "type": 10,
-      "timestamp": 1516171819000,
-      "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-      "fee": 100000,
-      "alias": "ALIAS",
+   { 
+      "type": 10, 
+      "version": 2, 
+      "fee": 100000, 
+      "sender": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB",         
+      "alias": "hodler" 
    }
 
 .. _tx-data:
@@ -243,16 +244,18 @@ ID        Тип транзакции
    {
       "type": 12,
       "version": 1,
-      "sender": "3PHxBMyy2RvW6Z6uFKJ8VpXM1id4QptAwN2",
-      "password": "1234",
-      "data": [
+      "sender": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB",
+      "senderPublicKey": "Fbt5fKHesnQG2CXmsKf4TC8v9oB7bsy2AY56CUopa6H3",
+      "author": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB",
+      "data": 
+      [
          {
          "key": "objectId",
          "type": "string",
          "value": "obj:123:1234"
          }
       ],
-      "fee": 100000 
+      "fee": 100000
    }
 
 .. _tx-setscript:
@@ -264,9 +267,10 @@ ID        Тип транзакции
    {
       "type": 13,
       "version": 1,
-      "sender": "3MpPZXBK9pKzRNWALKcQnCt3AiY8DPCXZeq",
+      "sender": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB",
       "fee": 1000000,
-      "script": "AQQAAAAAAByRtYXRjaDAGB8ueOsI="
+      "name": "faucet",
+      "script": "base64:AQQAAAAHJG1hdGNoMAUAAAACdHgG+RXSzQ=="
    }
 
 .. _tx-permission:
