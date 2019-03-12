@@ -74,6 +74,8 @@
 
     .. important:: При указании пути необходимо использовать символ "прямого слэша" - ``/`` как разделитель уровней иерархии директорий. 
 
+    .. important:: Пример конфигурационного файла приведен для ОС Windows. При работе в ОС Linux значение ``wallet`` должно соответствовать структуре каталогов операционной системы, например ``/home/contract/vostok/keystore.dat``. 
+
     .. important:: При настройке ноды не допускается использование кириллических символов при указании путей до рабочей директории, хранилища ключей и т.д. 
 
     - wallet-password – пароль для доступа к закрытым ключам ноды, потребуется дальше для внесения в параметр ``wallet > password`` в конфигурационный файл ноды;
@@ -131,17 +133,16 @@
       transactions = [
       {recipient: "3P9nhmAEec4bDKsmLEZy2raimNJTVqedu43", amount: 100000000000} ]
 
-  | 2.5. Указать :ref:`адрес участника <address-creation>`, который обладает полномочиями определять роли других участников сети (после создания сети ему будет автоматически назначена роль "permissioner")
+  | 2.5. Указать :ref:`публичные ключи участников сети <address-creation>` в блоке ``network-participants``
 
     ::
 
-      permissioner = "3PE1beuYnkEpht19AFoBdrGj1baQB3vjgtn"
+      network-participants = [ 
+        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [permissioner]  },
+        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [miner]  },
+        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [miner, contract_developer]  }
+      ]
 
-  | 2.6. Указать :ref:`адреса участников <address-creation>`, которые обладают полномочиями создавать новые блоки (после создания сети им будет автоматически назначена роль "miner")
-  
-    ::
-    
-      miners = ["3PE1beuYnkEpht19AFoBdrGj1baQB3vjgtn"]
 
 .. _configuration-network:
 
@@ -216,4 +217,60 @@
 
 
 4. :ref:`Запустить ноду <install-node>`
+
+
+.. _configuration-private:
+
+Создание приватной сети
+----------------------------------------------------
+
+На платформе Vostok существует возможность запуска не публичной блокчейн-сети, т.е. такой сети, подключение к которой нового узла требует согласования с администратором сети. Участник сети в роли connection-manager публикует в сети RegisterNode транзакцию с параметрами добавляемого узла (публичный ключ владельца ноды и ее имя). При получении от пиров авторизованного handshake сообщения узлы проверяют, что оно отправлено известным участинком сети.
+
+При создании приватной сети необходимо установить в конфигурационном файле значение параметра ``privacy.allow-all-nodes = false``. В такой сети взаимодействие узлов может происходить только после получения и валидации :ref:`авторизованного handshake<network-message-auth-handshake>` сообщения.
+
+Так же необходимо указать публичный ключ владельца ноды в параметре ``privacy.owner-address``.
+
+::
+
+    vostok {
+        ...
+        privacy.allow-all-nodes = false
+        privacy.owner-address = "C1ADP1tNGuSLTiQrfNRPhgXx59nCrwrZFRV4AHpfKBpZ"
+        ...
+    }
+
+Дополнительно необходимо создать пользователя с правами "connection-manager". Пользователь может быть указан в ``genesis`` блоке конфигурационного файла в поле ``network-participants`` при создании сети, либо позднее - пользователь "permissioner" должен опубликовать в сети :ref:`Permit<PermitTransaction>` транзакцию:
+
+.. code:: js
+
+   {
+      "type":102,
+      "sender":"3LWg4n6VmN6DKBSwGF1hwnaCzXdjMkQCFrn",
+      "target":"3LMKWgu7cZFPiVewYZDBn54HdVT86RfREGc",
+      "role":"issuer",
+      "opType":"add",
+      "dueTimestamp":1528975127294
+   }
+
+Где:
+
+ - type - тип транзакции по добавлению/редактированию permissions;
+ - sender - нода, обладающая правами на подписание permission-транзакций;
+ - target - адрес ноды, которая добавляется в сеть;
+ - role - "connection-manager"
+ - opType -  тип операции "add" (добавить полномочия) или "remove" (удалить полномочия);
+ - dueTimestamp - дата действия permission в формате timestamp.
+
+
+Для регистрации нового узла в блокчейн-сети, его владелец должен сообщить имя ноды и свой публичный ключ администратору сети. После чего "connection-manager" имеет возможность опубликовать в сети :ref:`RegisterNode<RegisterNodeTransaction>` транзакцию, означающую что к сети подключен новый авторизованный участник:
+
+.. code:: js
+
+   {
+      "type":111,
+      "sender":"3LWg4n6VmN6DKBSwGF1hwnaCzXdjMkQCFrn",
+      "targetPubKey":"C1ADP1tNGuSLTiQrfNRPhgXx59nCrwrZFRV4AHpfKBpZ",
+      "nodeName":"miner-node-3",
+      "opType":"add"
+   }
 
