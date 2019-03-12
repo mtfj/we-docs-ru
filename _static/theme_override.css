@@ -39,6 +39,9 @@ div.wy-menu p.caption {
  top: 75px;  
 }
 
+a.lang:hover {text-decoration: underline;}
+
+
 /* -- math display ---------------------------------------------------------- */
 
 img.math {
