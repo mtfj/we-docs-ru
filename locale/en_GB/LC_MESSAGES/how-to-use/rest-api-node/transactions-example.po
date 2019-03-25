@@ -3,29 +3,31 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 10:24+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 355887e76864465ead0b61916c8b3f94
 #: ../../how-to-use/rest-api-node/transactions-example.rst:4
 msgid "Примеры транзакций"
-msgstr ""
+msgstr "Examples of transactions"
 
 # bd0b749ac5054353ae6d65006a55c9c5
 #: ../../how-to-use/rest-api-node/transactions-example.rst:6
 msgid "*Заменить на транзакции в сети восток*"
-msgstr ""
+msgstr "*Replace with transactions in Vostok network*"
 
 # 2ce69dfb7f6f49b29e7018e4c6b7d187
 #: ../../how-to-use/rest-api-node/transactions-example.rst:8
@@ -34,223 +36,269 @@ msgid ""
 "После нажатия на ссылку будет открыт интерфейс блокчейн-эксплорера с "
 "подробной информацией по выбранной транзакции."
 msgstr ""
+"The table contains links to real transactions in the blockchain "
+"network. Clicking the link opens the blockchain explorer interface "
+"with detailed information about a selected transaction."
 
 # 5c5c3017afab4596bffb138780b1f9d5
 #: ../../how-to-use/rest-api-node/transactions-example.rst:11
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 # b7e535c09c3940958a78f2d8863c19eb
 #: ../../how-to-use/rest-api-node/transactions-example.rst:11
 msgid "Тип транзакции"
-msgstr ""
+msgstr "Transaction type"
 
 # e68a7f78083d4dbf9cac444130c4e473
 #: ../../how-to-use/rest-api-node/transactions-example.rst:11
 msgid "Транзакция"
-msgstr ""
+msgstr "Transaction"
 
 # 31889c93315941c5ad28f87654124caf
 #: ../../how-to-use/rest-api-node/transactions-example.rst:13
 msgid "3"
-msgstr ""
+msgstr "3"
 
 # 3cfac68ca9e544acb300c46da8a8ba40
 #: ../../how-to-use/rest-api-node/transactions-example.rst:13
 msgid "Issue"
-msgstr ""
+msgstr "Issue"
 
 # 5e6989cbed48457e84a0b89c3cd5a012
 #: ../../how-to-use/rest-api-node/transactions-example.rst:13
 msgid ""
-"`oWgJN6YGZFtZrV8BWQ1PGktZikgg7jzGmtm16Ktyvjd "
-"<https://nodes.wavesnodes.com/transactions/info/oWgJN6YGZFtZrV8BWQ1PGktZikgg7jzGmtm16Ktyvjd>`__"
+"`oWgJN6YGZFtZrV8BWQ1PGktZikgg7jzGmtm16Ktyvjd <https://nodes.wavesnodes."
+"com/transactions/info/oWgJN6YGZFtZrV8BWQ1PGktZikgg7jzGmtm16Ktyvjd>`__"
 msgstr ""
+"`oWgJN6YGZFtZrV8BWQ1PGktZikgg7jzGmtm16Ktyvjd <https://nodes.wavesnodes."
+"com/transactions/info/oWgJN6YGZFtZrV8BWQ1PGktZikgg7jzGmtm16Ktyvjd>`__"
 
 # 79e2edda756e460d8202d66c4699d5eb
 #: ../../how-to-use/rest-api-node/transactions-example.rst:14
 msgid "4"
-msgstr ""
+msgstr "4"
 
 # c2cd893161c24faca1a16db223132960
 #: ../../how-to-use/rest-api-node/transactions-example.rst:14
 msgid "Transfer"
-msgstr ""
+msgstr "Transfer"
 
 # d1c0468088ed44e9bbb9c4f3d91e0f74
 #: ../../how-to-use/rest-api-node/transactions-example.rst:14
 msgid ""
-"`JAutkv1Nk4xVrkb4fkacS4451VvyHC3iJtEDfBRD7rwr "
-"<https://nodes.wavesnodes.com/transactions/info/JAutkv1Nk4xVrkb4fkacS4451VvyHC3iJtEDfBRD7rwr>`__"
+"`JAutkv1Nk4xVrkb4fkacS4451VvyHC3iJtEDfBRD7rwr <https://nodes."
+"wavesnodes.com/transactions/info/"
+"JAutkv1Nk4xVrkb4fkacS4451VvyHC3iJtEDfBRD7rwr>`__"
 msgstr ""
+"`JAutkv1Nk4xVrkb4fkacS4451VvyHC3iJtEDfBRD7rwr <https://nodes."
+"wavesnodes.com/transactions/info/"
+"JAutkv1Nk4xVrkb4fkacS4451VvyHC3iJtEDfBRD7rwr>`__"
 
 # 940dfa4387ab4320b7e5b088b9a6b124
 #: ../../how-to-use/rest-api-node/transactions-example.rst:15
 msgid "5"
-msgstr ""
+msgstr "5"
 
 # 56b238378a0d4c4d9c225fae4cda61e3
 #: ../../how-to-use/rest-api-node/transactions-example.rst:15
 msgid "Reissue"
-msgstr ""
+msgstr "Reissue"
 
 # e674d264cb0b4be8aa45d6aadb8ffccd
 #: ../../how-to-use/rest-api-node/transactions-example.rst:15
 msgid ""
-"`6qd8QbnFrKEibTr26JyNh1hc4KaafGQYStyShtXdNk3v "
-"<https://nodes.wavesnodes.com/transactions/info/6qd8QbnFrKEibTr26JyNh1hc4KaafGQYStyShtXdNk3v>`__"
+"`6qd8QbnFrKEibTr26JyNh1hc4KaafGQYStyShtXdNk3v <https://nodes."
+"wavesnodes.com/transactions/"
+"info/6qd8QbnFrKEibTr26JyNh1hc4KaafGQYStyShtXdNk3v>`__"
 msgstr ""
+"`6qd8QbnFrKEibTr26JyNh1hc4KaafGQYStyShtXdNk3v <https://nodes."
+"wavesnodes.com/transactions/"
+"info/6qd8QbnFrKEibTr26JyNh1hc4KaafGQYStyShtXdNk3v>`__"
 
 # 0fd2abd9d9094f88935c374e987f0c0b
 #: ../../how-to-use/rest-api-node/transactions-example.rst:16
 msgid "6"
-msgstr ""
+msgstr "6"
 
 # 6bc687d35535481db3ea74ecc83e4f52
 #: ../../how-to-use/rest-api-node/transactions-example.rst:16
 msgid "Burn"
-msgstr ""
+msgstr "Burn"
 
 # 3f6fe6e8b7be48479f077719731cb06e
 #: ../../how-to-use/rest-api-node/transactions-example.rst:16
 msgid ""
-"`EzeiYzYPwyJNEgofQrE23rpqaYERjUSnCaXZ84vUDoec "
-"<https://nodes.wavesnodes.com/transactions/info/EzeiYzYPwyJNEgofQrE23rpqaYERjUSnCaXZ84vUDoec>`__"
+"`EzeiYzYPwyJNEgofQrE23rpqaYERjUSnCaXZ84vUDoec <https://nodes."
+"wavesnodes.com/transactions/info/"
+"EzeiYzYPwyJNEgofQrE23rpqaYERjUSnCaXZ84vUDoec>`__"
 msgstr ""
+"`EzeiYzYPwyJNEgofQrE23rpqaYERjUSnCaXZ84vUDoec <https://nodes."
+"wavesnodes.com/transactions/info/"
+"EzeiYzYPwyJNEgofQrE23rpqaYERjUSnCaXZ84vUDoec>`__"
 
 # c25aa99dafc64ed3be9661adacab8c0a
 #: ../../how-to-use/rest-api-node/transactions-example.rst:17
 msgid "7"
-msgstr ""
+msgstr "7"
 
 # 09582117c41943169bd40e6491d68fbf
 #: ../../how-to-use/rest-api-node/transactions-example.rst:17
 msgid "Exchange"
-msgstr ""
+msgstr "Exchange"
 
 # 9a3b3aa4518f43028baeda70bd8f4880
 #: ../../how-to-use/rest-api-node/transactions-example.rst:17
 msgid ""
-"`GHKhG3CWNfXAPWprk9bHSE4rxN6QfNDe3d3rZGaDLWhm "
-"<https://nodes.wavesnodes.com/transactions/info/GHKhG3CWNfXAPWprk9bHSE4rxN6QfNDe3d3rZGaDLWhm>`__"
+"`GHKhG3CWNfXAPWprk9bHSE4rxN6QfNDe3d3rZGaDLWhm <https://nodes."
+"wavesnodes.com/transactions/info/"
+"GHKhG3CWNfXAPWprk9bHSE4rxN6QfNDe3d3rZGaDLWhm>`__"
 msgstr ""
+"`GHKhG3CWNfXAPWprk9bHSE4rxN6QfNDe3d3rZGaDLWhm <https://nodes."
+"wavesnodes.com/transactions/info/"
+"GHKhG3CWNfXAPWprk9bHSE4rxN6QfNDe3d3rZGaDLWhm>`__"
 
 # 66e69e16150d46fc9cade7518920d15f
 #: ../../how-to-use/rest-api-node/transactions-example.rst:18
 msgid "8"
-msgstr ""
+msgstr "8"
 
 # 71e6cadfbbb64437bdf6165002a3151e
 #: ../../how-to-use/rest-api-node/transactions-example.rst:18
 msgid "Lease"
-msgstr ""
+msgstr "Lease"
 
 # 23e7ea348cec48798eb678ce6ab9afa9
 #: ../../how-to-use/rest-api-node/transactions-example.rst:18
 msgid ""
-"`7k4EPgA3VxoE56TMJLjvF9FMpywyfeS5qRJSEEN9XGuU "
-"<https://nodes.wavesnodes.com/transactions/info/7k4EPgA3VxoE56TMJLjvF9FMpywyfeS5qRJSEEN9XGuU>`__"
+"`7k4EPgA3VxoE56TMJLjvF9FMpywyfeS5qRJSEEN9XGuU <https://nodes."
+"wavesnodes.com/transactions/"
+"info/7k4EPgA3VxoE56TMJLjvF9FMpywyfeS5qRJSEEN9XGuU>`__"
 msgstr ""
+"`7k4EPgA3VxoE56TMJLjvF9FMpywyfeS5qRJSEEN9XGuU <https://nodes."
+"wavesnodes.com/transactions/"
+"info/7k4EPgA3VxoE56TMJLjvF9FMpywyfeS5qRJSEEN9XGuU>`__"
 
 # 2d3a3ca31173474db45b01a0a99ac055
 #: ../../how-to-use/rest-api-node/transactions-example.rst:19
 msgid "9"
-msgstr ""
+msgstr "9"
 
 # ac2b3d3e6c7541f1b11f58901b309956
 #: ../../how-to-use/rest-api-node/transactions-example.rst:19
 msgid "Lease Cancel"
-msgstr ""
+msgstr "Lease Cancel"
 
 # 108ebe5a1cfe41339dcf66bbe8a62921
 #: ../../how-to-use/rest-api-node/transactions-example.rst:19
 msgid ""
-"`69tnFn6zueF1aYV1igp7jppeHR5gzCeixitwRmbujqzR "
-"<https://nodes.wavesnodes.com/transactions/info/69tnFn6zueF1aYV1igp7jppeHR5gzCeixitwRmbujqzR>`__"
+"`69tnFn6zueF1aYV1igp7jppeHR5gzCeixitwRmbujqzR <https://nodes."
+"wavesnodes.com/transactions/"
+"info/69tnFn6zueF1aYV1igp7jppeHR5gzCeixitwRmbujqzR>`__"
 msgstr ""
+"`69tnFn6zueF1aYV1igp7jppeHR5gzCeixitwRmbujqzR <https://nodes."
+"wavesnodes.com/transactions/"
+"info/69tnFn6zueF1aYV1igp7jppeHR5gzCeixitwRmbujqzR>`__"
 
 # ec6e673927e544b1bbd249ae2eb52988
 #: ../../how-to-use/rest-api-node/transactions-example.rst:20
 msgid "10"
-msgstr ""
+msgstr "10"
 
 # da9c9f07e2ca4426a4b4bb39ac0ec244
 #: ../../how-to-use/rest-api-node/transactions-example.rst:20
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 # 2d54158011de443cb190fbe302eac2c6
 #: ../../how-to-use/rest-api-node/transactions-example.rst:20
 msgid ""
-"`4hfjTUkBeB6tNN8GgXY5C2s5bARCsYQ8AFdZyXnMwZyQ "
-"<https://nodes.wavesnodes.com/transactions/info/4hfjTUkBeB6tNN8GgXY5C2s5bARCsYQ8AFdZyXnMwZyQ>`__"
+"`4hfjTUkBeB6tNN8GgXY5C2s5bARCsYQ8AFdZyXnMwZyQ <https://nodes."
+"wavesnodes.com/transactions/"
+"info/4hfjTUkBeB6tNN8GgXY5C2s5bARCsYQ8AFdZyXnMwZyQ>`__"
 msgstr ""
+"`4hfjTUkBeB6tNN8GgXY5C2s5bARCsYQ8AFdZyXnMwZyQ <https://nodes."
+"wavesnodes.com/transactions/"
+"info/4hfjTUkBeB6tNN8GgXY5C2s5bARCsYQ8AFdZyXnMwZyQ>`__"
 
 # 21ae3dbea3d54fa78d76d0d82762f755
 #: ../../how-to-use/rest-api-node/transactions-example.rst:21
 msgid "11"
-msgstr ""
+msgstr "11"
 
 # 9145b6ec535b40a2a473f49cc1b223f8
 #: ../../how-to-use/rest-api-node/transactions-example.rst:21
 msgid "Mass Transfer"
-msgstr ""
+msgstr "Mass Transfer"
 
 # a48047c2e730479cbd7ad229585e7581
 #: ../../how-to-use/rest-api-node/transactions-example.rst:21
 msgid ""
-"`3LRfudet7avpQcW1AdauiBGb8SSRAaoCugDzngDPLVcv "
-"<https://nodes.wavesnodes.com/transactions/info/3LRfudet7avpQcW1AdauiBGb8SSRAaoCugDzngDPLVcv>`__"
+"`3LRfudet7avpQcW1AdauiBGb8SSRAaoCugDzngDPLVcv <https://nodes."
+"wavesnodes.com/transactions/"
+"info/3LRfudet7avpQcW1AdauiBGb8SSRAaoCugDzngDPLVcv>`__"
 msgstr ""
+"`3LRfudet7avpQcW1AdauiBGb8SSRAaoCugDzngDPLVcv <https://nodes."
+"wavesnodes.com/transactions/"
+"info/3LRfudet7avpQcW1AdauiBGb8SSRAaoCugDzngDPLVcv>`__"
 
 # a595b25a4acf4e1eb2abb33848033f3f
 #: ../../how-to-use/rest-api-node/transactions-example.rst:22
 msgid "12"
-msgstr ""
+msgstr "12"
 
 # 266708be6ac349719fbf76094e439dbc
 #: ../../how-to-use/rest-api-node/transactions-example.rst:22
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 # eeeb41349f1943888aeea1be5f6bc932
 #: ../../how-to-use/rest-api-node/transactions-example.rst:22
 msgid ""
-"`EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC "
-"<https://nodes.wavesnodes.com/transactions/info/EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC>`__"
+"`EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC <https://nodes."
+"wavesnodes.com/transactions/info/"
+"EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC>`__"
 msgstr ""
+"`EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC <https://nodes."
+"wavesnodes.com/transactions/info/"
+"EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC>`__"
 
 # 7d67483faa8f4804a12a0daab623f239
 #: ../../how-to-use/rest-api-node/transactions-example.rst:23
 msgid "13"
-msgstr ""
+msgstr "13"
 
 # 21eca5bb06b54dc1aa3c67b316ac7a91
 #: ../../how-to-use/rest-api-node/transactions-example.rst:23
 msgid "Set Script"
-msgstr ""
+msgstr "Set Script"
 
 # 067c262495594ae0af071732f28d3133
 #: ../../how-to-use/rest-api-node/transactions-example.rst:23
 msgid ""
-"`8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU "
-"<https://nodes.wavesnodes.com/transactions/info/8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU>`__"
+"`8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU <https://nodes."
+"wavesnodes.com/transactions/"
+"info/8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU>`__"
 msgstr ""
+"`8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU <https://nodes."
+"wavesnodes.com/transactions/"
+"info/8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU>`__"
 
 # 2a3f76d8f73f49109fd9cb56af6ac50c
 #: ../../how-to-use/rest-api-node/transactions-example.rst:24
 msgid "14"
-msgstr ""
+msgstr "14"
 
 # 5e64fdd173994e61ab8afb9a23420b22
 #: ../../how-to-use/rest-api-node/transactions-example.rst:24
 msgid "Set Sponsorship"
-msgstr ""
+msgstr "Set Sponsorship"
 
 # 68f61e0f39904343ab10b8016311cc36
 #: ../../how-to-use/rest-api-node/transactions-example.rst:24
 msgid ""
-"`7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR "
-"<http://nodes.wavesnodes.com/transactions/info/7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR>`__"
+"`7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR <http://nodes.wavesnodes."
+"com/transactions/info/7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR>`__"
 msgstr ""
-
+"`7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR <http://nodes.wavesnodes."
+"com/transactions/info/7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR>`__"

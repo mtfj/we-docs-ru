@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 13:03+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 8441ecba17cc4e2b92b9d830994a2248
 #: ../../how-the-platform-works/consensus/PoS.rst:2
 msgid "Алгоритм консенсуса LPoS"
-msgstr ""
+msgstr "LPoS consensus algorithm"
 
 # ada232959e2d4611b8f30551fab5baf0
 #: ../../how-the-platform-works/consensus/PoS.rst:3
@@ -29,19 +31,25 @@ msgid ""
 "блока не требует энергозатратных вычислений, задача  майнера — создание "
 "цифровой подписи блока."
 msgstr ""
+"Proof of ownership with the right to lease. In PoS systems, the creation "
+"of a block does not require energy-intensive calculations, the miner's "
+"task is to create a digital block proof."
 
 # e5a83ab6272249109fc53200b91007fc
 #: ../../how-the-platform-works/consensus/PoS.rst:6
 msgid "Proof of Stake"
-msgstr ""
+msgstr "Proof of Stake"
 
 # c301ba1e33244c758de32f880c3cbf40
 #: ../../how-the-platform-works/consensus/PoS.rst:7
 msgid ""
-"Механизм распределения прав создания блоков основан на количестве токенов"
-" на счету пользователя. Чем больше у пользователя токенов, тем выше "
-"вероятность, что он сможет создать блок."
+"Механизм распределения прав создания блоков основан на количестве "
+"токенов на счету пользователя. Чем больше у пользователя токенов, тем "
+"выше вероятность, что он сможет создать блок."
 msgstr ""
+"The mechanism for allocating block creation rights is based on the "
+"number of tokens in the user's account. The more tokens a user has, the "
+"more likely he or she can create a block."
 
 # e2c995e36b0d442eb1070cc279b1aad6
 #: ../../how-the-platform-works/consensus/PoS.rst:10
@@ -54,18 +62,28 @@ msgid ""
 "аккаунта. Первые 8 байт полученного хеша будут указателем на следующего "
 "майнера. Время генерации блока для аккаунта i, рассчитывается как:"
 msgstr ""
+"In Proof of Stake consensus the right to generate a block is determined "
+"by pseudo-random way, because by knowing the previous miner and balances "
+"of all users in the system the following miner can be identified. To do "
+"this, calculate the generating signature of the next block as sha256 "
+"hash from the generating signature of this block and the public account "
+"key. The first 8 bytes of the resulting hash will be a pointer to the "
+"following miner. The time of block generation for account i is "
+"calculated as:"
 
 # 29f677312a274387b2823b283c1cc679
 #: ../../how-the-platform-works/consensus/PoS.rst:14
 msgid ""
-"T_i = T_{min} + C_1 \\log (1 - C_2 \\frac{\\log \\frac{X_n}{X_{max}}}{b_i"
-" A_n})"
+"T_i = T_{min} + C_1 \\log (1 - C_2 \\frac{\\log \\frac{X_n}{X_{max}}}"
+"{b_i A_n})"
 msgstr ""
+"T_i = T_{min} + C_1 \\log (1 - C_2 \\frac{\\log \\frac{X_n}{X_{max}}}"
+"{b_i A_n})"
 
 # 5c2cb34cac23429fa5dcc4a224ba0d23
 #: ../../how-the-platform-works/consensus/PoS.rst:18
 msgid "где:"
-msgstr ""
+msgstr "where:"
 
 # 8fab921456714f1d81e2b3cef367bb33
 #: ../../how-the-platform-works/consensus/PoS.rst:20
@@ -73,6 +91,8 @@ msgid ""
 "b\\ :sub:`i` \\ - это стейк (доля баланса учасника от общего баланса "
 "системы);"
 msgstr ""
+"b\\ :sub:`i` \\ is a stake (stake of participant's balance of overall "
+"balance of the system);"
 
 # 4bebd4b6e1984855a280fae1c0b992ca
 #: ../../how-the-platform-works/consensus/PoS.rst:21
@@ -80,6 +100,8 @@ msgid ""
 "A\\ :sub:`n` \\ baseTarget, X\\ :sub:`n` \\ генерирующая подпись или хит "
 "участника i;"
 msgstr ""
+"A\\ :sub:`n` \\ baseTarget, X\\ :sub:`n` generating signature or hit of "
+"participant i;"
 
 # 09a0a695652547829e392888d29302f6
 #: ../../how-the-platform-works/consensus/PoS.rst:22
@@ -87,6 +109,8 @@ msgid ""
 "T\\ :sub:`min` \\ = 5 константа, определяющая временной интервал между "
 "блоками;"
 msgstr ""
+"T\\ :sub:`min` \\ = 5 is a constant defining the time interval between "
+"blocks;"
 
 # bea5471962c14ee8b718165b3d8a2f7d
 #: ../../how-the-platform-works/consensus/PoS.rst:23
@@ -94,6 +118,8 @@ msgid ""
 "C\\ :sub:`1` \\ = 70 константа, корректирующая форму распределения "
 "интервала между блоками;"
 msgstr ""
+"C\\ :sub:`1` \\ = 70 is a constant adjusting the form of allocation of "
+"the interval between blocks;"
 
 # f7a322158ad747c488112a1f5f3b8e8e
 #: ../../how-the-platform-works/consensus/PoS.rst:24
@@ -101,6 +127,8 @@ msgid ""
 "C\\ :sub:`2` \\ = 5E17 константа для регулировки значения baseTarget "
 "(сложности)."
 msgstr ""
+"C\\ :sub:`2` \\ = 5E17 is a constant for adjusting the baseTarget value "
+"(complexity)."
 
 # 6653d1170b3847909947b75c8fbba678
 #: ../../how-the-platform-works/consensus/PoS.rst:26
@@ -108,17 +136,28 @@ msgid ""
 "Из приведенной формулы легко убедиться, что вероятность выбора участника "
 "зависит от доли активов участника в системе: больше доля — выше шанс. "
 "Минимальное количество токенов на балансе для майнинга — 1000 VST. "
-"BaseTarget — сложность вычислений, параметр, удерживающий время генерации"
-" блоков в заданном диапазоне. BaseTarget в свою очередь вычисляется как:"
+"BaseTarget — сложность вычислений, параметр, удерживающий время "
+"генерации блоков в заданном диапазоне. BaseTarget в свою очередь "
+"вычисляется как:"
 msgstr ""
+"Based on the given formula it is easy to see that the probability of "
+"selecting the participant depends on the participant's stake of assets "
+"in the system: the bigger the stake the higher the chance. The minimum "
+"number of tokens on the balance for mining is 1000 VST. BaseTarget is a "
+"computational complexity, a parameter that maintains the block "
+"generation time within a given range. BaseTarget in its turn is "
+"calculated as:"
 
 # 7c28608d449c489bb7ea5b58cc2cb7ad
 #: ../../how-the-platform-works/consensus/PoS.rst:30
 msgid ""
-"(S > R_{max} \\rightarrow T_b = T_{p} + max(1, \\frac{T_p}{100})) \\wedge"
-" (S < R_{min} \\land \\land T_{b} > 1 \\rightarrow T_b = T_p - max(1, "
-"\\frac{T_p}{100}))"
+"(S > R_{max} \\rightarrow T_b = T_{p} + max(1, \\frac{T_p}{100})) "
+"\\wedge (S < R_{min} \\land \\land T_{b} > 1 \\rightarrow T_b = T_p - "
+"max(1, \\frac{T_p}{100}))"
 msgstr ""
+"(S > R_{max} \\rightarrow T_b = T_{p} + max(1, \\frac{T_p}{100})) "
+"\\wedge (S < R_{min} \\land \\land T_{b} > 1 \\rightarrow T_b = T_p - "
+"max(1, \\frac{T_p}{100}))"
 
 # f0e55dc4300e402882dc48d8081c0456
 #: ../../how-the-platform-works/consensus/PoS.rst:36
@@ -127,22 +166,33 @@ msgid ""
 "время генерации блока в сети превышает 60 секунд; * R\\ :sub:`min` \\ = "
 "30 -минимальное увеличение сложности, когда время генерации блока в сети "
 "меньше 60 секунд; * S - среднее время генерации, как минимум для трех "
-"последних блоков; * T\\ :sub:`p` \\ - предыдущее значение baseTarget; * "
-"T\\ :sub:`b` \\ - вычисленное значение baseTarget."
+"последних блоков; * T\\ :sub:`p` \\ - предыдущее значение baseTarget; * T"
+"\\ :sub:`b` \\ - вычисленное значение baseTarget."
 msgstr ""
+"where * R \\ :sub:`max` \\= 90 is a maximum reduction of complexity when "
+"the block generation time in the network exceeds 60 seconds; * R\\ :sub:"
+"`min` \\ = 30 - minimal increase of complexity when the block generation "
+"time in the network is less than 60 seconds; * S - average generation "
+"time, at least for the last three blocks; * T\\ :sub:`p` \\ - previous "
+"baseTarget value; * T\\ :sub:`b` \\ - computed baseTarget value."
 
 # 11b544947c594b54a83066e2d1374039
 #: ../../how-the-platform-works/consensus/PoS.rst:43
 msgid ""
 "Глубокое описание технических особенностей и доработок классического PoS "
-"алгоритма вы можете найти в этой `статье "
-"<https://forum.wavesplatform.com/uploads/default/original/2X/7/7397a4cb5fa77d659a7b7ecc9188dd0a4fe0decc.pdf/>`_."
+"алгоритма вы можете найти в этой `статье <https://forum.wavesplatform."
+"com/uploads/default/"
+"original/2X/7/7397a4cb5fa77d659a7b7ecc9188dd0a4fe0decc.pdf/>`_."
 msgstr ""
+"For advanced description of technical features and enhancements of the "
+"classic PoS algorithm see article <https://forum.wavesplatform.com/"
+"uploads/default/original/2X/7/7397a4cb5fa77d659a7b7ecc9188dd0a4fe0decc."
+"pdf/>`_."
 
 # 0a333c7048b14359abeb1ef8df4617bc
 #: ../../how-the-platform-works/consensus/PoS.rst:46
 msgid "Преимущества перед Proof of Work"
-msgstr ""
+msgstr "Advantages Over Proof of Work"
 
 # 4acc0850bac948c0af14a62682b9be42
 #: ../../how-the-platform-works/consensus/PoS.rst:47
@@ -154,11 +204,17 @@ msgid ""
 "нахождение нового блока. В PoS-системах майнер получает вознаграждение в "
 "виде комиссий за транзакции, которые попали в его блок."
 msgstr ""
+"The absence of complex calculations allows PoS networks to lower the "
+"hardware requirements for participants of the system, which reduces the "
+"cost of deploying private networks. Also, no additional emission is "
+"required, which in PoW systems is used for rewarding miners for finding "
+"a new block. In PoS-Systems a miner receives a reward in the form of "
+"fees for transactions which appeared in its block."
 
 # dfc3fa43396d40f1b537c54431463278
 #: ../../how-the-platform-works/consensus/PoS.rst:51
 msgid "Leased Proof of Stake"
-msgstr ""
+msgstr "Leased Proof of Stake"
 
 # 2808da2449924fcf85f32664fcf9f1af
 #: ../../how-the-platform-works/consensus/PoS.rst:52
@@ -167,9 +223,16 @@ msgid ""
 "эффективного майнинга, есть возможность передать свой баланс в аренду "
 "другим участникам, и получать долю дохода от майнинга. Так вы можете "
 "увеличить вероятность выбора майнера, за что вы можете получать часть от "
-"комиссий за транзакций, которые этот майнер поместил в свои блоки. Лизинг"
-" является полностью безопасной операцией. Токены не покидают ваш кошелек,"
-" вы передаете право учитывать свой баланс при розыгрыше права майнинга "
-"другому участнику сети."
+"комиссий за транзакций, которые этот майнер поместил в свои блоки. "
+"Лизинг является полностью безопасной операцией. Токены не покидают ваш "
+"кошелек, вы передаете право учитывать свой баланс при розыгрыше права "
+"майнинга другому участнику сети."
 msgstr ""
-
+"For a user who has a stake insufficient for effective mining, it is "
+"possible to transfer his or her balance for lease to other participants, "
+"and receive a portion of the income from mining. Thus you can increase "
+"the likelihood of choosing a miner, for which you can receive a portion "
+"of the fees for transactions which this miner has placed in its blocks. "
+"Leasing is a completely safe operation. Tokens do not leave your wallet, "
+"you delegate the right to consider your balance when you draw the right "
+"of mining to another member of the network."

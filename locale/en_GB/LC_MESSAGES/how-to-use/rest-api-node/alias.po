@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 10:30+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 0ff87b557b014ae7b6591c672d08370e
 #: ../../how-to-use/rest-api-node/alias.rst:2
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 # d3e3e6fb284e44e69b6423313ab78b1b
 #: ../../how-to-use/rest-api-node/alias.rst:4
@@ -28,31 +30,32 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
+"The rules for generating queries to the node are given in module :"
+"ref:'rest-api-node`."
 
 # d78ec1387c0a4ded9771ca260e7b0570
 #: ../../how-to-use/rest-api-node/alias.rst:7
 msgid "GET /alias/by-alias/{alias}"
-msgstr ""
+msgstr "GET/alias/by-alias/{alias}"
 
 # 1a00743fa8bf4689a0a1f196e9158bc7
 #: ../../how-to-use/rest-api-node/alias.rst:9
 msgid "Получает адрес участника по его псевдониму {alias}."
-msgstr ""
+msgstr "Gets participant address by its alias {alias}."
 
 # a6473212a8a243d58e4bb88c5eaed8d4
 # d8fbb8269f014b328e0f465713852238
 #: ../../how-to-use/rest-api-node/alias.rst:11
 #: ../../how-to-use/rest-api-node/alias.rst:26
 msgid "**Ответ метода**"
-msgstr ""
+msgstr "**Method Response:**"
 
 # d91663fd507a45f29c3846861ad41f51
 #: ../../how-to-use/rest-api-node/alias.rst:22
 msgid "GET /alias/by-address/{address}"
-msgstr ""
+msgstr "GET /alias/by-address/{address}"
 
 # 2120ab4a1d294bf8b65c9257fb82b78e
 #: ../../how-to-use/rest-api-node/alias.rst:24
 msgid "Получает {alias} псевдоним участника по его адресу {address}."
-msgstr ""
-
+msgstr "Gets alias {alias} of participant by its address {address}."

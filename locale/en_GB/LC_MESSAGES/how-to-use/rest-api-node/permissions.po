@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 10:26+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 4a4240a0041f457293776121f285e4d1
 #: ../../how-to-use/rest-api-node/permissions.rst:2
 msgid "Permissions"
-msgstr ""
+msgstr "Permissions"
 
 # 65342613c3834f2f8b7630200b3530b7
 #: ../../how-to-use/rest-api-node/permissions.rst:4
@@ -28,11 +30,13 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
+"The rules for generating queries to the node are given in module :"
+"ref:'rest-api-node`."
 
 # 7caf122fd32a4d37b404ed78826d9411
 #: ../../how-to-use/rest-api-node/permissions.rst:7
 msgid "GET /permissions/{address}"
-msgstr ""
+msgstr "GET /permissions/{address}"
 
 # 87ae25e139714bf794b8d116581d163f
 #: ../../how-to-use/rest-api-node/permissions.rst:8
@@ -40,6 +44,8 @@ msgid ""
 "Возвращает роли (permissions), назначенные на указанный адрес {address}, "
 "действительные на текущий момент времени."
 msgstr ""
+"Returns roles (permissions) assigned to specified address {address} "
+"which are valid at the moment."
 
 # 42e8f55fae824c79a77292b6a570f6ba
 # ae5c6b01918e471795ec2ff868135a02
@@ -48,12 +54,12 @@ msgstr ""
 #: ../../how-to-use/rest-api-node/permissions.rst:31
 #: ../../how-to-use/rest-api-node/permissions.rst:64
 msgid "**Ответ метода:**"
-msgstr ""
+msgstr "**Method Response:**"
 
 # e2b17201b8b94f81a6bb98a4f1ce6d97
 #: ../../how-to-use/rest-api-node/permissions.rst:28
 msgid "GET /permissions/{address}/at/{timestamp}"
-msgstr ""
+msgstr "GET /permissions/{address}/at/{timestamp}"
 
 # 152392fa5c47431aa778d96e1008ad54
 #: ../../how-to-use/rest-api-node/permissions.rst:29
@@ -61,11 +67,13 @@ msgid ""
 "Возвращает роли (permissions), назначенные на указанный адрес {address}, "
 "действительные на момент времени {timestamp}."
 msgstr ""
+"Returns roles (permissions) assigned to specified address {address} "
+"which are valid at the moment {timestamp}."
 
 # 579f36f0bc494db9a0a7d3555ec0cefc
 #: ../../how-to-use/rest-api-node/permissions.rst:50
 msgid "POST /permissions/addresses"
-msgstr ""
+msgstr "POST /permissions/addresses"
 
 # c75b4f5f4a2f4ec6bfb6caf381ddb09c
 #: ../../how-to-use/rest-api-node/permissions.rst:51
@@ -73,9 +81,10 @@ msgid ""
 "Возвращает роли (permissions), назначенные на список адресов, "
 "действительные на текущий момент времени."
 msgstr ""
+"Returns roles (permissions) assigned to specified address list which are "
+"valid at the moment."
 
 # c1aea2f41ecc417e8502709ee3e3b850
 #: ../../how-to-use/rest-api-node/permissions.rst:53
 msgid "**Запрос метода:**"
-msgstr ""
-
+msgstr "**Method Query:**"

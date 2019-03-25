@@ -3,109 +3,119 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 16:06+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 90d973ed02a04ff2b90d0b977a2ca567
 #: ../../how-the-platform-works/components/wallet.rst:2
 msgid "Раздел «Токены»"
-msgstr ""
+msgstr "Module “Tokens”"
 
 # 8e752d679841429bac7f6441cb3c0441
 #: ../../how-the-platform-works/components/wallet.rst:4
 msgid ""
-"Отображает баланс авторизованной учетной записи. Позволяет переводить "
-"токены другим участникам сети, передавать токены в аренду и управлять "
-"токенами. Управление токенами требует разрешения «Управление токенами»."
+"Отображает баланс авторизованной учетной записи. Позволяет переводить токены "
+"другим участникам сети, передавать токены в аренду и управлять токенами. "
+"Управление токенами требует разрешения «Управление токенами»."
 msgstr ""
+"Shows balance of authorized account. Allows transferring tokens to other "
+"network participants, transfer tokens for lease, and manage tokens. Token "
+"management requires the \"Token Management\" permission."
 
 # 7169be6a124c4e619301cabb0ad4df6a
 #: ../../how-the-platform-works/components/wallet.rst:9
 msgid "Описание элементов интерфейса:"
-msgstr ""
+msgstr "Description of interface elements:"
 
 # 04426903a7984b00a2bc305ba4c8f525
 #: ../../how-the-platform-works/components/wallet.rst:11
 msgid "Навигация между разделами"
-msgstr ""
+msgstr "Navigating among modules"
 
 # e127744e0c09420e8f43d698f6000fa0
 #: ../../how-the-platform-works/components/wallet.rst:12
 msgid "Выход из клиента"
-msgstr ""
+msgstr "Exit Client"
 
 # b4e4e94e49aa4fcfba001554ef280cb0
 # f9eb6166d0c448a8bb88811fe3aca1fd
 #: ../../how-the-platform-works/components/wallet.rst:13
 #: ../../how-the-platform-works/components/wallet.rst:21
 msgid "Элементы управления"
-msgstr ""
+msgstr "Controls"
 
 # 5c3773997e6f4b469f8e043d459012a4
 # b9d175b12e534d80ae2936bce0ff3200
 #: ../../how-the-platform-works/components/wallet.rst:14
 #: ../../how-the-platform-works/components/wallet.rst:36
 msgid "Список токенов"
-msgstr ""
+msgstr "Token List"
 
 # c1d027c6406c4e51931f93c6d07662d1
 #: ../../how-the-platform-works/components/wallet.rst:15
 msgid "Быстрые действия"
-msgstr ""
+msgstr "Quick actions"
 
 # b3c47b9bfa6849628a6645771fa9c183
 #: ../../how-the-platform-works/components/wallet.rst:18
 msgid "Портфель"
-msgstr ""
+msgstr "Portfolio"
 
 # 2036c87194d54e33b706f1c12c7eca1b
 #: ../../how-the-platform-works/components/wallet.rst:23
 msgid ""
-"Пополнение — доступно только в partner-net, пополняет баланс на 50 VST "
-"при балансе менее 50 VST, для задач тестирования блокчейна."
+"Пополнение — доступно только в partner-net, пополняет баланс на 50 VST при "
+"балансе менее 50 VST, для задач тестирования блокчейна."
 msgstr ""
+"Top-up - Available only in partner-net, top-ups balance by 50 VST when "
+"balance is less than 50 VST, for testing blockchain."
 
 # aacf410683dd4cddad4d17024ef4ea1b
 #: ../../how-the-platform-works/components/wallet.rst:25
 msgid "Переводы  — перевод токенов одному или нескольким участникам."
-msgstr ""
+msgstr "Transfers — transfer of Tokens to one or more participants."
 
 # 8e600fdc00474297bca0cd7e2a7734f2
 #: ../../how-the-platform-works/components/wallet.rst:25
 msgid "Перевод"
-msgstr ""
+msgstr "Transfer"
 
 # 4c4c1cfb704c4c04a31fb95acc1c61f6
 #: ../../how-the-platform-works/components/wallet.rst:26
 msgid ""
-"Массовый перевод — комиссия при переводе трем и более получателям меньше,"
-" чем суммарная комиссия при соответствующем количестве единичных "
-"переводов."
+"Массовый перевод — комиссия при переводе трем и более получателям меньше, чем "
+"суммарная комиссия при соответствующем количестве единичных переводов."
 msgstr ""
+"Mass Transfer – Fee for transfer to three or more recipients is less than "
+"total fee for corresponding number of single transfers."
 
 # ce859268e9a24dd489261c29e3e9d17d
 #: ../../how-the-platform-works/components/wallet.rst:28
 msgid "Аренда — актуально для сетей на PoS консенсусе."
-msgstr ""
+msgstr "Lease — relevant for networks at PoS consensus."
 
 # 212ad6a8cee94758a541d8af45f9e6d0
 #: ../../how-the-platform-works/components/wallet.rst:28
 msgid ""
-"Передать в аренду — передача части своего баланса в аренду майнеру. "
-"Майнинг возможен при наличии на балансе адреса более 1000 VST и "
-"разрешения на майнинг."
+"Передать в аренду — передача части своего баланса в аренду майнеру. Майнинг "
+"возможен при наличии на балансе адреса более 1000 VST и разрешения на майнинг."
 msgstr ""
+"Transfer for lease — transfer part of balance for lease to a miner. Mining is "
+"possible if address balance is more than 1000 VST and mining permission is "
+"available."
 
 # b2d64c67ede24dc388dbaa146ca65dc3
 #: ../../how-the-platform-works/components/wallet.rst:29
@@ -113,11 +123,13 @@ msgid ""
 "Прекратить аренду — возврат средств, переданных в аренду, на ваш баланс, "
 "доступный для транзакций."
 msgstr ""
+"Stop lease — return of leased funds to your balance available for "
+"transactions."
 
 # 92423c15ceb447408260a86806c61eaf
 #: ../../how-the-platform-works/components/wallet.rst:33
 msgid "Управление"
-msgstr ""
+msgstr "Control"
 
 # efd92afb53e242918a933b3d7c941e9d
 #: ../../how-the-platform-works/components/wallet.rst:31
@@ -125,13 +137,17 @@ msgid ""
 "Выпуск токенов — выпуск своего набора токенов. Параметры: количество, "
 "минимальная доля, возможность дополнительной эмиссии, SmartAsset."
 msgstr ""
+"Issue Tokens — release of own token asset. Parameters: quantity, fractional "
+"parts, possibility of additional issue, SmartAsset."
 
 # ed901314a50742a4b9241e3a7e1b15f7
 #: ../../how-the-platform-works/components/wallet.rst:32
 msgid ""
-"Дополнительная эмиссия — увеличение количества токенов в обороте. "
-"Доступно только эмитенту, если было разрешено при первоначальном выпуске."
+"Дополнительная эмиссия — увеличение количества токенов в обороте. Доступно "
+"только эмитенту, если было разрешено при первоначальном выпуске."
 msgstr ""
+"Additional emission — increases the number of tokens in circulation. "
+"Available only to the issuer if it was allowed during the initial issue."
 
 # 13fd16edaf24403e9d03a49de3ca1b40
 #: ../../how-the-platform-works/components/wallet.rst:33
@@ -139,87 +155,91 @@ msgid ""
 "Вывод из обращения — безвозвратное уничтожение токенов. Уничтожить можно "
 "только токены на вашем балансе."
 msgstr ""
+"Revoke from circulation — irreversible burning of tokens. You can only burn "
+"tokens on your balance."
 
 # 97be229dd25d420988658b4101f21a37
 #: ../../how-the-platform-works/components/wallet.rst:38
 msgid "Отображает информацию по токенам:"
-msgstr ""
+msgstr "Displays information about tokens:"
 
 # 72732279e3ad481ca7076b354a3149ff
 #: ../../how-the-platform-works/components/wallet.rst:40
 msgid "Названия"
-msgstr ""
+msgstr "Names"
 
 # d9aea733ea2c4b808da2fa1b65c4324f
 #: ../../how-the-platform-works/components/wallet.rst:41
 msgid "Логотип"
-msgstr ""
+msgstr "Logo"
 
 # d3f5e2106e8345a19580dde3eb68a45f
 #: ../../how-the-platform-works/components/wallet.rst:42
 msgid "Количество на балансе"
-msgstr ""
+msgstr "Available balance"
 
 # 33d5094b6f8f4f8a8eac3c59c3c1fa1f
 #: ../../how-the-platform-works/components/wallet.rst:43
 msgid "Количество токенов в лизинге (только для системного токена)"
-msgstr ""
+msgstr "Number of leased tokens (system token only)"
 
 # e6d6907211ea4495a41a068fb4802e5e
 #: ../../how-the-platform-works/components/wallet.rst:44
 msgid "Тип токена (системный или пользовательский)"
-msgstr ""
+msgstr "Token type (system or user)"
 
 # ca62f76e9e504f9699f78aede31e2fca
 #: ../../how-the-platform-works/components/wallet.rst:48
 msgid "Быстрые действия (для каждого набора токенов):"
-msgstr ""
+msgstr "Quick actions (for each token set):"
 
 # 487d25097a5f40e8a138bf806c0c1de3
 #: ../../how-the-platform-works/components/wallet.rst:46
 msgid "Транзакции пополнения — отображает входящие транзакции."
-msgstr ""
+msgstr "Top-up transactions — displays incoming transactions."
 
 # 63395a6d4e134562b52c91acecdde48d
 #: ../../how-the-platform-works/components/wallet.rst:47
 msgid "Транзакции перевода  — отображает исходящие переводы."
-msgstr ""
+msgstr "Transfer transactions — displays outgoing transfers."
 
 # 93aefa3641114d9f9288dfee6af9ffad
 #: ../../how-the-platform-works/components/wallet.rst:48
 msgid "Транзакции массового перевода — отображает исходящие массовые переводы."
-msgstr ""
+msgstr "Mass transfer transactions — displays outgoing mass transfers."
 
 # d5ea505391384682bb5479eb3b63e2a0
 #: ../../how-the-platform-works/components/wallet.rst:51
 msgid "Форма перевода токенов"
-msgstr ""
+msgstr "Token Transfer Form"
 
 # aeab282e321e4b99b34ccb152e6d8ec4
 # d3868d7f99044bdf8a001aa2b640d77e
 #: ../../how-the-platform-works/components/wallet.rst:53
 #: ../../how-the-platform-works/components/wallet.rst:71
 msgid "Выбор токенов для перевода — для смены токена, нажмите на его название."
-msgstr ""
+msgstr "Select tokens for transfer — to change the token, click on its name."
 
 # 7b63764305734e178cad81affe61964c
 # d04740e6d1484a648c281ea6e6010dd8
 #: ../../how-the-platform-works/components/wallet.rst:54
 #: ../../how-the-platform-works/components/wallet.rst:72
 msgid "Баланс — отображает доступное для перевода количество выбранного токена."
-msgstr ""
+msgstr "Balance — displays the number of selected token available for transfer."
 
 # 38e4053be43e4ce6b38bb519c6c36bb6
 #: ../../how-the-platform-works/components/wallet.rst:55
 msgid "Адрес получателя — введите адрес или псевдоним получателя."
-msgstr ""
+msgstr "Recipient address — enter recipient's address or alias."
 
 # 1d08a14fc41f49e683ffdd9e1b330c20
 #: ../../how-the-platform-works/components/wallet.rst:56
 msgid ""
-"Количество — введите, сколько токенов вы хотите перевести, можно "
-"переводить целые и дробные числа."
+"Количество — введите, сколько токенов вы хотите перевести, можно переводить "
+"целые и дробные числа."
 msgstr ""
+"Quantity — enter how many tokens you want to transfer, you can transfer "
+"integer and fractional numbers."
 
 # 2192d35eb8bc4c258218127cfa801241
 #: ../../how-the-platform-works/components/wallet.rst:57
@@ -227,6 +247,8 @@ msgid ""
 "Сообщение — сообщение для получателя, можети быть просмотрено любым "
 "участником сети."
 msgstr ""
+"Message — a message to a recipient that can be viewed by any network "
+"participant."
 
 # b83cb433194143b7b6feb19e10706589
 # 7db1f53bd0e64c9cab207eabaf0077f4
@@ -239,7 +261,7 @@ msgstr ""
 #: ../../how-the-platform-works/components/wallet.rst:129
 #: ../../how-the-platform-works/components/wallet.rst:140
 msgid "Комиссия за транзакцию — фиксированная."
-msgstr ""
+msgstr "Transaction fee — a fixed amount."
 
 # 0702e70afc7642d1a3dd75f8daca51a4
 # 5f70104dbcdc4681943e6b41ccfd590f
@@ -248,7 +270,7 @@ msgstr ""
 #: ../../how-the-platform-works/components/wallet.rst:78
 #: ../../how-the-platform-works/components/wallet.rst:96
 msgid "Проверка транзакции перед отправкой"
-msgstr ""
+msgstr "Check transaction before transfer"
 
 # 2c1e5591f2db4c3d993ee0592ad579f1
 # 39261a30efac49edaa5dfd0fc30198a0
@@ -260,6 +282,8 @@ msgid ""
 "Отображает результат заполнения полей формы на предыдущем шаге, с "
 "возможностью вернуться назад и исправить."
 msgstr ""
+"Displays results of filling in fields in previous step, with an option to go "
+"back and correct."
 
 # e6a265e5539349499f819f087aeb0c56
 # a89a9f70ca5a43b594e196e317f7801a
@@ -268,21 +292,23 @@ msgstr ""
 #: ../../how-the-platform-works/components/wallet.rst:82
 #: ../../how-the-platform-works/components/wallet.rst:100
 msgid "Подтверждение отправки транзакции"
-msgstr ""
+msgstr "Confirm Send Transaction"
 
 # 73a663b0849443d3a1e41fa363bf5f87
 # 55df737b26014397b0023c32219348bc
 #: ../../how-the-platform-works/components/wallet.rst:66
 #: ../../how-the-platform-works/components/wallet.rst:101
 msgid ""
-"Отображает результат отправки транзакции. На данном шаге отменить "
-"транзакцию невозможно."
+"Отображает результат отправки транзакции. На данном шаге отменить транзакцию "
+"невозможно."
 msgstr ""
+"Displays result of sending transaction. You cannot undo a transaction at this "
+"step."
 
 # 45e9d392b9574b9dbbc4a0ae417eb7e7
 #: ../../how-the-platform-works/components/wallet.rst:69
 msgid "Форма массового перевода токенов"
-msgstr ""
+msgstr "Mass Token Transfer Form"
 
 # cbaaa9b5fefc430ea3a239284215ec67
 #: ../../how-the-platform-works/components/wallet.rst:73
@@ -290,6 +316,8 @@ msgid ""
 "Адрес получателя, сумма — поле ввода получателей и сумм, через запятую. "
 "Каждый получатель с новой строки, доступен импорт списка."
 msgstr ""
+"Recipient's address, amount — input field of recipients and amounts separated "
+"by commas. Enter each recipient in a new line, import list is available."
 
 # 9bbb2fecb9d843e9963c3224aa6e8f43
 #: ../../how-the-platform-works/components/wallet.rst:74
@@ -297,42 +325,47 @@ msgid ""
 "Сообщение — сообщение для получателей, может быть просмотрено любым "
 "участником сети."
 msgstr ""
+"Message — a message for recipients that can be viewed by any network "
+"participant."
 
 # 78e9994cad524087827cb157d623ae0f
 #: ../../how-the-platform-works/components/wallet.rst:75
 msgid ""
-"Комиссия за транзакцию — рассчитывается автоматически, зависит от "
-"количества получателей."
+"Комиссия за транзакцию — рассчитывается автоматически, зависит от количества "
+"получателей."
 msgstr ""
+"Transaction fee — fee calculated automatically, depends on the number of "
+"recipients."
 
 # 871e26c8c99e4632bf2fd7de46fcc64c
 #: ../../how-the-platform-works/components/wallet.rst:83
 msgid ""
-"Отображает результат отправки транзакции. На данном шаге отменить "
-"транзакцию невозможно"
+"Отображает результат отправки транзакции. На данном шаге отменить транзакцию "
+"невозможно"
 msgstr ""
+"Displays result of sending transaction. You cannot undo a transaction at this "
+"step"
 
 # a5485a7b20ce45afbd5752c49e2e9aad
 #: ../../how-the-platform-works/components/wallet.rst:86
 msgid "Форма передачи токенов в аренду"
-msgstr ""
+msgstr "Token Transfer for Lease Form"
 
 # 9aa082e5a28e49d8a563cda4e434008d
 #: ../../how-the-platform-works/components/wallet.rst:88
 msgid "В аренду можно передать только системные токены."
-msgstr ""
+msgstr "Only system tokens can be transferred for lease."
 
 # 334d07ca5c62471cb55a636ffb01a928
 #: ../../how-the-platform-works/components/wallet.rst:90
 msgid ""
-"Баланс — отображает баланс системного токена, доступный для передачи в "
-"аренду."
-msgstr ""
+"Баланс — отображает баланс системного токена, доступный для передачи в аренду."
+msgstr "Balance — displays balance of system token available for lease."
 
 # 75237e8cb2ea4eeba31931ed9d9e0ebb
 #: ../../how-the-platform-works/components/wallet.rst:91
 msgid "Адрес получателя — адрес или псевдоним получателя."
-msgstr ""
+msgstr "Recipient's address — recipient's address or alias."
 
 # 0e7aa0f6f48940afa44328f574b69883
 #: ../../how-the-platform-works/components/wallet.rst:92
@@ -340,11 +373,13 @@ msgid ""
 "Количество — количество токенов для передачи, можно переводить целые и "
 "дробные числа."
 msgstr ""
+"Quantity — number of tokens for transfer, integer and fractional numbers can "
+"be transferred."
 
 # e3721a1d1b4c4acd8fbd2b0108a4dcab
 #: ../../how-the-platform-works/components/wallet.rst:104
 msgid "Форма прекращения аренды токенов"
-msgstr ""
+msgstr "Token Lease Termination Form"
 
 # 0274ae357891455e981d97f52397b382
 #: ../../how-the-platform-works/components/wallet.rst:105
@@ -352,18 +387,20 @@ msgid ""
 "Отображает список транзакций аренды, с возможностью выбора одной или "
 "нескольких для отмены."
 msgstr ""
+"Displays a list of lease transactions, with an option to select one or more "
+"to cancel lease."
 
 # 74e755ac832b4b008a2c7905c8b4af78
 #: ../../how-the-platform-works/components/wallet.rst:108
 msgid "Форма выпуска токенов"
-msgstr ""
+msgstr "Token Issue Form"
 
 # 723bcd027a63460a84ed1dc1bd0c4756
 #: ../../how-the-platform-works/components/wallet.rst:110
 msgid ""
-"Выпуск токенов доступен только при наличии разрешения «Управление "
-"токенами»."
+"Выпуск токенов доступен только при наличии разрешения «Управление токенами»."
 msgstr ""
+"Token issuance is available only if you have the \"Manage Tokens\" permission."
 
 # 895a63d39e814c9ca0c6502a60e2bd28
 #: ../../how-the-platform-works/components/wallet.rst:112
@@ -371,40 +408,50 @@ msgid ""
 "Название — название вашего токена, которое увидят все пользователи сети. "
 "После выпуска токенов изменить невозможно."
 msgstr ""
+"Name — name of your token, which will be visible to all network users. Cannot "
+"be changed after issuing tokens."
 
 # 9d1e290c044e44feadb4b11b7a417201
 #: ../../how-the-platform-works/components/wallet.rst:113
 msgid ""
-"Описание — информация о токене, которую увидят все пользователи сети. "
-"После выпуска токенов изменить невозможно."
+"Описание — информация о токене, которую увидят все пользователи сети. После "
+"выпуска токенов изменить невозможно."
 msgstr ""
+"Description — information about token visible to all network users. Cannot be "
+"changed after issuing tokens."
 
 # b2b0514242004a86a494b11861546c79
 #: ../../how-the-platform-works/components/wallet.rst:114
 msgid "Количество выпускаемых токенов — количество выпускаемых целых токенов."
 msgstr ""
+"Quantity of tokens to be issued — number of integer tokens to be issued."
 
 # f4ead3ca52f64e64b3b06abe621a0762
 #: ../../how-the-platform-works/components/wallet.rst:115
 msgid ""
 "Дополнительная эмиссия — может быть разрешена или запрещена, определяет "
-"возможность довыпуска токенов. После первоначального выпуска можно "
-"отменить разрешение на эмиссию.  Если изначально эмиссия была запрещена, "
-"разрешить её невозможно."
+"возможность довыпуска токенов. После первоначального выпуска можно отменить "
+"разрешение на эмиссию.  Если изначально эмиссия была запрещена, разрешить её "
+"невозможно."
 msgstr ""
+"Additional emission — can be permitted or prohibited, determines the "
+"possibility of additional issuance of tokens. After the initial issuance, the "
+"emission permission can be cancelled. If the emission was initially "
+"prohibited, it is impossible to permit it."
 
 # 5d19a9ab01d249b7a41f716ce404f448
 #: ../../how-the-platform-works/components/wallet.rst:116
 msgid ""
-"Количество знаков после запятой — определяет, операции с какой "
-"минимальной частью токена будут доступны в сети. Нельзя изменить после "
-"выпуска."
+"Количество знаков после запятой — определяет, операции с какой минимальной "
+"частью токена будут доступны в сети. Нельзя изменить после выпуска."
 msgstr ""
+"Number of decimals — determines operations with which minimum part of token "
+"will be available in the network. Cannot be changed after issuance."
 
 # 2c7a58e5a6d648fe83beacca16c25b8c
 #: ../../how-the-platform-works/components/wallet.rst:120
 msgid "Форма дополнительной эмиссии токенов"
-msgstr ""
+msgstr "Additional Token Emission Form"
 
 # e1db8002165e4e0d8a6d58466d384062
 #: ../../how-the-platform-works/components/wallet.rst:122
@@ -412,6 +459,8 @@ msgid ""
 "Дополнительная эмиссия доступна только для автора токена при наличии "
 "разрешения «Управление токенами»."
 msgstr ""
+"Additional emission is available only to Token Initiator if \"Manage Tokens\" "
+"permission is available."
 
 # 262631a5ca334f438b4d2c5a6911c035
 #: ../../how-the-platform-works/components/wallet.rst:124
@@ -419,25 +468,28 @@ msgid ""
 "Токены — выбор доступных для дополнительной эмиссии токенов. Отображает "
 "токены, где вы — эмитент."
 msgstr ""
+"Tokens — selection of tokens available for additional emission. Displays "
+"tokens where you are the issuer."
 
 # a742917ee0be48faa6ab246f081271c2
 # 91c1621f05da41f38834acb1c7a87e27
 #: ../../how-the-platform-works/components/wallet.rst:125
 #: ../../how-the-platform-works/components/wallet.rst:137
 msgid "Текущий баланс — количество выбранного токена у вас на балансе."
-msgstr ""
+msgstr "Current balance — quantity of selected token on your balance."
 
 # d84521f41cd048958f73c1e02f7d304c
 # 8dfb9434a7074b8a95b0f2b40eabf82f
 #: ../../how-the-platform-works/components/wallet.rst:126
 #: ../../how-the-platform-works/components/wallet.rst:138
 msgid "Выпущено токено — количество токенов в обращении."
-msgstr ""
+msgstr "Tokens issued — quantity of tokens in circulation."
 
 # 829faa7cc611460985615630f3795ed1
 #: ../../how-the-platform-works/components/wallet.rst:127
 msgid "Дополнительная эмиссия — можно запретить. Отменить запрет невозможно."
 msgstr ""
+"Additional emissions — can be prohibited. Prohibition can not be undone."
 
 # 08b976b52f7048d18acc21170857135b
 #: ../../how-the-platform-works/components/wallet.rst:128
@@ -445,30 +497,37 @@ msgid ""
 "Количество довыпускаемых токенов — увеличит общее количество токенов в "
 "обращении. Токены будут добавлены на ваш баланс."
 msgstr ""
+"Quantity of tokens to be issued — will increase the total number of tokens in "
+"circulation. Tokens will be added to your balance."
 
 # 0cf2b1a0f2de4aad861fadd94cc690c9
 #: ../../how-the-platform-works/components/wallet.rst:132
 msgid "Форма вывода токенов из обращения"
-msgstr ""
+msgstr "Token Revoke Form"
 
 # fceec92806de4892b5c25d525b6ff63d
 #: ../../how-the-platform-works/components/wallet.rst:134
 msgid ""
-"Вывод из обращения доступен только для автора токена при наличии "
-"разрешения «Управление токенами»."
+"Вывод из обращения доступен только для автора токена при наличии разрешения "
+"«Управление токенами»."
 msgstr ""
+"Revoking is available only to Token Initiator if \"Manage Tokens\" permission "
+"is available."
 
 # 7447ffd50e6b4b3ab93779e089213834
 #: ../../how-the-platform-works/components/wallet.rst:136
 msgid ""
-"Токены — выбор доступных для вывода из обращения токенов. Отображает "
-"токены, где вы — эмитент."
+"Токены — выбор доступных для вывода из обращения токенов. Отображает токены, "
+"где вы — эмитент."
 msgstr ""
+"Tokens — select available tokens to be revoked. Displays tokens where you are "
+"the issuer."
 
 # 68858591d63e41d380653555430b252a
 #: ../../how-the-platform-works/components/wallet.rst:139
 msgid ""
-"Количество выводимых из обращения токенов — уменьшит общее количество "
-"токенов в обращении. Токены будут списаны с вашего баланса."
+"Количество выводимых из обращения токенов — уменьшит общее количество токенов "
+"в обращении. Токены будут списаны с вашего баланса."
 msgstr ""
-
+"Quanity of tokens to be revoked — will reduce the total number of tokens in "
+"circulation. Tokens will be deducted from your balance."

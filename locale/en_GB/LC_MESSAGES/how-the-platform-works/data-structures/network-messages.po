@@ -3,36 +3,40 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-12 23:02+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 17c9a19920674ad69b3d2d0f5bb351b9
 #: ../../how-the-platform-works/data-structures/network-messages.rst:2
 msgid "Сетевые сообщения"
-msgstr ""
+msgstr "Network messages"
 
 # 155a66474e304cd7a3208aed65ebf25d
 #: ../../how-the-platform-works/data-structures/network-messages.rst:4
 msgid ""
-"В этом разделе приведена структура сетевых сообщений в блокчейн-платформе"
-" Восток."
+"В этом разделе приведена структура сетевых сообщений в блокчейн-"
+"платформе Восток."
 msgstr ""
+"This section describes the structure of network messages in the Vostok "
+"blockchain platform."
 
 # 9e404ed8998d4d0ea1e03210b775a766
 #: ../../how-the-platform-works/data-structures/network-messages.rst:8
 msgid "Network message"
-msgstr ""
+msgstr "Network message"
 
 # 5efc5eadda064f24a6154345f1b10d20
 #: ../../how-the-platform-works/data-structures/network-messages.rst:10
@@ -40,6 +44,8 @@ msgid ""
 "Все сетевые сообщения, за исключением Handshake, базируются на следующей "
 "структуре:"
 msgstr ""
+"All network messages, except Handshake, are based on the following "
+"structure:"
 
 # 3763f388afea42899f9e6c1837bed7d4
 # 808bb7e9a6454ba0ae1ba8043771f1bf
@@ -54,7 +60,7 @@ msgstr ""
 # 06a59d7f6e004f4c860420fff629fd7f
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "#"
-msgstr ""
+msgstr "#"
 
 # caaf51e64ce44a0888500b9ca7b4a14a
 # 614e093686c84c109dfa578c2680c7bd
@@ -69,7 +75,7 @@ msgstr ""
 # eec8d1949c1e4cd2985072342aea6392
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Поле"
-msgstr ""
+msgstr "Field"
 
 # c0bbc9ba42b145a2bc06d50d2e5b54b1
 # c1d8911630394964a8724a3c96a89d05
@@ -84,7 +90,7 @@ msgstr ""
 # e97f35e68fe844c89b26d14bb5de4cf0
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Тип"
-msgstr ""
+msgstr "Type"
 
 # ad30fe75df9a48468459711e64363ccd
 # aac9b0ec8ee544418f37fbd58b546fdc
@@ -99,7 +105,7 @@ msgstr ""
 # e5ca4dad46074d41853b6b54e14e337f
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Размерность"
-msgstr ""
+msgstr "Size"
 
 # 97d1b9c0deed4981bd192543b589ae45
 # 4df00250094342c59cad4891588fa008
@@ -126,7 +132,7 @@ msgstr ""
 # 781cfe69ce274852888097ae1d583160
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "1"
-msgstr ""
+msgstr "1"
 
 # b1abfe1cd5284d748a613245adcd574d
 # 8f184845039e493caa9aa815d35f5fa7
@@ -140,7 +146,7 @@ msgstr ""
 # dd0cc260e6e84eeeb6c3b7f105a2e78c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Packet length (BigEndian)"
-msgstr ""
+msgstr "Packet length (BigEndian)"
 
 # 97d8dd22488e45899fcf94390f895861
 # 1b1f2b40dfdb40a2a64e08c7b33f18f0
@@ -174,7 +180,7 @@ msgstr ""
 # 2c3929c8f7774ecfaa6bb4b94c3dab97
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Int"
-msgstr ""
+msgstr "Int"
 
 # b38efbc10b1a43328fc21d90c8f926b7
 # 88640dd4bb014078bccec06679024777
@@ -241,7 +247,7 @@ msgstr ""
 # f30592f0ddd44be890b3e8dcbf73fa17
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "4"
-msgstr ""
+msgstr "4"
 
 # 104275135d1e401abd37c1dc923b3b1c
 # b6fdd0ac671f4e21b0fdb11b83b1e09d
@@ -256,7 +262,7 @@ msgstr ""
 # cc46ec74c5d34aab97beb3fdc4ddb388
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "2"
-msgstr ""
+msgstr "2"
 
 # 8d8b948c00834b0d9365637f8078e01c
 # 0e58ca98bc4b439c8c42adde5d1df3d2
@@ -270,7 +276,7 @@ msgstr ""
 # e048bfdb6bc247f386b217ddd8ad9773
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Magic Bytes"
-msgstr ""
+msgstr "Magic Bytes"
 
 # 51c61a8b6cea41d6b7579900b0e32788
 # c894d31741a64863bea3e3f87e5661d1
@@ -309,7 +315,7 @@ msgstr ""
 # cdcc47d1978644b7a87e12785d5ae5df
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Bytes"
-msgstr ""
+msgstr "Bytes"
 
 # d215c834a70943bfae124b6b530d2086
 # 7c13c12c2c1f4d2399c451b3dde0481a
@@ -324,12 +330,12 @@ msgstr ""
 # c56bb50b2d43496b8dee9e7d54fe0f74
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "3"
-msgstr ""
+msgstr "3"
 
 # 3ad4caf0742c48f7b523b4e3ea489b26
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID"
-msgstr ""
+msgstr "Content ID"
 
 # 91b25a85e6c44fcc8162aeaaa4698d84
 # 91d41dd63fb947b1bdfa06f38455b7f4
@@ -345,7 +351,7 @@ msgstr ""
 # a8b1df5f280e4ada8bacb2ffbdb3b45b
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Byte"
-msgstr ""
+msgstr "Byte"
 
 # b70815ab771042f488418d54c84b1024
 # 4bb129dfdccd4c288aa0e50c0e723033
@@ -359,7 +365,7 @@ msgstr ""
 # 2d2f945e1c69465fb8f6a9bf1fcdbd23
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Payload length"
-msgstr ""
+msgstr "Payload length"
 
 # 280a07930d814325a1218482bc196ae2
 # 36bafeac6949459f8714b87a5d95f019
@@ -374,7 +380,7 @@ msgstr ""
 # d5b8fd7eeaff4de9b0f89cef115cac49
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "5"
-msgstr ""
+msgstr "5"
 
 # fd4bd2a962a143ad9c6cb49d55feb04d
 # 6d479dda66914f518ed202b44e26e551
@@ -388,7 +394,7 @@ msgstr ""
 # 5f72977a933b46d5be75d8b646210c20
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Payload checksum"
-msgstr ""
+msgstr "Payload checksum"
 
 # ab2eae994bbb43969771a86fe403840b
 # 92784d5aaee84883b925375fe6059303
@@ -402,12 +408,12 @@ msgstr ""
 # 9dfd80854bd74c0c8b2edbe50fe6a966
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "6"
-msgstr ""
+msgstr "6"
 
 # 3e7692edd99d44de94dd214512b8309e
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Payload"
-msgstr ""
+msgstr "Payload"
 
 # 8447f56fdd82496480c8b5327fce6842
 # 82230524aac44e2c8913c4facd8c02c5
@@ -416,20 +422,23 @@ msgstr ""
 # 371888f117804bee98048606bceeb84e
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "N"
-msgstr ""
+msgstr "N"
 
 # 9eea8f74f1334eec8b4907ba30550f0c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:23
 msgid ""
-"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes"
-" of_FastHash_of Payload bytes. FastHash is hash function "
+"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
+"bytes of_FastHash_of Payload bytes. FastHash is hash function "
 "Blake2b256(data)."
 msgstr ""
+"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
+"bytes of_FastHash_of Payload bytes. FastHash is hash function "
+"Blake2b256(data)."
 
 # 7fd5d91eddd14d3281d79f6fc46e5841
 #: ../../how-the-platform-works/data-structures/network-messages.rst:27
 msgid "Handshake message"
-msgstr ""
+msgstr "Handshake message"
 
 # 1cb49de5020449ec9b8865954d669c79
 #: ../../how-the-platform-works/data-structures/network-messages.rst:29
@@ -437,36 +446,38 @@ msgid ""
 "Handshake сообщение предназначена для первичного обмена данными между "
 "двумя нодами."
 msgstr ""
+"Handshake message is intended for primary data exchange between two "
+"nodes."
 
 # e6d49a8937344803b07252368d17d33a
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Application name length (N)"
-msgstr ""
+msgstr "Application name length (N)"
 
 # 528ed3149a924ff7a7f8e1a8e37465d6
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Application name (UTF-8 encoded bytes)"
-msgstr ""
+msgstr "Application name (UTF-8 encoded bytes)"
 
 # c09dc9c4498542f39feb526f3bb8f2fb
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Application version major"
-msgstr ""
+msgstr "Application version major"
 
 # 57e810dbca8844b08e21379d751aaa20
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Application version minor"
-msgstr ""
+msgstr "Application version minor"
 
 # b70a9b84b02748799618141bffd4e00c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Application version patch"
-msgstr ""
+msgstr "Application version patch"
 
 # 49a726fa9a224114b653cbeef2615bdd
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Node name length (M)"
-msgstr ""
+msgstr "Node name length (M)"
 
 # dc4e8118655846f0b5a0caf582e38e02
 # 5e1747d316bc4ba082c16720ea1656c7
@@ -475,17 +486,17 @@ msgstr ""
 # 4a9060c529b44819aba3d7d308f6737b
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "7"
-msgstr ""
+msgstr "7"
 
 # 72f6b22a143d49e3840adff6ade60a59
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Node name (UTF-8 encoded bytes)"
-msgstr ""
+msgstr "Node name (UTF-8 encoded bytes)"
 
 # 4b9190b1dabf490b9401bbe1813785f5
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "M"
-msgstr ""
+msgstr "M"
 
 # 44cac69c719f423f91004b79f014bb47
 # cd6f9a30d50f4162baeee68ce02aabc8
@@ -496,12 +507,12 @@ msgstr ""
 # 35fce4caa9c247708079af85c5447a56
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "8"
-msgstr ""
+msgstr "8"
 
 # 47f436e36e144c379e5654420e45245d
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Node nonce"
-msgstr ""
+msgstr "Node nonce"
 
 # b6f336aeb26842c2a07a53b9578f6b0e
 # 025df8ffe7f44d9eb1e134ac3ecc91e1
@@ -509,47 +520,47 @@ msgstr ""
 # a897e6ba83d646d4b27432f3e3eda5b1
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Long"
-msgstr ""
+msgstr "Long"
 
 # 99d9c90164904529ada454fa3cb9151e
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "9"
-msgstr ""
+msgstr "9"
 
 # 122ce873b9334c61afcb6cc5641c92e3
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Declared address length (K) or 0 if no declared address was set"
-msgstr ""
+msgstr "Declared address length (K) or 0 if no declared address was set"
 
 # 7d08dde4ca794da5a56ba14745f5deb2
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "10"
-msgstr ""
+msgstr "10"
 
 # 2930e6852ccc43f884da8fbdabd69681
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Declared address bytes (if length is not 0)"
-msgstr ""
+msgstr "Declared address bytes (if length is not 0)"
 
 # acd19ccc03384e6f89b741586efab11c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "K"
-msgstr ""
+msgstr "K"
 
 # 905874db3e814a46ba910ab9aa0ff289
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "11"
-msgstr ""
+msgstr "11"
 
 # 17dc7a4cfd5f4d4b911608e719d03591
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Timestamp"
-msgstr ""
+msgstr "Timestamp"
 
 # 83d4a6775c5e4dadb971286d5e5c98b9
 #: ../../how-the-platform-works/data-structures/network-messages.rst:49
 msgid "GetPeers message"
-msgstr ""
+msgstr "GetPeers message"
 
 # f3d6433528b64667a4dc074eea77a226
 #: ../../how-the-platform-works/data-structures/network-messages.rst:51
@@ -557,41 +568,43 @@ msgid ""
 "GetPeers сообщение отправляется для запроса сетевых адресов участников "
 "сети."
 msgstr ""
+"GetPeers message is sent to request network addresses of network "
+"participants."
 
 # 6687895186cc4673a0855e5d650a8e57
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x01)"
-msgstr ""
+msgstr "Content ID (0x01)"
 
 # 859ba715f8ce4e8fb6490179903800e3
 #: ../../how-the-platform-works/data-structures/network-messages.rst:65
 msgid "Peers message"
-msgstr ""
+msgstr "Peers message"
 
 # 50f14b4ae83b4ccb93c7ac4a748108d3
 #: ../../how-the-platform-works/data-structures/network-messages.rst:67
 msgid "Peers сообщение является ответом на запрос GetPeers."
-msgstr ""
+msgstr "Peers message is a response to a GetPeers request."
 
 # 7f173a951fff4cd58802134c3731443a
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x02)"
-msgstr ""
+msgstr "Content ID (0x02)"
 
 # 490f1c6b3cb6478495793f56048b3b70
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Peers count (N)"
-msgstr ""
+msgstr "Peers count (N)"
 
 # dce0437bd22143d09f01ec5722523a99
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Peer #1 IP address"
-msgstr ""
+msgstr "Peer #1 IP address"
 
 # f6d5681b83544af5abe6185361a93b49
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Peer #1 port"
-msgstr ""
+msgstr "Peer #1 port"
 
 # c656d6b3a7e04addbdaf3ed829fca97b
 # e76161e40b3e4d4084d502bee59b0a13
@@ -611,49 +624,49 @@ msgstr ""
 # fe185bbec131468dadfdcfc79246fbbc
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "..."
-msgstr ""
+msgstr "..."
 
 # d6cd38de8ccf4570a96aaf81c03f5a4e
 # 0a5bd928f76047899a2230b6885c8094
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "6 + 2 * N - 1"
-msgstr ""
+msgstr "6 + 2 * N - 1"
 
 # c3bd69938c06487eb3d00b29c2bbcd10
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Peer #N IP address"
-msgstr ""
+msgstr "Peer #N IP address"
 
 # e82f11f9f1e247358132f1ce5e067cbf
 # 85e607544b0646a2959d2afc754754c2
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "6 + 2 * N"
-msgstr ""
+msgstr "6 + 2 * N"
 
 # c9618fa1279e4093bda294f6be802ca1
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Peer #N port"
-msgstr ""
+msgstr "Peer #N port"
 
 # a2c68b9f274b4a69822e7b0e17808db9
 #: ../../how-the-platform-works/data-structures/network-messages.rst:86
 msgid "GetSignatures message"
-msgstr ""
+msgstr "GetSignatures message"
 
 # 61cf5fcfe91d47228a3e72378196f96a
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x14)"
-msgstr ""
+msgstr "Content ID (0x14)"
 
 # 1a8c547f088a41969a27a085cc25c51d
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block IDs count (N)"
-msgstr ""
+msgstr "Block IDs count (N)"
 
 # 89f5e717c49e403880bfdff08193628e
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block #1 ID"
-msgstr ""
+msgstr "Block #1 ID"
 
 # 8130f5d72c4c44baa88df6a90a54cab5
 # 472fa4a964e741eb8358ec9b8255fcb3
@@ -664,141 +677,140 @@ msgstr ""
 # 614b455d69164e48995c1a41feaf8dbf
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "64"
-msgstr ""
+msgstr "64"
 
 # 8088c8cbc7e740bb8820ef37adccbb39
 # 8a7776272caa467b9ff57f9deda9b479
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "6 + N"
-msgstr ""
+msgstr "6 + N"
 
 # 2a608cbaaf9849f886d27e79593c1d32
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block #N ID"
-msgstr ""
+msgstr "Block #N ID"
 
 # 80d54cdac8044a23b407c3940e6ca66c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:104
 msgid "Signatures message"
-msgstr ""
+msgstr "Signatures message"
 
 # d053a25d19dd42408341bb50c3060101
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x15)"
-msgstr ""
+msgstr "Content ID (0x15)"
 
 # daef73be7bd248b5a20a5ad5e193f5f9
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block signatures count (N)"
-msgstr ""
+msgstr "Block signatures count (N)"
 
 # 078e4b3b71fd4c68b4a67904953c927c
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block #1 signature"
-msgstr ""
+msgstr "Block #1 signature"
 
 # e3e1de9783c04ddf845a64e90c311427
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block #N signature"
-msgstr ""
+msgstr "Block #N signature"
 
 # 04d8a19ead8e431ca0c95591c0f96b3d
 #: ../../how-the-platform-works/data-structures/network-messages.rst:121
 msgid "GetBlock message"
-msgstr ""
+msgstr "GetBlock message"
 
 # 542b443e9a6f484eb183939cd6d037f4
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x16)"
-msgstr ""
+msgstr "Content ID (0x16)"
 
 # 3f974fd2490949a9aa3dbacec59b17e8
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block ID"
-msgstr ""
+msgstr "Block ID"
 
 # 2d209d2f7ab74d569cd5ceca8b5d9468
 #: ../../how-the-platform-works/data-structures/network-messages.rst:136
 msgid "Block message"
-msgstr ""
+msgstr "Block message"
 
 # 55d759bacd0642c3996d2c646dcd6936
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x17)"
-msgstr ""
+msgstr "Content ID (0x17)"
 
 # eca06470ea3740da87c06a3b479f5808
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Block bytes (N)"
-msgstr ""
+msgstr "Block bytes (N)"
 
 # f9b8f4f8633d43f688f67fb6de21ea71
 #: ../../how-the-platform-works/data-structures/network-messages.rst:151
 msgid "Score message"
-msgstr ""
+msgstr "Score message"
 
 # 2ef690734ebc4ab6be51a20f87f802db
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x18)"
-msgstr ""
+msgstr "Content ID (0x18)"
 
 # 9077d89d62d645babf4eddb4592bafca
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Score (N bytes)"
-msgstr ""
+msgstr "Score (N bytes)"
 
 # 8466a3c3869b44a29a33cc520613aba3
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "BigInt"
-msgstr ""
+msgstr "BigInt"
 
 # 64ace2deaa564e569de14fc16319a08e
 #: ../../how-the-platform-works/data-structures/network-messages.rst:166
 msgid "Transaction message"
-msgstr ""
+msgstr "Transaction message"
 
 # 92d6c24214094f3da1d2b6ebb721bc73
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x19)"
-msgstr ""
+msgstr "Content ID (0x19)"
 
 # 92b10c5b708c401b90e0fcdb35220ad0
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Transaction (N bytes)"
-msgstr ""
+msgstr "Transaction (N bytes)"
 
 # d5079fc7b1b044399553aea5bf545739
 #: ../../how-the-platform-works/data-structures/network-messages.rst:181
 msgid "Checkpoint message"
-msgstr ""
+msgstr "Checkpoint message"
 
 # bc3de8daab3048fea866e8aa0a93aea2
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Content ID (0x64)"
-msgstr ""
+msgstr "Content ID (0x64)"
 
 # 1d09b36a229145e5a6e7f7aa0db68ff0
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Checkpoint items count (N)"
-msgstr ""
+msgstr "Checkpoint items count (N)"
 
 # 80cadc86b0c440e2acae4cef88ec3db8
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Checkpoint #1 height"
-msgstr ""
+msgstr "Checkpoint #1 height"
 
 # 2f470460af3d4c53948b127ea7eb3702
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Checkpoint #1 signature"
-msgstr ""
+msgstr "Checkpoint #1 signature"
 
 # 7c19b9c07a7642f4993e5090ece1a332
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Checkpoint #N height"
-msgstr ""
+msgstr "Checkpoint #N height"
 
 # eef22f9eb5604f9ba7fdcb788620dfb1
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
 msgid "Checkpoint #N signature"
-msgstr ""
-
+msgstr "Checkpoint #N signature"

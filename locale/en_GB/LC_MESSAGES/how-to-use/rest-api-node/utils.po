@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 10:23+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # bedf04b64d874c3aa31cf490e6bded77
 #: ../../how-to-use/rest-api-node/utils.rst:2
 msgid "Utils"
-msgstr ""
+msgstr "Utils"
 
 # bf1436adfe194780b6e874850e31602c
 #: ../../how-to-use/rest-api-node/utils.rst:4
@@ -28,16 +30,18 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
+"The rules for generating queries to the node are given in module :ref:"
+"`rest-api-node`."
 
 # 1e24ffaa6f05407488f40e593f0efced
 #: ../../how-to-use/rest-api-node/utils.rst:7
 msgid "POST /utils/hash/secure"
-msgstr ""
+msgstr "POST /utils/hash/secure"
 
 # 1913ad295dd6464aa9255c75ffcfe0c4
 #: ../../how-to-use/rest-api-node/utils.rst:9
 msgid "Возвращает secure (двойной) hash от заданного сообщения."
-msgstr ""
+msgstr "Returns secure (double) hash of specified message."
 
 # 33501a956bd644c6b1225b676adc0ab9
 # 33427e2bccbe468e9a657a57c3829198
@@ -50,7 +54,7 @@ msgstr ""
 #: ../../how-to-use/rest-api-node/utils.rst:104
 #: ../../how-to-use/rest-api-node/utils.rst:123
 msgid "**Запрос метода:**"
-msgstr ""
+msgstr "**Method query:**"
 
 # 1b36ca3348714665a8de2c3dc61fa2a4
 # c3b13b3ecc604f228df10618428bb75b
@@ -71,77 +75,77 @@ msgstr ""
 #: ../../how-to-use/rest-api-node/utils.rst:144
 #: ../../how-to-use/rest-api-node/utils.rst:157
 msgid "**Ответ метода:**"
-msgstr ""
+msgstr "**Method response:**"
 
 # ddd225f5762b4e04b8e1b90c69eb3310
 #: ../../how-to-use/rest-api-node/utils.rst:29
 msgid "POST /utils/hash/fast"
-msgstr ""
+msgstr "POST /utils/hash/fast"
 
 # 2cadf13f933a4dbab9936fe6b2ae98fc
 #: ../../how-to-use/rest-api-node/utils.rst:31
 msgid "Возвращает hash от заданного сообщения."
-msgstr ""
+msgstr "Returns hash of specified message."
 
 # 65563d8e89e24d20831d69beb27e1305
 #: ../../how-to-use/rest-api-node/utils.rst:49
 msgid "GET /utils/seed/{length}"
-msgstr ""
+msgstr "GET /utils/seed/{length}"
 
 # fe946ce4d9b94db7b3a19127b5470763
 #: ../../how-to-use/rest-api-node/utils.rst:51
 msgid "Возвращает случайный seed заданной {length} длины."
-msgstr ""
+msgstr "Returns random seed of specified {length}."
 
 # 04230e413bce4bdb8f9e34ba7ba7ef20
 #: ../../how-to-use/rest-api-node/utils.rst:62
 msgid "GET /utils/seed"
-msgstr ""
+msgstr "GET /utils/seed"
 
 # 73a404f294984a5c806f750cdc955483
 #: ../../how-to-use/rest-api-node/utils.rst:64
 msgid "Возвращает случайный seed."
-msgstr ""
+msgstr "Returns random seed."
 
 # db02a9d1c4294ea19116e1fd0da06e89
 #: ../../how-to-use/rest-api-node/utils.rst:75
 msgid "POST /utils/script/compile"
-msgstr ""
+msgstr "POST /utils/script/compile"
 
 # 14c4df21f09f44a698ae95457a1493f1
 #: ../../how-to-use/rest-api-node/utils.rst:77
 msgid "**Параметры ответа:**"
-msgstr ""
+msgstr "**Response parameters:**"
 
 # ac0c8aa6ce134a18aba3d83ee7d88057
 #: ../../how-to-use/rest-api-node/utils.rst:102
 msgid "или"
-msgstr ""
+msgstr "or"
 
 # c8451e102b9540c2b9bdb0d2115c88b5
 #: ../../how-to-use/rest-api-node/utils.rst:119
 msgid "POST /utils/script/estimate"
-msgstr ""
+msgstr "POST /utils/script/estimate"
 
 # 62a704aedaab4889b8f7fa31e3e4ef72
 #: ../../how-to-use/rest-api-node/utils.rst:121
 msgid "Декодирование base64 скрипта."
-msgstr ""
+msgstr "Decoding base64 script."
 
 # 81533ae266e441f6ac33e170fe456cd3
 #: ../../how-to-use/rest-api-node/utils.rst:141
 msgid "GET /utils/time"
-msgstr ""
+msgstr "GET /utils/time"
 
 # ed8e5dfee1774fc082b359d349d2cedc
 #: ../../how-to-use/rest-api-node/utils.rst:142
 msgid "Возвращает текущее время на ноде."
-msgstr ""
+msgstr "Returns current node time."
 
 # 7ada4a043e6f44d3b440147b773e1bde
 #: ../../how-to-use/rest-api-node/utils.rst:154
 msgid "POST /utils/reload-wallet"
-msgstr ""
+msgstr "POST /utils/reload-wallet"
 
 # 683f7e9edcc4420e801aeaac9114724b
 #: ../../how-to-use/rest-api-node/utils.rst:155
@@ -149,4 +153,5 @@ msgid ""
 "Перезагружает keystore ноды. Выполняется, если новая ключевая пара была "
 "создана в keystore без перезапуска ноды."
 msgstr ""
-
+"Reloads node keystore. Runs if new key pair was created in keystore "
+"without restarting node."

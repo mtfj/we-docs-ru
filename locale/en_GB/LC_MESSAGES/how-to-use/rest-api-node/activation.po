@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 10:31+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # f1bce039cfbc4afc93c436012d498524
 #: ../../how-to-use/rest-api-node/activation.rst:2
 msgid "Activation"
-msgstr ""
+msgstr "Activation"
 
 # 8aad963f2ae44fc9a12b8cf7b58281d7
 #: ../../how-to-use/rest-api-node/activation.rst:4
@@ -28,19 +30,21 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
+"The rules for generating requests to the node are given in module :"
+"ref:'rest-api-node`."
 
 # e537f9982a5d49029c64ae686b825dba
 #: ../../how-to-use/rest-api-node/activation.rst:8
 msgid "GET /activation/status"
-msgstr ""
+msgstr "GET /activation/status"
 
 # 584acf9848914c5c8f3b356681da2049
 #: ../../how-to-use/rest-api-node/activation.rst:9
 msgid "Возвращает статус активации нового функционала в ноде/нодах."
 msgstr ""
+"Returns the activation status of the new functionality in the node(s)."
 
 # c5541e79daec4584a378da74b0502ea5
 #: ../../how-to-use/rest-api-node/activation.rst:11
 msgid "**Ответ метода:**"
-msgstr ""
-
+msgstr "**Method Response:**"

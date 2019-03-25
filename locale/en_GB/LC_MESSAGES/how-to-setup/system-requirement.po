@@ -3,149 +3,152 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-12 20:27+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 55ed3477bc9b462fba29de6ec6b0dcf1
 #: ../../how-to-setup/system-requirement.rst:2
 msgid "Системные требования"
-msgstr ""
+msgstr "System requirements"
 
 # e21aad8e2bb64afe821c2e774dbc5967
 #: ../../how-to-setup/system-requirement.rst:4
 msgid "Ниже представлены аппартные и системные требования."
-msgstr ""
+msgstr "System and hardware requirements are given below."
 
 # 3cd50f7baf5c44489958b576270d9f07
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "Вариант"
-msgstr ""
+msgstr "Optional"
 
 # 234b8da543c84990ac21ac008be0bea7
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "vCPU"
-msgstr ""
+msgstr "vCPU"
 
 # 00e4dbcd0ca549869175897c9600f7df
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 # 22b119c5ff274844b442b89241ea3236
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "SSD"
-msgstr ""
+msgstr "SSD"
 
 # 85a84c0d82234c4590b31cc616a15b89
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "Режим работы JVM"
-msgstr ""
+msgstr "JVM Operation Mode"
 
 # b9cb4781600a4fb8b97969014061c492
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "Минимальные требования"
-msgstr ""
+msgstr "Minimum requirements"
 
 # 0db372cc542a4d5082fd7a988e382ccf
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "1"
-msgstr ""
+msgstr "1"
 
 # e9ed0513a262479fad24ffe2884e35c1
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "3Gb"
-msgstr ""
+msgstr "3Gb"
 
 # 1af87ec398d14b778e8784956023d32a
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "30Gb"
-msgstr ""
+msgstr "30Gb"
 
 # 694c7a4c9bf74c329c95bf08c962efa2
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "java -Xmx3072M -jar"
-msgstr ""
+msgstr "java -Xmx3072M -jar"
 
 # 7bedfcb9f10343c8b12da5c16e249cd1
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "Рекомендуемые требования"
-msgstr ""
+msgstr "Recommended requirements"
 
 # e0d79a343557459c8dbd0a067a1ec9f5
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "2+"
-msgstr ""
+msgstr "2+"
 
 # 02bce303b4a84655b9fd68ec590215b9
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "4+ Gb"
-msgstr ""
+msgstr "4+ Gb"
 
 # bdb57ce106c64acf8e630f9ad56145a9
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "30+ Gb"
-msgstr ""
+msgstr "30+ Gb"
 
 # 3053b6682d3749e8942bed0c46f1f571
 #: ../../how-to-setup/system-requirement.rst:1
 msgid "java -Xmx4096M -jar"
-msgstr ""
+msgstr "java -Xmx4096M -jar"
 
 # b46af58dd33b4349955ec9eeb6cc0e25
 #: ../../how-to-setup/system-requirement.rst:13
 msgid "\"Xmx\" - флаг, определяющий максимальный размер доступной для JVM памяти."
-msgstr ""
+msgstr "\"Xmx\" - flag defining maximum size of memory available for JVM."
 
 # f2fc6c85dbf5458e9c060771760951d9
 #: ../../how-to-setup/system-requirement.rst:15
 msgid "**Требования к окружению для ноды**"
-msgstr ""
+msgstr "**Node environment requirements**"
 
 # e058e5c5e86b4b34994af1a47f5f9c10
 #: ../../how-to-setup/system-requirement.rst:17
 msgid ""
-"`JRE 1.8 (64-bit) "
-"<http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_"
+"`JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_"
 msgstr ""
+"`JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_"
 
 # 0a600f1fa10e4a9a80a5655742cf1de9
 #: ../../how-to-setup/system-requirement.rst:18
 msgid "`CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_"
-msgstr ""
+msgstr "`CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_"
 
 # a1e8f3243b2c48e080daf80036efcd72
 #: ../../how-to-setup/system-requirement.rst:20
 msgid "**Требования к окружению для корпоративного клиента и дата-сервиса**"
-msgstr ""
+msgstr "**Corporate client and data service environment requirements**"
 
 # f12e6b4f2f2d4aeb95151d57b74a4461
 #: ../../how-to-setup/system-requirement.rst:22
 msgid "`Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_"
-msgstr ""
+msgstr "`Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_"
 
 # 5e2136d8498f4c248c7e474e65fc1606
 #: ../../how-to-setup/system-requirement.rst:23
 msgid "`Docker-compose <https://docs.docker.com/compose/install/>`_"
-msgstr ""
+msgstr "`Docker-compose <https://docs.docker.com/compose/install/>`_"
 
 # 01c9e359071e4ec8b61c7d7fe197b804
 #: ../../how-to-setup/system-requirement.rst:24
 msgid "`node.js <https://nodejs.org/en/download/>`_ LTS версии 10+"
-msgstr ""
+msgstr "`node.js <https://nodejs.org/en/download/>`_ LTS version 10+"
 
 # e63d32021b554626aa3d09eab01be678
 #: ../../how-to-setup/system-requirement.rst:25
 msgid "`npm <https://www.npmjs.com/>`_ 6+"
-msgstr ""
-
+msgstr "`npm <https://www.npmjs.com/>`_ 6+"

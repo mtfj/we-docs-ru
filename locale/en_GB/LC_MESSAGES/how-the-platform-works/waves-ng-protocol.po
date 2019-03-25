@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-24 16:42+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 8b322b38c4b5414aa7466e65e7620c7a
 #: ../../how-the-platform-works/waves-ng-protocol.rst:2
 msgid "Протокол Waves-NG"
-msgstr ""
+msgstr "Waves-NG Protocol"
 
 # 11252ab9f25d4710ab79cabb23add806
 #: ../../how-the-platform-works/waves-ng-protocol.rst:3
@@ -28,71 +30,80 @@ msgid ""
 "Описание протокола работы блокчейна Vostok, обеспечивающего преимущество "
 "производительности относительно других блокчейнов."
 msgstr ""
+"Description of Vostok Blockchain Operation Protocol which provides performance "
+"advantage relative to other blockchains."
 
 # cdaa37d34cd3401790ec6505c57e1730
 #: ../../how-the-platform-works/waves-ng-protocol.rst:6
 msgid "Термины"
-msgstr ""
+msgstr "Terms"
 
 # f9ecee8d97934a01a9990e1b3190136d
 #: ../../how-the-platform-works/waves-ng-protocol.rst:8
 msgid ""
-"Блок — зафиксированный в блокчейне набор транзакций, подписанный майнером"
-" и содержащий ссылку на подпись предыдущего блока. Ограничен 1Мб или 6000"
-" транзакций."
+"Блок — зафиксированный в блокчейне набор транзакций, подписанный майнером и "
+"содержащий ссылку на подпись предыдущего блока. Ограничен 1Мб или 6000 "
+"транзакций."
 msgstr ""
+"Block — a set of transactions registered in the blockchain signed by the miner "
+"and containing a link to the proof of the previous block. Limited to 1MB or "
+"6000 transactions."
 
 # a2c419f6ff4b4d25a71d79e0ed14e9a6
 #: ../../how-the-platform-works/waves-ng-protocol.rst:9
 msgid ""
-"Раунд — период времени между выпуском ключевых блоков. Плавающее "
-"значение, регулируется алгоритмом консесуса в зависимости от нагрузки на "
-"сеть, в среднем 60 секунд.."
+"Раунд — период времени между выпуском ключевых блоков. Плавающее значение, "
+"регулируется алгоритмом консесуса в зависимости от нагрузки на сеть, в среднем "
+"60 секунд.."
 msgstr ""
+"Round — a period of time between issuance of key blocks. A floating value is "
+"controlled by the consesus algorithm depending on the load on the network, "
+"averaging 60 seconds.."
 
 # b0d8b9c269bf4f36b537605b19925358
 #: ../../how-the-platform-works/waves-ng-protocol.rst:10
 msgid "Доказательство доли владения — получение права майнинга в консенсусе PoS."
-msgstr ""
+msgstr "Proof of ownership — acquisition of mining right in the PoS consensus."
 
 # 1c3e66f331f24986b58c0882eb044cf7
 #: ../../how-the-platform-works/waves-ng-protocol.rst:11
 msgid "Нода — узел сети с запущенным приложением блокчейна Waves."
-msgstr ""
+msgstr "Node — network host with the Waves blockchain application running."
 
 # 724a58ece28b47f387a9c6e81a8bd3c7
 #: ../../how-the-platform-works/waves-ng-protocol.rst:12
 msgid ""
-"Майнер — нода, адрес которой обладает достаточным для майнинга балансом и"
-" разрешением «Майнинг»."
+"Майнер — нода, адрес которой обладает достаточным для майнинга балансом и "
+"разрешением «Майнинг»."
 msgstr ""
+"Miner — a node whose address has sufficient balance and a \"mining\" "
+"permission."
 
 # ae2368f70c494db5bbace75c7b20eb5e
 #: ../../how-the-platform-works/waves-ng-protocol.rst:16
 msgid ""
-"Ключевой блок — не содержит транзакций, только служебную информацию, "
-"такую как:"
-msgstr ""
+"Ключевой блок — не содержит транзакций, только служебную информацию, такую как:"
+msgstr "Key block — contains no transactions, only service information such as:"
 
 # 3af524c2d67a47acbbcc5d43e65a7949
 #: ../../how-the-platform-works/waves-ng-protocol.rst:14
 msgid "Публичный ключ майнера — для проверки подписи микроблоков;"
-msgstr ""
+msgstr "Miner public key — to verify proof of microblocks;"
 
 # 0fda832574e6415c8e9f320e8da42d32
 #: ../../how-the-platform-works/waves-ng-protocol.rst:15
 msgid "Сумму комиссии майнера за предыдущий блок;"
-msgstr ""
+msgstr "Amount of miner's fee for the previous block;"
 
 # 9a0c4fb320ac402cba28382efdcd9789
 #: ../../how-the-platform-works/waves-ng-protocol.rst:16
 msgid "Подпись майнера;"
-msgstr ""
+msgstr "Miner's proof;"
 
 # 6c07711c69cb4833ac3c387b29cc8287
 #: ../../how-the-platform-works/waves-ng-protocol.rst:17
 msgid "Ссылку на предыдущий ключевой блок."
-msgstr ""
+msgstr "Link to previous key block."
 
 # f6b0b2808c8c4b6baea727b07e3f1bc9
 #: ../../how-the-platform-works/waves-ng-protocol.rst:18
@@ -100,74 +111,98 @@ msgid ""
 "Liquid Block — служебный термин, для описания состояния блока до выпуска "
 "следующего ключевого блока, т.е. завершения его майнинга."
 msgstr ""
+"Liquid Block — a service term to describe the state of a block before issuing "
+"the next key block, i.e. completing its mining."
 
 # da2442d4274540ae911017db4faab026
 #: ../../how-the-platform-works/waves-ng-protocol.rst:19
 msgid ""
-"Микроблоки — служебный термин, наборы транзакций, применяемых к состоянию"
-" блокчейна раз в 3 секунды. Ограничен 255 транзакциями. Каждый микроблок "
+"Микроблоки — служебный термин, наборы транзакций, применяемых к состоянию "
+"блокчейна раз в 3 секунды. Ограничен 255 транзакциями. Каждый микроблок "
 "подпсан приватным ключом майнера."
 msgstr ""
+"Microblocks — a service term, sets of transactions applied to the state of "
+"blockchain every 3 seconds. Limited to 255 transactions. Each microblock is "
+"signed by the miner's private key."
 
 # a9943b8f6723477baddcbb40da245284
 #: ../../how-the-platform-works/waves-ng-protocol.rst:22
 msgid "Описание протокола"
-msgstr ""
+msgstr "Protocol description"
 
 # d39b8245262e40dcb294e3aabe0694d6
 #: ../../how-the-platform-works/waves-ng-protocol.rst:24
 msgid ""
-"Waves-NG — разработан Waves Platform на основе `Bitcoin-NG "
-"<https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-"
-"eyal.pdf>`_ для повышения пропускной способности блокчейна Waves, на "
-"архитектуре которого реализован Vostok. Идея протокола — в каждом раунде "
-"майнинга создавать не 1 большой блок, а непрерывно создавать микроблоки. "
-"Маленькие блоки быстрее пересылать и проверять."
+"Waves-NG — разработан Waves Platform на основе `Bitcoin-NG <https://www.usenix."
+"org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf>`_ для повышения "
+"пропускной способности блокчейна Waves, на архитектуре которого реализован "
+"Vostok. Идея протокола — в каждом раунде майнинга создавать не 1 большой блок, "
+"а непрерывно создавать микроблоки. Маленькие блоки быстрее пересылать и "
+"проверять."
 msgstr ""
+"Waves-NG - developed by Waves Platform based on 'Bitcoin-NG <https://www."
+"usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf>'_ to increase "
+"the throughput of the Waves blockchain based on whose architecture Vostok is "
+"implemented. The idea of the protocol is to create not 1 large block in each "
+"round of mining but continuously create microblocks. Small blocks are faster "
+"to forward and check."
 
 # dae6358df3e24d1db4ab59ad3178938a
 #: ../../how-the-platform-works/waves-ng-protocol.rst:28
 msgid ""
-"Раунды майнинга начинаются с выпуска ключевого блока. Момент появления "
-"каждого ключевого блока и адрес указанного в нём майнера определяются "
-"консенсусом, подробнее :ref:`Консенсус <consensus>`. Ключевой блок, не "
-"содержащий транзакций, только доказательство — формируется быстро. Далее,"
-" до появления следующего блока, раз в 3 секунды формируются микроблоки с "
-"транзакциями, без доказательства доли, что также повышает скорость "
-"обработки. Каждый блок микроблок ссылается на предыдущий. Ключевой блок "
-"добавляется в блокчейн, как только следующий майнер выпустит свой "
-"ключевой блок, со ссылкой на него."
+"Раунды майнинга начинаются с выпуска ключевого блока. Момент появления каждого "
+"ключевого блока и адрес указанного в нём майнера определяются консенсусом, "
+"подробнее :ref:`Консенсус <consensus>`. Ключевой блок, не содержащий "
+"транзакций, только доказательство — формируется быстро. Далее, до появления "
+"следующего блока, раз в 3 секунды формируются микроблоки с транзакциями, без "
+"доказательства доли, что также повышает скорость обработки. Каждый блок "
+"микроблок ссылается на предыдущий. Ключевой блок добавляется в блокчейн, как "
+"только следующий майнер выпустит свой ключевой блок, со ссылкой на него."
 msgstr ""
+"Mining rounds begin with generation of the key block. The moment of occurrence "
+"of each key block and the address of the miner identified in it are determined "
+"by consensus, for more details see: ref:`Consensus <consensus>`. A key block "
+"containing no transactions, but only proof, is generated quickly. Further, "
+"before the next block is generated, once in 3 seconds microblocks with "
+"transactions are generated without proof of a stake which also increases the "
+"speed of processing. Each block of the microblock is linked to the previous "
+"one. The key block is added to the blockchain as soon as the next miner "
+"generates its key block with a link to it."
 
 # f712a4f3b9b1415d907cea1f9f690c4e
 #: ../../how-the-platform-works/waves-ng-protocol.rst:33
 msgid ""
-"Такой подход снижает время подтверждения транзакции по сравнению с "
-"Ethereum и Bitcoin."
+"Такой подход снижает время подтверждения транзакции по сравнению с Ethereum и "
+"Bitcoin."
 msgstr ""
+"This approach reduces the time to confirm a transaction compared to Ethereum "
+"and Bitcoin."
 
 # 1bf809f8960346a097274e63809c953b
 #: ../../how-the-platform-works/waves-ng-protocol.rst:37
 msgid "1. Процесс создания Liquid Block"
-msgstr ""
+msgstr "1. Creating a Liquid Block"
 
 # 9a8d8dd06b564807a195ba490b838a67
 #: ../../how-the-platform-works/waves-ng-protocol.rst:39
 msgid "Консенсусом определяется майнящий адрес."
-msgstr ""
+msgstr "The mining address is determined by consensus."
 
 # bbb71a10567148aaa00b18efeac2bcae
 #: ../../how-the-platform-works/waves-ng-protocol.rst:40
 msgid "Майнер создает и рассылает по сети ключевой блок."
-msgstr ""
+msgstr "A miner creates and distributes a key block on the network."
 
 # bed4956737e1457eb92884ca8b6993d2
 #: ../../how-the-platform-works/waves-ng-protocol.rst:41
 msgid ""
 "Каждые 3 секунды майнер создает и рассылает по сети микроблок, который "
-"содержит транзакции. Он должен ссылаться на предыдущий микро- или "
-"ключевой блок."
+"содержит транзакции. Он должен ссылаться на предыдущий микро- или ключевой "
+"блок."
 msgstr ""
+"Every 3 seconds, the miner creates and sends out to the network a microblock "
+"which contains transactions. It must be linked to the previous microblock or "
+"key block."
 
 # 460563649f7846f388a758242a28d303
 #: ../../how-the-platform-works/waves-ng-protocol.rst:42
@@ -175,41 +210,53 @@ msgid ""
 "Процесс продолжается до тех пор, пока в сети не появится новый валидный "
 "ключевой блок."
 msgstr ""
+"The process continues until a new valid key block appears on the network."
 
 # b52e3c07caa04517afcfb31bff5d1616
 #: ../../how-the-platform-works/waves-ng-protocol.rst:45
 msgid "2. Механизм вознаграждения майнеров в Waves-NG"
-msgstr ""
+msgstr "2. Miner reward mechanism in Waves-NG"
 
 # 904ed516afc14310a49699692a33ad63
 #: ../../how-the-platform-works/waves-ng-protocol.rst:46
 msgid ""
 "В протоколе предусмотрена финансовая мотивация соблюдения правил для "
-"участников. Комиссия от транзакций в блоке распределяется в пропорции 40%"
-" майнеру создавшему блок и 60% майнеру следующего блока. Транзакция по "
-"начислению комиссии происходит через 100 блоков для обеспечения "
-"доверительного интервала проверок."
+"участников. Комиссия от транзакций в блоке распределяется в пропорции 40% "
+"майнеру создавшему блок и 60% майнеру следующего блока. Транзакция по "
+"начислению комиссии происходит через 100 блоков для обеспечения доверительного "
+"интервала проверок."
 msgstr ""
+"The protocol has a provision for financial incentive for participants' "
+"compliance with the rules. The fee from transactions in the block is "
+"distributed in the proportion of 40% for miner who created the block and 60% "
+"for the miner of the following block. The fee credit transaction is performed "
+"after 100 blocks to ensure a trust interval of checks."
 
 # 0af307f4b10940b79e2406373f5e8b46
 #: ../../how-the-platform-works/waves-ng-protocol.rst:50
 msgid "Схема разделения комиссий"
-msgstr ""
+msgstr "Fee distribution diagram"
 
 # 69c2fb21da13420bacd38aa014840937
 #: ../../how-the-platform-works/waves-ng-protocol.rst:57
 msgid "3. Разрешение конфликтов"
-msgstr ""
+msgstr "3. Conflict resolution"
 
 # f30d3257f04140cea5630a564278f551
 #: ../../how-the-platform-works/waves-ng-protocol.rst:59
 msgid ""
 "Если майнер продолжает цепочку, создавая два микроблока с одним и тем же "
-"родителем, он наказывается отменой дохода от комиссий; тот, кто "
-"обнаруживает мошенничество, получает награду майнера за блок. Блокчейн — "
-"распределенная система и каждая нода хранит копию состояния всей сети. "
-"При появлении очередного микроблока, нода применяет полученные изменения "
-"к своей копии состояния сети и сверяет с остальными узлами сети. В этот "
-"момент происходит обнаружение несогласованности транзакций."
+"родителем, он наказывается отменой дохода от комиссий; тот, кто обнаруживает "
+"мошенничество, получает награду майнера за блок. Блокчейн — распределенная "
+"система и каждая нода хранит копию состояния всей сети. При появлении "
+"очередного микроблока, нода применяет полученные изменения к своей копии "
+"состояния сети и сверяет с остальными узлами сети. В этот момент происходит "
+"обнаружение несогласованности транзакций."
 msgstr ""
-
+"If the miner continues the chain creating two microblocks with the same "
+"parent, it is punished by cancellation of income from fees; the one who "
+"discovers the fraud receives the miner's award for the block. Blockchain is a "
+"distributed system and each node stores a copy of the state of the entire "
+"network. When the next microblock appears, the node applies the received "
+"changes to its copy of the state of the network and checks against other nodes "
+"of the network. At this point, the transaction inconsistency can be detected."
