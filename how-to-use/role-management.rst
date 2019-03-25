@@ -50,7 +50,7 @@
 .. code:: js
 
     permission-granter {
-    wavesCrypto = no
+    waves-crypto = no
     chain-id = T
     account = {
         addresses = [

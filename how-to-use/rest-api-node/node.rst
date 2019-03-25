@@ -13,7 +13,7 @@ GET /node/config
 
     {
         "version": "0.6.6",
-        "wavesCrypto": false,
+        "waves-crypto": false,
         "chainId": "D",
         "consensus": "POS",
         "minimumFee": {
