@@ -80,6 +80,7 @@ Handshake сообщение предназначена для первично�
    16,Node owner address,Bytes,26
    17,Signature,Bytes,64
 
+.. _network-message-GetPeers:
 
 GetPeers message
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -96,6 +97,8 @@ GetPeers сообщение отправляется для запроса се�
    3,Content ID (0x01),Byte,1
    4,Payload length,Int,4
    5,Payload checksum,Bytes,4
+
+.. _network-message-PeersMessage:
 
 Peers message
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-26 11:46+0300\n"
+"PO-Revision-Date: 2019-04-26 11:45+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# a8f8c754e04a49e3b5ff0577a79f52f6
+#: ../../how-to-use/privacy-using.rst:4
+msgid "Добавление в сеть новой ноды"
+msgstr "Adding a new node"
+
+# 3b5f6a1b839a4ce88959facc2175921a
+#: ../../how-to-use/privacy-using.rst:6
+msgid ""
+"Новые ноды можно добавлять в сеть в любой момент времени. Настройка "
+"конфигурационных файлов новой ноды описана в подразделе :ref:`Подключение"
+" к существующей сети <configuration>`. Далее будут описаны действия, "
+"выполняемые при подключении новой ноды в сеть."
+msgstr ""
+"New nodes can be added to the network at any time. Setting up the "
+"configuration files for the new node is described in the subsection "
+":ref:`Connecting to an existing network <configuration>`. Next we will "
+"describe the steps to be taken when connecting a new node to the network."
+
+# 339f43f9678d49d8b9be2db592abc507
+#: ../../how-to-use/privacy-using.rst:9
+msgid ""
+"Пользователь генерирует криптографически связанную пару ключей - "
+"публичный и приватный, которые сохраняются в хранилище ключей ноды "
+"(keyStore)."
+msgstr ""
+"The user generates an encrypted pair of keys - public and private, which "
+"are stored in the node key store (keyStore)."
+
+# 33e26e5a210e4acfaf77796d442e62d8
+#: ../../how-to-use/privacy-using.rst:10
+msgid ""
+"Администратор сети (нода с ролью \"Connection-manager\") получает от "
+"нового пользователя публичный ключ и описание ноды, далее создаёт "
+"транзакцию :ref:`111 RegisterNodeTransaction <RegisterNodeTransaction>` с"
+" полученными данными."
+msgstr ""
+"The network administrator (the node with the role of \"Connection-"
+"manager\") receives the public key and the node description from the new "
+"user, then creates the :ref:`111 RegisterNodeTransaction "
+"<RegisterNodeTransaction>` transaction with the received data."
+
+# 75afce65ed124370b0d979311003a902
+#: ../../how-to-use/privacy-using.rst:11
+msgid ""
+"Транзакция попадает в блок и далее в стейты нод участников сети. "
+"Вследствие транзакции среди сохраняемых данных каждый участник сети "
+"хранит обязательно публичный ключ и адрес новой ноды."
+msgstr ""
+"The transaction falls into the block and then into the node states of the"
+" network participants. As a result of the transaction, each member of the"
+" network must store the public key and address of the new node among the "
+"stored data."
+
+# d6bfd322f56f4288bf81b7c4af9edf77
+#: ../../how-to-use/privacy-using.rst:12
+msgid ""
+"При необходимости администратор сети может добавить новой ноде "
+"дополнительные роли при помощи транзакции :ref:`102 PermitTransaction "
+"<PermitTransaction>`."
+msgstr ""
+"If necessary, the administrator can add additional roles to the new node "
+"using the :ref:`102 PermitTransaction <PermitTransaction>` transaction."
+
+# 0c9fac7131c848559c5e545844313b8b
+#: ../../how-to-use/privacy-using.rst:13
+msgid "Пользователь запускает :ref:`ноду <install-node>`."
+msgstr "The user runs :ref:`the node <install-node>`."
+
+# 8767a1426240404781fd107028074b60
+#: ../../how-to-use/privacy-using.rst:14
+msgid ""
+"После запуска нода отправляет handshake-сообщение со своим публичным "
+"ключом участникам из списка \"peers\" своего конфигурационного файла."
+msgstr ""
+"After starting the node sends a handshake message containing its public "
+"key to participants from the \"peers\" list of its configuration file."
+
+# a685f55a71224f9399cc03a14f699056
+#: ../../how-to-use/privacy-using.rst:15
+msgid ""
+"Участники сети сравнивают публичный ключ из handshake-сообщения и ключ из"
+" транзакции 111, отправленной администратором сети. Если проверка "
+"успешна, участник сети обновляет свою БД и рассылает в сеть сообщение "
+":ref:`Peers Message <network-message-PeersMessage>`."
+msgstr ""
+"Network participants compare the public key from the handshake message "
+"and the key from transaction 111 sent earlier by the network "
+"administrator. If the check is successful, the network participant "
+"updates its database and sends the :ref:`Peers Message <network-messagee-"
+"Peers Message>` message to the network."
+
+# b8c6c554cb68496c9d69b2ca5893c18a
+#: ../../how-to-use/privacy-using.rst:16
+msgid ""
+"Успешно подключившись, новая нода выполняет синхронизацию с сетью и "
+"получает таблицу адресов участников сети."
+msgstr ""
+"Having successfully connected, the new node synchronizes with the network"
+" and receives the address table of the network participants."
+
+# 77591f7e84704365841ae5536be87e3e
+#: ../../how-to-use/privacy-using.rst:22
+msgid "Процесс обмена конфиденциальными данными"
+msgstr "Exchanging the confidential data"
+
+# 689bc940b02241e4bd6d4314126f8a27
+#: ../../how-to-use/privacy-using.rst:24
+msgid ""
+"В упрощенном варианте передача конфиденциальных данных между нодами "
+"состоит из следующих этапов:"
+msgstr ""
+"In a simple way, the transfer of the confidential data between nodes "
+"consists of the following steps:"
+
+# 32f25e04ad2642ebbe5045957464027c
+#: ../../how-to-use/privacy-using.rst:26
+#, fuzzy
+msgid ""
+"Клиент через API отправляет данные в ноду, используя инструмент :ref:`API"
+" <privacy-api>` POST /privacy/sendData (параметры API: отправитель, "
+"пароль, ID политики, тип данных, инфо о данных, дата и хэш)."
+msgstr ""
+"Using the ref:`API <privacy-api>` POST /privacy/sendData tool the client "
+"sends the data to the node (API parameters: sender, password, policy ID, "
+"data type, data information, date and hash)."
+
+# b6fd162ad06b47a1ab0ea4b36bdb55cd
+#: ../../how-to-use/privacy-using.rst:27
+msgid ""
+"Нода запрашивает политику, ID которой клиент передал в API, из своего "
+"стейта и удостоверяется, что может участвовать в обмене конфиденциальных "
+"данных (адрес ноды есть в списке адресов политики)."
+msgstr ""
+"The node requests the policy from its state according to the ID, which "
+"was sent the client inside the API parameters, then the node makes sure "
+"that it can participate in the exchange of confidential data (node "
+"address is in the addresses list of the policy )."
+
+# 6acf656c4da74842add6ec15e127eea5
+#: ../../how-to-use/privacy-using.rst:28
+msgid ""
+"Нода помещает данные в Private Store в статусе Unaccepted, подписывает и "
+"рассылает по сети транзакцию 114 :ref:`PolicyDataHashTransaction "
+"<PolicyDataHashTransaction>` с хэшом данных."
+msgstr ""
+"The node places the data in the Private Store in the Unaccepted status, "
+"signs and sends the transaction 114 :ref:`PolicyDataHashTransaction "
+"<PolicyDataHashTransaction>` with the data hash."
+
+# b52a4d51520543609509a1fd99312587
+#: ../../how-to-use/privacy-using.rst:29
+msgid ""
+"Ноды в сети проверяют, являются ли они участниками политики, и если да, "
+"то принимают транзакцию с хэшом данных."
+msgstr ""
+"The network nodes check to see if they are participants of the policy, "
+"and if yes, they accept the transaction with the data hash."
+
+# db5f64ad775945aca42343067d18f5f1
+#: ../../how-to-use/privacy-using.rst:30
+msgid ""
+"После принятия участниками сети и попадания в блокчейн транзакции 114 "
+"нода-отправитель изменяет статус данных из своего Private Store с "
+"**Unaccepted** на **Accepted**."
+msgstr ""
+"After acceptance the 114 transaction by the network participants and "
+"falling into the blockchain, node-sender changes the data status "
+"**Unaccepted** to **Accepted** in its Private Store."
+
+# 76c8e94f2fec4d4caca1a996b0967c9d
+#: ../../how-to-use/privacy-using.rst:31
+msgid ""
+"Далее данные из Private Store ноды-отправителя участники сети запрашивают"
+" по прямому соединению, используя эфемерные криптографические пары "
+"ключей."
+msgstr ""
+"Network participant request the data from the node-sender via the direct "
+"connection using the encrypted pair of keys."
+
+# 807993d2c7b84279b76d778f285e5dbe
+#: ../../how-to-use/privacy-using.rst:33
+msgid "**Схема процесса**"
+msgstr "**Process scheme**"
+
