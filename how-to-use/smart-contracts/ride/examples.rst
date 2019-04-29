@@ -23,7 +23,7 @@ Also, we check that user has the corresponding tokens on a balance. Then, in the
   :linenos:
 
     let asset = base58'8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf' 
-    # Идентификатор набора токенов в рамках которого идёт голосование.
+    # 
     let addingStartHeight = 1000	
     # Высота блокчейна после которой можно инициировать голования.	
     let votingStartHeight = 2000 	

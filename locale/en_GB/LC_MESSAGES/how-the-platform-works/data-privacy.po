@@ -1,0 +1,447 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-26 11:46+0300\n"
+"PO-Revision-Date: 2019-04-25 15:07+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 7b737175b9b34f98a1d0bba5703365b6
+#: ../../how-the-platform-works/data-privacy.rst:4
+msgid "Конфиденциальность данных"
+msgstr "Data Privacy"
+
+# 4e967847eb3b4ed19affcc04a7c4bb1e
+#: ../../how-the-platform-works/data-privacy.rst:6
+msgid ""
+"Блокчейн-платформа Восток позволяет организовать передачу и хранение "
+"конфиденциальных данных между участниками сетевого взаимодействия. Защита"
+" конфиденциальных данных при их передаче и хранении обеспечивается "
+"набором политик (policy), которые содержат список участников и регулируют"
+" отношения сторон в рамках взаимодействия с приватными данными."
+msgstr ""
+"Blockchain platform Vostok provides the confidential data transfer and "
+"storage between the participants of network interaction. Protection of "
+"confidential data during its transfer and storage is provided by a set of"
+" policies (policy), which contain a list of participants and govern the "
+"relationship between parties in the interaction with private data."
+
+# 69c0ca73ae8e4a148d206a45030a21c1
+#: ../../how-the-platform-works/data-privacy.rst:12
+msgid "Описание политики доступа"
+msgstr "Policy description"
+
+# e1a6a7c21a914c768ef09b0cac8cdc9e
+#: ../../how-the-platform-works/data-privacy.rst:14
+#, fuzzy
+msgid ""
+"Как правило, политика доступа создаётся участниками, которым необходимо "
+"обмениваться приватными данными. Политику доступа может создать любая "
+"нода-участник сети и включить в неё любой состав других нод сети. "
+"Политика представляет собой таблицу в стейте ноды, содержащую поля с "
+"парами \"Ключ\" и \"Значение\". Ключ - это идентификатор политики "
+"(policyId), равный идентификатору транзакции ее создавшей, значение - это"
+" массив с полями:"
+msgstr ""
+"Usually the access policy is created by the net participants who need to "
+"arrange the private data exchange. Any participant can create an access "
+"policy and add into it any number of other participants. An access policy"
+" An access policy is a table in a node state containing fields with "
+"\"Key-Value\" pairs. The key is a policy identifier (policyId) equal to "
+"the transaction  ID which created the policy, the value is an array with "
+"fields:"
+
+# a0c2db1869814499a2944a79396c0ede
+#: ../../how-the-platform-works/data-privacy.rst:16
+msgid "автор политики (sender);"
+msgstr "the creator of the policy (sender);"
+
+# 6653ea8b385e46739cfc0412231530a7
+#: ../../how-the-platform-works/data-privacy.rst:17
+msgid "описание политики (description);"
+msgstr "description (policyDescription);"
+
+# 3e8cb6379d4443bfaa909a7607884fca
+#: ../../how-the-platform-works/data-privacy.rst:18
+msgid "срок действия политики (dueDate);"
+msgstr "duaration (policyDueDate);"
+
+# 82347c6bf1834367b84ec4ac1468ab1b
+#: ../../how-the-platform-works/data-privacy.rst:19
+msgid "список с адресами получателей конфиденциальных данных (recipients);"
+msgstr "the list of confidential data recipients (policyRecipients);"
+
+# fb71d52966494cf2a591297b6778dca5
+#: ../../how-the-platform-works/data-privacy.rst:20
+msgid "список с адресами участников с правами редактирования политики (owners);"
+msgstr "the list of the policy owners with editing rights (policyOwners);"
+
+# 43bdca1364a2423ebaa2efe65f048a55
+#: ../../how-the-platform-works/data-privacy.rst:21
+msgid "список с транзакциями, в которых передаются хэши от данных (txs)."
+msgstr "a list of transactions with data hashes (txs) transfer."
+
+# 5d079d57623c4d72a2db184ccc527ebf
+#: ../../how-the-platform-works/data-privacy.rst:23
+msgid "Политика имеет следующие параметры:"
+msgstr "The policy contains the following parameters:"
+
+# 6653ea8b385e46739cfc0412231530a7
+#: ../../how-the-platform-works/data-privacy.rst:25
+msgid "описание (policyDescription);"
+msgstr "description (policyDescription);"
+
+# 3e8cb6379d4443bfaa909a7607884fca
+#: ../../how-the-platform-works/data-privacy.rst:26
+msgid "срок действия (policyDueDate);"
+msgstr "duaration (policyDueDate);"
+
+# 82347c6bf1834367b84ec4ac1468ab1b
+#: ../../how-the-platform-works/data-privacy.rst:27
+msgid "список получателей конфиденциальных данных (policyRecipients);"
+msgstr "the list of confidential data recipients (policyRecipients);"
+
+# fb71d52966494cf2a591297b6778dca5
+#: ../../how-the-platform-works/data-privacy.rst:28
+msgid "список участников с правами на редактирование политики (policyOwners)."
+msgstr "the list of the policy owners with editing rights (policyOwners)."
+
+# 10ce91cffeaa4decadd01e6166fbc26d
+#: ../../how-the-platform-works/data-privacy.rst:30
+msgid ""
+"Создание политики доступа происходит при помощи отправки в блокчейн "
+"транзакции :ref:`CreatePolicyTransaction <CreatPolicyTransaction>` (type "
+"= 112, создание политики) со следующими параметрами:"
+msgstr ""
+"The access policy is created by sending transaction "
+":ref:`CreatePolicyTransaction <CreatPolicyTransaction>` (type = 112, "
+"policy creation) into the blockchain  with following parameters:"
+
+# 71162134007d443ca25b4df3c6e5526f
+# 3a474c49ab6a4bb4b6949e25f3b8f7c6
+#: ../../how-the-platform-works/data-privacy.rst:32
+#: ../../how-the-platform-works/data-privacy.rst:41
+msgid "отправитель (sender);"
+msgstr "sender;"
+
+# 6653ea8b385e46739cfc0412231530a7
+#: ../../how-the-platform-works/data-privacy.rst:33
+msgid "описание (description);"
+msgstr "description (policyDescription);"
+
+# 78ca4d7908fd42e598c7a2e5f1990a4b
+# 5cc1b1c536964929a9feaec72834d538
+#: ../../how-the-platform-works/data-privacy.rst:34
+#: ../../how-the-platform-works/data-privacy.rst:42
+msgid "дата и время (timestamp);"
+msgstr "date and time (timestamp);"
+
+# 82347c6bf1834367b84ec4ac1468ab1b
+#: ../../how-the-platform-works/data-privacy.rst:35
+#: ../../how-the-platform-works/data-privacy.rst:44
+msgid "получатели (recipients);"
+msgstr "recipients;"
+
+# 837c4128614f48e784a96671e722c443
+# 0c3a73a83d4b4548a817e8a3a9103984
+#: ../../how-the-platform-works/data-privacy.rst:36
+#: ../../how-the-platform-works/data-privacy.rst:45
+msgid "владельцы (owners)."
+msgstr "owners."
+
+# 473f8a9986844d03b471dc365d51eed4
+#: ../../how-the-platform-works/data-privacy.rst:38
+msgid ""
+"Владельцы политики имеют право изменять политику доступа. Для изменения "
+"политики доступа необходимо отправить в блокчейн транзакцию "
+":ref:`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = 113, "
+"редактирование политики) со следующими параметрами:"
+msgstr ""
+"Owners can change the access policy. To make this it is necessary to send"
+" the :ref:`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = "
+"113, policy editing) transaction into the blockchain with following "
+"parameters:"
+
+# db0f66132f8f4d1a85afaa64d2f11b76
+#: ../../how-the-platform-works/data-privacy.rst:40
+msgid "идентификатор политики (policyId);"
+msgstr "policy ID;"
+
+# f7c3a749f197441ea8ed113e17e47556
+#: ../../how-the-platform-works/data-privacy.rst:43
+msgid "добавление/удаление участников (opType);"
+msgstr "add/delete participants (opType);"
+
+# e288ad6b3a984460aade0daf8bd9c0ef
+#: ../../how-the-platform-works/data-privacy.rst:47
+msgid ""
+"Для внешних приложений в :ref:`API ноды <privacy-api>` реализовано "
+"запросы, возвращающие сведения по политике и данным, которые передаются в"
+" рамках данной политики: ``GET /privacy/{policy}/recipients``, ``GET "
+"/privacy/{policy}/fullinfo``, ``GET /privacy/{policy}/getHashes``, ``GET "
+"/privacy/getInfo/{hash}``."
+msgstr ""
+"For external access and getting the information about policies there are "
+"using specified :ref:`API Node <privacy-api>` requests: ``GET "
+"/privacy/{policy}/recipients``, ``GET /privacy/{policy}/fullinfo``, ``GET"
+" /privacy/{policy}/getHashes``, ``GET /privacy/getInfo/{hash}``."
+
+# 7624930f35ef4fd6be2e906cad4f53cf
+#: ../../how-the-platform-works/data-privacy.rst:52
+msgid "Маршрутизация данных"
+msgstr "Data routing"
+
+# 960c3e1eb92d4c0f8313f673d8cb9953
+#: ../../how-the-platform-works/data-privacy.rst:54
+msgid ""
+"Для обмена конфиденциальными данными участники сетевого взамиодействия "
+"(ноды) должны пройти обязательную регистрацию. Регистрация ноды "
+"выполняется отправкой специальной транзакции "
+":ref:`RegistrationNodeTransaction <transaction-structure>` (type = 111), "
+"доступной только для пользователя с ролью \"connection-manager\". "
+"Регистрация нового участника в сети описано на :ref:`этой странице"
+"<privacy-using>`."
+msgstr ""
+"All network interaction participants (nodes) must be registered in order "
+"to exchange confidential data. The Node registration is performed by "
+"sending a special transaction :ref:`Registration Name Transaction "
+"<transaction-structure>` (type = 111), available only for the user with "
+"the role \"connection-manager\". See :ref:` this page<privacy-using>` to "
+"read about a new node registration procedure."
+
+# 5d079d57623c4d72a2db184ccc527ebf
+#: ../../how-the-platform-works/data-privacy.rst:56
+msgid "Транзакция содержит следующие параметры:"
+msgstr "The transaction contains the following parameters:"
+
+# e882ca02b2bc4519afe77a160c9e2d1c
+#: ../../how-the-platform-works/data-privacy.rst:58
+msgid "публичный ключ ноды;"
+msgstr "the public key of the node;"
+
+# a388f23b480345fa9b91e848e0993255
+#: ../../how-the-platform-works/data-privacy.rst:59
+msgid "название или описание ноды."
+msgstr "a name or a description of the node."
+
+# fa43163beff74f6f817390da8f8e2b6f
+#: ../../how-the-platform-works/data-privacy.rst:61
+msgid ""
+"На основе указанных параметров в стейте ноды формируется таблица "
+"разрешенных участников сетевого обмена. Взаимодействие между нодами "
+"разрешается, если в запросе ноды (:ref:`handshake message <network-"
+"message>`) присутствует подпись на приватном ключе, парном публичному "
+"ключу, который находится в стейте ноды. Если подпись запроса верна, то "
+"нода формирует в своей памяти таблицу, содержащую соотвествие между "
+"блокчейн-адресом участника отправившего handshake запрос и его "
+"hostname/ip-адресом. После успешного подключения нода пользователя "
+"выполняет синхронизацию с сетью, а так же синхронизацию таблицы адресов "
+"участников."
+msgstr ""
+"A table containing allowed network exchange participants and based on the"
+" transaction parameters is formed in the node state. The Interaction "
+"between the hosts is allowed, if inside the node request (:ref:`handshake"
+" message <network-message>`) there is a signature of the private key "
+"which is paired to the public key located in the node state. If the "
+"signature of the request is correct, the node forms a table containing "
+"the compliance between the blockchain address of the participant who sent"
+" the handshake request and its hostname/ip address. After a successful "
+"connection the user node synchronizes with the network and performs the "
+"synchronization of the table of addresses of the participants."
+
+# 978abaa37e094ed7814a0940fa319ac5
+#~ msgid ""
+#~ "Блокчейн-платформа Восток позволяет организовать "
+#~ "передачу и хранение конфиденциальных данных"
+#~ " между участниками сетевого взаимодействия."
+#~ msgstr ""
+#~ "Blockchain platform Vostok provides the "
+#~ "confidential data transfer and storage "
+#~ "between the participants of network "
+#~ "interaction."
+
+# 29874b1077394b38a34eb1e3549a578a
+#~ msgid ""
+#~ "Доступ к конфиденциальным данным определяется"
+#~ " политиками (policy), которые содержат "
+#~ "список сторон, которым разрешается чтение "
+#~ "и запись данных."
+#~ msgstr ""
+#~ "The policy set containing the access "
+#~ "lists is keeping safe the confidential"
+#~ " data from unauthorised access."
+
+# 69c0ca73ae8e4a148d206a45030a21c1
+#~ msgid "Организация политик обмена"
+#~ msgstr "Arrangement of the exchange policies"
+
+# ac292779829d4f13b8faf5d4e0b4f0c0
+#~ msgid ""
+#~ "Политика доступа - это сущность "
+#~ "регулирующая отношения сторон в рамках "
+#~ "взаимодействия с приватными данными. Стороны,"
+#~ " которым необходимо обмениваться приватными "
+#~ "данными, cоздают политику доступа, согласно"
+#~ " которой впоследствии проводят обмен "
+#~ "приватными данными."
+#~ msgstr ""
+#~ "The access policy manages the "
+#~ "stakeholders relations during private data "
+#~ "interactions. According with their own "
+#~ "created policy stakeholders are exchanging "
+#~ "the private data."
+
+# 7f3f577db1554de79c85d4a36d0d0fab
+#~ msgid "Параметры политики:"
+#~ msgstr "Policies parameters:"
+
+# 10ce91cffeaa4decadd01e6166fbc26d
+#~ msgid ""
+#~ "Управление политиками доступа осуществляется "
+#~ "путем отправки в блокчейн транзакций "
+#~ "CreatePolicyTransaction (type = 112, создание"
+#~ " политики) и UpdatePolicyTransaction (type "
+#~ "= 113, редактирование политики)."
+#~ msgstr ""
+#~ "Access policies are managed by sending"
+#~ " CreatePolicyTransaction (type = 112, "
+#~ "policy creation) and UpdatePolicyTransaction "
+#~ "(type = 113, policy editing) to "
+#~ "the blockchain."
+
+# 216c5bc4b2114a5bad41fffcebfd8076
+#~ msgid "Обмен конфиденциальными данными"
+#~ msgstr "The exchange of the confidential data"
+
+# 34c4081f3f354735820b46262ec248cc
+#~ msgid ""
+#~ "В упрощенном варианте передача "
+#~ "конфиденциальных данных между нодами состоит"
+#~ " из следующих этапов:"
+#~ msgstr ""
+#~ "In a simple way, the transfer of"
+#~ " the confidential data between nodes "
+#~ "consists of the following steps:"
+
+# 24a49aaba4f24c0cbc3d92d04a0513ab
+#~ msgid "Проверка принадлежности пользователя к policy;"
+#~ msgstr "Checking the user's affiliation to the policy;"
+
+# 725a3edac3dc4921b690e9248be8011b
+#~ msgid "Сохранение данных в Private Store ноды с признаком UNACCEPTED;"
+#~ msgstr "Saving the data inside the node Private Store with UNACCEPTED status;"
+
+# 0283016f303c4b8d9bbf1d17986c73ce
+#~ msgid "Вычисление хэша от полученных данных;"
+#~ msgstr "Calculating the hash of the received data;"
+
+# 58373114af93474b9773bfb24004e488
+#~ msgid ""
+#~ "Формирование, подписание и отправка в "
+#~ "блокчейн транзакции :ref:`PolicyDataHashTransaction "
+#~ "<transaction-structure>` (type = 114), "
+#~ "содержащей хэш данных. Подписание производится"
+#~ " нодой-первополучателем данных;"
+#~ msgstr ""
+#~ "Creating, signing and sending to the "
+#~ "blockchain :ref:`PolicyDataHashTransaction "
+#~ "<transaction-structure>` (type = 114) "
+#~ "containing the data hash. This "
+#~ "transaction is signing by the first "
+#~ "node-recipient;"
+
+# 5022afd38f864a94b670660d5f4268e0
+#~ msgid "Определение списка участников, состоящих в policy;"
+#~ msgstr "Defining the participants list included in policy;"
+
+# d413a3e4db894038bf294e85a3f79f0b
+#~ msgid ""
+#~ "Отправка сетевого сообщения hasPrivateData для"
+#~ " проверки наличия данных у участника "
+#~ "(данные могут быть получены от другой"
+#~ " ноды в рамках peer-to-peer "
+#~ "взаимодействия);"
+#~ msgstr ""
+#~ "Sending the hasPrivateData net message "
+#~ "to check the having of the data"
+#~ " belonging the participant (the data "
+#~ "can be obtained from another node "
+#~ "during peer-to-peer interaction);"
+
+# d46bdca14a7842aeb099187c492da24c
+#~ msgid "Установка TLS-соединения и отправка данных;"
+#~ msgstr "Establishing the TLS connection and sending the data;"
+
+# a279bd00ff9d4d15bd1d34622fd7d8f7
+#~ msgid ""
+#~ "Проверка на соответствие хэша, созданного "
+#~ "на полученных данных и хэша, полученного"
+#~ " из блокчейн-транзакции;"
+#~ msgstr ""
+#~ "Equivalence checking of the hash created"
+#~ " on the base of the received "
+#~ "data and the hash got from the "
+#~ "blockchain transaction;"
+
+# b021dd9fea5a4f32aed7b1359493ce56
+#~ msgid ""
+#~ "Если хэши совпадают, то изменения "
+#~ "статуса данных в Private Store на "
+#~ "ACCEPTED."
+#~ msgstr ""
+#~ "Changing the data status from the "
+#~ "node Private Store on the ACCEPTED "
+#~ "if the hashes will match."
+
+# 850b8ab8d10d40a69370abbdf8ab48bd
+#~ msgid ""
+#~ "Рассылка данных сразу нескольким участникам"
+#~ " предполагает последовательную установку "
+#~ "соединения и пересылку данных каждому "
+#~ "следующему участнику."
+#~ msgstr ""
+#~ "Sending the data to several participants"
+#~ " simultaneously requires a serial "
+#~ "connection and sending data to each "
+#~ "next participant."
+
+# ababf69a10314f00934c9030742f866f
+#~ msgid "**Схема процесса**"
+#~ msgstr "**The process diagram**"
+
+# 7728e92eed33411f9a11e591ddb6194b
+#~ msgid ""
+#~ "Отправка данных на ноду выполняется "
+#~ "через API ноды через запрос ``POST "
+#~ "/privacy/sendData``, в который транслируются "
+#~ "параметры:"
+#~ msgstr ""
+#~ "The ``POST /privacy/sendData`` API request "
+#~ "of the node is using for sending"
+#~ " data to this node with the "
+#~ "following parameters:"
+
+# 267e75f4e9c049f1b75654f289ad9f96
+#~ msgid "address, ключом которого требуется подписать данные;"
+#~ msgstr "the address, the key of which is required to sign the data;"
+
+# 13a0e21ca58849b8a82627a30782b827
+#~ msgid "пароль от keystore;"
+#~ msgstr "the keystore password;"
+
+# 512b43bfca7e4ce08dfe164f7a717d3a
+#~ msgid "данные для отправки."
+#~ msgstr "the data for sending."
+

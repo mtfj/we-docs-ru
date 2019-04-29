@@ -7,24 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-03-24 12:57+0300\n"
+"POT-Creation-Date: 2019-04-19 14:24+0300\n"
+"PO-Revision-Date: 2019-04-19 14:44+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 595a97c8c7a240c9a0c318d536121cc7
+# 75037d55fc48407c8a3acbf14cb1bc87
 #: ../../how-the-platform-works/smart-contracts/about.rst:4
 msgid "Смарт-контракты RIDE"
 msgstr "RIDE Smart Contracts"
 
-# 719f86ee2bdb44de87292f68bfddadac
+# 2e35f222d80244c3830ecf03705970ad
 #: ../../how-the-platform-works/smart-contracts/about.rst:6
 msgid ""
 "Смарт-контракт это скрипт, проверяющий транзакции на соблюдение условий. "
@@ -40,7 +40,7 @@ msgstr ""
 "published for an account or token assets, + 0.004 VST is added to the "
 "standard operations fee."
 
-# 636acb41da084cd18c77c8daa12c14ce
+# 1bbe3e5026604f5494b0455121cb1748
 #: ../../how-the-platform-works/smart-contracts/about.rst:10
 msgid ""
 "Для аккаунта — проверяться будут все транзакции, исходящие с данного "
@@ -57,45 +57,45 @@ msgstr ""
 "can be assigned to one account. Accordingly, any installed script replaces "
 "the previous one, including the \"default script\"."
 
-# d6076cb2eda94efcb487a7f8ac0668b1
+# abcc4c9003614a6b80f964c769b04117
 #: ../../how-the-platform-works/smart-contracts/about.rst:15
 msgid "RIDE"
 msgstr "RIDE"
 
-# 14b5c0d0c176469ba1605161be2283fa
+# 253b8b44f47b475684342f50ee388f31
 #: ../../how-the-platform-works/smart-contracts/about.rst:17
 msgid ""
-"Для создания скрипта в блокчейне Vostok используется `язык RIDE <https://"
-"docs.wavesplatform.com/en/technical-details/ride-language/language-"
-"description.html>`_. Скрипты, написанные на RIDE, при проверке условий "
-"используют следующие данные:"
+"Для создания скрипта в блокчейне Vostok используется язык RIDE (о языке "
+"RIDE можно почитать на портале WAVES `<https://docs.wavesplatform.com>`_). "
+"Скрипты, написанные на RIDE, при проверке условий используют следующие "
+"данные:"
 msgstr ""
-"The RIDE language `<https://docs.wavesplatform.com/en/technical-details/"
-"ride-language/language-description.html>`_ is used for creating a script in "
-"the Vostok blockchain. Scripts written in RIDE use the following data when "
+"The RIDE language is used for creating a script in the Vostok blockchain "
+"(about RIDE language you can read on the WAVES portal `<https://docs."
+"wavesplatform.com>`_). Scripts written in RIDE use the following data when "
 "checking conditions:"
 
-# a56b8cab004540de995a19ab7f33a77e
+# 2d7d3cf677ae495baf0d5ef5cf2cd33f
 #: ../../how-the-platform-works/smart-contracts/about.rst:20
 msgid "Данные исходящей транзакции."
 msgstr "Outgoing transaction details."
 
-# 9b784c4cc1c44112977873883159d461
+# 4d7d3c4a0e6e4c2fb27b136b0e171fa1
 #: ../../how-the-platform-works/smart-contracts/about.rst:21
 msgid "Данные аккаунта, от имени которого осуществляется транзакции."
 msgstr "Details of account on behalf of which transactions are made."
 
-# e9a9d995fb874a8b970e45ff152c8d17
+# 9de268b9b924431682756096c4f4e251
 #: ../../how-the-platform-works/smart-contracts/about.rst:22
 msgid "Данные о балансе третьих аккаунтов."
 msgstr "Details of third accounts balance."
 
-# 978533249a024435b4522b9f4e122f2c
+# 8589ccdad7b44f17897605d9df47a2f0
 #: ../../how-the-platform-works/smart-contracts/about.rst:23
 msgid "Данные о высоте блокчейна."
 msgstr "Details of blockchain height."
 
-# 1bfeb8e382e14a5a8fc9cb083e525734
+# e8dc4f43e63d441daa9ded3cd6bd901c
 #: ../../how-the-platform-works/smart-contracts/about.rst:25
 msgid ""
 "Принцип работы скрипта это pattern matching, т.е. сопоставление с образцом. "
@@ -108,17 +108,17 @@ msgstr ""
 "under which corresponding transactions can be executed. Also, the following "
 "features are available:"
 
-# dda7c7ff1f6b4b57bd208e3bf270640a
+# 36e40306dced4891bf76778797f88d60
 #: ../../how-the-platform-works/smart-contracts/about.rst:28
 msgid "запретить транзакцию независимот от условий,"
 msgstr "ban transaction regardless of conditions,"
 
-# ebebfe1e6f5643118fba358c14a3e392
+# ff458ff8b4fa44669601b721569a94aa
 #: ../../how-the-platform-works/smart-contracts/about.rst:29
 msgid "разрешить независимо от условий."
 msgstr "permit regardless of conditions."
 
-# a7368fbe6ade45cf937aa970c1e9dbf7
+# 53811146c0e84c0994a30d75404c2037
 #: ../../how-the-platform-works/smart-contracts/about.rst:30
 msgid ""
 "Работа с разрешениями и запретами по типам транзакций возможна как "
@@ -132,54 +132,47 @@ msgstr ""
 "permission, prohibition or verification for compliance with conditions must "
 "be explicitly specified."
 
-# d9cb5c00fd5440ce8bebfceceed9909c
+# 7c7bbeaa47d34f22ba9f72b136e13725
 #: ../../how-the-platform-works/smart-contracts/about.rst:33
 msgid "Скрипт не изменяет транзакцию, только проверяет соответствие условиям."
 msgstr ""
 "The script does not modify the transaction, it only verifies that the "
 "conditions are met."
 
-# f8a5af31c23e4991a0053cc8d5686040
+# e927606907dd4a14ac61a17daa71d546
 #: ../../how-the-platform-works/smart-contracts/about.rst:36
 msgid "Сложность скриптов"
 msgstr "Complexity of scripts"
 
-# 8548a9c2977c4fa2bef2c7802e079c5a
+# 19f7a14a4b1344a09d3bcf94590a1ef6
 #: ../../how-the-platform-works/smart-contracts/about.rst:38
 msgid ""
 "RIDE не является Тьюринг полным языком, что накладывает ограничения на "
 "доступную сложность логики. Вычислительная сложность принудительно "
-"ограничена сверху для гарантии производительности сети. Дополнительная "
-"информация по сложности скриптов доступна на странице `вычислительная "
-"сложность скриптов <https://docs.wavesplatform.com/en/technical-details/"
-"waves-contracts-language-description/script-performance-tests.html>`_. Для "
-"сложных бизнес-процессов, механика которых не укладывается в один скрипт, "
-"возможна комбинация из нескольких скриптов (на нескольких адресах, "
-"соответственно), либо комбинации скриптов на наборе токенов и на адресе. Мы "
-"активно развиваем возможно RIDE, в ближайшее время в языке появятся "
-"вложенные функции, что расширит его возможности по сложности реализуемых "
-"задач."
+"ограничена сверху для гарантии производительности сети. Для сложных бизнес-"
+"процессов, механика которых не укладывается в один скрипт, возможна "
+"комбинация из нескольких скриптов (на нескольких адресах, соответственно), "
+"либо комбинации скриптов на наборе токенов и на адресе. Мы активно "
+"развиваем возможно RIDE, в ближайшее время в языке появятся вложенные "
+"функции, что расширит его возможности по сложности реализуемых задач."
 msgstr ""
 "RIDE is not a Turing-complete language, which imposes limitations on the "
 "available complexity of logic. Computational complexity is constrained from "
-"the top to guarantee network performance. Additional information about the "
-"complexity of scripts is available at `computational complexity of scripts "
-"<https://docs.wavesplatform.com/en/technical-details/waves-contracts-"
-"language-description/script-performance-tests.html>`. For complex business "
-"processes, the mechanics of which does not fit into one script, a "
-"combination of several scripts (for several addresses, respectively), or a "
-"combination of scripts for token assets and address can be used. We are "
-"actively developing RIDE features, and in the near future nested functions "
-"expanding its capabilities in terms of complexity of tasks to be "
-"implemented will appear in the language."
+"the top to guarantee network performance. For complex business processes, "
+"the mechanics of which does not fit into one script, a combination of "
+"several scripts (for several addresses, respectively), or a combination of "
+"scripts for token assets and address can be used. We are actively "
+"developing RIDE features, and in the near future nested functions expanding "
+"its capabilities in terms of complexity of tasks to be implemented will "
+"appear in the language."
 
-# ba562715d3e4446ba8f2e5ae244a68fc
-#: ../../how-the-platform-works/smart-contracts/about.rst:45
+# 4cdd9a64560c466da570bb875897460d
+#: ../../how-the-platform-works/smart-contracts/about.rst:44
 msgid "Подписи и скрипт «по умолчанию»"
 msgstr "Signatures and default script"
 
-# c0cb0a0270bf43f2b2947b0088bf2953
-#: ../../how-the-platform-works/smart-contracts/about.rst:47
+# 5f9f71713d0742aa88780f0b16e760af
+#: ../../how-the-platform-works/smart-contracts/about.rst:46
 msgid ""
 "Каждая транзакция в блокчейне обладает криптографическим доказательством "
 "целостности, основанном на подписи транзакции закрытым ключом отправителя. "
@@ -195,13 +188,13 @@ msgstr ""
 "installed on each address, which verifies the only condition for each "
 "outgoing transaction — the signature of the sender's address."
 
-# 243cc7815f164b21a6c3f15a219c5a8a
-#: ../../how-the-platform-works/smart-contracts/about.rst:51
+# 462d3abbd9f64194a629a5e555dfe003
+#: ../../how-the-platform-works/smart-contracts/about.rst:50
 msgid "Пример кода скрипта, установленного «по умолчанию»::"
 msgstr "Example of a default script code::"
 
-# 9f222ab3f01e48e689e3d3980a60b6ad
-#: ../../how-the-platform-works/smart-contracts/about.rst:55
+# 5e1db5de592b44889de670533ad80d01
+#: ../../how-the-platform-works/smart-contracts/about.rst:54
 msgid ""
 "Механика скриптов расширяет возможности по проверке подписи. Транзакция "
 "может быть подписана несколькими пользователями или не от имени того "
@@ -217,8 +210,8 @@ msgstr ""
 "user generates a transaction on behalf of the contract, signs it with his "
 "proof and successfully passes the script test."
 
-# f23daea083554f138ae46cdf5388abbd
-#: ../../how-the-platform-works/smart-contracts/about.rst:59
+# 4ca7b291e8e24228939aaebf9cb60630
+#: ../../how-the-platform-works/smart-contracts/about.rst:58
 msgid ""
 "Если в вашем скрипте явно не указана проверка подписи, то она не "
 "осуществляется. Соответственно, при ручном формировании тела транзакции, "
@@ -230,13 +223,13 @@ msgstr ""
 "it is possible to send transactions on behalf of an address with a script "
 "with another address proof."
 
-# d65140eb4d8740a391879b6dce913e72
-#: ../../how-the-platform-works/smart-contracts/about.rst:62
+# 758f87e5eae745cfa9e55241c6ea103a
+#: ../../how-the-platform-works/smart-contracts/about.rst:61
 msgid "Данные на аккаунте"
 msgstr "Account data"
 
-# 13a47a255f794804b29a4c85cf14fd42
-#: ../../how-the-platform-works/smart-contracts/about.rst:64
+# afd9731cbc26419c86f1007ba8de8e48
+#: ../../how-the-platform-works/smart-contracts/about.rst:63
 msgid ""
 "На адресах в блокчейне Vostok можно хранить данные в формате ключ-значение. "
 "Данные, хранящиеся на адресе, доступны для просмотра по запросу вида "
@@ -258,8 +251,8 @@ msgstr ""
 "allows multiple users to collaborate on data on a smart account. For "
 "example, with document flow statuses."
 
-# ab5eece0def847febdc4a4a2f9d9785b
-#: ../../how-the-platform-works/smart-contracts/about.rst:68
+# 9de48fc679194d75acbb4813e378c5fc
+#: ../../how-the-platform-works/smart-contracts/about.rst:67
 msgid ""
 "Ключи уникальны для адреса. Одному ключу на адресе соответствует только "
 "одно значение. При публикации нового значения для существующего ключа, оно "
@@ -269,3 +262,31 @@ msgstr ""
 "key. When publishing a new value for an existing key, it will be "
 "overwritten. The history and the author of changes can be tracked in the "
 "blockchain."
+
+# 8548a9c2977c4fa2bef2c7802e079c5a
+#~ msgid ""
+#~ "RIDE не является Тьюринг полным языком, что накладывает ограничения на "
+#~ "доступную сложность логики. Вычислительная сложность принудительно "
+#~ "ограничена сверху для гарантии производительности сети. Дополнительная "
+#~ "информация по сложности скриптов доступна на странице `вычислительная "
+#~ "сложность скриптов <https://docs.wavesplatform.com/en/technical-details/"
+#~ "waves-contracts-language-description/script-performance-tests.html>`_. "
+#~ "Для сложных бизнес-процессов, механика которых не укладывается в один "
+#~ "скрипт, возможна комбинация из нескольких скриптов (на нескольких "
+#~ "адресах, соответственно), либо комбинации скриптов на наборе токенов и "
+#~ "на адресе. Мы активно развиваем возможно RIDE, в ближайшее время в языке "
+#~ "появятся вложенные функции, что расширит его возможности по сложности "
+#~ "реализуемых задач."
+#~ msgstr ""
+#~ "RIDE is not a Turing-complete language, which imposes limitations on the "
+#~ "available complexity of logic. Computational complexity is constrained "
+#~ "from the top to guarantee network performance. Additional information "
+#~ "about the complexity of scripts is available at `computational "
+#~ "complexity of scripts <https://docs.wavesplatform.com/en/technical-"
+#~ "details/waves-contracts-language-description/script-performance-tests."
+#~ "html>`. For complex business processes, the mechanics of which does not "
+#~ "fit into one script, a combination of several scripts (for several "
+#~ "addresses, respectively), or a combination of scripts for token assets "
+#~ "and address can be used. We are actively developing RIDE features, and "
+#~ "in the near future nested functions expanding its capabilities in terms "
+#~ "of complexity of tasks to be implemented will appear in the language."

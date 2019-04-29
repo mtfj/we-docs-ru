@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-03-24 16:38+0300\n"
+"PO-Revision-Date: 2019-04-17 17:34+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,15 +27,13 @@ msgstr "Data Preparation Service"
 # 7ed2ffd589e04683aea3ecb93a3c569b
 #: ../../how-the-platform-works/components/data-service.rst:4
 msgid ""
-"Агрегирует данные из блокчейна в реляционную БД и предоставляет API для "
-"доступа к этим данным. Функциональные возможности сервиса спроектированы "
-"под потребности клиента Vostok. Для запросов доступны уточняющие "
-"параметры."
+"Сервис агрегирует данные из блокчейна в реляционную БД и предоставляет API для "
+"доступа к этим данным. Функциональные возможности сервиса спроектированы под "
+"потребности клиента Vostok. Для запросов доступны уточняющие параметры."
 msgstr ""
-"Aggregates data from a blockchain into a relational database and "
-"provides an API to access that data. The service features are designed "
-"to meet the needs of the Vostok client. Advanced parameters are "
-"available for queries."
+"This service aggregates data from a blockchain into a relational database and "
+"provides an API to access that data. Service features are designed to meet the "
+"needs of the Vostok client. Specifying parameters are available for requests."
 
 # fc3fd56c3ce5472fb5ccef924329063b
 #: ../../how-the-platform-works/components/data-service.rst:8
@@ -45,18 +43,17 @@ msgstr "Usage"
 # f222fecc5b624bff99f2118e9ff56025
 #: ../../how-the-platform-works/components/data-service.rst:10
 msgid ""
-"Для использования сервиса необходимо развернуть свой экземпляр клиента и "
-"ноды из комплекта поставки. На данный момент доступ к API сервиса "
-"подготовки данной в публичной сети ограничен."
+"Для использования сервиса необходимо развернуть свой экземпляр клиента и ноды из "
+"комплекта поставки. На данный момент доступ к API сервиса подготовки данной в "
+"публичной сети ограничен."
 msgstr ""
-"To use the service, deploy your client and node from the delivery kit. "
-"Currently, access to the Data Preparation Service API in the public "
-"network is limited."
+"Deploy your client and node using the delivery set for service usage. Currently, "
+"access to the Data Preparation Service API is limited in the public network."
 
 # 613405261d3e459a90b0874e99d72386
 #: ../../how-the-platform-works/components/data-service.rst:13
 msgid "Уточняющие параметры"
-msgstr "Advanced parameters"
+msgstr "Specifying parameters"
 
 # f744de77220d4d54a3ea4cb76311de9b
 #: ../../how-the-platform-works/components/data-service.rst:16
@@ -65,9 +62,7 @@ msgstr "Search"
 
 # f8b8fe2f16ba461b9305d86152e89759
 #: ../../how-the-platform-works/components/data-service.rst:18
-msgid ""
-"Поиск совпадения — принимает на вход строку и диапазон для поиска "
-"совпадения."
+msgid "Поиск совпадения — принимает на вход строку и диапазон для поиска совпадения."
 msgstr "Match search — accepts a string and a range for searching a match."
 
 # d095d7b6d42b44719922f0b690b35d30
@@ -78,13 +73,12 @@ msgstr "Match search range:"
 # 0dbbd19de9154de3877a74b438e957c0
 #: ../../how-the-platform-works/components/data-service.rst:22
 msgid "в описаниях наборов токенов и в сообщениях в трансфер транзакциях;"
-msgstr ""
-"in descriptions of token assets and in messages in transfer transactions;"
+msgstr "in descriptions of token assets and in messages in transfer transactions;"
 
 # 5126245cdd9049b6ad9bda887f470d57
 #: ../../how-the-platform-works/components/data-service.rst:23
 msgid "в суммах транзакций;"
-msgstr "in transaction amounts;"
+msgstr "in transaction sums;"
 
 # 62f8264e33fd4527912852e99c153aa4
 #: ../../how-the-platform-works/components/data-service.rst:24
@@ -114,12 +108,12 @@ msgstr "in token IDs;"
 # 47b03dc5946d46c48f8868414c7f9fe6
 #: ../../how-the-platform-works/components/data-service.rst:29
 msgid "в подписях транзакций;"
-msgstr "in transaction proofs;"
+msgstr "in transaction signatures;"
 
 # edf9f0d835c34af681774abbe265ed56
 #: ../../how-the-platform-works/components/data-service.rst:30
 msgid "в ключах-значениях транзакций с данными."
-msgstr "in data transaction keys/values."
+msgstr "in keys/values of transactions with the data."
 
 # 16adf8c325af47e099bcc72def103f9c
 #: ../../how-the-platform-works/components/data-service.rst:33
@@ -129,51 +123,50 @@ msgstr "Filters"
 # ae43ccbd8d0945bd981d366954faa758
 #: ../../how-the-platform-works/components/data-service.rst:35
 msgid ""
-"Определяют возвращаемые методами API данные о транзанзакциях. Доступны "
-"следующие фильтры:"
+"Определяют возвращаемые методами API данные о транзанзакциях. Доступны следующие "
+"фильтры:"
 msgstr ""
-"Filters define details of transactions returned by API methods. The "
-"following filters are available:"
+"The filters define details of transactions returned by API methods. The following "
+"filters are available:"
 
 # dd6f2479416547f28271d84cbedd5c0a
 #: ../../how-the-platform-works/components/data-service.rst:37
 msgid ""
-"По типу транзакций — числовой идентификатор типа транзакций. "
-"Идентификаторы описаны в разделе :ref:`data-structures`."
+"По типу транзакций — числовой идентификатор типа транзакций. Идентификаторы "
+"описаны в разделе :ref:`data-structures`."
 msgstr ""
-"By transaction type — a numeric ID of transaction type. ID's are "
-"described in section :ref:'data-structures'."
+"By transaction type — a numeric ID of transaction type. ID's are described in :"
+"ref:'data-structures' section."
 
 # e5248ba76c5f442684160bdd064f9ea3
 #: ../../how-the-platform-works/components/data-service.rst:38
 msgid ""
-"По набору токенов - идентификатор набора токенов (идентификатор "
-"транзакции создания набора токенов)."
-msgstr "By token — token asset ID (issue transaction ID)."
+"По набору токенов - идентификатор набора токенов (идентификатор транзакции "
+"создания набора токенов)."
+msgstr "By token asset — token assets ID (transaction ID of the token assets issue)."
 
 # 83e88950e78f42c3bcdbebf9b262025c
 #: ../../how-the-platform-works/components/data-service.rst:41
 msgid ""
-"По сумме транзакции (требует указания типа транзакций и идентификатора "
-"набора токенов):"
+"По сумме транзакции (требует указания типа транзакций и идентификатора набора "
+"токенов):"
 msgstr ""
-"By transaction amount (requires specifying transaction type and token "
-"asset ID):"
+"By transaction sum (requires specifying transaction type and token asset ID):"
 
 # 6848c007bb3a42189b03946b7ecc0c7e
 #: ../../how-the-platform-works/components/data-service.rst:40
 msgid "Сумма транзакции равна - число;"
-msgstr "Transaction amount equals number;"
+msgstr "Transaction sum equals - number;"
 
 # 1d16a74cb6554f1db1c19dfe452745ea
 #: ../../how-the-platform-works/components/data-service.rst:41
 msgid "Сумма транзакции от - число;"
-msgstr "Transaction amount from - number;"
+msgstr "Transaction sum from - number;"
 
 # d9683015b30b42268633fa6317c67920
 #: ../../how-the-platform-works/components/data-service.rst:42
 msgid "Сумма транзакции до - число."
-msgstr "Transaction amount up to - number."
+msgstr "Transaction sum up to - number."
 
 # 800abe80b6764df8849b7b2839ee2714
 #: ../../how-the-platform-works/components/data-service.rst:44
@@ -193,20 +186,20 @@ msgstr "Transaction date up to yyyy-mm-dd."
 # 54ee5497b27c4f1a81f9879dfeddadd6
 #: ../../how-the-platform-works/components/data-service.rst:46
 msgid ""
-"Разрешения —  отображает транзакции разрешений, требует указания типа "
-"транзакци «Permission»."
+"Разрешения —  отображает транзакции разрешений, требует указания типа транзакци "
+"«Permission»."
 msgstr ""
-"Permissions — displays permission transactions, requires specifying type "
-"of transaction as \"Permission\"."
+"Permissions — displays permission transactions, requires specifying type of "
+"transaction as \"Permission\"."
 
 # 23ce86d131c446da92ec1b1022d41d65
 #: ../../how-the-platform-works/components/data-service.rst:47
 msgid ""
-"Индекс и Лимит— возвращает из БД транзакции до указанного индекса "
-"согласно заданному лимиту."
+"Индекс и Лимит— возвращает из БД транзакции до указанного индекса согласно "
+"заданному лимиту."
 msgstr ""
-"Index and limit — returns transactions from the database up to the "
-"specified index according to the specified limit."
+"Index and limit — returns transactions from the database up to the specified index "
+"according to the specified limit."
 
 # c9eb405a707a44068b7379d7621c0182
 #: ../../how-the-platform-works/components/data-service.rst:50
@@ -221,11 +214,11 @@ msgstr "GET/transactions"
 # d280aca8a1cb4b9fbef5407beabadd12
 #: ../../how-the-platform-works/components/data-service.rst:55
 msgid ""
-"Возвращает список транзакций, соответствующий условиям поискового "
-"запроса и применённым фильтрам."
+"Возвращает список транзакций, соответствующий условиям поискового запроса и "
+"применённым фильтрам."
 msgstr ""
-"Returns a list of transactions matching the search query criteria and "
-"filters applied."
+"Returns a list of transactions matching the search query criteria and filters "
+"applied."
 
 # f453f5bc5f25445ea3088899b7104e12
 # 02f7f7a2a0544bad92c220a27d311caf
@@ -260,11 +253,11 @@ msgstr "GET/transactions/count"
 # 1566f93b3323426bb943a6d6a8374852
 #: ../../how-the-platform-works/components/data-service.rst:78
 msgid ""
-"Возвращает количество транзакций, соответствующих условиям поискового "
-"запроса и применённым фильтрам."
+"Возвращает количество транзакций, соответствующих условиям поискового запроса и "
+"применённым фильтрам."
 msgstr ""
-"Returns the number of transactions matching the search query criteria "
-"and filters applied."
+"Returns the number of transactions matching the search query criteria and filters "
+"applied."
 
 # 28cd721bdc864a4eaeb27477e4785d5d
 #: ../../how-the-platform-works/components/data-service.rst:89
@@ -289,11 +282,11 @@ msgstr "GET/assets"
 # 58e64a7b05224da6a1e5863a6fea7fcc
 #: ../../how-the-platform-works/components/data-service.rst:115
 msgid ""
-"Возвращает список доступных в блокчейне наборов токенов (в виде "
-"транзакций выпуска токенов)."
+"Возвращает список доступных в блокчейне наборов токенов (в виде транзакций выпуска "
+"токенов)."
 msgstr ""
-"Returns a list of token assets available in the blockchain (as token "
-"issue transactions)."
+"Returns a list of token assets available in the blockchain (as token issue "
+"transactions)."
 
 # ba7ef032922e42d8873b96da1c86f0d6
 #: ../../how-the-platform-works/components/data-service.rst:142
@@ -308,11 +301,10 @@ msgstr "GET/users"
 # b61d55202e2c49fc9fcfdae40dc3bf62
 #: ../../how-the-platform-works/components/data-service.rst:147
 msgid ""
-"Возвращает список пользователей, соответствующий условиям поискового "
-"запроса и применённым фильтрам."
+"Возвращает список пользователей, соответствующий условиям поискового запроса и "
+"применённым фильтрам."
 msgstr ""
-"Returns a list of users matching the search query criteria and filters "
-"applied."
+"Returns a list of users matching the search query criteria and filters applied."
 
 # 8291996853004bf2aefc588dc0c13da5
 #: ../../how-the-platform-works/components/data-service.rst:173
@@ -352,10 +344,8 @@ msgstr "GET/api/v1/txids/{key}"
 # adb65921085d470ea724d7539f04e974
 #: ../../how-the-platform-works/components/data-service.rst:248
 msgid ""
-"Возвращает список идентификаторов транзакций с данными, содержащих "
-"указанный ключ."
-msgstr ""
-"Returns a list of data transaction ID's containing the specified key."
+"Возвращает список идентификаторов транзакций с данными, содержащих указанный ключ."
+msgstr "Returns a list of data transaction ID's containing the specified key."
 
 # 3c07d7cab1ca46159f817efa1df244c7
 #: ../../how-the-platform-works/components/data-service.rst:261
@@ -365,11 +355,10 @@ msgstr "GET/api/v1/txIds/{key}/{value}"
 # 2562dd7ee7324b9f947502d54545baa6
 #: ../../how-the-platform-works/components/data-service.rst:263
 msgid ""
-"Возвращает список идентификаторов транзакций с данными, содержащих "
-"указанный ключ и значение."
+"Возвращает список идентификаторов транзакций с данными, содержащих указанный ключ "
+"и значение."
 msgstr ""
-"Returns a list of data transaction ID's containing the specified key and "
-"value."
+"Returns a list of data transaction ID's containing the specified key and value."
 
 # e41bb2604c784ec394427d30386f2d55
 #: ../../how-the-platform-works/components/data-service.rst:276
@@ -388,8 +377,5 @@ msgstr "GET/api/v1/txData/{key}/{value}"
 
 # 00ffc1fe561c4b24b4ca9c5836077c60
 #: ../../how-the-platform-works/components/data-service.rst:304
-msgid ""
-"Возвращает тела транзакций с данными, содержащие указанный ключ и "
-"значение."
-msgstr ""
-"Returns data transaction bodies containing the specified key and value."
+msgid "Возвращает тела транзакций с данными, содержащие указанный ключ и значение."
+msgstr "Returns data transaction bodies containing the specified key and value."

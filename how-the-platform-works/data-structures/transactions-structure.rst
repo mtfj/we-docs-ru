@@ -7,33 +7,40 @@
 Для некоторых типов транзакций введено версионирование.
 
 .. table:: Типы транзакций
-===   ========================================================================================================================================================================================================
-№	  Тип транзакции
-===   ========================================================================================================================================================================================================
-1	  :ref:`Genesis transaction <GenesisTransaction>`
-2	  Payment Transaction (не используется)
-3	  :ref:`Issue Transaction <issueTransaction>`
-4	  :ref:`Transfer Transaction <TransferTransaction>`
-5	  :ref:`Reissue Transaction <ReissueTransaction>`
-6	  :ref:`Burn Transaction <BurnTransaction>`
-7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`
-8	  :ref:`Lease Transaction <LeaseTransaction>`
-9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`
-10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`
-11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`
-12	  :ref:`Data Transaction <DataTransaction>`
-13	  :ref:`SetScript Transaction <SetScriptTransaction>`
-14	  :ref:`SponsorFee Transaction (не используется) <SponsorFeeTransaction>`
-15    :ref:`SetAssetScript <SetAssetScriptTransaction>`
-101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`
-102   :ref:`Permission Transaction <PermitTransaction>`
-103   :ref:`CreateContract Transaction <CreateContractTransaction>`
-104   :ref:`CallContract Transaction <CallContractTransaction>`
-105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`
-106   :ref:`DisableContract Transaction <DisableContractTransaction>`
-110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`
-111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
-===   ========================================================================================================================================================================================================
+
+===   =============================================================================   ===================================== 
+№	  Тип транзакции                                                                    Комиссия      
+===   =============================================================================   ===================================== 
+1	  :ref:`Genesis transaction <GenesisTransaction>`                                   отсутствует    
+2	  Payment Transaction (не используется)                                                         
+3	  :ref:`Issue Transaction <issueTransaction>`                                       1 - 1.004VST               
+4	  :ref:`Transfer Transaction <TransferTransaction>`                                 0.001 - 0.009VST              
+5	  :ref:`Reissue Transaction <ReissueTransaction>`                                   1 - 1.008VST              
+6	  :ref:`Burn Transaction <BurnTransaction>`                                         0.001 - 0.009VST              
+7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`               0.003 - 0.007VST             
+8	  :ref:`Lease Transaction <LeaseTransaction>`                                       0.001 - 0.005VST              
+9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                          0.001 - 0.005VST              
+10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                          0.001 - 0.005VST               
+11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                         0.001 - 0.009VST              
+12	  :ref:`Data Transaction <DataTransaction>`                                         0.001 - 0.005VST              
+13	  :ref:`SetScript Transaction <SetScriptTransaction>`                               0.01 - 0.014VST                
+14	  :ref:`SponsorFee Transaction (не используется) <SponsorFeeTransaction>`           1 - 1.004VST              
+15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                                 0.996 - 1VST               
+101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                  отсутствует                
+102   :ref:`Permission Transaction <PermitTransaction>`                                 0VST                
+103   :ref:`CreateContract Transaction <CreateContractTransaction>`                     1 - 1.004VST                
+104   :ref:`CallContract Transaction <CallContractTransaction>`                         0.15 - 0.154VST                
+105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`                 отсутствует                
+106   :ref:`DisableContract Transaction <DisableContractTransaction>`                   0.15 - 0.154VST
+110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`           0-0.004VST                
+111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                         отсутствует               
+112   :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`                           отсутствует               
+113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                         отсутствует               
+114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                     отсутствует                  
+===   =============================================================================   =====================================
+
+.. 107   :ref:`UpdateContract Transaction <UpdateContractTransaction>`                     0.15 - 0.154VST                
+
 
 .. _GenesisTransaction:
 
@@ -778,7 +785,7 @@
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10
+   :widths: 10, 10, 10, 10, 10
 
    type             ,+      ,+      ,Byte
    id               ,+      ,       ,Byte
@@ -1077,10 +1084,16 @@
     "height": 1632 
     }
 
+.. .. _UpdateContractTransaction:
+107. UpdateContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 .. _GenesisRegisterNodeTransaction:
 
 110. GenesisRegisterNodeTransaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :header: "Field","Broadcasted JSON","Blockchain state","Type"
@@ -1117,3 +1130,58 @@
    opType           ,+      ,+      ,+      ,
    height           ,       ,+      ,       ,
 
+
+.. _CreatPolicyTransaction:
+
+112. CreatPolicyTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**JSON для вызова метода sign**
+
+.. code:: js
+
+    {
+    "type":112,
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "description": "Policy for internal nodes",
+    "timestamp": 1000000000,
+    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+    }
+
+.. _UpdatePolicyTransaction:
+
+113. UpdatePolicyTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**JSON для вызова метода sign**
+
+.. code:: js
+
+    {
+    "type":113,
+    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // the id of the existing policy, otherwise there will be the error "Object with policyId = <reqest id> does not exist"
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "timestamp": 1000000000,
+    "opType": "add", // or "remove" during deleting the participants from the policy
+    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+    }
+
+
+.. _PolicyDataHashTransaction:
+
+114. PolicyDataHashTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**JSON для вызова метода sign**
+
+.. code:: js
+
+    {
+    "type":114,
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "timestamp": 1000000000,
+    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
+    "hash": "ad2a814482df0dd0d2cf6321f535be720caa7b3aa1289b0575f60d7a5e109631",
+    }
