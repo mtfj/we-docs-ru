@@ -1,2 +1,5 @@
 _build/
 .vscode/
+vale.exe
+config.conf
+
