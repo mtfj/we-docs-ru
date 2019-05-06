@@ -6,4 +6,4 @@
 - Github_ проекта
 .. _Github: https://github.com/vostokplatform
 - Официальный сайт блокчейн-платформы Waves_
-.. _Waves: https://wavesplatform.com>
+.. _Waves: https://wavesplatform.com
