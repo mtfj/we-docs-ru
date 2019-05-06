@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-18 13:31+0300\n"
+"PO-Revision-Date: 2019-05-06 14:32+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -97,7 +97,7 @@ msgstr "Sample query:"
 # 66b1cdf59ee84ca181d7b0c775247cc5
 #: ../../how-to-use/rest-api-node.rst:30
 msgid "Примеры транзакций приведены на странице :ref:`transaction-example`."
-msgstr "Examples of transactions are given on page: ref:'transaction-example'."
+msgstr "Examples of transactions are given on page: ref:`transaction-example`."
 
 # a4b261c61b4d456faa33bdafb3ac7e49
 #: ../../how-to-use/rest-api-node.rst:32

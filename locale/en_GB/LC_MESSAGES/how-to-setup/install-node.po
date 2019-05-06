@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-03-24 10:51+0300\n"
+"PO-Revision-Date: 2019-05-06 14:31+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,8 +45,8 @@ msgid ""
 "Скачать и установить `JRE 1.8 (64-bit) <http://www.oracle.com/"
 "technetwork/java/javase/downloads/2133155>`_"
 msgstr ""
-"Download and install 'JRE 1.8 (64-bit) <http://www.oracle.com/"
-"technetwork/java/javase/downloads/2133155>' _"
+"Download and install `JRE 1.8 (64-bit) <http://www.oracle.com/"
+"technetwork/java/javase/downloads/2133155>`_"
 
 # 924b49024c97494f960df351a6cbce87
 #: ../../how-to-setup/install-node.rst
@@ -86,7 +86,7 @@ msgid ""
 "jcp>`_ необходимо убедиться что указан верный путь до исполняемого файла "
 "пакета JRE:"
 msgstr ""
-"Before installing 'CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/"
+"Before installing `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/"
 "csp/jcp>`_, check that the correct path for JRE package executable file "
 "is specified:"
 
@@ -109,10 +109,10 @@ msgid ""
 "conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/"
 "configs/example.conf>`_"
 msgstr ""
-"Download latest release of <https://github.com/vostokplatform/Vostok-"
-"Releases/releases>`_ of a node in jar-format and config file 'example."
+"Download `latest release <https://github.com/vostokplatform/Vostok-"
+"Releases/releases>`_ of a node in jar-format and config file `example."
 "conf <https://github.com/vostokplatform/vostok-releases/blob/master/"
-"configs/example.conf>'_"
+"configs/example.conf>`_"
 
 # a09108dd0aa440728e0eec64870fea17
 #: ../../how-to-setup/install-node.rst
@@ -141,8 +141,8 @@ msgid ""
 "Отредактировать ``example.conf`` в соответствии с руководством :ref:`"
 "\"Конфигурация ноды\" <configuration>`"
 msgstr ""
-"Edit ``example.conf`` in accordance with Manual: ref: '\"Node "
-"Configuration\" <configuration>'"
+"Edit ``example.conf`` in accordance with Manual :ref:`\"Node "
+"Configuration\" <configuration>`"
 
 # f4d692e3dcb0470d85ebe3fc26d5525f
 #: ../../how-to-setup/install-node.rst:46
@@ -179,10 +179,10 @@ msgid ""
 "`example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/"
 "master/configs/example.conf>`_"
 msgstr ""
-"Download latest release of node from <https:/githuub.com/votopokplat/"
-"stocok-releases/releases>'_ in deb-package format and config file "
-"'example.conf <https://github.com/vostokplatform/vostok-releases/blob/"
-"master/configs/example.conf>`_"
+"Download `latest release <https:/githuub.com/votopokplat/stocok-releases/"
+"releases>`_ of the node in deb-package format and config file `example."
+"conf <https://github.com/vostokplatform/vostok-releases/blob/master/"
+"configs/example.conf>`_"
 
 # dbde3676ff5f4a12bf3b138360b746a9
 #: ../../how-to-setup/install-node.rst:84

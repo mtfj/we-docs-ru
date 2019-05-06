@@ -164,9 +164,9 @@ POST /transactions/sign
 
 **Примеры запросов**
 
-========= ==================================================
+========= ============================================================================
 ID        Тип транзакции                                                                                                                        
-========= ==================================================
+========= ============================================================================
 3         :ref:`Issue <tx-issue>`          
 4         :ref:`Transfer <tx-transfer>`
 5         Reissue             
@@ -185,8 +185,12 @@ ID        Тип транзакции
 104       :ref:`CallContractTransaction <tx-CallContractTransaction>` 
 105       :ref:`ExecutedContractTransaction <tx-ExecutedContractTransaction>` 
 106       :ref:`DisableContractTransaction <tx-DisableContractTransaction>` 
-107       :ref:`UpdateContractTransaction <tx-UpdateContractTransaction>`  
-========= ==================================================
+========= ============================================================================
+
+.. 107       :ref:`UpdateContractTransaction <tx-UpdateContractTransaction>`
+   110       :ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`
+   111       :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
+   112       :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`
 
 .. _tx-issue:
 

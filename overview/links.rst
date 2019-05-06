@@ -1,5 +1,8 @@
 Официальные ресурсы
 ========================================
-- `Официальный сайт блокчейн-платформы Восток <https://vostok.io>`_
-- `Github проекта <https://github.com/vostokplatform>`_
-- `Официальный сайт блокчейн-платформы Waves <https://wavesplatform.com>`_
+- Официальный сайт блокчейн-платформы Восток_
+.. _Восток: https://vostok.io
+- Github_ проекта
+.. _Github: https://github.com/vostokplatform
+- Официальный сайт блокчейн-платформы Waves_
+.. _Waves: https://wavesplatform.com>
