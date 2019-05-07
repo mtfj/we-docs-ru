@@ -185,12 +185,15 @@ ID        Тип транзакции
 104       :ref:`CallContractTransaction <tx-CallContractTransaction>` 
 105       :ref:`ExecutedContractTransaction <tx-ExecutedContractTransaction>` 
 106       :ref:`DisableContractTransaction <tx-DisableContractTransaction>` 
+110       :ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`
+111       :ref:`RegisterNode Transaction <tx-RegisterNodeTransaction>`
+112       :ref:`CreatPolicy Transaction <tx-CreatPolicyTransaction>`
+113       :ref:`UpdatePolicy Transaction <tx-UpdatePolicyTransaction>`
+114       :ref:`PolicyDataHash Transaction <tx-PolicyDataHashTransaction>`
 ========= ============================================================================
 
 .. 107       :ref:`UpdateContractTransaction <tx-UpdateContractTransaction>`
-   110       :ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`
-   111       :ref:`RegisterNode Transaction <RegisterNodeTransaction>`
-   112       :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`
+
 
 .. _tx-issue:
 
@@ -464,14 +467,122 @@ ID        Тип транзакции
       "contractId" : "Fz3wqAWWcPMT4M1q6H7crLKtToFJvbeLSvqjaU4ZwMpg"
    }
 
-.. _tx-UpdateContractTransaction:
+.. _tx-GenesisRegisterNodeTransaction:
 
-**107. UpdateContractTransaction**
+**110. GenesisRegisterNode**
 
 **Пример запроса**
 
 .. code:: js
 
+   {
+      "type": 110,
+      "id": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "fee": 0,
+      "timestamp": 1489352400000,
+      "signature": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "targetPublicKey": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+      "target": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj"
+   }
+
+**Пример ответа**
+
+.. code:: js
+
+   {
+      "signature": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "fee": 0,
+      "id": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "type": 110,
+      "targetPublicKey": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+      "timestamp": 1489352400000,
+      "target": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+      "height": 1
+   }
+
+.. _tx-RegisterNodeTransaction:
+
+**111. RegisterNode**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type": 111,
+      "opType": "add",
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "targetPubKey": "apgJP9atQccdBPAgJPwH3NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAgJPwHDKkh6A8",
+      "nodeName": "RusAl Node #1",
+      "timestamp": 1557239100
+   } 
+
+.. _tx-CreatPolicyTransaction:
+
+**112. CreatPolicy**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type":112,
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "description": "Policy for rusal internal nodes",
+      "timestamp": 1000000000,
+      "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+      "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+   } 
+.. _tx-UpdatePolicyTransaction:
+
+**113. UpdatePolicy**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type":113,
+      "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // id существующей политики, иначе ошибка "Object with policyId = <reqest id> does not exist"
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "timestamp": 1000000000,
+      "opType": "add", // или "remove" при удалении участников из политики
+      "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+      "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+   }
+
+.. _tx-PolicyDataHashTransaction:
+
+**114. PolicyDataHash**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type":114,
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "timestamp": 1000000000,
+      "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
+      "hash": "ad2a814482df0dd0d2cf6321f535be720caa7b3aa1289b0575f60d7a5e109631",
+   }
+
+.. **Пример ответа**
+   .. code:: js
+      {
+         "signature": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+         "fee": 0,
+         "id": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+         "type": 110,
+         "targetPublicKey": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+       "timestamp": 1489352400000,
+         "target": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+         "height": 1
+      }
+   .. _tx-UpdateContractTransaction:
+   **107. UpdateContractTransaction**
+   **Пример запроса**
+   .. code:: js
    {
       "senderPublicKey":"42jj4GA89Z2SncgzpxoocmWZChrpqhDGVKcJUctAGWJB2oSTQrZCQyzbvriDSFu5ZmCBsFutDyg9ES6WqqULyV5e",
       "contractId":"45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
@@ -484,11 +595,8 @@ ID        Тип транзакции
       ],
       "type":107
    }
-
-**Пример ответа**
-
-.. code:: js
-
+   **Пример ответа**
+   .. code:: js
    {
       "type" : 107,
       "id" : "GL8eifYHfv6XcgK1sBnU2oYaJ1JExKHH3APEnU64dGfX",
