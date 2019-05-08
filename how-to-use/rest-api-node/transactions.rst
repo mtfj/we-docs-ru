@@ -543,10 +543,10 @@ ID        Тип транзакции
 
    {
       "type":113,
-      "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // id существующей политики, иначе ошибка "Object with policyId = <reqest id> does not exist"
+      "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // id of the existing policy otherwise it occurs the error "Object with policyId = <reqest id> does not exist"
       "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
       "timestamp": 1000000000,
-      "opType": "add", // или "remove" при удалении участников из политики
+      "opType": "add", // or "remove" when removing participants from policy
       "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
       "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
    }

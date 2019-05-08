@@ -49,6 +49,6 @@ REST API ноды
    rest-api-node/privacy.rst
    rest-api-node/transactions.rst
    rest-api-node/utils.rst
-   rest-api-node/transaction-example.rst
+   rest-api-node/transactions-example.rst
 
 

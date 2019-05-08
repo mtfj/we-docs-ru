@@ -11,17 +11,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Использование платформы
-   :name: how-to-use
-
-   how-to-use/rest-api-node
-   how-to-use/smart-contracts-docker
-   how-to-use/role-management
-   how-to-use/privacy-using
-.. how-to-use/smart-contracts-ride
-
-.. toctree::
-   :maxdepth: 2
    :caption: Как устроена платформа
    :name: how-the-platform-works
 
@@ -38,6 +27,17 @@
 
 .. toctree::
    :maxdepth: 2
+   :caption: Использование платформы
+   :name: how-to-use
+
+   how-to-use/rest-api-node
+   how-to-use/smart-contracts-docker
+   how-to-use/role-management
+   how-to-use/privacy-using
+.. how-to-use/smart-contracts-ride
+
+.. toctree::
+   :maxdepth: 2
    :caption: Установка и настройка
    :name: how-to-setup
 
@@ -46,11 +46,6 @@
    how-to-setup/configuration-node
    how-to-setup/install-client
    how-to-setup/docker-configuration
-
-
-
-   
-
 
 .. toctree::
    :maxdepth: 1
