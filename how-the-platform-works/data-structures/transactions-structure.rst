@@ -8,36 +8,68 @@
 
 .. table:: Типы транзакций
 
-===   =============================================================================   ====================   ====================================================================
-№	  Тип транзакции                                                                    Комиссия              Описание                                               
-===   =============================================================================   ====================   ====================================================================
-1	  :ref:`Genesis transaction <GenesisTransaction>`                                   отсутствует          
+===   =============================================================================   ====================   ======================================================================
+№	  Тип транзакции                                                                  Комиссия               Описание                                               
+===   =============================================================================   ====================   ======================================================================
+1	  :ref:`Genesis transaction <GenesisTransaction>`                                 отсутствует          
 2	  Payment Transaction (не используется)                                                         
-3	  :ref:`Issue Transaction <issueTransaction>`                                       1 - 1.004VST          Выпуск токенов     
-4	  :ref:`Transfer Transaction <TransferTransaction>`                                 0.001 - 0.009VST      Перевод токенов        
-5	  :ref:`Reissue Transaction <ReissueTransaction>`                                   1 - 1.008VST          Перевыпуск токенов    
-6	  :ref:`Burn Transaction <BurnTransaction>`                                         0.001 - 0.009VST      Сжигание токенов        
-7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`               0.003 - 0.007VST      Обмен токенами       
-8	  :ref:`Lease Transaction <LeaseTransaction>`                                       0.001 - 0.005VST      Аренда токенов        
-9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                          0.001 - 0.005VST      Отмена аренды токенов        
-10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                          0.001 - 0.005VST      Создание псевдонима         
-11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                         0.001 - 0.009VST      Массовый перевод токенов        
-12	  :ref:`Data Transaction <DataTransaction>`                                         0.001 - 0.005VST      Транзакция с данными в виде полей с парой ключ-значение    
-13	  :ref:`SetScript Transaction <SetScriptTransaction>`                               0.01 - 0.014VST       Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
+3	  :ref:`Issue Transaction <issueTransaction>`                                     1 - 1.004VST           Выпуск токенов     
+4	  :ref:`Transfer Transaction <TransferTransaction>`                               0.001 - 0.009VST       Перевод токенов        
+5	  :ref:`Reissue Transaction <ReissueTransaction>`                                 1 - 1.008VST           Перевыпуск токенов    
+6	  :ref:`Burn Transaction <BurnTransaction>`                                       0.001 - 0.009VST       Сжигание токенов        
+7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`             0.003 - 0.007VST       Обмен токенами       
+8	  :ref:`Lease Transaction <LeaseTransaction>`                                     0.001 - 0.005VST       Аренда токенов        
+9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.001 - 0.005VST       Отмена аренды токенов        
+10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                        0.001 - 0.005VST       Создание псевдонима         
+11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.001 - 0.009VST       Массовый перевод токенов        
+12	  :ref:`Data Transaction <DataTransaction>`                                       0.001 - 0.005VST       Транзакция с данными в виде полей с парой ключ-значение    
+13	  :ref:`SetScript Transaction <SetScriptTransaction>`                             0.01 - 0.014VST        Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
 14	  SponsorFee Transaction (не используется)              
-15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                                 0.996 - 1VST          Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
-101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                  отсутствует           Назначение первого администратора сети для дальнейшей раздачи прав
-102   :ref:`Permission Transaction <PermitTransaction>`                                 0VST                  Выдача/забор прав у аккаунта
-103   :ref:`CreateContract Transaction <CreateContractTransaction>`                     1 - 1.004VST          Создание Docker-контракта      
-104   :ref:`CallContract Transaction <CallContractTransaction>`                         0.15 - 0.154VST       Вызов Docker-контракта         
-105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`                 отсутствует           Выполнение Docker-контракта     
-106   :ref:`DisableContract Transaction <DisableContractTransaction>`                   0.15 - 0.154VST       Отключение Docker-контракта
-110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`           0-0.004VST            Регистрация ноды в генезис-блоке при старте блокчейна    
-111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                         отсутствует           Регистрация новой ноды в сети    
-112   :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`                           отсутствует           Создание политики доступа к конфиденциальным данным  
-113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                         отсутствует           Изменение политики доступа    
-114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                     отсутствует           Отправка в сеть хэша данных       
-===   =============================================================================   ====================   ====================================================================
+15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               0.996 - 1VST           Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
+101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                отсутствует            Назначение первого администратора сети для дальнейшей раздачи прав
+102   :ref:`Permission Transaction <PermitTransaction>`                               0VST                   Выдача/забор прав у аккаунта
+103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1 - 1.004VST           Создание Docker-контракта      
+104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.15 - 0.154VST        Вызов Docker-контракта         
+105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`               отсутствует            Выполнение Docker-контракта     
+106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.15 - 0.154VST        Отключение Docker-контракта
+110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         0-0.004VST             Регистрация ноды в генезис-блоке при старте блокчейна    
+111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       отсутствует            Регистрация новой ноды в сети    
+112   :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`                         отсутствует            Создание политики доступа к конфиденциальным данным  
+113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       отсутствует            Изменение политики доступа    
+114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   отсутствует            Отправка в сеть хэша данных       
+===   =============================================================================   ====================   ======================================================================
+
+
+.. .. csv-table:: Типы транзакций
+   :header: "№","Тип транзакции","Комиссия","Описание"
+   :widths: 10, 30, 25, 50
+   1,:ref:`Genesis transaction <GenesisTransaction>`,отсутствует
+   2,Payment Transaction (не используется)
+   3,:ref:`Issue Transaction <issueTransaction>`,1 - 1.004VST,Выпуск токенов     
+   4,:ref:`Transfer Transaction <TransferTransaction>`,0.001 - 0.009VST,Перевод токенов        
+   5,:ref:`Reissue Transaction <ReissueTransaction>`,1 - 1.008VST,Перевыпуск токенов    
+   6,:ref:`Burn Transaction <BurnTransaction>`,0.001 - 0.009VST,Сжигание токенов        
+   7,:ref:`Exchange Transaction (не используется) <ExchangeTransaction>`,0.003 - 0.007VST,Обмен токенами       
+   8,:ref:`Lease Transaction <LeaseTransaction>`,0.001 - 0.005VST,Аренда токенов        
+   9,:ref:`Lease Cancel Transaction <LeaseCancelTransaction>`,0.001 - 0.005VST,Отмена аренды токенов        
+   10,:ref:`Create Alias Transaction <CreateAliasTransaction>`,0.001 - 0.005VST,Создание псевдонима         
+   11,:ref:`MassTransfer Transaction <MassTransferTransaction>`,0.001 - 0.009VST,Массовый перевод токенов        
+   12,:ref:`Data Transaction <DataTransaction>`,0.001 - 0.005VST,Транзакция с данными в виде полей с парой ключ-значение    
+   13,:ref:`SetScript Transaction <SetScriptTransaction>`,0.01 - 0.014VST,Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
+   14,SponsorFee Transaction (не используется)              
+   15,:ref:`SetAssetScript <SetAssetScriptTransaction>`,0.996 - 1VST,Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
+   101,:ref:`Genesis Permission Transaction <GenesisPermitTransaction>`,отсутствует,Назначение первого администратора сети для дальнейшей раздачи прав
+   102,:ref:`Permission Transaction <PermitTransaction>`,0VST,Выдача/забор прав у аккаунта
+   103,:ref:`CreateContract Transaction <CreateContractTransaction>`,1 - 1.004VST,Создание Docker-контракта      
+   104,:ref:`CallContract Transaction <CallContractTransaction>`,0.15 - 0.154VST,Вызов Docker-контракта         
+   105,:ref:`ExecutedContract Transaction <ExecutedContractTransaction>`,отсутствует,Выполнение Docker-контракта     
+   106,:ref:`DisableContract Transaction <DisableContractTransaction>`,0.15 - 0.154VST,Отключение Docker-контракта
+   110,:ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`,0-0.004VST,Регистрация ноды в генезис-блоке при старте блокчейна    
+   111,:ref:`RegisterNode Transaction <RegisterNodeTransaction>`,отсутствует,Регистрация новой ноды в сети    
+   112,:ref:`CreatPolicy Transaction <CreatPolicyTransaction>`,отсутствует,Создание политики доступа к конфиденциальным данным  
+   113,:ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`,отсутствует,Изменение политики доступа    
+   114,:ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`,отсутствует,Отправка в сеть хэша данных 
+
 
 .. 107   :ref:`UpdateContract Transaction <UpdateContractTransaction>`                     0.15 - 0.154VST                
 
@@ -699,15 +731,12 @@
         "height": 3805
     }
 
-.. _SponsorFeeTransaction:
-
-14. SponsorFeeTransaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
+..  .. _SponsorFeeTransaction:
+  14. SponsorFeeTransaction
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
    :widths: 10, 10, 10, 10, 10
-
    type                ,+       ,+      ,+      ,Byte
    id                  ,        ,+      ,       ,Byte
    sender              ,+       ,+      ,       ,PublicKeyAccount
