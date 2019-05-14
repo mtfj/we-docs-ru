@@ -12,7 +12,7 @@ REST API ноды
 
 **URL к HTTP-методу**
 
-.. image:: ../img/route-endpoint.png
+.. image:: img/route-endpoint.png
    :align: center
 
 Для запросов, требующих нижеперечисленных действий, необходима обязательная передача параметра ``X-Api-Key`` со значением секретной фразы, hash которой указан в конфигурационном файле ноды (поле ``rest-api.api-key-hash``):
