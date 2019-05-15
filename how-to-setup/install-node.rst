@@ -35,7 +35,7 @@
      .. image:: img/JCP_2.png
         :height: 250
 
-3.	Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и конфигурационный файл `example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_
+3.	Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и конфигурационный файл `example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_.
     | Самая свежая версия приложений находится в шапке страницы: 
 
     .. image:: img/latest.png
@@ -45,14 +45,12 @@
     - generators-x.x.x+VST-x.x.x.jar - утилита для настройки параметров ноды Vostok и создания аккаунтов пользователей 
 
  
-4.  Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`
+4.  Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`.
 5.	Запустить ноду коммандой:
 
     .. code:: js
     
         java -jar node-x.x.x+VST-x.x.x.jar example.conf
-
-
 
 .. _install-ubuntu:
 
@@ -61,7 +59,7 @@
 
 **Последовательность действий для установки ноды на операционную систему Ubuntu**
 
-1. Скачать и установить `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_  
+1. Скачать и установить `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_.
 
    .. code:: js
         
@@ -80,9 +78,9 @@
 
 2. Скачать и установить `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ (или версию выше).       
 
-3. Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и конфигурационный файл `example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_
+3. Скачать `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и конфигурационный файл `example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_.
 
-4. Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`
+4. Отредактировать ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`.
 
 5. Установить ноду из deb-пакета. Команда для установки: 
 

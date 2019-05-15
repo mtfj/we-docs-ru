@@ -43,8 +43,8 @@
 
 **Описание работы**
 
-- Программа ожидает получить структуру данных в формате json с полем "params";
-- Считывает значение полей "а" и "b";
+- Программа ожидает получить структуру данных в формате json с полем "params".
+- Считывает значение полей "а" и "b".
 - Возвращает результат в виде значения поля "{a}+{b}" в формате json.
 
 **Пример входящих параметров**
@@ -67,7 +67,7 @@
 Установка смарт-контракта
 -----------------------------------
 
-1. Скачать и установить `Docker for Developers <https://www.docker.com/get-started>`_ для вашей операционной системы
+1. Скачать и установить `Docker for Developers <https://www.docker.com/get-started>`_ для вашей операционной системы.
 
 .. hint:: Для операционной системы Windows в настройках Docker включить признак "Expose deamon on .... without TLS".
 
@@ -178,7 +178,7 @@
     "params": [] \ 
     }' 'http://localhost:6862/transactions/broadcast'
 
-5. По id транзакции убедиться, что транзакция с инициализацией контракта размещена в блокчейне
+5. По id транзакции убедиться, что транзакция с инициализацией контракта размещена в блокчейне.
 
 http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
 
@@ -324,7 +324,7 @@ http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJe
     ] \ 
     }' 'http://localhost:6862/transactions/broadcast'
 
-3. Получить результат выполнения смарт-контракта по его идентификатору
+3. Получить результат выполнения смарт-контракта по его идентификатору.
 
 http://localhost:6862/contracts/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
 
