@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-15 12:26+0300\n"
-"PO-Revision-Date: 2019-05-15 16:46+0300\n"
+"PO-Revision-Date: 2019-05-15 17:27+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -81,9 +81,9 @@ msgid ""
 "t*0,1, но не более 30 секунд (параметр конфигурационного файла ноды: sync-"
 "duration)."
 msgstr ""
-"t\\ :sub:`s` \\ - duration of a synchronization period, calculated as t*0.1, "
-"but not more than 30 seconds (the parameter of the node configuration file: "
-"sync-duration)."
+"t\\/; :sub:`s` \\/; - duration of a synchronization period, calculated as "
+"t*0.1, but not more than 30 seconds (the parameter of the node configuration "
+"file: sync-duration)."
 
 # 8e7a4efd6f144790b95fe2f39cdfe1ac
 #: ../../how-the-platform-works/consensus/PoA.rst:16
@@ -91,19 +91,20 @@ msgid ""
 "t\\/; :sub:`ban` \\/; - продолжительность бана майнера в блоках (параметр "
 "конфигурационного файла ноды: ban-duration-blocks)."
 msgstr ""
-"t\\ :sub:`ban` \\ - duration of miner ban in blocks (the parameter of the "
+"t\\/; :sub:`ban` \\/; - duration of miner ban in blocks (the parameter of the "
 "node configuration file: ban-duration-blocks)."
 
 # 1c62ad3180d746cd91606e5f14447947
 #: ../../how-the-platform-works/consensus/PoA.rst:17
 msgid "T\\/; :sub:`0` \\/; - unix time создания genesis блока."
-msgstr "T\\ :sub:`0` \\ - unix time for generation of Genesis block."
+msgstr "T\\/; :sub:`0` \\/; - unix time for generation of Genesis block."
 
 # 57577a7dbe4c48f4aef8f7182cb7b2b9
 #: ../../how-the-platform-works/consensus/PoA.rst:18
 msgid "T\\/; :sub:`H` \\/; - unix time создания блока H — ключевой блок для NG."
 msgstr ""
-"T\\ :sub:`H` \\ - unix time for generation of H Block - a key block for NG."
+"T\\/; :sub:`H` \\/; - unix time for generation of H Block - a key block for "
+"NG."
 
 # 6426bccaf2e1483783d96658eba62acf
 #: ../../how-the-platform-works/consensus/PoA.rst:19
@@ -111,8 +112,8 @@ msgid ""
 "r - номер раунда, вычисляется как (T\\/; :sub:`Current` \\/;-T\\/; :sub:`0` "
 "\\/;) div (t+ t\\/; :sub:`s` \\/;)."
 msgstr ""
-"r - round number, calculated as (T\\ :sub:`Current` \\-T\\ :sub:`0` \\) div (t"
-"+ t\\ :sub:`s` \\)."
+"r - round number, calculated as (T\\/; :sub:`Current` \\/;-T\\/; :sub:`0` "
+"\\/;) div (t+ t\\/; :sub:`s` \\/;)."
 
 # a689a0593ae74303be5a53ce572580f6
 #: ../../how-the-platform-works/consensus/PoA.rst:20
@@ -120,8 +121,8 @@ msgid ""
 "A\\/; :sub:`r` \\/; - лидер раунда r, имеющий право на создание ключевых "
 "блоков и микроблоков для NG в раунде r."
 msgstr ""
-"A\\ :sub:`r` \\ - leader of round r, which has the right to create key blocks "
-"and microblocks for NG in round r."
+"A\\/; :sub:`r` \\/; - leader of round r, which has the right to create key "
+"blocks and microblocks for NG in round r."
 
 # 871f296120e74de0a4deb4c80f35656d
 #: ../../how-the-platform-works/consensus/PoA.rst:21
@@ -136,12 +137,12 @@ msgstr ""
 # 3ef8e5b630d54e558bfdcdc8e44247d4
 #: ../../how-the-platform-works/consensus/PoA.rst:22
 msgid "M\\/; :sub:`H` \\/; - майнер, выпустивший блок на высоте H."
-msgstr "M\\ :sub:`H` \\ - miner issuing block at height H."
+msgstr "M\\/; :sub:`H` \\/; - miner issuing block at height H."
 
 # e63871e10b38449895d91c116c4b595d
 #: ../../how-the-platform-works/consensus/PoA.rst:23
 msgid "Q\\/; :sub:`H` \\/; - очередь активных на высоте H майнеров."
-msgstr "Q\\ :sub:`H` \\ - queue of miners active at height H."
+msgstr "Q\\/; :sub:`H` \\/; - queue of miners active at height H."
 
 # 4bfbaf675a0d490887a1263e483e23e2
 #: ../../how-the-platform-works/consensus/PoA.rst:25
@@ -150,9 +151,9 @@ msgid ""
 "транзакцией выдано разрешение на майнинг, у которых оно не было отозвано до "
 "высоты H, и не истекло до момента времени T\\/; :sub:`H` \\/;."
 msgstr ""
-"The Q\\/ :sub:`H` \\/ queue is generated using addresses which are given the "
-"mining permission by a permission transaction which was not revoked until "
-"height H, and did not expire until the time T\\/ :sub:`H` \\/;."
+"The Q\\/; :sub:`H` \\/; queue is generated using addresses which are given "
+"the mining permission by a permission transaction which was not revoked until "
+"height H, and did not expire until the time T\\/; :sub:`H` \\/;."
 
 # 4bfbaf675a0d490887a1263e483e23e2
 #: ../../how-the-platform-works/consensus/PoA.rst:27
@@ -196,7 +197,7 @@ msgstr ""
 # c728c3ce137c4b6993171ab01799b866
 #: ../../how-the-platform-works/consensus/PoA.rst:36
 msgid "Вычисляется очередь Q\\/; :sub:`H` \\/; активных майнеров."
-msgstr "The Q\\/ :sub:`H` \\/ queue of active miners is calculated."
+msgstr "The Q\\/; :sub:`H` \\/; queue of active miners is calculated."
 
 # 876a107c597c462f90084f43ce69f1e0
 #: ../../how-the-platform-works/consensus/PoA.rst:37
@@ -213,8 +214,8 @@ msgid ""
 "Если майнер блока H-1 (M\\/; :sub:`H-1` \\/;) есть в очереди Q\\/; :sub:`H` "
 "\\/;, лидером A\\/; :sub:`r` \\/; становится следующий по очереди майнер."
 msgstr ""
-"If the H-1 block miner (M\\/ :sub:`H-1` \\/) is in the Q\\/ :sub:`H` \\/ "
-"queue, the following miner becomes the leader A \\/::sub:`r` \\/."
+"If the H-1 block miner (M\\/; :sub:`H-1` \\/;) is in the Q\\/ :sub:`H` \\/ "
+"queue, the following miner becomes the leader A \\/; :sub:`r` \\/;."
 
 # de2aedbd8fd94da1930d1c093cdbebc5
 #: ../../how-the-platform-works/consensus/PoA.rst:39
@@ -223,9 +224,9 @@ msgid ""
 "\\/;, лидером A\\/; :sub:`r` \\/; становится майнер, идущий в очереди за "
 "майнером блока H-2(M\\/; :sub:`H-2` \\/;), и так далее."
 msgstr ""
-"If the H-1 block miner (M \\:sub:`H-1` \\) is not in the Q \\:sub:`H` \\ "
-"queue the miner following the H-2 block miner (M \\ :sub:`H-2` \\) becomes "
-"the leader A \\:sub:`r` \\ and so on."
+"If the H-1 block miner (M \\/; :sub:`H-1` \\/;) is not in the Q \\/; :sub:`H` "
+"\\/; queue the miner following the H-2 block miner (M \\/; :sub:`H-2` \\/;) "
+"becomes the leader A \\/; :sub:`r` \\/; and so on."
 
 # c35e275de939438fbcc3a306aa84514f
 #: ../../how-the-platform-works/consensus/PoA.rst:40
@@ -269,16 +270,17 @@ msgid ""
 "sub:`r` \\/;, этот узел признает раунд «пропущенным» и ожидает новый блок H в "
 "следующем раунде r+1, от следующего лидера A\\/; :sub:`r+1` \\/;."
 msgstr ""
-"Valid is the block generated by the leader A\\ :sub:`r` \\ with the time of "
-"block T\\ :sub:`H` \\ from the half-interval (T\\ :sub:`0` \\+(r-1)*(t+t\\ :"
-"sub:`s` \\); T\\ :sub:`0` \\+(r-1)*(t+t\\ :sub:`s` \\)+t]. The block created "
-"by the miner out of its turn or not in time, is not considered valid. After a "
-"round of t duration, the network synchronizes the data for t\\ :sub:`s` \\. "
-"The leader A\\ :sub:`r` has time t\\ :sub:`s` \\ to propagate the validation "
-"block over the network. If any node of the network during t\\ :sub:`s` \\ has "
-"not received a block from the leader A\\ :sub:`r` \\, this node recognizes "
-"the round as \"skipped\" and expects a new H block in the next round r+1, "
-"from the following leader A\\ :sub:`r+1` \\/;."
+"Valid is the block generated by the leader A\\/; :sub:`r` \\/; with the time "
+"of block T\\/; :sub:`H` \\ from the half-interval (T\\/; :sub:`0` \\/;"
+"+(r-1)*(t+t\\/; :sub:`s` \\/;); T\\/; :sub:`0` \\/;+(r-1)*(t+t\\/; :sub:`s` "
+"\\/;)+t]. The block created by the miner out of its turn or not in time, is "
+"not considered valid. After a round of t duration, the network synchronizes "
+"the data for t\\/; :sub:`s` \\/;. The leader A\\/; :sub:`r` has time t\\/; :"
+"sub:`s` \\/; to propagate the validation block over the network. If any node "
+"of the network during t\\/; :sub:`s` \\/; has not received a block from the "
+"leader A\\/; :sub:`r` \\/;, this node recognizes the round as \"skipped\" and "
+"expects a new H block in the next round r+1, from the following leader A\\/; :"
+"sub:`r+1` \\/;."
 
 # ba8e674633834017a751afaeb2020855
 #: ../../how-the-platform-works/consensus/PoA.rst:52
@@ -287,8 +289,8 @@ msgid ""
 "конфигурационном файле узла сети. *Параметр t при этом должен совпадать у "
 "всех участников сети*, иначе произойдет форк сети."
 msgstr ""
-"Consensus parameters: type (PoS or PoA), t, t \\:sub:'s'\\ are specified in "
-"the configuration file of the host network. *The parameter T should be the "
+"Consensus parameters: type (PoS or PoA), t, t \\/; :sub:`s`\\/; are specified "
+"in the configuration file of the host network. *The parameter T should be the "
 "same for all network participants*, otherwise the network will fork."
 
 # cf9cf0ae4f234b5b83e3194f244f3643
