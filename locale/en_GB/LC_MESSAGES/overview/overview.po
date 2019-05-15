@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-15 12:26+0300\n"
-"PO-Revision-Date: 2019-05-15 12:39+0300\n"
+"PO-Revision-Date: 2019-05-15 16:20+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -26,7 +26,6 @@ msgstr "Overview of features"
 
 # 6daa2a0f5b194265b17d537e9ed69756
 #: ../../overview/overview.rst:4
-#, fuzzy
 msgid ""
 "Блокчейн-платформа Vostok — это универсальное решение для масштабируемой "
 "цифровой инфраструктуры, сочетающее в себе свойства публичных и приватных "
@@ -52,65 +51,57 @@ msgstr "Vostok Blockchain"
 
 # 89008454ff46455594a9e6995109d386
 #: ../../overview/overview.rst:9
-#, fuzzy
 msgid ""
 "Включает лучшие технологии и практики использования, отработанные на публичной "
 "блокчейн-платформе Waves."
 msgstr ""
 "Includes best technologies and practices of use proven on the Waves public "
-"blockchain platform;"
+"blockchain platform."
 
 # f4899d1db7ff4406942faf2882e516ba
 #: ../../overview/overview.rst:10
-#, fuzzy
 msgid "Адаптирован для использования в корпоративном и государственном секторах."
-msgstr "Adapted for usage in enterprise and state sectors;"
+msgstr "Adapted for usage in enterprise and state sectors."
 
 # 5e3d02adeee8435394454ef75e640957
 #: ../../overview/overview.rst:11
-#, fuzzy
 msgid ""
 "Поддерживаются два алгоритма консенсуса PoS и PoA - при развёртывании сети "
 "можно выбрать наиболее подходящий под вашу задачу."
 msgstr ""
 "Supported two algorithms of POS and PoA consensus - during deploying a network "
-"you can choose the most suitable one for your purposes;"
+"you can choose the most suitable one for your purposes."
 
 # 0089f93d0b8144b28a3aa7edcc30e496
 #: ../../overview/overview.rst:12
-#, fuzzy
 msgid "Высокая пропускная способность."
-msgstr "High throughput;"
+msgstr "High throughput."
 
 # f9bbebe4c67b4a96b89348e569654950
 #: ../../overview/overview.rst:13
-#, fuzzy
 msgid ""
 "Поддерживаются два вида смарт-контрактов, Тьюринг-неполные на RIDE и Тьюринг-"
 "полные на Docker."
 msgstr ""
 "Supported two types of smart contracts - Turing-incomplete RIDE contracts and "
-"Turing-complete Docker contracts;"
+"Turing-complete Docker contracts."
 
 # 97c862d5fa754e53bf2f9cde306cb4c8
 #: ../../overview/overview.rst:14
-#, fuzzy
 msgid "Гибкая модульная архитектура."
-msgstr "Flexible modular architecture;"
+msgstr "Flexible modular architecture."
 
 # 57a53070d47c4e85abb39fe7ddd21c51
 #: ../../overview/overview.rst:15
-#, fuzzy
 msgid ""
 "Предлагается возможность использования криптографических алгоритмов, "
 "сертифицированных государственными регуляторами."
 msgstr ""
 "Offers the possibility of using cryptographic algorithms certified by state "
-"regulators;"
+"regulators."
 
 # f3b3aed4feeb465099eed345d5fa7d36
 #: ../../overview/overview.rst:16
-#, fuzzy
 msgid ""
 "Клиент и инструменты для работы: просмотр транзакций, кошелек, отправка всех "
 "типов транзакций, разработка смарт-контрактов, мониторинг состояния блокчейна, "
@@ -118,17 +109,16 @@ msgid ""
 msgstr ""
 "Supports the following client tools: viewing of transactions, a wallet, the "
 "option of sending all types of transactions, development of smart contracts, "
-"blockchain status monitoring, network participants authority management;"
+"blockchain status monitoring, network participants authority management."
 
 # 6716c05871bd42cc9f63198290c2849e
 #: ../../overview/overview.rst:17
-#, fuzzy
 msgid ""
 "Возможность осуществлять отправку конфиденциальных данных через блокчейн "
 "адресно при помощи политик доступа, не выкладывая данные в сеть."
 msgstr ""
 "Ability to send confidential data via blockchain to the defined addresses "
-"using access policies without uploading the data into the network;"
+"using access policies without uploading the data into the network."
 
 # 645f2091ade64ac1ba5da862366f641f
 #: ../../overview/overview.rst:18

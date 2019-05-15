@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-15 12:26+0300\n"
-"PO-Revision-Date: 2019-05-15 12:37+0300\n"
+"PO-Revision-Date: 2019-05-15 16:46+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -87,81 +87,72 @@ msgstr ""
 
 # 8e7a4efd6f144790b95fe2f39cdfe1ac
 #: ../../how-the-platform-works/consensus/PoA.rst:16
-#, fuzzy
 msgid ""
 "t\\/; :sub:`ban` \\/; - продолжительность бана майнера в блоках (параметр "
 "конфигурационного файла ноды: ban-duration-blocks)."
 msgstr ""
 "t\\ :sub:`ban` \\ - duration of miner ban in blocks (the parameter of the "
-"node configuration file: ban-duration-blocks);"
+"node configuration file: ban-duration-blocks)."
 
 # 1c62ad3180d746cd91606e5f14447947
 #: ../../how-the-platform-works/consensus/PoA.rst:17
-#, fuzzy
 msgid "T\\/; :sub:`0` \\/; - unix time создания genesis блока."
-msgstr "T\\ :sub:`0` \\ - unix time for generation of Genesis block;"
+msgstr "T\\ :sub:`0` \\ - unix time for generation of Genesis block."
 
 # 57577a7dbe4c48f4aef8f7182cb7b2b9
 #: ../../how-the-platform-works/consensus/PoA.rst:18
-#, fuzzy
 msgid "T\\/; :sub:`H` \\/; - unix time создания блока H — ключевой блок для NG."
 msgstr ""
-"T\\ :sub:`H` \\ - unix time for generation of H Block - a key block for NG;"
+"T\\ :sub:`H` \\ - unix time for generation of H Block - a key block for NG."
 
 # 6426bccaf2e1483783d96658eba62acf
 #: ../../how-the-platform-works/consensus/PoA.rst:19
-#, fuzzy
 msgid ""
 "r - номер раунда, вычисляется как (T\\/; :sub:`Current` \\/;-T\\/; :sub:`0` "
 "\\/;) div (t+ t\\/; :sub:`s` \\/;)."
 msgstr ""
 "r - round number, calculated as (T\\ :sub:`Current` \\-T\\ :sub:`0` \\) div (t"
-"+ t\\ :sub:`s` \\);"
+"+ t\\ :sub:`s` \\)."
 
 # a689a0593ae74303be5a53ce572580f6
 #: ../../how-the-platform-works/consensus/PoA.rst:20
-#, fuzzy
 msgid ""
 "A\\/; :sub:`r` \\/; - лидер раунда r, имеющий право на создание ключевых "
 "блоков и микроблоков для NG в раунде r."
 msgstr ""
 "A\\ :sub:`r` \\ - leader of round r, which has the right to create key blocks "
-"and microblocks for NG in round r;"
+"and microblocks for NG in round r."
 
 # 871f296120e74de0a4deb4c80f35656d
 #: ../../how-the-platform-works/consensus/PoA.rst:21
-#, fuzzy
 msgid ""
 "H – высота цепочки, на которой создается ключевой блок и микроблоки для NG. "
 "Право на выпуск блока на высоте H имеет лидер раунда  A\\/; :sub:`r` \\/;."
 msgstr ""
 "H - height of the chain in which the key block and microblocks for NG are "
 "created. The leader of round A\\ :sub:`r` \\ has the right to generate a "
-"block at height H;"
+"block at height H."
 
 # 3ef8e5b630d54e558bfdcdc8e44247d4
 #: ../../how-the-platform-works/consensus/PoA.rst:22
-#, fuzzy
 msgid "M\\/; :sub:`H` \\/; - майнер, выпустивший блок на высоте H."
-msgstr "M\\ :sub:`H` \\ - miner issuing block at height H;"
+msgstr "M\\ :sub:`H` \\ - miner issuing block at height H."
 
 # e63871e10b38449895d91c116c4b595d
 #: ../../how-the-platform-works/consensus/PoA.rst:23
-#, fuzzy
 msgid "Q\\/; :sub:`H` \\/; - очередь активных на высоте H майнеров."
 msgstr "Q\\ :sub:`H` \\ - queue of miners active at height H."
 
 # 4bfbaf675a0d490887a1263e483e23e2
 #: ../../how-the-platform-works/consensus/PoA.rst:25
-#, fuzzy
 msgid ""
 "Очередь Q\\/; :sub:`H` \\/; формируется из адресов, которым permission "
 "транзакцией выдано разрешение на майнинг, у которых оно не было отозвано до "
 "высоты H, и не истекло до момента времени T\\/; :sub:`H` \\/;."
 msgstr ""
-"The Q\\ :sub:`H` \\ queue is generated using addresses which are given the "
+"The Q\\/ :sub:`H` \\/ queue is generated using addresses which are given the "
 "mining permission by a permission transaction which was not revoked until "
-"height H, and did not expire until the time T\\ :sub:`H` \\."
+"height H, and did not expire until the time T\\/ :sub:`H` \\/;."
 
 # 4bfbaf675a0d490887a1263e483e23e2
 #: ../../how-the-platform-works/consensus/PoA.rst:27
@@ -176,7 +167,6 @@ msgstr ""
 
 # db7325c5f66842fbbd7838601f10266c
 #: ../../how-the-platform-works/consensus/PoA.rst:30
-#, fuzzy
 msgid ""
 "Новый блок создается в течение каждого раунда r. Раунд длится t секунд. После "
 "каждого раунда отводится t\\/; :sub:`s` \\/; секунд на синхронизацию данных в "
@@ -187,52 +177,47 @@ msgid ""
 "осуществляется следующим образом:"
 msgstr ""
 "A new block is created at each round r. A round lasts t seconds. After each "
-"round, t\\ :sub:`s` \\ seconds count down to complete data synchronization in "
-"the network. During the synchronization period, microblocks and key blocks "
-"are not generated. For each round there is a single leader \\ :sub:`(r)`, "
+"round, t\\/ :sub:`s` \\/ seconds count down to complete data synchronization "
+"in the network. During the synchronization period, microblocks and key blocks "
+"are not generated. For each round there is a single leader \\/ :sub:`(r)`, "
 "which has the right to create a block in this round. A leader can be defined "
 "on each node of the network with the same result. The leader of the round is "
 "defined as follows:"
 
 # 88df2e74590144eea7ab6732749ba6ab
 #: ../../how-the-platform-works/consensus/PoA.rst:35
-#, fuzzy
 msgid ""
 "Определяется майнер M\\/; :sub:`H-1` \\/;, который создал предыдущий ключевой "
 "блок на высоте H-1."
 msgstr ""
-"Miner M\\ :sub:`H-1` \\ is defined, which created the previous key block at "
-"height H-1;"
+"Miner M\\/ :sub:`H-1` \\/ is defined, which created the previous key block at "
+"height H-1."
 
 # c728c3ce137c4b6993171ab01799b866
 #: ../../how-the-platform-works/consensus/PoA.rst:36
-#, fuzzy
 msgid "Вычисляется очередь Q\\/; :sub:`H` \\/; активных майнеров."
-msgstr "The Q\\ :sub:`H` \\ queue of active miners is calculated;"
+msgstr "The Q\\/ :sub:`H` \\/ queue of active miners is calculated."
 
 # 876a107c597c462f90084f43ce69f1e0
 #: ../../how-the-platform-works/consensus/PoA.rst:37
-#, fuzzy
 msgid ""
 "Из очереди исключаются неактивные майнеры (подробнее в пункте :ref:"
 "`kick_inactive`)."
 msgstr ""
 "Inactive miners are excluded from the queue (see more in :ref:"
-"`kick_inactive`);"
+"`kick_inactive`)."
 
 # 88f9d0cc58d14473a66ee699f9d4da79
 #: ../../how-the-platform-works/consensus/PoA.rst:38
-#, fuzzy
 msgid ""
 "Если майнер блока H-1 (M\\/; :sub:`H-1` \\/;) есть в очереди Q\\/; :sub:`H` "
 "\\/;, лидером A\\/; :sub:`r` \\/; становится следующий по очереди майнер."
 msgstr ""
-"If the H-1 block miner (M\\ :sub:`H-1` \\) is in the Q\\ :sub:`H` \\ queue, "
-"the following miner becomes the leader A \\::sub:`r` \\;"
+"If the H-1 block miner (M\\/ :sub:`H-1` \\/) is in the Q\\/ :sub:`H` \\/ "
+"queue, the following miner becomes the leader A \\/::sub:`r` \\/."
 
 # de2aedbd8fd94da1930d1c093cdbebc5
 #: ../../how-the-platform-works/consensus/PoA.rst:39
-#, fuzzy
 msgid ""
 "Если майнера блока H-1 (M\\/; :sub:`H-1` \\/;), нет в очереди Q\\/; :sub:`H` "
 "\\/;, лидером A\\/; :sub:`r` \\/; становится майнер, идущий в очереди за "
@@ -240,7 +225,7 @@ msgid ""
 msgstr ""
 "If the H-1 block miner (M \\:sub:`H-1` \\) is not in the Q \\:sub:`H` \\ "
 "queue the miner following the H-2 block miner (M \\ :sub:`H-2` \\) becomes "
-"the leader A \\:sub:`r` \\ and so on;"
+"the leader A \\:sub:`r` \\ and so on."
 
 # c35e275de939438fbcc3a306aa84514f
 #: ../../how-the-platform-works/consensus/PoA.rst:40
@@ -272,7 +257,6 @@ msgstr ""
 
 # 9b142043f7cc4ffab45a9fb9f8f116a2
 #: ../../how-the-platform-works/consensus/PoA.rst:47
-#, fuzzy
 msgid ""
 "Валидным считается блок, выпущенный лидером A\\/; :sub:`r` \\/; с временем "
 "блока T\\/; :sub:`H` \\/; из полуинтервала (T\\/; :sub:`0` \\/;+(r-1)*(t+t"
@@ -294,11 +278,10 @@ msgstr ""
 "block over the network. If any node of the network during t\\ :sub:`s` \\ has "
 "not received a block from the leader A\\ :sub:`r` \\, this node recognizes "
 "the round as \"skipped\" and expects a new H block in the next round r+1, "
-"from the following leader A\\ :sub:`r+1` \\."
+"from the following leader A\\ :sub:`r+1` \\/;."
 
 # ba8e674633834017a751afaeb2020855
 #: ../../how-the-platform-works/consensus/PoA.rst:52
-#, fuzzy
 msgid ""
 "Параметры консенсуса: тип (PoS или PoA), t, t\\/; :sub:`s` \\/; задаются в "
 "конфигурационном файле узла сети. *Параметр t при этом должен совпадать у "
@@ -332,7 +315,6 @@ msgstr "Exclusion of inactive miners"
 
 # 36ae601531d04a8aa234c938325b4e1a
 #: ../../how-the-platform-works/consensus/PoA.rst:66
-#, fuzzy
 msgid ""
 "Если каким-либо майнером 3 раза подряд было пропущено создание блока, этот "
 "майнер исключается из очереди на t\\/; :sub:`ban` \\/; последующих блоков "
@@ -377,23 +359,20 @@ msgstr ""
 
 # dd3d2c5d5342478db7a3be5571160461
 #: ../../how-the-platform-works/consensus/PoA.rst:78
-#, fuzzy
 msgid ""
 "Активный список майнеров, отсортированный в порядке предоставления прав на "
 "майнинг."
-msgstr "Active list of miners sorted in order of granting mining rights;"
+msgstr "Active list of miners sorted in order of granting mining rights."
 
 # e5b83d78908e4a338f8b5335f17d14ca
 #: ../../how-the-platform-works/consensus/PoA.rst:79
-#, fuzzy
 msgid "Плановая временная метка раунда."
-msgstr "Scheduled round timestamp;"
+msgstr "Scheduled round timestamp."
 
 # 6ac408769ca4462a9923189bd6c3f12a
 #: ../../how-the-platform-works/consensus/PoA.rst:80
-#, fuzzy
 msgid "Фактическая временная метка раунда."
-msgstr "Actual round timestamp;"
+msgstr "Actual round timestamp."
 
 # 476d27163b0f494499a5dd1cf945115f
 #: ../../how-the-platform-works/consensus/PoA.rst:81
