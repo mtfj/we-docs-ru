@@ -47,9 +47,8 @@
    how-to-setup/install-client
    how-to-setup/docker-configuration
 
-.. toctree::
+.. .. toctree::
    :maxdepth: 1
    :caption: FAQ
    :name: faq
-
    faq

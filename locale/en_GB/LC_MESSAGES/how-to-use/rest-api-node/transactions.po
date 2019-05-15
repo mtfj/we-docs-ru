@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 15:48+0300\n"
-"PO-Revision-Date: 2019-05-07 17:32+0300\n"
+"POT-Creation-Date: 2019-05-14 18:27+0300\n"
+"PO-Revision-Date: 2019-05-15 11:55+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -141,9 +141,9 @@ msgstr "POST /transactions/sign"
 # 0e69d304e19d4019b35cd93e48a3eb63
 #: ../../how-to-use/rest-api-node/transactions.rst:161
 msgid ""
-"Подписывает транзакцию закрытым ключом отправителя, сохраненным в keystore "
-"ноды. После подписания ответ метода должен быть подан на вход метода :ref:"
-"`Broadcast <broadcast>`."
+"Подписывает транзакцию закрытым ключом отправителя, сохраненным в keystore ноды. "
+"После подписания ответ метода должен быть подан на вход метода :ref:`Broadcast "
+"<broadcast>`."
 msgstr ""
 "Signs a transaction with sender's private key stored in node keystore. After "
 "signing, method response must be sent to method input :ref:`Broadcast "
@@ -361,8 +361,7 @@ msgstr "110"
 # 1ed57cec78ea4280b3ad9e5025733752
 #: ../../how-to-use/rest-api-node/transactions.rst:188
 msgid ":ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`"
-msgstr ""
-":ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`"
+msgstr ":ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`"
 
 # 78f48ed014814b0ba901d03c4054bada
 #: ../../how-to-use/rest-api-node/transactions.rst:189
@@ -381,8 +380,8 @@ msgstr "112"
 
 # 85d0e600fc8a4c33aa2ca847d1d03c84
 #: ../../how-to-use/rest-api-node/transactions.rst:190
-msgid ":ref:`CreatPolicy Transaction <tx-CreatPolicyTransaction>`"
-msgstr ":ref:`CreatPolicy Transaction <tx-CreatPolicyTransaction>`"
+msgid ":ref:`CreatePolicy Transaction <tx-CreatePolicyTransaction>`"
+msgstr ":ref:`CreatePolicy Transaction <tx-CreatePolicyTransaction>`"
 
 # 7497565104f549058665a9a4bb298eee
 #: ../../how-to-use/rest-api-node/transactions.rst:191
@@ -488,8 +487,8 @@ msgstr "**111. RegisterNode**"
 
 # 4d9286b4c24b43ea88f2e9772d35e00b
 #: ../../how-to-use/rest-api-node/transactions.rst:522
-msgid "**112. CreatPolicy**"
-msgstr "**112. CreatPolicy**"
+msgid "**112. CreatePolicy**"
+msgstr "**112. CreatePolicy**"
 
 # c264baa2062a4e85958026f9aaba9d62
 #: ../../how-to-use/rest-api-node/transactions.rst:538
@@ -522,8 +521,7 @@ msgid ""
 "Возвращает список транзакций, в которых в качестве одного из адресатов указан "
 "{address}."
 msgstr ""
-"Returns a list of transactions where {address} is specified as one of "
-"addressees."
+"Returns a list of transactions where {address} is specified as one of addressees."
 
 # 6846deee09b04ae088465095227b3372
 #~ msgid "107"

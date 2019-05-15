@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 14:33+0300\n"
-"PO-Revision-Date: 2019-05-06 14:35+0300\n"
+"POT-Creation-Date: 2019-05-14 18:27+0300\n"
+"PO-Revision-Date: 2019-05-15 11:58+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -27,11 +27,11 @@ msgstr "Example of starting a contract"
 # 9413fc04d7a04c2cb0ed254cd2716da8
 #: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:6
 msgid ""
-"Техническое описание особенностей реализации контрактов приведено в разделе :ref:`\"Смарт-"
-"контракты \"Docker\" <docker>`."
+"Техническое описание особенностей реализации контрактов приведено в разделе :ref:`Смарт-"
+"контракты Docker <docker>`."
 msgstr ""
-"Technical description of contracts implementation is given in module :ref:`\"Docker Smart "
-"Contracts\"<docker>`."
+"Technical description of contracts implementation is given in module :ref:`Docker Smart "
+"Contracts <docker>`."
 
 # 470ec6f934354b0988073201f512227c
 #: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:9

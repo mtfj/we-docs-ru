@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-13 11:16+0300\n"
-"PO-Revision-Date: 2019-05-13 11:52+0300\n"
+"POT-Creation-Date: 2019-05-14 18:27+0300\n"
+"PO-Revision-Date: 2019-05-15 11:47+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -74,6 +74,12 @@ msgstr ""
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:39
 msgid "отсутствует"
 msgstr "no fee"
+
+# 818a46f1a06946d785fedff4ee2d3b29
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
+msgid ""
+"Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод"
+msgstr ""
 
 # 26dfbd4f817b4b9fb0b86cefba7a6e6b
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:15
@@ -194,7 +200,6 @@ msgid ":ref:`Lease Transaction <LeaseTransaction>`"
 msgstr ""
 
 # 56e7adf5232b4d22ba30bac1246b8693
-# 6d64d7a74574497590f36a6935fea2bf
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
@@ -461,7 +466,7 @@ msgstr "112"
 
 # 95a67bbfbaf44daebc9ea7ef4b514227
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:37
-msgid ":ref:`CreatPolicy Transaction <CreatPolicyTransaction>`"
+msgid ":ref:`CreatePolicy Transaction <CreatePolicyTransaction>`"
 msgstr ""
 
 # 0838b6cea48c4975a046bd7558f4abac
@@ -545,7 +550,6 @@ msgid "fee"
 msgstr "Fee"
 
 # 3e85ecb159b6463dbb1261918f738f00
-# 91eded0afca14fc4824b061208e841ca
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Long"
 msgstr "Long"
@@ -1025,8 +1029,8 @@ msgstr "nodeName"
 
 # 6a957b8684474cdfb720d84ec8cf375c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1166
-msgid "112. CreatPolicyTransaction"
-msgstr "112. CreatPolicyTransaction"
+msgid "112. CreatePolicyTransaction"
+msgstr "112. CreatePolicyTransaction"
 
 # bd51a25681094efdbb468ede39648b70
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1184

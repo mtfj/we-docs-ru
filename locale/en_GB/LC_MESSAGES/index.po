@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-25 13:47+0300\n"
-"PO-Revision-Date: 2019-04-26 12:12+0300\n"
+"POT-Creation-Date: 2019-05-14 18:27+0300\n"
+"PO-Revision-Date: 2019-05-14 18:28+0300\n"
 "Last-Translator: \n"
 "Language: en_GB\n"
 "Language-Team: \n"
@@ -19,32 +19,31 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# ffed821157fb4d7cba98a59b57125da8
+# dd3717f4a3b84983a8196f89de02c6fb
 #: ../../index.rst:4
 msgid "Блокчейн-платформа Vostok"
 msgstr "Blockchain-platform Vostok"
 
-# a44267dd93ad4ce583db447a7c9cf6ce
+# 392d0e483b464375818c6916ce08ed3d
 #: ../../index.rst:12
-msgid "Использование платформы"
-msgstr "Use"
-
-# 7c38f55418174a878e1a561701e0ef55
-#: ../../index.rst:23
 msgid "Как устроена платформа"
 msgstr "How the Platform Works"
 
-# 1dd03f7059da42af98824b027520f883
+# 4f4d9c7aae4b4f75b1c4ddf83ef4ba9f
+#: ../../index.rst:28
+msgid "Использование платформы"
+msgstr "Use"
+
+# 62f69354f47f4f5c90dc4742cb618513
 #: ../../index.rst:39
 msgid "Установка и настройка"
 msgstr "Installation and Setup"
-
-# 99bc80269ac446cb8a9efb9f8f24edf9
-#: ../../index.rst:55
-msgid "FAQ"
-msgstr "Faq"
 
 # 86e44ec5facb4c49972634b1ff3f3527
 #: ../../index.rst:2
 msgid "Документация блокчейн-платформы Vostok"
 msgstr "Vostok Blockchain Documentation"
+
+# 99bc80269ac446cb8a9efb9f8f24edf9
+#~ msgid "FAQ"
+#~ msgstr "Faq"

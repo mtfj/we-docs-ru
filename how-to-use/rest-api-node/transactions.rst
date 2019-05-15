@@ -187,7 +187,7 @@ ID        Тип транзакции
 106       :ref:`DisableContractTransaction <tx-DisableContractTransaction>` 
 110       :ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`
 111       :ref:`RegisterNode Transaction <tx-RegisterNodeTransaction>`
-112       :ref:`CreatPolicy Transaction <tx-CreatPolicyTransaction>`
+112       :ref:`CreatePolicy Transaction <tx-CreatePolicyTransaction>`
 113       :ref:`UpdatePolicy Transaction <tx-UpdatePolicyTransaction>`
 114       :ref:`PolicyDataHash Transaction <tx-PolicyDataHashTransaction>`
 ========= ============================================================================
@@ -513,13 +513,14 @@ ID        Тип транзакции
       "opType": "add",
       "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
       "targetPubKey": "apgJP9atQccdBPAgJPwH3NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAgJPwHDKkh6A8",
-      "nodeName": "RusAl Node #1",
+      "nodeName": "Node #1",
+      "fee": 500000,
       "timestamp": 1557239100
    } 
 
-.. _tx-CreatPolicyTransaction:
+.. _tx-CreatePolicyTransaction:
 
-**112. CreatPolicy**
+**112. CreatePolicy**
 
 **Пример запроса**
 
@@ -529,6 +530,7 @@ ID        Тип транзакции
       "type":112,
       "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
       "description": "Policy for rusal internal nodes",
+      "policyName": "Policy name",
       "timestamp": 1000000000,
       "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
       "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]

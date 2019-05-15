@@ -11,7 +11,7 @@
 ===   =============================================================================   ====================   ======================================================================
 №	  Тип транзакции                                                                  Комиссия               Описание                                               
 ===   =============================================================================   ====================   ======================================================================
-1	  :ref:`Genesis transaction <GenesisTransaction>`                                 отсутствует          
+1	  :ref:`Genesis transaction <GenesisTransaction>`                                 отсутствует            Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод
 2	  Payment Transaction (не используется)                                                         
 3	  :ref:`Issue Transaction <issueTransaction>`                                     1 - 1.004VST           Выпуск токенов     
 4	  :ref:`Transfer Transaction <TransferTransaction>`                               0.001 - 0.009VST       Перевод токенов        
@@ -34,7 +34,7 @@
 106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.15 - 0.154VST        Отключение Docker-контракта
 110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         0-0.004VST             Регистрация ноды в генезис-блоке при старте блокчейна    
 111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       отсутствует            Регистрация новой ноды в сети    
-112   :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`                         отсутствует            Создание политики доступа к конфиденциальным данным  
+112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                         отсутствует            Создание политики доступа к конфиденциальным данным  
 113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       отсутствует            Изменение политики доступа    
 114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   отсутствует            Отправка в сеть хэша данных       
 ===   =============================================================================   ====================   ======================================================================
@@ -66,7 +66,7 @@
    106,:ref:`DisableContract Transaction <DisableContractTransaction>`,0.15 - 0.154VST,Отключение Docker-контракта
    110,:ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`,0-0.004VST,Регистрация ноды в генезис-блоке при старте блокчейна    
    111,:ref:`RegisterNode Transaction <RegisterNodeTransaction>`,отсутствует,Регистрация новой ноды в сети    
-   112,:ref:`CreatPolicy Transaction <CreatPolicyTransaction>`,отсутствует,Создание политики доступа к конфиденциальным данным  
+   112,:ref:`CreatePolicy Transaction <CreatePolicyTransaction>`,отсутствует,Создание политики доступа к конфиденциальным данным  
    113,:ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`,отсутствует,Изменение политики доступа    
    114,:ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`,отсутствует,Отправка в сеть хэша данных 
 
@@ -1150,7 +1150,7 @@
    id               ,       ,+      ,       ,Byte
    sender           ,+      ,+      ,       ,PublicKeyAccount
    senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
-   fee              ,       ,+      ,       ,Long
+   fee              ,+      ,+      ,       ,Long
    timestamp        ,+ (opt),+      ,+      ,Long
    proofs           ,       ,+      ,+      ,List[ByteStr]
    version          ,       ,       ,+      ,Byte
@@ -1159,10 +1159,23 @@
    opType           ,+      ,+      ,+      ,
    height           ,       ,+      ,       ,
 
+**JSON для вызова метода sign**
 
-.. _CreatPolicyTransaction:
+.. code:: js
 
-112. CreatPolicyTransaction
+    {
+    "type": 111,
+    "opType": "add",
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "targetPubKey": "apgJP9atQccdBPAgJPwH3NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAgJPwHDKkh6A8",
+    "nodeName": "Node #1",
+    "fee": 500000,
+    "timestamp": 1111111111
+    }
+
+.. _CreatePolicyTransaction:
+
+112. CreatePolicyTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **JSON для вызова метода sign**
@@ -1173,6 +1186,7 @@
     "type":112,
     "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
     "description": "Policy for internal nodes",
+    "policyName": "Policy name",
     "timestamp": 1000000000,
     "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
     "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]

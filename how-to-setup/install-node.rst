@@ -21,6 +21,9 @@
         Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)
 
 2.	Скачать и установить `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ (или версию выше).
+
+    .. hint:: При использовании Waves-криптографии устанавливать CryptoPro JCP 2.0 необязательно.
+
     | При скачивании дистрибутива необходимо пройти регистрацию на сайте.
     | При установке `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ необходимо убедиться что указан верный путь до исполняемого файла пакета JRE: 
      
