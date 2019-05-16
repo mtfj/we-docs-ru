@@ -2,6 +2,194 @@
 
 Конфигурация ноды
 ====================
+Для полноценной конфигурации ноды выполните следующие шаги:
+
+* Перед запуском генератора :ref:`создайте <create-account-config>` для него отдельный конфигурационный файл ``accounts.conf``.
+* :ref:`Сгенерируйте <generate-keys-pair>` ключевую пару для каждого будущего участника сети при помощи генератора. Ключевых пар нужно создать столько, сколько планируется подключать к сети с самого старта блокчейна. Транзакции обо всех начальных участниках сети войдут в генезис-блок.
+* :ref:`Создайте <create-node-config>` конфигурационный файл ноды в соответствии с требуемыми условиями.
+* :ref:`Обеспечьте <rest-api-access>` доступ к REST API ноды.
+* :ref:`Подпишите <sign-genesis-block>` genesis блок.
+* :ref:`Запустите <node-start>` ноду.
+
+.. _create-account-config:
+
+Создание конфигурационного файла ``accounts.conf``
+------------------------------------------------------
+
+При указании пути необходимо использовать символ "прямого слэша" - ``/`` как разделитель уровней иерархии директорий. Пример конфигурационного файла приведен для ОС Windows. При работе в ОС Linux значение ``wallet`` должно соответствовать структуре каталогов операционной системы, например ``/home/contract/vostok/keystore.dat``. При настройке ноды не допускается использование кириллических символов при указании путей до рабочей директории, хранилища ключей и т.д.
+
+::
+
+    // accounts.conf listing
+
+    accounts-generator {
+      waves-crypto = yes
+      chain-id = W
+      amount = 1
+      wallet = "c:/nodes/testnet-pos.vostoknodes.com/keystore.dat"
+      wallet-password = "some string as password"
+      reload-node-wallet {
+        enabled = false
+        url = "http://localhost:6869/utils/reload-wallet"
+      }
+    }
+
+  **Описание параметров:**  
+    
+    - waves-crypto – выбор криптографического алгоритма ("yes" - использовать криптографию :ref:`Waves <crypto-waves>`, "no" - использовать :ref:`ГОСТ-криптографию <crypto-gost>`);
+    - chain-id – идентифицирующий байт сети, потребуется дальше для внесения в параметр ``address-scheme-character`` в конфигурационный файл ноды;
+    - amount – количество генерируемых адресов;
+    - wallet – путь до каталога хранения ключей на ноде, потребуется дальше для внесения в параметр ``wallet > file`` в конфигурационный файл ноды. Для криптографии Waves указывается путь до файла ``keystore.dat`` (пример, ``${user.home}/vostok/keystore.dat``), для ГОСТ-криптографии - путь до директории (``${user.home}/vostok/keystore/``);
+    - wallet-password – пароль для доступа к закрытым ключам ноды, потребуется дальше для внесения в параметр ``wallet > password`` в конфигурационный файл ноды;
+    - reload-node-wallet - опция для обновления keyStore ноды без перезапуска приложения, по умолчанию - выключено (false). В параметре ``url`` указывается путь до метода ``/utils/reload-wallet`` REST API ноды. 
+
+.. _generate-keys-pair:
+
+Генерирование ключевых пар
+---------------------------
+
+Публичный и приватный ключи будущих участников сети создаются при помощи утилиты генератора. Получить последнюю версию генератора можно на странице проекта на `GitHub <https://github.com/vostokplatform/Vostok-Releases/releases>`_. Для запуска утилиты необходимо в качестве одного из параметров указать файл ``accounts.conf``, в котором определяются параметры генерации ключей. Команда для запуска генератора:
+
+``java -jar generators-x.x.x.jar AccountsGeneratorApp accounts.conf``
+
+
+.. _create-node-config:
+
+Создание конфигурационного файла из шаблона
+-------------------------------------------------
+
+Если планируется подключение к существующей сети, то для упрощения подключения запросите готовый конфигурационный файл генератора у одного из участников сетевого взаимодействия или у администратора вашей сети. При создании сети с нуля шаблон конфигурационного файла ноды можно взять на странице проекта на `GitHub <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_.
+
+Отредактируйте шаблон конфигурационного файла в соответствии со следующими рекомендациями:
+
+1. Укажите тип используемой криптографии (см. раздел :ref:`Криптография <cryptography>`):
+
+    ::
+
+      waves-crypto = yes
+  
+2. Укажите байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf):
+  
+    ::
+
+      address-scheme-character: "W"
+
+3. Укажите общий баланс активов сети:
+  
+    ::
+
+      genesis {
+        initial-balance: 100000000000
+  
+4. Укажите :ref:`адреса участников <address-creation>` – владельцев начального баланса сети:
+
+    ::
+   
+      transactions = [
+      {recipient: "3P9nhmAEec4bDKsmLEZy2raimNJTVqedu43", amount: 100000000000} ]
+
+5. Укажите :ref:`публичные ключи участников сети <address-creation>` в блоке ``network-participants``:
+
+    ::
+
+      network-participants = [ 
+        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [permissioner]  },
+        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [miner]  },
+        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [miner, contract_developer]  }
+      ]
+
+.. _configuration-network:
+
+6. Укажите сетевые параметры настраиваемой ноды:
+
+    ::
+
+      network {
+        # Network address
+        bind-address = "0.0.0.0"
+        # Port number
+        port = 6864
+
+
+7. Укажите сетевые адреса (hostname) нод, которые будут подключены к сети:
+  
+    ::
+
+      known-peers = [
+        "privatenet-1.example.net:6864",
+        "privatenet-2.exemple.net:6864" ]
+  
+  | В случае, если адреса дополнительных узлов сети не определены, допустимо указать пустое значение ``known-peers = [ ]``
+
+8. Укажите путь и пароль от keystore - места хранения закрытых ключей участников сети, созданных на ноде (параметры ``wallet``, ``wallet-password`` в accounts.conf). Для криптографии Waves указывается путь до файла ``keystore.dat`` (пример, ``${user.home}/vostok/keystore.dat``), для ГОСТ-криптографии - путь до директории (``${user.home}/vostok/keystore/``):
+
+    ::
+
+      wallet {
+        file = "c:/nodes/testnet-pos.vostoknodes.com/keystore.dat"
+        password = "some string as password" }
+
+.. _configuration-rest-api:
+
+9. Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды:
+
+    ::
+ 
+      rest-api {
+      enable = yes
+      bind-address = "0.0.0.0"
+      port = 6862
+
+.. _rest-api-access:
+
+Доступ к REST API
+--------------------
+
+Используя утилиту  `generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_, создайте ``api-key-hash`` для доступа к REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``api-key-hash``. Команда для запуска утилиты:
+
+  | ``java -jar generators-x.x.x.jar ApiKeyHash api-key-hash.conf`` 
+  | Полученное в результате исполнения утилиты значение, указать в параметре ``api-key-hash`` конфигурационного файла ноды.
+
+  ::
+
+    // api-key-hash.conf listing
+
+    apikeyhash-generator {
+      waves-crypto = no
+      api-key = "some string"
+    }
+
+  **Описание параметров:**
+
+    - waves-crypto – выбор криптографического алгоритма ("yes" - использовать криптографию :ref:`Waves <crypto-waves>`, "no" - использовать :ref:`ГОСТ-криптографию <crypto-gost>`);
+    - api-key – ключ, который необходимо придумать. Значение данного ключа потребуется указать в запросах к REST API ноды (подробнее на странице :ref:`REST API ноды <rest-api-node>`).
+
+.. _sign-genesis-block:
+
+Подписание genesis-блока
+------------------------------
+
+Подпишите genesis-блок утилитой `generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_. Команда для подписания: ``java -jar generators-x.x.x+VST-x.x.x.jar GenesisBlockGenerator private-blockchain.conf``, где private-blockchain.conf, отредактированный в :ref:`в п. 2 <configuration-node>` конфигурационный файл ноды. После подписания поля ``genesis-public-key-base-58`` и ``signature`` конфигурационного файла будут заполнены значениями открытого ключа и подписи genesis-блока. 
+
+  | Пример:
+
+  ::
+
+    genesis-public-key-base-58: "4ozcAj...penxrm"
+    signature: "5QNVGF...7Bj4Pc"
+
+  .. important:: Если нода ранее работала с другой сетью блокчейна Vostok, то удалить данные из папки, указанной в параметре "data-directory" (по умолчанию, для ОС Ubuntu используется путь ``${user.home}/vostok``, для ОС Windows используется путь ``C:\Users\<username>\vostok``)
+
+.. _node-start:
+
+Запуск ноды
+----------------
+
+Выполните следующую команду для запуска ноды:
+
+``java -jar node-x.x.x.jar example.conf``
+
+
 
 Подключение к существующей сети
 ----------------------------------------------------
@@ -17,10 +205,10 @@
 ==== ================================== ========================
 #    Название сети                      Конфигурационный файл
 ==== ================================== ========================
-1    PartnerNet                         `скачать <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/partnerNet.conf>`_
+1    PartnerNet                         `скачать <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_
 ==== ================================== ========================
 
-2. С помощью утилиты `generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/releases>`_ создать хотя бы одного участника сети на ноде (см. п. :ref:`1 <address-creation>` раздела :ref:`"Создание новой сети" <creation-new-net>`). Внести публичный ключ созданного участника в блок ``network-participants`` конфигурационного файла ноды и задать для него роли.
+2. С помощью утилиты `generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/releases>`_ создать хотя бы одного участника сети на ноде (см. п. :ref:`1 <address-creation>` раздела :ref:`Создание новой сети <creation-new-net>`). Внести публичный ключ созданного участника в блок ``network-participants`` конфигурационного файла ноды и задать для него роли.
 
 .. note:: При использовании :ref:`криптографии Waves <crypto-waves>` пользователь может быть создан автоматически при запуске ноды и предыдущий шаг можно пропустить. Для :ref:`ГОСТ-криптографии <crypto-gost>` ввиду необходимости использования биологического датчика случайных чисел, автоматическое создание пары ключей невозможно. 
 
@@ -49,33 +237,7 @@
 
   | 1.1. Ключевая пара создается с использованием утилиты  `generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/releases>`_. Для запуска утилиты необходимо в качестве одного из параметров указать файл ``accounts.conf``, в котором определяются параметры генерации ключей. Команда для запуска: ``java -jar generators-x.x.x+VST-x.x.x.jar AccountsGeneratorApp accounts.conf``
 
-  ::
-
-    // accounts.conf listing
-
-    accounts-generator {
-      waves-crypto = yes
-      chain-id = W
-      amount = 1
-      wallet = "c:/nodes/testnet-pos.vostoknodes.com/keystore.dat"
-      wallet-password = "some string as password"
-      reload-node-wallet {
-        enabled = false
-        url = "http://localhost:6869/utils/reload-wallet"
-      }
-    }
-
-  **Описание параметров:**
-
-| При указании пути необходимо использовать символ "прямого слэша" - ``/`` как разделитель уровней иерархии директорий. Пример конфигурационного файла приведен для ОС Windows. При работе в ОС Linux значение ``wallet`` должно соответствовать структуре каталогов операционной системы, например ``/home/contract/vostok/keystore.dat``. При настройке ноды не допускается использование кириллических символов при указании путей до рабочей директории, хранилища ключей и т.д.   
-    
-    - waves-crypto – выбор криптографического алгоритма ("yes" - использовать криптографию :ref:`Waves <crypto-waves>`, "no" - использовать :ref:`ГОСТ-криптографию <crypto-gost>`);
-    - chain-id – идентифицирующий байт сети, потребуется дальше для внесения в параметр ``address-scheme-character`` в конфигурационный файл ноды;
-    - amount – количество генерируемых адресов;
-    - wallet – путь до каталога хранения ключей на ноде, потребуется дальше для внесения в параметр ``wallet > file`` в конфигурационный файл ноды. Для криптографии Waves указывается путь до файла ``keystore.dat`` (пример, ``${user.home}/vostok/keystore.dat``), для ГОСТ-криптографии - путь до директории (``${user.home}/vostok/keystore/``);
-    - wallet-password – пароль для доступа к закрытым ключам ноды, потребуется дальше для внесения в параметр ``wallet > password`` в конфигурационный файл ноды;
-    - reload-node-wallet - опция для обновления keyStore ноды без перезапуска приложения, по умолчанию - выключено (false). В параметре ``url`` указывается путь до метода ``/utils/reload-wallet`` REST API ноды. 
-
+  
   | 1.2. При использовании :ref:`ГОСТ-криптографии <crypto-gost>` после запуска команды создания участников на экран будет выведено окно КриптоПро инициализации биологического датчика случайных чисел.
 
      .. image:: img/bio_rng.png
@@ -100,102 +262,7 @@
 
 2. Скачать `шаблон <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_ конфигурационного файла ноды и отредактировать его:
 
-  | 2.1. Указать тип используемой криптографии (см. раздел :ref:`Криптография <cryptography>`)
-
-    ::
-
-      waves-crypto = yes
   
-  | 2.2. Указать байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf)
-  
-    ::
-
-      address-scheme-character: "W"
-
-  | 2.3. Указать общий баланс активов сети 
-  
-    ::
-
-      genesis {
-        initial-balance: 100000000000
-  
-  | 2.4. Указать :ref:`адреса участников <address-creation>` – владельцев начального баланса сети
-
-    ::
-   
-      transactions = [
-      {recipient: "3P9nhmAEec4bDKsmLEZy2raimNJTVqedu43", amount: 100000000000} ]
-
-  | 2.5. Указать :ref:`публичные ключи участников сети <address-creation>` в блоке ``network-participants``
-
-    ::
-
-      network-participants = [ 
-        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [permissioner]  },
-        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [miner]  },
-        {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [miner, contract_developer]  }
-      ]
-
-
-.. _configuration-network:
-
-  | 2.7. Указать сетевые параметры настраиваемой ноды
-
-    ::
-
-      network {
-        # Network address
-        bind-address = "0.0.0.0"
-        # Port number
-        port = 6864
-
-
-  | 2.8. Указать сетевые адреса (hostname) нод, которые будут подключены к сети 
-  
-    ::
-
-      known-peers = [
-        "privatenet-1.example.net:6864",
-        "privatenet-2.exemple.net:6864" ]
-  
-  | В случае, если адреса дополнительных узлов сети не определены, допустимо указать пустое значение ``known-peers = [ ]``
-
-  | 2.9. Указать путь и пароль от keystore - места хранения закрытых ключей участников сети, созданных на ноде (параметры ``wallet``, ``wallet-password`` в accounts.conf). Для криптографии Waves указывается путь до файла ``keystore.dat`` (пример, ``${user.home}/vostok/keystore.dat``), для ГОСТ-криптографии - путь до директории (``${user.home}/vostok/keystore/``)
-
-    ::
-
-      wallet {
-        file = "c:/nodes/testnet-pos.vostoknodes.com/keystore.dat"
-        password = "some string as password" }
-
-.. _configuration-rest-api:
-
-  | 2.10. Указать доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды
-
-    ::
- 
-      rest-api {
-      enable = yes
-      bind-address = "0.0.0.0"
-      port = 6862
-
-  | 2.11. Используя утилиту  `generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_ создать ``api-key-hash`` для доступа к REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``api-key-hash``. Команда для запуска утилиты:
-  | ``java -jar generators-x.x.x+VST-x.x.x.jar ApiKeyHash api-key-hash.conf`` 
-  | Полученное в результате исполнения утилиты значение, указать в параметре ``api-key-hash`` конфигурационного файла ноды.
-
-  ::
-
-    // api-key-hash.conf listing
-
-    apikeyhash-generator {
-      waves-crypto = no
-      api-key = "some string"
-    }
-
-  **Описание параметров:**
-
-    - waves-crypto – выбор криптографического алгоритма ("yes" - использовать криптографию :ref:`Waves <crypto-waves>`, "no" - использовать :ref:`ГОСТ-криптографию <crypto-gost>`);
-    - api-key – ключ, который необходимо придумать. Значение данного ключа потребуется указать в запросах к REST API ноды (подробнее на странице :ref:`REST API ноды <rest-api-node>`).
  
 3. Подписать genesis-блок утилитой `generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_. Команда для подписания: ``java -jar generators-x.x.x+VST-x.x.x.jar GenesisBlockGenerator private-blockchain.conf``, где private-blockchain.conf, отредактированный в :ref:`в п. 2 <configuration-node>` конфигурационный файл ноды. После подписания поля ``genesis-public-key-base-58`` и ``signature`` конфигурационного файла будут заполнены значениями открытого ключа и подписи genesis-блока. 
 
