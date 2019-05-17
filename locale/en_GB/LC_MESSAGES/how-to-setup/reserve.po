@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-17 17:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# e88a53304ac54f0db8867a31077b66fa
+#: ../../how-to-setup/reserve.rst:4
+msgid "Подключение к существующей сети"
+msgstr ""
+
+# a1897b83e85d4fef88d999bab876934e
+#: ../../how-to-setup/reserve.rst:6
+msgid "Для подключения к существующей блокчейн-сети участнику необходимо:"
+msgstr ""
+
+# 965ff4ad31a04df7ba4f132daee2c6fd
+#: ../../how-to-setup/reserve.rst:8
+msgid ""
+"Получить конфигурационный файл ноды с параметрами блокчейн-сети, к "
+"которой планируется подключение. Для упрощения подключения рекомендуется "
+"запросить готовый конфигурационный файл ноды у одного из участников "
+"сетевого взаимодействия."
+msgstr ""
+
+# 9e2cf4ea29264765a1176a7f9de088b4
+#: ../../how-to-setup/reserve.rst:10
+msgid ""
+"Часть параметров конфигурационного файла описывают параметры "
+"блокчейн-сети, к которой осуществляется подключение, и не должны "
+"изменяться. Параметры, которые описывают конфигурацию нового узла и шаги "
+"по их настройке приведены ниже."
+msgstr ""
+
+# 33cb9698306c491fac65798329f55cd2
+#: ../../how-to-setup/reserve.rst:12
+msgid ""
+"Для подключения к существующим общедоступным сетям Восток воспользуйтесь "
+"конфигурационным файлом из таблицы ниже."
+msgstr ""
+
+# 9bda33c1767444958e1fa3383c75404d
+#: ../../how-to-setup/reserve.rst:15
+msgid "#"
+msgstr ""
+
+# d8383b2e8d74453ba0db46c67b48486d
+#: ../../how-to-setup/reserve.rst:15
+msgid "Название сети"
+msgstr ""
+
+# 676c7383818f475180edab03114e6470
+#: ../../how-to-setup/reserve.rst:15
+msgid "Конфигурационный файл"
+msgstr ""
+
+# e31dcfabd0264632bb9496c950d5b244
+# 32c4bb16dfab4047a89e8693b26ce4de
+#: ../../how-to-setup/reserve.rst:17 ../../how-to-setup/reserve.rst:64
+msgid "1"
+msgstr ""
+
+# 891603e8dad54f5da121bc12d2e92e62
+#: ../../how-to-setup/reserve.rst:17
+msgid "PartnerNet"
+msgstr ""
+
+# 9013c65306d8453c8502a4f1ad4d9ba1
+#: ../../how-to-setup/reserve.rst:17
+msgid ""
+"`скачать <https://github.com/vostokplatform/Vostok-"
+"Releases/blob/master/configs/example.conf>`_"
+msgstr ""
+
+# 76a2eb18a4594d398c63be5f5d931a0d
+#: ../../how-to-setup/reserve.rst:20
+msgid ""
+"С помощью утилиты `generators-x.x.x+VST-x.x.x.jar "
+"<https://github.com/vostokplatform/Vostok-Releases/releases>`_ создать "
+"хотя бы одного участника сети на ноде (см. п. :ref:`1 <address-creation>`"
+" раздела :ref:`Создание новой сети <creation-new-net>`). Внести публичный"
+" ключ созданного участника в блок ``network-participants`` "
+"конфигурационного файла ноды и задать для него роли."
+msgstr ""
+
+# 661d916026ec499a8a9cd34cc5b5501c
+#: ../../how-to-setup/reserve.rst:22
+msgid ""
+"При использовании :ref:`криптографии Waves <crypto-waves>` пользователь "
+"может быть создан автоматически при запуске ноды и предыдущий шаг можно "
+"пропустить. Для :ref:`ГОСТ-криптографии <crypto-gost>` ввиду "
+"необходимости использования биологического датчика случайных чисел, "
+"автоматическое создание пары ключей невозможно."
+msgstr ""
+
+# f4f37866224f44e5852ff29c28a336f0
+#: ../../how-to-setup/reserve.rst:24
+msgid ""
+"Внести путь к хранилищу закрытых ключей участников сети, созданных на "
+"ноде, в блок ``wallet`` конфигурационного файла ноды. Путь к хранилищу "
+"задается в ``accounts.conf`` при создании участников сети (см. п. :ref:`1"
+" <address-creation>` раздела :ref:`\"Создание новой сети\" <creation-new-"
+"net>`)."
+msgstr ""
+
+# 417e72a74c7a4da0b62109ba68083cfc
+#: ../../how-to-setup/reserve.rst:25
+msgid ""
+"При необходимости активации :ref:`REST API интерфейса <rest-api-node>` на"
+" настраиваемом узле, необходимо с помощью утилиты "
+"`generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform"
+"/Vostok-Releases/releases>`_ создать ``api-key-hash`` для доступа к API "
+"(см. п. :ref:`2.10.-2.11. <configuration-rest-api>` раздела "
+":ref:`\"Создание новой сети\" <creation-new-net>`). Полученный ключ "
+"необходимо внести в конфигурационный файл ноды."
+msgstr ""
+
+# be88d9975c77429195a5fe659e19ddda
+#: ../../how-to-setup/reserve.rst:26
+msgid ""
+"Внести сетевые параметры ноды - IP-адрес/порт ноды (см. п. :ref:`2.7. "
+"<configuration-network>` раздела :ref:`\"Создание новой сети\" <creation-"
+"new-net>`) и IP-адрес/порт интерфейса REST API."
+msgstr ""
+
+# 47a7a2e8b1b24ef693b4b6031a32d7dc
+#: ../../how-to-setup/reserve.rst:27
+msgid ""
+"Если нода ранее работала с другой сетью блокчейна Vostok, то удалить "
+"данные из папки, указанной в параметре \"data-directory\" (по умолчанию, "
+"для ОС Ubuntu используется путь ``${user.home}/vostok``, для ОС Windows "
+"используется путь ``C:\\Users\\<username>\\vostok``)."
+msgstr ""
+
+# a07284f9fdee46d0b19804ff1f9a6360
+# d5805132a76a4f0a8f751a0a1ce272b6
+#: ../../how-to-setup/reserve.rst:28 ../../how-to-setup/reserve.rst:88
+msgid ":ref:`Запустить ноду <install-node>`"
+msgstr ""
+
+# 228d6ac409ac44e485be70fb73deadea
+#: ../../how-to-setup/reserve.rst:35
+msgid "Создание новой сети"
+msgstr ""
+
+# 59dfc3a6c0cb424b9576e51a35a294c7
+#: ../../how-to-setup/reserve.rst:37
+msgid "Для создания новой блокчейн-сети необходимо выполнить следующие действия:"
+msgstr ""
+
+# bd5ce3ba91c1476a9596a9d2eabed537
+#: ../../how-to-setup/reserve.rst:41
+msgid "Создать участников сети (сгенерировать ключевые пары и адреса)"
+msgstr ""
+
+# 67d38da5251a46d8829c97d3a090c272
+#: ../../how-to-setup/reserve.rst:43
+msgid ""
+"Для начала функционирования сети должен быть создан как минимум один "
+"участник с полномочиями :ref:`\"permissioner\" <authorization>` "
+"(назначает роли другим участникам). Если в вашей сети будет использован "
+"Proof-of-Stake алгоритм консенсуса, то также должен быть определен "
+"участник, который хранит первоначальный баланс активов создаваемой "
+"блокчейн-сети."
+msgstr ""
+
+# 3bed40d4899d49068420396683510cec
+#: ../../how-to-setup/reserve.rst:45
+msgid ""
+"Советуем не использовать один адрес для хранения всего баланса сети. "
+"Безопаснее разделить его между несколькими участниками!"
+msgstr ""
+
+# 2109bc7267cb447485c4a219fca787b6
+#: ../../how-to-setup/reserve.rst
+msgid ""
+"1.1. Ключевая пара создается с использованием утилиты  "
+"`generators-x.x.x+VST-x.x.x.jar <https://github.com/vostokplatform"
+"/Vostok-Releases/releases>`_. Для запуска утилиты необходимо в качестве "
+"одного из параметров указать файл ``accounts.conf``, в котором "
+"определяются параметры генерации ключей. Команда для запуска: ``java -jar"
+" generators-x.x.x+VST-x.x.x.jar AccountsGeneratorApp accounts.conf``"
+msgstr ""
+
+# cd801e6043be4c139eb3567538b335c0
+#: ../../how-to-setup/reserve.rst
+msgid ""
+"1.2. При использовании :ref:`ГОСТ-криптографии <crypto-gost>` после "
+"запуска команды создания участников на экран будет выведено окно "
+"КриптоПро инициализации биологического датчика случайных чисел."
+msgstr ""
+
+# c7fa8894b38e4a48b59e4f51d1fa7987
+#: ../../how-to-setup/reserve.rst
+msgid ""
+"После выполнения утилиты в папке, определенной параметром ``wallet``, "
+"будут сохранены закрытые ключи участников, а на экране отобразятся адреса"
+" и открытые ключи в виде строк:"
+msgstr ""
+
+# fd3fa215c65b40ab8555f87c5f7dae81
+#: ../../how-to-setup/reserve.rst
+msgid ""
+"``[main] accounts-generator - Address: "
+"3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; public key: "
+"6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``"
+msgstr ""
+
+# eb31d30ed5c543c1b14e4d72db76a189
+#: ../../how-to-setup/reserve.rst
+msgid ""
+"1.3. Сгенерированные адреса необходимо сохранить для указания в "
+"конфигурационном файле ноды. Информация по возможным ролям участников "
+"платформы приведена на странице :ref:`\"Авторизация участников\" "
+"<authorization>`."
+msgstr ""
+
+# 9e9710ac20024e3abaed5c90bcd0afde
+#: ../../how-to-setup/reserve.rst:59
+msgid "Начальный состав участников может быть следующим:"
+msgstr ""
+
+# d4f1da27937a46bfae1c7c07603542a7
+#: ../../how-to-setup/reserve.rst:62
+msgid "№ участника"
+msgstr ""
+
+# f1899da2b0894930bd0ca3d036a1b096
+#: ../../how-to-setup/reserve.rst:62
+msgid "Роль"
+msgstr ""
+
+# fe286cc2900c4e7bb2c4cc33a67162db
+#: ../../how-to-setup/reserve.rst:62
+msgid "Назначение участника"
+msgstr ""
+
+# 514a477ff7c544a78418a1e9bc906011
+#: ../../how-to-setup/reserve.rst:64
+msgid "permissioner"
+msgstr ""
+
+# 8bf079d5229a45aa81f5114b0f41b231
+#: ../../how-to-setup/reserve.rst:64
+msgid "Выдача разрешений для других участников"
+msgstr ""
+
+# eceb40720ea2493a9b804b7fad17c2c0
+#: ../../how-to-setup/reserve.rst:65
+msgid "2"
+msgstr ""
+
+# f5a1d63fc2b24ea5982dd221e7d2ed79
+#: ../../how-to-setup/reserve.rst:65
+msgid "miner"
+msgstr ""
+
+# a90c11118e0e4f709b019beebb6c32d7
+#: ../../how-to-setup/reserve.rst:65
+msgid "Валидация и включение транзакций в блоки"
+msgstr ""
+
+# 521c7cd520db4561b9196f50253476c7
+#: ../../how-to-setup/reserve.rst:66
+msgid "3"
+msgstr ""
+
+# 70474906f51d4d1c905898a9d2288786
+# 6d249da75fe643bc9f974e8f3b572a7b
+#: ../../how-to-setup/reserve.rst:66 ../../how-to-setup/reserve.rst:67
+msgid "нет"
+msgstr ""
+
+# 57baeb18972340abbcf0037bc6d0a230
+# c19183895511445b981c29ff5d94ecb5
+#: ../../how-to-setup/reserve.rst:66 ../../how-to-setup/reserve.rst:67
+msgid "Владелец первоначального баланса сети"
+msgstr ""
+
+# acc7d749e9824dec9ead0d0a5ecfbd60
+#: ../../how-to-setup/reserve.rst:67
+msgid "4"
+msgstr ""
+
+# 1da0d6345cf3496ebff38ceb73b04cb2
+#: ../../how-to-setup/reserve.rst:72
+msgid ""
+"Скачать `шаблон <https://github.com/vostokplatform/Vostok-"
+"Releases/blob/master/configs/example.conf>`_ конфигурационного файла ноды"
+" и отредактировать его:"
+msgstr ""
+
+# 20e93301389b4c0d94aac823af99861b
+#: ../../how-to-setup/reserve.rst:76
+msgid ""
+"Подписать genesis-блок утилитой `generators-x.x.x+VST-x.x.x.jar "
+"<https://github.com/vostokplatform/Vostok-Releases/release>`_. Команда "
+"для подписания: ``java -jar generators-x.x.x+VST-x.x.x.jar "
+"GenesisBlockGenerator private-blockchain.conf``, где private-"
+"blockchain.conf, отредактированный в :ref:`в п. 2 <configuration-node>` "
+"конфигурационный файл ноды. После подписания поля ``genesis-public-key-"
+"base-58`` и ``signature`` конфигурационного файла будут заполнены "
+"значениями открытого ключа и подписи genesis-блока."
+msgstr ""
+
+# 12e760fd0d6944d9bf914858f72032c3
+#: ../../how-to-setup/reserve.rst
+msgid "Пример:"
+msgstr ""
+
+# 11c946670f1e4ea7af2a977df1298ff9
+#: ../../how-to-setup/reserve.rst:85
+msgid ""
+"Если нода ранее работала с другой сетью блокчейна Vostok, то удалить "
+"данные из папки, указанной в параметре \"data-directory\" (по умолчанию, "
+"для ОС Ubuntu используется путь ``${user.home}/vostok``, для ОС Windows "
+"используется путь ``C:\\Users\\<username>\\vostok``)"
+msgstr ""
+
+# 343358835fd4415fb549d0587ec6ad2b
+#: ../../how-to-setup/reserve.rst:94
+msgid "Создание приватной сети"
+msgstr ""
+
+# 99e196a29ac44931ae669297cd01456a
+#: ../../how-to-setup/reserve.rst:96
+msgid ""
+"На платформе Vostok существует возможность запуска не публичной "
+"блокчейн-сети, т.е. такой сети, подключение к которой нового узла требует"
+" согласования с администратором сети. Участник сети в роли connection-"
+"manager публикует в сети RegisterNode транзакцию с параметрами "
+"добавляемого узла (публичный ключ владельца ноды и ее имя). При получении"
+" от пиров авторизованного handshake сообщения узлы проверяют, что оно "
+"отправлено известным участником сети."
+msgstr ""
+
+# b64927bf6f914f08aec7e72fbad4505b
+#: ../../how-to-setup/reserve.rst:98
+msgid ""
+"При создании приватной сети необходимо установить в конфигурационном "
+"файле значение параметра ``privacy.allow-all-nodes = false``. В такой "
+"сети взаимодействие узлов может происходить только после получения и "
+"валидации :ref:`авторизованного handshake<network-message-auth-"
+"handshake>` сообщения."
+msgstr ""
+
+# f7be13668996455f9cd3fcb496fdfed4
+#: ../../how-to-setup/reserve.rst:100
+msgid ""
+"Так же необходимо указать публичный ключ владельца ноды в параметре "
+"``privacy.owner-address`` и пароль к keystore ноды ``privacy.owner-"
+"password``."
+msgstr ""
+
+# 558773d71185443784ecee5fb8e4ff46
+#: ../../how-to-setup/reserve.rst:112
+msgid ""
+"Дополнительно необходимо создать пользователя с правами \"connection-"
+"manager\". Пользователь может быть указан в ``genesis`` блоке "
+"конфигурационного файла в поле ``network-participants`` при создании "
+"сети, либо позднее - пользователь \"permissioner\" должен опубликовать в "
+"сети :ref:`Permit<PermitTransaction>` транзакцию:"
+msgstr ""
+
+# 10240acddd78407c8cacc49c0b5e1ad6
+#: ../../how-to-setup/reserve.rst:125
+msgid "Где:"
+msgstr ""
+
+# 765d8b2e06d74555b05041b4b0dafb64
+#: ../../how-to-setup/reserve.rst:127
+msgid "type - тип транзакции по добавлению/редактированию permissions;"
+msgstr ""
+
+# 7c4de85d04a8436bb1af35fe31e159b3
+#: ../../how-to-setup/reserve.rst:128
+msgid "sender - нода, обладающая правами на подписание permission-транзакций;"
+msgstr ""
+
+# 00d360199eeb454b9fcaf95f7146aac3
+#: ../../how-to-setup/reserve.rst:129
+msgid "target - адрес ноды, которая добавляется в сеть;"
+msgstr ""
+
+# 22a8a4786c8048a8a784eea5ddfd3229
+#: ../../how-to-setup/reserve.rst:130
+msgid "role - роль пользователя, в данном случае это \"connection-manager\";"
+msgstr ""
+
+# 32aad4baf77546aa8c4225691e0c0ffd
+#: ../../how-to-setup/reserve.rst:131
+msgid ""
+"opType -  тип операции \"add\" (добавить полномочия) или \"remove\" "
+"(удалить полномочия);"
+msgstr ""
+
+# 872f3d565e034d9b8360c59e49f4dda3
+#: ../../how-to-setup/reserve.rst:132
+msgid "dueTimestamp - дата действия permission в формате timestamp."
+msgstr ""
+
+# f1e28fde4fc242fdb0b862216e3cc883
+#: ../../how-to-setup/reserve.rst:135
+msgid ""
+"Для регистрации нового узла в блокчейн-сети, его владелец должен сообщить"
+" имя ноды и свой публичный ключ администратору сети. После чего "
+"\"connection-manager\" имеет возможность опубликовать в сети "
+":ref:`RegisterNode<RegisterNodeTransaction>` транзакцию, означающую что к"
+" сети подключен новый авторизованный участник:"
+msgstr ""
+

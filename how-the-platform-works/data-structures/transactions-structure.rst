@@ -34,7 +34,7 @@
 106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.15 - 0.154VST        Отключение Docker-контракта
 110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         0-0.004VST             Регистрация ноды в генезис-блоке при старте блокчейна    
 111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       отсутствует            Регистрация новой ноды в сети    
-112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                         отсутствует            Создание политики доступа к конфиденциальным данным  
+112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       отсутствует            Создание политики доступа к конфиденциальным данным  
 113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       отсутствует            Изменение политики доступа    
 114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   отсутствует            Отправка в сеть хэша данных       
 ===   =============================================================================   ====================   ======================================================================
