@@ -1,6 +1,7 @@
 Transactions
 =============
 
+.. important:: 
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`. Посмотреть :ref:`примеры <transaction-example>` транзакций.
    
 GET /transactions/info/{id}
