@@ -33,7 +33,7 @@
    how-to-use/rest-api-node
    how-to-use/smart-contracts-docker
    how-to-use/role-management
-   how-to-use/privacy-using
+   how-to-use/operations-node
 .. how-to-use/smart-contracts-ride
 
 .. toctree::
@@ -44,7 +44,6 @@
    how-to-setup/system-requirement
    how-to-setup/install-node
    how-to-setup/configuration-node
-   how-to-setup/operations-node
    how-to-setup/install-client
    how-to-setup/docker-configuration
 
