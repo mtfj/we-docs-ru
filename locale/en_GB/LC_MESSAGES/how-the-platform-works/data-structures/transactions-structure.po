@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-14 18:27+0300\n"
-"PO-Revision-Date: 2019-05-15 17:30+0300\n"
+"POT-Creation-Date: 2019-05-21 16:23+0300\n"
+"PO-Revision-Date: 2019-05-21 16:24+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -27,11 +27,11 @@ msgstr "Transactions"
 # 9495d308e5034b48a0a3bdb731f20d67
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:6
 msgid ""
-"В этом разделе приведена структура хранения транзакций в блокчейн-платформе Восток. Для некоторых "
-"типов транзакций введено версионирование."
+"В этом разделе приведена структура хранения транзакций в блокчейн-платформе "
+"Восток. Для некоторых типов транзакций введено версионирование."
 msgstr ""
-"This module contains the structure of transaction storage in the Vostok blockchain platform. "
-"Versioning has been introduced for some transaction types."
+"This module contains the structure of transaction storage in the Vostok "
+"blockchain platform. Versioning has been introduced for some transaction types."
 
 # 29bd41852b30440aac949fa446288db9
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:12
@@ -77,9 +77,11 @@ msgstr "no fee"
 
 # 818a46f1a06946d785fedff4ee2d3b29
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
-msgid "Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод"
+msgid ""
+"Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод"
 msgstr ""
-"Initial binding of the balance to the addresses of nodes created at the start of the blockchain"
+"Initial binding of the balance to the addresses of nodes created at the start "
+"of the blockchain"
 
 # 26dfbd4f817b4b9fb0b86cefba7a6e6b
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:15
@@ -335,7 +337,8 @@ msgstr ""
 # 3cd9ae6833a6402a98182ce034ae895a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:29
 msgid "Назначение первого администратора сети для дальнейшей раздачи прав"
-msgstr "Assignment of the first network administrator for further distribution of rights"
+msgstr ""
+"Assignment of the first network administrator for further distribution of rights"
 
 # 6de3f8cd97d54ddda56f9a0dd2290c15
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:30
@@ -595,12 +598,12 @@ msgstr "Height"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:578
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:651
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:714
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:791
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:867
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:921
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:986
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1036
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1099
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:771
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:847
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:901
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:966
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1016
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1079
 msgid "**Broadcasted JSON**"
 msgstr "**Broadcasted JSON**"
 
@@ -725,14 +728,15 @@ msgstr "String"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:561
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:631
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:701
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:778
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:854
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:908
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:961
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1087
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1168
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1186
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1206
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:758
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:834
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:888
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:941
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1067
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1137
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1156
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1175
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1195
 msgid "**JSON для вызова метода sign**"
 msgstr "**JSON to sign**"
 
@@ -892,12 +896,12 @@ msgid "13. SetScriptTransaction"
 msgstr "13. SetScript Transaction"
 
 # ff212930d32c43079de8f9ec80628e62
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:757
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:737
 msgid "15. SetAssetScriptTransaction"
 msgstr "SetAssetScriptTransaction"
 
 # df8c34f620d34190a37db3dd17ebcfae
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:813
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:793
 msgid "101. GenesisPermitTransaction"
 msgstr "101. GenesisPermitTransaction"
 
@@ -912,7 +916,7 @@ msgid "role"
 msgstr "Role"
 
 # b2184a7abb1b420590f4539d4902b701
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:832
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:812
 msgid "102. PermitTransaction"
 msgstr "102. PermissionTransaction"
 
@@ -937,7 +941,7 @@ msgid "Option[Long]"
 msgstr "Option[Long]"
 
 # b471aaf096a54488a8141dc630b6b254
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:889
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:869
 msgid "103. CreateContractTransaction"
 msgstr "103. CreateContractTransaction"
 
@@ -967,7 +971,7 @@ msgid "List[DataEntry[_]]"
 msgstr "List[DataEntry[_]]"
 
 # fe218d5166e84f15937850971a7aeffd
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:943
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:923
 msgid "104. CallContractTransaction"
 msgstr "104. CallContractTransaction"
 
@@ -977,7 +981,7 @@ msgid "contractId"
 msgstr "contractId"
 
 # b5226a7f202d49c284af25770316b59c
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1018
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:998
 msgid "105. ExecutedContractTransaction"
 msgstr "105. ExecutedContractTransaction"
 
@@ -997,17 +1001,12 @@ msgid "results"
 msgstr "results"
 
 # 24cfc0ebec8745879ffddeb7b9e79780
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1070
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1050
 msgid "106. DisableContractTransaction"
 msgstr "106. DisableContractTransaction"
 
-# b471aaf096a54488a8141dc630b6b254
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1118
-msgid "107. UpdateContractTransaction"
-msgstr "107. UpdateContractTransaction"
-
 # f2704546c01d4d2b8f782ed000546d46
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1125
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1100
 msgid "110. GenesisRegisterNodeTransaction"
 msgstr "110. GenesisRegisterNodeTransaction"
 
@@ -1017,7 +1016,7 @@ msgid "targetPubKey"
 msgstr "targetPubKey"
 
 # d27154cb30ca40ddb2542c49702b58cf
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1143
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1118
 msgid "111. RegisterNodeTransaction"
 msgstr "111. RegisterNodeTransaction"
 
@@ -1027,99 +1026,101 @@ msgid "nodeName"
 msgstr "nodeName"
 
 # 6a957b8684474cdfb720d84ec8cf375c
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1166
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1154
 msgid "112. CreatePolicyTransaction"
 msgstr "112. CreatePolicyTransaction"
 
 # bd51a25681094efdbb468ede39648b70
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1184
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1173
 msgid "113. UpdatePolicyTransaction"
 msgstr "113. UpdatePolicyTransaction"
 
 # 2fc7673c534a4f30b0b8a19e29e8e877
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1204
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1193
 msgid "114. PolicyDataHashTransaction"
 msgstr "114. PolicyDataHashTransaction"
 
 # f38ad577ec7a4a4ab0307689926f4379
 #~ msgid ""
-#~ "`Genesis transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
+#~ "`Genesis transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/"
 #~ "LgdxnrTMbNmGJ7a1XB62wtaubm7aeDhkrWSPE5jpLENWpsGY1XeHQWVqkf5KywZTxBrn6sGJksgsdM2BCcTy52R>`_"
 #~ msgstr ""
-#~ "`Genesis transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
+#~ "`Genesis transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/"
 #~ "LgdxnrTMbNmGJ7a1XB62wtaubm7aeDhkrWSPE5jpLENWpsGY1XeHQWVqkf5KywZTxBrn6sGJksgsdM2BCcTy52R>`_"
 
 # c5ec468fa1dd4b87b5bbe617cc1bcf82
 #~ msgid ""
-#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
+#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
 #~ msgstr ""
-#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
+#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
 
 # f06d786adc2d445aab7cdee0107bd9aa
 #~ msgid ""
-#~ "`Transfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/3jDSuDCxnYakMezZ8KeH7TYtJrNM6RLpAvP6hrDFN3gE>`_"
+#~ "`Transfer Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/3jDSuDCxnYakMezZ8KeH7TYtJrNM6RLpAvP6hrDFN3gE>`_"
 #~ msgstr ""
-#~ "`Transfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/3jDSuDCxnYakMezZ8KeH7TYtJrNM6RLpAvP6hrDFN3gE>`_"
+#~ "`Transfer Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/3jDSuDCxnYakMezZ8KeH7TYtJrNM6RLpAvP6hrDFN3gE>`_"
 
 # 0949c036dc054c979ce144c9542c353f
 #~ msgid ""
-#~ "`Reissue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/4G7sWdcjWrkAemCt7z549m9vJbXS6i8ha6XCBN27ceXz>`_"
+#~ "`Reissue Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/4G7sWdcjWrkAemCt7z549m9vJbXS6i8ha6XCBN27ceXz>`_"
 #~ msgstr ""
-#~ "`Reissue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/4G7sWdcjWrkAemCt7z549m9vJbXS6i8ha6XCBN27ceXz>`_"
+#~ "`Reissue Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/4G7sWdcjWrkAemCt7z549m9vJbXS6i8ha6XCBN27ceXz>`_"
 
 # 711b90244eb64d8ba5916bab9f0747c4
 #~ msgid ""
-#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
+#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
 #~ msgstr ""
-#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
+#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
 
 # ad331836f95f4208bd67e2dd4233c223
 #~ msgid ""
-#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
+#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
 #~ msgstr ""
-#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
+#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
 
 # 401cdbf33bd9449fb46d944c322a40f9
 #~ msgid ""
-#~ "`LeaseCancel Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/2SgUqYV5XPGzMwstSuwwtLe5WrFY4VEt2iGHZ5VLuv4B>`_"
+#~ "`LeaseCancel Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/2SgUqYV5XPGzMwstSuwwtLe5WrFY4VEt2iGHZ5VLuv4B>`_"
 #~ msgstr ""
-#~ "`LeaseCancel Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/2SgUqYV5XPGzMwstSuwwtLe5WrFY4VEt2iGHZ5VLuv4B>`_"
+#~ "`LeaseCancel Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/2SgUqYV5XPGzMwstSuwwtLe5WrFY4VEt2iGHZ5VLuv4B>`_"
 
 # ae7a4687af164c64a148c24f57dbfb19
 #~ msgid ""
-#~ "`CreateAlias Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "FheJMKF3b2nbzatoNXHyfUmUoR6x7sBJKLc7Yc2Sa4bm>`_"
+#~ "`CreateAlias Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/FheJMKF3b2nbzatoNXHyfUmUoR6x7sBJKLc7Yc2Sa4bm>`_"
 #~ msgstr ""
-#~ "`CreateAlias Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "FheJMKF3b2nbzatoNXHyfUmUoR6x7sBJKLc7Yc2Sa4bm>`_"
+#~ "`CreateAlias Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/FheJMKF3b2nbzatoNXHyfUmUoR6x7sBJKLc7Yc2Sa4bm>`_"
 
 # 3d80d854aecd432f860ffabd807ac41c
 #~ msgid ""
-#~ "`MassTransfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/9Bu9jx2VVr4gRy9R2k3t7LmUFyv53UjnwwuCQE3XwyKu>`_"
+#~ "`MassTransfer Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/9Bu9jx2VVr4gRy9R2k3t7LmUFyv53UjnwwuCQE3XwyKu>`_"
 #~ msgstr ""
-#~ "`MassTransfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
-#~ "info/9Bu9jx2VVr4gRy9R2k3t7LmUFyv53UjnwwuCQE3XwyKu>`_"
+#~ "`MassTransfer Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/9Bu9jx2VVr4gRy9R2k3t7LmUFyv53UjnwwuCQE3XwyKu>`_"
 
 # 5c2cf014a7c54c9c8bbe245e4bd67c42
 #~ msgid ""
-#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
+#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
 #~ msgstr ""
-#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
+#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
 
 # 8c6fd7da27a440339f314ced95357b5f
 #~ msgid "SetScript Transaction"
@@ -1127,21 +1128,23 @@ msgstr "114. PolicyDataHashTransaction"
 
 # 96af5680ca5349dfb5b3e33cd7fd468c
 #~ msgid ""
-#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/"
 #~ "info/5eduZZDRsuh24xcXE1w8ZXmg51YxVebXwuZy5E2Rwbtw6mQMhPmbiJEoaARMFT5UvuxPbiBTzwHDyW3zefEb44P2>`_ "
 #~ "(for genesis block)"
 #~ msgstr ""
-#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/"
 #~ "info/5eduZZDRsuh24xcXE1w8ZXmg51YxVebXwuZy5E2Rwbtw6mQMhPmbiJEoaARMFT5UvuxPbiBTzwHDyW3zefEb44P2>`_ "
 #~ "(for genesis block)"
 
 # c9513f66403e497e8390346909996be9
 #~ msgid ""
-#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_"
+#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_"
 #~ msgstr ""
-#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/"
-#~ "B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_"
+#~ "`Permission Transaction <https://1.partner-net.vostoknodes.com:8443/"
+#~ "transactions/info/B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_"
 
 # da688b4af9774bccbd7508b249bc5923
 #~ msgid "CreateContractTransaction"
@@ -1671,3 +1674,7 @@ msgstr "114. PolicyDataHashTransaction"
 # 9af8b68d646e4f20a516aa709a6b8222
 #~ msgid "minSponsorAssetFee"
 #~ msgstr "minSponsorAssetFee"
+
+# b471aaf096a54488a8141dc630b6b254
+#~ msgid "107. UpdateContractTransaction"
+#~ msgstr "107. UpdateContractTransaction"

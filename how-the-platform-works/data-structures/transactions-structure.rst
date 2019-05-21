@@ -731,26 +731,6 @@
         "height": 3805
     }
 
-..  .. _SponsorFeeTransaction:
-  14. SponsorFeeTransaction
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
-   type                ,+       ,+      ,+      ,Byte
-   id                  ,        ,+      ,       ,Byte
-   sender              ,+       ,+      ,       ,PublicKeyAccount
-   senderPublicKey     ,        ,+      ,+      ,PublicKeyAccount
-   fee                 ,+       ,+      ,+      ,Long
-   timestamp           ,+ (opt) ,+      ,+      ,Long
-   proofs              ,        ,+      ,+      ,List[ByteStr]
-   version             ,+       ,+      ,+      ,Byte
-   assetId             ,+       ,+      ,       ,ByteStr
-   minSponsorAssetFee  ,+ (opt) ,       ,+      ,
-   password            ,+ (opt) ,       ,       ,String
-   height              ,        ,+      ,       ,
-
-
 .. _SetAssetScriptTransaction:
 
 15. SetAssetScriptTransaction
@@ -1113,11 +1093,6 @@
     "height": 1632 
     }
 
-.. .. _UpdateContractTransaction:
-107. UpdateContractTransaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 .. _GenesisRegisterNodeTransaction:
 
@@ -1228,3 +1203,27 @@
     "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
     "hash": "ad2a814482df0dd0d2cf6321f535be720caa7b3aa1289b0575f60d7a5e109631",
     }
+
+
+
+..  .. _SponsorFeeTransaction:
+  14. SponsorFeeTransaction
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
+   type                ,+       ,+      ,+      ,Byte
+   id                  ,        ,+      ,       ,Byte
+   sender              ,+       ,+      ,       ,PublicKeyAccount
+   senderPublicKey     ,        ,+      ,+      ,PublicKeyAccount
+   fee                 ,+       ,+      ,+      ,Long
+   timestamp           ,+ (opt) ,+      ,+      ,Long
+   proofs              ,        ,+      ,+      ,List[ByteStr]
+   version             ,+       ,+      ,+      ,Byte
+   assetId             ,+       ,+      ,       ,ByteStr
+   minSponsorAssetFee  ,+ (opt) ,       ,+      ,
+   password            ,+ (opt) ,       ,       ,String
+   height              ,        ,+      ,       ,
+.. .. _UpdateContractTransaction:
+    107. UpdateContractTransaction
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
