@@ -1,7 +1,7 @@
 Transactions
 =============
 
-.. important:: 
+.. important:: За один запрос через API **/transactions/...** Data service вовращает не более 500 транзакций.
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`. Посмотреть :ref:`примеры <transaction-example>` транзакций.
    
 GET /transactions/info/{id}

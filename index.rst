@@ -47,6 +47,13 @@
    how-to-setup/install-client
    how-to-setup/docker-configuration
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Словарь терминов
+   :name: glossary
+   glossary
+
+
 .. .. toctree::
    :maxdepth: 1
    :caption: FAQ

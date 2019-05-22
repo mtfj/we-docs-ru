@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-22 15:18+0300\n"
+"PO-Revision-Date: 2019-05-22 15:19+0300\n"
+"Last-Translator: \n"
+"Language: en_GB\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
+
+# b8751fb805434895911a02382eee4c4c
+#: ../../glossary.rst:5
+msgid "Словарь терминов"
+msgstr "Glossary"
+
+# 27c2b39d48d843cca9173b3cb1292f53
+#: ../../glossary.rst:7
+msgid "**Аккаунт**"
+msgstr "**Account**"
+
+# 15436e7546e643f28a676e11a869ace9
+#: ../../glossary.rst:9
+msgid ""
+"Набор данных о пользователе, содержащийся в БД и использующийся для его "
+"идентификации"
+msgstr ""
+"A client data set which is stored in database and used for client identification"
+
+# d6564af2c1234b4a8785f535cc59f359
+#: ../../glossary.rst:11
+msgid "**Анонимная сеть**"
+msgstr "**Anonymous network**"
+
+# ee67c04566b34889a16fc63c42704ca2
+#: ../../glossary.rst:13
+msgid ""
+"Блокчейн открытого типа, к которой может подключиться любой участник на правах "
+"анонимности"
+msgstr ""
+"Unpermissioned public blockchain which can be accessed by any participant as an "
+"anonymous person"
+
+# f15e6460afaf4e9fa1cbd5bd4364c062
+#: ../../glossary.rst:15
+msgid "**Блокчейн**"
+msgstr "**Blockchain**"
+
+# 93f7a329036940719a6a8189fbf2af79
+#: ../../glossary.rst:17
+msgid ""
+"Децентрализованный, распределённый и общедоступный цифровой реестр, "
+"записывающий информацию таким образом, что любая соответствующая запись не "
+"может быть изменена задним числом без внесения изменений во все последующие "
+"блоки"
+msgstr ""
+"A decentralized, distributed and public digital ledger that is used to record "
+"in such way that any involved record cannot be altered retroactively, without "
+"the alteration of all subsequent blocks"
+
+# 2718aa2a413d4a5f89f6da67448e9fd8
+#: ../../glossary.rst:19
+msgid "**Генезис блок**"
+msgstr "**Genesis block**"
+
+# 9c22dbf1e70a48c4952a83f2cb5b301e
+#: ../../glossary.rst:21
+msgid ""
+"Первый блок в блокчейне, содержащий специальные генезис транзакции, "
+"распределяющие первоначальный баланс и разрешения"
+msgstr ""
+"The first block in the blockchain which contains special genesis transactions "
+"distributing the initial balance and permissions"
+
+# f0c2cc88926b465fa31f3e8b7f83adef
+#: ../../glossary.rst:23
+msgid "**Группа доступа**"
+msgstr "**Access group**"
+
+# b742bac9089948e69ae5d56a45b427b7
+#: ../../glossary.rst:25
+msgid ""
+"Таблица в стейте ноды, содержащая список участников сети, которые могут "
+"обмениваться конфиденциальными данными в рамках этой группы"
+msgstr ""
+"A table inside the node state containing the net participants list which can "
+"exchange the privacy data according to this policy"
+
+# 7c3e55cafdab4b45aabdfc2aecbc936f
+#: ../../glossary.rst:27
+msgid "**Криптовалюта**"
+msgstr "**Cryptocurrency**"
+
+# c52933886da84c9095479e393d8191d7
+#: ../../glossary.rst:29
+msgid ""
+"Цифровая монета, основанная на криптографических алгоритмах и обращающаяся на "
+"децентрализованных платформах, построенных по технологии блокчейн"
+msgstr ""
+"A form of digital currency based on encryption algorithms and ran inside "
+"decentralized platforms built on the blockchain"
+
+# 1805336c2c644ed2a20242fd9cf51fb5
+#: ../../glossary.rst:31
+msgid "**Консенсус**"
+msgstr "**Consensus**"
+
+# aeded86e38854f67880284dd1c146f42
+#: ../../glossary.rst:33
+msgid ""
+"Способ согласования об информационном событии о транзакциях и блоках в сети "
+"между участниками"
+msgstr ""
+"The way to agree on a single point of the data value in a network between "
+"participants"
+
+# e6dce0e9cd514b3c8d342dfd5e5cae31
+#: ../../glossary.rst:35
+msgid "**Майнинг**"
+msgstr "**Mining**"
+
+# f2ba073250b944ee9dbd5df73548e8fb
+#: ../../glossary.rst:37
+msgid "Процесс верификации и добавления в блокчейн транзакций"
+msgstr "The process by which transactions are verified and added to a blockchain"
+
+# 26029e3a47034491af4ea4cfd79a8d34
+#: ../../glossary.rst:39
+msgid "**Мейннет**"
+msgstr "**Mainnet**"
+
+# df983ff1740d46d4a6a4fd6b5ac48142
+#: ../../glossary.rst:41
+msgid "Рабочая сеть, в которой происходят транзакции, выпуск и хранение токенов"
+msgstr ""
+"A real network where transactions are executing, tokens are issuing and storing"
+
+# 469a805e296c43d680869fbde6a2e562
+#: ../../glossary.rst:43
+msgid "**Нода**"
+msgstr "**Node**"
+
+# 5adb042d659d4e2e8f7c54c6d82607ba
+#: ../../glossary.rst:45
+msgid "Компьютер с запущенным ПО ноды и включённый в блокчейн"
+msgstr ""
+"A computer which is ran the node software and connected to the blockchain "
+"network"
+
+# 52b7b43c417041eeaba277d4cf60cb6a
+#: ../../glossary.rst:47
+msgid "**Пир**"
+msgstr "**Peer**"
+
+# 7ddcfe8ace814afcb089332d9b057846
+#: ../../glossary.rst:49
+msgid "Сетевой адрес ноды"
+msgstr "A net address of the node"
+
+# c91baa6a2abe401c99ea27d0f7204f64
+#: ../../glossary.rst:51
+msgid "**Приватный ключ**"
+msgstr "**Private key**"
+
+# a6a914c57ff64bafaecd92e550d56e77
+#: ../../glossary.rst:53
+msgid ""
+"Строковая комбинация символов для подписания транзакий и доступа к токенам, "
+"хранимая приватно. Приватный ключ неразрывно связан с публичным ключом"
+msgstr ""
+"A privately held string of data that allows you to sign transactions and to get "
+"access to tokens. The private key is inextricably bound to the public key"
+
+# 5d54bd25097d41e297ec5934ce90bb4f
+#: ../../glossary.rst:55
+msgid "**Публичная сеть**"
+msgstr "**Public network**"
+
+# 428263d59df4414bb390e37fc9815ed3
+#: ../../glossary.rst:57
+msgid ""
+"Блокчейн закрытого типа, где каждый участник известен и зарегистрирован в сети"
+msgstr ""
+"Permissioned public blockchain where each participant is known and registered "
+"in the network"
+
+# 2aa19717657041de9c782b5d9195eb90
+#: ../../glossary.rst:59
+msgid "**Публичный ключ**"
+msgstr "**Public key**"
+
+# 5dff1257d9e84a07993f7346b95c9563
+#: ../../glossary.rst:61
+msgid ""
+"Строковая комбинация символов, неразрывно связанная с приватным ключом. "
+"Публичный ключ прикладывается к транзакциями для подтверждения корректности "
+"подписи пользователя сделанной на закрытом ключе"
+msgstr ""
+"A string of data bound with the private key and used for interactions with net "
+"participants. The public key is applied to transactions to confirm the "
+"correctness of the user's signature made on the private key"
+
+# adf4ed9c55ac4516b6c0037fbeb12aee
+#: ../../glossary.rst:63
+msgid "**Публичный адрес**"
+msgstr "**Public address**"
+
+# 19b2933c1e994f6d8c3d49d43b15ef7c
+#: ../../glossary.rst:65
+msgid ""
+"Публичный адрес представляет собой хэш публичного ключа и байт сети. В отличии "
+"от приватных ключей публичный адрес может использоваться где угодно в сети, как "
+"электронный адрес"
+msgstr ""
+"A public address is the cryptographic hash of a public key and a net byte. They "
+"act as email addresses that can be published anywhere, unlike private keys"
+
+# 72902c0821c1421fbd75ef524c8e66de
+#: ../../glossary.rst:67
+msgid "**Сваггер**"
+msgstr "**Swagger**"
+
+# 1fc92bb5e9a5464facf2e4407ed7caf6
+#: ../../glossary.rst:69
+msgid "Инструмент для работы с API"
+msgstr "API tool"
+
+# 89151256669d4a9b9d4b64cb01f0d4a5
+#: ../../glossary.rst:71
+msgid "**Секретная фраза**"
+msgstr "**Seed phrase**"
+
+# c56e7a562cbc4433be0de50f9d6d64e8
+#: ../../glossary.rst:73
+msgid "Набор из 15 произвольно заданных слов для восстановления доступа к токенам"
+msgstr ""
+"A set from 15 accidentally chosen words for restoring the access to the tokens"
+
+# 78186bcde52a4736ace7cf94905a841b
+#: ../../glossary.rst:75
+msgid "**Смарт-аккаунт**"
+msgstr "**Smart account**"
+
+# 39de1c1692ed4c2db389126a1db58a82
+#: ../../glossary.rst:77
+msgid ""
+"Аккаунт, к которому добавлены определённые свойства для создания и исполнения "
+"смарт-контрактов"
+msgstr ""
+"An account with specified features for creating and running smart-contracts"
+
+# 1fa8621c5d1e40509ee317426baaa3e9
+#: ../../glossary.rst:79
+msgid "**Смарт-ассет**"
+msgstr "**Smart asset**"
+
+# a6ce879338c4465d984a6ece5ed9cacb
+#: ../../glossary.rst:81
+msgid ""
+"Токен с привязанным к нему скриптом, при осуществлении каждой новой транзакции "
+"с таким токеном она будет подтверждаться сначала скриптом, потом уже блокчейном"
+msgstr ""
+"A token with an attached script, during each new transaction with such a token "
+"the transaction will be confirmed first by the script, then by the blockchain"
+
+# 151f646a0d2d489787daf34a8f08d875
+#: ../../glossary.rst:83
+msgid "**Смарт-контракт**"
+msgstr "**Smart contract**"
+
+# 3b46f73d9b14426f926f71aad038b22d
+#: ../../glossary.rst:85
+msgid ""
+"Программный код, предназначенный для облегчения, прямого выполнения или "
+"обеспечения выполнения соглашения между участниками"
+msgstr ""
+"A computer program code that is capable of facilitating, executing, and "
+"enforcing the negotiation or performance of an agreement between participant"
+
+# 6f9593dd49f44307b691be9effbe195b
+#: ../../glossary.rst:87
+msgid "**Стейт**"
+msgstr "**State**"
+
+# d61db3e0171b4226a5e14be2bf345bd9
+#: ../../glossary.rst:89
+msgid "Полная история транзакций, хранящаяся во внутренней БД ноды"
+msgstr "The full history of transactions which is stored in the node DB"
+
+# 4c463352caff43d3b514f78d2b1803b9
+#: ../../glossary.rst:91
+msgid "**Токен**"
+msgstr "**Token**"
+
+# 34dba5da93ba4a1c8f3967a50a6b72b1
+#: ../../glossary.rst:93
+msgid ""
+"Расчётная единица, актив блокчейна, не являющийся криптовалютой и "
+"предназначенный для представления цифрового баланса, аналог акций компании"
+msgstr ""
+"An account unit, a blockchain asset, which is not a cryptocurrency and is "
+"intended to represent the digital balance, it is an equivalent of the company's "
+"shares"
+
+# 5f54eb16f4f745b6ab83db2ea110ea12
+#: ../../glossary.rst:95
+msgid "**Транзакция**"
+msgstr "**Transaction**"
+
+# da81df1de67845fa8f2ecc05d3397962
+#: ../../glossary.rst:97
+msgid "Операция, производимая участниками в сети, для инициации любых действий"
+msgstr ""
+"An operation that participants on the blockchain network use to interact with "
+"eachother"
+
+# 2208a1afcec541e488a20154ccec2b69
+#: ../../glossary.rst:99
+msgid "**Участник**"
+msgstr "**Participant**"
+
+# b9a4629e1b8c4fd5b6218156ec8485e7
+#: ../../glossary.rst:101
+msgid "Участник блокчейна, который направляет транзакции на подтверждение в сеть"
+msgstr ""
+"A blockchain participant who send transactions to the net for getting approve"
+
+# 063cde941955418ab196ba12843f83ca
+#: ../../glossary.rst:103
+msgid "**Хэш**"
+msgstr "**Hash**"
+
+# 90943c32b74343759290d9708770276c
+#: ../../glossary.rst:105
+msgid ""
+"Уникальная конфигурация символов (буквы, цифры), результат исполнения хэш "
+"функции по заданному алгоритму над данными. Хэш однозначно идентифицирует объект"
+msgstr ""
+"A unique configuration of the symbols (letters and digits), it is a result of "
+"the hash function performing over the data according with the specified "
+"algorithm. Hash uniquely identifies the object"
+
+# 1eab7a9eb10e4f6c93241b1f38139eed
+#: ../../glossary.rst:107
+msgid "**Частная сеть**"
+msgstr "**Private network**"
+
+# 55f2d431503d45f1bf9c61cda47c8954
+#: ../../glossary.rst:109
+msgid ""
+"Блокчейн закрытого типа, где все транзакции контролируются центральным органом"
+msgstr ""
+"Permissioned private blockchain where all transactions are controlled by a "
+"central authority"
+
+# 106380a6de944de5aba5c833b0fe6000
+#: ../../glossary.rst:111
+msgid "**Шлюз**"
+msgstr "**Gateway**"
+
+# 3a553667ca1d4dd282837661955c9886
+#: ../../glossary.rst:113
+msgid "Приложение для перевода токенов из одного блокчейна в другой"
+msgstr "The app for tokens transfer from one blockchain net to another one"
+
+# 0ce02fb97fdb4a44bbb8d457fd4c8ca3
+#: ../../glossary.rst:115
+msgid "**Эйрдроп**"
+msgstr "**Airdrop**"
+
+# 086efea57c7544c9b429c9ce43c5eda2
+#: ../../glossary.rst:117
+msgid ""
+"Процесс раздачи токенов пользователям blockchain-кошельков на безвозмездной "
+"основе"
+msgstr "A distribution of cryptocurrency to users, entirely for free"
+
+# 81bd7b15434c496e86def456767388e2
+#: ../../glossary.rst:119
+msgid "**PoS (Proof-of-Stake)**"
+msgstr "**PoS (Proof-of-Stake)**"
+
+# b719d81189a842149d832f4cb9c42e83
+#: ../../glossary.rst:121
+msgid ""
+"Алгоритм консенсуса на основе \"доли\", которая применяется для выбора ноды для "
+"следующего процесса проверки транзакций и создания блока"
+msgstr ""
+"A consensus algorithm based on the stake which is used for choosing the node "
+"for checking transactions and generating a new block"
+
+# b27c8b8b820149b484615041e2d58899
+#: ../../glossary.rst:123
+msgid "**PoA (Proof-of-Authority)**"
+msgstr "**PoA (Proof-of-Authority)**"
+
+# 1041cd4c2b724eff8586641348431a9c
+#: ../../glossary.rst:125
+msgid ""
+"Алгоритм консенсуса в приватном блокчейне, при котором возможность проверки "
+"транзакций и создание новых блоков отводится более авторитетным узлам"
+msgstr ""
+"A consensus algorithm in a private blockchain that grants to the most authority "
+"nodes the right to check transactions and generate a new block"
+
+# 67677e3fd0894c0583a36ba30f25994c
+#~ msgid ""
+#~ "Реестр, данные в который записываются блоками таким образом, что каждый "
+#~ "новый блок включает информацию о предыдущем блоке"
+#~ msgstr ""
+#~ "A decentralized, distributed and public digital ledger that is used to "
+#~ "record transactions across many computers so that any involved record cannot "
+#~ "be altered retroactively, without the alteration of all subsequent blocks"
