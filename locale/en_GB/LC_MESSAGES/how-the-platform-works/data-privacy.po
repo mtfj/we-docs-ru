@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-26 11:46+0300\n"
-"PO-Revision-Date: 2019-05-06 14:20+0300\n"
+"POT-Creation-Date: 2019-05-22 17:12+0300\n"
+"PO-Revision-Date: 2019-05-22 17:17+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -30,50 +30,49 @@ msgid ""
 "Блокчейн-платформа Восток позволяет организовать передачу и хранение "
 "конфиденциальных данных между участниками сетевого взаимодействия. Защита "
 "конфиденциальных данных при их передаче и хранении обеспечивается набором "
-"политик (policy), которые содержат список участников и регулируют отношения "
-"сторон в рамках взаимодействия с приватными данными."
+"групп, которые содержат список участников, которые могут обмениваться "
+"приватными данными между собой."
 msgstr ""
 "Blockchain platform Vostok provides the confidential data transfer and storage "
 "between the participants of network interaction. Protection of confidential "
-"data during its transfer and storage is provided by a set of policies "
-"(policy), which contain a list of participants and govern the relationship "
-"between parties in the interaction with private data."
+"data during its transfer and storage is provided by a set of groups, which "
+"contain a list of participants for the interaction with private data."
 
 # 69c0ca73ae8e4a148d206a45030a21c1
 #: ../../how-the-platform-works/data-privacy.rst:12
-msgid "Описание политики доступа"
-msgstr "Policy description"
+msgid "Описание группы доступа"
+msgstr "Access group description"
 
 # e1a6a7c21a914c768ef09b0cac8cdc9e
 #: ../../how-the-platform-works/data-privacy.rst:14
 msgid ""
-"Как правило, политика доступа создаётся участниками, которым необходимо "
-"обмениваться приватными данными. Политику доступа может создать любая нода-"
-"участник сети и включить в неё любой состав других нод сети. Политика "
+"Как правило, группа доступа создаётся участниками, которым необходимо "
+"обмениваться приватными данными. Группу доступа может создать любая нода-"
+"участник сети и включить в неё любой состав других нод сети. Группа "
 "представляет собой таблицу в стейте ноды, содержащую поля с парами \"Ключ\" и "
-"\"Значение\". Ключ - это идентификатор политики (policyId), равный "
+"\"Значение\". Ключ - это идентификатор группы (policyId), равный "
 "идентификатору транзакции ее создавшей, значение - это массив с полями:"
 msgstr ""
-"Usually the access policy is created by the net participants who need to "
-"arrange the private data exchange. Any participant can create an access policy "
-"and add into it any number of other participants. An access policy An access "
-"policy is a table in a node state containing fields with \"Key-Value\" pairs. "
-"The key is a policy identifier (policyId) equal to the transaction ID which "
-"created the policy, the value is an array with fields:"
+"Usually the access group is created by the net participants who need to "
+"arrange the private data exchange. Any participant can create an access group "
+"and add into it any number of other participants. An access group is a table "
+"in a node state containing fields with \"Key-Value\" pairs. The key is a group "
+"identifier (policyId) equal to the transaction ID which created the group, the "
+"value is an array with fields:"
 
-# a0c2db1869814499a2944a79396c0ede
+# 91478a44ca9346f2a4ddc6fad5f5dcd9
 #: ../../how-the-platform-works/data-privacy.rst:16
-msgid "автор политики (sender);"
-msgstr "the creator of the policy (sender);"
+msgid "создатель группы (sender);"
+msgstr "sender;"
 
 # 6653ea8b385e46739cfc0412231530a7
 #: ../../how-the-platform-works/data-privacy.rst:17
-msgid "описание политики (description);"
-msgstr "description (policyDescription);"
+msgid "описание группы (description);"
+msgstr "the group description (policyDescription);"
 
 # 3e8cb6379d4443bfaa909a7607884fca
 #: ../../how-the-platform-works/data-privacy.rst:18
-msgid "срок действия политики (dueDate);"
+msgid "срок действия группы (dueDate);"
 msgstr "duaration (policyDueDate);"
 
 # 82347c6bf1834367b84ec4ac1468ab1b
@@ -83,7 +82,9 @@ msgstr "the list of confidential data recipients (policyRecipients);"
 
 # fb71d52966494cf2a591297b6778dca5
 #: ../../how-the-platform-works/data-privacy.rst:20
-msgid "список с адресами участников с правами редактирования политики (owners);"
+msgid ""
+"список с адресами участников с правами редактирования состав участников группы "
+"(owners);"
 msgstr "the list of the policy owners with editing rights (policyOwners);"
 
 # 43bdca1364a2423ebaa2efe65f048a55
@@ -93,8 +94,8 @@ msgstr "a list of transactions with data hashes (txs) transfer."
 
 # 5d079d57623c4d72a2db184ccc527ebf
 #: ../../how-the-platform-works/data-privacy.rst:23
-msgid "Политика имеет следующие параметры:"
-msgstr "The policy contains the following parameters:"
+msgid "Группа доступа имеет следующие параметры:"
+msgstr "The group contains the following parameters:"
 
 # 6653ea8b385e46739cfc0412231530a7
 #: ../../how-the-platform-works/data-privacy.rst:25
@@ -113,19 +114,21 @@ msgstr "the list of confidential data recipients (policyRecipients);"
 
 # fb71d52966494cf2a591297b6778dca5
 #: ../../how-the-platform-works/data-privacy.rst:28
-msgid "список участников с правами на редактирование политики (policyOwners)."
+msgid ""
+"список участников с правами на редактирование состав участников группы "
+"(policyOwners)."
 msgstr "the list of the policy owners with editing rights (policyOwners)."
 
 # 10ce91cffeaa4decadd01e6166fbc26d
 #: ../../how-the-platform-works/data-privacy.rst:30
 msgid ""
-"Создание политики доступа происходит при помощи отправки в блокчейн "
-"транзакции :ref:`CreatePolicyTransaction <CreatPolicyTransaction>` (type = "
-"112, создание политики) со следующими параметрами:"
+"Создание группы доступа происходит при помощи отправки в блокчейн транзакции :"
+"ref:`CreatePolicyTransaction <CreatPolicyTransaction>` (type = 112, создание "
+"группы) со следующими параметрами:"
 msgstr ""
-"The access policy is created by sending transaction :ref:"
+"The access group is created by sending transaction :ref:"
 "`CreatePolicyTransaction <CreatPolicyTransaction>` (type = 112, policy "
-"creation) into the blockchain  with following parameters:"
+"creation) into the blockchain with following parameters:"
 
 # 71162134007d443ca25b4df3c6e5526f
 # 3a474c49ab6a4bb4b6949e25f3b8f7c6
@@ -162,19 +165,19 @@ msgstr "owners."
 # 473f8a9986844d03b471dc365d51eed4
 #: ../../how-the-platform-works/data-privacy.rst:38
 msgid ""
-"Владельцы политики имеют право изменять политику доступа. Для изменения "
-"политики доступа необходимо отправить в блокчейн транзакцию :ref:"
-"`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = 113, "
-"редактирование политики) со следующими параметрами:"
+"Владельцы группы имеют право изменять состав участников группы доступа. Для "
+"изменения состава участников группы необходимо отправить в блокчейн "
+"транзакцию :ref:`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = "
+"113, редактирование группы доступа) со следующими параметрами:"
 msgstr ""
-"Owners can change the access policy. To make this it is necessary to send the :"
-"ref:`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = 113, policy "
+"Owners can change the access group. To make this it is necessary to send the :"
+"ref:`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = 113, group "
 "editing) transaction into the blockchain with following parameters:"
 
 # db0f66132f8f4d1a85afaa64d2f11b76
 #: ../../how-the-platform-works/data-privacy.rst:40
-msgid "идентификатор политики (policyId);"
-msgstr "policy ID;"
+msgid "идентификатор группы (policyId);"
+msgstr "group ID;"
 
 # f7c3a749f197441ea8ed113e17e47556
 #: ../../how-the-platform-works/data-privacy.rst:43
@@ -185,12 +188,12 @@ msgstr "add/delete participants (opType);"
 #: ../../how-the-platform-works/data-privacy.rst:47
 msgid ""
 "Для внешних приложений в :ref:`API ноды <privacy-api>` реализовано запросы, "
-"возвращающие сведения по политике и данным, которые передаются в рамках данной "
-"политики: ``GET /privacy/{policy}/recipients``, ``GET /privacy/{policy}/"
+"возвращающие сведения по группе и данным, которые передаются в рамках данной "
+"группы: ``GET /privacy/{policy}/recipients``, ``GET /privacy/{policy}/"
 "fullinfo``, ``GET /privacy/{policy}/getHashes``, ``GET /privacy/getInfo/{hash}"
 "``."
 msgstr ""
-"For external access and getting the information about policies there are using "
+"For external access and getting the information about groups there are using "
 "specified :ref:`API Node <privacy-api>` requests: ``GET /privacy/{policy}/"
 "recipients``, ``GET /privacy/{policy}/fullinfo``, ``GET /privacy/{policy}/"
 "getHashes``, ``GET /privacy/getInfo/{hash}``."
@@ -401,3 +404,11 @@ msgstr ""
 # 512b43bfca7e4ce08dfe164f7a717d3a
 #~ msgid "данные для отправки."
 #~ msgstr "the data for sending."
+
+# a0c2db1869814499a2944a79396c0ede
+#~ msgid "автор политики (sender);"
+#~ msgstr "the creator of the policy (sender);"
+
+# 6653ea8b385e46739cfc0412231530a7
+#~ msgid "описание политики (description);"
+#~ msgstr "description (policyDescription);"

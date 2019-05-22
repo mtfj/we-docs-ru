@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-15 12:26+0300\n"
-"PO-Revision-Date: 2019-05-15 16:20+0300\n"
+"POT-Creation-Date: 2019-05-22 17:12+0300\n"
+"PO-Revision-Date: 2019-05-22 17:18+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -115,10 +115,10 @@ msgstr ""
 #: ../../overview/overview.rst:17
 msgid ""
 "Возможность осуществлять отправку конфиденциальных данных через блокчейн "
-"адресно при помощи политик доступа, не выкладывая данные в сеть."
+"адресно при помощи групп доступа, не выкладывая данные в сеть."
 msgstr ""
 "Ability to send confidential data via blockchain to the defined addresses "
-"using access policies without uploading the data into the network."
+"using access groups without uploading the data into the network."
 
 # 645f2091ade64ac1ba5da862366f641f
 #: ../../overview/overview.rst:18

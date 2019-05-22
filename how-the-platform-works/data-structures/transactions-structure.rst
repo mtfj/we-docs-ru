@@ -34,8 +34,8 @@
 106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.15 - 0.154VST        Отключение Docker-контракта
 110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         0-0.004VST             Регистрация ноды в генезис-блоке при старте блокчейна    
 111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       отсутствует            Регистрация новой ноды в сети    
-112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       отсутствует            Создание политики доступа к конфиденциальным данным  
-113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       отсутствует            Изменение политики доступа    
+112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       отсутствует            Создание группы доступа к конфиденциальным данным  
+113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       отсутствует            Изменение группы доступа    
 114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   отсутствует            Отправка в сеть хэша данных       
 ===   =============================================================================   ====================   ======================================================================
 
@@ -1160,8 +1160,8 @@
     {
     "type":112,
     "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-    "description": "Policy for internal nodes",
-    "policyName": "Policy name",
+    "description": "Group for internal nodes",
+    "policyName": "Group name",
     "timestamp": 1000000000,
     "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
     "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
