@@ -48,9 +48,10 @@
    how-to-setup/docker-configuration
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Словарь терминов
+   :maxdepth: 2
+   :caption: Дополнительная информация
    :name: glossary
+
    glossary
 
 
