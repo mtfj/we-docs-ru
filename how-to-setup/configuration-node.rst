@@ -129,18 +129,23 @@
 
       wallet {
         file = "c:/nodes/testnet-pos.vostoknodes.com/keystore.dat"
-        password = "some string as password" }
+        password = "some string as password"
+      }
 
 .. _configuration-rest-api:
 
-9. Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды:
+9. Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды, а также хеш для доступа к методам :ref:`privacy <privacy-api>`: ``POST /privacy/sendData``, ``GET /privacy/getData/{policy-item-hash}`` и ``GET /privacy/getInfo/{policy-item-hash}``:
 
     ::
  
       rest-api {
-      enable = yes
-      bind-address = "0.0.0.0"
-      port = 6862
+        enable = yes
+        bind-address = "0.0.0.0"
+        port = 6862
+        api-key-hash = "5M7C...fztS"
+        privacy-api-key-hash = "H6ns...Xqsu"
+        transactions-by-address-limit = 10000
+      }
 
 .. _rest-api-access:
 
@@ -149,8 +154,11 @@
 
 Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_, создайте ``api-key-hash`` для доступа к REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``api-key-hash``. Команда для запуска утилиты:
 
-  | ``java -jar generators-x.x.x.jar ApiKeyHash api-key-hash.conf`` 
-  | Полученное в результате исполнения утилиты значение, указать в параметре ``api-key-hash`` конфигурационного файла ноды.
+  ::
+
+    java -jar generators-x.x.x.jar ApiKeyHash api-key-hash.conf
+
+Полученное в результате исполнения утилиты значение указать в параметре ``api-key-hash`` конфигурационного файла ноды.
 
   ::
 
@@ -165,6 +173,19 @@
 
     - waves-crypto – выбор криптографического алгоритма ("yes" - использовать криптографию :ref:`Waves <crypto-waves>`, "no" - использовать :ref:`ГОСТ-криптографию <crypto-gost>`);
     - api-key – ключ, который необходимо придумать. Значение данного ключа потребуется указать в запросах к REST API ноды (подробнее на странице :ref:`REST API ноды <rest-api-node>`).
+
+.. _privacy-api-access:
+
+Доступ к методам privacy
+----------------------------
+
+Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_, создайте ``privacy-api-key-hash`` для доступа к методам :ref:`privacy <privacy-api>` REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``privacy-api-key-hash``. Команда для запуска утилиты:
+
+  ::
+
+    java -jar generators-x.x.x.jar PrivacyApiKeyHash api-key-hash.conf
+
+Полученное в результате исполнения утилиты значение указать в параметре ``privacy-api-key-hash`` конфигурационного файла ноды.
 
 .. _sign-genesis-block:
 

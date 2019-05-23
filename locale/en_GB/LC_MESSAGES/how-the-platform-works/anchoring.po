@@ -7,24 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-05-06 15:54+0300\n"
+"POT-Creation-Date: 2019-05-23 15:52+0300\n"
+"PO-Revision-Date: 2019-05-23 15:53+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 15207942314f488faba46edaa58bef63
+# dc4a7594575048e0a172c89e76852557
 #: ../../how-the-platform-works/anchoring.rst:4
 msgid "Анкоринг"
 msgstr "Anchoring"
 
-# be26a48c06ad4de4b87b6c2af200f7e9
+# 28ee130b38d5436e89638fa51572c9f2
 #: ../../how-the-platform-works/anchoring.rst:5
 msgid ""
 "В приватном блокчейне транзакции обрабатывает определенный список "
@@ -42,7 +42,7 @@ msgstr ""
 "using PoS consensus algorithm, the threat of overwriting a blockchain "
 "becomes real."
 
-# 13be784bdb7248ddb88f92eff15d12fe
+# 70df8f6ca889476bae471399feffb2b2
 #: ../../how-the-platform-works/anchoring.rst:9
 msgid ""
 "Для повышения доверия участников приватного блокчейна к размещенным в "
@@ -50,7 +50,7 @@ msgid ""
 "данные на неизменность. Гарантия неизменности достигается публикацией "
 "данных из приватного блокчейна в более крупную сеть, где подмена данных "
 "маловероятна из-за большего количества участников и блоков. Публикуемые "
-"данные — хэш от блоков приватной сети."
+"данные — хеш от блоков приватной сети."
 msgstr ""
 "To increase the confidence of the private blockchain participants in "
 "data placed there, the anchoring mechanism was developed. Anchoring "
@@ -60,12 +60,12 @@ msgstr ""
 "number of participants and blocks. Published data represent hashes of "
 "blocks in a private network."
 
-# 9ea34203044047089144d4746a273961
+# cf4f350200ad4dd5bbfd893c54706dab
 #: ../../how-the-platform-works/anchoring.rst:13
 msgid "Анкоринг работает следующим образом:"
 msgstr "Anchoring works as follows:"
 
-# 3ddc2adb7df7410e9f731299cd5b12bf
+# 7d151de18aa54917843845875b09b48f
 #: ../../how-the-platform-works/anchoring.rst:15
 msgid ""
 "В конфигурационном файле указывается период анкоринга: раз в 10 блоков, "
@@ -74,7 +74,7 @@ msgstr ""
 "The anchoring frequency is specified in the configuration file: once in "
 "every 10 blocks, once in every 100 blocks or other."
 
-# 0e54e9a0cc20479e9f88734826dab108
+# bf9036c4ef4b4c889d39eeb0b8bca1e4
 #: ../../how-the-platform-works/anchoring.rst:16
 msgid ""
 "Приватный блокчейн начинает регулярно создавать транзакции с данными в "
@@ -84,7 +84,7 @@ msgstr ""
 "main network. The data contains the hash of the private network block "
 "and its height."
 
-# 3dadd2c77c8344118a2b6ea5eb27cf44
+# aac664d7dec84c10aa69b16a1c13c2d2
 #: ../../how-the-platform-works/anchoring.rst:17
 msgid ""
 "Нода приватной сети дожидается подтверждения успешной записи транзакции "
@@ -94,7 +94,7 @@ msgstr ""
 "transaction entry from the main network, and gets this data transaction "
 "ID."
 
-# dc9599d6f06b4f63901b55d90b1e2b8a
+# b6ce86e837dd4bb294d0d86747ee1941
 #: ../../how-the-platform-works/anchoring.rst:18
 msgid ""
 "Затем, в приватной сети публикуется такая же транзакция с данными, "
@@ -104,7 +104,7 @@ msgstr ""
 "Next, the same data transaction is published in the private network and "
 "it additionally contains this data transaction ID on the main network."
 
-# b5c51e82469f442681cf953d1013fc6e
+# 31f20e477e5c4594b64f8c6090984450
 #: ../../how-the-platform-works/anchoring.rst:20
 msgid ""
 "Взаимная связность двух и более сетей повышает их стойкость, т.к. для "
