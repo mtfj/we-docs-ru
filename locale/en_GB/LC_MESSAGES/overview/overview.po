@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-22 17:12+0300\n"
-"PO-Revision-Date: 2019-05-22 17:18+0300\n"
+"POT-Creation-Date: 2019-05-23 12:13+0300\n"
+"PO-Revision-Date: 2019-05-23 12:16+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -32,17 +32,18 @@ msgid ""
 "блокчейнов для корпоративного и государственного использования. Корпоративная "
 "блокчейн-платформа решает проблему доверия между участниками отношений не на "
 "уровне бизнес-логики, а на уровне протокола работы платформы. Поддерживаемые "
-"типы консенсусов PoS и PoA гарантируют корректность добавляемых в блокчейн "
-"данных, децентрализация обеспечивает независимость от контрагентов в доступе к "
-"данным."
+"типы консенсусов :ref:`PoS <pos-glossary>` и :ref:`PoA <poa-glossary>` "
+"гарантируют корректность добавляемых в блокчейн данных, децентрализация "
+"обеспечивает независимость от контрагентов в доступе к данным."
 msgstr ""
 "Vostok Blockchain Platform is a universal solution for a scalable digital "
 "infrastructure that combines properties of public and private blockchains for "
 "enterprise and state usage. The enterprise blockchain platform solves the "
 "problem of trust between the parties not at the level of business logic, but "
-"at the level of the platform operation protocol. Supported PoS and PoA "
-"consensuses guarantee correctness of data added to the blockchain, while "
-"decentralization provides counterparty independence in terms of data access."
+"at the level of the platform operation protocol. Supported :ref:`PoS <pos-"
+"glossary>` and :ref:`PoA <poa-glossary>` consensuses guarantee correctness of "
+"data added to the blockchain, while decentralization provides counterparty "
+"independence in terms of data access."
 
 # 6c7d553c9b954b31a80e2e0f030aad47
 #: ../../overview/overview.rst:7
@@ -80,11 +81,11 @@ msgstr "High throughput."
 # f9bbebe4c67b4a96b89348e569654950
 #: ../../overview/overview.rst:13
 msgid ""
-"Поддерживаются два вида смарт-контрактов, Тьюринг-неполные на RIDE и Тьюринг-"
-"полные на Docker."
+"Поддерживаются два вида :ref:`смарт-контрактов <smart-contract-glossary>`, "
+"Тьюринг-неполные на RIDE и Тьюринг-полные на Docker."
 msgstr ""
-"Supported two types of smart contracts - Turing-incomplete RIDE contracts and "
-"Turing-complete Docker contracts."
+"Supported two types of :ref:`smart contracts <smart-contract-glossary>` - "
+"Turing-incomplete RIDE contracts and Turing-complete Docker contracts."
 
 # 97c862d5fa754e53bf2f9cde306cb4c8
 #: ../../overview/overview.rst:14
@@ -103,13 +104,15 @@ msgstr ""
 # f3b3aed4feeb465099eed345d5fa7d36
 #: ../../overview/overview.rst:16
 msgid ""
-"Клиент и инструменты для работы: просмотр транзакций, кошелек, отправка всех "
-"типов транзакций, разработка смарт-контрактов, мониторинг состояния блокчейна, "
-"управление полномочиями участников сети."
+"Клиент и инструменты для работы: просмотр :ref:`транзакций <transaction-"
+"glossary>`, кошелек, отправка всех типов транзакций, разработка смарт-"
+"контрактов, мониторинг состояния блокчейна, управление полномочиями участников "
+"сети."
 msgstr ""
-"Supports the following client tools: viewing of transactions, a wallet, the "
-"option of sending all types of transactions, development of smart contracts, "
-"blockchain status monitoring, network participants authority management."
+"Supports the following client tools: viewing of :ref:`transactions "
+"<transaction-glossary>`, a wallet, the option of sending all types of "
+"transactions, development of smart contracts, blockchain status monitoring, "
+"network participants authority management."
 
 # 6716c05871bd42cc9f63198290c2849e
 #: ../../overview/overview.rst:17
@@ -157,13 +160,14 @@ msgid ""
 "областей: банки, промышленность, девелопмент, логистика т.д. Компании, "
 "поддерживающие основную сеть, реализуют свои проекты в публичном блокчейне, а "
 "также обеспечивают сопутствующие процессы, например банки — предоставляют "
-"фиатные гейтвеи, регистраторы — доступ к облачной ГОСТ-криптографии и т.п."
+"фиатные :ref:`шлюзы <gateway-glossary>`, регистраторы — доступ к облачной ГОСТ-"
+"криптографии и т.п."
 msgstr ""
 "The main network is supported by different big companies belonged various "
 "spheres like banks, industry, developers, logistics, etc. Such companies "
 "implement their projects in a public blockchain, as well as utilize related "
-"processes, for example, banks provide fiat gateways, registrars get an access "
-"to the cloud GOST-cryptography, etc."
+"processes, for example, banks provide fiat :ref:`gateways <gateway-glossary>`, "
+"registrars get an access to the cloud GOST-cryptography, etc."
 
 # 1ee5e5725eaa41c09c3e49e495828910
 #: ../../overview/overview.rst:35
@@ -185,8 +189,8 @@ msgstr ""
 
 # 34c009ec8fbf44ceb4c9eec9afe11c38
 #: ../../overview/overview.rst:41
-msgid "Частная сеть с публикацией хэшей в основную сеть"
-msgstr "Private network with hashe publication to the main network"
+msgid "Частная сеть с публикацией хешей в основную сеть"
+msgstr "Private network with hash publication to the main network"
 
 # b6203c63f3ce43ab802031bae80c3a97
 #: ../../overview/overview.rst:43

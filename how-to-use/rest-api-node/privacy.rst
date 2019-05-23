@@ -30,7 +30,7 @@ POST /privacy/sendData
 - password - пароль для доступа к закрытому ключу keystore ноды;
 - policy - идентификатор группы, в рамках которой пересыалются данные;
 - data - данные в бинарном представлении;
-- hash - хэш от данных.
+- hash - хеш от данных.
 
 
 
@@ -104,7 +104,7 @@ GET /privacy/getData/{hash}
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
-Получение пакета конфиденциальных данных по идентификационному хэшу.
+Получение пакета конфиденциальных данных по идентификационному хешу.
 
 Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
 
@@ -114,7 +114,7 @@ GET /privacy/getInfo/{hash}
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
-Получение метаданных для пакета конфиденциальных данных по идентификационному хэшу.
+Получение метаданных для пакета конфиденциальных данных по идентификационному хешу.
 
 Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
 

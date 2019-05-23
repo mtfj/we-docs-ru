@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 11:58+0300\n"
-"PO-Revision-Date: 2019-05-21 15:41+0300\n"
+"POT-Creation-Date: 2019-05-23 12:13+0300\n"
+"PO-Revision-Date: 2019-05-23 15:03+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr ""
 # e2e4bc0b3d9e4bcebbf07d6b7ee8367e
 #: ../../how-to-use/rest-api-node/privacy.rst:4
 msgid "Privacy"
-msgstr "Pricvacy"
+msgstr "Privacy"
 
 # 357f96bbb3904958a5f9423159fc1440
 #: ../../how-to-use/rest-api-node/privacy.rst:6
@@ -35,7 +35,8 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
-"Rules of the creating requests to a node, see :ref:`rest-api-node` section."
+"Rules of the creating requests to a node, see :ref:`rest-api-node` "
+"section."
 
 # 6b95153f176145098a1ff4288f8faf39
 #: ../../how-to-use/rest-api-node/privacy.rst:11
@@ -84,7 +85,7 @@ msgstr "data - binary data;"
 
 # 82de6d8835d64a2ebf3aa517a2af9f7b
 #: ../../how-to-use/rest-api-node/privacy.rst:33
-msgid "hash - хэш от данных."
+msgid "hash - хеш от данных."
 msgstr "hash - data hash."
 
 # 3806f95be30446d58055244caae49173
@@ -96,7 +97,8 @@ msgstr "GET /privacy/{policy}/recipients"
 #: ../../how-to-use/rest-api-node/privacy.rst:40
 msgid "Получение адресов всех участников, записанных в группу {policy}."
 msgstr ""
-"Getting all addresses of participants, signed to the access group {policy}."
+"Getting all addresses of participants, signed to the access group "
+"{policy}."
 
 # d914d7ce4b8f46ea926aea8242ee1d94
 #: ../../how-to-use/rest-api-node/privacy.rst:42
@@ -130,9 +132,9 @@ msgid ""
 "(пользователи, которые могут вносить изменения в policy), ссылки на "
 "транзакции добавления участников в policy."
 msgstr ""
-"Getting the full information about the access group {policy}: participants, "
-"owners (users who can manage policy), links to transactions of the adding "
-"participants to the policy."
+"Getting the full information about the access group {policy}: "
+"participants, owners (users who can manage policy), links to transactions "
+"of the adding participants to the policy."
 
 # 2dc3f881f6c54d6684ed14d3fd7c1454
 #: ../../how-to-use/rest-api-node/privacy.rst:58
@@ -173,7 +175,7 @@ msgstr "GET /privacy/getData/{hash}"
 
 # 5039c42a0c1c43ffbd72442a6a328d8f
 #: ../../how-to-use/rest-api-node/privacy.rst:107
-msgid "Получение пакета конфиденциальных данных по идентификационному хэшу."
+msgid "Получение пакета конфиденциальных данных по идентификационному хешу."
 msgstr "Getting the confidential data package by the identified hash."
 
 # 91938cce8bc44bc881e6aff7ba08f124
@@ -182,8 +184,8 @@ msgid ""
 "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/"
 "NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
 msgstr ""
-"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/"
-"NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
+"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+"getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
 
 # c86727f1926b4516b350d003645f8f48
 #: ../../how-to-use/rest-api-node/privacy.rst:113
@@ -194,7 +196,7 @@ msgstr "GET /privacy/getInfo/{hash}"
 #: ../../how-to-use/rest-api-node/privacy.rst:117
 msgid ""
 "Получение метаданных для пакета конфиденциальных данных по "
-"идентификационному хэшу."
+"идентификационному хешу."
 msgstr ""
 "Getting the metadata for the confidential data package by the identified "
 "hash."
@@ -205,5 +207,5 @@ msgid ""
 "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/"
 "NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
 msgstr ""
-"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/"
-"NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
+"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+"getinfo/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"

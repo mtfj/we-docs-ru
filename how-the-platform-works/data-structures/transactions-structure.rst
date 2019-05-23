@@ -36,7 +36,7 @@
 111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       отсутствует            Регистрация новой ноды в сети    
 112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       отсутствует            Создание группы доступа к конфиденциальным данным  
 113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       отсутствует            Изменение группы доступа    
-114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   отсутствует            Отправка в сеть хэша данных       
+114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   отсутствует            Отправка в сеть хеша данных       
 ===   =============================================================================   ====================   ======================================================================
 
 

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-22 17:12+0300\n"
-"PO-Revision-Date: 2019-05-22 17:17+0300\n"
+"POT-Creation-Date: 2019-05-23 12:13+0300\n"
+"PO-Revision-Date: 2019-05-23 12:41+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -40,154 +40,72 @@ msgstr ""
 
 # 69c0ca73ae8e4a148d206a45030a21c1
 #: ../../how-the-platform-works/data-privacy.rst:12
-msgid "Описание группы доступа"
-msgstr "Access group description"
+msgid "Группы доступа"
+msgstr "Access groups"
 
 # e1a6a7c21a914c768ef09b0cac8cdc9e
 #: ../../how-the-platform-works/data-privacy.rst:14
 msgid ""
-"Как правило, группа доступа создаётся участниками, которым необходимо "
-"обмениваться приватными данными. Группу доступа может создать любая нода-"
-"участник сети и включить в неё любой состав других нод сети. Группа "
-"представляет собой таблицу в стейте ноды, содержащую поля с парами \"Ключ\" и "
-"\"Значение\". Ключ - это идентификатор группы (policyId), равный "
-"идентификатору транзакции ее создавшей, значение - это массив с полями:"
+"Группа доступа создаётся участниками, которым необходимо обмениваться "
+"приватными данными. Группу доступа может создать любая нода-участник сети и "
+"включить в неё любой состав других нод сети."
 msgstr ""
 "Usually the access group is created by the net participants who need to "
 "arrange the private data exchange. Any participant can create an access group "
-"and add into it any number of other participants. An access group is a table "
-"in a node state containing fields with \"Key-Value\" pairs. The key is a group "
-"identifier (policyId) equal to the transaction ID which created the group, the "
-"value is an array with fields:"
-
-# 91478a44ca9346f2a4ddc6fad5f5dcd9
-#: ../../how-the-platform-works/data-privacy.rst:16
-msgid "создатель группы (sender);"
-msgstr "sender;"
-
-# 6653ea8b385e46739cfc0412231530a7
-#: ../../how-the-platform-works/data-privacy.rst:17
-msgid "описание группы (description);"
-msgstr "the group description (policyDescription);"
-
-# 3e8cb6379d4443bfaa909a7607884fca
-#: ../../how-the-platform-works/data-privacy.rst:18
-msgid "срок действия группы (dueDate);"
-msgstr "duaration (policyDueDate);"
-
-# 82347c6bf1834367b84ec4ac1468ab1b
-#: ../../how-the-platform-works/data-privacy.rst:19
-msgid "список с адресами получателей конфиденциальных данных (recipients);"
-msgstr "the list of confidential data recipients (policyRecipients);"
-
-# fb71d52966494cf2a591297b6778dca5
-#: ../../how-the-platform-works/data-privacy.rst:20
-msgid ""
-"список с адресами участников с правами редактирования состав участников группы "
-"(owners);"
-msgstr "the list of the policy owners with editing rights (policyOwners);"
-
-# 43bdca1364a2423ebaa2efe65f048a55
-#: ../../how-the-platform-works/data-privacy.rst:21
-msgid "список с транзакциями, в которых передаются хэши от данных (txs)."
-msgstr "a list of transactions with data hashes (txs) transfer."
+"and add into it any number of other participants."
 
 # 5d079d57623c4d72a2db184ccc527ebf
-#: ../../how-the-platform-works/data-privacy.rst:23
+#: ../../how-the-platform-works/data-privacy.rst:16
 msgid "Группа доступа имеет следующие параметры:"
 msgstr "The group contains the following parameters:"
 
 # 6653ea8b385e46739cfc0412231530a7
-#: ../../how-the-platform-works/data-privacy.rst:25
+#: ../../how-the-platform-works/data-privacy.rst:18
 msgid "описание (policyDescription);"
 msgstr "description (policyDescription);"
 
 # 3e8cb6379d4443bfaa909a7607884fca
-#: ../../how-the-platform-works/data-privacy.rst:26
+#: ../../how-the-platform-works/data-privacy.rst:19
 msgid "срок действия (policyDueDate);"
 msgstr "duaration (policyDueDate);"
 
 # 82347c6bf1834367b84ec4ac1468ab1b
-#: ../../how-the-platform-works/data-privacy.rst:27
+#: ../../how-the-platform-works/data-privacy.rst:20
 msgid "список получателей конфиденциальных данных (policyRecipients);"
 msgstr "the list of confidential data recipients (policyRecipients);"
 
 # fb71d52966494cf2a591297b6778dca5
-#: ../../how-the-platform-works/data-privacy.rst:28
+#: ../../how-the-platform-works/data-privacy.rst:21
 msgid ""
 "список участников с правами на редактирование состав участников группы "
 "(policyOwners)."
 msgstr "the list of the policy owners with editing rights (policyOwners)."
 
 # 10ce91cffeaa4decadd01e6166fbc26d
-#: ../../how-the-platform-works/data-privacy.rst:30
+#: ../../how-the-platform-works/data-privacy.rst:23
 msgid ""
 "Создание группы доступа происходит при помощи отправки в блокчейн транзакции :"
-"ref:`CreatePolicyTransaction <CreatPolicyTransaction>` (type = 112, создание "
-"группы) со следующими параметрами:"
+"ref:`CreatePolicy <CreatPolicyTransaction>` (type = 112, создание группы)."
 msgstr ""
-"The access group is created by sending transaction :ref:"
-"`CreatePolicyTransaction <CreatPolicyTransaction>` (type = 112, policy "
-"creation) into the blockchain with following parameters:"
-
-# 71162134007d443ca25b4df3c6e5526f
-# 3a474c49ab6a4bb4b6949e25f3b8f7c6
-#: ../../how-the-platform-works/data-privacy.rst:32
-#: ../../how-the-platform-works/data-privacy.rst:41
-msgid "отправитель (sender);"
-msgstr "sender;"
-
-# 6653ea8b385e46739cfc0412231530a7
-#: ../../how-the-platform-works/data-privacy.rst:33
-msgid "описание (description);"
-msgstr "description (policyDescription);"
-
-# 78ca4d7908fd42e598c7a2e5f1990a4b
-# 5cc1b1c536964929a9feaec72834d538
-#: ../../how-the-platform-works/data-privacy.rst:34
-#: ../../how-the-platform-works/data-privacy.rst:42
-msgid "дата и время (timestamp);"
-msgstr "date and time (timestamp);"
-
-# 82347c6bf1834367b84ec4ac1468ab1b
-#: ../../how-the-platform-works/data-privacy.rst:35
-#: ../../how-the-platform-works/data-privacy.rst:44
-msgid "получатели (recipients);"
-msgstr "recipients;"
-
-# 837c4128614f48e784a96671e722c443
-# 0c3a73a83d4b4548a817e8a3a9103984
-#: ../../how-the-platform-works/data-privacy.rst:36
-#: ../../how-the-platform-works/data-privacy.rst:45
-msgid "владельцы (owners)."
-msgstr "owners."
+"The access group is created by sending transaction :ref:`CreatePolicy "
+"<CreatPolicyTransaction>` (type = 112, group creation) into the blockchain."
 
 # 473f8a9986844d03b471dc365d51eed4
-#: ../../how-the-platform-works/data-privacy.rst:38
+#: ../../how-the-platform-works/data-privacy.rst:25
 msgid ""
 "Владельцы группы имеют право изменять состав участников группы доступа. Для "
 "изменения состава участников группы необходимо отправить в блокчейн "
-"транзакцию :ref:`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = "
-"113, редактирование группы доступа) со следующими параметрами:"
+"транзакцию :ref:`UpdatePolicy <UpdatePolicyTransaction>` (type = 113, "
+"редактирование группы доступа)."
 msgstr ""
 "Owners can change the access group. To make this it is necessary to send the :"
-"ref:`UpdatePolicyTransaction <UpdatePolicyTransaction>` (type = 113, group "
-"editing) transaction into the blockchain with following parameters:"
-
-# db0f66132f8f4d1a85afaa64d2f11b76
-#: ../../how-the-platform-works/data-privacy.rst:40
-msgid "идентификатор группы (policyId);"
-msgstr "group ID;"
-
-# f7c3a749f197441ea8ed113e17e47556
-#: ../../how-the-platform-works/data-privacy.rst:43
-msgid "добавление/удаление участников (opType);"
-msgstr "add/delete participants (opType);"
+"ref:`UpdatePolicy <UpdatePolicyTransaction>` (type = 113, group editing) "
+"transaction into the blockchain."
 
 # e288ad6b3a984460aade0daf8bd9c0ef
-#: ../../how-the-platform-works/data-privacy.rst:47
+#: ../../how-the-platform-works/data-privacy.rst:27
 msgid ""
-"Для внешних приложений в :ref:`API ноды <privacy-api>` реализовано запросы, "
+"Для внешних приложений в :ref:`API ноды <privacy-api>` реализованы запросы, "
 "возвращающие сведения по группе и данным, которые передаются в рамках данной "
 "группы: ``GET /privacy/{policy}/recipients``, ``GET /privacy/{policy}/"
 "fullinfo``, ``GET /privacy/{policy}/getHashes``, ``GET /privacy/getInfo/{hash}"
@@ -198,66 +116,47 @@ msgstr ""
 "recipients``, ``GET /privacy/{policy}/fullinfo``, ``GET /privacy/{policy}/"
 "getHashes``, ``GET /privacy/getInfo/{hash}``."
 
-# 7624930f35ef4fd6be2e906cad4f53cf
-#: ../../how-the-platform-works/data-privacy.rst:52
-msgid "Маршрутизация данных"
-msgstr "Data routing"
+# 8f973c71428344d3ab90b2048bb8a37c
+#: ../../how-the-platform-works/data-privacy.rst:32
+msgid "Отправка и получение данных"
+msgstr "Sending and receiving the data"
 
-# 960c3e1eb92d4c0f8313f673d8cb9953
-#: ../../how-the-platform-works/data-privacy.rst:54
+# 38108c6042ff456a86d23bbaa8b2d1bb
+#: ../../how-the-platform-works/data-privacy.rst:34
 msgid ""
-"Для обмена конфиденциальными данными участники сетевого взамиодействия (ноды) "
-"должны пройти обязательную регистрацию. Регистрация ноды выполняется отправкой "
-"специальной транзакции :ref:`RegistrationNodeTransaction <transaction-"
-"structure>` (type = 111), доступной только для пользователя с ролью "
-"\"connection-manager\". Регистрация нового участника в сети описано на :ref:"
-"`этой странице<privacy-using>`."
+"Отправляемые данные пересылаются посредством ``POST /privacy/sendData`` "
+"запросом через собственную ноду организации, в которой проверяются "
+"принадлежность отправителя к указанной им группе. Если проверка выполнена "
+"успешно, то данные записываются в хранилище ноды, и инициируется транзакция :"
+"ref:`PolicyDataHash <PolicyDataHashTransaction>` (type = 114, отправка хеш-"
+"суммы данных в сеть) с посчитанной хеш-суммой от передаваемых данных."
 msgstr ""
-"All network interaction participants (nodes) must be registered in order to "
-"exchange confidential data. The Node registration is performed by sending a "
-"special transaction :ref:`Registration Name Transaction <transaction-"
-"structure>` (type = 111), available only for the user with the role "
-"\"connection-manager\". See :ref:`this page<privacy-using>` to read about a "
-"new node registration procedure."
+"The data is sending via ``POST /privacy/sendData`` request through its own "
+"node of the organization, which checks the sender's belonging to the specified "
+"group. If the check is successful, the data is written to the node store, and "
+"the :ref:`PolicyDataHash <PolicyDataHashTransaction>` (type = 114, sending the "
+"data hash) transaction is initiated with the calculated hash sum of the data."
 
-# 5d079d57623c4d72a2db184ccc527ebf
-#: ../../how-the-platform-works/data-privacy.rst:56
-msgid "Транзакция содержит следующие параметры:"
-msgstr "The transaction contains the following parameters:"
-
-# e882ca02b2bc4519afe77a160c9e2d1c
-#: ../../how-the-platform-works/data-privacy.rst:58
-msgid "публичный ключ ноды;"
-msgstr "the public key of the node;"
-
-# a388f23b480345fa9b91e848e0993255
-#: ../../how-the-platform-works/data-privacy.rst:59
-msgid "название или описание ноды."
-msgstr "a name or a description of the node."
-
-# fa43163beff74f6f817390da8f8e2b6f
-#: ../../how-the-platform-works/data-privacy.rst:61
+# 2497f2240f9f48909a3012d52d5ad54c
+#: ../../how-the-platform-works/data-privacy.rst:36
 msgid ""
-"На основе указанных параметров в стейте ноды формируется таблица разрешенных "
-"участников сетевого обмена. Взаимодействие между нодами разрешается, если в "
-"запросе ноды (:ref:`handshake message <network-message>`) присутствует подпись "
-"на приватном ключе, парном публичному ключу, который находится в стейте ноды. "
-"Если подпись запроса верна, то нода формирует в своей памяти таблицу, "
-"содержащую соотвествие между блокчейн-адресом участника отправившего handshake "
-"запрос и его hostname/ip-адресом. После успешного подключения нода "
-"пользователя выполняет синхронизацию с сетью, а так же синхронизацию таблицы "
-"адресов участников."
+"При получении транзакции с хеш-суммой от передаваемых данных принимающая "
+"сторона проверяет причастность блокчейн-узла организации к указанной в "
+"транзакции группе. Если участник состоит в группе, то выполняется запрос "
+"``getPrivateData`` на получение конфиденциальных данных. Запрос выполняется по "
+"сетевому адресу участника группы. Для обеспечения безопасности при передачи "
+"данных по незащищенному каналу связи используется набор алгоритмов шифрования "
+"на симметричном ключе и создания сессионных ключей, а также протокол Диффи - "
+"Хеллмана."
 msgstr ""
-"A table containing allowed network exchange participants and based on the "
-"transaction parameters is formed in the node state. The Interaction between "
-"the hosts is allowed, if inside the node request (:ref:`handshake message "
-"<network-message>`) there is a signature of the private key which is paired to "
-"the public key located in the node state. If the signature of the request is "
-"correct, the node forms a table containing the compliance between the "
-"blockchain address of the participant who sent the handshake request and its "
-"hostname/ip address. After a successful connection the user node synchronizes "
-"with the network and performs the synchronization of the table of addresses of "
-"the participants."
+"When receiving a transaction with the hash sum from the transmitted data, the "
+"receiving party checks whether the blockchain node is involved in the group "
+"specified in the transaction. If the participant is belong to the group, the "
+"``getPrivateData`` request for confidential data is executed. The request is "
+"executed at the network address of the group participant. To ensure the "
+"security of data transmission over an unprotected communication channel, a set "
+"of encryption algorithms on a symmetric key and the creation of session keys, "
+"as well as the Diffey-Hellman protocol are used."
 
 # 978abaa37e094ed7814a0940fa319ac5
 #~ msgid ""
@@ -412,3 +311,115 @@ msgstr ""
 # 6653ea8b385e46739cfc0412231530a7
 #~ msgid "описание политики (description);"
 #~ msgstr "description (policyDescription);"
+
+# 91478a44ca9346f2a4ddc6fad5f5dcd9
+#~ msgid "создатель группы (sender);"
+#~ msgstr "sender;"
+
+# 6653ea8b385e46739cfc0412231530a7
+#~ msgid "описание группы (description);"
+#~ msgstr "the group description (policyDescription);"
+
+# 3e8cb6379d4443bfaa909a7607884fca
+#~ msgid "срок действия группы (dueDate);"
+#~ msgstr "duaration (policyDueDate);"
+
+# 82347c6bf1834367b84ec4ac1468ab1b
+#~ msgid "список с адресами получателей конфиденциальных данных (recipients);"
+#~ msgstr "the list of confidential data recipients (policyRecipients);"
+
+# fb71d52966494cf2a591297b6778dca5
+#~ msgid ""
+#~ "список с адресами участников с правами редактирования состав участников "
+#~ "группы (owners);"
+#~ msgstr "the list of the policy owners with editing rights (policyOwners);"
+
+# 43bdca1364a2423ebaa2efe65f048a55
+#~ msgid "список с транзакциями, в которых передаются хэши от данных (txs)."
+#~ msgstr "a list of transactions with data hashes (txs) transfer."
+
+# 71162134007d443ca25b4df3c6e5526f
+# 3a474c49ab6a4bb4b6949e25f3b8f7c6
+#~ msgid "отправитель (sender);"
+#~ msgstr "sender;"
+
+# 6653ea8b385e46739cfc0412231530a7
+#~ msgid "описание (description);"
+#~ msgstr "description (policyDescription);"
+
+# 78ca4d7908fd42e598c7a2e5f1990a4b
+# 5cc1b1c536964929a9feaec72834d538
+#~ msgid "дата и время (timestamp);"
+#~ msgstr "date and time (timestamp);"
+
+# 82347c6bf1834367b84ec4ac1468ab1b
+#~ msgid "получатели (recipients);"
+#~ msgstr "recipients;"
+
+# 837c4128614f48e784a96671e722c443
+# 0c3a73a83d4b4548a817e8a3a9103984
+#~ msgid "владельцы (owners)."
+#~ msgstr "owners."
+
+# db0f66132f8f4d1a85afaa64d2f11b76
+#~ msgid "идентификатор группы (policyId);"
+#~ msgstr "group ID;"
+
+# f7c3a749f197441ea8ed113e17e47556
+#~ msgid "добавление/удаление участников (opType);"
+#~ msgstr "add/delete participants (opType);"
+
+# 7624930f35ef4fd6be2e906cad4f53cf
+#~ msgid "Маршрутизация данных"
+#~ msgstr "Data routing"
+
+# 960c3e1eb92d4c0f8313f673d8cb9953
+#~ msgid ""
+#~ "Для обмена конфиденциальными данными участники сетевого взамиодействия "
+#~ "(ноды) должны пройти обязательную регистрацию. Регистрация ноды выполняется "
+#~ "отправкой специальной транзакции :ref:`RegistrationNodeTransaction "
+#~ "<transaction-structure>` (type = 111), доступной только для пользователя с "
+#~ "ролью \"connection-manager\". Регистрация нового участника в сети описано "
+#~ "на :ref:`этой странице<privacy-using>`."
+#~ msgstr ""
+#~ "All network interaction participants (nodes) must be registered in order to "
+#~ "exchange confidential data. The Node registration is performed by sending a "
+#~ "special transaction :ref:`Registration Name Transaction <transaction-"
+#~ "structure>` (type = 111), available only for the user with the role "
+#~ "\"connection-manager\". See :ref:`this page<privacy-using>` to read about a "
+#~ "new node registration procedure."
+
+# 5d079d57623c4d72a2db184ccc527ebf
+#~ msgid "Транзакция содержит следующие параметры:"
+#~ msgstr "The transaction contains the following parameters:"
+
+# e882ca02b2bc4519afe77a160c9e2d1c
+#~ msgid "публичный ключ ноды;"
+#~ msgstr "the public key of the node;"
+
+# a388f23b480345fa9b91e848e0993255
+#~ msgid "название или описание ноды."
+#~ msgstr "a name or a description of the node."
+
+# fa43163beff74f6f817390da8f8e2b6f
+#~ msgid ""
+#~ "На основе указанных параметров в стейте ноды формируется таблица "
+#~ "разрешенных участников сетевого обмена. Взаимодействие между нодами "
+#~ "разрешается, если в запросе ноды (:ref:`handshake message <network-"
+#~ "message>`) присутствует подпись на приватном ключе, парном публичному "
+#~ "ключу, который находится в стейте ноды. Если подпись запроса верна, то нода "
+#~ "формирует в своей памяти таблицу, содержащую соотвествие между блокчейн-"
+#~ "адресом участника отправившего handshake запрос и его hostname/ip-адресом. "
+#~ "После успешного подключения нода пользователя выполняет синхронизацию с "
+#~ "сетью, а так же синхронизацию таблицы адресов участников."
+#~ msgstr ""
+#~ "A table containing allowed network exchange participants and based on the "
+#~ "transaction parameters is formed in the node state. The Interaction between "
+#~ "the hosts is allowed, if inside the node request (:ref:`handshake message "
+#~ "<network-message>`) there is a signature of the private key which is paired "
+#~ "to the public key located in the node state. If the signature of the "
+#~ "request is correct, the node forms a table containing the compliance "
+#~ "between the blockchain address of the participant who sent the handshake "
+#~ "request and its hostname/ip address. After a successful connection the user "
+#~ "node synchronizes with the network and performs the synchronization of the "
+#~ "table of addresses of the participants."

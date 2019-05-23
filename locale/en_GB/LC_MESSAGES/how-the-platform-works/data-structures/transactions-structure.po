@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-22 17:12+0300\n"
-"PO-Revision-Date: 2019-05-22 17:18+0300\n"
+"POT-Creation-Date: 2019-05-23 12:13+0300\n"
+"PO-Revision-Date: 2019-05-23 14:58+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -503,7 +503,7 @@ msgstr ""
 
 # a797c3629d4046c1944fde7ea7dc539a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:39
-msgid "Отправка в сеть хэша данных"
+msgid "Отправка в сеть хеша данных"
 msgstr "A data hash sending to the net"
 
 # 3bbedef3542a41b6adfe63dc009c5fd6
