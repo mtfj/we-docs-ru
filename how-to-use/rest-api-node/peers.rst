@@ -155,4 +155,31 @@ GET /peers/hostname/{address}
     "hostname": "node1.vostok.io",
     "ip": "10.0.0.1"
   }
-  
+
+GET /peers/allowedNodes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Получение актуального списка разрешенных участников сети на момент запроса.
+
+**Ответ метода:**
+
+.. code:: js
+
+  {
+    "allowedNodes": [
+      {
+        "address": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+        "publicKey": "Gt3o1ghh2M2TS65UrHZCTJ82LLcMcBrxuaJyrgsLk5VY"
+      },
+      {
+        "address": "3JLp8wt7rEUdn4Cca5Hp9jZ7w8T5XDAKicd",
+        "publicKey": "J3ffCciVu3sustgb5vxmEHczACMR89Vty5ZBLbPn9xyg"
+      },
+      {
+        "address": "3JRY1cp7atRMBd8QQoswRpH7DLawM5Pnk3L",
+        "publicKey": "5vn4UcB9En1XgY6w2N6e9W7bqFshG4SL2RLFqEWEbWxG"
+      }
+    ],
+    "timestamp": 1558697649489
+  }
+

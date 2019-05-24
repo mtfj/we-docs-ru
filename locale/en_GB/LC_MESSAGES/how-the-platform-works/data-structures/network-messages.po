@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-18 14:12+0300\n"
+"POT-Creation-Date: 2019-05-24 16:12+0300\n"
+"PO-Revision-Date: 2019-05-24 16:21+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -47,21 +47,21 @@ msgstr ""
 "All network messages, except Handshake, are based on the following "
 "structure:"
 
-# eb41af83b2c8493a89ed6be79b685703
-# a0b992b8f5384fd4b935a81420496504
-# 029645a4dc07428f91bba0c66dd1fb8f
-# bfd615edbc53477782353f8c89758b57
-# d449d179d3d4484291e8b99661826082
-# 40940f442cc745018fd7bef49751c915
-# b8db930831b54f599999350d62ae7fac
-# 906950f27bf2450cb6d046cda1710fab
-# bbaec72af1574ce582314ad1ae4c6bd3
-# 54f4ef70f8894d8391ddaae24669fc45
-# 9bd52ccdabcd462598a2973be2008959
-# c7c70bdc4ce44374bfb11074b09b745a
+# 330cdfeaf94d44aebccb4721e9cc2cb9
+# f8b2f78996824666b84f96076bac2e03
+# 4710d3c3c140422d93fb5074879f5dc8
+# 0fdb4f947a534b3c88632467bf0199dd
+# dac9b9fe3a3e49548b7675094878b37a
+# a848d27d9f76461fb81e3531e42a33a5
+# f8e9e41e7441453ea3afa7cf520e72cf
+# d7fdbc3a99c74fa9a6474655653b9ccf
+# 00841edbd7f749c18952edde93ee81cf
+# c468fca82935401b8001cae49c747289
+# 301f69cb2ddc490c91858ac406716b21
+# 337d68e4ae244d7ea119121f9615c12d
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-msgid "#"
-msgstr "#"
+msgid "Порядковый номер поля"
+msgstr "Field order number"
 
 # 03c902ab78cc44f38e455221bbc7f25e
 # 0dfd304b492d4fe880a12dbce6575aef
@@ -95,21 +95,21 @@ msgstr "Field"
 msgid "Тип"
 msgstr "Type"
 
-# 276a09d2170b4f7c8c0cd6b766b0876e
-# 344c43ab08e74dbbb9f507c7936f80dc
-# eab14704eb284ed2a7e913232c184fe2
-# ce2bd8a3b1234b3ea0bf9419b6d9cb8c
-# f0b38933ba6842d5ba0ccb9b35c6bb0a
-# 4146bc1a370b40fe80a76169bec9b201
-# 50f24c59cfba45739613c517ffc5a41b
-# 98ef630827a84aeca36d4b4083819a45
-# 109dae561b2b43da8fa3d3c696cd82c1
-# 195feaa1a9e142deba2ebeee53d1c7b8
-# 5b25d55d23a14da6833d56957186db09
-# 7dfb842ba2ed49188e8ab3cbfcd85156
+# 145fb7237b644c15bffbe019b341248f
+# 5860d0d3bddd4be1bef1acad4551d27a
+# 01901a6148454de79eedc5ebab7ac5e9
+# 3d61a2f92cfd4118809fb91d266e7574
+# c3efc5636af94b1bac387c7ecdf8212f
+# a0f1188ecdfd490d9f2a04bf3ecb01c0
+# 2c95b18ddabc4795a163c6b7e28b3617
+# a273e6b625584d13ae98105b14746e21
+# 8a2b13bb3b004da2b12bf42ea18e5876
+# a858836fde4a4a7c98a4e908f5d8ef63
+# b75ee354ff4c422da9f23405885d70ec
+# 0203f1e56aac46ff9f833d3854bb4207
 #: ../../how-the-platform-works/data-structures/network-messages.rst:1
-msgid "Размерность"
-msgstr "Size"
+msgid "Размер поля в байтах"
+msgstr "Field size in bytes"
 
 # ace364312f044f4391d745f318d14837
 # d1041ace26db4b209897ef54371c8160
@@ -467,9 +467,9 @@ msgstr "N"
 # 0f496a2bc604452483d0b4d2b170fef3
 #: ../../how-the-platform-works/data-structures/network-messages.rst:25
 msgid ""
-"Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
-"bytes of_FastHash_of Payload bytes. FastHash is hash function "
-"Blake2b256(data)."
+"Magic Bytes следующие: 0x12, 0x34, 0x56, 0x78. Контрольная сумма "
+"полезной нагрузки это первые 4 байта от _FastHash_ от байтов _Payload_. "
+"FastHash это хеш-функция Blake2b256(data)."
 msgstr ""
 "Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
 "bytes of_FastHash_of Payload bytes. FastHash is hash function "
@@ -715,12 +715,12 @@ msgid "64"
 msgstr "64"
 
 # b07d34f9cd28466dac0592a3eb7ac8d7
-#: ../../how-the-platform-works/data-structures/network-messages.rst:85
+#: ../../how-the-platform-works/data-structures/network-messages.rst:86
 msgid "GetPeers message"
 msgstr "GetPeers message"
 
 # 6004be7636c941f2adf7cd1eece63992
-#: ../../how-the-platform-works/data-structures/network-messages.rst:87
+#: ../../how-the-platform-works/data-structures/network-messages.rst:88
 msgid ""
 "GetPeers сообщение отправляется для запроса сетевых адресов участников "
 "сети."
@@ -734,12 +734,12 @@ msgid "Content ID (0x01)"
 msgstr "Content ID (0x01)"
 
 # b3ca3cc46c5e4ffa849e8514759496bb
-#: ../../how-the-platform-works/data-structures/network-messages.rst:101
+#: ../../how-the-platform-works/data-structures/network-messages.rst:104
 msgid "Peers message"
 msgstr "Peers message"
 
 # 633c2f37800d482da730a547895ae662
-#: ../../how-the-platform-works/data-structures/network-messages.rst:103
+#: ../../how-the-platform-works/data-structures/network-messages.rst:106
 msgid "Peers сообщение является ответом на запрос GetPeers."
 msgstr "Peers message is a response to a GetPeers request."
 
@@ -806,7 +806,7 @@ msgid "Peer #N port"
 msgstr "Peer #N port"
 
 # 3f698c4e6e4b415782eb8c8fc0c0bf67
-#: ../../how-the-platform-works/data-structures/network-messages.rst:122
+#: ../../how-the-platform-works/data-structures/network-messages.rst:125
 msgid "GetSignatures message"
 msgstr "GetSignatures message"
 
@@ -837,7 +837,7 @@ msgid "Block #N ID"
 msgstr "Block #N ID"
 
 # 804091b389664732bc61b068194b490c
-#: ../../how-the-platform-works/data-structures/network-messages.rst:140
+#: ../../how-the-platform-works/data-structures/network-messages.rst:143
 msgid "Signatures message"
 msgstr "Signatures message"
 
@@ -862,7 +862,7 @@ msgid "Block #N signature"
 msgstr "Block #N signature"
 
 # 6b8433ba3f214f258d3c8e7d9de3d92f
-#: ../../how-the-platform-works/data-structures/network-messages.rst:157
+#: ../../how-the-platform-works/data-structures/network-messages.rst:160
 msgid "GetBlock message"
 msgstr "GetBlock message"
 
@@ -877,7 +877,7 @@ msgid "Block ID"
 msgstr "Block ID"
 
 # d52a64da6e42458a989a3c855e76b6bc
-#: ../../how-the-platform-works/data-structures/network-messages.rst:172
+#: ../../how-the-platform-works/data-structures/network-messages.rst:175
 msgid "Block message"
 msgstr "Block message"
 
@@ -892,7 +892,7 @@ msgid "Block bytes (N)"
 msgstr "Block bytes (N)"
 
 # 631742ca5a3942bb862fd5a3085f94c8
-#: ../../how-the-platform-works/data-structures/network-messages.rst:187
+#: ../../how-the-platform-works/data-structures/network-messages.rst:190
 msgid "Score message"
 msgstr "Score message"
 
@@ -912,7 +912,7 @@ msgid "BigInt"
 msgstr "BigInt"
 
 # a5204ad9861f46c394ff1e7e93b7f56a
-#: ../../how-the-platform-works/data-structures/network-messages.rst:202
+#: ../../how-the-platform-works/data-structures/network-messages.rst:205
 msgid "Transaction message"
 msgstr "Transaction message"
 
@@ -927,7 +927,7 @@ msgid "Transaction (N bytes)"
 msgstr "Transaction (N bytes)"
 
 # 0176a6e957ea4d53bb67a91bcc24189f
-#: ../../how-the-platform-works/data-structures/network-messages.rst:217
+#: ../../how-the-platform-works/data-structures/network-messages.rst:220
 msgid "Checkpoint message"
 msgstr "Checkpoint message"
 
@@ -976,3 +976,43 @@ msgstr "Checkpoint #N signature"
 # 17dc7a4cfd5f4d4b911608e719d03591
 #~ msgid "Timestamp"
 #~ msgstr "Timestamp"
+
+# eb41af83b2c8493a89ed6be79b685703
+# a0b992b8f5384fd4b935a81420496504
+# 029645a4dc07428f91bba0c66dd1fb8f
+# bfd615edbc53477782353f8c89758b57
+# d449d179d3d4484291e8b99661826082
+# 40940f442cc745018fd7bef49751c915
+# b8db930831b54f599999350d62ae7fac
+# 906950f27bf2450cb6d046cda1710fab
+# bbaec72af1574ce582314ad1ae4c6bd3
+# 54f4ef70f8894d8391ddaae24669fc45
+# 9bd52ccdabcd462598a2973be2008959
+# c7c70bdc4ce44374bfb11074b09b745a
+#~ msgid "#"
+#~ msgstr "#"
+
+# 276a09d2170b4f7c8c0cd6b766b0876e
+# 344c43ab08e74dbbb9f507c7936f80dc
+# eab14704eb284ed2a7e913232c184fe2
+# ce2bd8a3b1234b3ea0bf9419b6d9cb8c
+# f0b38933ba6842d5ba0ccb9b35c6bb0a
+# 4146bc1a370b40fe80a76169bec9b201
+# 50f24c59cfba45739613c517ffc5a41b
+# 98ef630827a84aeca36d4b4083819a45
+# 109dae561b2b43da8fa3d3c696cd82c1
+# 195feaa1a9e142deba2ebeee53d1c7b8
+# 5b25d55d23a14da6833d56957186db09
+# 7dfb842ba2ed49188e8ab3cbfcd85156
+#~ msgid "Размерность"
+#~ msgstr "Size"
+
+# 0f496a2bc604452483d0b4d2b170fef3
+#~ msgid ""
+#~ "Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
+#~ "bytes of_FastHash_of Payload bytes. FastHash is hash function "
+#~ "Blake2b256(data)."
+#~ msgstr ""
+#~ "Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 "
+#~ "bytes of_FastHash_of Payload bytes. FastHash is hash function "
+#~ "Blake2b256(data)."
