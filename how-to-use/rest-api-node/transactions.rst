@@ -296,11 +296,14 @@ ID        Тип транзакции
 
    {
       "type":102,
-      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-      "target":"3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac",
-      "role":"miner",
+      "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "fee":0,
+      "proofs":[""],
+      "target":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL",
       "opType":"add",
-      "dueTimestamp":1528975127294
+      "role":"contract_developer",
+      "dueTimestamp":null
    }
 
 

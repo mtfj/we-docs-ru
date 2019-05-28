@@ -13,30 +13,30 @@
 ===   =============================================================================   ====================   ======================================================================
 1	  :ref:`Genesis transaction <GenesisTransaction>`                                 отсутствует            Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод
 2	  Payment Transaction (не используется)                                                         
-3	  :ref:`Issue Transaction <issueTransaction>`                                     1 - 1.004VST           Выпуск токенов     
-4	  :ref:`Transfer Transaction <TransferTransaction>`                               0.001 - 0.009VST       Перевод токенов        
-5	  :ref:`Reissue Transaction <ReissueTransaction>`                                 1 - 1.008VST           Перевыпуск токенов    
-6	  :ref:`Burn Transaction <BurnTransaction>`                                       0.001 - 0.009VST       Сжигание токенов        
-7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`             0.003 - 0.007VST       Обмен токенами       
-8	  :ref:`Lease Transaction <LeaseTransaction>`                                     0.001 - 0.005VST       Аренда токенов        
-9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.001 - 0.005VST       Отмена аренды токенов        
-10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                        0.001 - 0.005VST       Создание псевдонима         
-11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.001 - 0.009VST       Массовый перевод токенов        
-12	  :ref:`Data Transaction <DataTransaction>`                                       0.001 - 0.005VST       Транзакция с данными в виде полей с парой ключ-значение    
-13	  :ref:`SetScript Transaction <SetScriptTransaction>`                             0.01 - 0.014VST        Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
+3	  :ref:`Issue Transaction <issueTransaction>`                                     1VST                   Выпуск токенов     
+4	  :ref:`Transfer Transaction <TransferTransaction>`                               0.01VST                Перевод токенов        
+5	  :ref:`Reissue Transaction <ReissueTransaction>`                                 1VST                   Перевыпуск токенов    
+6	  :ref:`Burn Transaction <BurnTransaction>`                                       0.05VST                Сжигание токенов        
+7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`                                                       
+8	  :ref:`Lease Transaction <LeaseTransaction>`                                     0.01VST                Аренда токенов        
+9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.01VST                Отмена аренды токенов        
+10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                        1VST                   Создание псевдонима         
+11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.05VST                Массовый перевод токенов        
+12	  :ref:`Data Transaction <DataTransaction>`                                       0.05VST                Транзакция с данными в виде полей с парой ключ-значение    
+13	  :ref:`SetScript Transaction <SetScriptTransaction>`                             0.5VST                 Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
 14	  SponsorFee Transaction (не используется)              
-15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               0.996 - 1VST           Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
+15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               1VST                   Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
 101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                отсутствует            Назначение первого администратора сети для дальнейшей раздачи прав
-102   :ref:`Permission Transaction <PermitTransaction>`                               0VST                   Выдача/забор прав у аккаунта
-103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1 - 1.004VST           Создание Docker-контракта      
-104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.15 - 0.154VST        Вызов Docker-контракта         
+102   :ref:`Permission Transaction <PermitTransaction>`                               0.01VST                Выдача/забор прав у аккаунта
+103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1VST                   Создание Docker-контракта      
+104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.1VST                 Вызов Docker-контракта         
 105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`               отсутствует            Выполнение Docker-контракта     
-106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.15 - 0.154VST        Отключение Docker-контракта
-110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         0-0.004VST             Регистрация ноды в генезис-блоке при старте блокчейна    
-111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       отсутствует            Регистрация новой ноды в сети    
-112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       отсутствует            Создание группы доступа к конфиденциальным данным  
-113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       отсутствует            Изменение группы доступа    
-114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   отсутствует            Отправка в сеть хеша данных       
+106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.01VST                Отключение Docker-контракта
+110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         отсутствует            Регистрация ноды в генезис-блоке при старте блокчейна    
+111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       0.01VST                Регистрация новой ноды в сети    
+112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       1VST                   Создание группы доступа к конфиденциальным данным  
+113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       0.5VST                 Изменение группы доступа    
+114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   0.05VST                Отправка в сеть хеша данных       
 ===   =============================================================================   ====================   ======================================================================
 
 
@@ -844,30 +844,34 @@
 
    {
       "type":102,
-      "sender":"3LWg4n6VmN6DKBSwGF1hwnaCzXdjMkQCFrn",
-      "target":"3LMKWgu7cZFPiVewYZDBn54HdVT86RfREGc",
-      "role":"issuer",
+      "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "fee":0,
+      "proofs":[""],
+      "target":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL",
       "opType":"add",
-      "dueTimestamp":1528975127294
-   }
+      "role":"contract_developer",
+      "dueTimestamp":null
+    }
 
 **Broadcasted JSON**
 
 .. code:: js
 
     {
-        "type" : 102,
-        "id" : "B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz",
-        "sender" : "3LWg4n6VmN6DKBSwGF1hwnaCzXdjMkQCFrn",
-        "senderPublicKey" : "CaFrRzAv7B3DrECR4i2Los1DwxHj4yKAEKCT3zEke9U4",
-        "fee" : 0,
-        "timestamp" : 1549030854292,
-        "proofs" : [ "3n8h7uswSqCSuYZf6oiUzsQPQLWfL6yhTGwrhZ46uJqubcPLFan312dKdQs8Lwyvh5t9VgMo1CsNHSsd7F5hbG83" ],
-        "target" : "3LMKWgu7cZFPiVewYZDBn54HdVT86RfREGc",
-        "opType" : "add",
-        "role" : "issuer",
-        "dueTimestamp" : 1528975127294,
-        "height" : 4400
+      "senderPublicKey": "4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "role": "contract_developer",
+      "sender": "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "proofs": [
+        "5ABJCRTKGo6jmDZCRWcLQc257CCeczmcjmtfJmbBE7TP3KsVkwvisH9kEkfYPckVCzEMKZTCd3LKAPcN8o4Git3j"
+      ],
+      "fee": 0,
+      "opType": "add",
+      "id": "8zVUH7nsDCcpwyfxiq8DCTgqL7Q23FW1KWepB9EZcFG6",
+      "type": 102,
+      "dueTimestamp": null,
+      "timestamp": 1559048837487,
+      "target": "3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL"
     }
 
 .. _CreateContractTransaction:
