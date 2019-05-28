@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-24 16:12+0300\n"
-"PO-Revision-Date: 2019-05-24 16:31+0300\n"
+"PO-Revision-Date: 2019-05-28 10:17+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -178,10 +178,10 @@ msgstr "GET /privacy/{policy-id}/getHashes"
 #: ../../how-to-use/rest-api-node/privacy.rst:115
 msgid ""
 "Получение массива идентификационный хешей, которые записаны в привязке к "
-"{policy}."
+"{policy-id}."
 msgstr ""
 "Getting the array of identified hashes which are written with association "
-"to the {policy}."
+"to the {policy-id}."
 
 # b6f61fd02cd54c4d8012d7c1213fe8a7
 #: ../../how-to-use/rest-api-node/privacy.rst:117

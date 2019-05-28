@@ -221,13 +221,18 @@ ID        Тип транзакции
 .. code:: js
 
    {
-      "type": 4,
-      "version": 2,
-      "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-      "recipient": "3P8JYPHrnXSfsWP1LVXySdzU1P83FE1ssDa",
-      "amount": 1317209272,
-      "fee": 100000,
-   }
+      "type":4,
+      "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "fee":100000,
+      "proofs":[],
+      "version":2,
+      "recipient":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL", 
+      "assetId":null,
+      "feeAssetId":null,
+      "amount": 200000000,
+      "attachment":"3uaRTtZ3taQtRSmquqeC1DniK3Dv"
+   } 
 
 .. _tx-alias:
 
@@ -650,6 +655,6 @@ POST /transactions/broadcast
     "alias":"dajzmj6gfuzmbfnhamsbuxivc"
    }
 
-GET /transactions/address/{address}/limit/{limit}?after={after}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Возвращает список транзакций, в которых в качестве одного из адресатов указан {address}.
+.. GET /transactions/address/{address}/limit/{limit}?after={after}
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Возвращает список транзакций, в которых в качестве одного из адресатов указан {address}.

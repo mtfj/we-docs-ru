@@ -7,6 +7,80 @@ Contracts
 
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
 
+GET /contracts
+~~~~~~~~~~~~~~~~~~~~~
+
+Возвращает информацию по контрактам.
+
+**Ответ метода**
+
+.. code:: js
+   [
+     {
+       "contractId": "dmLT1ippM7tmfSC8u9P4wU6sBgHXGYy6JYxCq1CCh8i",
+       "image": "registry.vostokservices.com/vostok-sc/may14_1:latest",
+       "imageHash": "ff9b8af966b4c84e66d3847a514e65f55b2c1f63afcd8b708b9948a814cb8957",
+       "version": 1,
+       "active": false
+      }
+    ]
+
+POST /contracts
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Возвращает некоторые параметры по одному или нескольким заданным в запросе идентификаторам контрактов.
+
+**Ответ метода**
+
+.. code:: js
+
+   {
+      "dmLT1ippM7tmfSC8u9P4wU6sBgHXGYy6JYxCq1CCh8i": [
+        {
+          "type": "string",
+          "value": "11",
+          "key": "11"
+        },
+        {
+          "type": "string",
+          "value": "Only description",
+          "key": "Description"
+        }
+      ]
+    }
+
+GET /contracts/status/{id}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Возвращает статус исполняемой транзакции по контракту.
+
+**Ответ метода**
+
+.. code:: js
+  
+   [
+     {
+       "sender": "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+       "senderPublicKey": "4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+       "txId": "4q5Q8vLeGBpcdQofZikyrrjHUS4pB1AB4qNEn2yHRKWU",
+       "status": "Success",
+       "code": null,
+       "message": "Smart contract transaction successfully mined",
+       "timestamp": 1558961372834,
+       "signature": "4gXy7qtzkaHHH6NkksnZ5pnv8juF65MvjQ9JgVztpgNwLNwuyyr27Db3gCh5YyADqZeBH72EyAkBouUoKvwJ3RQJ"
+      },
+      }
+        "sender": "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+        "senderPublicKey": "4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+        "txId": "4q5Q8vLeGBpcdQofZikyrrjHUS4pB1AB4qNEn2yHRKWU",
+        "status": "Success",
+        "code": null,
+        "message": "Smart contract transaction successfully mined",
+        "timestamp": 1558961376012,
+        "signature": "3Vhqc9DvNhMvFFtWnBuV4XwQ62ZcTAvLNZYmeGc7mGzMcnGZ3RLshDs393fnQu1WTh8CmL58YnvnjyULEEi5yorV"
+      }
+    ]
+
 GET /contracts/{contractId}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

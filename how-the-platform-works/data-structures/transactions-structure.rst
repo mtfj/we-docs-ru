@@ -204,13 +204,18 @@
 .. code:: js
 
     {
-        "type": 4,
-        "version": 2,
-        "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-        "recipient": "3P8JYPHrnXSfsWP1LVXySdzU1P83FE1ssDa",
-        "amount": 1317209272,
-        "fee": 100000,
-    }
+        "type":4,
+        "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+        "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+        "fee":100000,
+        "proofs":[],
+        "version":2,
+        "recipient":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL", 
+        "assetId":null,
+        "feeAssetId":null,
+        "amount": 200000000,
+        "attachment":"3uaRTtZ3taQtRSmquqeC1DniK3Dv"
+    } 
 
 
 **Broadcasted JSON**
@@ -218,19 +223,21 @@
 .. code:: js
 
     {
-        "type": 4,
-        "id": "DZr3GPBmKDk82qHjMDszNRDMc8EqRewf43c5MH89cZ59",
-        "sender": "3MrjPoYMCki2vEjb3wD1gmofdQnhk8Pd2zW",
-        "senderPublicKey": "3Zf1txFhc945XG4tzVaRcQQFqLPKWivZwRfWsGsuAg5u",
+        "senderPublicKey": "4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+        "amount": 200000000,
         "fee": 100000,
-        "timestamp": 1549378440887,
-        "proofs": [ "3GJoM8sC3ZBfVKpKZpfPAsS3cchG2LYL2CLWhZC6HCfRtfCX1UJET82DeV1XvSBpPdyS9CgH5iRRCsJDsFHZnk32" ],
+        "type": 4,
         "version": 2,
-        "recipient": "3N65yEf31ojBZUvpu4LCo7n8D73juFtheUJ",
+        "attachment": "3uaRTtZ3taQtRSmquqeC1DniK3Dv",
+        "sender": "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+        "feeAssetId": null,
+        "proofs": [
+        "2hRxJ2876CdJ498UCpErNfDSYdt2mTK4XUnmZNgZiq63RupJs5WTrAqR46c4rLQdq4toBZk2tSYCeAQWEQyi72U6"
+        ],
         "assetId": null,
-        "amount": 5000000000,
-        "attachment": "",
-        "height": 3049
+        "recipient": "3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL",
+        "id": "757aQzJiQZRfVRuJNnP3L1d369H2oTjUEazwtYxGngCd",
+        "timestamp": 1558952680800
     }
 
 .. _ReissueTransaction:

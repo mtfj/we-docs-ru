@@ -108,3 +108,17 @@ GET /assets/{assetId}/distribution
     "3P8GxcTEyZtG6LEfnn9knp9wu8uLKrAFHCb": 1,
     "3P2voHxcJg79csj4YspNq1akepX8TSmGhTE": 1200
   }
+
+POST /assets/balance
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Возвращает баланс ассетов для одного или нескольких адресов.
+
+**Ответ метода**
+
+.. code:: js
+
+   {
+     "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG": [],
+     "3GRLFi4rz3SniCuC7rbd9UuD2KUZyNh84pn": []
+   }
