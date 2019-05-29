@@ -1207,13 +1207,19 @@
 
 .. code:: js
 
-    {
-    "type":114,
-    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-    "timestamp": 1000000000,
-    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
-    "hash": "ad2a814482df0dd0d2cf6321f535be720caa7b3aa1289b0575f60d7a5e109631",
-    }
+  {
+    "fee": 15000000,
+    "type": "file",
+    "sender": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+    "password": "",
+    "policyId": "4GR ... LkuCg==",
+    "hash": "9wetTBDx ... mrwXZ94ESU2zr1Uh",
+    "info": {  "filename":"Contract.doc",  
+               "size": 2048,  
+               "timestamp": 1000000000,  
+               "author": "petrov@org.com",  
+               "comment": "Comments" }
+  }
 
 
 

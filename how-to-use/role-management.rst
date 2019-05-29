@@ -16,20 +16,24 @@
 .. code:: js
 
     {
-        "type":102, 
-        "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", 
-        "target":"3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac",
-        "role":"miner",
-        "opType":"add", 
-        "dueTimestamp":1528975127294
+      "type":102,
+      "sender":3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG,
+      "senderPublicKey":4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g,
+      "fee":0,
+      "proofs":[""],
+      "target":3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL,
+      "opType":"add",
+      "role":"contract_developer",
+      "dueTimestamp":null
     }
 
 **Поля запроса:**
 
 - type - тип транзакции для управления полномочиями участников (type = 102);
 - sender - адрес участника с полномочиями на выпуск permission-транзакций;
+- proofs - подпись транзакции;
 - target - адрес участника, для которого требуется установить или удалить полномочия;
-- role - полономочия участника, которые требуется установить или удалить. Возможные значения: "miner", "issuer", "dex", "permissioner", "blacklister", "banned", "contract_developer";
+- role - полономочия участника, которые требуется установить или удалить. Возможные значения: "miner", "issuer", "dex", "permissioner", "blacklister", "banned", "contract_developer", "connection_manager";
 - opType - тип операции "add" (добавить полномочия) или "remove" (удалить полномочия);
 - dueTimestamp - дата действия permission в формате timestamp. Поле является опциональным.
 
