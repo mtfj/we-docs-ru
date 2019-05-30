@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 15:23+0300\n"
-"PO-Revision-Date: 2019-05-30 16:24+0300\n"
+"POT-Creation-Date: 2019-05-30 16:53+0300\n"
+"PO-Revision-Date: 2019-05-30 16:56+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -126,7 +126,7 @@ msgstr ""
 "creating user accounts."
 
 # ce9d1647be544db99fcf5981131675bb
-#: ../../how-to-setup/install-node.rst:45 ../../how-to-setup/install-node.rst:78
+#: ../../how-to-setup/install-node.rst:45
 msgid ""
 "Отредактируйте ``example.conf`` в соответствии с руководством :ref:"
 "`Конфигурация ноды <configuration>`."
@@ -165,6 +165,15 @@ msgstr ""
 "releases>`_ of the node in the deb-package format and the config file template "
 "`example.conf <https://github.com/vostokplatform/vostok-releases/blob/master/"
 "configs/example.conf>`_."
+
+# ce9d1647be544db99fcf5981131675bb
+#: ../../how-to-setup/install-node.rst:78
+msgid ""
+"Отредактируйте ``example.conf`` в соответствии с руководством :ref:`"
+"\"Конфигурация ноды\" <configuration>`."
+msgstr ""
+"Edit ``example.conf`` in accordance with the instruction :ref:`Node "
+"Configuration <configuration>`."
 
 # bfb2339a463e41fdae235374965bfdd0
 #: ../../how-to-setup/install-node.rst:80

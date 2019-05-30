@@ -18,7 +18,7 @@
         :height: 80
     
 
-2. Скачайте и разархивируйте файл `frontend-deployment.zip <https://github.com/vostokplatform/Vostok-Releases/releases>`_.ч
+2. Скачайте и разархивируйте файл `frontend-deployment.zip <https://github.com/vostokplatform/Vostok-Releases/releases>`_.
 3. В конфигурационном файле приложения ``frontend-deployment/config/nginx-proxy.env`` укажите путь до REST API и hostname ноды:
 
     .. code:: js 
