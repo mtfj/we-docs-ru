@@ -9,9 +9,8 @@
 
     | 1.2. После установки убедитесь, что успешно установились приложения `Docker CE <https://docs.docker.com/install/>`_ и `Docker-compose <https://docs.docker.com/compose/install/>`_ (часть дистрибутива Docker CE):
 
-     .. image:: img/docker_check_linux.png
-
-     .. image:: img/docker_check_macos.png
+     .. image:: img/docker_check_linuxMac.png
+        :scale: 70 %
     
     | Для операционных систем семейств Linux и macOS используются команды ``docker --version`` и ``docker-compose --version``.
 
