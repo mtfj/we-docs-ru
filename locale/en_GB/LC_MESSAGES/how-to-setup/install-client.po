@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 15:23+0300\n"
-"PO-Revision-Date: 2019-05-30 16:52+0300\n"
+"POT-Creation-Date: 2019-05-31 10:22+0300\n"
+"PO-Revision-Date: 2019-05-31 10:23+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -46,15 +46,6 @@ msgstr ""
 "Download and install the installation package `Docker CE <https://docs."
 "docker.com/install/>`_. Registration on the site is need for downloading."
 
-# 6a72508fe5914543b107588f6ffe8c7e
-#: ../../how-to-setup/install-client.rst
-msgid ""
-"1.1. При возникновении следующего окна с ошибкой установки включите "
-"аппаратную поддержку виртуализации в BIOS:"
-msgstr ""
-"1.1. If the following installation error window appears, enable the "
-"hardware virtualization support in BIOS:"
-
 # f296167b2a6e4643ac7bfa7bd3265db7
 #: ../../how-to-setup/install-client.rst
 msgid ""
@@ -68,8 +59,17 @@ msgstr ""
 "compose/install/>`_ (the part of the Docker CE installation package) "
 "have been successfully installed:"
 
+# e3b63b0a558449fd96c58b3ad21e4cca
+#: ../../how-to-setup/install-client.rst
+msgid ""
+"Для операционных систем семейств Linux и macOS используются команды "
+"``docker --version`` и ``docker-compose --version``."
+msgstr ""
+"You can use the commands ``docker --version`` and ``docker-compose --"
+"version`` for macOS and Linux OS."
+
 # 33bebc4e911d4175b57aaae6c77486fc
-#: ../../how-to-setup/install-client.rst:21
+#: ../../how-to-setup/install-client.rst:18
 msgid ""
 "Скачайте и разархивируйте файл `frontend-deployment.zip <https://github."
 "com/vostokplatform/Vostok-Releases/releases>`_."
@@ -78,7 +78,7 @@ msgstr ""
 "vostokplatform/Vostok-Releases/releases>`_."
 
 # aec95d898a53477e9534dcfcd822ba2f
-#: ../../how-to-setup/install-client.rst:22
+#: ../../how-to-setup/install-client.rst:19
 msgid ""
 "В конфигурационном файле приложения ``frontend-deployment/config/nginx-"
 "proxy.env`` укажите путь до REST API и hostname ноды:"
@@ -87,12 +87,12 @@ msgstr ""
 "of the application ``frontend-deployment/config/nginx-proxy.env``:"
 
 # 8b0c25e950d247329cb23d82edc259cc
-#: ../../how-to-setup/install-client.rst:31
+#: ../../how-to-setup/install-client.rst:28
 msgid "Запустите скрипт развертывания командой ``bash ./deploy.sh``."
 msgstr "Run the deployment script using the command ``bash ./deploy.sh``."
 
 # ee920413652341bab4c02710fb31e83d
-#: ../../how-to-setup/install-client.rst:32
+#: ../../how-to-setup/install-client.rst:29
 msgid ""
 "Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, "
 "что клиент системы успешно развернут."
@@ -101,7 +101,7 @@ msgstr ""
 "is successfully deployed."
 
 # 71b8e711415a4dc38b80b528793ccf33
-#: ../../how-to-setup/install-client.rst:34
+#: ../../how-to-setup/install-client.rst:31
 msgid ""
 "Ознакомиться с подробным описанием компонентов установленного приложение "
 "можно в разделе :ref:`Описание клиента <client>`."
@@ -116,3 +116,11 @@ msgstr ""
 #~ msgstr ""
 #~ "**The sequence of actions for installation of the client part of the "
 #~ "application and necessary start services**"
+
+# 6a72508fe5914543b107588f6ffe8c7e
+#~ msgid ""
+#~ "1.1. При возникновении следующего окна с ошибкой установки включите "
+#~ "аппаратную поддержку виртуализации в BIOS:"
+#~ msgstr ""
+#~ "1.1. If the following installation error window appears, enable the "
+#~ "hardware virtualization support in BIOS:"
