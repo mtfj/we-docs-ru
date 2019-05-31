@@ -1168,14 +1168,25 @@
 
 .. code:: js
 
-    {
-    "type":112,
-    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-    "description": "Group for internal nodes",
-    "policyName": "Group name",
-    "timestamp": 1000000000,
-    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
-    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+     {
+      "sender": "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+      "policyName": "Policy# 7777",
+      "password":"sfgKYBFCF@#$fsdf()*%",
+      "recipients": [
+        "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+        "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+        "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T",
+	    "3NtNJV44wyxRXv2jyW3yXLxjJxvY1vR88TF",
+	    "3NxAooHUoLsAQvxBSqjE91WK3LwWGjiiCxx"
+      ],
+      "fee": 15000000,
+      "description": "Buy bitcoin by 1c",
+      "owners": [
+        "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+        "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+        "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T"
+      ],
+      "type": 112
     }
 
 .. _UpdatePolicyTransaction:
@@ -1187,16 +1198,30 @@
 
 .. code:: js
 
-    {
-    "type":113,
-    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // the id of the existing policy, otherwise there will be the error "Object with policyId = <reqest id> does not exist"
-    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-    "timestamp": 1000000000,
-    "opType": "add", // or "remove" during deleting the participants from the policy
-    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
-    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+   {
+     "senderPublicKey": "CgqRPcPnexY533gCh2SSvBXh5bca1qMs7KFGntawHGww",
+     "policyId": "7wphGbhqbmUgzuN5wzgqwqtViTiMdFezSa11fxRV58Lm",
+     "password":"sfgKYBFCF@#$fsdf()*%",
+     "sender": "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+     "proofs": [],
+     "recipients": [
+     "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+     "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+     "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T",
+	 "3NtNJV44wyxRXv2jyW3yXLxjJxvY1vR88TF",
+	 "3NxAooHUoLsAQvxBSqjE91WK3LwWGjiiCxx",
+	 "3NwJfjG5RpaDfxEhkwXgwD7oX21NMFCxJHL"
+      ],
+      "fee": 15000000,
+      "opType": "add",
+     "owners": [
+       "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+       "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+       "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T"
+     ],
+     "type": 113,
+     "timestamp": 1557836033984
     }
-
 
 .. _PolicyDataHashTransaction:
 
