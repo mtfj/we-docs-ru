@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-23 12:13+0300\n"
-"PO-Revision-Date: 2019-05-23 12:16+0300\n"
+"PO-Revision-Date: 2019-06-04 17:55+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr ""
 # c40f8ab99d2247d9aee70b3bc99a886b
 #: ../../overview/overview.rst:2
 msgid "Обзор возможностей"
-msgstr "Overview of features"
+msgstr "Features overview"
 
 # 6daa2a0f5b194265b17d537e9ed69756
 #: ../../overview/overview.rst:4

@@ -5,5 +5,5 @@
 - Официальный сайт блокчейн-платформы Waves_
 .. _Восток: https://vostok.io
 .. _Vostok: https://vostok.io/?lang=en
-.. _Github: https://github.com/vostokplatform
+.. _Github: https://github.com/vostokplatform/Vostok-Releases/releases
 .. _Waves: https://wavesplatform.com

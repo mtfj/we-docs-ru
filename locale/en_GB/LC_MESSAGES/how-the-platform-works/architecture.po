@@ -7,208 +7,224 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-04-18 13:46+0300\n"
+"POT-Creation-Date: 2019-06-04 17:49+0300\n"
+"PO-Revision-Date: 2019-06-04 17:53+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# dc347baaa0714bdc99124fbadc775a17
+# 9b2dddc9900f4f38a024897730f8d307
 #: ../../how-the-platform-works/architecture.rst:2
 msgid "Архитектура"
 msgstr "Architecture"
 
-# b9b3ee6a7a354d87ad18161c1fe29289
+# a3eb46c1702c45818b954a4015bf7060
 #: ../../how-the-platform-works/architecture.rst:4
 msgid ""
-"Платформа Vostok построена на базе технологии распределенного реестра. Это позволяет "
-"добиться согласованности и доступности данных, а также устойчивости к злонамеренному "
-"изменению информации. Vostok использует язык программирования Scala и имеет модульную "
-"архитектуру, что позволяет гибко подстраивать приложение под потребности бизнеса."
+"Платформа Vostok построена на базе технологии распределенного реестра. Это "
+"позволяет добиться согласованности и доступности данных, а также устойчивости к "
+"злонамеренному изменению информации. Vostok использует язык программирования "
+"Scala и имеет модульную архитектуру, что позволяет гибко подстраивать "
+"приложение под потребности бизнеса."
 msgstr ""
 "The Vostok platform is based on distributed ledger technology, which allows to "
-"achieve the consistency and the availability of data, as well as the resistance to "
-"malicious change of information. The platform uses the Scala programming language and "
-"has a modular architecture providing wide opportunities for customization and "
-"configuration of applications for the business."
+"achieve the consistency and the availability of data, as well as the resistance "
+"to malicious change of information. The platform uses the Scala programming "
+"language and has a modular architecture providing wide opportunities for "
+"customization and configuration of applications for the business."
 
-# f0cc526c2a364f219eda782484ed0476
+# 3c87d175c4464dda89c15df8e72df27f
 #: ../../how-the-platform-works/architecture.rst:8
 msgid ""
-"Наша платформа поддерживает алгоритмы консенсуса Proof-of-Stake и Proof-of-Authority, "
-"подробнее в разделе :ref:`Консенсус <consensus>`. Также в Vostok реализован механизм "
-"анкоринга сетей, подробнее в разделе :ref:`Анкоринг <anchoring>`."
+"Наша платформа поддерживает алгоритмы консенсуса Proof-of-Stake и Proof-of-"
+"Authority, подробнее в разделе :ref:`Консенсус <consensus>`. Также в Vostok "
+"реализован механизм анкоринга сетей, подробнее в разделе :ref:`Анкоринг "
+"<anchoring>`."
 msgstr ""
-"Our platform supports Proof-of-Stake and Proof-of-Authority consensus algorithms, for "
-"more details see the :ref:`Consensus<consensus>` module. Also, the network anchoring "
-"mechanism is implemented in Vostok, for more details see the :ref:`Anchoring "
-"<anchoring>` module."
+"Our platform supports Proof-of-Stake and Proof-of-Authority consensus "
+"algorithms, for more details see the :ref:`Consensus<consensus>` module. Also, "
+"the network anchoring mechanism is implemented in Vostok, for more details see "
+"the :ref:`Anchoring <anchoring>` module."
 
-# 1bf04ecce3514f4f8445bc239a52bf3b
+# 8b6a3e2c1c0e4b47a433dccea8260da3
 #: ../../how-the-platform-works/architecture.rst:11
 msgid ""
-"Анкоринг позволяет создать конфигурацию сети, использующую сильные стороны обоих "
-"алгоритмов консенсуса. Например, основной блокчейн Vostok базируется на алгоритме "
-"консенсуса Proof-of-Stake, так как поддерживается независимыми участниками. В тоже "
-"время корпоративные сайдчейны, в которых нет необходимости стимуляции майнеров за "
-"счёт комиссий за транзакции, могут использовать алгоритм Proof-of-Authority. "
-"Сайдчейны встраиваются в основной блокчейн с помощью механизма анкоринга (помещая "
-"криптографические доказательства транзакций в основную блокчейн-сеть)."
+"Анкоринг позволяет создать конфигурацию сети, использующую сильные стороны "
+"обоих алгоритмов консенсуса. Например, основной блокчейн Vostok базируется на "
+"алгоритме консенсуса Proof-of-Stake, так как поддерживается независимыми "
+"участниками. В тоже время корпоративные сайдчейны, в которых нет необходимости "
+"стимуляции майнеров за счёт комиссий за транзакции, могут использовать алгоритм "
+"Proof-of-Authority. Сайдчейны встраиваются в основной блокчейн с помощью "
+"механизма анкоринга (помещая криптографические доказательства транзакций в "
+"основную блокчейн-сеть)."
 msgstr ""
-"Anchoring mechanism uses strengths of both consensus algorithms for creating a net "
-"configuration. The main blockchain Vostok is based on the Proof-of-Stake consensus "
-"algorithm, since it is supported by independent participants. At the same time, "
-"enterprise sidechains do not need to stimulate miners by means of transaction fees "
-"and can use the Proof-of-Authority algorithm. Sidechains are embedded in the main "
-"blockchain using the anchoring mechanism (by placing cryptographic proof of "
-"transactions in the main blockchain network)."
+"Anchoring mechanism uses strengths of both consensus algorithms for creating a "
+"net configuration. The main blockchain Vostok is based on the Proof-of-Stake "
+"consensus algorithm, since it is supported by independent participants. At the "
+"same time, enterprise sidechains do not need to stimulate miners by means of "
+"transaction fees and can use the Proof-of-Authority algorithm. Sidechains are "
+"embedded in the main blockchain using the anchoring mechanism (by placing "
+"cryptographic proof of transactions in the main blockchain network)."
 
-# 6208e2705c754a18ad0d84823814ac28
+# 1fbfe9b0cdd84188a50656abfdd0ac6d
 #: ../../how-the-platform-works/architecture.rst:17
-msgid "Топология сети, включающая основную цепочку и сайдчейны, представлена на схеме"
+msgid ""
+"Топология сети, включающая основную цепочку и сайдчейны, представлена на схеме"
 msgstr ""
-"The network topology including the main chain and sidechains are shown in the diagram"
+"The network topology including the main chain and sidechains are shown in the "
+"diagram"
 
-# 25efbd0739f1433fa5b421b7914aa987
+# 56aba5f7071a47798dbae92d95af8237
 #: ../../how-the-platform-works/architecture.rst:21
 msgid "**Архитектура ноды**"
 msgstr "**Node Architecture**"
 
-# bd649d2d443347cb92cdf597edcf0612
+# 60a43d4533664bff83c4db3502969f4b
 #: ../../how-the-platform-works/architecture.rst:25
 msgid ""
 "Node API – интерфейс REST API ноды, позволяющий получать данные из блокчейна, "
 "подписывать и отправлять транзакции;"
 msgstr ""
-"Node API – interface of the REST API node which allows receiving the data from the "
-"blockchain, sign and send transactions;"
+"Node API – interface of the REST API node which allows receiving the data from "
+"the blockchain, sign and send transactions;"
 
-# faa61e0538cc4f19823e8f7e966bdc1f
+# 8a71c22e32184f9b8beb392af2762226
 #: ../../how-the-platform-works/architecture.rst:26
 msgid ""
-"Node storage – компонент системы, обеспечивающий хранение полного журнала транзакций "
-"и состояния блокчейна;"
+"Node storage – компонент системы, обеспечивающий хранение полного журнала "
+"транзакций и состояния блокчейна;"
 msgstr ""
 "Node storage – a system component that provides storage for a full log of "
 "transactions and the blockchain status;"
 
-# 1777b6d410fd482abfa97af6910ee343
+# fa1a8a44d0624973832b752a93eeabf2
 #: ../../how-the-platform-works/architecture.rst:27
 msgid ""
-"Unconfirmed transaction pool – компонент, обеспечивающий хранение неподтвержденных "
-"транзакций до момента их проверки и отправки в блокчейн;"
+"Unconfirmed transaction pool – компонент, обеспечивающий хранение "
+"неподтвержденных транзакций до момента их проверки и отправки в блокчейн;"
 msgstr ""
-"Unconfirmed transaction pool – a component that provides storage for unconfirmed "
-"transactions until their checking and sending to the blockchain;"
+"Unconfirmed transaction pool – a component that provides storage for "
+"unconfirmed transactions until their checking and sending to the blockchain;"
 
-# 807a0ba418ea4821a215f9f3919570a3
+# d91dcc7094664a5b8eef2bc8fb745631
 #: ../../how-the-platform-works/architecture.rst:28
 msgid ""
 "Consensus and cryptolibraries – компоненты, отвечающие за механизм достижения "
 "согласия между узлами, а также за криптографические алгоритмы;"
 msgstr ""
-"Consensus and cryptolibraries – components responsible for the mechanism of achieving "
-"the agreement between nodes and cryptographic algorithms;"
+"Consensus and cryptolibraries – components responsible for the mechanism of "
+"achieving the agreement between nodes and cryptographic algorithms;"
 
-# 654248ff15da4005bddc9cc985bebae1
+# 2528e486c6224837882345eb9e1a55ac
 #: ../../how-the-platform-works/architecture.rst:29
 msgid ""
-"KeyStore - хранилище приватных ключей, которое используется нодой для валидации, "
-"подписания и шифрования транзакций;"
+"KeyStore - хранилище приватных ключей, которое используется нодой для "
+"валидации, подписания и шифрования транзакций;"
 msgstr ""
 "KeyStore – a private key storage used by the node to validate, sign and encrypt "
 "transactions;"
 
-# f2b1e5b972d64b59b214c8d450d5ac4f
+# c3dd94321cdb472baef2a59906c16352
 #: ../../how-the-platform-works/architecture.rst:30
 msgid ""
-"Miner – компонент, отвечающий за формирование блоков транзакций для записи в блокчейн;"
+"Miner – компонент, отвечающий за формирование блоков транзакций для записи в "
+"блокчейн;"
 msgstr ""
 "Miner – a component responsible for the creating of transaction blocks for the "
 "recording in the blockchain;"
 
-# f76e1b9a9da0465da41afe80f6e7765b
+# e4802eb429bc4f7fbecabc1f1c630be8
 #: ../../how-the-platform-works/architecture.rst:31
-msgid "Network layer – слой логики, обеспечивающий сетевой протокол взаимодействия нод;"
+msgid ""
+"Network layer – слой логики, обеспечивающий сетевой протокол взаимодействия нод;"
 msgstr ""
-"Network layer – a logic layer that provides a network protocol for nodes interaction;"
+"Network layer – a logic layer that provides a network protocol for nodes "
+"interaction;"
 
-# e84385735b494e63955e1a33856465e6
+# 6d757a5a83f94214997172cfe7bd3be4
 #: ../../how-the-platform-works/architecture.rst:32
 msgid ""
-"Smart-contract environment – среда для выполнения Тьюринг-полных смарт-контрактов;"
+"Smart-contract environment – среда для выполнения Тьюринг неполных смарт-"
+"контрактов;"
 msgstr ""
-"Smart-contract environment – an environment for performing Turing-complete smart "
-"contracts;"
+"Smart-contract environment – an environment for performing Turing-incomplete "
+"smart contracts;"
 
-# d7c48b61ae034203b663bb97016d266b
+# a9d9f79b17ba41b782f1643e1ddf83b1
 #: ../../how-the-platform-works/architecture.rst:33
 msgid "Validation logic – слой логики, содержащий правила проверки транзакций;"
-msgstr "Validation logic – a logic layer containing transaction verification rules;"
+msgstr ""
+"Validation logic – a logic layer containing transaction verification rules;"
 
-# b5f385c73f7a4da1baaefceef6f45009
+# c9794339b1524b1aaf2b9407541c0f64
 #: ../../how-the-platform-works/architecture.rst:34
 msgid "Config – конфигурационные параметры ноды;"
 msgstr "Config – node configuration parameters;"
 
-# 86a921587611472c9663451535553376
+# ecc46703f5714858baed02556d5ab709
 #: ../../how-the-platform-works/architecture.rst:35
 msgid ""
-"Monitoring Service – сервис мониторинга, включающий базу для хранения временных рядов "
-"с данными и метриками приложения."
+"Monitoring Service – внешний сервис мониторинга, использующий базу данных "
+"(InfluxDB) для хранения временных рядов с данными и метриками приложения. БД "
+"InfluxDB является ПО с открытым исходным кодом и устанавливается клиентом "
+"отдельно."
 msgstr ""
-"Monitoring Service – a monitoring service that includes a database for storing time "
-"rows with application data and metrics."
+"Monitoring Service – an external monitoring service that uses a database "
+"(InfluxDB) for storing time rows with application data and metrics. The "
+"InfluxDB database is an open source software and is installed by the client "
+"separately."
 
-# 6a1a079d6ddd472fa0d266b44a6b612e
+# f611486fe86244c3897dc0a5c16f3509
 #: ../../how-the-platform-works/architecture.rst:37
 msgid "**Дополнительные сервисы**"
 msgstr "**Additional services**"
 
-# 28c2a0a3238d4660b1fdb6af873d3e54
+# e0d02e71fd654bb69cf41c935933a822
 #: ../../how-the-platform-works/architecture.rst:41
 msgid ""
-"Vostok corporate client – корпоративный клиент для управления сетью и взаимодействия "
-"с блокчейном. Подробнее в разделе :ref:`Общее описание клиента <client>`"
+"Vostok corporate client – корпоративный клиент для управления сетью и "
+"взаимодействия с блокчейном. Подробнее в разделе :ref:`Общее описание клиента "
+"<client>`"
 msgstr ""
-"Vostok corporate client – a corporate client for managing a network and interacting "
-"with the blockchain. For more details see the :ref:`General Description of Client "
-"<client>` module"
+"Vostok corporate client – a corporate client for managing a network and "
+"interacting with the blockchain. For more details see the :ref:`General "
+"Description of Client <client>` module"
 
-# c86f485873c24e3f995a2b907ab981ed
+# 738e149451e74fb6a2686cfaaa2d1568
 #: ../../how-the-platform-works/architecture.rst:42
 msgid ""
-"Data service – сервис, агрегирующий данные из блокчейна и предоставляющий возможность "
-"построения различных аналитик посредством SQL запросов;"
+"Data service – сервис, агрегирующий данные из блокчейна и предоставляющий "
+"возможность построения различных аналитик посредством SQL запросов;"
 msgstr ""
 "Data service – a service that aggregates data from the blockchain and enables "
 "building various analytics using SQL queries;"
 
-# 80ea15623f6f476f95750149f8b86cfd
+# d86a67b9c48442a68c56a62a56cb98bc
 #: ../../how-the-platform-works/architecture.rst:43
 msgid ""
-"Node tools – набор утилит, автоматизирующих процессы управления ключами в keystore "
-"ноды, генерации транзакций и подписания genesis-блока;"
+"Node tools – набор утилит, автоматизирующих процессы управления ключами в "
+"keystore ноды, генерации транзакций и подписания genesis-блока;"
 msgstr ""
 "Node tools – a set of utilities automating key management processes in keystore "
 "nodes, generating transactions and signing the Genesis block;"
 
-# e505a4d31b0d4a22807676f639be423c
+# 3ddb8a7659e14a76ab187abc4f14c4f6
 #: ../../how-the-platform-works/architecture.rst:44
 msgid "Authorization service – единый сервис авторизации для компонентов системы;"
-msgstr "Authorization service – a single authorization service for system components;"
+msgstr ""
+"Authorization service – a single authorization service for system components;"
 
-# c08492c32ee84fd9a4f2c0f6d700c81d
+# 77dcf2ab918d43ce8287fc8cba5e09d9
 #: ../../how-the-platform-works/architecture.rst:45
 msgid ""
-"Docker registry – сервис для хранения и управления образами Тьюринг-полных смарт-"
-"контрактов."
+"Docker registry – сервис для хранения и управления образами Тьюринг-полных "
+"смарт-контрактов."
 msgstr ""
-"Docker registry – a service for storing and managing images of Turing-complete smart "
-"contracts."
+"Docker registry – a service for storing and managing images of Turing-complete "
+"smart contracts."

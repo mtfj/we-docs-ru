@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-28 18:08+0300\n"
-"PO-Revision-Date: 2019-05-28 18:08+0300\n"
+"POT-Creation-Date: 2019-06-04 17:49+0300\n"
+"PO-Revision-Date: 2019-06-04 18:09+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -198,9 +198,9 @@ msgstr "8"
 msgid ":ref:`Lease Transaction <LeaseTransaction>`"
 msgstr ""
 
-# e4a8ce16223f4a25988b1e9a2fcd8689
+# 2ec96dead6524456b29b136b26b33661
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
-msgid "Аренда токенов"
+msgid "Передача токенов в аренду"
 msgstr "Tokens lease"
 
 # daa0f557b0574bffaa03db9500db9d8a
@@ -709,8 +709,8 @@ msgstr "String"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1078
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1148
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1167
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1186
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1206
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1197
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1231
 msgid "**JSON для вызова метода sign**"
 msgstr "**JSON to sign**"
 
@@ -1005,12 +1005,12 @@ msgid "112. CreatePolicyTransaction"
 msgstr "112. CreatePolicyTransaction"
 
 # bd51a25681094efdbb468ede39648b70
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1184
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1195
 msgid "113. UpdatePolicyTransaction"
 msgstr "113. UpdatePolicyTransaction"
 
 # 2fc7673c534a4f30b0b8a19e29e8e877
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1204
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1229
 msgid "114. PolicyDataHashTransaction"
 msgstr "114. PolicyDataHashTransaction"
 
