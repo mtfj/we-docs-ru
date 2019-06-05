@@ -76,17 +76,12 @@ GET /privacy/{policy-id}/owners
     "3GKpShRQRTddF1yYhQ58ZnKMTnp2xdEzKqW"
   ]
 
-GET /privacy/{policy-id}/fullinfo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Получение полной информации по группе {policy-id}: участники, владельцы (пользователи, которые могут вносить изменения в группу), ссылки на транзакции добавления участников в группу.
-
-Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-policy/fullinfo
-
-Ответ метода:
-
-.. code:: js
-
+.. GET /privacy/{policy-id}/fullinfo
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Получение полной информации по группе {policy-id}: участники, владельцы (пользователи, которые могут вносить изменения в группу), ссылки на транзакции добавления участников в группу.
+   Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-policy/fullinfo
+   Ответ метода:
+   .. code:: js
     {
     "recipients": [
         {
@@ -108,6 +103,7 @@ GET /privacy/{policy-id}/fullinfo
         }
     ]
     }
+
 
 GET /privacy/{policy-id}/hashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

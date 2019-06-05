@@ -21,13 +21,13 @@
 8	  :ref:`Lease Transaction <LeaseTransaction>`                                     0.01VST                Передача токенов в аренду
 9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.01VST                Отмена аренды токенов        
 10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                        1VST                   Создание псевдонима         
-11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.05VST                Массовый перевод токенов        
-12	  :ref:`Data Transaction <DataTransaction>`                                       0.05VST                Транзакция с данными в виде полей с парой ключ-значение    
+11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.05VST                Массовый перевод токенов. Указана минимальная комиссия
+12	  :ref:`Data Transaction <DataTransaction>`                                       0.05VST                Транзакция с данными в виде полей с парой ключ-значение. Указана минимальная комиссия
 13	  :ref:`SetScript Transaction <SetScriptTransaction>`                             0.5VST                 Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
 14	  SponsorFee Transaction (не используется)              
 15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               1VST                   Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
 101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                отсутствует            Назначение первого администратора сети для дальнейшей раздачи прав
-102   :ref:`Permission Transaction <PermitTransaction>`                               0.01VST                Выдача/забор прав у аккаунта
+102   :ref:`Permission Transaction <PermitTransaction>`                               0.01VST                Выдача/отзыв прав у аккаунта
 103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1VST                   Создание Docker-контракта      
 104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.1VST                 Вызов Docker-контракта         
 105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`               отсутствует            Выполнение Docker-контракта     

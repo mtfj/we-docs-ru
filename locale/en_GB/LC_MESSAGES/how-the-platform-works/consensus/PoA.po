@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 17:49+0300\n"
-"PO-Revision-Date: 2019-06-04 18:00+0300\n"
+"PO-Revision-Date: 2019-06-05 16:43+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -320,7 +320,6 @@ msgstr "Exclusion of inactive miners"
 
 # 36ae601531d04a8aa234c938325b4e1a
 #: ../../how-the-platform-works/consensus/PoA.rst:66
-#, fuzzy
 msgid ""
 "Если каким-либо майнером 3 раза подряд было пропущено создание блока, "
 "этот майнер исключается из очереди на t\\ :sub:`ban` \\ последующих "

@@ -40,7 +40,7 @@ div.wy-menu p.caption {
 }
 
 a.lang:hover {text-decoration: underline;}
-
+a.pdf:hover {text-decoration: underline}
 
 /* -- math display ---------------------------------------------------------- */
 

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-04 17:49+0300\n"
-"PO-Revision-Date: 2019-06-04 18:09+0300\n"
+"POT-Creation-Date: 2019-06-05 15:56+0300\n"
+"PO-Revision-Date: 2019-06-05 16:42+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -145,45 +145,45 @@ msgstr ""
 "calculated as:"
 
 # 63179d7fefb94b2baac3da17bcbd850d
-#: ../../how-the-platform-works/consensus/PoS.rst:37
+#: ../../how-the-platform-works/consensus/PoS.rst:35
 msgid "где"
 msgstr "where"
 
 # 81f9497dedfe4280a70ded4732fd9ed4
-#: ../../how-the-platform-works/consensus/PoS.rst:39
+#: ../../how-the-platform-works/consensus/PoS.rst:37
 msgid ""
 "R \\ :sub:`max` \\ = 90 - максимальное уменьшение сложности, когда время "
-"генерации блока в сети превышает 60 секунд;"
+"генерации блока в сети превышает 40 секунд;"
 msgstr ""
 "R \\ :sub:`max` \\ = 90 - is a maximum reduction of complexity when the "
-"block generation time in the network exceeds 60 seconds;"
+"block generation time in the network exceeds 40 seconds;"
 
 # cbbe84642a8f4a1e842738c657d07289
-#: ../../how-the-platform-works/consensus/PoS.rst:40
+#: ../../how-the-platform-works/consensus/PoS.rst:38
 msgid ""
 "R\\ :sub:`min` \\ = 30 - минимальное увеличение сложности, когда время "
-"генерации блока в сети меньше 60 секунд;"
+"генерации блока в сети меньше 40 секунд;"
 msgstr ""
 "R\\ :sub:`min` \\ = 30 - minimal increase of complexity when the block "
-"generation time in the network is less than 60 seconds;"
+"generation time in the network is less than 40 seconds;"
 
 # ee5f171f9dbc4dea9343c087b3242a4f
-#: ../../how-the-platform-works/consensus/PoS.rst:41
+#: ../../how-the-platform-works/consensus/PoS.rst:39
 msgid "S - среднее время генерации, как минимум для трех последних блоков;"
 msgstr "S - average generation time, at least for the last three blocks;"
 
 # bcc3b12c1cad4d9a8d287e1ea1f5f5b4
-#: ../../how-the-platform-works/consensus/PoS.rst:42
+#: ../../how-the-platform-works/consensus/PoS.rst:40
 msgid "T\\ :sub:`p` \\ - предыдущее значение baseTarget;"
 msgstr "T\\ :sub:`p` \\ - previous baseTarget value;"
 
 # bcc3b12c1cad4d9a8d287e1ea1f5f5b4
-#: ../../how-the-platform-works/consensus/PoS.rst:43
+#: ../../how-the-platform-works/consensus/PoS.rst:41
 msgid "T\\ :sub:`b` \\ - вычисленное значение baseTarget."
 msgstr "T\\ :sub:`b` \\ - computed baseTarget value."
 
 # 92580fd468844bd395ff237187d17b9d
-#: ../../how-the-platform-works/consensus/PoS.rst:45
+#: ../../how-the-platform-works/consensus/PoS.rst:43
 msgid ""
 "Глубокое описание технических особенностей и доработок классического PoS "
 "алгоритма вы можете найти в этой `статье <https://forum.wavesplatform."
@@ -196,12 +196,12 @@ msgstr ""
 "pdf/>`_."
 
 # e4afe3f6bf2b4cc08c05fa729b9bec02
-#: ../../how-the-platform-works/consensus/PoS.rst:48
+#: ../../how-the-platform-works/consensus/PoS.rst:46
 msgid "Преимущества перед Proof of Work"
 msgstr "Advantages Over Proof of Work"
 
 # f181f0bd297f46df9c9b9c30f27502b4
-#: ../../how-the-platform-works/consensus/PoS.rst:49
+#: ../../how-the-platform-works/consensus/PoS.rst:47
 msgid ""
 "Отсутствие сложных вычислений позволяет PoS сетям снизить требования к "
 "аппаратному обеспечению участников системы, что снижает стоимость "
@@ -218,12 +218,12 @@ msgstr ""
 "fees for transactions which appeared in its block."
 
 # 70fbc2b6a0b3448ba13f0d0577bf0dd2
-#: ../../how-the-platform-works/consensus/PoS.rst:53
+#: ../../how-the-platform-works/consensus/PoS.rst:51
 msgid "Leased Proof of Stake"
 msgstr "Leased Proof of Stake"
 
 # 98432eeb9d834951a66255ed429bd5a9
-#: ../../how-the-platform-works/consensus/PoS.rst:54
+#: ../../how-the-platform-works/consensus/PoS.rst:52
 msgid ""
 "Для пользователя, который обладает стейком, недостаточным для "
 "эффективного майнинга, есть возможность передать свой баланс в аренду "

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-04 17:49+0300\n"
-"PO-Revision-Date: 2019-06-04 18:09+0300\n"
+"POT-Creation-Date: 2019-06-05 15:56+0300\n"
+"PO-Revision-Date: 2019-06-05 16:47+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -243,10 +243,10 @@ msgstr "11"
 msgid ":ref:`MassTransfer Transaction <MassTransferTransaction>`"
 msgstr ""
 
-# 51edea2242744a2b8fd4600c2d46faf0
+# ec2f2ef304634750a6da8292195a954f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:24
-msgid "Массовый перевод токенов"
-msgstr "Mass tokens transfer"
+msgid "Массовый перевод токенов. Указана минимальная комиссия"
+msgstr "Mass tokens transfer. Minimum commission specified"
 
 # 41059a44e92e488cb41cf9a46f0cbce7
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
@@ -260,8 +260,12 @@ msgstr ""
 
 # c828d9e162d94d74a4694fabd7818b53
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
-msgid "Транзакция с данными в виде полей с парой ключ-значение"
-msgstr "Transaction with the data in the key-value pairs format"
+msgid ""
+"Транзакция с данными в виде полей с парой ключ-значение. Указана минимальная "
+"комиссия"
+msgstr ""
+"Transaction with the data in the key-value pairs format. Minimum commission "
+"specified"
 
 # 59c96e2ba3b448bf8f9700004680921f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:26
@@ -337,7 +341,7 @@ msgstr ""
 
 # 2aa653260df440e8b2d6ec58aa587d98
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:30
-msgid "Выдача/забор прав у аккаунта"
+msgid "Выдача/отзыв прав у аккаунта"
 msgstr "Issuance/withdrawal of rights from the account"
 
 # 13c37c3679d64961bd6ac83cc89ed7e3
@@ -1656,3 +1660,7 @@ msgstr "114. PolicyDataHashTransaction"
 # d9155001e9a5442886252cf09faf2f11
 #~ msgid "Обмен токенами"
 #~ msgstr "Tokens exchange"
+
+# 51edea2242744a2b8fd4600c2d46faf0
+#~ msgid "Массовый перевод токенов"
+#~ msgstr "Mass tokens transfer"
