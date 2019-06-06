@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-06 13:19+0300\n"
-"PO-Revision-Date: 2019-06-06 13:20+0300\n"
+"POT-Creation-Date: 2019-06-06 14:26+0300\n"
+"PO-Revision-Date: 2019-06-06 14:49+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -42,6 +42,31 @@ msgstr ""
 # 2f689fdc39874398b5363abf3139e772
 #: ../../how-to-use/add-node-mainnet.rst:9
 msgid ""
+"Зайдите на сайт `<https://client.vostok.io/>`_ и создайте учётную "
+"запись, следуя подсказкам веб-интерфейса."
+msgstr ""
+"Go to the website `<https://client.vostok.io/>`_ and create an account "
+"following the web-interface hints."
+
+# 4ea7e56a496b494aa5e83ccfbb8bce86
+#: ../../how-to-use/add-node-mainnet.rst:10
+msgid "Приобретите токены Vostok (VST)."
+msgstr "Purchase Vostok tokens (VST)."
+
+# 2739b1dfc12c4cb7a9c5d803e235e68d
+#: ../../how-to-use/add-node-mainnet.rst:11
+msgid ""
+"Передайте токены в аренду в любом количестве на адрес "
+"``3NrKDuHjUG7vSCiMMD259msBKcPRm4MvaJu`` и сохраните идентификатор этой "
+"транзакции."
+msgstr ""
+"Transfer for leasing any number of tokens to the "
+"``3NrKDuHjUG7vSCiMMD259msBKcPRm4MvaJu`` address and keep the transaction "
+"ID."
+
+# 2f689fdc39874398b5363abf3139e772
+#: ../../how-to-use/add-node-mainnet.rst:12
+msgid ""
 "Зайдите на сайт `<https://support.vostok.io/servicedesk/customer/"
 "portal/3>`_ и выберите тип регистрации: юридическое или физическое лицо."
 msgstr ""
@@ -49,7 +74,7 @@ msgstr ""
 "portal/3>`_ and select the type of registration: legal or natural person."
 
 # b5c371f6137342f7b528c65abac96eb5
-#: ../../how-to-use/add-node-mainnet.rst:10
+#: ../../how-to-use/add-node-mainnet.rst:13
 msgid ""
 "Выполните регистрацию на ресурсе, заполнив все необходимые поля формы. "
 "Если вы хотите майнить, отметьте поле **Прошу предоставить права "
@@ -58,8 +83,17 @@ msgstr ""
 "Register on the resource by filling in all the required fields of the "
 "form. If you want to mine, check the box **Please grant mining rights**."
 
+# b08605185fe84668954a1e094bf0e8f2
+#: ../../how-to-use/add-node-mainnet.rst:14
+msgid ""
+"В поле **Подтверждение владения токенами VST** введите идентификатор "
+"транзакции передачи токенов в аренду."
+msgstr ""
+"Enter the transaction ID of the token lease transfer in the **Proof of "
+"VST token ownership** field."
+
 # 76d562379dbf4bc1b5f1132af718a66e
-#: ../../how-to-use/add-node-mainnet.rst:11
+#: ../../how-to-use/add-node-mainnet.rst:15
 msgid ""
 "Дождитесь рассмотрения заявки на подключение. После успешной регистрации "
 "можете начинать работу в мейннете. Если регистрация оказалась "
