@@ -7,24 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-03-24 16:45+0300\n"
+"POT-Creation-Date: 2019-06-06 16:54+0300\n"
+"PO-Revision-Date: 2019-06-06 16:55+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 47fb1c00fc634292ab34655dd193d31b
+# 5c965950e9714e6cbb16a428ff6bb736
 #: ../../how-the-platform-works/cryptography.rst:4
 msgid "Криптография"
 msgstr "Cryptography"
 
-# fa318fc2f1344707a0e8173c9b5264a3
+# 89a85cecbcef404093ce673e62b1433d
 #: ../../how-the-platform-works/cryptography.rst:6
 msgid ""
 "Для обеспечения безопасности в платформе Vostok используются "
@@ -35,7 +35,7 @@ msgstr ""
 "algorithms complying with GOST requirements, as well as qualified "
 "electronic signatures."
 
-# 5b8a179428e84a129e948cffc2f3a004
+# 8c6051bcd5d747709a65ec2d090208da
 #: ../../how-the-platform-works/cryptography.rst:8
 msgid ""
 "Платформа предоставляет выбор используемой криптографии, которая "
@@ -44,7 +44,7 @@ msgstr ""
 "The platform provides a choice of cryptography to be used based on one "
 "of the standards:"
 
-# d55689b821654161a5d422f8f6c390d1
+# 30653666ceda4f4f8afaf42f43c61a84
 #: ../../how-the-platform-works/cryptography.rst:10
 msgid ""
 "ГОСТ-криптография - для реализации проектов в государственных структурах "
@@ -53,7 +53,7 @@ msgstr ""
 "GOST-cryptography - for implementation of projects in government "
 "structures and departments;"
 
-# 606be159808c4374bbee282eea7ac3e9
+# 1c36eaa6843946818e9be2de3ac10d77
 #: ../../how-the-platform-works/cryptography.rst:11
 msgid ""
 "Эллиптическая кривая Curve25519 - для проектов, в которых не требуется "
@@ -64,12 +64,12 @@ msgstr ""
 "compliance with GOST (commercial companies, organizations outside the "
 "Russian Federation)."
 
-# 3259c76bcee042a1929dc1b7052d4d8f
+# 43d15aff9d654c2d8f32d3072375d90c
 #: ../../how-the-platform-works/cryptography.rst:14
 msgid "Предварительная обработка данных"
 msgstr "Data Pre-processing"
 
-# d2560c5a919a465cbe35c2253775723d
+# 15fed00a31914f02ad7ba6d21f2937cc
 #: ../../how-the-platform-works/cryptography.rst:16
 msgid ""
 "Все байтовые последовательности перед операциями хеширования или "
@@ -78,7 +78,7 @@ msgstr ""
 "All byte sequences before hashing or signing operations are converted "
 "using Base58 or Base64 algorithm."
 
-# 46088c8eac4d4fe4a60cadfb98833910
+# 6a944fed2e994940af56268982943a12
 #: ../../how-the-platform-works/cryptography.rst:18
 msgid ""
 "Base64 — стандарт кодирования двоичных данных при помощи 64 символов "
@@ -91,7 +91,7 @@ msgstr ""
 "(62 characters) and 2 service symbols. Every 3 source bytes are encoded "
 "with 4 characters (¹ ⁄ ₃ magnification)."
 
-# dbd30f44fd8b457ca3cd96c3b9a23b09
+# fc1cb2b0f8384b9b9253b2dea1aea83a
 #: ../../how-the-platform-works/cryptography.rst:20
 msgid ""
 "Base58 — вариант кодирования двоичных данных в виде буквенно-цифрового "
@@ -104,12 +104,12 @@ msgstr ""
 "characters used in Base64, such as 0, O, I, L, +,/ are excluded. It is "
 "used for data transmission in heterogeneous networks (transport coding)."
 
-# 8bc78afc7cc344b2b4207de97cad389b
+# e8a23f0fda8743aaba8682d0dee27693
 #: ../../how-the-platform-works/cryptography.rst:25
 msgid "ГОСТ-криптография"
 msgstr "GOST-Cryptography"
 
-# 1e65dff0c3c448ca9d16d1ba99544755
+# 45cbe9a6d1a148f2af3b5d8ef899b378
 #: ../../how-the-platform-works/cryptography.rst:27
 msgid ""
 "Алгоритм хэширования реализован по ГОСТ Р 34.11 2012 \"Информационная "
@@ -121,7 +121,7 @@ msgstr ""
 "Hashing Function'. The Stribog function is used with 256 bits output "
 "blocks."
 
-# 7e8a9503d8c6425eb9407f197e6be2d5
+# b23bc9e8d54441ffa1948d08be520755
 #: ../../how-the-platform-works/cryptography.rst:30
 msgid ""
 "Алгоритмы формирования и проверки ЭЦП реализованы по ГОСТ Р 34.10-2012 "
@@ -134,13 +134,13 @@ msgstr ""
 "Information. Electronic Digital Signature Generation and Verification "
 "Processes'. The key length is 256 bits."
 
-# 989d9af771f14046912502a5129076fb
-#: ../../how-the-platform-works/cryptography.rst:36
+# 6b16ab47cbcd4e278315997b9f3ceda8
+#: ../../how-the-platform-works/cryptography.rst:35
 msgid "Использование эллиптической кривой Curve25519 (криптография Waves)"
 msgstr "Using an elliptical curve Curve25519 (Waves cryptography)"
 
-# 29ba3862b13947acafecdcf3bd400535
-#: ../../how-the-platform-works/cryptography.rst:38
+# 96aba17b78d9484bb96bbf465737cf6a
+#: ../../how-the-platform-works/cryptography.rst:37
 msgid ""
 "Алгоритм хэширования реализован последовательным хешированием функциями "
 "Blake2b256 и Keccak256. Размер блоков выходных данных 256 бит."
@@ -148,12 +148,12 @@ msgstr ""
 "The hashing algorithm is implemented by successive hashing functions "
 "Blake2b256 and Keccak256. The size of output blocks is 256 bits."
 
-# 1c2f2793248049dab09f8a107568c757
-#: ../../how-the-platform-works/cryptography.rst:40
+# 29c668dbfd3e45a2b95244789a69fedc
+#: ../../how-the-platform-works/cryptography.rst:39
 msgid ""
 "Алгоритмы формирования и проверки ЭЦП реализованы на базе эллиптической "
-"кривой Curve25519 (ED25519 with X25519 keys). Длина ключей 128 бит."
+"кривой Curve25519 (ED25519 с ключами X25519). Длина ключей 256 бит."
 msgstr ""
 "EDS generation and verification algorithms are implemented on the basis "
 "of elliptical curve Curve25519 (ED25519 with X25519 keys). The key "
-"length is 128 bits."
+"length is 256 bits."
