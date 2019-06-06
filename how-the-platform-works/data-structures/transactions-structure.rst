@@ -31,7 +31,7 @@
 103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1VST                   Создание Docker-контракта      
 104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.1VST                 Вызов Docker-контракта         
 105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`               отсутствует            Выполнение Docker-контракта     
-106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.01VST                Отключение Docker-контракта
+106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.1VST                 Отключение Docker-контракта
 110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         отсутствует            Регистрация ноды в генезис-блоке при старте блокчейна    
 111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       0.01VST                Регистрация новой ноды в сети    
 112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       1VST                   Создание группы доступа к конфиденциальным данным  

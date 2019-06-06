@@ -162,7 +162,7 @@
 Доступ к REST API
 --------------------
 
-Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_, создайте ``api-key-hash`` для доступа к REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``api-key-hash``. Команда для запуска утилиты:
+Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/releases>`_, создайте ``api-key-hash`` для доступа к REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``api-key-hash``. Команда для запуска утилиты:
 
   ::
 
@@ -189,7 +189,7 @@
 Доступ к методам privacy
 ----------------------------
 
-Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_, создайте ``privacy-api-key-hash`` для доступа к методам :ref:`privacy <privacy-api>` REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``privacy-api-key-hash``. Команда для запуска утилиты:
+Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/releases>`_, создайте ``privacy-api-key-hash`` для доступа к методам :ref:`privacy <privacy-api>` REST API ноды. Для запуска утилиты требуется в качестве одного из параметров указать файл ``api-key-hash.conf``, в котором определяются параметры создания ``privacy-api-key-hash``. Команда для запуска утилиты:
 
   ::
 
@@ -202,7 +202,7 @@
 Подписание genesis-блока
 ------------------------------
 
-Подпишите genesis-блок утилитой `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/release>`_. Команда для подписания: ``java -jar generators-x.x.x.jar GenesisBlockGenerator node-config.conf``, где ``node-config.conf`` это отредактированный в этом :ref:`пункте <create-node-config>` конфигурационный файл ноды. После подписания поля ``genesis-public-key-base-58`` и ``signature`` конфигурационного файла будут заполнены значениями открытого ключа и подписи genesis-блока. 
+Подпишите genesis-блок утилитой `generators-x.x.x.jar <https://github.com/vostokplatform/Vostok-Releases/releases>`_. Команда для подписания: ``java -jar generators-x.x.x.jar GenesisBlockGenerator node-config.conf``, где ``node-config.conf`` это отредактированный в этом :ref:`пункте <create-node-config>` конфигурационный файл ноды. После подписания поля ``genesis-public-key-base-58`` и ``signature`` конфигурационного файла будут заполнены значениями открытого ключа и подписи genesis-блока. 
 
   | Пример:
 
