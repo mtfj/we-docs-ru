@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-06 15:17+0300\n"
-"PO-Revision-Date: 2019-06-06 15:23+0300\n"
+"POT-Creation-Date: 2019-06-07 18:50+0300\n"
+"PO-Revision-Date: 2019-06-07 18:53+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -24,56 +24,70 @@ msgstr ""
 msgid "Подключение ноды в сеть \"Vostok Mainnet\""
 msgstr "Connection of the node to the \"Vostok Mainnet\""
 
-# bc4b5478b6c240cd92faadcc74a066ed
+# 82cd121b6904403d9c9ca087a5fa8638
 #: ../../how-to-use/add-node-mainnet.rst:7
+msgid ""
+"При подключении своей ноды к сети \"Vostok Mainnet\" и майнинге на балансе "
+"аккаунта должно быть не менее **10 000 VST**!"
+msgstr ""
+"The account balance must be at least **10 000 VST** if you want to connect "
+"your node to the network \"Vostok Mainnet\" and do mining!"
+
+# bc4b5478b6c240cd92faadcc74a066ed
+#: ../../how-to-use/add-node-mainnet.rst:9
 msgid ""
 "Для подключения своей ноды к сети \"Vostok Mainnet\" выполните следующие "
 "действия:"
-msgstr ""
-"Follow these steps for the node connection to the \"Vostok Mainnet\":"
-
-# 1884b5057bc54198b3ef2ff9afba5f37
-#: ../../how-to-use/add-node-mainnet.rst:9
-msgid ":ref:`Установите <install-node>` ПО ноды."
-msgstr ":ref:`Install <install-node>` the node software."
-
-# e201c24ac490404ea8dae19c31c3613b
-#: ../../how-to-use/add-node-mainnet.rst:10
-msgid "Выполните :ref:`конфигурацию <configuration>` ноды."
-msgstr "Perform the node :ref:`configuration <configuration>`."
-
-# 100977dfe0a145eaa75500d7eceba11e
-#: ../../how-to-use/add-node-mainnet.rst:11
-msgid ":ref:`Запустите <node-start>` ноду."
-msgstr ":ref:`Run <node-start>` the node."
+msgstr "Follow these steps for the node connection to the \"Vostok Mainnet\":"
 
 # 2f689fdc39874398b5363abf3139e772
-#: ../../how-to-use/add-node-mainnet.rst:12
+#: ../../how-to-use/add-node-mainnet.rst:11
 msgid ""
-"Зайдите на сайт `<https://client.vostok.io/>`_ и создайте учётную "
-"запись, следуя подсказкам веб-интерфейса."
+"Зайдите на сайт `<https://client.vostok.io/>`_ и создайте учётную запись, "
+"следуя подсказкам веб-интерфейса."
 msgstr ""
 "Go to the website `<https://client.vostok.io/>`_ and create an account "
 "following the web-interface hints."
 
-# 4ea7e56a496b494aa5e83ccfbb8bce86
-#: ../../how-to-use/add-node-mainnet.rst:13
-msgid "Приобретите токены Vostok (VST)."
-msgstr "Purchase Vostok tokens (VST)."
+# a26bb8d7b41d495f9b1cbfb740a46ab8
+#: ../../how-to-use/add-node-mainnet.rst:12
+msgid "Переведите токены в сеть \"Vostok Mainnet\"."
+msgstr "Transfer tokens to the \"Vostok Mainnet\" network."
 
-# 2739b1dfc12c4cb7a9c5d803e235e68d
-#: ../../how-to-use/add-node-mainnet.rst:14
+# 2a60d95785e24eefa2f80fcb34ef0c0b
+#: ../../how-to-use/add-node-mainnet.rst:13
 msgid ""
 "Передайте токены в аренду в любом количестве на адрес "
 "``3NrKDuHjUG7vSCiMMD259msBKcPRm4MvaJu`` и сохраните идентификатор этой "
-"транзакции."
+"транзакции. В дальнейшем вы можете отозвать токены из аренды, поскольку эта "
+"операция нужна для верификации владения вами данным адресом и балансом."
 msgstr ""
 "Transfer for leasing any number of tokens to the "
 "``3NrKDuHjUG7vSCiMMD259msBKcPRm4MvaJu`` address and keep the transaction "
-"ID."
+"ID. Further you can withdraw tokens from the lease, because this operation "
+"is necessary to verify your ownership of this address and the balance."
+
+# 1884b5057bc54198b3ef2ff9afba5f37
+#: ../../how-to-use/add-node-mainnet.rst:14
+msgid ":ref:`Установите <install-node>` ПО ноды."
+msgstr ":ref:`Install <install-node>` the node software."
+
+# d745f66df1dc4aa09aad03b08788d279
+#: ../../how-to-use/add-node-mainnet.rst:15
+msgid ""
+"Выполните :ref:`конфигурацию <configuration>` ноды. Пример "
+"конфигурационного файла ноды можно взять на странице проекта на `GitHub "
+"<https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_. "
+"Для добавления ноды в сеть \"Vostok Mainnet\" название конфигурационного "
+"файла - ``mainnet-example.conf``."
+msgstr ""
+"Perform the node :ref:`configuration <configuration>`. You can get the "
+"example of the file from our `GitHub <https://github.com/vostokplatform/"
+"Vostok-Releases/tree/master/configs>`_ page. The configuration file name is "
+"``mainnet-example.conf`` for the new node connection."
 
 # 2f689fdc39874398b5363abf3139e772
-#: ../../how-to-use/add-node-mainnet.rst:15
+#: ../../how-to-use/add-node-mainnet.rst:16
 msgid ""
 "Зайдите на сайт `<https://support.vostok.io/servicedesk/customer/"
 "portal/3>`_ и зарегистрируйтесь."
@@ -82,46 +96,59 @@ msgstr ""
 "portal/3>`_ and perform the registration."
 
 # 070ef47fecdc49edb692ae7e8575a0e9
-#: ../../how-to-use/add-node-mainnet.rst:16
+#: ../../how-to-use/add-node-mainnet.rst:17
 msgid ""
 "Выберите тип заявки \"Подключение участника\" для юридического или "
 "физического лица."
 msgstr ""
-"Select the type of request \"Participant connection\" for legal or "
-"natural person."
+"Select the type of request \"Participant connection\" for legal or natural "
+"person."
 
 # 82cd121b6904403d9c9ca087a5fa8638
-#: ../../how-to-use/add-node-mainnet.rst:17
+#: ../../how-to-use/add-node-mainnet.rst:18
 msgid ""
-"Заполните все необходимые поля формы. Если вы хотите майнить, отметьте "
-"поле **Прошу предоставить права майнинга**. Для подключения услуги "
-"майнинга на балансе аккаунта должно быть не менее 10 000 VST."
+"Заполните все необходимые поля формы. Если вы хотите майнить, отметьте поле "
+"**Прошу предоставить права майнинга**."
 msgstr ""
-"Register on the resource by filling in all the required fields of the "
-"form. If you want to mine, check the box **Please grant mining rights**. "
-"You need at least 10 000 VST on the account balance."
+"Register on the resource by filling in all the required fields of the form. "
+"If you want to mine, check the box **Please grant mining rights**."
 
 # b08605185fe84668954a1e094bf0e8f2
-#: ../../how-to-use/add-node-mainnet.rst:18
+#: ../../how-to-use/add-node-mainnet.rst:19
 msgid ""
 "В поле **Подтверждение владения токенами VST** введите идентификатор "
 "транзакции передачи токенов в аренду."
 msgstr ""
-"Enter the transaction ID of the token lease transfer in the **Proof of "
-"VST token ownership** field."
+"Enter the transaction ID of the token lease transfer in the **Proof of VST "
+"token ownership** field."
 
 # 76d562379dbf4bc1b5f1132af718a66e
-#: ../../how-to-use/add-node-mainnet.rst:19
+#: ../../how-to-use/add-node-mainnet.rst:20
 msgid ""
 "Дождитесь рассмотрения заявки на подключение. После успешной регистрации "
-"можете начинать работу в сети \"Vostok Mainnet\". Если регистрация "
-"оказалась неуспешной, проверьте правильность введённых данных и "
-"отправьте заявку повторно."
+"можете начинать работу в сети \"Vostok Mainnet\"."
 msgstr ""
 "Please, wait for the connection application consideration. You can start "
-"working in the \"Vostok Mainnet\" after successful registration. "
-"Otherwise check the correctness of the entered data and send the "
-"application again."
+"working in the \"Vostok Mainnet\" after successful registration."
+
+# be3dfa2ccb30499b9d1cf7c50bc31e07
+#: ../../how-to-use/add-node-mainnet.rst:21
+msgid ""
+"После получения разрешения на подключение к сети \"Vostok Mainnet\" :ref:"
+"`запустите <node-start>` ноду, публичной ключ которой вы указали в заявке."
+msgstr ""
+":ref:`Run <node-start>` the node after obtaining permission to connect to "
+"the network \"Vostok Mainnet\", public key of which you specified in the "
+"application."
+
+# 3157d4cad4b54ba9aaf3e0a46e6bf79c
+#: ../../how-to-use/add-node-mainnet.rst:22
+msgid ""
+"Для выполнения майнинга и работы в сети переведите или передайте в аренду "
+"токены на адрес подключённой ноды."
+msgstr ""
+"Transfer or lease tokens to the address of the connected node for the "
+"mining and work in the network."
 
 # bfdfcb2bcbad4d05aa6a0e8fe903f30b
 #~ msgid "Добавление ноды в мейннет"
@@ -130,13 +157,25 @@ msgstr ""
 # 03d0408bc67640c9a1b4b8773042d439
 #~ msgid ""
 #~ "Перед добавлением своей ноды в мейннет выполните установку и "
-#~ "конфигурацию ноды. Описание установки ноды вы можете найти :ref:"
-#~ "`здесь <install-node>`. Описание конфигурации представлено :ref:"
-#~ "`здесь <configuration>`. После :ref:`запуска <node-start>` ноды "
-#~ "выполните следующие действия:"
+#~ "конфигурацию ноды. Описание установки ноды вы можете найти :ref:`здесь "
+#~ "<install-node>`. Описание конфигурации представлено :ref:`здесь "
+#~ "<configuration>`. После :ref:`запуска <node-start>` ноды выполните "
+#~ "следующие действия:"
 #~ msgstr ""
 #~ "Before adding your node to the mainnet follow the installation and "
 #~ "configuration steps. The installation description you can find :ref:"
 #~ "`here <install-node>`. The configuration description is :ref:`here "
 #~ "<configuration>`. After the node :ref:`running <node-start>` follow "
 #~ "these steps:"
+
+# e201c24ac490404ea8dae19c31c3613b
+#~ msgid "Выполните :ref:`конфигурацию <configuration>` ноды."
+#~ msgstr "Perform the node :ref:`configuration <configuration>`."
+
+# 100977dfe0a145eaa75500d7eceba11e
+#~ msgid ":ref:`Запустите <node-start>` ноду."
+#~ msgstr ":ref:`Run <node-start>` the node."
+
+# a26bb8d7b41d495f9b1cbfb740a46ab8
+#~ msgid "Приобретите токены Vostok (VST)."
+#~ msgstr "Purchase Vostok tokens (VST)."

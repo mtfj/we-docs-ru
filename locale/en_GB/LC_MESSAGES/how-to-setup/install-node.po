@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 16:53+0300\n"
-"PO-Revision-Date: 2019-05-30 16:56+0300\n"
+"POT-Creation-Date: 2019-06-07 09:53+0300\n"
+"PO-Revision-Date: 2019-06-07 09:53+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -182,18 +182,18 @@ msgstr "Install the node from the deb-package. The installation command:"
 
 # 8fbd8cd8f5ab4582bf759306fe642208
 #: ../../how-to-setup/install-node.rst:87
-msgid "Директория для конфигурационного файла - /etc/vostok/vostok.conf."
-msgstr "Directory for configuration file - /etc/vostok/vostok.conf."
+msgid "Директория для конфигурационного файла - /etc/vostok/vostok.conf"
+msgstr "Directory for configuration file - /etc/vostok/vostok.conf"
 
 # 3d1cc69a22cf41a884dd0fab3d77c094
 #: ../../how-to-setup/install-node.rst:88
-msgid "Директория для jar-файла и библиотек - /usr/share/vostok/."
-msgstr "Directory for jar-file and libraries - /usr/share/vostok/."
+msgid "Директория для jar-файла и библиотек - /usr/share/vostok/"
+msgstr "Directory for jar-file and libraries - /usr/share/vostok/"
 
 # 1837c9964982449081ea06dbdaca98d1
 #: ../../how-to-setup/install-node.rst:89
-msgid "Директория для данных блокчейна - /var/lib/vostok/."
-msgstr "Directory for blockchain data - /var/lib/vostok/."
+msgid "Директория для данных блокчейна - /var/lib/vostok/"
+msgstr "Directory for blockchain data - /var/lib/vostok/"
 
 # 4734cd803c3f456fb0579ca192e22f43
 #: ../../how-to-setup/install-node.rst:91
