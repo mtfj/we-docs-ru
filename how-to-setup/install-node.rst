@@ -73,7 +73,7 @@
 
 2. Скачайте и установите `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ (или версию выше).       
 
-3. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла `example.conf <https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/example.conf>`_.
+3. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_.
 
 4. Отредактируйте ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`.
 
