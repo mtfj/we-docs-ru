@@ -83,7 +83,7 @@ release = u'master'
 # for a list of supported languages.
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'ru'
+language = 'en'
 
 # The encoding of source files.
 source_encoding = 'utf-8-sig'
@@ -175,9 +175,9 @@ latex_elements = {
 # ]
 
 latex_documents = [
-  ('index', 'Sphinx.tex', u'Техническое описание платформы Vostok',
-   u'https://vostok.io', 'manual'),
-  ('index_en', 'Sphinx.tex', u'Technical description of the Vostok platform', u'https://vostok.io', 'manual')
+#  ('index', 'Sphinx.tex', u'Техническое описание платформы Vostok',
+#   u'https://vostok.io', 'manual'),
+  ('index', 'Sphinx.tex', u'Technical description of the Vostok platform', u'https://vostok.io', 'manual')
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
