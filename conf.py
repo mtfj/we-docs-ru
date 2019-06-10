@@ -83,7 +83,7 @@ release = u'master'
 # for a list of supported languages.
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'ru'
 
 # The encoding of source files.
 source_encoding = 'utf-8-sig'
@@ -115,10 +115,11 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     'logo_only': True,
     'collapse_navigation': False,
-    'sticky_navigation': False,
+    'sticky_navigation': True,
     'navigation_depth': 4,
     'display_version': False,
-    'includehidden': False
+    'includehidden': False,
+    'display_version': True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -137,6 +138,7 @@ def setup(app):
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'vostok-docs'
 
+html_favicon = '_static/img/favicon.png'
 
 
 # -- Options for manual page output ---------------------------------------
@@ -175,9 +177,9 @@ latex_elements = {
 # ]
 
 latex_documents = [
-#  ('index', 'Sphinx.tex', u'Техническое описание платформы Vostok',
-#   u'https://vostok.io', 'manual'),
-  ('index', 'Sphinx.tex', u'Technical description of the Vostok platform', u'https://vostok.io', 'manual')
+  ('index', 'Sphinx.tex', u'Техническое описание платформы Vostok',
+   u'https://vostok.io', 'manual'),
+#  ('index', 'Sphinx.tex', u'Technical description of the Vostok platform', u'https://vostok.io', 'manual')
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
