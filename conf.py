@@ -83,7 +83,7 @@ release = u'master'
 # for a list of supported languages.
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = None
 
 # The encoding of source files.
 source_encoding = 'utf-8-sig'
