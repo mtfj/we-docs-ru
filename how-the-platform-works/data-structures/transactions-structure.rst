@@ -91,21 +91,6 @@
    amount           ,+      ,+      ,Long
    height           ,+      ,       , 
 
-**Broadcasted JSON**
-
-.. code:: js
-    
-    {
-        "type": 1,
-        "id": "VXRnximYkigS8quMiqJ2HCkhjhnjDpN4m92dHwo2TqrPiDnkJexKUbhQGj8asUz8AXmNjsSpJPDwJU5Jbuak1FJ",
-        "fee": 0,
-        "timestamp": 1500635421931,
-        "signature": "VXRnximYkigS8quMiqJ2HCkhjhnjDpN4m92dHwo2TqrPiDnkJexKUbhQGj8asUz8AXmNjsSpJPDwJU5Jbuak1FJ",
-        "recipient": "3Mx5sDq4NXef1BRzJRAofa3orYFxLanxmd7",
-        "amount": 125000000000000,
-        "height": 1
-    }
-
 .. _issueTransaction:
 
 3. issueTransaction
