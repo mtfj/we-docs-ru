@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 17:31+0300\n"
-"PO-Revision-Date: 2019-06-05 17:46+0300\n"
+"POT-Creation-Date: 2019-06-11 15:30+0300\n"
+"PO-Revision-Date: 2019-06-11 15:34+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -33,31 +33,27 @@ msgstr ""
 "Rules of the creating requests to a node, see :ref:`rest-api-node` section."
 
 # 6b95153f176145098a1ff4288f8faf39
-#: ../../how-to-use/rest-api-node/privacy.rst:9
+#: ../../how-to-use/rest-api-node/privacy.rst:11
 msgid "POST /privacy/sendData"
 msgstr "POST /privacy/sendData"
 
 # 2e87ccac14c14b8083ecb486182d787f
-#: ../../how-to-use/rest-api-node/privacy.rst:11
-msgid ""
-"Запись конфиденциальных данных в хранилище ноды. Запрос должен быть защищен "
-"авторизацией."
-msgstr ""
-"Writing the confidential data to the node store. The request must be "
-"protected by the authorization."
+#: ../../how-to-use/rest-api-node/privacy.rst:15
+msgid "Запись конфиденциальных данных в хранилище ноды."
+msgstr "Writing the confidential data to the node store."
 
 # 3dc6b326a0224b768b004cd89c47da39
-#: ../../how-to-use/rest-api-node/privacy.rst:13
+#: ../../how-to-use/rest-api-node/privacy.rst:17
 msgid "**Запрос метода:**"
 msgstr "**Method request:**"
 
 # 66b78c404214423eaed697bceebbd5ec
-#: ../../how-to-use/rest-api-node/privacy.rst:33
+#: ../../how-to-use/rest-api-node/privacy.rst:37
 msgid "Параметры:"
 msgstr "Parameters:"
 
 # 575073cf3bfd47e8a24b2ae73a04951b
-#: ../../how-to-use/rest-api-node/privacy.rst:35
+#: ../../how-to-use/rest-api-node/privacy.rst:39
 msgid ""
 "sender - блокчейн-адрес, от которого должны рассылаться данные "
 "(соответствуют значению параметра \"privacy.owner-address\" в "
@@ -67,49 +63,49 @@ msgstr ""
 "owner-address\" parameter value in the node configuration file);"
 
 # 7428c69e626d423f99e424944aa00bbc
-#: ../../how-to-use/rest-api-node/privacy.rst:36
+#: ../../how-to-use/rest-api-node/privacy.rst:40
 msgid "password - пароль для доступа к закрытому ключу keystore ноды;"
 msgstr "password - access password to the private key of the node keystore;"
 
 # c2336f2ef1b6440ea629fa9e4c2bc2ce
-#: ../../how-to-use/rest-api-node/privacy.rst:37
+#: ../../how-to-use/rest-api-node/privacy.rst:41
 msgid "policyId - идентификатор группы, в рамках которой пересыалются данные;"
 msgstr "policyId - the group ID managing data forwarding;"
 
 # 82de6d8835d64a2ebf3aa517a2af9f7b
-#: ../../how-to-use/rest-api-node/privacy.rst:38
+#: ../../how-to-use/rest-api-node/privacy.rst:42
 msgid "type - тип данных;"
 msgstr "type - the type of the data;"
 
 # ab3caf4db84844668ffe95d2f09cc1e0
-#: ../../how-to-use/rest-api-node/privacy.rst:39
+#: ../../how-to-use/rest-api-node/privacy.rst:43
 msgid "info - информация о данных;"
 msgstr "info - the information about the data;"
 
 # 096a453d102647b9b338f04ceee6bfad
-#: ../../how-to-use/rest-api-node/privacy.rst:40
+#: ../../how-to-use/rest-api-node/privacy.rst:44
 msgid "data - данные в бинарном представлении;"
 msgstr "data - binary data;"
 
 # 82de6d8835d64a2ebf3aa517a2af9f7b
-#: ../../how-to-use/rest-api-node/privacy.rst:41
+#: ../../how-to-use/rest-api-node/privacy.rst:45
 msgid "hash - хеш от данных."
 msgstr "hash - data hash."
 
 # 3806f95be30446d58055244caae49173
-#: ../../how-to-use/rest-api-node/privacy.rst:46
+#: ../../how-to-use/rest-api-node/privacy.rst:48
 msgid "GET /privacy/{policy-id}/recipients"
 msgstr "GET /privacy/{policy-id}/recipients"
 
 # 3f59316c7ac94f0c9b2235d8c75b03a5
-#: ../../how-to-use/rest-api-node/privacy.rst:48
+#: ../../how-to-use/rest-api-node/privacy.rst:50
 msgid "Получение адресов всех участников, записанных в группу {policy-id}."
 msgstr ""
 "Getting all addresses of participants, signed to the access group {policy-"
 "id}."
 
 # d914d7ce4b8f46ea926aea8242ee1d94
-#: ../../how-to-use/rest-api-node/privacy.rst:50
+#: ../../how-to-use/rest-api-node/privacy.rst:52
 msgid ""
 "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
 "policy/recipients"
@@ -118,33 +114,33 @@ msgstr ""
 "policy/recipients"
 
 # 79796c24d0394bf2b2f080eb81e061d0
-#: ../../how-to-use/rest-api-node/privacy.rst:52
-#: ../../how-to-use/rest-api-node/privacy.rst:66
-#: ../../how-to-use/rest-api-node/privacy.rst:113
-#: ../../how-to-use/rest-api-node/privacy.rst:141
-#: ../../how-to-use/rest-api-node/privacy.rst:164
+#: ../../how-to-use/rest-api-node/privacy.rst:54
+#: ../../how-to-use/rest-api-node/privacy.rst:68
+#: ../../how-to-use/rest-api-node/privacy.rst:115
+#: ../../how-to-use/rest-api-node/privacy.rst:143
+#: ../../how-to-use/rest-api-node/privacy.rst:168
 msgid "Ответ метода:"
 msgstr "Method answer:"
 
 # 3806f95be30446d58055244caae49173
-#: ../../how-to-use/rest-api-node/privacy.rst:62
+#: ../../how-to-use/rest-api-node/privacy.rst:64
 msgid "GET /privacy/{policy-id}/owners"
 msgstr "GET /privacy/{policy-id}/getHashes"
 
 # 3f59316c7ac94f0c9b2235d8c75b03a5
-#: ../../how-to-use/rest-api-node/privacy.rst:64
+#: ../../how-to-use/rest-api-node/privacy.rst:66
 msgid "Получение адресов всех владельцев, записанных в группу {policy-id}."
 msgstr ""
 "Getting all addresses of participants, signed to the access group {policy-"
 "id}."
 
 # ef6dece1833941a59c9d5f529581ef6d
-#: ../../how-to-use/rest-api-node/privacy.rst:107
+#: ../../how-to-use/rest-api-node/privacy.rst:109
 msgid "GET /privacy/{policy-id}/hashes"
 msgstr "GET /privacy/{policy-id}/getHashes"
 
 # ab7a76c98c5941d08257c2d09d5f8f45
-#: ../../how-to-use/rest-api-node/privacy.rst:109
+#: ../../how-to-use/rest-api-node/privacy.rst:111
 msgid ""
 "Получение массива идентификационный хешей, которые записаны в привязке к "
 "{policy-id}."
@@ -153,7 +149,7 @@ msgstr ""
 "to the {policy-id}."
 
 # b6f61fd02cd54c4d8012d7c1213fe8a7
-#: ../../how-to-use/rest-api-node/privacy.rst:111
+#: ../../how-to-use/rest-api-node/privacy.rst:113
 msgid ""
 "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
 "policy/getHashes"
@@ -162,21 +158,17 @@ msgstr ""
 "policy/getHashes"
 
 # 945ba2df95484b3eab60794fede91d1b
-#: ../../how-to-use/rest-api-node/privacy.rst:123
+#: ../../how-to-use/rest-api-node/privacy.rst:125
 msgid "GET /privacy/getData/{hash}"
 msgstr "GET /privacy/getData/{hash}"
 
 # 5039c42a0c1c43ffbd72442a6a328d8f
-#: ../../how-to-use/rest-api-node/privacy.rst:127
-msgid ""
-"Получение пакета конфиденциальных данных по идентификационному хешу. Запрос "
-"должен быть защищен авторизацией."
-msgstr ""
-"Getting the confidential data package by the identified hash. The request "
-"must be protected by the authorization."
+#: ../../how-to-use/rest-api-node/privacy.rst:129
+msgid "Получение пакета конфиденциальных данных по идентификационному хешу."
+msgstr "Getting the confidential data package by its identified hash."
 
 # 91938cce8bc44bc881e6aff7ba08f124
-#: ../../how-to-use/rest-api-node/privacy.rst:129
+#: ../../how-to-use/rest-api-node/privacy.rst:131
 msgid ""
 "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/"
 "NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
@@ -185,12 +177,12 @@ msgstr ""
 "NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
 
 # c86727f1926b4516b350d003645f8f48
-#: ../../how-to-use/rest-api-node/privacy.rst:133
+#: ../../how-to-use/rest-api-node/privacy.rst:135
 msgid "GET /privacy/getInfo/{hash}"
 msgstr "GET /privacy/getInfo/{hash}"
 
 # 069ea8dbbdc14064b46f223a27a17afb
-#: ../../how-to-use/rest-api-node/privacy.rst:137
+#: ../../how-to-use/rest-api-node/privacy.rst:139
 msgid ""
 "Получение метаданных для пакета конфиденциальных данных по "
 "идентификационному хешу."
@@ -199,7 +191,7 @@ msgstr ""
 "hash."
 
 # 4de43d0de27d4d6eabc745b12930256f
-#: ../../how-to-use/rest-api-node/privacy.rst:139
+#: ../../how-to-use/rest-api-node/privacy.rst:141
 msgid ""
 "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/"
 "NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
@@ -208,18 +200,14 @@ msgstr ""
 "NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
 
 # c86727f1926b4516b350d003645f8f48
-#: ../../how-to-use/rest-api-node/privacy.rst:160
+#: ../../how-to-use/rest-api-node/privacy.rst:162
 msgid "POST /privacy/forceSync"
 msgstr "POST /privacy/forceSync"
 
 # 916e08a5991d4ab796bd8a338d21bd34
-#: ../../how-to-use/rest-api-node/privacy.rst:162
-msgid ""
-"Запрос на принудительное получение пакета конфиденциальных данных. Запрос "
-"должен быть защищен авторизацией."
-msgstr ""
-"Forced getting the confidential data package by the identified hash. The "
-"request must be protected by the authorization."
+#: ../../how-to-use/rest-api-node/privacy.rst:166
+msgid "Запрос на принудительное получение пакета конфиденциальных данных."
+msgstr "Forced getting the confidential data package by the identified hash."
 
 # 0ae6cff62ab44e948395a4ea8fd1d72f
 #~ msgid "GET /privacy/{policy-id}/fullinfo"
@@ -246,3 +234,11 @@ msgstr ""
 # 357f96bbb3904958a5f9423159fc1440
 #~ msgid "Указанные в разделе запросы доступны в релизе 0.9 ноды Восток."
 #~ msgstr "The specified requests are available in 0.9 Vostok release."
+
+# 5039c42a0c1c43ffbd72442a6a328d8f
+#~ msgid ""
+#~ "Получение пакета конфиденциальных данных по идентификационному хешу. "
+#~ "Запрос должен быть защищен авторизацией."
+#~ msgstr ""
+#~ "Getting the confidential data package by the identified hash. The "
+#~ "request must be protected by the authorization."

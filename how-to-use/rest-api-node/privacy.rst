@@ -10,7 +10,9 @@ Privacy
 POST /privacy/sendData
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Запись конфиденциальных данных в хранилище ноды. Запрос должен быть защищен авторизацией.
+.. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
+
+Запись конфиденциальных данных в хранилище ноды.
 
 **Запрос метода:**
 
@@ -41,8 +43,6 @@ POST /privacy/sendData
 - info - информация о данных;
 - data - данные в бинарном представлении;
 - hash - хеш от данных.
-
-
 
 GET /privacy/{policy-id}/recipients
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -126,7 +126,7 @@ GET /privacy/getData/{hash}
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
-Получение пакета конфиденциальных данных по идентификационному хешу. Запрос должен быть защищен авторизацией.
+Получение пакета конфиденциальных данных по идентификационному хешу.
 
 Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
 
@@ -161,7 +161,9 @@ GET /privacy/getInfo/{hash}
 POST /privacy/forceSync
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Запрос на принудительное получение пакета конфиденциальных данных. Запрос должен быть защищен авторизацией.
+.. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
+
+Запрос на принудительное получение пакета конфиденциальных данных.
 
 Ответ метода:
 

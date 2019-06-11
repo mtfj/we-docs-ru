@@ -3,8 +3,6 @@
 Contracts
 ==========
 
-.. important:: Функциональность Docker-контрактов доступна начиная с релиза версии 0.8.
-
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
 
 GET /contracts
@@ -15,6 +13,7 @@ GET /contracts
 **Ответ метода**
 
 .. code:: js
+
    [
      {
        "contractId": "dmLT1ippM7tmfSC8u9P4wU6sBgHXGYy6JYxCq1CCh8i",
@@ -35,18 +34,18 @@ POST /contracts
 .. code:: js
 
    {
-      "dmLT1ippM7tmfSC8u9P4wU6sBgHXGYy6JYxCq1CCh8i": [
-        {
-          "type": "string",
-          "value": "11",
-          "key": "11"
-        },
-        {
-          "type": "string",
-          "value": "Only description",
-          "key": "Description"
-        }
-      ]
+     "8vBJhy4eS8oEwCHC3yS3M6nZd5CLBa6XNt4Nk3yEEExG": [
+      {
+      "type": "string",
+      "value": "Only description",
+      "key": "Description"
+      },
+      {
+      "type": "integer",
+      "value": -9223372036854776000,
+      "key": "key_may"
+      }
+     ]
     }
 
 GET /contracts/status/{id}
