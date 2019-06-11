@@ -1228,24 +1228,7 @@
 114. PolicyDataHashTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**JSON для вызова метода sign**
-
-.. code:: js
-
-  {
-    "fee": 15000000,
-    "type": "file",
-    "sender": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
-    "password": "",
-    "policyId": "4GR ... LkuCg==",
-    "hash": "9wetTBDx ... mrwXZ94ESU2zr1Uh",
-    "info": {  "filename":"Contract.doc",  
-               "size": 2048,  
-               "timestamp": 1000000000,  
-               "author": "petrov@org.com",  
-               "comment": "Comments" }
-  }
-
+Данная транзакция отправляется в сеть нодой автоматически, когда пользователь применяет метод :ref:`POST /privacy/sendData <privacy-api>` для отправки конфиденциальных данных.
 
 
 ..  .. _SponsorFeeTransaction:

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 15:56+0300\n"
-"PO-Revision-Date: 2019-06-05 16:47+0300\n"
+"POT-Creation-Date: 2019-06-11 10:11+0300\n"
+"PO-Revision-Date: 2019-06-11 10:44+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -130,7 +130,6 @@ msgstr ""
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:30
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:36
 msgid "0.01VST"
 msgstr ""
@@ -370,7 +369,9 @@ msgid ":ref:`CallContract Transaction <CallContractTransaction>`"
 msgstr ""
 
 # 218cb6ea7cd842a9ae595b4f3397f275
+# 13d51e820f0f4e069fb90a4a683d03ef
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:32
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
 msgid "0.1VST"
 msgstr ""
 
@@ -714,7 +715,6 @@ msgstr "String"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1148
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1167
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1197
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1231
 msgid "**JSON для вызова метода sign**"
 msgstr "**JSON to sign**"
 
@@ -1017,6 +1017,17 @@ msgstr "113. UpdatePolicyTransaction"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1229
 msgid "114. PolicyDataHashTransaction"
 msgstr "114. PolicyDataHashTransaction"
+
+# e97431864cda4bb885e4a6505102677d
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1231
+msgid ""
+"Данная транзакция отправляется в сеть нодой автоматически, когда пользователь "
+"применяет метод :ref:`POST /privacy/sendData <privacy-api>` для отправки "
+"конфиденциальных данных."
+msgstr ""
+"This transaction is sent automatically to the network by the node when the user "
+"sends confidential data by the method :ref:`POST /privacy/sendData <privacy-"
+"api>`."
 
 # f38ad577ec7a4a4ab0307689926f4379
 #~ msgid ""

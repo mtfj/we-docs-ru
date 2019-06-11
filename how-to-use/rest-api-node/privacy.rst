@@ -5,6 +5,8 @@ Privacy
 
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
 
+.. _privacy-senddata:
+
 POST /privacy/sendData
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
