@@ -193,7 +193,7 @@
 
   ::
 
-    java -jar generators-x.x.x.jar PrivacyApiKeyHash api-key-hash.conf
+    java -jar generators-x.x.x.jar ApiKeyHash api-key-hash.conf
 
 Полученное в результате исполнения утилиты значение указать в параметре ``privacy-api-key-hash`` конфигурационного файла ноды.
 
