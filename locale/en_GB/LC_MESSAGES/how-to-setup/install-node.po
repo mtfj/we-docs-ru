@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-10 12:49+0300\n"
-"PO-Revision-Date: 2019-06-10 12:51+0300\n"
+"POT-Creation-Date: 2019-06-14 12:43+0300\n"
+"PO-Revision-Date: 2019-06-14 12:45+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -24,13 +24,22 @@ msgstr ""
 msgid "Установка ноды"
 msgstr "Node Installation"
 
+# 3481d5813395494ab73cfbfbb43db2c9
+#: ../../how-to-setup/install-node.rst:6
+msgid ""
+"Во избежание конфликтов ПО установку нод для платформы Vostok необходимо "
+"выполнять на отдельной машине от нод блокчейн-платформы Waves."
+msgstr ""
+"To avoid software conflicts Vostok nodes installation must be performed on a "
+"separate machine from the Waves blockchain platform nodes."
+
 # 5172de57abc345ddafd32119c8cf4698
-#: ../../how-to-setup/install-node.rst:9
+#: ../../how-to-setup/install-node.rst:11
 msgid "Установка на Windows"
 msgstr "Installing for Windows"
 
 # 9a3900943c154d299102bdb1e1e8c905
-#: ../../how-to-setup/install-node.rst:11 ../../how-to-setup/install-node.rst:57
+#: ../../how-to-setup/install-node.rst:13 ../../how-to-setup/install-node.rst:59
 msgid ""
 "Скачайте и установите `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/"
 "java/javase/downloads/2133155>`_."
@@ -51,7 +60,7 @@ msgid ""
 msgstr "If you see the following result, you can proceed to the next step."
 
 # 664912f1ec0c481f841c3b28a28b962f
-#: ../../how-to-setup/install-node.rst:21 ../../how-to-setup/install-node.rst:74
+#: ../../how-to-setup/install-node.rst:23 ../../how-to-setup/install-node.rst:76
 msgid ""
 "Скачайте и установите `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/"
 "csp/jcp>`_ (или версию выше)."
@@ -60,7 +69,7 @@ msgstr ""
 "jcp>`_ (or higher version)."
 
 # 8382e111ea1541f0a078b1e7fc265718
-#: ../../how-to-setup/install-node.rst:23
+#: ../../how-to-setup/install-node.rst:25
 msgid ""
 "При использовании Waves-криптографии устанавливать CryptoPro JCP 2.0 "
 "необязательно."
@@ -94,7 +103,7 @@ msgstr ""
 "exe file of JRE package is specified correctly in the system ``PATH`` variable."
 
 # ef033987891747a0b632bf268f6a36a4
-#: ../../how-to-setup/install-node.rst:36
+#: ../../how-to-setup/install-node.rst:38
 msgid ""
 "Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/"
 "releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы "
@@ -112,12 +121,12 @@ msgid "Самая свежая версия приложений находит�
 msgstr "Latest version of application is available in the page header:"
 
 # ed3e567e10b3407d9a5597b89f8c3f4c
-#: ../../how-to-setup/install-node.rst:42
+#: ../../how-to-setup/install-node.rst:44
 msgid "node-x.x.x.jar - приложение ноды Vostok;"
 msgstr "node-x.x.x.jar - Vostok Node Application;"
 
 # 7eb7a45aca9348aca1f219a00c5870c6
-#: ../../how-to-setup/install-node.rst:43
+#: ../../how-to-setup/install-node.rst:45
 msgid ""
 "generators-x.x.x.jar - утилита для настройки параметров ноды Vostok и создания "
 "аккаунтов пользователей."
@@ -126,7 +135,7 @@ msgstr ""
 "creating user accounts."
 
 # ce9d1647be544db99fcf5981131675bb
-#: ../../how-to-setup/install-node.rst:45
+#: ../../how-to-setup/install-node.rst:47
 msgid ""
 "Отредактируйте ``example.conf`` в соответствии с руководством :ref:"
 "`Конфигурация ноды <configuration>`."
@@ -135,17 +144,17 @@ msgstr ""
 "Configuration <configuration>`."
 
 # 20f82d7cd56a43bd80afe4dbbbc9c120
-#: ../../how-to-setup/install-node.rst:46
+#: ../../how-to-setup/install-node.rst:48
 msgid "Запустите ноду коммандой:"
 msgstr "Launch the node using the command:"
 
 # e06a32c44ad24dbc949961853404da38
-#: ../../how-to-setup/install-node.rst:55
+#: ../../how-to-setup/install-node.rst:57
 msgid "Установка на Ubuntu"
 msgstr "Ubuntu installation"
 
 # 8961937bb98b443898f20c4dde7e5102
-#: ../../how-to-setup/install-node.rst:65
+#: ../../how-to-setup/install-node.rst:67
 msgid ""
 "Корректность установки можно проверить командой ``java -version``. Если "
 "отображается следующий результат, то можно переходить к следующему шагу."
@@ -154,7 +163,7 @@ msgstr ""
 "version``. If you see the following result, you can proceed to the next step."
 
 # c27d4b5dde924309904d460b9edc13ab
-#: ../../how-to-setup/install-node.rst:76
+#: ../../how-to-setup/install-node.rst:78
 msgid ""
 "Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/"
 "releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со "
@@ -167,7 +176,7 @@ msgstr ""
 "master/configs>`_."
 
 # ce9d1647be544db99fcf5981131675bb
-#: ../../how-to-setup/install-node.rst:78
+#: ../../how-to-setup/install-node.rst:80
 msgid ""
 "Отредактируйте ``example.conf`` в соответствии с руководством :ref:`"
 "\"Конфигурация ноды\" <configuration>`."
@@ -176,32 +185,32 @@ msgstr ""
 "Configuration <configuration>`."
 
 # bfb2339a463e41fdae235374965bfdd0
-#: ../../how-to-setup/install-node.rst:80
+#: ../../how-to-setup/install-node.rst:82
 msgid "Установите ноду из deb-пакета. Команда для установки:"
 msgstr "Install the node from the deb-package. The installation command:"
 
 # 8fbd8cd8f5ab4582bf759306fe642208
-#: ../../how-to-setup/install-node.rst:87
+#: ../../how-to-setup/install-node.rst:89
 msgid "Директория для конфигурационного файла - /etc/vostok/vostok.conf"
 msgstr "Directory for configuration file - /etc/vostok/vostok.conf"
 
 # 3d1cc69a22cf41a884dd0fab3d77c094
-#: ../../how-to-setup/install-node.rst:88
+#: ../../how-to-setup/install-node.rst:90
 msgid "Директория для jar-файла и библиотек - /usr/share/vostok/"
 msgstr "Directory for jar-file and libraries - /usr/share/vostok/"
 
 # 1837c9964982449081ea06dbdaca98d1
-#: ../../how-to-setup/install-node.rst:89
+#: ../../how-to-setup/install-node.rst:91
 msgid "Директория для данных блокчейна - /var/lib/vostok/"
 msgstr "Directory for blockchain data - /var/lib/vostok/"
 
 # 4734cd803c3f456fb0579ca192e22f43
-#: ../../how-to-setup/install-node.rst:91
+#: ../../how-to-setup/install-node.rst:93
 msgid "Запуск ноды выполняется командой:"
 msgstr "Launch the node using the command:"
 
 # 67099873070343848b2b4769286cf52e
-#: ../../how-to-setup/install-node.rst:97
+#: ../../how-to-setup/install-node.rst:99
 msgid "Остановка ноды выполняется командой:"
 msgstr "Stop the node using the command:"
 
