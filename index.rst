@@ -32,6 +32,7 @@
    :name: how-to-use
 
    how-to-use/add-node-mainnet
+   how-to-use/add-node-partnernet
    how-to-use/rest-api-node
    how-to-use/smart-contracts-docker
    how-to-use/role-management
