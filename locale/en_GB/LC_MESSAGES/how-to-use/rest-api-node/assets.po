@@ -7,46 +7,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-03-24 10:30+0300\n"
+"POT-Creation-Date: 2019-05-27 17:31+0300\n"
+"PO-Revision-Date: 2019-05-27 17:37+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 3b13b4ef4a0d4afaaecaa73543c21424
+# 19e3f5a013dc471d8ef2c83ea1b6b85b
 #: ../../how-to-use/rest-api-node/assets.rst:2
 msgid "Assets"
 msgstr "Assets"
 
-# ce621ea0200646d08bfa4fc43f90ab43
+# a2153c7e64c046509b4472e5293c737a
 #: ../../how-to-use/rest-api-node/assets.rst:4
 msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
-"The rules for generating queries to the node are given in module :"
-"ref:'rest-api-node`."
+"The rules for generating queries to the node are given in module :ref:"
+"`rest-api-node`."
 
-# 48dc6e9791ab490f95c9fecefba12dd8
+# 4b97b9a2a86a4dba8f3ef563464f3d68
 #: ../../how-to-use/rest-api-node/assets.rst:7
 msgid "GET /assets/balance/{address}"
 msgstr "GET/assets/balance/{address}"
 
-# c7929757ba124081bcab576dcebdc5a7
+# af18d9132b5b4ebda832df0e266660da
 #: ../../how-to-use/rest-api-node/assets.rst:9
 msgid "Возвращает баланс всех ассетов адресата {address}."
 msgstr "Returns balance of all address {address} assets."
 
-# 9cf7c011e4e148a49118d1832e483f68
-# 3ec2ed04df764303aef73bd58dbd5996
-# 88cdfd43a86e4400836b0bb668c87b12
-# 84f902e19c4140c6be9efce9f73fdbd6
+# 248b8237a6d54f869f2ccbdbedc1c8f5
+# eddb716b0a2047a9938bcff376c2c047
+# 4d05151994ae4521a5b1d0ad7b6a5aae
+# 88a270e2621b4d0196cdfd6b7adf16c1
 #: ../../how-to-use/rest-api-node/assets.rst:11
 #: ../../how-to-use/rest-api-node/assets.rst:60
 #: ../../how-to-use/rest-api-node/assets.rst:75
@@ -54,47 +54,47 @@ msgstr "Returns balance of all address {address} assets."
 msgid "**Ответ метода:**"
 msgstr "**Method Response:**"
 
-# 0ea7086fc7ef4cf0ad6b51a4300810f2
+# bb4659348abf41ccbfc3895af38b00ea
 #: ../../how-to-use/rest-api-node/assets.rst:43
 msgid "**Параметры метода:**"
 msgstr "**Method Parameters:**"
 
-# f3e5e956da574def8e4c4f6f9e464565
+# 5bfacb615ddf477d9a59551fae0a764f
 #: ../../how-to-use/rest-api-node/assets.rst:45
 msgid "\"address\" -  адрес участника"
 msgstr "\"Address\" - participant address"
 
-# 6f26992e4bc74a2bb366e5d85bcc9c2d
+# 231ac2e4baea4b859f3721f88d9d0d4f
 #: ../../how-to-use/rest-api-node/assets.rst:46
 msgid "\"balances\" - объект с балансами участника"
 msgstr "\"balances\" - object with participant balance"
 
-# edd6e8f7ad0c4b79820c7bb452f7130b
+# 349aea6822264958b9a496036c8ca6d6
 #: ../../how-to-use/rest-api-node/assets.rst:47
 msgid "\"assetId\" - ассет ID"
 msgstr "\"assetId\" - asset ID"
 
-# 1bb7cbdf177f487094357cdedf1f94a3
+# 149d5bf5cad34df78ca48187165bbca0
 #: ../../how-to-use/rest-api-node/assets.rst:48
 msgid "\"balance\" - баланс ассета"
 msgstr "\"balance\" - asset balance"
 
-# a820ce4c0d50459f862bade806019507
+# d0d28b2662cb4556b76073d1fb50a45e
 #: ../../how-to-use/rest-api-node/assets.rst:49
 msgid "\"quantity\" - кол-во выпущенных ассетов"
 msgstr "\"quantity\" - number of issued assets"
 
-# 501a98635e184461b3b94b6813a3dcdb
+# 91a529ded989449eb571b9a1d23a63f0
 #: ../../how-to-use/rest-api-node/assets.rst:50
 msgid "\"reissuable\" - признак может быть ассет перевыпущен или нет"
 msgstr "\"reissuable\" - indicator whether asset can be reissued or not"
 
-# 9cbf8fa229ef4fbfb409e79734ddedfb
+# d02e0634be8648519fadb1b908bafc2b
 #: ../../how-to-use/rest-api-node/assets.rst:51
 msgid "\"issueTransaction\" - транзакция создания ассета"
 msgstr "\"issueTransaction\" - asset creation transaction"
 
-# 6ccda2097c8249769fc64bae7cf5d5fc
+# 4caadc6b1ca74565864e806eef2d9083
 #: ../../how-to-use/rest-api-node/assets.rst:52
 msgid ""
 "\"minSponsoredAssetFee\" - минимальное значение коммиссии для "
@@ -103,7 +103,7 @@ msgstr ""
 "\"minSponsoredAssetFee\" - minimum value of fee for sponsorship "
 "transactions"
 
-# 07c7fa5aec8f412b9a3c498f1213a8ab
+# 0b3efb87502f49baa3bae799519fdf10
 #: ../../how-to-use/rest-api-node/assets.rst:53
 msgid ""
 "\"sponsorBalance\" - средства, выделенные для оплаты транзакций по "
@@ -112,32 +112,47 @@ msgstr ""
 "\"sponsorBalance\" - assets allocated for payment of sponsored asset "
 "transactions"
 
-# a177668e96d8478782e153f5ca299e36
+# a48969ef4f59434abddaf9eb67ca5a15
 #: ../../how-to-use/rest-api-node/assets.rst:56
 msgid "GET /assets/balance/{address}/{assetId}"
 msgstr "GET /assets/balance/{address}/{assetId}"
 
-# f6ab7bc0fa934f51abadb1e6716bf015
+# 3c22ef0f0ab244cb981a665e348fd8db
 #: ../../how-to-use/rest-api-node/assets.rst:58
 msgid "Возвращает баланс адресата {address} по ассету {assetId}."
 msgstr "Returns address {address} balance by asset {assetId}."
 
-# 8c7d67a64d4f43618cdb050e3963c868
+# e9400b1254e948a49091745051cfe4b8
 #: ../../how-to-use/rest-api-node/assets.rst:71
 msgid "GET /assets/details/{assetId}"
 msgstr "GET /assets/details/{assetId}"
 
-# b1b4fd0b7c2f4854aff6a9ea13222a14
+# 351e321dbd084c938f61daa315d7221d
 #: ../../how-to-use/rest-api-node/assets.rst:73
 msgid "Возвращает описание ассета {assetId}."
 msgstr "Returns description of asset {assetId}."
 
-# 5e3b9c00a8a24dcb8a32662d92558fbc
+# 5c82bbe0e66148119f83ee9c99da4796
 #: ../../how-to-use/rest-api-node/assets.rst:99
 msgid "GET /assets/{assetId}/distribution"
 msgstr "GET /assets/{assetId}/distribution"
 
-# ac64a1b314ab4a40a6052d39616dae9d
+# 4a88491cc7894d3f9bdaea60337b769c
 #: ../../how-to-use/rest-api-node/assets.rst:101
 msgid "Возвращает распределение ассета {assetId}."
 msgstr "Returns distribution of asset {assetId}."
+
+# cd54ba62a00642dbbf0e82ee31012e19
+#: ../../how-to-use/rest-api-node/assets.rst:113
+msgid "POST /assets/balance"
+msgstr "POST /assets/balance"
+
+# 9ec0e6d33d5348a9a32d479048f274b0
+#: ../../how-to-use/rest-api-node/assets.rst:115
+msgid "Возвращает баланс ассетов для одного или нескольких адресов."
+msgstr "Returns the assets balance for one or few addresses."
+
+# fe57cfa59ead4139aaaba75b70e0fbd0
+#: ../../how-to-use/rest-api-node/assets.rst:117
+msgid "**Ответ метода**"
+msgstr "**Method Response**"

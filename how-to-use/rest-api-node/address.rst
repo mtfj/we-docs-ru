@@ -4,7 +4,7 @@ Address
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
    
 GET /addresses
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 Получение всех адресов участников, ключевые пары которых хранятся в keystore ноды.
 
@@ -18,7 +18,7 @@ GET /addresses
   ]
 
 GET /addresses/seq/{from}/{to}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Получение всех адресов участников, ключевые пары которых хранятся в keystore ноды в заданном диапазоне.
 
@@ -32,7 +32,7 @@ GET /addresses/seq/{from}/{to}
   ]
 
 GET /addresses/balance/{address}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Получение баланса для адреса {address}.
 
@@ -54,14 +54,15 @@ POST /addresses/balance/details
 **Запрос метода:**
 
 .. code:: js
-  {
-    "addresses": [
+
+   {
+      "addresses": [
       "3N65yEf31ojBZUvpu4LCo7n8D73juFtheUJ", "3N11u447zghwj9MemYkrkt9v9xDaMwTY9nG"
-    ]
-  }
+      ]
+   }
 
 GET /addresses/effectiveBalance/{address}/{confirmations}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Получение баланса для адреса {address} после количества подтверждений >= значению {confirmations}.
 Возвращается общий баланс участника, включая средства переданные участнику за лизинг.
@@ -69,14 +70,31 @@ GET /addresses/effectiveBalance/{address}/{confirmations}
 **Ответ метода:**
 
 .. code:: js
+
   {
     "address": "3N65yEf31ojBZUvpu4LCo7n8D73juFtheUJ",
     "confirmations": 1,
     "balance": 0
   }
 
+GET /addresses/effectiveBalance/{address}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Возвращает общий баланс аккаунта.
+
+**Ответ метода**
+
+.. code:: js
+   
+   {
+      "address": "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "confirmations": 0,
+      "balance": 1240001592820000
+   }
+
 GET /addresses/balance/details/{address}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Возвращает подробные сведения о балансе адресата {address}.
 
 **Запрос метода:**
@@ -111,7 +129,7 @@ GET /addresses/balance/details/{address}
 - Generating — минимальный баланс участинка, включая средства переденные участнику за лизинг, за последние 1000 блоков (используется для майнинга)
 
 GET /addresses/scriptInfo/{address}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Получение данных об установленном скрипте на адресе {address}.
 
@@ -154,12 +172,12 @@ POST /addresses/sign/{address}
 **Ответ метода:**
 
 .. code:: js
+
   {
     "message": "wWshKhJj",
     "publicKey": "C1ADP1tNGuSLTiQrfNRPhgXx59nCrwrZFRV4AHpfKBpZ",
     "signature": "62PFG855ThsEHUZ4N8VE8kMyHCK9GWnvtTZ3hq6JHYv12BhP1eRjegA6nSa3DAoTTMammhamadvizDUYZAZtKY9S"
   }
-
 
 POST /addresses/verify/{address}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -187,7 +205,7 @@ POST /addresses/verify/{address}
   }
 
 POST /addresses/signText/{address}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
@@ -204,6 +222,7 @@ POST /addresses/signText/{address}
 **Ответ метода:**
 
 .. code:: js
+
   {
     "message": "message",
     "publicKey": "C1ADP1tNGuSLTiQrfNRPhgXx59nCrwrZFRV4AHpfKBpZ",
@@ -220,13 +239,14 @@ POST /addresses/verifyText/{address}
 **Запрос метода:**
 
 .. code:: js
+
   {
     "message": "message",
     "publicKey": "C1ADP1tNGuSLTiQrfNRPhgXx59nCrwrZFRV4AHpfKBpZ",
     "signature": "5kVZfWfFmoYn38cJfNhkdct5WCyksMgQ7kjwHK7Zjnrzs9QYRWo6HuJoGc8WRMozdYcAVJvojJnPpArqPvu2uc3u"
   }
 
- **Ответ метода:**
+**Ответ метода:**
 
 .. code:: js
 
@@ -234,9 +254,9 @@ POST /addresses/verifyText/{address}
     "valid": true
   } 
 
-
 GET /addresses/validate/{addressOrAlias}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Проверяет корректность заданого адресата или его псевдонима {addressOrAlias} в блокчейн-сети работающей ноды.
 
 **Ответ метода:**
@@ -250,6 +270,8 @@ GET /addresses/validate/{addressOrAlias}
 
 POST /addresses/validateMany
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Проверяет валидность адресов или алиасов.
 
 **Запрос метода:**
 
@@ -266,6 +288,7 @@ POST /addresses/validateMany
 **Ответ метода:**
 
 .. code:: js
+
   {
     validations: [
       {
@@ -286,17 +309,20 @@ POST /addresses/validateMany
 
 GET /addresses/publicKey/{publicKey}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Возвращает адрес участника на основании его публичного ключа.
 
 **Ответ метода:**
 
 .. code:: js
+
   {
     "address": "3N4WaaaNAVLMQgVKTRSePgwBuAKvZTjAQbq"
   }
 
 GET /addresses/data/{address}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Возвращает все данные, записанные на аккаунт адресата {address}.
 
 **Ответ метода:**
@@ -313,6 +339,7 @@ GET /addresses/data/{address}
 
 GET /addresses/data/{address}/{key}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Возвращает данные, записанные на аккаунт адресата {address} по ключу {key}.
 
 **Ответ метода:**

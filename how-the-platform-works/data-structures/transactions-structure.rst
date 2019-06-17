@@ -8,36 +8,68 @@
 
 .. table:: Типы транзакций
 
-===   =============================================================================   ===================================== 
-№	  Тип транзакции                                                                    Комиссия      
-===   =============================================================================   ===================================== 
-1	  :ref:`Genesis transaction <GenesisTransaction>`                                   отсутствует    
+===   =============================================================================   ====================   ======================================================================
+№	  Тип транзакции                                                                  Комиссия               Описание                                               
+===   =============================================================================   ====================   ======================================================================
+1	  :ref:`Genesis transaction <GenesisTransaction>`                                 отсутствует            Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод
 2	  Payment Transaction (не используется)                                                         
-3	  :ref:`Issue Transaction <issueTransaction>`                                       1 - 1.004VST               
-4	  :ref:`Transfer Transaction <TransferTransaction>`                                 0.001 - 0.009VST              
-5	  :ref:`Reissue Transaction <ReissueTransaction>`                                   1 - 1.008VST              
-6	  :ref:`Burn Transaction <BurnTransaction>`                                         0.001 - 0.009VST              
-7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`               0.003 - 0.007VST             
-8	  :ref:`Lease Transaction <LeaseTransaction>`                                       0.001 - 0.005VST              
-9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                          0.001 - 0.005VST              
-10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                          0.001 - 0.005VST               
-11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                         0.001 - 0.009VST              
-12	  :ref:`Data Transaction <DataTransaction>`                                         0.001 - 0.005VST              
-13	  :ref:`SetScript Transaction <SetScriptTransaction>`                               0.01 - 0.014VST                
-14	  :ref:`SponsorFee Transaction (не используется) <SponsorFeeTransaction>`           1 - 1.004VST              
-15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                                 0.996 - 1VST               
-101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                  отсутствует                
-102   :ref:`Permission Transaction <PermitTransaction>`                                 0VST                
-103   :ref:`CreateContract Transaction <CreateContractTransaction>`                     1 - 1.004VST                
-104   :ref:`CallContract Transaction <CallContractTransaction>`                         0.15 - 0.154VST                
-105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`                 отсутствует                
-106   :ref:`DisableContract Transaction <DisableContractTransaction>`                   0.15 - 0.154VST
-110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`           0-0.004VST                
-111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                         отсутствует               
-112   :ref:`CreatPolicy Transaction <CreatPolicyTransaction>`                           отсутствует               
-113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                         отсутствует               
-114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                     отсутствует                  
-===   =============================================================================   =====================================
+3	  :ref:`Issue Transaction <issueTransaction>`                                     1VST                   Выпуск токенов     
+4	  :ref:`Transfer Transaction <TransferTransaction>`                               0.01VST                Перевод токенов        
+5	  :ref:`Reissue Transaction <ReissueTransaction>`                                 1VST                   Перевыпуск токенов    
+6	  :ref:`Burn Transaction <BurnTransaction>`                                       0.05VST                Сжигание токенов        
+7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`                                                       
+8	  :ref:`Lease Transaction <LeaseTransaction>`                                     0.01VST                Передача токенов в аренду
+9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.01VST                Отмена аренды токенов        
+10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                        1VST                   Создание псевдонима         
+11	  :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.05VST                Массовый перевод токенов. Указана минимальная комиссия
+12	  :ref:`Data Transaction <DataTransaction>`                                       0.05VST                Транзакция с данными в виде полей с парой ключ-значение. Указана минимальная комиссия
+13	  :ref:`SetScript Transaction <SetScriptTransaction>`                             0.5VST                 Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
+14	  SponsorFee Transaction (не используется)              
+15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               1VST                   Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
+101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                отсутствует            Назначение первого администратора сети для дальнейшей раздачи прав
+102   :ref:`Permission Transaction <PermitTransaction>`                               0.01VST                Выдача/отзыв прав у аккаунта
+103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1VST                   Создание Docker-контракта      
+104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.1VST                 Вызов Docker-контракта         
+105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`               отсутствует            Выполнение Docker-контракта     
+106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.1VST                 Отключение Docker-контракта
+110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         отсутствует            Регистрация ноды в генезис-блоке при старте блокчейна    
+111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       0.01VST                Регистрация новой ноды в сети    
+112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       1VST                   Создание группы доступа к конфиденциальным данным  
+113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       0.5VST                 Изменение группы доступа    
+114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   0.05VST                Отправка в сеть хеша данных       
+===   =============================================================================   ====================   ======================================================================
+
+
+.. .. csv-table:: Типы транзакций
+   :header: "№","Тип транзакции","Комиссия","Описание"
+   :widths: 10, 30, 25, 50
+   1,:ref:`Genesis transaction <GenesisTransaction>`,отсутствует
+   2,Payment Transaction (не используется)
+   3,:ref:`Issue Transaction <issueTransaction>`,1 - 1.004VST,Выпуск токенов     
+   4,:ref:`Transfer Transaction <TransferTransaction>`,0.001 - 0.009VST,Перевод токенов        
+   5,:ref:`Reissue Transaction <ReissueTransaction>`,1 - 1.008VST,Перевыпуск токенов    
+   6,:ref:`Burn Transaction <BurnTransaction>`,0.001 - 0.009VST,Сжигание токенов        
+   7,:ref:`Exchange Transaction (не используется) <ExchangeTransaction>`,0.003 - 0.007VST,Обмен токенами       
+   8,:ref:`Lease Transaction <LeaseTransaction>`,0.001 - 0.005VST,Аренда токенов        
+   9,:ref:`Lease Cancel Transaction <LeaseCancelTransaction>`,0.001 - 0.005VST,Отмена аренды токенов        
+   10,:ref:`Create Alias Transaction <CreateAliasTransaction>`,0.001 - 0.005VST,Создание псевдонима         
+   11,:ref:`MassTransfer Transaction <MassTransferTransaction>`,0.001 - 0.009VST,Массовый перевод токенов        
+   12,:ref:`Data Transaction <DataTransaction>`,0.001 - 0.005VST,Транзакция с данными в виде полей с парой ключ-значение    
+   13,:ref:`SetScript Transaction <SetScriptTransaction>`,0.01 - 0.014VST,Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
+   14,SponsorFee Transaction (не используется)              
+   15,:ref:`SetAssetScript <SetAssetScriptTransaction>`,0.996 - 1VST,Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
+   101,:ref:`Genesis Permission Transaction <GenesisPermitTransaction>`,отсутствует,Назначение первого администратора сети для дальнейшей раздачи прав
+   102,:ref:`Permission Transaction <PermitTransaction>`,0VST,Выдача/забор прав у аккаунта
+   103,:ref:`CreateContract Transaction <CreateContractTransaction>`,1 - 1.004VST,Создание Docker-контракта      
+   104,:ref:`CallContract Transaction <CallContractTransaction>`,0.15 - 0.154VST,Вызов Docker-контракта         
+   105,:ref:`ExecutedContract Transaction <ExecutedContractTransaction>`,отсутствует,Выполнение Docker-контракта     
+   106,:ref:`DisableContract Transaction <DisableContractTransaction>`,0.15 - 0.154VST,Отключение Docker-контракта
+   110,:ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`,0-0.004VST,Регистрация ноды в генезис-блоке при старте блокчейна    
+   111,:ref:`RegisterNode Transaction <RegisterNodeTransaction>`,отсутствует,Регистрация новой ноды в сети    
+   112,:ref:`CreatePolicy Transaction <CreatePolicyTransaction>`,отсутствует,Создание политики доступа к конфиденциальным данным  
+   113,:ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`,отсутствует,Изменение политики доступа    
+   114,:ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`,отсутствует,Отправка в сеть хэша данных 
+
 
 .. 107   :ref:`UpdateContract Transaction <UpdateContractTransaction>`                     0.15 - 0.154VST                
 
@@ -58,21 +90,6 @@
    recipient        ,+      ,+      ,ByteStr
    amount           ,+      ,+      ,Long
    height           ,+      ,       , 
-
-**Broadcasted JSON**
-
-.. code:: js
-    
-    {
-        "type": 1,
-        "id": "VXRnximYkigS8quMiqJ2HCkhjhnjDpN4m92dHwo2TqrPiDnkJexKUbhQGj8asUz8AXmNjsSpJPDwJU5Jbuak1FJ",
-        "fee": 0,
-        "timestamp": 1500635421931,
-        "signature": "VXRnximYkigS8quMiqJ2HCkhjhnjDpN4m92dHwo2TqrPiDnkJexKUbhQGj8asUz8AXmNjsSpJPDwJU5Jbuak1FJ",
-        "recipient": "3Mx5sDq4NXef1BRzJRAofa3orYFxLanxmd7",
-        "amount": 125000000000000,
-        "height": 1
-    }
 
 .. _issueTransaction:
 
@@ -172,13 +189,18 @@
 .. code:: js
 
     {
-        "type": 4,
-        "version": 2,
-        "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-        "recipient": "3P8JYPHrnXSfsWP1LVXySdzU1P83FE1ssDa",
-        "amount": 1317209272,
-        "fee": 100000,
-    }
+        "type":4,
+        "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+        "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+        "fee":100000,
+        "proofs":[],
+        "version":2,
+        "recipient":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL", 
+        "assetId":null,
+        "feeAssetId":null,
+        "amount": 200000000,
+        "attachment":"3uaRTtZ3taQtRSmquqeC1DniK3Dv"
+    } 
 
 
 **Broadcasted JSON**
@@ -186,19 +208,21 @@
 .. code:: js
 
     {
-        "type": 4,
-        "id": "DZr3GPBmKDk82qHjMDszNRDMc8EqRewf43c5MH89cZ59",
-        "sender": "3MrjPoYMCki2vEjb3wD1gmofdQnhk8Pd2zW",
-        "senderPublicKey": "3Zf1txFhc945XG4tzVaRcQQFqLPKWivZwRfWsGsuAg5u",
+        "senderPublicKey": "4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+        "amount": 200000000,
         "fee": 100000,
-        "timestamp": 1549378440887,
-        "proofs": [ "3GJoM8sC3ZBfVKpKZpfPAsS3cchG2LYL2CLWhZC6HCfRtfCX1UJET82DeV1XvSBpPdyS9CgH5iRRCsJDsFHZnk32" ],
+        "type": 4,
         "version": 2,
-        "recipient": "3N65yEf31ojBZUvpu4LCo7n8D73juFtheUJ",
+        "attachment": "3uaRTtZ3taQtRSmquqeC1DniK3Dv",
+        "sender": "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+        "feeAssetId": null,
+        "proofs": [
+        "2hRxJ2876CdJ498UCpErNfDSYdt2mTK4XUnmZNgZiq63RupJs5WTrAqR46c4rLQdq4toBZk2tSYCeAQWEQyi72U6"
+        ],
         "assetId": null,
-        "amount": 5000000000,
-        "attachment": "",
-        "height": 3049
+        "recipient": "3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL",
+        "id": "757aQzJiQZRfVRuJNnP3L1d369H2oTjUEazwtYxGngCd",
+        "timestamp": 1558952680800
     }
 
 .. _ReissueTransaction:
@@ -699,29 +723,6 @@
         "height": 3805
     }
 
-.. _SponsorFeeTransaction:
-
-14. SponsorFeeTransaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
-
-   type                ,+       ,+      ,+      ,Byte
-   id                  ,        ,+      ,       ,Byte
-   sender              ,+       ,+      ,       ,PublicKeyAccount
-   senderPublicKey     ,        ,+      ,+      ,PublicKeyAccount
-   fee                 ,+       ,+      ,+      ,Long
-   timestamp           ,+ (opt) ,+      ,+      ,Long
-   proofs              ,        ,+      ,+      ,List[ByteStr]
-   version             ,+       ,+      ,+      ,Byte
-   assetId             ,+       ,+      ,       ,ByteStr
-   minSponsorAssetFee  ,+ (opt) ,       ,+      ,
-   password            ,+ (opt) ,       ,       ,String
-   height              ,        ,+      ,       ,
-
-
 .. _SetAssetScriptTransaction:
 
 15. SetAssetScriptTransaction
@@ -828,30 +829,34 @@
 
    {
       "type":102,
-      "sender":"3LWg4n6VmN6DKBSwGF1hwnaCzXdjMkQCFrn",
-      "target":"3LMKWgu7cZFPiVewYZDBn54HdVT86RfREGc",
-      "role":"issuer",
+      "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "fee":0,
+      "proofs":[""],
+      "target":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL",
       "opType":"add",
-      "dueTimestamp":1528975127294
-   }
+      "role":"contract_developer",
+      "dueTimestamp":null
+    }
 
 **Broadcasted JSON**
 
 .. code:: js
 
     {
-        "type" : 102,
-        "id" : "B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz",
-        "sender" : "3LWg4n6VmN6DKBSwGF1hwnaCzXdjMkQCFrn",
-        "senderPublicKey" : "CaFrRzAv7B3DrECR4i2Los1DwxHj4yKAEKCT3zEke9U4",
-        "fee" : 0,
-        "timestamp" : 1549030854292,
-        "proofs" : [ "3n8h7uswSqCSuYZf6oiUzsQPQLWfL6yhTGwrhZ46uJqubcPLFan312dKdQs8Lwyvh5t9VgMo1CsNHSsd7F5hbG83" ],
-        "target" : "3LMKWgu7cZFPiVewYZDBn54HdVT86RfREGc",
-        "opType" : "add",
-        "role" : "issuer",
-        "dueTimestamp" : 1528975127294,
-        "height" : 4400
+      "senderPublicKey": "4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "role": "contract_developer",
+      "sender": "3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "proofs": [
+        "5ABJCRTKGo6jmDZCRWcLQc257CCeczmcjmtfJmbBE7TP3KsVkwvisH9kEkfYPckVCzEMKZTCd3LKAPcN8o4Git3j"
+      ],
+      "fee": 0,
+      "opType": "add",
+      "id": "8zVUH7nsDCcpwyfxiq8DCTgqL7Q23FW1KWepB9EZcFG6",
+      "type": 102,
+      "dueTimestamp": null,
+      "timestamp": 1559048837487,
+      "target": "3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL"
     }
 
 .. _CreateContractTransaction:
@@ -1084,11 +1089,6 @@
     "height": 1632 
     }
 
-.. .. _UpdateContractTransaction:
-107. UpdateContractTransaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 .. _GenesisRegisterNodeTransaction:
 
@@ -1121,7 +1121,7 @@
    id               ,       ,+      ,       ,Byte
    sender           ,+      ,+      ,       ,PublicKeyAccount
    senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
-   fee              ,       ,+      ,       ,Long
+   fee              ,+      ,+      ,       ,Long
    timestamp        ,+ (opt),+      ,+      ,Long
    proofs           ,       ,+      ,+      ,List[ByteStr]
    version          ,       ,       ,+      ,Byte
@@ -1130,23 +1130,48 @@
    opType           ,+      ,+      ,+      ,
    height           ,       ,+      ,       ,
 
+**JSON для вызова метода sign**
 
-.. _CreatPolicyTransaction:
+.. code:: js
 
-112. CreatPolicyTransaction
+    {
+    "type": 111,
+    "opType": "add",
+    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+    "targetPubKey": "apgJP9atQccdBPAgJPwH3NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAgJPwHDKkh6A8",
+    "nodeName": "Node #1",
+    "fee": 500000,
+    "timestamp": 1111111111
+    }
+
+.. _CreatePolicyTransaction:
+
+112. CreatePolicyTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **JSON для вызова метода sign**
 
 .. code:: js
 
-    {
-    "type":112,
-    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-    "description": "Policy for internal nodes",
-    "timestamp": 1000000000,
-    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
-    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+     {
+      "sender": "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+      "policyName": "Policy# 7777",
+      "password":"sfgKYBFCF@#$fsdf()*%",
+      "recipients": [
+        "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+        "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+        "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T",
+	    "3NtNJV44wyxRXv2jyW3yXLxjJxvY1vR88TF",
+	    "3NxAooHUoLsAQvxBSqjE91WK3LwWGjiiCxx"
+      ],
+      "fee": 15000000,
+      "description": "Buy bitcoin by 1c",
+      "owners": [
+        "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+        "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+        "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T"
+      ],
+      "type": 112
     }
 
 .. _UpdatePolicyTransaction:
@@ -1158,30 +1183,57 @@
 
 .. code:: js
 
-    {
-    "type":113,
-    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // the id of the existing policy, otherwise there will be the error "Object with policyId = <reqest id> does not exist"
-    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-    "timestamp": 1000000000,
-    "opType": "add", // or "remove" during deleting the participants from the policy
-    "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
-    "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+   {
+     "senderPublicKey": "CgqRPcPnexY533gCh2SSvBXh5bca1qMs7KFGntawHGww",
+     "policyId": "7wphGbhqbmUgzuN5wzgqwqtViTiMdFezSa11fxRV58Lm",
+     "password":"sfgKYBFCF@#$fsdf()*%",
+     "sender": "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+     "proofs": [],
+     "recipients": [
+     "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+     "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+     "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T",
+	 "3NtNJV44wyxRXv2jyW3yXLxjJxvY1vR88TF",
+	 "3NxAooHUoLsAQvxBSqjE91WK3LwWGjiiCxx",
+	 "3NwJfjG5RpaDfxEhkwXgwD7oX21NMFCxJHL"
+      ],
+      "fee": 15000000,
+      "opType": "add",
+     "owners": [
+       "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
+       "3NotQaBygbSvYZW4ftJ2ZwLXex4rTHY1Qzn",
+       "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T"
+     ],
+     "type": 113,
+     "timestamp": 1557836033984
     }
-
 
 .. _PolicyDataHashTransaction:
 
 114. PolicyDataHashTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**JSON для вызова метода sign**
+Когда пользователь отправляет конфиденциальные данные в сеть при помощи :ref:`POST /privacy/sendData <privacy-api>`, нода автоматически формирует транзакцию 114.
 
-.. code:: js
 
-    {
-    "type":114,
-    "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-    "timestamp": 1000000000,
-    "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
-    "hash": "ad2a814482df0dd0d2cf6321f535be720caa7b3aa1289b0575f60d7a5e109631",
-    }
+..  .. _SponsorFeeTransaction:
+  14. SponsorFeeTransaction
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
+   type                ,+       ,+      ,+      ,Byte
+   id                  ,        ,+      ,       ,Byte
+   sender              ,+       ,+      ,       ,PublicKeyAccount
+   senderPublicKey     ,        ,+      ,+      ,PublicKeyAccount
+   fee                 ,+       ,+      ,+      ,Long
+   timestamp           ,+ (opt) ,+      ,+      ,Long
+   proofs              ,        ,+      ,+      ,List[ByteStr]
+   version             ,+       ,+      ,+      ,Byte
+   assetId             ,+       ,+      ,       ,ByteStr
+   minSponsorAssetFee  ,+ (opt) ,       ,+      ,
+   password            ,+ (opt) ,       ,       ,String
+   height              ,        ,+      ,       ,
+.. .. _UpdateContractTransaction:
+    107. UpdateContractTransaction
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

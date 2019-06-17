@@ -7,100 +7,120 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-03-12 20:29+0300\n"
+"POT-Creation-Date: 2019-05-31 10:22+0300\n"
+"PO-Revision-Date: 2019-05-31 10:23+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 5de134dc58a9454bab9b62747a8249af
+# 75bd9a11cb4649d586938e5502814d30
 #: ../../how-to-setup/install-client.rst:4
 msgid "Установка клиента"
 msgstr "Client Installation"
 
-# 51761b03442f4dbba5879c7011690a22
+# f296167b2a6e4643ac7bfa7bd3265db7
 #: ../../how-to-setup/install-client.rst:6
 msgid ""
-"**Последовательность действий для установки клиентской части приложения "
-"и необходимых для его запуска сервисов**"
+"Для полноценной работы необходимо установить дополнительно приложения "
+"`Docker CE <https://docs.docker.com/install/>`_ и `Docker-compose "
+"<https://docs.docker.com/compose/install/>`_. Выполните следующие "
+"действия для установки клиентской версии:"
 msgstr ""
-"**The sequence of actions for installation of the client part of the "
-"application and necessary start services**"
+"The client app need additional apps `Docker CE <https://docs.docker.com/"
+"install/>`_ and `Docker-compose <https://docs.docker.com/compose/install/"
+">`_ for the fully running. Follow these steps for the client app "
+"installation:"
 
-# 6054507e10c8472eb64bcc7f17a5f31e
-#: ../../how-to-setup/install-client.rst:18
+# e63b45d4dd984e27a26492b0fbebed33
+#: ../../how-to-setup/install-client.rst:8
 msgid ""
-"Скачать и установить дистрибутив `Docker CE <https://docs.docker.com/"
+"Скачайте и установите дистрибутив `Docker CE <https://docs.docker.com/"
 "install/>`_. Для скачивания потребуется регистрация на сайте."
 msgstr ""
-"Download and install the installation package 'Docker CE <https://docs."
-"docker.com/install/>'_. Register on the site for downloading."
+"Download and install the installation package `Docker CE <https://docs."
+"docker.com/install/>`_. Registration on the site is need for downloading."
 
-# 70d6616a505a4dc3aa74bc1404815c2f
+# f296167b2a6e4643ac7bfa7bd3265db7
 #: ../../how-to-setup/install-client.rst
 msgid ""
-"1.1. При возникновении следующего окна с ошибкой установки необходимо "
-"включить аппаратную поддержку виртуализации в BIOS:"
+"1.2. После установки убедитесь, что успешно установились приложения "
+"`Docker CE <https://docs.docker.com/install/>`_ и `Docker-compose "
+"<https://docs.docker.com/compose/install/>`_ (часть дистрибутива Docker "
+"CE):"
 msgstr ""
-"1.1. If the following installation error window appears, enable hardware "
-"virtualization support in BIOS:"
+"1.2 After installation check if applications `Docker CE <https://docs."
+"docker.com/install/>`_ and `Docker-compose <https://docs.docker.com/"
+"compose/install/>`_ (the part of the Docker CE installation package) "
+"have been successfully installed:"
 
-# 5633a58fa17f47348e58f27ec961d943
+# e3b63b0a558449fd96c58b3ad21e4cca
 #: ../../how-to-setup/install-client.rst
 msgid ""
-"1.2. После установки необходимо убедиться что успешно установились "
-"приложения `Docker CE <https://docs.docker.com/install/>`_ и `Docker-"
-"compose <https://docs.docker.com/compose/install/>`_ (часть дистрибутива "
-"Docker CE):"
+"Для операционных систем семейств Linux и macOS используются команды "
+"``docker --version`` и ``docker-compose --version``."
 msgstr ""
-"1.2 After installation check if applications 'Docker CE <https://docs."
-"docker.com/install/>'_ and 'Docker-compose <https://docs.docker.com/"
-"compose/install/>'_ (part of Docker CE installation package) have been "
-"successfully installed:"
+"You can use the commands ``docker --version`` and ``docker-compose --"
+"version`` for macOS and Linux OS."
 
-# 466690e41232419ab9a1404640018f5f
-#: ../../how-to-setup/install-client.rst:20
+# 33bebc4e911d4175b57aaae6c77486fc
+#: ../../how-to-setup/install-client.rst:18
 msgid ""
-"Скачать и разархивировать файл `frontend-deployment.zip <https://github."
-"com/vostokplatform/Vostok-Releases/releases>`_"
+"Скачайте и разархивируйте файл `frontend-deployment.zip <https://github."
+"com/vostokplatform/Vostok-Releases/releases>`_."
 msgstr ""
-"Download and unzip the file 'frontend-deployment. zip <https://github."
-"com/vostokplatform/Vostok-Releases/releases>`_"
+"Download and unzip the file `frontend-deployment.zip <https://github.com/"
+"vostokplatform/Vostok-Releases/releases>`_."
 
-# 8bdcefc9c7144b9ea5725b0e9c20bf16
-#: ../../how-to-setup/install-client.rst:21
+# aec95d898a53477e9534dcfcd822ba2f
+#: ../../how-to-setup/install-client.rst:19
 msgid ""
 "В конфигурационном файле приложения ``frontend-deployment/config/nginx-"
-"proxy.env`` указать путь до REST API и hostname ноды"
+"proxy.env`` укажите путь до REST API и hostname ноды:"
 msgstr ""
-"Specify the path to REST API and node hostname in configuration file of "
-"application ``frontend-deployment/config/nginx-proxy.env``"
+"Specify the path to REST API and node hostname in the configuration file "
+"of the application ``frontend-deployment/config/nginx-proxy.env``:"
 
-# f07d38268dfd4f6187a59deff8a81dca
-#: ../../how-to-setup/install-client.rst:30
-msgid "Запустить скрипт развертывания командой ``bash ./deploy.sh``"
-msgstr "Run deployment script using command ``bash ./deploy.sh``"
+# 8b0c25e950d247329cb23d82edc259cc
+#: ../../how-to-setup/install-client.rst:28
+msgid "Запустите скрипт развертывания командой ``bash ./deploy.sh``."
+msgstr "Run the deployment script using the command ``bash ./deploy.sh``."
 
-# 02da2d41afe946e9809a47b51afe9085
-#: ../../how-to-setup/install-client.rst:31
+# ee920413652341bab4c02710fb31e83d
+#: ../../how-to-setup/install-client.rst:29
 msgid ""
-"Открыть браузер и перейдя по адресу ``localhost`` убедиться что клиент "
-"системы успешно развернут."
+"Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, "
+"что клиент системы успешно развернут."
 msgstr ""
-"Open the browser and go to ''localhost'' to check if the system client "
+"Open the browser and go to ``localhost`` to check if the system client "
 "is successfully deployed."
 
-# 308b1579ccef43d9adf5ca390dd4318d
-#: ../../how-to-setup/install-client.rst:33
+# 71b8e711415a4dc38b80b528793ccf33
+#: ../../how-to-setup/install-client.rst:31
 msgid ""
 "Ознакомиться с подробным описанием компонентов установленного приложение "
-"возможно в разделе :ref:`\"Описание клиента\" <client>`."
+"можно в разделе :ref:`Описание клиента <client>`."
 msgstr ""
-"For detailed description of components of installed application see "
-"module :ref:'\"Client description\" <client>\"."
+"For the detailed description of components of the installed application "
+"see module :ref:`Client description <client>`."
+
+# 51761b03442f4dbba5879c7011690a22
+#~ msgid ""
+#~ "**Последовательность действий для установки клиентской части "
+#~ "приложения и необходимых для его запуска сервисов**"
+#~ msgstr ""
+#~ "**The sequence of actions for installation of the client part of the "
+#~ "application and necessary start services**"
+
+# 6a72508fe5914543b107588f6ffe8c7e
+#~ msgid ""
+#~ "1.1. При возникновении следующего окна с ошибкой установки включите "
+#~ "аппаратную поддержку виртуализации в BIOS:"
+#~ msgstr ""
+#~ "1.1. If the following installation error window appears, enable the "
+#~ "hardware virtualization support in BIOS:"

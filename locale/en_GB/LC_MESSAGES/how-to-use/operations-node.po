@@ -1,0 +1,521 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 15:30+0300\n"
+"PO-Revision-Date: 2019-06-11 15:31+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
+
+# dbdec6b695da40bf99dafb9ae14bdb05
+#: ../../how-to-use/operations-node.rst:5
+msgid "Основные операции в сети"
+msgstr "Main operations in the network"
+
+# 0e36135c49d745b5a5aca4abddf4817f
+#: ../../how-to-use/operations-node.rst:7
+msgid ""
+"Момент :ref:`запуска <node-start>` первой ноды можно считать началом "
+"создания новой блокчейн-сети. Разворачивать блокчейн-сеть вы можете со "
+"старта всего одной ноды, добавляя новые ноды по мере необходимости."
+msgstr ""
+"The moment of the first node :ref:`running <node-start>` is the beginning "
+"of the new blockchain net creation. You can create the blockchain net from "
+"the starting only one node, further you can add new nodes as required."
+
+# 8776d76562e340bd8cae9d8829882f38
+#: ../../how-to-use/operations-node.rst:9
+msgid "Далее вы можете выполнить следующие операции:"
+msgstr "After starting a node you can make the following operations:"
+
+# f8d800881a284415b85ccb200d64f05a
+#: ../../how-to-use/operations-node.rst:11
+msgid ""
+":ref:`Подключите <connect-existing-net>` новую ноду к уже существующей "
+"сети."
+msgstr ""
+":ref:`Connect <connect-existing-net>` a new node into the existing network."
+
+# 762c3bb5c40746498466b6a01b0458f4
+#: ../../how-to-use/operations-node.rst:12
+msgid ":ref:`Удалите <delete-node>` лишние ноды из сети."
+msgstr ":ref:`Delete <delete-node>` unnecessary nodes from the network."
+
+# 1cc2d9922d544b26930d908977163642
+#: ../../how-to-use/operations-node.rst:13
+msgid ""
+":ref:`Добавьте <add-privacy-policy>` или :ref:`измените <update-privacy-"
+"policy>` группу доступа к конфиденциальным данным."
+msgstr ""
+":ref:`Add <add-privacy-policy>` or :ref:`change <update-privacy-policy>` "
+"the confidential data access group."
+
+# 45832cca401a491db8e5cbb33bd5d9c8
+#: ../../how-to-use/operations-node.rst:14
+msgid ":ref:`Обменяйтесь <data-privacy-exchange>` конфиденциальными данными."
+msgstr ":ref:`Exchange <data-privacy-exchange>` the confidential data."
+
+# f2440f13d6224dfd9442d1795e7e4a9c
+#: ../../how-to-use/operations-node.rst:19
+msgid "Подключение новой ноды к существующей сети"
+msgstr "Connection of a new node to the existing net"
+
+# 646b43e2d9d34ac689e2372d42e8eabc
+#: ../../how-to-use/operations-node.rst:21
+msgid ""
+"Новые ноды можно добавлять в сеть в любой момент времени. Настройка "
+"конфигурационных файлов новой ноды описана в подразделе :ref:`Конфигурация "
+"ноды <configuration>`. Выполните все указанные в приведённом подразделе "
+"действия и :ref:`запустите <node-start>` ноду. Далее выполняются следующие "
+"действия:"
+msgstr ""
+"You can add new nodes into the net at any time. The configuration files "
+"setting is described in the section :ref:`Node configuration "
+"<configuration>`. Perform all these actions and :ref:`run <node-start>` "
+"the node. The following steps are making:"
+
+# 085e65989ede45d89fc6140aecb1eca6
+#: ../../how-to-use/operations-node.rst:24
+msgid ""
+"Пользователь новой ноды передаёт публичный ключ и описание ноды "
+"администратору сети."
+msgstr ""
+"The new node user gives the public key and the node description to the net "
+"administrator."
+
+# 39f50c402cc14005a45167c43eb16df7
+#: ../../how-to-use/operations-node.rst:25
+msgid ""
+"Администратор сети (нода с ролью \"Connection-manager\") использует "
+"полученные публичный ключ и описание ноды при создании транзакции :ref:"
+"`111 RegisterNode <RegisterNodeTransaction>` с параметром ``\"opType\": "
+"\"add\"``."
+msgstr ""
+"The network administrator (the node with \"Connection-manager\" role) uses "
+"the received public key and description for the :ref:`111 RegisterNode "
+"<RegisterNodeTransaction>` transaction creation with the ``\"opType\": "
+"\"add\"`` parameter."
+
+# e7ce9f2663a74c0da05606cfc332ef4a
+#: ../../how-to-use/operations-node.rst:26
+msgid ""
+"Транзакция попадает в блок и далее в стейты нод участников сети. "
+"Вследствие транзакции среди сохраняемых данных каждый участник сети хранит "
+"обязательно публичный ключ и адрес новой ноды."
+msgstr ""
+"Transaction falls to the block and further into the nodes states of "
+"network participants. As a result of the transaction among the stored "
+"data, each participant of the network stores the public key and the "
+"address of the new node."
+
+# 987949e28c0e428f95ec56802c50edd8
+#: ../../how-to-use/operations-node.rst:27
+msgid ""
+"При необходимости администратор сети может добавить новой ноде "
+"дополнительные роли при помощи транзакции :ref:`102 Permit "
+"<PermitTransaction>`."
+msgstr ""
+"If necessary, the network administrator can add additional roles to the "
+"new node using the transaction :ref:`102 Permit <PermitTransaction>`."
+
+# fc5be75e882a403481e5bd8137e80c32
+#: ../../how-to-use/operations-node.rst:28
+msgid "Пользователь :ref:`запускает <node-start>` ноду."
+msgstr "The user :ref:`runs <node-start>` the node."
+
+# cdb8a8f26e8d4a4f936f8ea2e4308de3
+#: ../../how-to-use/operations-node.rst:29
+msgid ""
+"После запуска нода отправляет :ref:`handshake-сообщение <network-message-"
+"auth-handshake>` со своим публичным ключом участникам из списка \"peers\" "
+"своего конфигурационного файла."
+msgstr ""
+"After starting, the node sends :ref:`handshake-message <network-message-"
+"auth-handshake>` with its public key to the participants from the \"peers"
+"\" list of its configuration file."
+
+# 81a2b754f249489ebfd04e32a7c229b3
+#: ../../how-to-use/operations-node.rst:30
+msgid ""
+"Участники сети сравнивают публичный ключ из :ref:`handshake-сообщения "
+"<network-message-auth-handshake>` и ключ из транзакции :ref:`111 "
+"RegisterNode <RegisterNodeTransaction>`, отправленной администратором "
+"сети. Если проверка успешна, участник сети обновляет свою БД и рассылает в "
+"сеть сообщение :ref:`Peers Message <network-message-PeersMessage>`."
+msgstr ""
+"Network participants compare the public key from the :ref:`handshake "
+"message <network-message-auth-handshake>` and the key from transaction :"
+"ref:`111 RegisterNode <RegisterNodeTransaction>` sent earlier by the "
+"network administrator. If the check is successful, the network participant "
+"updates its database and sends the Peers Message message to the network."
+
+# a98d27f227b74780b160acef921817ab
+#: ../../how-to-use/operations-node.rst:31
+msgid ""
+"Успешно подключившись, новая нода выполняет синхронизацию с сетью и "
+"получает таблицу адресов участников сети."
+msgstr ""
+"Having successfully connected, the new node synchronizes with the network "
+"and receives the address table of the network participants."
+
+# f500320ef24f458dbfef630e8676ce89
+#: ../../how-to-use/operations-node.rst:36
+msgid "Удаление ноды"
+msgstr "Deleting the node"
+
+# 201f7016a60540eaaa23e7fc1d0b87cb
+#: ../../how-to-use/operations-node.rst:38
+msgid ""
+"Администратор сети создает транзакцию :ref:`111 RegisterNode "
+"<RegisterNodeTransaction>` с параметром ``\"opType\": \"remove\"`` для "
+"удаления ноды из сети, в которую помещается её публичный ключ."
+msgstr ""
+"The network administrator creates the :ref:`111 RegisterNode "
+"<RegisterNodeTransaction>` transaction with the parameter ``\"opType\": "
+"\"remove\"`` and the public key of the removed node within."
+
+# 10991d18e9124d0ebc11bcb832e1164e
+#: ../../how-to-use/operations-node.rst:39
+msgid ""
+"Транзакция с удалением ноды вместе с остальными попадает в блок, и её "
+"принимают другие ноды."
+msgstr "This transaction is fell into the block and approved by other nodes."
+
+# 01e3bdadc3dd41bdab3d17cac7fa22f2
+#: ../../how-to-use/operations-node.rst:40
+msgid ""
+"После принятия транзакции ноды находят в своем стейте публичный ключ, "
+"указанный в транзакции :ref:`111 RegisterNode <RegisterNodeTransaction>`, "
+"и удаляют его из стейта."
+msgstr ""
+"After accepting the transaction the nodes find the public key specified in "
+"the transaction :ref:`111 RegisterNode <RegisterNodeTransaction>` in their "
+"state and delete it from there."
+
+# 3a054eec3ee3430d856c78d5411cd91b
+#: ../../how-to-use/operations-node.rst:41
+msgid ""
+"Далее ноды удаляют сетевой адрес ноды с ключом, указанным в транзакции :"
+"ref:`111 RegisterNode <RegisterNodeTransaction>`, из списка ``network."
+"known-peers`` конфигурационного файла ноды."
+msgstr ""
+"Then nodes delete the network address of the removed node from the "
+"``network.known-peers`` of the node configuration file."
+
+# bc74383cc2d24325a5f14bc567ad0270
+#: ../../how-to-use/operations-node.rst:46
+msgid "Создание группы доступа к конфиденциальным данным"
+msgstr "Creation of the confidential data access group"
+
+# c827be885624404c8d227784af76b296
+#: ../../how-to-use/operations-node.rst:48
+msgid ""
+"Группу доступа к конфиденциальным данным может создать любой участник "
+"сети. Перед созданием группы необходимо определиться с кругом участников "
+"сети, которые будут получать конфиденциальные данные. Далее любой из "
+"участников выполняет следующие действия:"
+msgstr ""
+"The confidential data access group can be created by any network "
+"participant. You need to specify the range of participants, which will get "
+"the data. Then any of participant will perform the following actions:"
+
+# fc5d3c9ba0e047a49fb08204a14b9dba
+#: ../../how-to-use/operations-node.rst:50
+msgid ""
+"Участник сети, который будет владельцем группы доступа, создаёт "
+"транзакцию :ref:`112 CreatePolicy <CreatePolicyTransaction>` со следующими "
+"основными параметрами:"
+msgstr ""
+"The network participant, the future owner of the group, is creating the :"
+"ref:`112 CreatePolicy <CreatePolicyTransaction>` with the following "
+"parameters:"
+
+# 092b1ebbcf164b58bea893fe7ec83e12
+#: ../../how-to-use/operations-node.rst:52
+msgid "sender - публичный ключ создателя группы доступа."
+msgstr "sender - the public key of the access group creator."
+
+# 91a420d3b4a04d518bca31093f5542af
+#: ../../how-to-use/operations-node.rst:53
+msgid "description - описание группы доступа."
+msgstr "description - the description of the access group."
+
+# 9ff6f38c2acf40fb9c3a618dec89c2b7
+#: ../../how-to-use/operations-node.rst:54
+msgid "policyName - имя группы доступа."
+msgstr "policyName - the name of the access group."
+
+# 7d445e56f4b8453b9ff5f7053e02cf38
+#: ../../how-to-use/operations-node.rst:55
+msgid ""
+"recipients - публичные ключи участников группы доступа, которые будут "
+"иметь право получать конфиденциальные данные."
+msgstr ""
+"recipients - public keys of access group participants, which will have the "
+"access to the confidential data."
+
+# 1268fc130635426e836ad81e8e324702
+#: ../../how-to-use/operations-node.rst:56
+msgid ""
+"owners - публичные ключи владельцев группы доступа, которые, помимо "
+"доступа к данным, смогут изменять состав участников группы."
+msgstr ""
+"owners - public keys of access group participants, which, in addition to "
+"the data access, can change the lineup of the group participants."
+
+# b9b2e23043ff4682b45c0af427f68aad
+#: ../../how-to-use/operations-node.rst:58
+msgid ""
+"Транзакция с созданием группы доступа вместе с остальными попадает в блок, "
+"и её принимают другие ноды."
+msgstr "This transaction is fell into the block and approved by other nodes."
+
+# 3fff5a8eeaf84bc0a35d00358f5d0914
+#: ../../how-to-use/operations-node.rst:59
+msgid ""
+"После принятия транзакции доступ к отправляемым в сеть конфиденциальным "
+"данным получают все участники, зарегистрированные в созданной группе "
+"доступа."
+msgstr ""
+"After accepting the transaction the nodes which are the access group "
+"participants will get the access to the confidential data."
+
+# 284a9254e2714b5c84636ae31cab86b5
+#: ../../how-to-use/operations-node.rst:64
+msgid "Изменение группы доступа"
+msgstr "Changing the access group"
+
+# ad1a68c8070b487b8bc11a726b3122bc
+#: ../../how-to-use/operations-node.rst:66
+msgid ""
+"Изменять группы доступа могут только их владельцы. Выполняются следующие "
+"действия для изменения списка участников в группе доступа:"
+msgstr ""
+"Access groups can only be changed by their owners. The following actions "
+"are performed to change the list of participants in the access group:"
+
+# 39a857fc9e964df4ae90c8cec5b806e5
+#: ../../how-to-use/operations-node.rst:68
+msgid ""
+"Владелец группы доступа создаёт транзакцию :ref:`113 UpdatePolicy "
+"<UpdatePolicyTransaction>` со следующими основными параметрами:"
+msgstr ""
+"The group owner creates the :ref:`113 UpdatePolicy "
+"<UpdatePolicyTransaction>` transaction with the following parameters:"
+
+# e24a243eecb8474bbbf0fe41c7c8875a
+#: ../../how-to-use/operations-node.rst:70
+msgid "policyId - идентификатор группы доступа."
+msgstr "policyId - identifier of the access group."
+
+# 143a6b3ae8df4c66a60fca5fbfafea17
+#: ../../how-to-use/operations-node.rst:71
+msgid "sender - публичный ключ владельца группы доступа."
+msgstr "sender - the public key of the access group owner."
+
+# 7f2135260d8f407b946c239a5e389528
+#: ../../how-to-use/operations-node.rst:72
+msgid ""
+"opType - опция добавления (``add``) или удаления (``remove``) участников "
+"группы."
+msgstr ""
+"opType - the option of the adding (``add``) or the removing (``remove``) "
+"the group participants."
+
+# 90120e8a888d48129e0745cac3d0c537
+#: ../../how-to-use/operations-node.rst:73
+msgid ""
+"recipients - публичные ключи участников группы доступа, которые "
+"добавляются или удаляются из группы доступа."
+msgstr ""
+"recipients - public keys of access group participants, which are added or "
+"removed from the access group."
+
+# 547f690b7558443995baf24de50176b4
+#: ../../how-to-use/operations-node.rst:74
+msgid ""
+"owners - публичные ключи владельцев группы доступа, которые добавляются "
+"или удаляются из группы доступа."
+msgstr ""
+"owners - public keys of access group participants, which are added or "
+"removed from the access group."
+
+# f7e4640bae1d48b1b7c01a80a85078c8
+#: ../../how-to-use/operations-node.rst:75
+msgid ""
+"Транзакция с изменением группы доступа вместе с остальными попадает в "
+"блок, и её принимают другие ноды."
+msgstr "This transaction is fell into the block and approved by other nodes."
+
+# 79c0305f33c3488795939b89de937a3d
+#: ../../how-to-use/operations-node.rst:76
+msgid ""
+"После принятия транзакции в сети обновляется информация об участниках "
+"изменённой группы."
+msgstr ""
+"After accepting the transaction the information about participants of the "
+"changed access group will update."
+
+# f8b16b17951d4a4d916d9de6a9580f7e
+#: ../../how-to-use/operations-node.rst:81
+msgid "Процесс обмена конфиденциальными данными"
+msgstr "Exchanging the confidential data"
+
+# 92c2f55d153341d29a5fffcb280fa568
+#: ../../how-to-use/operations-node.rst:83
+msgid ""
+"Через метод API :ref:`POST /privacy/sendData <privacy-api>` можно "
+"отправить данные размером не более 20МБ."
+msgstr ""
+"The size of the transferred data via API method :ref:`POST /privacy/"
+"sendData <privacy-api>` to the network is up to 20 MB."
+
+# 92c2f55d153341d29a5fffcb280fa568
+#: ../../how-to-use/operations-node.rst:85
+msgid ""
+"Пользователь отправляет данные в сеть, используя инструмент API :ref:"
+"`POST /privacy/sendData <privacy-api>` (параметры API: отправитель, "
+"пароль, ID группы, тип данных, информация о данных, дата и хеш)."
+msgstr ""
+"Using the :ref:`API <privacy-api>` POST /privacy/sendData tool the client "
+"sends the data to the network (API parameters: sender, password, policy "
+"ID, data type, data information, date and hash)."
+
+# 477edaddc7f54fc5b73110f600c92bdf
+#: ../../how-to-use/operations-node.rst:86
+msgid ""
+"Участники группы доступа используют инструмент ``GET /privacy/getData/"
+"{hash}`` для получения информации о данных и их последующей загрузки."
+msgstr ""
+"Access group participants use the ``GET /privacy/getData/{hash}`` tool for "
+"getting information about data and its further download."
+
+# 25672a86fe86413792e0e3763b775142
+#: ../../how-to-use/operations-node.rst:88
+msgid ""
+"Выполните следующие действия для создания значений в поля ``data`` и "
+"``hash``:"
+msgstr ""
+"Follow these steps for the values creation of the ``data`` and ``hash`` "
+"fields:"
+
+# 81213c085ac94f58a2d1daf3bb01cf39
+#: ../../how-to-use/operations-node.rst:90
+msgid ""
+"Поле ``data`` заполняется значением кодирования отправляемых данных по "
+"методу **Base64**. Переведите все данные в формат, соответствующий "
+"**Base64**, при помощи веб-сервисов или специальных приложений. Если "
+"данные хранятся в текстовом файле (*.docx, *.pdf, *.txt и др.), скопируйте "
+"полностью все данные из файла."
+msgstr ""
+"The ``data`` field is filled with the value of encoding the sent data by "
+"the **Base64** method. Convert all data to **Base64** format using web "
+"services or special applications. If the data is stored in a text file (*."
+"docx, *.pdf, *.txt, etc.), copy all the data from the file."
+
+# b2c17a289e584175a572074425f9641f
+#: ../../how-to-use/operations-node.rst:91
+msgid ""
+"Результат преобразования данных поместите в поле ``\"data\": \"29sCt..."
+"RgdC60LL\"`` запроса API :ref:`POST /privacy/sendData <privacy-api>`."
+msgstr ""
+"Place the result of the data conversion to the ``\"data\": \"29sCt..."
+"RgdC60LL\"`` field of the API :ref:`POST /privacy/sendData <privacy-api>` "
+"request."
+
+# bd0fc6f3af944e599a4183a592a19d20
+#: ../../how-to-use/operations-node.rst:92
+msgid ""
+"Поле ``hash`` заполняется значением кодирования отправляемых данных по "
+"методу **Base58** через хеш-сумму данных по алгоритму **SHA-256**. "
+"Получите хеш-сумму данных при помощи веб-сервисов или специальных "
+"приложений в соответствии с алгоритмом **SHA-256**."
+msgstr ""
+"The ``hash`` field is filled with the value of encoding the sent data by "
+"the **Base58** method via the data hash sum by the **SHA-256** algorithm. "
+"Get the data hash sum using web services or special applications according "
+"to the **SHA-256** algorithm."
+
+# 18d9e89bd4854c389b2672fdef688608
+#: ../../how-to-use/operations-node.rst:93
+msgid ""
+"Переведите полученную хеш-сумму в формат, соответствующий **Base58**, и "
+"поместите результат в поле ``\"hash\": \"9wetTB...SU2zr1Uh\"``."
+msgstr ""
+"Convert the resulting hash sum into a format suitable **Base58** and place "
+"the result in the ``\"hash\": \"9wetTB...SU2zr1Uh\"`` field."
+
+# d640ef2df4984fa2af55d818d27b35f1
+#: ../../how-to-use/operations-node.rst:95
+msgid "**Пример запроса**"
+msgstr "**Request example**"
+
+# 54cce7f6179442c09303d275356ad380
+#~ msgid ""
+#~ "В упрощенном варианте передача конфиденциальных данных между нодами "
+#~ "состоит из следующих этапов:"
+#~ msgstr ""
+#~ "In a simple way, the transfer of the confidential data between nodes "
+#~ "consists of the following steps:"
+
+# 792ecf5a2b5144c29834681ddf64533f
+#~ msgid ""
+#~ "Нода запрашивает группу, ID которой клиент передал в API, из своего "
+#~ "стейта и удостоверяется, что может участвовать в обмене "
+#~ "конфиденциальных данных (адрес ноды есть в списке адресов группы)."
+#~ msgstr ""
+#~ "The node requests the policy from its state according to the ID, which "
+#~ "was sent the client inside the API parameters, then the node makes sure "
+#~ "that it can participate in the exchange of confidential data (node "
+#~ "address is in the addresses list of the policy )."
+
+# 30a0a35fa09c4e64884167d1da379855
+#~ msgid ""
+#~ "Нода помещает данные в Private Store, подписывает и рассылает по сети "
+#~ "транзакцию 114 :ref:`PolicyDataHashTransaction "
+#~ "<PolicyDataHashTransaction>` с хэшом данных."
+#~ msgstr ""
+#~ "The node places the data in the Private Store in the Unaccepted status, "
+#~ "signs and sends the transaction 114 :ref:`PolicyDataHashTransaction "
+#~ "<PolicyDataHashTransaction>` with the data hash."
+
+# cabae7b958e644028a97cc4e5d82c8a6
+#~ msgid ""
+#~ "Ноды в сети проверяют, являются ли они участниками группы, и если да, "
+#~ "то принимают транзакцию с хэшом данных."
+#~ msgstr ""
+#~ "The network nodes check to see if they are participants of the policy, "
+#~ "and if yes, they accept the transaction with the data hash."
+
+# 54a8dd71df37435c9f666f3e0f270fe0
+#~ msgid ""
+#~ "Далее данные из Private Store ноды-отправителя участники сети "
+#~ "запрашивают по прямому соединению, используя криптографические пары "
+#~ "ключей. Если вы используете криптографию Waves, то пара ключей "
+#~ "создаётся на базе генерирования секретного ключа (shared secret) с "
+#~ "использованием алгоритма Curve25519 (эллиптическая кривая Diffie-"
+#~ "Hellman). При использовании криптографии ГОСТ генерация симметричных "
+#~ "ключей шифрования выполняется в соответствии с ГОСТ 28147-89."
+#~ msgstr ""
+#~ "Then the data from the Private Store of the sender node is requested by "
+#~ "the network participants over a direct connection using cryptographic "
+#~ "key pairs. If you use the Waves cryptography, the key pair is created "
+#~ "based on a generating a secret key (shared secret) using the Curve25519 "
+#~ "algorithm (elliptic curve Diffie-Hellman). When using GOST cryptography "
+#~ "asymmetric encryption keys are generated according with GOST 28147-89."
+
+# 320445dcb41e4f128cea0fe7e42e87de
+#~ msgid "**Схема процесса**"
+#~ msgstr "**The process scheme**"

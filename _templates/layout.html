@@ -3,8 +3,10 @@
 {{ super() }}
 <br>
 
+<link rel="icon" href="_static/img/favicon.png" type="image/png">
+
 <div style="position: relative; top: -50px">
-    <a href="https://docs.vostok.io">
+    <a href="https://docs.vostok.io/">
         <img style="height: unset; width: unset; border-radius: 0; padding: 0; margin: 0;" src="{{ pathto("_static/img/logo.png", 1) }}" width="288" height="56">    
     </a>
 </div>
@@ -13,5 +15,24 @@
 <a class="lang" href="https://docs.vostok.io/">Russian</a> | 
 <a class="lang" href="https://docs.vostok.io/en/">English</a>
 </div>
+<div style="position: relative; top: 15px; color: blue;">
+<a class="pdf" href="https://docs.vostok.io/vostokdocs.pdf">pdf-ru</a>
+</div>>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(54051694, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/54051694" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
 
 {% endblock %}

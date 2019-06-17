@@ -22,7 +22,6 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 
-
 import sphinx_rtd_theme
 from recommonmark.parser import CommonMarkParser
 
@@ -92,7 +91,10 @@ source_encoding = 'utf-8-sig'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = []
+exclude_patterns = [
+   'blacklist/*.rst',
+   'blacklist/ride/*.rst',
+]
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -116,10 +118,11 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     'logo_only': True,
     'collapse_navigation': False,
-    'sticky_navigation': False,
+    'sticky_navigation': True,
     'navigation_depth': 4,
     'display_version': False,
-    'includehidden': False
+    'includehidden': False,
+    'display_version': True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -138,6 +141,7 @@ def setup(app):
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'vostok-docs'
 
+html_favicon = '_static/img/favicon.png'
 
 
 # -- Options for manual page output ---------------------------------------
@@ -170,9 +174,15 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
+# latex_documents = [
+#  ('index', 'Sphinx.tex', u'Техническое описание платформы',
+#  u'https://vostok.io', 'manual'),
+# ]
+
 latex_documents = [
-  ('index', 'Sphinx.tex', u'Техническое описание платформы',
+  ('index', 'Sphinx.tex', u'Техническое описание платформы Vostok',
    u'https://vostok.io', 'manual'),
+#  ('index', 'Sphinx.tex', u'Technical description of the Vostok platform', u'https://vostok.io', 'manual')
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

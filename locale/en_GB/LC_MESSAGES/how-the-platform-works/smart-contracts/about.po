@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-19 14:24+0300\n"
-"PO-Revision-Date: 2019-04-19 14:44+0300\n"
+"POT-Creation-Date: 2019-06-05 15:56+0300\n"
+"PO-Revision-Date: 2019-06-05 16:48+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -30,18 +30,15 @@ msgid ""
 "Смарт-контракт это скрипт, проверяющий транзакции на соблюдение условий. "
 "Скрипты расширяют логику блокчейна под ваши бизнес-задачи. Комиссия за "
 "смарт-контракт фиксирована. Скрипт может быть опубликован как на аккаунт, "
-"так и на набор выпущенных вами токенов. После публикации скрипта на аккаунт "
-"или набор токенов, к стандарной комиссии за операции добавляется +0.004 VST."
+"так и на набор выпущенных вами токенов."
 msgstr ""
 "Smart Contract is a script that checks transactions for compliance with "
 "conditions. Scripts extend the logic of blockchain to meet your business "
 "tasks. The fee for smart contract is fixed. The script can be published for "
-"both an account and token assets issued by you. After the script is "
-"published for an account or token assets, + 0.004 VST is added to the "
-"standard operations fee."
+"both an account and token assets issued by you."
 
 # 1bbe3e5026604f5494b0455121cb1748
-#: ../../how-the-platform-works/smart-contracts/about.rst:10
+#: ../../how-the-platform-works/smart-contracts/about.rst:9
 msgid ""
 "Для аккаунта — проверяться будут все транзакции, исходящие с данного "
 "адреса. Аккаунт с опубликованным скриптом называется Смарт-аккаунт. Для "
@@ -58,12 +55,12 @@ msgstr ""
 "the previous one, including the \"default script\"."
 
 # abcc4c9003614a6b80f964c769b04117
-#: ../../how-the-platform-works/smart-contracts/about.rst:15
+#: ../../how-the-platform-works/smart-contracts/about.rst:14
 msgid "RIDE"
 msgstr "RIDE"
 
 # 253b8b44f47b475684342f50ee388f31
-#: ../../how-the-platform-works/smart-contracts/about.rst:17
+#: ../../how-the-platform-works/smart-contracts/about.rst:16
 msgid ""
 "Для создания скрипта в блокчейне Vostok используется язык RIDE (о языке "
 "RIDE можно почитать на портале WAVES `<https://docs.wavesplatform.com>`_). "
@@ -76,27 +73,27 @@ msgstr ""
 "checking conditions:"
 
 # 2d7d3cf677ae495baf0d5ef5cf2cd33f
-#: ../../how-the-platform-works/smart-contracts/about.rst:20
+#: ../../how-the-platform-works/smart-contracts/about.rst:19
 msgid "Данные исходящей транзакции."
 msgstr "Outgoing transaction details."
 
 # 4d7d3c4a0e6e4c2fb27b136b0e171fa1
-#: ../../how-the-platform-works/smart-contracts/about.rst:21
+#: ../../how-the-platform-works/smart-contracts/about.rst:20
 msgid "Данные аккаунта, от имени которого осуществляется транзакции."
 msgstr "Details of account on behalf of which transactions are made."
 
 # 9de268b9b924431682756096c4f4e251
-#: ../../how-the-platform-works/smart-contracts/about.rst:22
+#: ../../how-the-platform-works/smart-contracts/about.rst:21
 msgid "Данные о балансе третьих аккаунтов."
 msgstr "Details of third accounts balance."
 
 # 8589ccdad7b44f17897605d9df47a2f0
-#: ../../how-the-platform-works/smart-contracts/about.rst:23
+#: ../../how-the-platform-works/smart-contracts/about.rst:22
 msgid "Данные о высоте блокчейна."
 msgstr "Details of blockchain height."
 
 # e8dc4f43e63d441daa9ded3cd6bd901c
-#: ../../how-the-platform-works/smart-contracts/about.rst:25
+#: ../../how-the-platform-works/smart-contracts/about.rst:24
 msgid ""
 "Принцип работы скрипта это pattern matching, т.е. сопоставление с образцом. "
 "В скрипте указываются типы транзакций и проверки для них с условиями, при "
@@ -109,17 +106,17 @@ msgstr ""
 "features are available:"
 
 # 36e40306dced4891bf76778797f88d60
-#: ../../how-the-platform-works/smart-contracts/about.rst:28
+#: ../../how-the-platform-works/smart-contracts/about.rst:27
 msgid "запретить транзакцию независимот от условий,"
 msgstr "ban transaction regardless of conditions,"
 
 # ff458ff8b4fa44669601b721569a94aa
-#: ../../how-the-platform-works/smart-contracts/about.rst:29
+#: ../../how-the-platform-works/smart-contracts/about.rst:28
 msgid "разрешить независимо от условий."
 msgstr "permit regardless of conditions."
 
 # 53811146c0e84c0994a30d75404c2037
-#: ../../how-the-platform-works/smart-contracts/about.rst:30
+#: ../../how-the-platform-works/smart-contracts/about.rst:29
 msgid ""
 "Работа с разрешениями и запретами по типам транзакций возможна как "
 "указанием конкретных типов транзакций, так и механикой «всё, кроме». Скрипт "
@@ -133,19 +130,19 @@ msgstr ""
 "be explicitly specified."
 
 # 7c7bbeaa47d34f22ba9f72b136e13725
-#: ../../how-the-platform-works/smart-contracts/about.rst:33
+#: ../../how-the-platform-works/smart-contracts/about.rst:32
 msgid "Скрипт не изменяет транзакцию, только проверяет соответствие условиям."
 msgstr ""
 "The script does not modify the transaction, it only verifies that the "
 "conditions are met."
 
 # e927606907dd4a14ac61a17daa71d546
-#: ../../how-the-platform-works/smart-contracts/about.rst:36
+#: ../../how-the-platform-works/smart-contracts/about.rst:35
 msgid "Сложность скриптов"
 msgstr "Complexity of scripts"
 
 # 19f7a14a4b1344a09d3bcf94590a1ef6
-#: ../../how-the-platform-works/smart-contracts/about.rst:38
+#: ../../how-the-platform-works/smart-contracts/about.rst:37
 msgid ""
 "RIDE не является Тьюринг полным языком, что накладывает ограничения на "
 "доступную сложность логики. Вычислительная сложность принудительно "
@@ -167,12 +164,12 @@ msgstr ""
 "appear in the language."
 
 # 4cdd9a64560c466da570bb875897460d
-#: ../../how-the-platform-works/smart-contracts/about.rst:44
+#: ../../how-the-platform-works/smart-contracts/about.rst:43
 msgid "Подписи и скрипт «по умолчанию»"
 msgstr "Signatures and default script"
 
 # 5f9f71713d0742aa88780f0b16e760af
-#: ../../how-the-platform-works/smart-contracts/about.rst:46
+#: ../../how-the-platform-works/smart-contracts/about.rst:45
 msgid ""
 "Каждая транзакция в блокчейне обладает криптографическим доказательством "
 "целостности, основанном на подписи транзакции закрытым ключом отправителя. "
@@ -189,12 +186,12 @@ msgstr ""
 "outgoing transaction — the signature of the sender's address."
 
 # 462d3abbd9f64194a629a5e555dfe003
-#: ../../how-the-platform-works/smart-contracts/about.rst:50
+#: ../../how-the-platform-works/smart-contracts/about.rst:49
 msgid "Пример кода скрипта, установленного «по умолчанию»::"
 msgstr "Example of a default script code::"
 
 # 5e1db5de592b44889de670533ad80d01
-#: ../../how-the-platform-works/smart-contracts/about.rst:54
+#: ../../how-the-platform-works/smart-contracts/about.rst:53
 msgid ""
 "Механика скриптов расширяет возможности по проверке подписи. Транзакция "
 "может быть подписана несколькими пользователями или не от имени того "
@@ -211,7 +208,7 @@ msgstr ""
 "proof and successfully passes the script test."
 
 # 4ca7b291e8e24228939aaebf9cb60630
-#: ../../how-the-platform-works/smart-contracts/about.rst:58
+#: ../../how-the-platform-works/smart-contracts/about.rst:57
 msgid ""
 "Если в вашем скрипте явно не указана проверка подписи, то она не "
 "осуществляется. Соответственно, при ручном формировании тела транзакции, "
@@ -224,12 +221,12 @@ msgstr ""
 "with another address proof."
 
 # 758f87e5eae745cfa9e55241c6ea103a
-#: ../../how-the-platform-works/smart-contracts/about.rst:61
+#: ../../how-the-platform-works/smart-contracts/about.rst:60
 msgid "Данные на аккаунте"
 msgstr "Account data"
 
 # afd9731cbc26419c86f1007ba8de8e48
-#: ../../how-the-platform-works/smart-contracts/about.rst:63
+#: ../../how-the-platform-works/smart-contracts/about.rst:62
 msgid ""
 "На адресах в блокчейне Vostok можно хранить данные в формате ключ-значение. "
 "Данные, хранящиеся на адресе, доступны для просмотра по запросу вида "
@@ -252,7 +249,7 @@ msgstr ""
 "example, with document flow statuses."
 
 # 9de48fc679194d75acbb4813e378c5fc
-#: ../../how-the-platform-works/smart-contracts/about.rst:67
+#: ../../how-the-platform-works/smart-contracts/about.rst:66
 msgid ""
 "Ключи уникальны для адреса. Одному ключу на адресе соответствует только "
 "одно значение. При публикации нового значения для существующего ключа, оно "

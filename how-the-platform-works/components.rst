@@ -7,5 +7,7 @@
 
    components/client
    components/data-service
-   components/explorer
+   
+   
+.. components/explorer
    components/wallet

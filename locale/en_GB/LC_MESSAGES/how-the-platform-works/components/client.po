@@ -7,104 +7,360 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
-"PO-Revision-Date: 2019-04-17 17:34+0300\n"
+"POT-Creation-Date: 2019-06-05 17:46+0300\n"
+"PO-Revision-Date: 2019-06-06 11:40+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# a03210f7debc4767bf0b91feff5d3b1d
+# 351e37c332dc4760a3f42582e7b08129
 #: ../../how-the-platform-works/components/client.rst:4
 msgid "Общее описание клиента"
 msgstr "General Description of the Client"
 
-# 8bda5d551b244560b2c5c28a0451d5f0
+# fb18ead0e50443a19abd742905d7ac1e
 #: ../../how-the-platform-works/components/client.rst:6
 msgid ""
-"Клиент Vostok — это удобный способ управления вашим блокчейном для "
-"взаимодействия с партнёрами в публичной сети."
+"Клиент Vostok — это удобный способ управления вашим блокчейном Vostok. "
+"`<https://client.vostok.io>`_ — предназначен для работы в публичной сети "
+"Vostok."
 msgstr ""
-"Vostok client is a convenient way to manage your blockchain for interaction "
-"with partners in the public network."
+"Vostok client is a convenient way to manage your blockchain. `<https://client."
+"vostok.io>`_ is intended for operations in the Vostok public network."
 
-# 956498f1aeba4cbfb94c102d9ab259aa
+# 7966eff590a24900a05df694fbc39001
 #: ../../how-the-platform-works/components/client.rst:10
 msgid ""
-"**Клиент включает в себя разделы для использования всех возможностей "
-"блокчейна:**"
-msgstr "**The client includes sections for use of all blockchain features:**"
+"Клиент включает в себя разделы для использования всех возможностей блокчейна:"
+msgstr "The client includes sections for use of all blockchain features:"
 
-# fc3275bea19b42c6859c71c1fca8673e
+# f3377755010a4cdeacf9a201d30b3e44
 #: ../../how-the-platform-works/components/client.rst:12
 msgid ""
-"Раздел «Данные» — позволяет легко найти информацию о транзакциях или "
-"пользователях благодаря гибкому поиску и развитой системе фильтров."
+"«Данные» — позволяет найти информацию о транзакциях или пользователях, "
+"благодаря гибкому поиску и развитой системе фильтров."
 msgstr ""
-"Module \"Data\" easily allows to find information about transactions or "
-"users through flexible search and advanced filter system."
+"\"Data\" — allows to find information about transactions or users through "
+"flexible search and advanced filter system."
 
-# 5e5aee83cf21404c8fd44cdc7b25488b
+# c9ed4e880bde43bdb3b7c3d6ecec8771
 #: ../../how-the-platform-works/components/client.rst:13
-msgid ""
-"Раздел «Токены» — позволяет совершать транзакции, работать с наборами "
-"токенов."
-msgstr ""
-"Module \"Tokens\" allows to make transactions and operate token assets."
+msgid "«Токены» — позволяет переводить, выпускать, передавать в аренду токены."
+msgstr "\"Tokens\" — allows to transfer, issue, lease tokens."
 
-# 2fc62f72da8d493089146e23de08a927
+# 3317488f8561415f97c338ea917955dd
 #: ../../how-the-platform-works/components/client.rst:14
 msgid ""
-"Раздел «Настройки» — позволит управлять разрешениями на действия "
-"пользователей в блокчейне и присваивать аккаунтам уникальные имена для "
-"удобства администрирования."
+"«Контракты» — предоставляет инструменты для публикации и вызова docker-"
+"контрактов. Для публикации доступны контракты из репозитория, адрес которого "
+"был указан при сборке клиента."
 msgstr ""
-"Module \"Settings\" allows managing permissions for user actions in the "
-"blockchain and assigning unique names to accounts for easy administration."
+"\"Contracts\" — provides tools for publishing and calling docker contracts. "
+"Contracts are available for publishing from the repository, the address of "
+"which was specified when the client was built."
 
-# 4ff423e665a14d3cad94f4b60dc9272c
+# 867df619f1ef4f838228407e7f30ce4e
 #: ../../how-the-platform-works/components/client.rst:15
 msgid ""
-"Раздел «Запись данных» — позволит отправлять из интерфейса транзакции с "
-"данными и файлы."
+"«Запись данных» — позволяет отправлять из интерфейса транзакции с данными и "
+"файлы."
 msgstr ""
-"Module \"Enter Data\" allows sending data transactions and files from the "
+"\"Enter Data\" — allows sending data transactions and files from the "
 "interface."
 
-# 785435c47d3549c7a8e696e82d115bc2
+# 8e644b2cfe404825820b27cce1b9cba8
 #: ../../how-the-platform-works/components/client.rst:16
 msgid ""
-"Раздел «Контракты» — позволит просматривать и редактировать код Тьюринг "
-"неполных контрактов, отлаживать и публиковать их. Также компонент "
-"предоставит удобные инструменты для работы с docker-репозиторием для "
-"Тьюринг-полных контрактов."
+"«Настройки» — позволяет управлять разрешениями на действия пользователей в "
+"блокчейне."
 msgstr ""
-"Module \"Contracts\" allows viewing and editing Turing-incomplete "
-"contracts, debugging and publishing them. The component will also provide "
-"convenient tools for operations with Docker repository for Turing-complete "
-"contracts."
+"\"Settings\" — allows managing permissions for user actions in the blockchain."
 
-# 4c77649007f645f78657993bad46ddfd
-#: ../../how-the-platform-works/components/client.rst:17
-msgid ""
-"Раздел «Мониторинг» — позволит в реальном времени отслеживать следующую "
-"нагрузку на блокчейн: объем транзакций, скорость их прохождения, "
-"потенциальные угрозы целостности цепочки."
-msgstr ""
-"Module \"Monitoring\" allows real-time tracking of the following blockchain "
-"workload: the volume of transactions, their speed, and potential threats to "
-"chain consistency."
+# bac9fa92e92a4c2f937dcb3c5fbfce58
+#: ../../how-the-platform-works/components/client.rst:19
+msgid "**Данные**"
+msgstr "**Data**"
 
-# 7c2fc23ca3cc4b78a5ff46f4e91c1277
-#: ../../how-the-platform-works/components/client.rst:18
+# 49662f22b97244cc85926dde91151db0
+#: ../../how-the-platform-works/components/client.rst:21
 msgid ""
-"Сервис подготовки данных — не обладает пользовательским интерфейсом. "
-"Агрегирует данные из блокчейна для предоставления на клиент."
+"Раздел содержит информацию о транзакциях в блокчейне. Для получения "
+"информации используйте фильтры и поиск с указанием полей транзакций для "
+"поиска."
 msgstr ""
-"Data Preparation Service has no user interface. It aggregates the data from "
-"the blockchain for representation to the client."
+"This section contains information about blockchain transactions. For "
+"information, use the filter and the search string to specify the transaction "
+"fields to search for."
+
+# 48ac16ede0fa4e63880abc492a1ac48c
+#: ../../how-the-platform-works/components/client.rst:23
+msgid "Доступны фильтры транзакций:"
+msgstr "Available transaction filters:"
+
+# feeb08163d4844d7beaaba8e1cc7b374
+#: ../../how-the-platform-works/components/client.rst:25
+msgid "Все транзакции - отображение всех транзакций."
+msgstr "All transactions - displays of all transactions."
+
+# bf31d103be6f4e5a916c829b8343f367
+#: ../../how-the-platform-works/components/client.rst:26
+msgid "Транзакции с данными - отображение транзакций только с данными."
+msgstr "Data transactions - displays of the data transactions."
+
+# 8ecb16ecbf1041448b8ef69fd47d457a
+#: ../../how-the-platform-works/components/client.rst:27
+msgid ""
+"Токены - выборка транзакций с токенами. При выборе доступны контекстные "
+"фильтры по типам операций с токенами (например, перевод, аренда или эмиссия "
+"токенов)."
+msgstr ""
+"Tokens - a selection of transactions with tokens. When this value is "
+"selected, an additional option of contextual filtering by types of token "
+"operations (for example, transfer, lease or issue of tokens) appears."
+
+# 485c326be6ab4c3ba649417c962315b7
+#: ../../how-the-platform-works/components/client.rst:28
+msgid ""
+"Разрешения - выборка транзакций по операциям с псевдонимами и по "
+"пользовательским разрешениям. При выборе доступны контекстные фильтры по "
+"типам разрешений (например, майнинг, публикация контрактов или управление "
+"доступом)."
+msgstr ""
+"Permissions - a transactions selection by operations with aliases and by user "
+"permissions. When selected, context filters are available by permission type "
+"(for example, mining, contract publishing, or access control)."
+
+# d00675181dfb4555a9d643fbdd5beafc
+#: ../../how-the-platform-works/components/client.rst:29
+msgid ""
+"Группы - выборка транзакций по операциям с группами доступа к "
+"конфиденциальным данным. При выборе доступны контекстные фильтры по типам "
+"операций (например, создание или редактирование группы доступа)."
+msgstr ""
+"Groups - a selection of privacy data access groups transactions. When this "
+"value is selected, an additional option of contextual filtering by operation "
+"types (for example, a creation or an update of the access group) appears."
+
+# 994585fabdae47e0b5f45feaffc17865
+#: ../../how-the-platform-works/components/client.rst:30
+msgid ""
+"Контракты - выборка транзакций по операциям с контрактами. При выборе "
+"доступны контекстные фильтры по типам контрактов (например, Docker или RIDE)."
+msgstr ""
+"Contracts - a selection of the contracts transactions. When this value is "
+"selected, an additional option of contextual filtering by contracts types "
+"(for example, Docker or RIDE) appears."
+
+# a7253596796a45a59623d05b6e76fcdc
+#: ../../how-the-platform-works/components/client.rst:31
+msgid "Неподтвержденные транзакции - выборка по неподтверждённым транзакциям."
+msgstr "Unconfirmed transactions - a selection of the unconfirmed transactions."
+
+# 548cf516e9104c379b27999a00f3cfa4
+#: ../../how-the-platform-works/components/client.rst:32
+msgid ""
+"Пользователи - информация о пользователях. При выборе доступны контекстные "
+"фильтры по типам  разрешений (например, майнинг, публикация контрактов или "
+"управление доступом)."
+msgstr ""
+"Users - users info. When this value is selected, an additional option of "
+"contextual filtering by permissions types (for example, mining, publish smart-"
+"contract or access control) appears."
+
+# e3323d2c444141198f01d2acadb30dc8
+#: ../../how-the-platform-works/components/client.rst:34
+msgid "**Токены**"
+msgstr "**Tokens**"
+
+# 15c8ae6aeff441cb8d04fb18e7dc4b67
+#: ../../how-the-platform-works/components/client.rst:36
+msgid ""
+"Раздел отображает баланс авторизованной учетной записи, а также позволяет "
+"переводить токены другим участникам сети, передавать токены в аренду и "
+"выпускать токены. Выпуск токенов требует разрешения «Управление токенами»."
+msgstr ""
+"This section shows the balance of authorized account. Allows transferring "
+"tokens to other network participants, transfer tokens for lease and manage "
+"tokens. Token management requires the “Token Management” permission."
+
+# 9a6fe295881440b9bd94d60779d731e0
+#: ../../how-the-platform-works/components/client.rst:38
+msgid "**Контракты**"
+msgstr "**Contracts**"
+
+# 72b6513dfdbd4cd48e3609a076439d32
+#: ../../how-the-platform-works/components/client.rst:40
+msgid ""
+"Раздел отображает информацию по существующим контрактам в сети, позволяет "
+"публиковать и запускать выбранные контракты. Доступна фильтрация в поисковой "
+"строке по параметрам транзакций. Для публикации контрактов нужно разрешение "
+"«Публикация контрактов»."
+msgstr ""
+"The section displays information on existing contracts in the network and "
+"allows you to run the selected contracts. You can use the search string with "
+"transaction parameters for the filtration. Contract publishing requires the "
+"“contract-developer” role."
+
+# 5d6afed1e816469490d00e2b6412fbad
+#: ../../how-the-platform-works/components/client.rst:42
+msgid "**Запись данных**"
+msgstr "**Data transactions**"
+
+# 16e16d328793435f98db853303561a1b
+#: ../../how-the-platform-works/components/client.rst:44
+msgid ""
+"Раздел позволяет создавать транзакции с данными и просматривать информацию о "
+"существующих транзакциях с данными."
+msgstr ""
+"The section allows to create data transactions and view information about "
+"existing data transactions."
+
+# 40f8a06311654bcba38c79672b5322c5
+#: ../../how-the-platform-works/components/client.rst:46
+msgid "**Настройки**"
+msgstr "**Settings**"
+
+# 35de9cbbebb94c938b10200cf5eb2def
+#: ../../how-the-platform-works/components/client.rst:48
+msgid ""
+"Раздел отображает информацию об аккаунте пользователя (публичный и приватный "
+"ключи, секретная фраза), о текущей версии клиента и позволяет сменить язык "
+"интерфейса. Также в настройках выдаются разрешения другим пользователям. Для "
+"выдачи необходимо разрешение «Управление разрешениями»."
+msgstr ""
+"The section contains basic information about the user's account (public and "
+"private keys, secret phrase), also the current version of the client and "
+"allows you to change the language of the interface. Also you can add "
+"permissions to another users. This option requires the “permissioner” role."
+
+# e795b15fe2f643daaae82c5774a27f94
+#~ msgid ""
+#~ "«Мониторинг» — позволит в реальном времени отслеживать следующую нагрузку "
+#~ "на блокчейн: объем транзакций, скорость их прохождения, потенциальные "
+#~ "угрозы целостности цепочки."
+#~ msgstr ""
+#~ "\"Monitoring\" allows real-time tracking of the following blockchain "
+#~ "workload: the volume of transactions, their speed, and potential threats "
+#~ "to chain consistency."
+
+# 20632b2b68874465aa9e1932f98ae583
+#~ msgid ""
+#~ "Сервис подготовки данных — не обладает пользовательским интерфейсом. "
+#~ "Агрегирует данные из блокчейна для предоставления на клиент."
+#~ msgstr ""
+#~ "Data Preparation Service has no user interface. It aggregates the data "
+#~ "from the blockchain for representation to the client."
+
+# b2ed1fb75f99484891bf023fedacaf32
+#~ msgid ""
+#~ "«Контракты» — позволяет просматривать и редактировать код Тьюринг неполных "
+#~ "контрактов, отлаживать и публиковать их. Также компонент предоставит "
+#~ "удобные инструменты для работы с docker-репозиторием для Тьюринг-полных "
+#~ "контрактов."
+#~ msgstr ""
+#~ "\"Contracts\" - allows viewing and editing Turing-incomplete contracts, "
+#~ "debugging and publishing them. The component will also provide convenient "
+#~ "tools for operations with Docker repository for Turing-complete contracts."
+
+# 1fac6c8e4fc54a508afdaaddb9442a6d
+#~ msgid "Фильтр по транзакциям содержит следующие варианты фильтрации:"
+#~ msgstr "The transaction filter contains the following filtering options:"
+
+# 485c326be6ab4c3ba649417c962315b7
+#~ msgid ""
+#~ "Псевдонимы и разрешения - выборка транзакций по операциям с псевдонимами и "
+#~ "по пользовательским разрешениям. При выборе этого значения появляется "
+#~ "дополнительная опция контекстной фильтрации по типам разрешений (например, "
+#~ "майнинг, публикация контрактов или управление доступом)."
+#~ msgstr ""
+#~ "Aliases and permissions - a selection of aliases and permissions "
+#~ "transactions. When this value is selected, an additional option of "
+#~ "contextual filtering by permissions types (for example, mining, publish "
+#~ "smart-contract or access control) appears."
+
+# 3ca6a7d89f82478babf2178227b8aba5
+#~ msgid ""
+#~ "Сама строка поиска также позволяет фильтровать данные по следующим полям в "
+#~ "транзакциях:"
+#~ msgstr ""
+#~ "The search string itself also allows you to filter the data by the "
+#~ "following fields in transactions:"
+
+# 1e298b4b4c7446b2a736e21f1bb6b600
+#~ msgid ""
+#~ "\"Искать в сообщениях и в описаниях токенов\" — поиск в сообщениях "
+#~ "трансферов и масс-трансферов, а также в описаниях токенов."
+#~ msgstr ""
+#~ "“Search in messages and in token descriptions” — searches in transfer and "
+#~ "mass transfer messages, also in token descriptions."
+
+# 33e195e1bf094bb6999fcf1691961677
+#~ msgid ""
+#~ "\"Искать по номеру блока\" — поиск в поле «Высота блока», в котором "
+#~ "находится транзакция."
+#~ msgstr ""
+#~ "\"Search by block number\" — searches in the \"Block Height\" field where "
+#~ "the transaction is located."
+
+# c164abb68eeb49ce977f7ce2e6e8c0cd
+#~ msgid ""
+#~ "\"Искать в авторах и отправителях транзакций\" — поиск в адресах или "
+#~ "псевдонимах отправителей транзакций."
+#~ msgstr ""
+#~ "“Search in authors and transaction senders” — searches in addresses or "
+#~ "aliases of transaction senders."
+
+# 6f7a986c3418422183c252be5a2f5ebf
+#~ msgid ""
+#~ "\"Искать в получателях транзакций\" — поиск в адресах или псевдонимах "
+#~ "получателей транзакций."
+#~ msgstr ""
+#~ "“Search in transaction recipients” — searches in addresses or aliases of "
+#~ "transaction recipients."
+
+# b2dd666aa4a147fda266890e1ea69f26
+#~ msgid ""
+#~ "\"Искать как участника\" — поиск в адресах или псевдонимах отправителей и "
+#~ "получателей транзакций."
+#~ msgstr ""
+#~ "“Search as a participant” — searches in addresses or aliases of senders "
+#~ "and recipients of transactions."
+
+# 6f9a78fd78dc4ce9bcbb6dbe19488ff4
+#~ msgid ""
+#~ "\"Искать в идентификаторах транзакций\" — поиск в идентификаторах "
+#~ "транзакций."
+#~ msgstr "“Search in transaction IDs” — searches in transaction ID’s."
+
+# bff75ce290774feb91b25efa85f2c681
+#~ msgid ""
+#~ "\"Искать в идентификаторах токена\" — поиск в идентификаторах токенов. "
+#~ "Идентификатор токена равен идентификатору транзакции выпуска."
+#~ msgstr ""
+#~ "“Search in Token ID’s” — searches in token ID’s. Token ID is equal to the "
+#~ "issue transaction ID."
+
+# c83038998da84266be73717684e98e3f
+#~ msgid ""
+#~ "\"Искать в подписях\" — поиск в подписях транзакций. Подпись транзакции — "
+#~ "служебная информация и не отображается в интерфейсе."
+#~ msgstr ""
+#~ "“Search in signatures” — searches in transaction signatures. The "
+#~ "transaction signature is service information and is not displayed in the "
+#~ "interface."
+
+# 1612d95d9a364534a2e23340c9a1c518
+#~ msgid ""
+#~ "\"Искать в транзакциях с данными\" — поиск в ключах и значениях транзакций."
+#~ msgstr ""
+#~ "“Search in Data Transactions” — searches in transaction keys and values."
+
+# 64d3182f129644b8bf28b19771aad4ae
+#~ msgid "\"Искать везде\" — поиск по всем вышеперечисленным полям."
+#~ msgstr "“Search Everywhere” — searches all above fields."

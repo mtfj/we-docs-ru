@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-17 17:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# e628f7e807444feea2abbea8c3345338
+#: ../../how-to-setup/operations-node.rst:5
+msgid "Основные операции в сети"
+msgstr ""
+
+# cc8f57058ea04955a95ca879abb2af2b
+#: ../../how-to-setup/operations-node.rst:7
+msgid ""
+"Момент :ref:`запуска <node-start>` первой ноды можно считать началом "
+"создания новой блокчейн-сети. Разворачивать блокчейн-сеть вы можете со "
+"старта всего одной ноды, добавляя новые ноды по мере необходимости."
+msgstr ""
+
+# 5da08208b12d46a8b01efb84372b1077
+#: ../../how-to-setup/operations-node.rst:9
+msgid "Далее вы можете выполнить следующие операции:"
+msgstr ""
+
+# 38fd3bf551694a67a2d9139ec384b888
+#: ../../how-to-setup/operations-node.rst:11
+msgid ""
+":ref:`Подключите <connect-existing-net>` новую ноду к уже существующей "
+"сети."
+msgstr ""
+
+# eb00530710474bca89c5dc98ccb72b64
+#: ../../how-to-setup/operations-node.rst:12
+msgid ":ref:`Удалите <delete-node>` лишние ноды из сети."
+msgstr ""
+
+# 12e4a2cfbdbb4aa1a255399310add15f
+#: ../../how-to-setup/operations-node.rst:17
+msgid "Подключение новой ноды к существующей сети"
+msgstr ""
+
+# 1920c40a764b4915b9c21610350781c8
+#: ../../how-to-setup/operations-node.rst:19
+msgid ""
+"Новые ноды можно добавлять в сеть в любой момент времени. Настройка "
+"конфигурационных файлов новой ноды описана в подразделе :ref:`Подключение"
+" к существующей сети <configuration>`. Выполните все указанные в "
+"приведённом подразделе действия и :ref:`запустите <node-start>` ноду. "
+"Далее выполняются следующие действия:"
+msgstr ""
+
+# 1afb738877524c469918de98d5efc10e
+#: ../../how-to-setup/operations-node.rst:22
+msgid ""
+"Пользователь новой ноды передаёт публичный ключ и описание ноды "
+"администратору сети."
+msgstr ""
+
+# dd7b42e7217f4f25a5ff930152206dcd
+#: ../../how-to-setup/operations-node.rst:23
+msgid ""
+"Администратор сети (нода с ролью \"Connection-manager\") использует "
+"полученные публичный ключ и описание ноды при создании транзакции "
+":ref:`111 RegisterNode <RegisterNodeTransaction>` с параметром "
+"``\"opType\": \"add\"``."
+msgstr ""
+
+# e7d9ed5b953d492d8739f35d2bc678d2
+#: ../../how-to-setup/operations-node.rst:24
+msgid ""
+"Транзакция попадает в блок и далее в стейты нод участников сети. "
+"Вследствие транзакции среди сохраняемых данных каждый участник сети "
+"хранит обязательно публичный ключ и адрес новой ноды."
+msgstr ""
+
+# 5d9ab2ee878e43f48f085c46027afb5a
+#: ../../how-to-setup/operations-node.rst:25
+msgid ""
+"При необходимости администратор сети может добавить новой ноде "
+"дополнительные роли при помощи транзакции :ref:`102 Permit "
+"<PermitTransaction>`."
+msgstr ""
+
+# 55e2209a28434adbbc635a9d0007a530
+#: ../../how-to-setup/operations-node.rst:26
+msgid "Пользователь :ref:`запускает <node-start>` ноду."
+msgstr ""
+
+# ba6f52e9ae2744768d49545d01ac46b3
+#: ../../how-to-setup/operations-node.rst:27
+msgid ""
+"После запуска нода отправляет :ref:`handshake-сообщение <network-message-"
+"auth-handshake>` со своим публичным ключом участникам из списка \"peers\""
+" своего конфигурационного файла."
+msgstr ""
+
+# 014521306fd34ffcbe260589039093ae
+#: ../../how-to-setup/operations-node.rst:28
+msgid ""
+"Участники сети сравнивают публичный ключ из :ref:`handshake-сообщения "
+"<network-message-auth-handshake>` и ключ из транзакции :ref:`111 "
+"RegisterNode <RegisterNodeTransaction>`, отправленной администратором "
+"сети. Если проверка успешна, участник сети обновляет свою БД и рассылает "
+"в сеть сообщение :ref:`Peers Message <network-message-PeersMessage>`."
+msgstr ""
+
+# ae7c0a8227a8425784af398462b87983
+#: ../../how-to-setup/operations-node.rst:29
+msgid ""
+"Успешно подключившись, новая нода выполняет синхронизацию с сетью и "
+"получает таблицу адресов участников сети."
+msgstr ""
+
+# d5664626c5654323b8d1691441d1b4f1
+#: ../../how-to-setup/operations-node.rst:34
+msgid "Удаление ноды"
+msgstr ""
+
+# 331787d35b1b4cd487cfb669154e9fdc
+#: ../../how-to-setup/operations-node.rst:36
+msgid ""
+"Администратор сети создает транзакцию :ref:`111 RegisterNode "
+"<RegisterNodeTransaction>` с параметром ``\"opType\": \"remove\"`` для "
+"удаления ноды из сети, в которую помещается её публичный ключ."
+msgstr ""
+
+# f83e52076db84c5d9706da29f915c79c
+#: ../../how-to-setup/operations-node.rst:37
+msgid ""
+"Транзакция с удалением ноды вместе с остальными попадает в блок, и её "
+"принимают другие ноды."
+msgstr ""
+
+# 6d60a790b2f4469785767e4c34e05d23
+#: ../../how-to-setup/operations-node.rst:38
+msgid ""
+"После принятия транзакции ноды находят в своем стейте публичный ключ, "
+"указанный в транзакции :ref:`111 RegisterNode <RegisterNodeTransaction>`,"
+" и удаляют его из стейта."
+msgstr ""
+
+# dcf0bb9b4fc44e0ca9f1795cfee78b2c
+#: ../../how-to-setup/operations-node.rst:39
+msgid ""
+"Далее ноды удаляют сетевой адрес ноды с ключом, указанным в транзакции "
+":ref:`111 RegisterNode <RegisterNodeTransaction>`, из списка ``network"
+".known-peers`` конфигурационного файла ноды."
+msgstr ""
+

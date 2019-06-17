@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-18 10:15+0300\n"
+"POT-Creation-Date: 2019-05-15 12:26+0300\n"
+"PO-Revision-Date: 2019-05-15 16:40+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -42,27 +42,30 @@ msgstr "Description of interface elements:"
 
 # ee3dbbbd49154d4a899ab8b04cdc0c5f
 #: ../../how-the-platform-works/components/explorer.rst:11
-msgid "Навигация между разделами"
-msgstr "Navigating between sections"
+msgid "Навигация между разделами."
+msgstr "Navigating between sections."
 
 # 7cf2b7a927cb49e8b602e7c7e6ea1ee4
 #: ../../how-the-platform-works/components/explorer.rst:12
-msgid "Выход из клиента"
-msgstr "Exit from the Client app"
+msgid "Выход из клиента."
+msgstr "Exit from the Client app."
 
 # be1062bd784b47558281c493381a61c1
 #: ../../how-the-platform-works/components/explorer.rst:13
-msgid "Переключатель отображаемых групп транзакций"
-msgstr "Switch of viewed transaction groups"
+msgid "Переключатель отображаемых групп транзакций."
+msgstr "Switch of viewed transaction groups."
 
 # a3beff34fbda400795fe0599bd51ad32
 #: ../../how-the-platform-works/components/explorer.rst:14
-msgid "Фильтры, контекстные выбранной группе транзакций"
-msgstr "The filters contextual to selected transaction group"
+msgid "Фильтры, контекстные выбранной группе транзакций."
+msgstr "The filters contextual to selected transaction group."
 
 # 632f4a51de1e4564a3e684cdf06b4f88
-# d730b5b082504c27ad1ff2e31294f491
 #: ../../how-the-platform-works/components/explorer.rst:15
+msgid "Список транзакций."
+msgstr "List of transactions."
+
+# d730b5b082504c27ad1ff2e31294f491
 #: ../../how-the-platform-works/components/explorer.rst:18
 msgid "Список транзакций"
 msgstr "List of transactions"
@@ -92,28 +95,28 @@ msgstr ""
 
 # a19d6e66d41744afa12a23488480741f
 #: ../../how-the-platform-works/components/explorer.rst:26
-msgid "Транзакции с данными"
-msgstr "Data transactions"
+msgid "Транзакции с данными."
+msgstr "Data transactions."
 
 # 1a52f53f0d7c4b58a8ea8f0767494392
 #: ../../how-the-platform-works/components/explorer.rst:27
-msgid "Транзакции с токенами"
-msgstr "Token transactions"
+msgid "Транзакции с токенами."
+msgstr "Token transactions."
 
 # 4e819be2695d45cfadc432fd1b827a13
 #: ../../how-the-platform-works/components/explorer.rst:28
-msgid "Транзакции с разрешениями и псевдонимами пользователей"
-msgstr "Transactions with permissions and user aliases"
+msgid "Транзакции с разрешениями и псевдонимами пользователей."
+msgstr "Transactions with permissions and user aliases."
 
 # 48defd25a8a84f0492d9d15c9ef9b0c3
 #: ../../how-the-platform-works/components/explorer.rst:29
-msgid "Неподтверждённые транзакции"
-msgstr "Unconfirmed transactions"
+msgid "Неподтверждённые транзакции."
+msgstr "Unconfirmed transactions."
 
 # 80451ab718ab4dd0b23b4b4990095d7c
 #: ../../how-the-platform-works/components/explorer.rst:30
-msgid "Информация о пользователях"
-msgstr "User Information"
+msgid "Информация о пользователях."
+msgstr "User Information."
 
 # ccc4ff72476a430fa162f47f3662d109
 #: ../../how-the-platform-works/components/explorer.rst:32

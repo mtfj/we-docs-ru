@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-18 13:31+0300\n"
+"POT-Creation-Date: 2019-06-05 17:31+0300\n"
+"PO-Revision-Date: 2019-06-05 17:45+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -24,82 +24,111 @@ msgstr ""
 msgid "REST API ноды"
 msgstr "REST API Node"
 
-# 5be26d0792cc4ce484e61f23a16d77e6
+# e477c6f0128349a1a146a4239368b53d
 #: ../../how-to-use/rest-api-node.rst:6
 msgid ""
-"Блокчейн-платформа Восток предоставляет возможность взаимодействия с "
-"блокчейном, как в части получения данных (транзакции, блоки, балансы и др.), "
-"так и в части записи инфомрации в блокчейн (подписание и отправка "
-"транзакций). Указанное взаимодействие реализуется посредством RESTful API "
-"ноды."
+"Блокчейн-платформа Восток предоставляет возможность взаимодействия с блокчейном "
+"как в части получения данных (транзакции, блоки, балансы и др.), так и в части "
+"записи информации в блокчейн (подписание и отправка транзакций) при помощи "
+"RESTful API ноды. REST API позволяет пользователям удалённо взаимодействовать с "
+"нодой через запросы и ответы в формате JSON. Работа с API происходит по "
+"протоколу HTTPS. Удобным интерфейсом к API служит известный фреймворк Swagger."
 msgstr ""
-"Vostok blockchain platform provides an opportunity to interact with a "
-"blockchain, both in terms of receiving data (transactions, blocks, balances, "
-"etc.), and in terms of recording infomation in a blockchain (signing and "
-"sending transactions). Said interaction is implemented through node RESTful "
-"API ."
+"The Vostok blockchain platform provides an opportunity to interact with "
+"blockchain both in terms of receiving data (transactions, blocks, balances, "
+"etc.) and in terms of writing information to blockchain (signing and sending "
+"transactions) via RESTful API of the node. REST API allows users to interact "
+"remotely with the node using requests and responses in JSON format. HTTPS "
+"protocol is using to work with API and as an interface it is utilized the "
+"Swagger framework."
 
-# b05e890231b94eb59480f70e42dae81c
-#: ../../how-to-use/rest-api-node.rst:8
-msgid "Для запросов, требующих:"
-msgstr "For queries requiring:"
+# 67d9a1223b8d4b418c04cafb87334950
+#: ../../how-to-use/rest-api-node.rst:9
+msgid "Как использовать REST API"
+msgstr "How to use REST API"
 
-# 29d55c7400fb44d59c56ff071fdf6f25
-#: ../../how-to-use/rest-api-node.rst:10
-msgid "доступ к keystore ноды (например, метод sign);"
-msgstr "access to node keystore (for example, sign method);"
-
-# 7046d9c974894c37a619388703563317
+# 0697a050bbe043c0afd95d90f2680c34
 #: ../../how-to-use/rest-api-node.rst:11
-msgid "изменяющих состояние ноды (например, метод broadcast);"
-msgstr "changing node state (for example, broadcast method);"
+msgid ""
+"Все вызовы методов API — это GET, POST или DELETE HTTPS-запросы к URL ``https://"
+"yournetwork.com/node-N/api-docs/swagger.json`` с набором параметров. В "
+"интерфейсе Swagger выбираются нужные группы запросов и далее маршруты с точками "
+"доступа. Маршрут в Swagger это URL к HTTP-методу, а точка доступа (endpoint) - "
+"конечная часть маршрута, само обращение к методу. Пример:"
+msgstr ""
+"All API methods are including GET, POST or DELETE HTTPS requests to URL "
+"``https://yournetwork.com/node-N/api-docs/swagger.json`` using the set of "
+"parameters. The requests groups with routes and endpoints are selected in the "
+"Swagger interface. The route is the URL of the HTTP method, and the endpoint is "
+"the final part of the route, this is the access to the method. Example:"
 
-# 639533c086cc4fc9b618b31f84004f0b
-#: ../../how-to-use/rest-api-node.rst:12
-msgid "доступ к конфигурации ноды;"
-msgstr "access to node configuration;"
+# 19acf49910984d3a857799e3fa329dec
+#: ../../how-to-use/rest-api-node.rst:13
+msgid "**URL к HTTP-методу**"
+msgstr "**URL to the HTTP-method**"
 
 # 7ff6d636041a4043b19cac6e813147b6
-#: ../../how-to-use/rest-api-node.rst:14
-msgid ""
-"требуется обязательная передача параметра ``X-Api-Key`` со значением "
-"секретной фразы, hash которой указан в конфигурационном файле ноды (поле "
-"``rest-api.api-key-hash``)."
-msgstr ""
-"mandatory transfer of ``X-Api-Key`` parameter with the value of a secret "
-"phrase whose hash is specified in the node configuration file (field ``rest-"
-"api.api-key-hash``)."
-
-# 6ea54a7ed14e493e9c0497a9f6c81e0e
-#: ../../how-to-use/rest-api-node.rst:16
-msgid ""
-"Генерация значения поля ``rest-api.api-key-hash`` выполняется с "
-"использованием метода :ref:`/utils/hash/secure <utils-hash>` REST API ноды."
-msgstr ""
-"The value of the field ``rest-api.api-key-hash`` is generated using the "
-"following method :ref:`/utils/hash/secure <utils-hash>` of REST API node."
-
-# 214c0864812a476aa37a49cdb9f8e790
 #: ../../how-to-use/rest-api-node.rst:18
 msgid ""
-"Для подписания запросов ключем из keystore ноды в поле ``password`` запроса "
-"``POST /transaction/sign`` требуется указания пароля доступа к keystore."
+"Для запросов, требующих нижеперечисленных действий, необходима обязательная "
+"передача параметра ``X-Api-Key`` со значением секретной фразы, hash которой "
+"указан в конфигурационном файле ноды (поле ``rest-api.api-key-hash``):"
 msgstr ""
-"It is required to specify the access password to the keystore in the field "
-"``password`` of the request ``POST /transaction/sign`` for signing requests "
-"by the node keystore key."
+"For the followed below requests mandatory transfer of ``X-Api-Key`` parameter "
+"with the value of a secret phrase whose hash is specified in the node "
+"configuration file (field ``rest-api.api-key-hash``):"
+
+# 29d55c7400fb44d59c56ff071fdf6f25
+#: ../../how-to-use/rest-api-node.rst:20
+msgid "доступ к keystore ноды (например, метод sign);"
+msgstr "access to the node keystore (for example, sign method);"
+
+# 639533c086cc4fc9b618b31f84004f0b
+#: ../../how-to-use/rest-api-node.rst:21
+msgid "доступ к конфигурации ноды."
+msgstr "access to the node configuration."
+
+# 0175688215db4788bf8278588b31a779
+#: ../../how-to-use/rest-api-node.rst:23
+msgid ""
+"Генерация значения поля ``rest-api.api-key-hash`` выполняется с использованием "
+"метода :ref:`/utils/hash/secure <utils-hash>` REST API ноды. Для подписания "
+"запросов ключем из keystore ноды в поле ``password`` запроса ``POST /transaction/"
+"sign`` требуется указания пароля доступа к keystore."
+msgstr ""
+"The value of the field ``rest-api.api-key-hash`` is generated using the "
+"following method :ref:`/utils/hash/secure <utils-hash>` of REST API node. It is "
+"required to specify the access password to the keystore in the field "
+"``password`` of the request ``POST /transaction/sign`` for signing requests by "
+"the node keystore key."
 
 # 3502a207483245e2923e3e3615a8fe20
-#: ../../how-to-use/rest-api-node.rst:20
+#: ../../how-to-use/rest-api-node.rst:25
 msgid "Пример запроса:"
 msgstr "Sample query:"
 
 # 66b1cdf59ee84ca181d7b0c775247cc5
-#: ../../how-to-use/rest-api-node.rst:30
+#: ../../how-to-use/rest-api-node.rst:34
 msgid "Примеры транзакций приведены на странице :ref:`transaction-example`."
-msgstr "Examples of transactions are given on page: ref:'transaction-example'."
+msgstr "Examples of transactions are given on the page :ref:`transaction-example`."
 
 # a4b261c61b4d456faa33bdafb3ac7e49
-#: ../../how-to-use/rest-api-node.rst:32
+#: ../../how-to-use/rest-api-node.rst:36
 msgid "**Спецификация интерфейса ноды**"
-msgstr "**Specification of node interface**"
+msgstr "**Specification of the node interface**"
+
+# b05e890231b94eb59480f70e42dae81c
+#~ msgid "Для запросов, требующих:"
+#~ msgstr "For queries requiring:"
+
+# 6ea54a7ed14e493e9c0497a9f6c81e0e
+#~ msgid ""
+#~ "Генерация значения поля ``rest-api.api-key-hash`` выполняется с "
+#~ "использованием метода :ref:`/utils/hash/secure <utils-hash>` REST API ноды."
+#~ msgstr ""
+#~ "The value of the field ``rest-api.api-key-hash`` is generated using the "
+#~ "following method :ref:`/utils/hash/secure <utils-hash>` of REST API node."
+
+# 7046d9c974894c37a619388703563317
+#~ msgid "изменение состояния ноды (например, метод broadcast);"
+#~ msgstr "changing the node state (for example, broadcast method);"

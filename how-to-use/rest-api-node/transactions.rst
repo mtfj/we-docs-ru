@@ -1,6 +1,7 @@
 Transactions
 =============
 
+.. important:: За один запрос через API **/transactions/...** Data service вовращает не более 500 транзакций.
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`. Посмотреть :ref:`примеры <transaction-example>` транзакций.
    
 GET /transactions/info/{id}
@@ -164,9 +165,9 @@ POST /transactions/sign
 
 **Примеры запросов**
 
-========= ==================================================
+========= ============================================================================
 ID        Тип транзакции                                                                                                                        
-========= ==================================================
+========= ============================================================================
 3         :ref:`Issue <tx-issue>`          
 4         :ref:`Transfer <tx-transfer>`
 5         Reissue             
@@ -185,8 +186,15 @@ ID        Тип транзакции
 104       :ref:`CallContractTransaction <tx-CallContractTransaction>` 
 105       :ref:`ExecutedContractTransaction <tx-ExecutedContractTransaction>` 
 106       :ref:`DisableContractTransaction <tx-DisableContractTransaction>` 
-107       :ref:`UpdateContractTransaction <tx-UpdateContractTransaction>`  
-========= ==================================================
+110       :ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`
+111       :ref:`RegisterNode Transaction <tx-RegisterNodeTransaction>`
+112       :ref:`CreatePolicy Transaction <tx-CreatePolicyTransaction>`
+113       :ref:`UpdatePolicy Transaction <tx-UpdatePolicyTransaction>`
+114       :ref:`PolicyDataHash Transaction <tx-PolicyDataHashTransaction>`
+========= ============================================================================
+
+.. 107       :ref:`UpdateContractTransaction <tx-UpdateContractTransaction>`
+
 
 .. _tx-issue:
 
@@ -213,13 +221,18 @@ ID        Тип транзакции
 .. code:: js
 
    {
-      "type": 4,
-      "version": 2,
-      "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-      "recipient": "3P8JYPHrnXSfsWP1LVXySdzU1P83FE1ssDa",
-      "amount": 1317209272,
-      "fee": 100000,
-   }
+      "type":4,
+      "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "fee":100000,
+      "proofs":[],
+      "version":2,
+      "recipient":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL", 
+      "assetId":null,
+      "feeAssetId":null,
+      "amount": 200000000,
+      "attachment":"3uaRTtZ3taQtRSmquqeC1DniK3Dv"
+   } 
 
 .. _tx-alias:
 
@@ -283,11 +296,14 @@ ID        Тип транзакции
 
    {
       "type":102,
-      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-      "target":"3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac",
-      "role":"miner",
+      "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
+      "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
+      "fee":0,
+      "proofs":[""],
+      "target":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL",
       "opType":"add",
-      "dueTimestamp":1528975127294
+      "role":"contract_developer",
+      "dueTimestamp":null
    }
 
 
@@ -460,14 +476,124 @@ ID        Тип транзакции
       "contractId" : "Fz3wqAWWcPMT4M1q6H7crLKtToFJvbeLSvqjaU4ZwMpg"
    }
 
-.. _tx-UpdateContractTransaction:
+.. _tx-GenesisRegisterNodeTransaction:
 
-**107. UpdateContractTransaction**
+**110. GenesisRegisterNode**
 
 **Пример запроса**
 
 .. code:: js
 
+   {
+      "type": 110,
+      "id": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "fee": 0,
+      "timestamp": 1489352400000,
+      "signature": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "targetPublicKey": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+      "target": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj"
+   }
+
+**Пример ответа**
+
+.. code:: js
+
+   {
+      "signature": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "fee": 0,
+      "id": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+      "type": 110,
+      "targetPublicKey": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+      "timestamp": 1489352400000,
+      "target": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+      "height": 1
+   }
+
+.. _tx-RegisterNodeTransaction:
+
+**111. RegisterNode**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type": 111,
+      "opType": "add",
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "targetPubKey": "apgJP9atQccdBPAgJPwH3NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAgJPwHDKkh6A8",
+      "nodeName": "Node #1",
+      "fee": 500000,
+      "timestamp": 1557239100
+   } 
+
+.. _tx-CreatePolicyTransaction:
+
+**112. CreatePolicy**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type":112,
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "description": "Policy for rusal internal nodes",
+      "policyName": "Policy name",
+      "timestamp": 1000000000,
+      "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+      "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+   } 
+.. _tx-UpdatePolicyTransaction:
+
+**113. UpdatePolicy**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type":113,
+      "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH", // id of the existing policy otherwise it occurs the error "Object with policyId = <reqest id> does not exist"
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "timestamp": 1000000000,
+      "opType": "add", // or "remove" when removing participants from policy
+      "recipients": [ "3HSVTtjim3FmV21HWQ1LurMhFzjut7Aa1Ac", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ],
+      "owners": [ "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz", "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz" ]
+   }
+
+.. _tx-PolicyDataHashTransaction:
+
+**114. PolicyDataHash**
+
+**Пример запроса**
+
+.. code:: js
+
+   {
+      "type":114,
+      "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+      "timestamp": 1000000000,
+      "policyId": "45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
+      "hash": "ad2a814482df0dd0d2cf6321f535be720caa7b3aa1289b0575f60d7a5e109631",
+   }
+
+.. **Пример ответа**
+   .. code:: js
+      {
+         "signature": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+         "fee": 0,
+         "id": "2Xgbsqgfbp5fiq4nsaAoTkQsXc399tXdnKom8prEZqPW2Q7xZKNKCCqpkyMtmJMgYLpvwynbxHPTFpFEfFdyLpJ",
+         "type": 110,
+         "targetPublicKey": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+       "timestamp": 1489352400000,
+         "target": "3JNLQYuHYSHZiHr5KjJ89wwFJpDMdrAEJpj",
+         "height": 1
+      }
+   .. _tx-UpdateContractTransaction:
+   **107. UpdateContractTransaction**
+   **Пример запроса**
+   .. code:: js
    {
       "senderPublicKey":"42jj4GA89Z2SncgzpxoocmWZChrpqhDGVKcJUctAGWJB2oSTQrZCQyzbvriDSFu5ZmCBsFutDyg9ES6WqqULyV5e",
       "contractId":"45n2BC8TmobhH7zbog8ZsR1mcHSd1uU84UvWEoSbqQBH",
@@ -480,11 +606,8 @@ ID        Тип транзакции
       ],
       "type":107
    }
-
-**Пример ответа**
-
-.. code:: js
-
+   **Пример ответа**
+   .. code:: js
    {
       "type" : 107,
       "id" : "GL8eifYHfv6XcgK1sBnU2oYaJ1JExKHH3APEnU64dGfX",
@@ -535,6 +658,6 @@ POST /transactions/broadcast
     "alias":"dajzmj6gfuzmbfnhamsbuxivc"
    }
 
-GET /transactions/address/{address}/limit/{limit}?after={after}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Возвращает список транзакций, в которых в качестве одного из адресатов указан {address}.
+.. GET /transactions/address/{address}/limit/{limit}?after={after}
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Возвращает список транзакций, в которых в качестве одного из адресатов указан {address}.

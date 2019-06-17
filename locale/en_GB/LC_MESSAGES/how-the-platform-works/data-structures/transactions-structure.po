@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-25 13:47+0300\n"
-"PO-Revision-Date: 2019-04-25 15:13+0300\n"
+"POT-Creation-Date: 2019-06-11 11:29+0300\n"
+"PO-Revision-Date: 2019-06-11 11:34+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
@@ -31,13 +31,12 @@ msgid ""
 "Восток. Для некоторых типов транзакций введено версионирование."
 msgstr ""
 "This module contains the structure of transaction storage in the Vostok "
-"blockchain platform. Versioning has been introduced for some transaction "
-"types."
+"blockchain platform. Versioning has been introduced for some transaction types."
 
 # 29bd41852b30440aac949fa446288db9
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:12
 msgid "№"
-msgstr "№"
+msgstr "#"
 
 # b75415c5f64a487691063a6e5253b1a0
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:12
@@ -48,6 +47,11 @@ msgstr "Transaction type"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:12
 msgid "Комиссия"
 msgstr "Fee"
+
+# 769fefdf85e641f990b460fbe49444d6
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:12
+msgid "Описание"
+msgstr "Description"
 
 # 545b3051b4234c64b228bdcb53275ff8
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
@@ -60,21 +64,21 @@ msgid ":ref:`Genesis transaction <GenesisTransaction>`"
 msgstr ""
 
 # a87ff3a728144ab2b7d6b589ac83ad04
-# b7c6a081d235430d995ebd30566594b7
 # 65dec4d8f01f40ddb7219d5ec1707211
-# 32f3373e5f1b4a21ac8346fb89885fe1
-# 04493a17543e42429d68ced9ccc53b2b
-# c62e175478244c9fb60fde6107985ea3
-# e73edaeffcec4879aee56c560daa2983
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:29
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:33
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:36
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:37
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:38
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:39
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:35
 msgid "отсутствует"
 msgstr "no fee"
+
+# 818a46f1a06946d785fedff4ee2d3b29
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
+msgid ""
+"Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод"
+msgstr ""
+"Initial binding of the balance to the addresses of nodes created at the start "
+"of the blockchain"
 
 # 26dfbd4f817b4b9fb0b86cefba7a6e6b
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:15
@@ -96,14 +100,20 @@ msgstr "3"
 msgid ":ref:`Issue Transaction <issueTransaction>`"
 msgstr ""
 
-# e5ed8afe5f6749e69c5c0cc46c7fd917
-# c1110413d12647bfadd23047825fd738
-# 300fa768385e465b8b4f2d31acbf4cb2
+# f8831a22a6024b1ca2b10242e788e38f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:16
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:27
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:18
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:28
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:31
-msgid "1 - 1.004VST"
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:37
+msgid "1VST"
 msgstr ""
+
+# 631d0372af534c30aaa4eb268ea76082
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:16
+msgid "Выпуск токенов"
+msgstr "Tokens issue"
 
 # 9d3c8f5c4fc84fc8bb896b26230f0eeb
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:17
@@ -115,14 +125,19 @@ msgstr "4"
 msgid ":ref:`Transfer Transaction <TransferTransaction>`"
 msgstr ""
 
-# 2464d121e05f4fc9b0e25b7a30ee482b
-# 608d12f5284244a3a4e6a033732084f4
-# 4436b55423084234934650984be3e8a2
+# 13d51e820f0f4e069fb90a4a683d03ef
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:17
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:19
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:24
-msgid "0.001 - 0.009VST"
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:30
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:36
+msgid "0.01VST"
 msgstr ""
+
+# 9bea82d86af142fa92f085e553ed7acb
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:17
+msgid "Перевод токенов"
+msgstr "Tokens transfer"
 
 # c0c73763d6634fccaa9397df05660739
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:18
@@ -134,10 +149,10 @@ msgstr "5"
 msgid ":ref:`Reissue Transaction <ReissueTransaction>`"
 msgstr ""
 
-# 9a1709c458a047f981539982466b2dac
+# 143b8f4e5f054d1fbc10a17efb27095b
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:18
-msgid "1 - 1.008VST"
-msgstr ""
+msgid "Перевыпуск токенов"
+msgstr "Tokens reissue"
 
 # 37070c508a754615b80887316bc1c0a9
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:19
@@ -149,6 +164,19 @@ msgstr "6"
 msgid ":ref:`Burn Transaction <BurnTransaction>`"
 msgstr ""
 
+# 13d51e820f0f4e069fb90a4a683d03ef
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:19
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:24
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:39
+msgid "0.05VST"
+msgstr ""
+
+# b852162c2eb546bea0fc537c15a91d56
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:19
+msgid "Сжигание токенов"
+msgstr "Tokens burn"
+
 # 70144475c1fc414fa32e03bd59cc704f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:20
 msgid "7"
@@ -158,11 +186,6 @@ msgstr "7"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:20
 msgid ":ref:`Exchange Transaction (не используется) <ExchangeTransaction>`"
 msgstr "Exchange Transaction (not used)"
-
-# 610a53e7682a48a4aee6043bd3a5bab6
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:20
-msgid "0.003 - 0.007VST"
-msgstr ""
 
 # 924c592d32f646a087dbf86d98f54e05
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
@@ -174,16 +197,10 @@ msgstr "8"
 msgid ":ref:`Lease Transaction <LeaseTransaction>`"
 msgstr ""
 
-# 6d64d7a74574497590f36a6935fea2bf
-# f5134dcbb409454993c1920c56cd1b86
-# 56e7adf5232b4d22ba30bac1246b8693
-# 54e15f6825ce4a13a8a52c85d852f08a
+# 2ec96dead6524456b29b136b26b33661
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
-msgid "0.001 - 0.005VST"
-msgstr ""
+msgid "Передача токенов в аренду"
+msgstr "Tokens lease"
 
 # daa0f557b0574bffaa03db9500db9d8a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
@@ -195,6 +212,11 @@ msgstr "9"
 msgid ":ref:`Lease Cancel Transaction <LeaseCancelTransaction>`"
 msgstr ""
 
+# 9d2961f675bf47119bc46fbdb3a06603
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
+msgid "Отмена аренды токенов"
+msgstr "Cancel of the tokens lease"
+
 # f9efcbce37004359a9a444daae76385a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
 msgid "10"
@@ -204,6 +226,11 @@ msgstr "10"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
 msgid ":ref:`Create Alias Transaction <CreateAliasTransaction>`"
 msgstr ""
+
+# 8c535a24a83b4b1ca4df457b5e1061d1
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
+msgid "Создание псевдонима"
+msgstr "Alias creation"
 
 # ea861b5824384bf4a39f8a8e8bfe7d70
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:24
@@ -215,6 +242,11 @@ msgstr "11"
 msgid ":ref:`MassTransfer Transaction <MassTransferTransaction>`"
 msgstr ""
 
+# ec2f2ef304634750a6da8292195a954f
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:24
+msgid "Массовый перевод токенов. Указана минимальная комиссия"
+msgstr "Mass tokens transfer. Minimum commission specified"
+
 # 41059a44e92e488cb41cf9a46f0cbce7
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
 msgid "12"
@@ -224,6 +256,15 @@ msgstr "12"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
 msgid ":ref:`Data Transaction <DataTransaction>`"
 msgstr ""
+
+# c828d9e162d94d74a4694fabd7818b53
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
+msgid ""
+"Транзакция с данными в виде полей с парой ключ-значение. Указана минимальная "
+"комиссия"
+msgstr ""
+"Transaction with the data in the key-value pairs format. Minimum commission "
+"specified"
 
 # 59c96e2ba3b448bf8f9700004680921f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:26
@@ -235,20 +276,26 @@ msgstr "13"
 msgid ":ref:`SetScript Transaction <SetScriptTransaction>`"
 msgstr ""
 
-# df445c002e9a4aa9a46b6c2973a2611b
+# f8831a22a6024b1ca2b10242e788e38f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:26
-msgid "0.01 - 0.014VST"
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:38
+msgid "0.5VST"
 msgstr ""
+
+# da1e7b9428fa430ca77b07046f5ea90d
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:26
+msgid "Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту"
+msgstr "Transaction which is binding a script with a RIDE contract to an account"
 
 # b5d136ac076a4521b3139c3eccd2e8eb
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:27
 msgid "14"
 msgstr "14"
 
-# ffc3b85d885a44f2a515232e857e5fd8
+# 87253a79325f444fbfdcef7ec612a495
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:27
-msgid ":ref:`SponsorFee Transaction (не используется) <SponsorFeeTransaction>`"
-msgstr "SponsoredFee Transaction (not used)"
+msgid "SponsorFee Transaction (не используется)"
+msgstr "SponsorFee Transaction (not used)"
 
 # c05f68c741b84272b78d3476731412e4
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:28
@@ -260,10 +307,10 @@ msgstr "15"
 msgid ":ref:`SetAssetScript <SetAssetScriptTransaction>`"
 msgstr ""
 
-# 218cb6ea7cd842a9ae595b4f3397f275
+# f5b58b81660d40aa80a01e9adde6f31a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:28
-msgid "0.996 - 1VST"
-msgstr ""
+msgid "Транзакция, привязывающая скрипт с RIDE-контрактом к ассету"
+msgstr "Transaction which is binding a script with a RIDE contract to an asset"
 
 # efabd8b0f8c34e6db3ce7ee79e65ab84
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:29
@@ -275,6 +322,12 @@ msgstr "101"
 msgid ":ref:`Genesis Permission Transaction <GenesisPermitTransaction>`"
 msgstr ""
 
+# 3cd9ae6833a6402a98182ce034ae895a
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:29
+msgid "Назначение первого администратора сети для дальнейшей раздачи прав"
+msgstr ""
+"Assignment of the first network administrator for further distribution of rights"
+
 # 6de3f8cd97d54ddda56f9a0dd2290c15
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:30
 msgid "102"
@@ -285,10 +338,10 @@ msgstr "102"
 msgid ":ref:`Permission Transaction <PermitTransaction>`"
 msgstr ""
 
-# f8831a22a6024b1ca2b10242e788e38f
+# 2aa653260df440e8b2d6ec58aa587d98
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:30
-msgid "0VST"
-msgstr ""
+msgid "Выдача/отзыв прав у аккаунта"
+msgstr "Issuance/withdrawal of rights from the account"
 
 # 13c37c3679d64961bd6ac83cc89ed7e3
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:31
@@ -300,6 +353,11 @@ msgstr "103"
 msgid ":ref:`CreateContract Transaction <CreateContractTransaction>`"
 msgstr ""
 
+# 4e2e9214e7c54b16ac0b82c0dec742ea
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:31
+msgid "Создание Docker-контракта"
+msgstr "Docker-contract creation"
+
 # 3b68118127fb4ec1a2fddb6868edd155
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:32
 msgid "104"
@@ -310,12 +368,17 @@ msgstr "104"
 msgid ":ref:`CallContract Transaction <CallContractTransaction>`"
 msgstr ""
 
-# ac3e9cb6cd8f43a69e5483faf81b68c1
-# 26546c74a9a54fad8a9bf54956d2a781
+# 218cb6ea7cd842a9ae595b4f3397f275
+# 13d51e820f0f4e069fb90a4a683d03ef
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:32
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
-msgid "0.15 - 0.154VST"
+msgid "0.1VST"
 msgstr ""
+
+# b1dc62c860114af5bf230e52433f01e0
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:32
+msgid "Вызов Docker-контракта"
+msgstr "Docker-contract call"
 
 # 22846a64f18548209aa1092a4b624f38
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:33
@@ -327,6 +390,11 @@ msgstr "105"
 msgid ":ref:`ExecutedContract Transaction <ExecutedContractTransaction>`"
 msgstr ""
 
+# a4b03441cd504a3b9729afb41f9ac2f7
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:33
+msgid "Выполнение Docker-контракта"
+msgstr "Docker-contract execution"
+
 # 3bfa55a402f6499faaa37d1e23ef8998
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
 msgid "106"
@@ -336,6 +404,11 @@ msgstr "106"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
 msgid ":ref:`DisableContract Transaction <DisableContractTransaction>`"
 msgstr ""
+
+# 30df4041d7154f368b4cb446e75d13d5
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
+msgid "Отключение Docker-контракта"
+msgstr "Docker-contract disable"
 
 # 4ada8e67e1754120a9d34d7190107d8e
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:35
@@ -347,10 +420,10 @@ msgstr "110"
 msgid ":ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`"
 msgstr ""
 
-# 13d51e820f0f4e069fb90a4a683d03ef
+# a1ae0c10611a4813aab5af56edf770d4
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:35
-msgid "0-0.004VST"
-msgstr ""
+msgid "Регистрация ноды в генезис-блоке при старте блокчейна"
+msgstr "Node registration in the genesis block with the blockchain start"
 
 # 94ff2de4c8d34e198b71aac31f53683e
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:36
@@ -362,6 +435,11 @@ msgstr "111"
 msgid ":ref:`RegisterNode Transaction <RegisterNodeTransaction>`"
 msgstr ""
 
+# 8878741424844156a5f1d4bfb8b254a2
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:36
+msgid "Регистрация новой ноды в сети"
+msgstr "A new node registration"
+
 # 46c8efa522284bae8591dd40e5fcc4cc
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:37
 msgid "112"
@@ -369,8 +447,13 @@ msgstr "112"
 
 # 95a67bbfbaf44daebc9ea7ef4b514227
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:37
-msgid ":ref:`CreatPolicy Transaction <CreatPolicyTransaction>`"
+msgid ":ref:`CreatePolicy Transaction <CreatePolicyTransaction>`"
 msgstr ""
+
+# 0838b6cea48c4975a046bd7558f4abac
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:37
+msgid "Создание группы доступа к конфиденциальным данным"
+msgstr "Access group creation"
 
 # f856eee83bba42b68ac40369caa6b696
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:38
@@ -382,6 +465,11 @@ msgstr "113"
 msgid ":ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`"
 msgstr ""
 
+# aec4515d93d0441ea95e915a08b25b0e
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:38
+msgid "Изменение группы доступа"
+msgstr "Update the access group"
+
 # ec26edacfde04306bebb502102efffeb
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:39
 msgid "114"
@@ -392,8 +480,13 @@ msgstr "114"
 msgid ":ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`"
 msgstr ""
 
+# a797c3629d4046c1944fde7ea7dc539a
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:39
+msgid "Отправка в сеть хеша данных"
+msgstr "A data hash sending to the net"
+
 # 3bbedef3542a41b6adfe63dc009c5fd6
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:48
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:80
 msgid "1. Genesis transaction"
 msgstr "1. Genesis transaction"
 
@@ -423,8 +516,6 @@ msgid "type"
 msgstr "Type"
 
 # c9d9aa515dc24881875058ef0215544c
-# ce2c67c101284e9d9a2b07de0d3006b2
-# 0d7e8758a465476bab12206b86a06eb2
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Byte"
 msgstr "Byte"
@@ -435,21 +526,16 @@ msgid "id"
 msgstr ""
 
 # c7f8d4c6f1cf496abe6b1c8ab89775e0
-# cc553f1c72064b138b2d347f8cca1bdb
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "fee"
 msgstr "Fee"
 
 # 3e85ecb159b6463dbb1261918f738f00
-# 91eded0afca14fc4824b061208e841ca
-# a985f78d3cd7445da25855504468827b
-# 65fe796156fb4584a3538dd6b170d6dd
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Long"
 msgstr "Long"
 
 # 7229d99e8b5f4f06b2d1b5cf332b96f8
-# d1fef74bf5f6427baaaf182aac0ba5a5
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "timestamp"
 msgstr "timestamp"
@@ -479,29 +565,8 @@ msgstr "Amount"
 msgid "height"
 msgstr "Height"
 
-# 93ca793085a240cb92e70c6ddf7a56f2
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:62
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:121
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:184
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:243
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:302
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:382
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:435
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:486
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:546
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:619
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:682
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:762
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:838
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:892
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:957
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1007
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1070
-msgid "**Broadcasted JSON**"
-msgstr "**Broadcasted JSON**"
-
 # 74906b16133044bb9558bbcc7bbfe957
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:80
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:97
 msgid "3. issueTransaction"
 msgstr "3. Issue Transaction"
 
@@ -516,7 +581,6 @@ msgid "sender"
 msgstr "Sender"
 
 # 54d623b19ecc4e8b837b05957ee56c62
-# 948bf1b57aeb405ba4cefc8fadd750e4
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "PublicKeyAccount"
 msgstr "PublicKeyAccount"
@@ -612,29 +676,49 @@ msgid "String"
 msgstr "String"
 
 # 3ac3db09c2e94dfb981990522f771381
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:105
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:170
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:228
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:288
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:369
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:423
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:474
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:529
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:599
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:669
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:749
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:825
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:879
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:932
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1058
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1139
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1157
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1177
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:122
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:187
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:252
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:312
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:393
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:447
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:498
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:553
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:623
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:693
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:750
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:826
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:884
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:937
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1063
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1133
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1152
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1182
 msgid "**JSON для вызова метода sign**"
-msgstr "JSON to sign"
+msgstr "**JSON to sign**"
+
+# 93ca793085a240cb92e70c6ddf7a56f2
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:138
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:206
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:267
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:326
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:406
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:459
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:510
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:570
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:643
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:706
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:763
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:842
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:897
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:962
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1012
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1075
+msgid "**Broadcasted JSON**"
+msgstr "**Broadcasted JSON**"
 
 # 9ada2d60bfd14d39a5ebe54c16dbc26c
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:148
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:165
 msgid "4. TransferTransaction"
 msgstr "4. Transfer Transaction"
 
@@ -649,17 +733,17 @@ msgid "attachment"
 msgstr "Attachment"
 
 # cca072280b7b4d17b89408adf40636e6
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:207
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:231
 msgid "5. ReissueTransaction"
 msgstr "5. Reissue Transaction"
 
 # c5736e140b0e4472ad061fcdb9ba8a93
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:267
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:291
 msgid "6. BurnTransaction"
 msgstr "6. Burn Transaction"
 
 # 1652ef6060614796955f783c12ea8481
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:324
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:348
 msgid "7. ExchangeTransaction"
 msgstr "7. Exchange Transaction"
 
@@ -699,7 +783,7 @@ msgid "sellMatcherFee"
 msgstr "sellMatcherFee"
 
 # ef43f854b6c84a81bc302c984868d180
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:349
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:373
 msgid "8. LeaseTransaction"
 msgstr "8. Lease Transaction"
 
@@ -709,7 +793,7 @@ msgid "status"
 msgstr "Status"
 
 # a1929edc9767436fac10c75b5c1dba06
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:403
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:427
 msgid "9. LeaseCancelTransaction"
 msgstr "9. Lease Cancel Transaction"
 
@@ -729,7 +813,7 @@ msgid "lease"
 msgstr "LeaseId"
 
 # eb4f6ce670704cdb8b21f31d2d724986
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:456
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:480
 msgid "10. CreateAliasTransaction"
 msgstr "10. Create Alias Transaction"
 
@@ -739,7 +823,7 @@ msgid "alias"
 msgstr "Alias"
 
 # bb0e7df5a49d412490a55f3c59069bb0
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:507
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:531
 msgid "11. MassTransferTransaction"
 msgstr "11. MassTransfer Transaction"
 
@@ -764,7 +848,7 @@ msgid "totalAmount"
 msgstr "totalAmount"
 
 # b8a07ac8b48e42119b5e0de6ab37603d
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:579
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:603
 msgid "12. DataTransaction"
 msgstr "12. Data Transaction"
 
@@ -784,27 +868,17 @@ msgid "data"
 msgstr "Data"
 
 # 205abe6cbb84475186a458766a84df71
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:648
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:672
 msgid "13. SetScriptTransaction"
 msgstr "13. SetScript Transaction"
 
-# b37b25d45b7146429af993d73e7263ed
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:705
-msgid "14. SponsorFeeTransaction"
-msgstr "14. SponsoredFee Transaction"
-
-# 9af8b68d646e4f20a516aa709a6b8222
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
-msgid "minSponsorAssetFee"
-msgstr "minSponsorAssetFee"
-
 # ff212930d32c43079de8f9ec80628e62
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:728
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:729
 msgid "15. SetAssetScriptTransaction"
-msgstr "SetAssetScriptTransaction"
+msgstr "15. SetAssetScriptTransaction"
 
 # df8c34f620d34190a37db3dd17ebcfae
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:784
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:785
 msgid "101. GenesisPermitTransaction"
 msgstr "101. GenesisPermitTransaction"
 
@@ -819,7 +893,7 @@ msgid "role"
 msgstr "Role"
 
 # b2184a7abb1b420590f4539d4902b701
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:803
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:804
 msgid "102. PermitTransaction"
 msgstr "102. PermissionTransaction"
 
@@ -844,7 +918,7 @@ msgid "Option[Long]"
 msgstr "Option[Long]"
 
 # b471aaf096a54488a8141dc630b6b254
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:860
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:865
 msgid "103. CreateContractTransaction"
 msgstr "103. CreateContractTransaction"
 
@@ -874,7 +948,7 @@ msgid "List[DataEntry[_]]"
 msgstr "List[DataEntry[_]]"
 
 # fe218d5166e84f15937850971a7aeffd
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:914
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:919
 msgid "104. CallContractTransaction"
 msgstr "104. CallContractTransaction"
 
@@ -884,7 +958,7 @@ msgid "contractId"
 msgstr "contractId"
 
 # b5226a7f202d49c284af25770316b59c
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:989
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:994
 msgid "105. ExecutedContractTransaction"
 msgstr "105. ExecutedContractTransaction"
 
@@ -904,14 +978,9 @@ msgid "results"
 msgstr "results"
 
 # 24cfc0ebec8745879ffddeb7b9e79780
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1041
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1046
 msgid "106. DisableContractTransaction"
 msgstr "106. DisableContractTransaction"
-
-# b471aaf096a54488a8141dc630b6b254
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1089
-msgid "107. UpdateContractTransaction"
-msgstr "107. UpdateContractTransaction"
 
 # f2704546c01d4d2b8f782ed000546d46
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1096
@@ -934,19 +1003,29 @@ msgid "nodeName"
 msgstr "nodeName"
 
 # 6a957b8684474cdfb720d84ec8cf375c
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1137
-msgid "112. CreatPolicyTransaction"
-msgstr "112. CreatPolicyTransaction"
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1150
+msgid "112. CreatePolicyTransaction"
+msgstr "112. CreatePolicyTransaction"
 
 # bd51a25681094efdbb468ede39648b70
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1155
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1180
 msgid "113. UpdatePolicyTransaction"
 msgstr "113. UpdatePolicyTransaction"
 
 # 2fc7673c534a4f30b0b8a19e29e8e877
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1175
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1214
 msgid "114. PolicyDataHashTransaction"
 msgstr "114. PolicyDataHashTransaction"
+
+# e97431864cda4bb885e4a6505102677d
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1216
+msgid ""
+"Когда пользователь отправляет конфиденциальные данные в сеть при помощи :ref:"
+"`POST /privacy/sendData <privacy-api>`, нода автоматически формирует транзакцию "
+"114."
+msgstr ""
+"When the user sends confidential data to the network using :ref:`POST /privacy/"
+"sendData <privacy-api>`, the node automatically will create the 114 transaction."
 
 # f38ad577ec7a4a4ab0307689926f4379
 #~ msgid ""
@@ -960,11 +1039,11 @@ msgstr "114. PolicyDataHashTransaction"
 
 # c5ec468fa1dd4b87b5bbe617cc1bcf82
 #~ msgid ""
-#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
+#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
 #~ msgstr ""
-#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
+#~ "`Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_"
 
 # f06d786adc2d445aab7cdee0107bd9aa
 #~ msgid ""
@@ -984,19 +1063,19 @@ msgstr "114. PolicyDataHashTransaction"
 
 # 711b90244eb64d8ba5916bab9f0747c4
 #~ msgid ""
-#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
+#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
 #~ msgstr ""
-#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
+#~ "`Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_"
 
 # ad331836f95f4208bd67e2dd4233c223
 #~ msgid ""
-#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
+#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
 #~ msgstr ""
-#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
+#~ "`LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_"
 
 # 401cdbf33bd9449fb46d944c322a40f9
 #~ msgid ""
@@ -1024,11 +1103,11 @@ msgstr "114. PolicyDataHashTransaction"
 
 # 5c2cf014a7c54c9c8bbe245e4bd67c42
 #~ msgid ""
-#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
+#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
 #~ msgstr ""
-#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/"
-#~ "transactions/info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
+#~ "`Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/"
+#~ "info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_"
 
 # 8c6fd7da27a440339f314ced95357b5f
 #~ msgid "SetScript Transaction"
@@ -1570,3 +1649,37 @@ msgstr "114. PolicyDataHashTransaction"
 # 6592bb0b54524a668e035c461ab2cf89
 #~ msgid "tx represents a set of CreateContract Transaction fields."
 #~ msgstr "tx represents a set of CreateContract Transaction fields."
+
+# ffc3b85d885a44f2a515232e857e5fd8
+#~ msgid ":ref:`SponsorFee Transaction (не используется) <SponsorFeeTransaction>`"
+#~ msgstr "SponsoredFee Transaction (not used)"
+
+# b37b25d45b7146429af993d73e7263ed
+#~ msgid "14. SponsorFeeTransaction"
+#~ msgstr "14. SponsoredFee Transaction"
+
+# 9af8b68d646e4f20a516aa709a6b8222
+#~ msgid "minSponsorAssetFee"
+#~ msgstr "minSponsorAssetFee"
+
+# b471aaf096a54488a8141dc630b6b254
+#~ msgid "107. UpdateContractTransaction"
+#~ msgstr "107. UpdateContractTransaction"
+
+# d9155001e9a5442886252cf09faf2f11
+#~ msgid "Обмен токенами"
+#~ msgstr "Tokens exchange"
+
+# 51edea2242744a2b8fd4600c2d46faf0
+#~ msgid "Массовый перевод токенов"
+#~ msgstr "Mass tokens transfer"
+
+# e97431864cda4bb885e4a6505102677d
+#~ msgid ""
+#~ "Данная транзакция отправляется в сеть нодой автоматически, когда "
+#~ "пользователь применяет метод :ref:`POST /privacy/sendData <privacy-api>` для "
+#~ "отправки конфиденциальных данных."
+#~ msgstr ""
+#~ "This transaction is sent automatically to the network by the node when the "
+#~ "user sends confidential data by the method :ref:`POST /privacy/sendData "
+#~ "<privacy-api>`."

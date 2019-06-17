@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 14:07+0300\n"
-"PO-Revision-Date: 2019-04-18 13:54+0300\n"
+"POT-Creation-Date: 2019-06-05 17:31+0300\n"
+"PO-Revision-Date: 2019-06-05 17:33+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -24,150 +24,138 @@ msgstr ""
 msgid "Авторизация участников"
 msgstr "Authorization of participants"
 
-# 7f8064fe542a4284b67cfce0009aecba
+# a87f4972e1104e35a44fda21893b6254
 #: ../../how-the-platform-works/authorization.rst:5
 msgid ""
 "В блокчейн-платформе реализован механизм ограничения действий участников на "
-"основании ролевой модели."
+"основании ролевой модели, которая позволяет участникам платформы защититься "
+"от угроз следующих типов:"
 msgstr ""
 "The blockchain platform implements a mechanism limiting actions of "
-"participants based on the role model."
-
-# 45d3b615025a40c98554b3851df5d249
-#: ../../how-the-platform-works/authorization.rst:7
-msgid ""
-"Механизм разрешений позволяет владельцу платформы обезопасить участников от "
-"угроз:"
-msgstr ""
-"The permission mechanism allows the platform owner to protect participants "
-"from threats, such as:"
+"participants based on the role model which allows the platform owner to "
+"protect participants from threats, such as:"
 
 # b7faa7ecdb6748f99678496f8f3cc23f
-#: ../../how-the-platform-works/authorization.rst:9
-msgid "атак недобросовестных майнеров на блокчейн-сеть;"
+#: ../../how-the-platform-works/authorization.rst:7
+msgid "атаки недобросовестных майнеров на блокчейн-сеть;"
 msgstr "attacks of unscrupulous miners on blockchain network;"
 
 # b49234afefa746f4b8c5c4d4639b0a36
-#: ../../how-the-platform-works/authorization.rst:10
-msgid "несанкционированного выпуска токенов;"
+#: ../../how-the-platform-works/authorization.rst:8
+msgid "несанкционированный выпуск токенов;"
 msgstr "unauthorized issue of tokens;"
 
-# 36ba2f97d80b4a778618116e54ed38ad
-#: ../../how-the-platform-works/authorization.rst:11
-msgid "несанкционированной биржевой деятельности;"
-msgstr "unauthorized exchange trading;"
-
 # ca69799186424a21b5233459d8bfab77
-#: ../../how-the-platform-works/authorization.rst:12
-msgid "несанкционированного доступа к конфиденциальной информации;"
+#: ../../how-the-platform-works/authorization.rst:9
+msgid "несанкционированный доступ к конфиденциальной информации;"
 msgstr "unauthorized access to confidential information;"
 
 # ce3ad09a76204cd7b28da4c4ac80708c
-#: ../../how-the-platform-works/authorization.rst:13
-msgid "иных противоправных действий злоумышленников."
+#: ../../how-the-platform-works/authorization.rst:10
+msgid "иные противоправные действия злоумышленников."
 msgstr "other illegal actions of intruders."
 
 # c253ff322c7f4164aa66a12a928e8aec
-#: ../../how-the-platform-works/authorization.rst:15
+#: ../../how-the-platform-works/authorization.rst:12
 msgid ""
 "Порядок выдачи и отзыва разрешений приведен в разделе :ref:`role-management`."
 msgstr ""
-"The procedure for issuing and revoking permissions is given in module: ref:"
+"The procedure for issuing and revoking permissions is given in module :ref:"
 "`role-management`."
 
 # 19227ed05d7d4bc2b2e76894a1062dfd
-#: ../../how-the-platform-works/authorization.rst:18
+#: ../../how-the-platform-works/authorization.rst:15
 msgid "Ролевая модель"
 msgstr "Role model"
 
 # 4fbd620c72fd4f7eb374918b0557ffff
-#: ../../how-the-platform-works/authorization.rst:20
+#: ../../how-the-platform-works/authorization.rst:17
 msgid "В таблице ниже представлен список возможных ролей платформы:"
 msgstr "The following table provides a list of possible platform roles:"
 
 # 43d1a65eabd741d59a0375016bb20af9
-#: ../../how-the-platform-works/authorization.rst:23
+#: ../../how-the-platform-works/authorization.rst:20
 msgid "Название роли"
 msgstr "Role name"
 
 # dc9b5872efb9454fa6cc772c3edd4dbf
-#: ../../how-the-platform-works/authorization.rst:23
+#: ../../how-the-platform-works/authorization.rst:20
 msgid "Полномочия"
 msgstr "Authority"
 
 # 0e00a65d27cc49878a4549448b09f5e2
-#: ../../how-the-platform-works/authorization.rst:25
+#: ../../how-the-platform-works/authorization.rst:22
 msgid "permissioner"
 msgstr "permissioner"
 
 # 784cb6499eb74982a2cffb319914ca07
-#: ../../how-the-platform-works/authorization.rst:25
+#: ../../how-the-platform-works/authorization.rst:22
 msgid "Формирование транзакций для изменения списка разрешений"
 msgstr "Add transactions to modify the permission list"
 
 # e9d924947808464d8d8f529e2c2f617a
-#: ../../how-the-platform-works/authorization.rst:26
+#: ../../how-the-platform-works/authorization.rst:23
 msgid "blacklister"
 msgstr "blacklister"
 
 # cc31c0fe1d024110b065d9b4ccc74ebe
-#: ../../how-the-platform-works/authorization.rst:26
+#: ../../how-the-platform-works/authorization.rst:23
 msgid "Формирование транзакций для изменения black list"
 msgstr "Add transactions to modify the black list"
 
 # 608408054d774861afbf39e5f9e99f88
-#: ../../how-the-platform-works/authorization.rst:27
+#: ../../how-the-platform-works/authorization.rst:24
 msgid "miner"
 msgstr "miner"
 
 # 4f23133910264d55a80c01186bf371b6
-#: ../../how-the-platform-works/authorization.rst:27
+#: ../../how-the-platform-works/authorization.rst:24
 msgid "Создание новых блоков"
 msgstr "Create new blocks"
 
 # eb084304db1e4138bd569ec8599f21c4
-#: ../../how-the-platform-works/authorization.rst:28
+#: ../../how-the-platform-works/authorization.rst:25
 msgid "issuer"
 msgstr "issuer"
 
 # c4cbe24e4eb3455d9568f23744478590
-#: ../../how-the-platform-works/authorization.rst:28
+#: ../../how-the-platform-works/authorization.rst:25
 msgid "Формирование транзакций по выпуску, перевыпуску и сжиганию токенов"
 msgstr "Add transactions for issuing, reissuing, and burning tokens"
 
 # afb59c993d6640f8bb17079ef46e7d18
-#: ../../how-the-platform-works/authorization.rst:29
+#: ../../how-the-platform-works/authorization.rst:26
 msgid "dex"
 msgstr "dex"
 
 # 49bb188e87ea4ee5909e6834672562dd
-#: ../../how-the-platform-works/authorization.rst:29
+#: ../../how-the-platform-works/authorization.rst:26
 msgid "Формирование exchange транзакции (deprecated)"
 msgstr "Add the exchange transaction (deprecated)"
 
 # 8df4f32b3f714f408eabafc7347ec857
-#: ../../how-the-platform-works/authorization.rst:30
+#: ../../how-the-platform-works/authorization.rst:27
 msgid "contract_developer"
 msgstr "contract_developer"
 
 # 89d9bd8abcca4600b21355da93759bd2
-#: ../../how-the-platform-works/authorization.rst:30
+#: ../../how-the-platform-works/authorization.rst:27
 msgid "Формирование транзакций на создание docker-контракта"
 msgstr "Add the transaction to create a docker contract"
 
 # d83d98147a514b449eb2b9a700490803
-#: ../../how-the-platform-works/authorization.rst:31
+#: ../../how-the-platform-works/authorization.rst:28
 msgid "connection-manager"
 msgstr "connection-manager"
 
 # 46c774de4eaa46baaf0a158846959097
-#: ../../how-the-platform-works/authorization.rst:31
+#: ../../how-the-platform-works/authorization.rst:28
 msgid "Формирование транзакций на регистрацию/удаление ноды в блокчейн сети"
 msgstr ""
 "Add the transaction for registering/deleting node in the blockchain network"
 
 # 7966e29d64ea4becbd39b8b609725145
-#: ../../how-the-platform-works/authorization.rst:32
+#: ../../how-the-platform-works/authorization.rst:29
 msgid "banned"
 msgstr "banned"
 
@@ -182,18 +170,27 @@ msgid "Группа всех участников с данной ролью о�
 msgstr "A group of all participants with this role forms a blacklist"
 
 # 8f9d812b025941f3a925a17718dc6a3a
-#: ../../how-the-platform-works/authorization.rst:37
+#: ../../how-the-platform-works/authorization.rst:34
 msgid "Модель разрешений"
 msgstr "Permission model"
 
 # c0ba8431be7c453ca44cefca8cfe6bc1
-#: ../../how-the-platform-works/authorization.rst:39
+#: ../../how-the-platform-works/authorization.rst:36
 msgid ""
 "Модель разрешений описывает механизм применения различных типов разрешений "
 "при валидации операций в блокчейн-сети."
 msgstr ""
 "Permission model describes a mechanism for applying different types of "
 "permissions when validating operations in a blockchain."
+
+# 0a2c8708d1984a8bbff1445e142f7210
+#: ../../how-the-platform-works/authorization.rst:38
+msgid ""
+"Нода с ролью **permissioner** может себе присвоить любую роль из "
+"существующих в системе."
+msgstr ""
+".. hint:: The node with the **permissioner** role can assign to itself any "
+"existing role in the system."
 
 # 802f3cd4269c4969a0b224fa2fb4a5c2
 #: ../../how-the-platform-works/authorization.rst:42
@@ -222,8 +219,8 @@ msgstr "Add or Remove from blacklist"
 
 # 445c532032654015ad3fe494df8d26d9
 #: ../../how-the-platform-works/authorization.rst:45
-msgid "Наличие роли permissioner или blacklister"
-msgstr "Available permissioner or blacklister role"
+msgid "Наличие роли blacklister"
+msgstr "Available blacklister role"
 
 # 3815ce9b6362449e9318aa9732c043b9
 #: ../../how-the-platform-works/authorization.rst:46
@@ -250,126 +247,112 @@ msgstr "Available miner role"
 msgid "Операции с токенами (issue, reissue, burn)"
 msgstr "Token operations (issue, reissue, burn)"
 
-# 74ab4741dc7d495ebb333bfc053a6816
-#: ../../how-the-platform-works/authorization.rst:48
-msgid "Наличие роли permissioner или issuer"
-msgstr "Available permissioner or issuer role"
-
-# 2cdf5f615e7b48bd95191edde70efe76
-#: ../../how-the-platform-works/authorization.rst:49
-msgid "Биржевые операции (exchange)"
-msgstr "Exchange operations (exchange)"
-
 # a330365efba24485bbbbdaf87b94c9b2
-#: ../../how-the-platform-works/authorization.rst:49
-msgid "Наличие роли permissioner или dex"
-msgstr "Available permissioner or dex role"
+#: ../../how-the-platform-works/authorization.rst:48
+msgid "Наличие роли issuer"
+msgstr "Available issuer role"
 
 # ff2d25bb5b284204b8895a83556fc0d4
-#: ../../how-the-platform-works/authorization.rst:50
+#: ../../how-the-platform-works/authorization.rst:49
 msgid "Перевод токенов (transfer, masstransfer)"
 msgstr "Token transfer (transfer, mass transfer)"
 
 # 875e3083a33d4694bf0660c92b147407
-# faba620320ec4c888bce1b807cdbb000
-# 5c859f2098ac457f83ed84a861733aef
-# b51b0f25764d4a9a8af93bceb24e97ee
+#: ../../how-the-platform-works/authorization.rst:49
 #: ../../how-the-platform-works/authorization.rst:50
 #: ../../how-the-platform-works/authorization.rst:51
-#: ../../how-the-platform-works/authorization.rst:52
-#: ../../how-the-platform-works/authorization.rst:54
+#: ../../how-the-platform-works/authorization.rst:53
 msgid "Отсуствие пользователя в blacklist"
 msgstr "User not in the blacklist"
 
 # a2212af112584cfa8821b4c2e7010071
-#: ../../how-the-platform-works/authorization.rst:51
+#: ../../how-the-platform-works/authorization.rst:50
 msgid "Лизинг токенов (lease, lease cancel)"
 msgstr "Token leasing (lease, lease cancel)"
 
 # 9ac07d9b4d4940b7892bbdb90d80c428
-#: ../../how-the-platform-works/authorization.rst:52
+#: ../../how-the-platform-works/authorization.rst:51
 msgid "Создание псевдонима (alias)"
 msgstr "Creating an alias (alias)"
 
 # 853d277a3b6045fbbcc102d4d691c391
-#: ../../how-the-platform-works/authorization.rst:53
+#: ../../how-the-platform-works/authorization.rst:52
 msgid "Создание docker-контракта"
 msgstr "Create a docker contract"
 
 # f2f53df220e84d58b914d50cb404bf61
-#: ../../how-the-platform-works/authorization.rst:53
+#: ../../how-the-platform-works/authorization.rst:52
 msgid "Наличие роли contract_developer"
 msgstr "Available contract_developer role"
 
 # e6044ce31ae644268d59b80a33c73439
-#: ../../how-the-platform-works/authorization.rst:54
+#: ../../how-the-platform-works/authorization.rst:53
 msgid "Исполнение docker-контракта"
 msgstr "Execution of docker contract"
 
 # 449ee27a3b6d4a7095ca36c008fcef78
-#: ../../how-the-platform-works/authorization.rst:58
+#: ../../how-the-platform-works/authorization.rst:57
 msgid "Обновление списка разрешений"
 msgstr "Update the permission list"
 
 # 650bc51ddfac452ea404e5f18e4d9d45
-#: ../../how-the-platform-works/authorization.rst:60
+#: ../../how-the-platform-works/authorization.rst:59
 msgid "Для изменения списка разрешений используется permission-транзакция."
 msgstr "A permission transaction is used to modify the permission list."
 
-# ee501f3b2bbc45309f5ce532df9e0215
-#: ../../how-the-platform-works/authorization.rst:62
-msgid "Поля транзакции:"
-msgstr "Transaction fields:"
+# 49fffe9963a64c719cda1548883f68ea
+#: ../../how-the-platform-works/authorization.rst:61
+msgid "JSON описание:"
+msgstr "JSON description:"
 
 # 755257e508a84a22b38e1d8545c931b6
-#: ../../how-the-platform-works/authorization.rst:64
+#: ../../how-the-platform-works/authorization.rst:63
 msgid "Transaction Type"
 msgstr "Transaction Type"
 
 # fbca4a8356734820949cbb8679126991
-#: ../../how-the-platform-works/authorization.rst:65
+#: ../../how-the-platform-works/authorization.rst:64
 msgid "Version"
 msgstr "Version"
 
 # 83ef43256a054ea1bd1d8b7798cf1ee4
-#: ../../how-the-platform-works/authorization.rst:66
+#: ../../how-the-platform-works/authorization.rst:65
 msgid "Sender PublicKey"
 msgstr "Sender PublicKey"
 
 # 5e058a88b71c45a78b53c63c2d0cd161
-#: ../../how-the-platform-works/authorization.rst:67
+#: ../../how-the-platform-works/authorization.rst:66
 msgid "Target Address or Alias"
 msgstr "Target Address or Alias"
 
 # 351451a39d834b45a7e00720ca76062f
-# f8846983251f4e2e9e9b959887ab418a
-#: ../../how-the-platform-works/authorization.rst:68
-#: ../../how-the-platform-works/authorization.rst:71
+#: ../../how-the-platform-works/authorization.rst:67
+#: ../../how-the-platform-works/authorization.rst:70
 msgid "Timestamp"
 msgstr "Timestamp"
 
 # ba0a90bbeb414f7f910e12e97fe277ed
-#: ../../how-the-platform-works/authorization.rst:69
+#: ../../how-the-platform-works/authorization.rst:68
 msgid "Operation Byte"
 msgstr "Operation Byte"
 
 # aa3e512f565446318d38c9e1b366f21f
-#: ../../how-the-platform-works/authorization.rst:70
+#: ../../how-the-platform-works/authorization.rst:69
 msgid "Role Byte"
 msgstr "Role Byte"
 
 # 3045dc14ffda411aba46bb5577c8afa3
-#: ../../how-the-platform-works/authorization.rst:72
+#: ../../how-the-platform-works/authorization.rst:71
 msgid "Due Timestamp Defined Byte (0 - None, 1 - Defined)"
 msgstr "Due Timestamp Defined Byte (0 - None, 1 - Defined)"
 
 # 2e605faebe50490c912cbf5ff7d7028d
-#: ../../how-the-platform-works/authorization.rst:73
+#: ../../how-the-platform-works/authorization.rst:72
 msgid "Due Timestamp Bytes"
 msgstr "Due Timestamp Bytes"
 
 # cc1c82ae3f0946859e117c98ef2a8553
-#: ../../how-the-platform-works/authorization.rst:75
+#: ../../how-the-platform-works/authorization.rst:74
 msgid ""
 "Последовательность действий при обновлении списка разрешений приведена на "
 "схеме ниже."
@@ -378,30 +361,62 @@ msgstr ""
 "permission list."
 
 # b29c7b0ccfd44510bf8178ddfeec02ba
-#: ../../how-the-platform-works/authorization.rst:79
+#: ../../how-the-platform-works/authorization.rst:78
 msgid "При изменении списка разрешений платформа выполняет следующие проверки:"
 msgstr ""
 "When modifying the permission list, the platform performs the following "
 "checks:"
 
 # 31831bbfcb12423fb230849fe9c61cf2
-#: ../../how-the-platform-works/authorization.rst:81
-msgid "Отправитель не находится в blacklist;"
-msgstr "Sender is not in the blacklist;"
+#: ../../how-the-platform-works/authorization.rst:80
+msgid "Отправитель не находится в blacklist."
+msgstr "Sender is not in the blacklist."
 
 # 3a0dc69d15e24cf88ad03251e223ad9e
-#: ../../how-the-platform-works/authorization.rst:82
-msgid "У отправителя есть роль permissioner;"
-msgstr "Sender has the role of permissioner;"
+#: ../../how-the-platform-works/authorization.rst:81
+msgid "У отправителя есть роль permissioner."
+msgstr "Sender has the role of permissioner."
 
 # 3642808fd872435fa57f5a8c3cbb3296
-#: ../../how-the-platform-works/authorization.rst:83
-msgid "DueTimestamp (время действия роли) > Timestamp (текущее время);"
-msgstr "DueTimestamp (role duration) > Timestamp (current time);"
+#: ../../how-the-platform-works/authorization.rst:82
+msgid "DueTimestamp (время действия роли) > Timestamp (текущее время)."
+msgstr "DueTimestamp (role duration) > Timestamp (current time)."
 
 # f638882dee984f7380cf3639650e517d
-#: ../../how-the-platform-works/authorization.rst:84
+#: ../../how-the-platform-works/authorization.rst:83
 msgid ""
 "Такая роль не активна (в случае добавления), либо активна (в случае "
 "удаления)."
 msgstr "This role is not active (if added) or active (if removed)."
+
+# 45d3b615025a40c98554b3851df5d249
+#~ msgid ""
+#~ "Механизм разрешений позволяет владельцу платформы обезопасить участников "
+#~ "от угроз:"
+#~ msgstr ""
+#~ "The permission mechanism allows the platform owner to protect "
+#~ "participants from threats, such as:"
+
+# 36ba2f97d80b4a778618116e54ed38ad
+#~ msgid "несанкционированная биржевая деятельность;"
+#~ msgstr "unauthorized exchange trading;"
+
+# 445c532032654015ad3fe494df8d26d9
+#~ msgid "Наличие роли permissioner или blacklister"
+#~ msgstr "Available permissioner or blacklister role"
+
+# 74ab4741dc7d495ebb333bfc053a6816
+#~ msgid "Наличие роли permissioner или issuer"
+#~ msgstr "Available permissioner or issuer role"
+
+# 2cdf5f615e7b48bd95191edde70efe76
+#~ msgid "Биржевые операции (exchange)"
+#~ msgstr "Exchange operations (exchange)"
+
+# a330365efba24485bbbbdaf87b94c9b2
+#~ msgid "Наличие роли permissioner или dex"
+#~ msgstr "Available permissioner or dex role"
+
+# ee501f3b2bbc45309f5ce532df9e0215
+#~ msgid "Поля транзакции:"
+#~ msgstr "Transaction fields:"
