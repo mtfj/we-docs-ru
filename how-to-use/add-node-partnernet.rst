@@ -15,7 +15,7 @@
   #. ``VOSTOK_NODE_OWNER_PASSWORD`` - пароль от адреса ноды, который вводится на этапе создания ключевой пары.
   #. ``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` - ``true`` или ``false``, установите значение ``true``, если не хотите устанавливать пароль на адрес ноды, в таком случае создавать переменную ``VOSTOK_NODE_OWNER_PASSWORD`` необходимости нет. Если вы используете пароль, установите значение ``false`` и пропишите в переменную ``VOSTOK_NODE_OWNER_PASSWORD`` пароль от адреса ноды.
 
-#. Отправьте на почту mailto://support@vostokplatform.com запрос на выдачу прав и подключение к сети "Vostok Partnernet".
+#. Отправьте на почту mailto://support@vostok.io запрос на выдачу прав и подключение к сети "Vostok Partnernet".
 #. После получения разрешения на подключение к сети "Vostok Partnernet" :ref:`запустите <node-start>` ноду.
 
 
