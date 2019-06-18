@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-06 16:33+0300\n"
-"PO-Revision-Date: 2019-06-06 16:35+0300\n"
+"POT-Creation-Date: 2019-06-18 10:29+0300\n"
+"PO-Revision-Date: 2019-06-18 10:31+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -19,17 +19,17 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 9ac79845f48d4bfa9ba308ba94b99467
+# cf7c31d070b8482dac3d334d1a43f54d
 #: ../../how-to-setup/configuration-node.rst:4
 msgid "Конфигурация ноды"
 msgstr "Node configuration"
 
-# 97c9751e2fe545fe8156352870e08707
+# ab7af6fc7b3b4d3fac65730f08243ade
 #: ../../how-to-setup/configuration-node.rst:5
 msgid "Для полноценной конфигурации ноды выполните следующие шаги:"
 msgstr "Follow these steps for the full node configuration:"
 
-# 237a494f9e9a436aa56b3d62cc3f7b07
+# e40cf025e882473d9449b3df44cdb152
 #: ../../how-to-setup/configuration-node.rst:7
 msgid ""
 "Перед запуском генератора :ref:`создайте <create-account-config>` для него "
@@ -38,7 +38,7 @@ msgstr ""
 ":ref:`Create <create-account-config>` the ``accounts.conf`` configuration file "
 "before the generator start."
 
-# 6b69652b45c54fef939f6e3ea66ab560
+# e713f557653a472e9acbae04e110e718
 #: ../../how-to-setup/configuration-node.rst:8
 msgid ""
 ":ref:`Сгенерируйте <generate-keys-pair>` ключевую пару для каждого будущего "
@@ -52,7 +52,7 @@ msgstr ""
 "blockchain. All transactions which include the creation of the each initial "
 "participant will fall into the genesis block."
 
-# de45b2323e854b1f93b18022d4bca86b
+# 195f5c33b79a4060ae7b9db4f0c5ccf5
 #: ../../how-to-setup/configuration-node.rst:9
 msgid ""
 ":ref:`Создайте <create-node-config>` конфигурационный файл ноды в соответствии с "
@@ -61,27 +61,27 @@ msgstr ""
 ":ref:`Create <create-node-config>` the node configuration file according to the "
 "requirements."
 
-# 2ade5d45e2d24d809a6dff67b21ba068
+# c94309caf26c4fd285878fc3e0c4dbe1
 #: ../../how-to-setup/configuration-node.rst:10
 msgid ":ref:`Обеспечьте <rest-api-access>` доступ к REST API ноды."
 msgstr ":ref:`Provide <rest-api-access>` the access to the node REST API."
 
-# 21e7c772cc574adfb27f8b041b2273f0
+# 7e3e0dcdbd3f45c9b929b9a6437d18d4
 #: ../../how-to-setup/configuration-node.rst:11
 msgid ":ref:`Подпишите <sign-genesis-block>` genesis блок."
 msgstr ":ref:`Sign <sign-genesis-block>` the genesis block."
 
-# 4206ce6233184e3184eb0e52831e99cf
+# 869e352d72184fee8fe1a06e12e22831
 #: ../../how-to-setup/configuration-node.rst:12
 msgid ":ref:`Запустите <node-start>` ноду."
 msgstr ":ref:`Run <node-start>` the node."
 
-# b6578c1115cb4019b643974a7b979982
+# a1056bbc87c44117aa97b49d174f7048
 #: ../../how-to-setup/configuration-node.rst:17
 msgid "Создание конфигурационного файла ``accounts.conf``"
 msgstr "The creation of the ``accounts.conf`` configuration file"
 
-# 7630354c29ec479893110a8ebbc91284
+# 0bb9a2525ac34c349ef9b9dacd12d92c
 #: ../../how-to-setup/configuration-node.rst:19
 msgid ""
 "При указании пути необходимо использовать символ \"прямого слэша\" - ``/`` как "
@@ -98,12 +98,13 @@ msgstr ""
 "keystore.dat`. During node setting it is prohibited to use cyrillic symbols for "
 "specifying paths to the working directory, keystore, etc."
 
-# 7f8878f159b24bf6b916c5eb1f2cd1a1
+# 7746d008c1ad41a3b7801a3653a9d06f
 #: ../../how-to-setup/configuration-node.rst:37
 msgid "Описание параметров конфигурационного файла представлено ниже."
 msgstr "The description of the configuration file parameters is represented below."
 
-# 0eee3bab7e4245c280ad8f2b2992e2d7
+# ec50b409751f45d9b1e38c4d9cd57a63
+# ebb4b6fc522e4335bebee6661508467e
 #: ../../how-to-setup/configuration-node.rst:39
 #: ../../how-to-setup/configuration-node.rst:184
 msgid ""
@@ -115,7 +116,7 @@ msgstr ""
 "cryptography :ref:`Waves <crypto-waves>`, \"no\" - use :ref:`GOST-cryptography "
 "<crypto-gost>`);"
 
-# c5e538e824e94c3491b12408f658bc3e
+# 8fbbad9fc42e465e8c100ae900435071
 #: ../../how-to-setup/configuration-node.rst:40
 msgid ""
 "chain-id – идентифицирующий байт сети, значение потребуется дальше для внесения "
@@ -125,12 +126,12 @@ msgstr ""
 "on for entry in parameter ``address-scheme-character`` of the node configuration "
 "file;"
 
-# ecfc644fbc0a45c9be2bed55b6b7255a
+# 3a051656e85340468f963917f17a8d95
 #: ../../how-to-setup/configuration-node.rst:41
 msgid "amount – количество генерируемых ключевых пар;"
 msgstr "amount - number of generated key pairs;"
 
-# 01fc5aea9e9340eb9e9266bf492ce885
+# 9646644458e048cf830e099d777da637
 #: ../../how-to-setup/configuration-node.rst:42
 msgid ""
 "wallet – путь до каталога хранения ключей на ноде, значение потребуется дальше "
@@ -145,7 +146,7 @@ msgstr ""
 "dat`` is specified (example, ``${user.home}/vostok/keystore.dat`''), for the "
 "GOST-cryptography - the path to directory (``${user.home}/vostok/keystore/``);"
 
-# 996081756a3f4dbfbd5a12f63c09add9
+# d5d52ce8db7b42919c6cf30a8bbc6820
 #: ../../how-to-setup/configuration-node.rst:43
 msgid ""
 "wallet-password – пароль для доступа к закрытым ключам ноды, значение "
@@ -156,7 +157,7 @@ msgstr ""
 "necessary further on for enrty in parameter ``wallet > password`` of the node "
 "configuration file;"
 
-# a06d3aa5bfad49b6943b12a9421e3b54
+# 5989afef24d74f05a863998e361ac679
 #: ../../how-to-setup/configuration-node.rst:44
 msgid ""
 "reload-node-wallet - опция для обновления keyStore ноды без перезапуска "
@@ -168,12 +169,12 @@ msgstr ""
 "the application, by default it is turned off (false). ``url`` parameter "
 "specifies the path to the ``/utils/reload-wallet`` method of the REST API node."
 
-# f6669a7e51884468b35c840889dc07fc
+# 90b81ef17ed74fa089897ac9c557ffc4
 #: ../../how-to-setup/configuration-node.rst:49
 msgid "Генерирование ключевых пар"
 msgstr "Key pairs generating"
 
-# 0d972617646548a49b88053d018362a6
+# 850cfd6d225f44cb859f39d68e77ac76
 #: ../../how-to-setup/configuration-node.rst:51
 msgid ""
 "Публичный и приватный ключи будущих участников сети создаются при помощи утилиты "
@@ -189,17 +190,17 @@ msgstr ""
 "need to specify the ``accounts.conf`` configuration file which contains "
 "parameters for keys creating. Use the following command to run the generator:"
 
-# 81084b725ac04bed816c279d76adde07
+# a48202e4c878422f940ef30262b75a70
 #: ../../how-to-setup/configuration-node.rst:53
 msgid "``java -jar generators-x.x.x.jar AccountsGeneratorApp accounts.conf``"
 msgstr "``java -jar generators-x.x.x.jar AccountsGeneratorApp accounts.conf``"
 
-# 5cc54850842a4178b2cdb6068215ac9b
+# 10b5346bfe0247c8ac20ac06a303539a
 #: ../../how-to-setup/configuration-node.rst:59
 msgid "Создание конфигурационного файла из шаблона"
 msgstr "Creation of the configuration file using the template"
 
-# ab690d5155d5419399752c4391a6670a
+# efd15fe28b264837a19e240bdcc9bf07
 #: ../../how-to-setup/configuration-node.rst:61
 msgid ""
 "Если планируется подключение к существующей сети, то для упрощения подключения "
@@ -216,7 +217,7 @@ msgstr ""
 "the file from our `GitHub <https://github.com/vostokplatform/Vostok-Releases/"
 "tree/master/configs>`_ page."
 
-# 2aeb333731104720905fa20c84ff2508
+# 0ac42875a3a246188b3c080291b81d77
 #: ../../how-to-setup/configuration-node.rst:63
 msgid ""
 "Часть параметров конфигурационного файла описывают параметры блокчейн-сети, к "
@@ -225,7 +226,7 @@ msgstr ""
 "Part of the configuration file settings describe parameters of the blockchain "
 "network to be joined and should not be modified."
 
-# 32fb0007215c4866b40d03c13cfc5f86
+# 04261648d6544f84837dc49ad9a875fb
 #: ../../how-to-setup/configuration-node.rst:65
 msgid ""
 "Отредактируйте шаблон конфигурационного файла в соответствии со следующими "
@@ -233,7 +234,7 @@ msgid ""
 msgstr ""
 "Edit the configuration file template according to following recommendations:"
 
-# 647136691b8945e286ab93a51602996d
+# 58b19a4e546841f28a86e092035818eb
 #: ../../how-to-setup/configuration-node.rst:67
 msgid ""
 "Укажите тип используемой криптографии (см. раздел :ref:`Криптография "
@@ -242,7 +243,7 @@ msgstr ""
 "Specify the type of cryptography used (see Module :ref:`Cryptography "
 "<cryptography>`):"
 
-# 1f18eac1aa7544ca92b4eb6820793919
+# 5417e303fc5d4e859d327af5f8aa120d
 #: ../../how-to-setup/configuration-node.rst:73
 msgid ""
 "При использовании :ref:`криптографии Waves <crypto-waves>` пользователь может "
@@ -255,7 +256,7 @@ msgstr ""
 "ref:'GOST-cryptography <crypto-gost>' due to the need to use the biological "
 "random number generator, automatic generation of a key pair is impossible."
 
-# c2073d19036f40cc97d48906623daa82
+# f8b1e68d2bc0441ab9a0226aca062a03
 #: ../../how-to-setup/configuration-node.rst:75
 msgid ""
 "При использовании :ref:`ГОСТ-криптографии <crypto-gost>` после запуска команды "
@@ -266,7 +267,7 @@ msgstr ""
 "participants command, the CryptoPro window will be displayed on the screen for "
 "initialization of the biological random number generator."
 
-# a5ec304ca80a4766810141d44eff2f3f
+# 44ba648c0bff4e72848c430f868c5955
 #: ../../how-to-setup/configuration-node.rst:80
 msgid ""
 "После выполнения утилиты в папке, определенной параметром ``wallet``, будут "
@@ -281,21 +282,23 @@ msgstr ""
 "3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; public key: "
 "6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``"
 
-# 5029c74a3adb4a3abf6c2b006b1c2d64
+# f8822e98b42b4810bc1e4e522dd8c317
 #: ../../how-to-setup/configuration-node.rst:83
 msgid ""
 "Укажите байт сети, с которым генерировались адреса участников сети (параметр "
-"``chain-id`` в accounts.conf):"
+"``chain-id`` в accounts.conf). Байт сети для \"Vostok Mainnet\" - ``V``, для "
+"\"Vostok Partnernet\" - ``P``."
 msgstr ""
 "Specify the byte of the network which was used to generate addresses of network "
-"participants (parameter ``chain-id`` in accounts. conf):"
+"participants (parameter ``chain-id`` in accounts. conf). The network byte for "
+"the \"Vostok Mainnet\" - ``V``, for the \"Vostok Partnernet\" - ``P``."
 
-# c44d0382e6a0496e87fc17a35c83d397
+# 8c7755ca01c24658a13b9659fc90b457
 #: ../../how-to-setup/configuration-node.rst:89
 msgid "Укажите общий баланс активов сети:"
 msgstr "Specify the total balance of network assets:"
 
-# 7eb8fc69757244198eaa9a34e931d885
+# 4ae19df46f3449a2bbc7fb12726b9052
 #: ../../how-to-setup/configuration-node.rst:96
 msgid ""
 "Укажите :ref:`адреса участников <address-creation>` – владельцев начального "
@@ -304,7 +307,7 @@ msgstr ""
 "Specify :ref:`<address-creation>` addresses of participants – owners of initial "
 "network balance:"
 
-# cf9b792643b7436e9b6f969abc4a5e28
+# c450f635930d4853a2a287840c1f700e
 #: ../../how-to-setup/configuration-node.rst:103
 msgid ""
 "Укажите :ref:`публичные ключи участников сети <address-creation>` в блоке "
@@ -313,19 +316,19 @@ msgstr ""
 "Specify :ref:`the public keys of the network participants<address-creation>` in "
 "the block ``network-participants``:"
 
-# d221b87c36534b99b0f82bbfc9fb6d7c
+# 12d722b862a54d0e980d699297f2e007
 #: ../../how-to-setup/configuration-node.rst:115
 msgid "Укажите сетевые параметры настраиваемой ноды:"
 msgstr "Specify network settings of customizable node:"
 
-# e55518be634a4951bf068fe96e2ea104
+# 3c2fe0afb38748a29970b78c59d9f45f
 #: ../../how-to-setup/configuration-node.rst:126
 msgid "Укажите сетевые адреса (hostname) нод, которые будут подключены к сети:"
 msgstr ""
 "Specify network addresses (hostnames) for nodes which will be connected to the "
 "network:"
 
-# ec874b84c24740319d4ab1f9e5d30837
+# f3ec79b3e96f4da88117473a95190511
 #: ../../how-to-setup/configuration-node.rst
 msgid ""
 "В случае, если адреса дополнительных узлов сети не определены, допустимо указать "
@@ -334,7 +337,7 @@ msgstr ""
 "In case addresses of additional nodes of the network are not defined, it is "
 "permissible to specify the empty value ``known-peers = [ ]``"
 
-# 01fc5aea9e9340eb9e9266bf492ce885
+# 6c26ca22578d476fa336a7fe01d6cff8
 #: ../../how-to-setup/configuration-node.rst:136
 msgid ""
 "Укажите путь и пароль от keystore - места хранения закрытых ключей участников "
@@ -350,7 +353,7 @@ msgstr ""
 "for GOST-cryptography specify the path to the directory (``${user.home}/vostok/"
 "keystore/``):"
 
-# f5c5548384b342f0bc37bec8c2267233
+# 92a3a74d894a474abeac02fbcffca186
 #: ../../how-to-setup/configuration-node.rst:147
 msgid ""
 "Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды, а также хеш "
@@ -363,12 +366,12 @@ msgstr ""
 "sendData``, ``GET /privacy/getData/{policy-item-hash}`` and ``GET /privacy/"
 "getInfo/{policy-item-hash}``:"
 
-# defafe66703646a4a491eba8102b928c
+# 12522b4c8fe0418ead3937418ef51e95
 #: ../../how-to-setup/configuration-node.rst:163
 msgid "Доступ к REST API"
 msgstr "The REST API access"
 
-# 6d5fe69432934da4baf60b96bf779fc1
+# cbcfd479fa524f91b2fe0d5d671369a8
 #: ../../how-to-setup/configuration-node.rst:165
 msgid ""
 "Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/"
@@ -383,7 +386,7 @@ msgstr ""
 "as one of the parameters, which defines the parameters of creating ``api-key-"
 "hash``. Use the following command to run the generator:"
 
-# fa474ae364be4b33ae8a04dd34a75e30
+# b76b07cae52047d3b878eb71f4aa4056
 #: ../../how-to-setup/configuration-node.rst:171
 msgid ""
 "Полученное в результате исполнения утилиты значение указать в параметре ``api-"
@@ -392,12 +395,12 @@ msgstr ""
 "Specify the value obtained as a result of the utility execution in the parameter "
 "``api-key-hash`` in the node configuration file."
 
-# e4636b526e94475695e36b7d34c8ffd5
+# 830abf02c1414eb38a197c9eb70b009c
 #: ../../how-to-setup/configuration-node.rst:182
 msgid "**Описание параметров:**"
 msgstr "**The parameters description:**"
 
-# afa17cc6127b4d2b847afccf78134eec
+# c428b6071a0c4f8aac99905bf131ba63
 #: ../../how-to-setup/configuration-node.rst:185
 msgid ""
 "api-key – ключ, который необходимо придумать. Значение данного ключа потребуется "
@@ -408,12 +411,12 @@ msgstr ""
 "be specified in requests to REST API node (for more details see page :ref:`REST "
 "API <rest-api-node>`)."
 
-# 5da943afb8264f938631f362af859ae8
+# 2d284df126c5443e905d7b327512ade1
 #: ../../how-to-setup/configuration-node.rst:190
 msgid "Доступ к методам privacy"
 msgstr "The privacy methods access"
 
-# beb233c3070647dcb6a37fdda919d667
+# 1f749f8788974cd4aa070233ea883d12
 #: ../../how-to-setup/configuration-node.rst:192
 msgid ""
 "Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/"
@@ -430,7 +433,7 @@ msgstr ""
 "which defines the parameters of creating ``privacy-api-key-hash``. Use the "
 "following command to run the generator:"
 
-# fa474ae364be4b33ae8a04dd34a75e30
+# 715bbb084e3c4c01b1c397459def514a
 #: ../../how-to-setup/configuration-node.rst:198
 msgid ""
 "Полученное в результате исполнения утилиты значение указать в параметре "
@@ -439,12 +442,12 @@ msgstr ""
 "Specify the value obtained as a result of the utility execution in the parameter "
 "``privacy-api-key-hash`` in the node configuration file."
 
-# d757d11e30744210a972ea36f190d47c
+# 6e075af0dcf948e086aa617eecfa91c4
 #: ../../how-to-setup/configuration-node.rst:203
 msgid "Подписание genesis-блока"
 msgstr "Signing the genesis block"
 
-# bb7ca23b145a481d9a4fcd4e7dbbf3f8
+# fbcfe7c4f6b64b8b827608c7e628efb0
 #: ../../how-to-setup/configuration-node.rst:205
 msgid ""
 "Подпишите genesis-блок утилитой `generators-x.x.x.jar <https://github.com/"
@@ -463,12 +466,12 @@ msgstr ""
 "``signature`` of the configuration file will be filled with values of the public "
 "key and the proof of the genesis block."
 
-# 167079f51c814dd186d42bb2d7154b8e
+# 11fe349c980b4b48a39cf8c83364c9a8
 #: ../../how-to-setup/configuration-node.rst
 msgid "Пример:"
 msgstr "Example:"
 
-# 4a4f861e484c4c18b825bbd9124e8f4c
+# 2473790e329f436d9f0d193ed6519e3e
 #: ../../how-to-setup/configuration-node.rst:214
 msgid ""
 "Если нода ранее работала с другой сетью блокчейна Vostok, то удалить данные из "
@@ -481,12 +484,12 @@ msgstr ""
 "the path ``${user.home}/vostok`` is used for Ubuntu OS; for Windows path ``C:"
 "\\Users\\<username>\\vostok``) is used."
 
-# 972b415b00314dc7b65bcc8e09fa18da
+# 82436f1496fe41fdb212b0d1f64b893d
 #: ../../how-to-setup/configuration-node.rst:219
 msgid "Запуск ноды"
 msgstr "Running of the node"
 
-# 8f084b78fcbe4e219ad01994b101e258
+# 4b7143f0a61144589ef455c711100948
 #: ../../how-to-setup/configuration-node.rst:221
 msgid "Выполните указанную команду для запуска ноды:"
 msgstr "Run the following command for the node start:"

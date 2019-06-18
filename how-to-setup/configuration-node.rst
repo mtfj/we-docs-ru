@@ -24,7 +24,7 @@
 
     accounts-generator {
       waves-crypto = yes
-      chain-id = W
+      chain-id = V
       amount = 1
       wallet = "c:/nodes/testnet-pos.vostoknodes.com/keystore.dat"
       wallet-password = "some string as password"
@@ -80,11 +80,11 @@
   После выполнения утилиты в папке, определенной параметром ``wallet``, будут сохранены закрытые ключи участников, а на экране отобразятся адреса и открытые ключи в виде строк:
   ``[main] accounts-generator - Address: 3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; public key: 6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``
 
-2. Укажите байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf):
+2. Укажите байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf). Байт сети для "Vostok Mainnet" - ``V``, для "Vostok Partnernet" - ``P``.
   
     ::
 
-      address-scheme-character: "W"
+      address-scheme-character: "V"
 
 3. Укажите общий баланс активов сети:
   
