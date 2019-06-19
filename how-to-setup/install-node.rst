@@ -36,7 +36,7 @@
         :height: 250
 
 3.	Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_.
-    | Самая свежая версия приложений находится в шапке страницы: 
+    | Самая свежая версия приложений находится в шапке страницы:
 
     .. image:: img/latest.png
        :height: 250

@@ -189,18 +189,14 @@
 .. code:: js
 
     {
-        "type":4,
-        "sender":"3GLWx8yUFcNSL3DER8kZyE4TpyAyNiEYsKG",
-        "senderPublicKey":"4WnvQPit2Di1iYXDgDcXnJZ5yroKW54vauNoxdNeMi2g",
-        "fee":100000,
-        "proofs":[],
-        "version":2,
-        "recipient":"3GPtj5osoYqHpyfmsFv7BMiyKsVzbG1ykfL", 
-        "assetId":null,
-        "feeAssetId":null,
-        "amount": 200000000,
-        "attachment":"3uaRTtZ3taQtRSmquqeC1DniK3Dv"
-    } 
+      "type": 4,
+      "version": 2,
+      "sender": "3M6dRZXaJY9oMA3fJKhMALyYKt13D1aimZX",
+      "password": "",
+      "recipient": "3M6dRZXaJY9oMA3fJKhMALyYKt13D1aimZX",
+      "amount": 40000000000,
+      "fee": 100000
+    }
 
 
 **Broadcasted JSON**
