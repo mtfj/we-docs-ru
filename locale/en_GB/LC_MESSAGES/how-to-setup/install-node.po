@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 10:09+0300\n"
-"PO-Revision-Date: 2019-06-20 10:10+0300\n"
+"POT-Creation-Date: 2019-06-20 10:56+0300\n"
+"PO-Revision-Date: 2019-06-20 10:57+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -63,11 +63,11 @@ msgstr "If you see the following result, you can proceed to the next step."
 # 59b0b7ae6d1d4371accca148ca6b8b5d
 #: ../../how-to-setup/install-node.rst:23 ../../how-to-setup/install-node.rst:78
 msgid ""
-"Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/"
-"products/csp/jcp>`_."
+"Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/"
+"default/files/private/jcp/jcp-2.0.39014.zip>`_."
 msgstr ""
-"Download and install `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/"
-"products/csp/jcp>`_."
+"Download and install `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/"
+"default/files/private/jcp/jcp-2.0.39014.zip>`_."
 
 # c23bcc1b9dba425380214d6376d745ba
 # c008c1cb9c0f4b35bac750e49983d52d
@@ -92,11 +92,13 @@ msgstr ""
 # 9ec4ba466cf848ae83a02d4b019bf125
 #: ../../how-to-setup/install-node.rst
 msgid ""
-"При установке `CryptoPro JCP <https://www.cryptopro.ru/products/csp/jcp>`_ "
-"необходимо убедиться, что указан верный путь до исполняемого файла пакета JRE:"
+"При установке `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/"
+"private/jcp/jcp-2.0.39014.zip>`_ необходимо убедиться, что указан верный путь "
+"до исполняемого файла пакета JRE:"
 msgstr ""
-"Before installing `CryptoPro JCP <https://www.cryptopro.ru/products/csp/"
-"jcp>`_, check the correct path for JRE package executable file is specified:"
+"Before installing `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/"
+"private/jcp/jcp-2.0.39014.zip>`_, check the correct path for JRE package "
+"executable file is specified:"
 
 # b129ebfcbde34fb0a33d9e69799dce36
 #: ../../how-to-setup/install-node.rst

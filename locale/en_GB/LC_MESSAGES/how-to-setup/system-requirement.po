@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 10:05+0300\n"
-"PO-Revision-Date: 2019-06-20 10:07+0300\n"
+"POT-Creation-Date: 2019-06-20 10:56+0300\n"
+"PO-Revision-Date: 2019-06-20 10:57+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -125,8 +125,12 @@ msgstr ""
 
 # 5c4f2e2c4acf4074ae134e3a333f473a
 #: ../../how-to-setup/system-requirement.rst:18
-msgid "`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/products/csp/jcp>`_"
-msgstr "`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/products/csp/jcp>`_"
+msgid ""
+"`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/"
+"jcp/jcp-2.0.39014.zip>`_"
+msgstr ""
+"`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/"
+"jcp/jcp-2.0.39014.zip>`_"
 
 # b6a022f711e24986a4494b86ebcdf42a
 #: ../../how-to-setup/system-requirement.rst:20
