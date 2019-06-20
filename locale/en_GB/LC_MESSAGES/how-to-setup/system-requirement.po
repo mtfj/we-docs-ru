@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 10:56+0300\n"
-"PO-Revision-Date: 2019-06-20 10:57+0300\n"
+"POT-Creation-Date: 2019-06-20 11:29+0300\n"
+"PO-Revision-Date: 2019-06-20 11:30+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -132,13 +132,15 @@ msgstr ""
 "`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/"
 "jcp/jcp-2.0.39014.zip>`_"
 
-# b6a022f711e24986a4494b86ebcdf42a
+# 960f1985faf44661b3626424bec00725
 #: ../../how-to-setup/system-requirement.rst:20
 msgid ""
-"Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP!"
+"Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. "
+"Для скачивания дистрибутива необходимо пройти регистрацию на сайте."
 msgstr ""
 "The Vostok platform only supports ``2.0.39014`` version for the CryptoPro JCP "
-"software!"
+"software. You need to register on the site before downloading the installation "
+"package."
 
 # 228b391992014ad8af6c61d3b15c3eb3
 #: ../../how-to-setup/system-requirement.rst:22

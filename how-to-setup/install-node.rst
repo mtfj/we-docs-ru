@@ -20,14 +20,13 @@
         Java(TM) SE Runtime Environment (build 1.8.0_74-b02)
         Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)
 
-2.	Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_.
+2.	Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
 
     .. warning:: Платформа Vostok поддерживает только версию ``2.0.39014``!
   
     .. hint:: При использовании Waves-криптографии устанавливать CryptoPro JCP необязательно.
 
-    | При скачивании дистрибутива необходимо пройти регистрацию на сайте.
-    | При установке `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ необходимо убедиться, что указан верный путь до исполняемого файла пакета JRE: 
+     | При установке `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ необходимо убедиться, что указан верный путь до исполняемого файла пакета JRE: 
      
      .. image:: img/JCP_1.png
         :height: 250
@@ -75,7 +74,7 @@
        Java(TM) SE Runtime Environment (build 1.8.0_74-b02)
        Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)
 
-2. Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_.
+2. Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
 
    .. warning:: Платформа Vostok поддерживает только версию ``2.0.39014``!
 

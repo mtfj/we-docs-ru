@@ -17,7 +17,7 @@
 - `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_
 - `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_
 
-.. warning:: Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP!
+.. warning:: Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
 
 **Требования к окружению для корпоративного клиента и дата-сервиса**
 
