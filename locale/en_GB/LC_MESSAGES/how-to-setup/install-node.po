@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 09:56+0300\n"
-"PO-Revision-Date: 2019-06-20 09:58+0300\n"
+"POT-Creation-Date: 2019-06-20 10:09+0300\n"
+"PO-Revision-Date: 2019-06-20 10:10+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -61,7 +61,7 @@ msgid ""
 msgstr "If you see the following result, you can proceed to the next step."
 
 # 59b0b7ae6d1d4371accca148ca6b8b5d
-#: ../../how-to-setup/install-node.rst:23
+#: ../../how-to-setup/install-node.rst:23 ../../how-to-setup/install-node.rst:78
 msgid ""
 "Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/"
 "products/csp/jcp>`_."
@@ -70,18 +70,18 @@ msgstr ""
 "products/csp/jcp>`_."
 
 # c23bcc1b9dba425380214d6376d745ba
-#: ../../how-to-setup/install-node.rst:25
+# c008c1cb9c0f4b35bac750e49983d52d
+#: ../../how-to-setup/install-node.rst:25 ../../how-to-setup/install-node.rst:80
 msgid "Платформа Vostok поддерживает только версию ``2.0.39014``!"
 msgstr "The Vostok platform only supports ``2.0.39014`` version!"
 
 # 5cfd36d01509420985fca454b7ea1b02
 #: ../../how-to-setup/install-node.rst:27
 msgid ""
-"При использовании Waves-криптографии устанавливать CryptoPro JCP 2.0 "
-"необязательно."
+"При использовании Waves-криптографии устанавливать CryptoPro JCP необязательно."
 msgstr ""
-"You do not need to install the CryptoPro JCP 2.0 software if you want to use "
-"only the Waves cryptography."
+"You do not need to install the CryptoPro JCP software if you want to use only "
+"the Waves cryptography."
 
 # c55d1d927f0a46a7a6d3d6b12429118c
 #: ../../how-to-setup/install-node.rst
@@ -92,10 +92,10 @@ msgstr ""
 # 9ec4ba466cf848ae83a02d4b019bf125
 #: ../../how-to-setup/install-node.rst
 msgid ""
-"При установке `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_ "
+"При установке `CryptoPro JCP <https://www.cryptopro.ru/products/csp/jcp>`_ "
 "необходимо убедиться, что указан верный путь до исполняемого файла пакета JRE:"
 msgstr ""
-"Before installing `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/"
+"Before installing `CryptoPro JCP <https://www.cryptopro.ru/products/csp/"
 "jcp>`_, check the correct path for JRE package executable file is specified:"
 
 # b129ebfcbde34fb0a33d9e69799dce36
@@ -168,17 +168,8 @@ msgstr ""
 "The correctness of the installation can be checked by the command ``java -"
 "version``. If you see the following result, you can proceed to the next step."
 
-# 59b0b7ae6d1d4371accca148ca6b8b5d
-#: ../../how-to-setup/install-node.rst:78
-msgid ""
-"Скачайте и установите `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/"
-"csp/jcp>`_ (или версию выше)."
-msgstr ""
-"Download and install `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/"
-"jcp>`_ (or higher version)."
-
 # 528aea1c2b0c413cae9ca67fc6949e76
-#: ../../how-to-setup/install-node.rst:80
+#: ../../how-to-setup/install-node.rst:82
 msgid ""
 "Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/"
 "releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со "
@@ -191,7 +182,7 @@ msgstr ""
 "master/configs>`_."
 
 # 083ef9d52edf46528378575f1df66bae
-#: ../../how-to-setup/install-node.rst:82
+#: ../../how-to-setup/install-node.rst:84
 msgid ""
 "Отредактируйте ``example.conf`` в соответствии с руководством :ref:`"
 "\"Конфигурация ноды\" <configuration>`."
@@ -200,32 +191,32 @@ msgstr ""
 "Configuration <configuration>`."
 
 # 6a31f68ea5374346bd03e9a0cc644967
-#: ../../how-to-setup/install-node.rst:84
+#: ../../how-to-setup/install-node.rst:86
 msgid "Установите ноду из deb-пакета. Команда для установки:"
 msgstr "Install the node from the deb-package. The installation command:"
 
 # cba92c2259a248daa08e66c7f2497bda
-#: ../../how-to-setup/install-node.rst:91
+#: ../../how-to-setup/install-node.rst:93
 msgid "Директория для конфигурационного файла - /etc/vostok/vostok.conf"
 msgstr "Directory for configuration file - /etc/vostok/vostok.conf"
 
 # 6203c3c457824dd6b8523b87f18a49f7
-#: ../../how-to-setup/install-node.rst:92
+#: ../../how-to-setup/install-node.rst:94
 msgid "Директория для jar-файла и библиотек - /usr/share/vostok/"
 msgstr "Directory for jar-file and libraries - /usr/share/vostok/"
 
 # 7d3decbcd7df40fc852869599e738daf
-#: ../../how-to-setup/install-node.rst:93
+#: ../../how-to-setup/install-node.rst:95
 msgid "Директория для данных блокчейна - /var/lib/vostok/"
 msgstr "Directory for blockchain data - /var/lib/vostok/"
 
 # 50cc02d018fb47da8d60c87227a2ea66
-#: ../../how-to-setup/install-node.rst:95
+#: ../../how-to-setup/install-node.rst:97
 msgid "Запуск ноды выполняется командой:"
 msgstr "Launch the node using the command:"
 
 # 3b3f26e84bfc4849bc230311eccf4c1f
-#: ../../how-to-setup/install-node.rst:101
+#: ../../how-to-setup/install-node.rst:103
 msgid "Остановка ноды выполняется командой:"
 msgstr "Stop the node using the command:"
 
@@ -261,3 +252,11 @@ msgstr "Stop the node using the command:"
 #~ "releases>`_ of the node in the jar-format and the config file template "
 #~ "`example.conf <https://github.com/vostokplatform/vostok-releases/blob/"
 #~ "master/configs/example.conf>`_."
+
+# 59b0b7ae6d1d4371accca148ca6b8b5d
+#~ msgid ""
+#~ "Скачайте и установите `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/"
+#~ "csp/jcp>`_ (или версию выше)."
+#~ msgstr ""
+#~ "Download and install `CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/"
+#~ "csp/jcp>`_ (or higher version)."
