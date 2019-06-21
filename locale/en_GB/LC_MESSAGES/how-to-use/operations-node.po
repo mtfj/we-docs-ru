@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-21 11:53+0300\n"
-"PO-Revision-Date: 2019-06-21 11:57+0300\n"
+"POT-Creation-Date: 2019-06-21 14:23+0300\n"
+"PO-Revision-Date: 2019-06-21 14:33+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -387,11 +387,11 @@ msgstr ""
 msgid ""
 "Пользователь отправляет данные в сеть, используя инструмент API :ref:"
 "`POST /privacy/sendData <privacy-api>` (параметры API: отправитель, "
-"пароль, ID группы, тип данных, информация о данных, дата и хеш)."
+"пароль, ID группы, тип данных, информация о данных, данные и хеш)."
 msgstr ""
 "Using the :ref:`API <privacy-api>` POST /privacy/sendData tool the client "
 "sends the data to the network (API parameters: sender, password, policy "
-"ID, data type, data information, date and hash)."
+"ID, data type, data information, data and hash)."
 
 # cb4d531b9cb540d7a1f79f96013981ce
 #: ../../how-to-use/operations-node.rst:86
@@ -414,17 +414,13 @@ msgstr ""
 # 31fa424af8924843b77d0c0a36733020
 #: ../../how-to-use/operations-node.rst:90
 msgid ""
-"Поле ``data`` заполняется значением кодирования отправляемых данных по "
-"методу **Base64**. Переведите все данные в формат, соответствующий "
-"**Base64**, при помощи веб-сервисов или специальных приложений. Если "
-"данные хранятся в текстовом файле (*.docx, *.pdf, *.txt и др.), переведите "
-"байтовую последовательность файла в формат, соответствующий **Base64**."
+"Переведите все данные в формат **Base64**. Если данные хранятся в "
+"текстовом файле (*.docx, *.pdf, *.txt и др.), переведите байтовую "
+"последовательность файла в формат **Base64**."
 msgstr ""
-"The ``data`` field is filled with the value of encoding the sent data by "
-"the **Base64** method. Convert all data to **Base64** format using web "
-"services or special applications. If the data is stored in a text file (*."
-"docx, *.pdf, *.txt, etc.), convert the byte sequence of the file into the "
-"**Base64** format."
+"Convert all data to **Base64** format. If the data is stored in a text "
+"file (*.docx, *.pdf, *.txt, etc.), convert the byte sequence of the file "
+"into the **Base64** format."
 
 # fd9dd06162dd4141851c02464c84f927
 #: ../../how-to-use/operations-node.rst:91
@@ -436,35 +432,24 @@ msgstr ""
 "RgdC60LL\"`` field of the API :ref:`POST /privacy/sendData <privacy-api>` "
 "request."
 
-# 4d95fe1ad7f34e078976fba11c55c185
+# e45523508f754ad9bfe87d453ebfd822
 #: ../../how-to-use/operations-node.rst:92
 msgid ""
-"Поле ``hash`` заполняется значением кодирования отправляемых данных по "
-"методу **Base58** через хеш-сумму данных по алгоритму **SHA-256**. "
-"Получите хеш-сумму данных при помощи веб-сервисов или специальных "
-"приложений в соответствии с алгоритмом **SHA-256**."
+"В поле ``\"hash\": \"9wetTB...SU2zr1Uh\"`` укажите хеш-сумму данных, "
+"представленных в формате **Base58**. Для получения хеш-суммы используйте "
+"алгоритм **SHA-256**."
 msgstr ""
-"The ``hash`` field is filled with the value of encoding the sent data by "
-"the **Base58** method via the data hash sum by the **SHA-256** algorithm. "
-"Get the data hash sum using web services or special applications according "
-"to the **SHA-256** algorithm."
-
-# 7139e2e1a572437f92e31bdd9bc8392d
-#: ../../how-to-use/operations-node.rst:93
-msgid ""
-"Переведите полученную хеш-сумму в формат, соответствующий **Base58**, и "
-"поместите результат в поле ``\"hash\": \"9wetTB...SU2zr1Uh\"``."
-msgstr ""
-"Convert the resulting hash sum into a format suitable **Base58** and place "
-"the result in the ``\"hash\": \"9wetTB...SU2zr1Uh\"`` field."
+"Specify the data hash sum represented in the **Base58** format in the ``"
+"\"hash\": \"9wetTB...SU2zr1Uh\"`` field. Use the **SHA-256** algorithm for "
+"the hash sum calculating."
 
 # cc7cdc382b3940f68f3bf91848c9d351
-#: ../../how-to-use/operations-node.rst:94
+#: ../../how-to-use/operations-node.rst:93
 msgid "Отправьте данные в сеть, нажав кнопку **Try it out!**."
 msgstr "Send the data to the network by pressing the **Try it out!** button."
 
 # 34f5a07b8d8b41aeb8976e0d23e469fa
-#: ../../how-to-use/operations-node.rst:95
+#: ../../how-to-use/operations-node.rst:94
 msgid ""
 "В результате отправки данных в сеть нода автоматически сформирует "
 "транзакцию :ref:`114 PolicyDataHash <PolicyDataHashTransaction>`."
@@ -533,3 +518,23 @@ msgstr ""
 # a3e3ef7afb2945dda703f4d68bf996da
 #~ msgid "**Пример запроса**"
 #~ msgstr "**Request example**"
+
+# 4d95fe1ad7f34e078976fba11c55c185
+#~ msgid ""
+#~ "Поле ``hash`` заполняется значением кодирования отправляемых данных по "
+#~ "методу **Base58** через хеш-сумму данных по алгоритму **SHA-256**. "
+#~ "Получите хеш-сумму данных при помощи веб-сервисов или специальных "
+#~ "приложений в соответствии с алгоритмом **SHA-256**."
+#~ msgstr ""
+#~ "The ``hash`` field is filled with the value of encoding the sent data "
+#~ "by the **Base58** method via the data hash sum by the **SHA-256** "
+#~ "algorithm. Get the data hash sum using web services or special "
+#~ "applications according to the **SHA-256** algorithm."
+
+# 7139e2e1a572437f92e31bdd9bc8392d
+#~ msgid ""
+#~ "Переведите полученную хеш-сумму в формат, соответствующий **Base58**, и "
+#~ "поместите результат в поле ``\"hash\": \"9wetTB...SU2zr1Uh\"``."
+#~ msgstr ""
+#~ "Convert the resulting hash sum into a format suitable **Base58** and "
+#~ "place the result in the ``\"hash\": \"9wetTB...SU2zr1Uh\"`` field."
