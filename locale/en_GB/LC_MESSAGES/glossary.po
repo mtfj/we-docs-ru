@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-23 12:13+0300\n"
-"PO-Revision-Date: 2019-05-23 12:16+0300\n"
+"POT-Creation-Date: 2019-06-21 11:53+0300\n"
+"PO-Revision-Date: 2019-06-21 11:58+0300\n"
 "Last-Translator: \n"
 "Language: en_GB\n"
 "Language-Team: \n"
@@ -19,17 +19,17 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# b8751fb805434895911a02382eee4c4c
+# f4b5fe31542340fda26116bd2c62d310
 #: ../../glossary.rst:5
 msgid "Словарь терминов"
 msgstr "Glossary"
 
-# 27c2b39d48d843cca9173b3cb1292f53
+# 5208e64e6ac64870bde1dbe33278d563
 #: ../../glossary.rst:9
 msgid "**Аккаунт**"
 msgstr "**Account**"
 
-# 15436e7546e643f28a676e11a869ace9
+# 09dc7a17142d48479f691ee7b64b9ac1
 #: ../../glossary.rst:11
 msgid ""
 "Набор данных о пользователе, содержащийся в БД и использующийся для его "
@@ -37,12 +37,12 @@ msgid ""
 msgstr ""
 "A client data set which is stored in database and used for client identification"
 
-# 469a805e296c43d680869fbde6a2e562
+# 61af9b14329540c3979be75f49db8022
 #: ../../glossary.rst:15
 msgid "**Алиас**"
 msgstr "**Alias**"
 
-# f75ca9748dc8460b8f4060559a9a1cf3
+# b47ee35001e04c82bd3ec625681b62b9
 #: ../../glossary.rst:17
 msgid ""
 "Логин пользователя, связанный с его адресом в результате транзакции, по итогам "
@@ -53,12 +53,12 @@ msgstr ""
 "result of which is used to record the alias address matching in the database, "
 "and it is possible to specify this alias in the subsequent transactions"
 
-# d6564af2c1234b4a8785f535cc59f359
+# 03db5589d6e641988024bef4f4a0c469
 #: ../../glossary.rst:21
 msgid "**Анонимная сеть**"
 msgstr "**Anonymous network**"
 
-# ee67c04566b34889a16fc63c42704ca2
+# ad6bd9db6d574f4ca33091fc7c46b154
 #: ../../glossary.rst:23
 msgid ""
 "Блокчейн открытого типа, к которой может подключиться любой участник на правах "
@@ -67,12 +67,12 @@ msgstr ""
 "Unpermissioned public blockchain which can be accessed by any participant as an "
 "anonymous person"
 
-# f15e6460afaf4e9fa1cbd5bd4364c062
+# 3796880fa9fb4788b9c4adc10c1ffa93
 #: ../../glossary.rst:27
 msgid "**Блокчейн**"
 msgstr "**Blockchain**"
 
-# 93f7a329036940719a6a8189fbf2af79
+# 5d97f79229e144f4aebeecd133c4405b
 #: ../../glossary.rst:29
 msgid ""
 "Децентрализованный, распределённый и общедоступный цифровой реестр, "
@@ -84,12 +84,12 @@ msgstr ""
 "in such way that any involved record cannot be altered retroactively, without "
 "the alteration of all subsequent blocks"
 
-# 2718aa2a413d4a5f89f6da67448e9fd8
+# 9397bfd3b518449796b46e6c9d159cdf
 #: ../../glossary.rst:33
 msgid "**Генезис блок**"
 msgstr "**Genesis block**"
 
-# 9c22dbf1e70a48c4952a83f2cb5b301e
+# eabf7881d24a469e9679626f5a8b2870
 #: ../../glossary.rst:35
 msgid ""
 "Первый блок в блокчейне, содержащий специальные генезис транзакции, "
@@ -98,12 +98,12 @@ msgstr ""
 "The first block in the blockchain which contains special genesis transactions "
 "distributing the initial balance and permissions"
 
-# f0c2cc88926b465fa31f3e8b7f83adef
+# 57ded2ceb2ee4d2ea258780d0816da04
 #: ../../glossary.rst:39
 msgid "**Группа доступа**"
 msgstr "**Access group**"
 
-# b742bac9089948e69ae5d56a45b427b7
+# ece7ba3283fe4028b51cf18b3555383a
 #: ../../glossary.rst:41
 msgid ""
 "Таблица в стейте ноды, содержащая список участников сети, которые могут "
@@ -112,12 +112,12 @@ msgstr ""
 "A table inside the node state containing the net participants list which can "
 "exchange the privacy data according to this policy"
 
-# 7c3e55cafdab4b45aabdfc2aecbc936f
+# 920a43e02cf242909947c039d7071b55
 #: ../../glossary.rst:45
 msgid "**Криптовалюта**"
 msgstr "**Cryptocurrency**"
 
-# c52933886da84c9095479e393d8191d7
+# ed31517954894d02bad1d572179b6371
 #: ../../glossary.rst:47
 msgid ""
 "Цифровая монета, основанная на криптографических алгоритмах и обращающаяся на "
@@ -126,12 +126,12 @@ msgstr ""
 "A form of digital currency based on encryption algorithms and ran inside "
 "decentralized platforms built on the blockchain"
 
-# 1805336c2c644ed2a20242fd9cf51fb5
+# d8dd8b5c06164da788a54fe69c83797f
 #: ../../glossary.rst:51
 msgid "**Консенсус**"
 msgstr "**Consensus**"
 
-# aeded86e38854f67880284dd1c146f42
+# 12ef8cb993554d4bbebf8078825a30f8
 #: ../../glossary.rst:53
 msgid ""
 "Способ согласования об информационном событии о транзакциях и блоках в сети "
@@ -140,55 +140,55 @@ msgstr ""
 "The way to agree on a single point of the data value in a network between "
 "participants"
 
-# e6dce0e9cd514b3c8d342dfd5e5cae31
+# 0dd9a6c0f4ff48c8be63c3d04e058406
 #: ../../glossary.rst:57
 msgid "**Майнинг**"
 msgstr "**Mining**"
 
-# f2ba073250b944ee9dbd5df73548e8fb
+# 1fab50952f4446e1b2329410d88778b4
 #: ../../glossary.rst:59
 msgid "Процесс верификации и добавления в блокчейн транзакций"
 msgstr "The process by which transactions are verified and added to a blockchain"
 
-# 26029e3a47034491af4ea4cfd79a8d34
+# 4c740a429abf461185d004a000418cd8
 #: ../../glossary.rst:63
 msgid "**Мейннет**"
 msgstr "**Mainnet**"
 
-# df983ff1740d46d4a6a4fd6b5ac48142
+# c277b5af740a472285994b4174b92b8b
 #: ../../glossary.rst:65
 msgid "Рабочая сеть, в которой происходят транзакции, выпуск и хранение токенов"
 msgstr ""
 "A real network where transactions are executing, tokens are issuing and storing"
 
-# 469a805e296c43d680869fbde6a2e562
+# c0384ab3c3374ccbb49ad5f8a77dc84e
 #: ../../glossary.rst:69
 msgid "**Нода**"
 msgstr "**Node**"
 
-# 5adb042d659d4e2e8f7c54c6d82607ba
+# 928edf7842fe447eb8af388363bebe52
 #: ../../glossary.rst:71
 msgid "Компьютер с запущенным ПО ноды и включённый в блокчейн"
 msgstr ""
 "A computer which is ran the node software and connected to the blockchain "
 "network"
 
-# 52b7b43c417041eeaba277d4cf60cb6a
+# cb66bcadf32d454eb8c7904f6e103d76
 #: ../../glossary.rst:75
 msgid "**Пир**"
 msgstr "**Peer**"
 
-# 7ddcfe8ace814afcb089332d9b057846
+# bafc36b78052482f8b39b1f56c349ee5
 #: ../../glossary.rst:77
 msgid "Сетевой адрес ноды"
 msgstr "A net address of the node"
 
-# c91baa6a2abe401c99ea27d0f7204f64
+# d55bcc922a3741adbbadeb1df2ca25ef
 #: ../../glossary.rst:81
 msgid "**Приватный ключ**"
 msgstr "**Private key**"
 
-# a6a914c57ff64bafaecd92e550d56e77
+# 064ed304b3bc417aafe1ecab53597262
 #: ../../glossary.rst:83
 msgid ""
 "Строковая комбинация символов для подписания транзакий и доступа к токенам, "
@@ -197,12 +197,12 @@ msgstr ""
 "A privately held string of data that allows you to sign transactions and to get "
 "access to tokens. The private key is inextricably bound to the public key"
 
-# 5d54bd25097d41e297ec5934ce90bb4f
+# 51e90f8749a740979e6cdbd9fd630239
 #: ../../glossary.rst:87
 msgid "**Публичная сеть**"
 msgstr "**Public network**"
 
-# 428263d59df4414bb390e37fc9815ed3
+# 69e3eef0a3cc4c3b88dbb892ed128241
 #: ../../glossary.rst:89
 msgid ""
 "Блокчейн закрытого типа, где каждый участник известен и зарегистрирован в сети"
@@ -210,12 +210,12 @@ msgstr ""
 "Permissioned public blockchain where each participant is known and registered "
 "in the network"
 
-# 2aa19717657041de9c782b5d9195eb90
+# 07e482233092454ebc3adc7b572d9c0d
 #: ../../glossary.rst:93
 msgid "**Публичный ключ**"
 msgstr "**Public key**"
 
-# 5dff1257d9e84a07993f7346b95c9563
+# 3710f79a7bcf471991b77e69936c3d28
 #: ../../glossary.rst:95
 msgid ""
 "Строковая комбинация символов, неразрывно связанная с приватным ключом. "
@@ -226,12 +226,12 @@ msgstr ""
 "participants. The public key is applied to transactions to confirm the "
 "correctness of the user's signature made on the private key"
 
-# adf4ed9c55ac4516b6c0037fbeb12aee
+# 0d9fbf3b6eb248e3bc4dfb81a2667721
 #: ../../glossary.rst:99
 msgid "**Публичный адрес**"
 msgstr "**Public address**"
 
-# 19b2933c1e994f6d8c3d49d43b15ef7c
+# 33947f9e2a704d308383a155456f486e
 #: ../../glossary.rst:101
 msgid ""
 "Публичный адрес представляет собой хеш публичного ключа и байт сети. В отличии "
@@ -241,33 +241,33 @@ msgstr ""
 "A public address is the cryptographic hash of a public key and a net byte. They "
 "act as email addresses that can be published anywhere, unlike private keys"
 
-# 72902c0821c1421fbd75ef524c8e66de
+# 05590bce47ce43a9871a9dafc022a05a
 #: ../../glossary.rst:105
 msgid "**Сваггер**"
 msgstr "**Swagger**"
 
-# 1fc92bb5e9a5464facf2e4407ed7caf6
+# 6fabb4b50516411d94f8c52eef2c5a50
 #: ../../glossary.rst:107
 msgid "Инструмент для работы с API"
 msgstr "API tool"
 
-# 89151256669d4a9b9d4b64cb01f0d4a5
+# 42b43e5069514769b3567d792032cec2
 #: ../../glossary.rst:111
 msgid "**Секретная фраза**"
 msgstr "**Seed phrase**"
 
-# c56e7a562cbc4433be0de50f9d6d64e8
+# 6f1e19088745406982d4274490af4793
 #: ../../glossary.rst:113
-msgid "Набор из 15 произвольно заданных слов для восстановления доступа к токенам"
+msgid "Набор из 24 произвольно заданных слов для восстановления доступа к токенам"
 msgstr ""
-"A set from 15 accidentally chosen words for restoring the access to the tokens"
+"A set from 24 accidentally chosen words for restoring the access to the tokens"
 
-# 78186bcde52a4736ace7cf94905a841b
+# 2b47f9c128fe43cda68f9229cf231beb
 #: ../../glossary.rst:117
 msgid "**Смарт-аккаунт**"
 msgstr "**Smart account**"
 
-# 39de1c1692ed4c2db389126a1db58a82
+# e1d55b49444946cabce8ff1fdd404713
 #: ../../glossary.rst:119
 msgid ""
 "Аккаунт, к которому добавлены определённые свойства для создания и исполнения "
@@ -275,12 +275,12 @@ msgid ""
 msgstr ""
 "An account with specified features for creating and running smart-contracts"
 
-# 1fa8621c5d1e40509ee317426baaa3e9
+# d79069ae5d324389a9bcb0e03a5ee346
 #: ../../glossary.rst:123
 msgid "**Смарт-ассет**"
 msgstr "**Smart asset**"
 
-# a6ce879338c4465d984a6ece5ed9cacb
+# e569b76544f9464e8a43358baaf963bd
 #: ../../glossary.rst:125
 msgid ""
 "Токен с привязанным к нему скриптом, при осуществлении каждой новой транзакции "
@@ -289,12 +289,12 @@ msgstr ""
 "A token with an attached script, during each new transaction with such a token "
 "the transaction will be confirmed first by the script, then by the blockchain"
 
-# 151f646a0d2d489787daf34a8f08d875
+# 9926ebca43a84f2db2bb667f9d15cebf
 #: ../../glossary.rst:129
 msgid "**Смарт-контракт**"
 msgstr "**Smart contract**"
 
-# 3b46f73d9b14426f926f71aad038b22d
+# 7afb9529d57e4579a878ada9ff37844b
 #: ../../glossary.rst:131
 msgid ""
 "Программный код, предназначенный для облегчения, прямого выполнения или "
@@ -303,22 +303,22 @@ msgstr ""
 "A computer program code that is capable of facilitating, executing, and "
 "enforcing the negotiation or performance of an agreement between participant"
 
-# 6f9593dd49f44307b691be9effbe195b
+# b5456b16cdc249e4bcfdb09bf6648790
 #: ../../glossary.rst:135
 msgid "**Стейт**"
 msgstr "**State**"
 
-# d61db3e0171b4226a5e14be2bf345bd9
+# fd6c11e60194498cbde1d0d194fc22aa
 #: ../../glossary.rst:137
 msgid "Полная история транзакций, хранящаяся во внутренней БД ноды"
 msgstr "The full history of transactions which is stored in the node DB"
 
-# 4c463352caff43d3b514f78d2b1803b9
+# 3ea4a4013ecf40acb650a14075be5d17
 #: ../../glossary.rst:141
 msgid "**Токен**"
 msgstr "**Token**"
 
-# 34dba5da93ba4a1c8f3967a50a6b72b1
+# 5ecb82b50aa9404bb0f2ff30dd7c77ef
 #: ../../glossary.rst:143
 msgid ""
 "Расчётная единица, актив блокчейна, не являющийся криптовалютой и "
@@ -328,35 +328,35 @@ msgstr ""
 "intended to represent the digital balance, it is an equivalent of the company's "
 "shares"
 
-# 5f54eb16f4f745b6ab83db2ea110ea12
+# 5ae5159342804f86974c7663ebf52e61
 #: ../../glossary.rst:147
 msgid "**Транзакция**"
 msgstr "**Transaction**"
 
-# da81df1de67845fa8f2ecc05d3397962
+# c9bba717631649019bcfb6725dc6f2cd
 #: ../../glossary.rst:149
 msgid "Операция, производимая участниками в сети, для инициации любых действий"
 msgstr ""
 "An operation that participants on the blockchain network use to interact with "
 "eachother"
 
-# 2208a1afcec541e488a20154ccec2b69
+# 21492d8dbcfb4f7a9c1943c24e18192b
 #: ../../glossary.rst:153
 msgid "**Участник**"
 msgstr "**Participant**"
 
-# b9a4629e1b8c4fd5b6218156ec8485e7
+# bf2c9ab6c79746678bb8394f82c970a5
 #: ../../glossary.rst:155
 msgid "Участник блокчейна, который направляет транзакции на подтверждение в сеть"
 msgstr ""
 "A blockchain participant who send transactions to the net for getting approve"
 
-# 063cde941955418ab196ba12843f83ca
+# fa8d65dfac78490a9bfa0be0d27c7218
 #: ../../glossary.rst:159
 msgid "**Хеш**"
 msgstr "**Hash**"
 
-# 90943c32b74343759290d9708770276c
+# 24a891b366f34f89b0c25765c3ea78d7
 #: ../../glossary.rst:161
 msgid ""
 "Уникальная конфигурация символов (буквы, цифры), результат исполнения хеш-"
@@ -366,12 +366,12 @@ msgstr ""
 "the hash function performing over the data according with the specified "
 "algorithm. Hash uniquely identifies the object"
 
-# 1eab7a9eb10e4f6c93241b1f38139eed
+# 08d366cfb9024ac4ac2862c70effded4
 #: ../../glossary.rst:165
 msgid "**Частная сеть**"
 msgstr "**Private network**"
 
-# 55f2d431503d45f1bf9c61cda47c8954
+# 2373e368438a4328bd77b9e94b33818a
 #: ../../glossary.rst:167
 msgid ""
 "Блокчейн закрытого типа, где все транзакции контролируются центральным органом"
@@ -379,34 +379,34 @@ msgstr ""
 "Permissioned private blockchain where all transactions are controlled by a "
 "central authority"
 
-# 106380a6de944de5aba5c833b0fe6000
+# 1b0953f74c814f0fb4c0a17abaebe4b4
 #: ../../glossary.rst:171
 msgid "**Шлюз**"
 msgstr "**Gateway**"
 
-# 3a553667ca1d4dd282837661955c9886
+# 3bf563906d824390bc138713d6d40f2b
 #: ../../glossary.rst:173
 msgid "Приложение для перевода токенов из одного блокчейна в другой"
 msgstr "The app for tokens transfer from one blockchain net to another one"
 
-# 0ce02fb97fdb4a44bbb8d457fd4c8ca3
+# 277d081f6ffb409585861dd994cd7b79
 #: ../../glossary.rst:177
 msgid "**Эйрдроп**"
 msgstr "**Airdrop**"
 
-# 086efea57c7544c9b429c9ce43c5eda2
+# 3d537980dd474eb194c62af3ad598fdc
 #: ../../glossary.rst:179
 msgid ""
 "Процесс раздачи токенов пользователям blockchain-кошельков на безвозмездной "
 "основе"
 msgstr "A distribution of cryptocurrency to users, entirely for free"
 
-# 81bd7b15434c496e86def456767388e2
+# 7123aa79dc164f44b411547d71e33f2e
 #: ../../glossary.rst:183
 msgid "**PoS (Proof-of-Stake)**"
 msgstr "**PoS (Proof-of-Stake)**"
 
-# b719d81189a842149d832f4cb9c42e83
+# 86b56dcd19fd4bd099521af3558edf8b
 #: ../../glossary.rst:185
 msgid ""
 "Алгоритм консенсуса на основе \"доли\", которая применяется для выбора ноды для "
@@ -415,12 +415,12 @@ msgstr ""
 "A consensus algorithm based on the stake which is used for choosing the node "
 "for checking transactions and generating a new block"
 
-# b27c8b8b820149b484615041e2d58899
+# f66512c2eb6a4141bdc1c17a6a1728eb
 #: ../../glossary.rst:189
 msgid "**PoA (Proof-of-Authority)**"
 msgstr "**PoA (Proof-of-Authority)**"
 
-# 1041cd4c2b724eff8586641348431a9c
+# 3c30057c242c4ae78644e94d0e6d4f45
 #: ../../glossary.rst:191
 msgid ""
 "Алгоритм консенсуса в приватном блокчейне, при котором возможность проверки "

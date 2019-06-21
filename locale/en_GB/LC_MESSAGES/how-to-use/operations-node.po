@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 16:25+0300\n"
-"PO-Revision-Date: 2019-06-19 17:28+0300\n"
+"POT-Creation-Date: 2019-06-21 11:53+0300\n"
+"PO-Revision-Date: 2019-06-21 11:57+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -458,10 +458,19 @@ msgstr ""
 "Convert the resulting hash sum into a format suitable **Base58** and place "
 "the result in the ``\"hash\": \"9wetTB...SU2zr1Uh\"`` field."
 
-# a3e3ef7afb2945dda703f4d68bf996da
+# cc7cdc382b3940f68f3bf91848c9d351
+#: ../../how-to-use/operations-node.rst:94
+msgid "Отправьте данные в сеть, нажав кнопку **Try it out!**."
+msgstr "Send the data to the network by pressing the **Try it out!** button."
+
+# 34f5a07b8d8b41aeb8976e0d23e469fa
 #: ../../how-to-use/operations-node.rst:95
-msgid "**Пример запроса**"
-msgstr "**Request example**"
+msgid ""
+"В результате отправки данных в сеть нода автоматически сформирует "
+"транзакцию :ref:`114 PolicyDataHash <PolicyDataHashTransaction>`."
+msgstr ""
+"Node automatically will create the :ref:`114 PolicyDataHash "
+"<PolicyDataHashTransaction>` transaction as a result of the data sending."
 
 # 54cce7f6179442c09303d275356ad380
 #~ msgid ""
@@ -520,3 +529,7 @@ msgstr "**Request example**"
 # 320445dcb41e4f128cea0fe7e42e87de
 #~ msgid "**Схема процесса**"
 #~ msgstr "**The process scheme**"
+
+# a3e3ef7afb2945dda703f4d68bf996da
+#~ msgid "**Пример запроса**"
+#~ msgstr "**Request example**"
