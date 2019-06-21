@@ -52,10 +52,6 @@
   padding: 15px 20px;
 }
 
-.wy-nav-content div[role="navigation"] {
-  display: none;
-}
-
 p.caption {
   padding: 0 !important;
 }
@@ -68,3 +64,9 @@ p.caption {
 .toctree-expand {
   display: none !important;
 }
+
+footer div:not(.rst-footer-buttons), footer hr {
+  display: none;
+}
+
+
