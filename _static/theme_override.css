@@ -1,67 +1,70 @@
-﻿.wy-nav-content {
-  max-width: 1050px
+﻿.vst-logo:before {
+  content: url("./img/vostok-logo-docs.svg");
 }
 
-div.wy-menu p.caption {
-  margin-top: 10px;
-  margin-left: -10px;
+.wy-nav-content-wrap, .wy-nav-content {
+  background: none;
+}
+
+.vst-lang-switcher {
+  font-family: GraphikLC;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  margin-top: 28px
+}
+
+.vst-lang-switcher span.separator {
+  padding: 0 8px;
+}
+
+.vst-lang-switcher > a {
   color: white;
 }
 
-.wy-side-nav-search a.icon-home {
- color: transparent;
- background-repeat: no-repeat;
- height: 20px;
- width: 100%;
- margin: 0px;
- position: absolute;
- display: block;
- top: -50px;
+.wy-nav-content {
+  margin: 0 auto;
 }
 
-.wy-side-nav-search {
- background-color: white;
- padding-bottom: 20px;
+.wy-menu-vertical {
+  padding-top: 60px;
+}
+
+.wy-nav-side, .wy-side-nav-search {
+  background-color: #081e58;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wy-side-nav-search a.icon-home,
+.wy-side-nav-search .version {
+  display: none;
 }
 
 .wy-side-nav-search input[type=text] {
- border-color: #cccccc;
- border-radius: 10px;
+  width: 300px;
+  border-radius: 0;
+  position: absolute;
+  top: 115px;
+  left: 0;
+  border-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 20px;
 }
 
-.wy-side-nav-search img {
- background-color: #ffffff;
-
+.wy-nav-content div[role="navigation"] {
+  display: none;
 }
 
-.wy-form {
- position: relative;
- top: 75px;  
+p.caption {
+  padding: 0 !important;
 }
 
-a.lang:hover {text-decoration: underline;}
-a.pdf:hover {text-decoration: underline}
-
-/* -- math display ---------------------------------------------------------- */
-
-img.math {
-  vertical-align: middle;
+.wy-menu-vertical a {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-div.body div.math p {
-  text-align: center;
-}
-
-span.eqno {
-  float: right;
-}
-
-span.eqno a.headerlink {
-  position: relative;
-  left: 0px;
-  z-index: 1;
-}
-
-div.math:hover a.headerlink {
-  visibility: visible;
+.toctree-expand {
+  display: none !important;
 }
