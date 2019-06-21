@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-21 15:09+0300\n"
-"PO-Revision-Date: 2019-06-21 15:15+0300\n"
+"POT-Creation-Date: 2019-06-21 16:30+0300\n"
+"PO-Revision-Date: 2019-06-21 16:35+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -411,16 +411,10 @@ msgstr ""
 "Follow these steps for the values creation of the ``data`` and ``hash`` "
 "fields:"
 
-# 31fa424af8924843b77d0c0a36733020
+# 30344c14445f46f1954e6f5463df7cd1
 #: ../../how-to-use/operations-node.rst:90
-msgid ""
-"Переведите все данные в кодировку **Base64**. Если данные хранятся в "
-"текстовом файле (``*.docx``, ``*.pdf``, ``*.txt`` и др.), переведите "
-"байтовую последовательность файла в кодировку **Base64**."
-msgstr ""
-"Convert all data to the **Base64** coding. If the data is stored in a text "
-"file (``*.docx``, ``*.pdf``, ``*.txt``, etc.), convert the byte sequence "
-"of the file into the **Base64** coding."
+msgid "Переведите байтовую последовательность данных в кодировку **Base64**."
+msgstr "Translate the data byte sequence into the **Base64** encoding."
 
 # fd9dd06162dd4141851c02464c84f927
 #: ../../how-to-use/operations-node.rst:91
@@ -548,3 +542,13 @@ msgstr ""
 #~ "Specify the data hash sum represented in the **Base58** format in the ``"
 #~ "\"hash\": \"9wetTB...SU2zr1Uh\"`` field. Use the **SHA-256** algorithm "
 #~ "for the hash sum calculating."
+
+# 31fa424af8924843b77d0c0a36733020
+#~ msgid ""
+#~ "Переведите все данные в кодировку **Base64**. Если данные хранятся в "
+#~ "текстовом файле (``*.docx``, ``*.pdf``, ``*.txt`` и др.), переведите "
+#~ "байтовую последовательность файла в кодировку **Base64**."
+#~ msgstr ""
+#~ "Convert all data to the **Base64** coding. If the data is stored in a "
+#~ "text file (``*.docx``, ``*.pdf``, ``*.txt``, etc.), convert the byte "
+#~ "sequence of the file into the **Base64** coding."
