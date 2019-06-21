@@ -1,4 +1,4 @@
-﻿.vst-logo:before {
+﻿.vst-logo a:before {
   content: url("./img/vostok-logo-docs.svg");
 }
 
@@ -23,7 +23,7 @@
 }
 
 .wy-nav-content {
-  margin: 0 auto;
+  margin: 0;
 }
 
 .wy-menu-vertical {
