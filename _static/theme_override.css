@@ -101,3 +101,7 @@ footer div:not(.rst-footer-buttons), footer hr {
   border-bottom: 0;
   border-left: 4px solid #ff2615;
 }
+
+.wy-menu-vertical li.toctree-l2 {
+  padding-left: 16px;
+}
