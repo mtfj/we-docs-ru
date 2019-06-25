@@ -90,6 +90,7 @@ footer div:not(.rst-footer-buttons), footer hr {
 
 .wy-menu.wy-menu-vertical li {
   background: #081e58;
+  padding-top: 12px;
 }
 
 .wy-menu-vertical li a.reference.internal {
@@ -123,5 +124,6 @@ li.toctree-l4.current > a.reference.internal {
 }
 
 .wy-menu.wy-menu-vertical > ul {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 32px;
 }
