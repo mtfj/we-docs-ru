@@ -2,6 +2,8 @@
   font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
+/* menu */
+
 .vst-logo a:before {
   content: url("./img/vostok-logo-docs.svg");
 }
@@ -27,6 +29,7 @@
 
 .wy-nav-content {
   margin: 0;
+  max-width: 1000px;
 }
 
 .wy-menu-vertical {
@@ -71,10 +74,6 @@ p.caption {
 
 .toctree-expand {
   display: none !important;
-}
-
-footer div:not(.rst-footer-buttons), footer hr {
-  display: none;
 }
 
 .wy-menu.wy-menu-vertical .caption .caption-text {
@@ -131,3 +130,48 @@ li.toctree-l4.current > a.reference.internal {
 .rst-content > div[role="navigation"] {
   display: none;
 }
+
+/* end menu */
+
+/* content */
+h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
+  font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+.wy-nav-content {
+  padding: 64px 128px;
+}
+
+.rst-content h1, h2, h3, h4 {
+  font-weight: bold;
+  color: #081e58;
+}
+
+.rst-content h1 {
+  font-size: 48px;
+}
+
+.rst-content h2 {
+  font-size: 32px;
+}
+
+.rst-content h3 {
+  font-size: 24px;
+}
+/* end content */
+
+/* footer */
+footer div:not(.rst-footer-buttons), footer hr {
+  display: none;
+}
+
+.rst-footer-buttons .btn {
+  box-shadow: none;
+  border: 0;
+  padding: 0;
+}
+
+.btn-neutral {
+  background-color: transparent !important;
+}
+/* end footer */
