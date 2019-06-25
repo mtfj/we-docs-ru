@@ -81,7 +81,7 @@ footer div:not(.rst-footer-buttons), footer hr {
   font-size: 18px;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 .wy-menu.wy-menu-vertical .reference.internal.current {
@@ -120,4 +120,8 @@ li.toctree-l2.current > a.reference.internal,
 li.toctree-l3.current > a.reference.internal,
 li.toctree-l4.current > a.reference.internal {
   color: rgba(255, 255, 255, 1) !important;
+}
+
+.wy-menu.wy-menu-vertical > ul {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 }
