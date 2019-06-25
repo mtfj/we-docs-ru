@@ -3,7 +3,6 @@
 }
 
 /* menu */
-
 .vst-logo a:before {
   content: url("./img/vostok-logo-docs.svg");
 }
@@ -130,7 +129,6 @@ li.toctree-l4.current > a.reference.internal {
 .rst-content > div[role="navigation"] {
   display: none;
 }
-
 /* end menu */
 
 /* content */
@@ -173,5 +171,9 @@ footer div:not(.rst-footer-buttons), footer hr {
 
 .btn-neutral {
   background-color: transparent !important;
+}
+
+.fa.fa-arrow-circle-right:before, .fa.fa-arrow-circle-left:before {
+  content: url("./img/pagination-arrow.svg");
 }
 /* end footer */
