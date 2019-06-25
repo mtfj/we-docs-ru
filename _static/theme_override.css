@@ -84,29 +84,32 @@ footer div:not(.rst-footer-buttons), footer hr {
   text-transform: capitalize;
 }
 
-.wy-menu.wy-menu-vertical .reference.internal {
-  font-size: 14px;
-  letter-spacing: 0.2px;
-  color: rgba(255, 255, 255, 0.7);
-  background: #081e58 !important;
+.wy-menu.wy-menu-vertical .reference.internal.current {
+  color: rgba(255, 255, 255, 1);
 }
 
 .wy-menu.wy-menu-vertical li {
   background: #081e58;
 }
 
-.wy-menu-vertical li.toctree-l1.current > a {
+.wy-menu-vertical li a.reference.internal {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 0.7) !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  background: #081e58 !important;
+}
+
+.wy-menu-vertical li a.reference.internal.current {
   color: rgba(255, 255, 255, 1) !important;
-  border-top: 0;
-  border-bottom: 0;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
   border-left: 4px solid #ff2615;
   padding-left: 12px !important;
 }
 
-.wy-menu-vertical li.toctree-l2 {
-  padding-left: 16px;
-}
-
+.wy-menu-vertical li.toctree-l2,
 .wy-menu-vertical li.toctree-l3 {
   padding-left: 16px;
 }
