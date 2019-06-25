@@ -88,7 +88,7 @@ footer div:not(.rst-footer-buttons), footer hr {
   font-size: 14px;
   letter-spacing: 0.2px;
   color: rgba(255, 255, 255, 0.7);
-  background: #081e58;
+  background: #081e58 !important;
 }
 
 .wy-menu.wy-menu-vertical li {
@@ -100,8 +100,13 @@ footer div:not(.rst-footer-buttons), footer hr {
   border-top: 0;
   border-bottom: 0;
   border-left: 4px solid #ff2615;
+  padding-left: 12px !important;
 }
 
 .wy-menu-vertical li.toctree-l2 {
+  padding-left: 16px;
+}
+
+.wy-menu-vertical li.toctree-l3 {
   padding-left: 16px;
 }
