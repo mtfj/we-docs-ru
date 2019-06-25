@@ -1,5 +1,5 @@
 ﻿body {
-  font-family: "GraphikLC", "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+  font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 .vst-logo a:before {
@@ -110,6 +110,14 @@ footer div:not(.rst-footer-buttons), footer hr {
 }
 
 .wy-menu-vertical li.toctree-l2,
-.wy-menu-vertical li.toctree-l3 {
+.wy-menu-vertical li.toctree-l3,
+.wy-menu-vertical li.toctree-l4 {
   padding-left: 16px;
+}
+
+li.toctree-l1.current > a.reference.internal,
+li.toctree-l2.current > a.reference.internal,
+li.toctree-l3.current > a.reference.internal,
+li.toctree-l4.current > a.reference.internal {
+  color: rgba(255, 255, 255, 1) !important;
 }
