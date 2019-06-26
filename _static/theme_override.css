@@ -172,7 +172,15 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
   width: 120%;
 }
 
-.admonition.hint, .admonition.important, .admonition.tip, .admonition.note {
+.admonition.hint,
+.admonition.important,
+.admonition.tip,
+.admonition.note,
+.admonition.attention,
+.admonition.caution,
+.admonition.danger,
+.admonition.error,
+.admonition.warning {
   background: transparent;
   padding-left: 16px;
 }
