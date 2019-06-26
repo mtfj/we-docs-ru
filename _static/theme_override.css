@@ -156,6 +156,39 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
 .rst-content h3 {
   font-size: 24px;
 }
+
+.std.std-ref, .rst-content a.reference.external, .rst-content a.reference.internal {
+  color: #081e58;
+  border-bottom: 4px solid rgba(8, 30, 88, 0.2);
+}
+
+
+.highlight {
+  background: #1e1e1e;
+}
+
+
+.rst-content pre.literal-block, .rst-content div[class^='highlight'] {
+  width: 120%;
+}
+
+.admonition.hint, .admonition.important, .admonition.tip, .admonition.note {
+  background: transparent;
+  padding-left: 16px;
+}
+
+.admonition.hint, .admonition.important, .admonition.tip {
+  border-left: 16px solid #4ece3d;
+}
+
+.admonition.note {
+  border-left: 16px solid #4ab0e0;
+}
+
+.admonition p.first.admonition-title {
+  color: #000000;
+  background: transparent;
+}
 /* end content */
 
 /* footer */
