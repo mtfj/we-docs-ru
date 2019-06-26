@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 11:29+0300\n"
-"PO-Revision-Date: 2019-06-20 11:30+0300\n"
+"POT-Creation-Date: 2019-06-26 16:55+0300\n"
+"PO-Revision-Date: 2019-06-26 17:03+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -109,22 +109,38 @@ msgstr "java -Xmx4096M -jar"
 msgid "\"Xmx\" - флаг, определяющий максимальный размер доступной для JVM памяти."
 msgstr "\"Xmx\" - flag defining maximum size of memory available for JVM."
 
-# 41a0e5a3992840ea9c7176b6bb79d96e
+# 228b391992014ad8af6c61d3b15c3eb3
 #: ../../how-to-setup/system-requirement.rst:15
-msgid "**Требования к окружению для ноды**"
-msgstr "**Node environment requirements**"
+msgid "**Требования к окружению для ноды при использовании криптографии Waves**"
+msgstr "**Node environment requirements for the Waves cryptography usage**"
 
-# 38018bc0d08e4411bb21221e24c35d7d
+# b4f2e856beb043078f5da694cde24290
 #: ../../how-to-setup/system-requirement.rst:17
 msgid ""
-"`JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
-"downloads/2133155>`_"
+"`Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_ или `OpenJDK 12.0.1 <https://jdk.java.net/12/>`_"
 msgstr ""
 "`JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_ or `OpenJDK 12.0.1 <https://jdk.java.net/12/>`_"
+
+# 228b391992014ad8af6c61d3b15c3eb3
+#: ../../how-to-setup/system-requirement.rst:19
+msgid ""
+"**Требования к окружению для ноды при использовании криптографии CryptoPro JCP**"
+msgstr ""
+"**Node environment requirements for the CryptoPro JCP cryptography usage**"
+
+# 38018bc0d08e4411bb21221e24c35d7d
+#: ../../how-to-setup/system-requirement.rst:21
+msgid ""
+"`Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_"
+msgstr ""
+"`Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
 "downloads/2133155>`_"
 
 # 5c4f2e2c4acf4074ae134e3a333f473a
-#: ../../how-to-setup/system-requirement.rst:18
+#: ../../how-to-setup/system-requirement.rst:22
 msgid ""
 "`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/"
 "jcp/jcp-2.0.39014.zip>`_"
@@ -132,37 +148,40 @@ msgstr ""
 "`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/"
 "jcp/jcp-2.0.39014.zip>`_"
 
-# 960f1985faf44661b3626424bec00725
-#: ../../how-to-setup/system-requirement.rst:20
+# ab68b92a873a48ecab67a4cd8827044c
+#: ../../how-to-setup/system-requirement.rst:24
 msgid ""
 "Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. "
-"Для скачивания дистрибутива необходимо пройти регистрацию на сайте."
+"Для скачивания дистрибутива необходимо пройти регистрацию на сайте. Для "
+"получения дистрибутива Oracle JRE 1.8 необходимо также зарегистрироваться на "
+"официальном сайте компании Oracle."
 msgstr ""
 "The Vostok platform only supports ``2.0.39014`` version for the CryptoPro JCP "
 "software. You need to register on the site before downloading the installation "
-"package."
+"package. Also you need to register on the Oracle site to get the Oracle JRE 1.8 "
+"distributive."
 
 # 228b391992014ad8af6c61d3b15c3eb3
-#: ../../how-to-setup/system-requirement.rst:22
+#: ../../how-to-setup/system-requirement.rst:26
 msgid "**Требования к окружению для корпоративного клиента и дата-сервиса**"
 msgstr "**Corporate client and data service environment requirements**"
 
 # 65f3f84ee1a24beea53321f350c9af8d
-#: ../../how-to-setup/system-requirement.rst:24
+#: ../../how-to-setup/system-requirement.rst:28
 msgid "`Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_"
 msgstr "`Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_"
 
 # e6089a0388574cbaba2b0e20ed3da066
-#: ../../how-to-setup/system-requirement.rst:25
+#: ../../how-to-setup/system-requirement.rst:29
 msgid "`Docker-compose <https://docs.docker.com/compose/install/>`_"
 msgstr "`Docker-compose <https://docs.docker.com/compose/install/>`_"
 
 # 94cf6ebc817f4bbc9eac5032b5b4eba7
-#: ../../how-to-setup/system-requirement.rst:26
+#: ../../how-to-setup/system-requirement.rst:30
 msgid "`node.js <https://nodejs.org/en/download/>`_ LTS версии 10+"
 msgstr "`node.js <https://nodejs.org/en/download/>`_ LTS version 10+"
 
 # f3e0bd20d0e44cceafa057842660340c
-#: ../../how-to-setup/system-requirement.rst:27
+#: ../../how-to-setup/system-requirement.rst:31
 msgid "`npm <https://www.npmjs.com/>`_ 6+"
 msgstr "`npm <https://www.npmjs.com/>`_ 6+"

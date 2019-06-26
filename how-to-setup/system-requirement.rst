@@ -12,12 +12,16 @@
 
 .. hint:: "Xmx" - флаг, определяющий максимальный размер доступной для JVM памяти.
 
-**Требования к окружению для ноды**
+**Требования к окружению для ноды при использовании криптографии Waves**
 
-- `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_
+- `Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_ или `OpenJDK 12.0.1 <https://jdk.java.net/12/>`_
+
+**Требования к окружению для ноды при использовании криптографии CryptoPro JCP**
+
+- `Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_
 - `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_
 
-.. warning:: Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
+.. warning:: Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на сайте. Для получения дистрибутива Oracle JRE 1.8 необходимо также зарегистрироваться на официальном сайте компании Oracle.
 
 **Требования к окружению для корпоративного клиента и дата-сервиса**
 

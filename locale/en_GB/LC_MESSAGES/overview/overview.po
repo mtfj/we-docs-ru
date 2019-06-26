@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-13 13:57+0300\n"
-"PO-Revision-Date: 2019-06-13 15:42+0300\n"
+"POT-Creation-Date: 2019-06-26 12:15+0300\n"
+"PO-Revision-Date: 2019-06-26 16:54+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -19,12 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# c40f8ab99d2247d9aee70b3bc99a886b
+# dfebcb84a2ae47af9ac7e8b35fd70c6a
 #: ../../overview/overview.rst:2
 msgid "Обзор возможностей"
 msgstr "Features overview"
 
-# 6daa2a0f5b194265b17d537e9ed69756
+# 7a5fa40ce2964bc1876b23dd6c4141ff
 #: ../../overview/overview.rst:4
 msgid ""
 "Блокчейн-платформа Vostok — это универсальное решение для масштабируемой "
@@ -45,13 +45,18 @@ msgstr ""
 "data added to the blockchain, while decentralization provides counterparty "
 "independence in terms of data access."
 
-# 6c7d553c9b954b31a80e2e0f030aad47
+# 26d590f5b6984a728f3cbdd66ac976c8
 #: ../../overview/overview.rst:7
 msgid "Блокчейн Vostok"
 msgstr "Vostok Blockchain"
 
-# 89008454ff46455594a9e6995109d386
+# 8e01421f4c98462a9a03d8aa7ef5bc61
 #: ../../overview/overview.rst:9
+msgid "Построен на языке программирования Scala."
+msgstr "Built on Scala programming language."
+
+# 7d4f27fe8d56476493ffd7a5b741ee1e
+#: ../../overview/overview.rst:10
 msgid ""
 "Реализует лучшие технологии и практики использования, унаследованные от "
 "публичной блокчейн-платформы Waves."
@@ -59,13 +64,13 @@ msgstr ""
 "Includes technologies and best use practices of use proven on the Waves public "
 "blockchain platform."
 
-# f4899d1db7ff4406942faf2882e516ba
-#: ../../overview/overview.rst:10
+# 9757bf33bf134bcebcbc9c67d80b2b93
+#: ../../overview/overview.rst:11
 msgid "Адаптирован для использования в корпоративном и государственном секторах."
 msgstr "Adapted for corporate and government use."
 
-# 5e3d02adeee8435394454ef75e640957
-#: ../../overview/overview.rst:11
+# efb70e3ba8e34c1ca5cef275c9611cd2
+#: ../../overview/overview.rst:12
 msgid ""
 "Поддерживает два алгоритма консенсуса :ref:`PoS <pos-glossary>` и :ref:`PoA "
 "<poa-glossary>`: при развёртывании сети можно выбрать наиболее подходящий под "
@@ -74,13 +79,13 @@ msgstr ""
 "Supports algorithms of :ref:`PoS <pos-glossary>` and :ref:`PoA <poa-glossary>` "
 "consensus - you can choose the most fitting one during the network deployment."
 
-# 0089f93d0b8144b28a3aa7edcc30e496
-#: ../../overview/overview.rst:12
+# 2e0f593562514903a901ae959440b6f2
+#: ../../overview/overview.rst:13
 msgid "Обладает высокой пропускной способностью."
 msgstr "Ensures high throughput rate."
 
-# f9bbebe4c67b4a96b89348e569654950
-#: ../../overview/overview.rst:13
+# ff99c812944443f5893d304f4518f00b
+#: ../../overview/overview.rst:14
 msgid ""
 "Поддерживает два вида :ref:`смарт-контрактов <smart-contract-glossary>`, "
 "Тьюринг-неполные на RIDE и Тьюринг-полные на Docker."
@@ -88,18 +93,18 @@ msgstr ""
 "Supports two types of :ref:`smart contracts <smart-contract-glossary>`: Turing-"
 "incomplete RIDE contracts and Turing-complete Docker contracts."
 
-# 952a3c0256db49f2b481bd22ad327e9b
-#: ../../overview/overview.rst:14
+# 3d69dfb842e44ad893bbbca034a2fea6
+#: ../../overview/overview.rst:15
 msgid "Поставляется в виде набора микросервисов."
 msgstr "Delivered as a set of microservices."
 
-# 57a53070d47c4e85abb39fe7ddd21c51
-#: ../../overview/overview.rst:15
+# 3e77aac968f84f93bdec9d525ba5b072
+#: ../../overview/overview.rst:16
 msgid "Использует алгоритмы сертифицированной государственной криптографии."
 msgstr "Uses cryptographic algorithms certified by state regulators."
 
-# 6716c05871bd42cc9f63198290c2849e
-#: ../../overview/overview.rst:16
+# ab6c651e798e43b2bf0fceddf1b0e242
+#: ../../overview/overview.rst:17
 msgid ""
 "Позволяет отправлять конфиденциальные данные через блокчейн адресно при помощи "
 "групп доступа, без публикации данных в открытом доступе."
@@ -107,13 +112,13 @@ msgstr ""
 "Supports confidential and direct data exchange via private groups without "
 "loading data into external networks."
 
-# ed31a1bc65de40aabb8e15d6baeb25a3
-#: ../../overview/overview.rst:17
+# fc7ad159fe8c4bb4bd3e9291515bc5a6
+#: ../../overview/overview.rst:18
 msgid "Реализует на уровне консенсуса систему управления полномочиями."
 msgstr "Permission management system implemented at the consensus level."
 
-# f3b3aed4feeb465099eed345d5fa7d36
-#: ../../overview/overview.rst:18
+# 6c986c73049049bdbf09d7e2db2aef4b
+#: ../../overview/overview.rst:19
 msgid ""
 "Веб-клиент Vostok реализует следующие функции: просмотр :ref:`транзакций "
 "<transaction-glossary>`, кошелек, отправка всех типов транзакций, разработка "
@@ -124,33 +129,33 @@ msgstr ""
 "explorer, wallet, creation of transactions, smart contract development, "
 "blockchain status monitoring, permission management."
 
-# 2febdbd8207041bab696c2187b6dc8e3
-#: ../../overview/overview.rst:21
+# 784edcf2cffb4ce4844803bd70769bac
+#: ../../overview/overview.rst:22
 msgid "Варианты развертывания сети Vostok"
 msgstr "Vostok network deployment options"
 
-# a90a1d3ec4bb49168b7659bfd4b12e01
-#: ../../overview/overview.rst:23
+# 76fcf04463f244bb8a7046be78138145
+#: ../../overview/overview.rst:24
 msgid "Работа в основной публичной сети."
 msgstr "Operating in the main public network."
 
-# 2d4735d1f3e84ef7b022ad2dadf6f491
-#: ../../overview/overview.rst:24
+# dea445fa196a45a6b06e2e965c41c370
+#: ../../overview/overview.rst:25
 msgid "Работа в частной сети с анкорингом в основную сеть."
 msgstr "Operating in a private network anchored to the main network."
 
-# 5a8066f5466b4c0b9f51ea59b06c745e
-#: ../../overview/overview.rst:25
+# d3c3180c740445258f8b06947345b7af
+#: ../../overview/overview.rst:26
 msgid "Работа в независимой частной сети."
 msgstr "Operating in an independent private network."
 
-# 5782c2813efc4f0bb1ad9bb5af932dbc
-#: ../../overview/overview.rst:28
+# 6ae774263ad144e4b0628f949bd010c0
+#: ../../overview/overview.rst:29
 msgid "Основная сеть"
 msgstr "Main network"
 
-# 140c5b922ae24d06bb0f69a2d799bcbc
-#: ../../overview/overview.rst:30
+# b8618b8b428b48b9b81ffe28755a8858
+#: ../../overview/overview.rst:31
 msgid ""
 "Основная сеть поддерживается консорциумом крупных компаний из различных "
 "областей: банки, промышленность, девелопмент, логистика и т.д. Компании, "
@@ -166,13 +171,13 @@ msgstr ""
 "ref:`gateways <gateway-glossary>` and state registrars granting access to "
 "cloud GOST-cryptography."
 
-# 1ee5e5725eaa41c09c3e49e495828910
-#: ../../overview/overview.rst:35
+# fc92b2ff00c74a61bca809b6a8678b1d
+#: ../../overview/overview.rst:36
 msgid "Независимая частная сеть"
 msgstr "Independent private network"
 
-# 95f0b92f590943d8b943bdfcc0c69965
-#: ../../overview/overview.rst:37
+# 0f13f3b74b834fe6960b1a44aa5053c8
+#: ../../overview/overview.rst:38
 msgid ""
 "Коробочное решение Vostok позволяет развернуть собственную частную сеть для "
 "тех компаний, которые не готовы публично вести свои корпоративные процессы. "
@@ -182,38 +187,38 @@ msgstr ""
 "Vostok box version allows such companies to deploy a stand-alone private "
 "network and configure it in accordance to business needs."
 
-# dd3f609dfe484a1c89d281b9e4965810
-#: ../../overview/overview.rst:39
+# 170577d57a2248f6bee05bee3aa660a4
+#: ../../overview/overview.rst:40
 msgid "Основные конфигурируемые свойства решения:"
 msgstr "Following features are configurable:"
 
-# 5249d5ce95e4401f8b0b1f19cc3a1918
-#: ../../overview/overview.rst:41
+# bbf2a6c61ac94b0ea7bef09e046f45bf
+#: ../../overview/overview.rst:42
 msgid "Тип консенсуса."
 msgstr "Consensus type."
 
-# e7c71523f60a48f595d014b8c7eabe38
-#: ../../overview/overview.rst:42
+# 3478f2af01f54ea9aa041d4728237e6b
+#: ../../overview/overview.rst:43
 msgid "Криптография."
 msgstr "Cryptography provider."
 
-# edb3d7d58efe4a558416a615a57bf7ae
-#: ../../overview/overview.rst:43
+# 57bc157289b04d6b992c1956dc71225b
+#: ../../overview/overview.rst:44
 msgid "Число нод."
 msgstr "Number of nodes."
 
-# bfa58a11b011489a8e16556507943204
-#: ../../overview/overview.rst:44
+# 736fa5fca77745ffbb9089696f8eed76
+#: ../../overview/overview.rst:45
 msgid "Параметры работы блокчейна."
 msgstr "Blockchain operating parameters."
 
-# 34c009ec8fbf44ceb4c9eec9afe11c38
-#: ../../overview/overview.rst:48
+# d6339d626dd0431f88f15d66a6e9ca62
+#: ../../overview/overview.rst:49
 msgid "Частная сеть с публикацией хешей в основную сеть"
 msgstr "Private network with block hashes broadcasted to main network"
 
-# b6203c63f3ce43ab802031bae80c3a97
-#: ../../overview/overview.rst:50
+# b4fdf59b075e4bc591526de8c5c39439
+#: ../../overview/overview.rst:51
 msgid ""
 "Данное решение объединяет преимущества двух предыдущих вариантов и может быть "
 "актуально для небольших компаний и/или партнёров компаний, поддерживающих "
