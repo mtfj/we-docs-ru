@@ -163,17 +163,40 @@ footer div:not(.rst-footer-buttons), footer hr {
   display: none;
 }
 
+.rst-footer-buttons {
+  padding-top: 30px;
+  border-top: 2px solid #eeeeef;
+}
+
 .rst-footer-buttons .btn {
   box-shadow: none;
   border: 0;
   padding: 0;
+  position: relative;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
 }
 
 .btn-neutral {
   background-color: transparent !important;
 }
 
+.btn-neutral:hover {
+  background-color: transparent !important;
+}
+
 .fa.fa-arrow-circle-right:before, .fa.fa-arrow-circle-left:before {
   content: url("./img/pagination-arrow.svg");
+}
+
+.fa.fa-arrow-circle-right:before {
+  transform: rotate(180deg);
+}
+
+.fa.fa-arrow-circle-right:hover, .fa.fa-arrow-circle-left:hover {
+  background: transparent;
 }
 /* end footer */
