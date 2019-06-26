@@ -185,12 +185,25 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
   padding-left: 16px;
 }
 
-.admonition.hint, .admonition.important, .admonition.tip {
+.admonition.hint,
+.admonition.important,
+.admonition.tip {
   border-left: 16px solid #4ece3d;
 }
 
 .admonition.note {
   border-left: 16px solid #4ab0e0;
+}
+
+.admonition.attention,
+.admonition.caution,
+.admonition.warning {
+  border-left: 16px solid #f8b700;
+}
+
+.admonition.danger,
+.admonition.error {
+  border-left: 16px solid red;
 }
 
 .admonition p.first.admonition-title {
