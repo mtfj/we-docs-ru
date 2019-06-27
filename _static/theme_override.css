@@ -270,10 +270,6 @@ ul li a.reference.external, ul li a.reference.internal {
   color: #000000;
   background: transparent;
 }
-
-.highlight pre span.n {
-  color: rgb(255, 255, 255);
-}
 /* end content */
 
 /* footer */
