@@ -74,7 +74,7 @@ body {
   width: 300px;
   border-radius: 0;
   position: absolute;
-  top: 115px;
+  top: 165px;
   left: 0;
   border-color: rgba(255, 255, 255, 0.2);
   padding: 15px 20px;
@@ -159,7 +159,9 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
   line-height: 1.75;
 }
 
-.rst-content ul.simple > li {
+.rst-content ul.simple > li,
+.rst-content ul > li.toctree-l1,
+.rst-content ul > li.toctree-l2 {
   line-height: 2.25;
 }
 
