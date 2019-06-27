@@ -1,4 +1,22 @@
-﻿body {
+﻿@font-face {
+  font-family: "GraphikLC";
+  src: url("./fonts/Graphik-Regular-Web.woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GraphikLC";
+  src: url("./fonts/Graphik-Medium-Web.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "GraphikLC";
+  src: url("./fonts/Graphik-Bold-Web.woff2");
+  font-weight: bold;
+}
+
+body {
   font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -134,6 +152,15 @@ li.toctree-l4.current > a.reference.internal {
 /* content */
 h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
   font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+.rst-content p {
+  font-weight: normal;
+  line-height: 1.75;
+}
+
+.rst-content ul.simple > li {
+  line-height: 2.25;
 }
 
 .wy-nav-content {
