@@ -175,6 +175,11 @@ ul li a.reference.external, ul li a.reference.internal {
   width: 120%;
 }
 
+.rst-content .admonition-title:before {
+  content: "";
+  margin-right: 0 !important;
+}
+
 .admonition.hint,
 .admonition.important,
 .admonition.tip,
