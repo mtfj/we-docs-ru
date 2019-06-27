@@ -170,6 +170,10 @@ li.toctree-l4.current > a.reference.internal {
 .rst-content > div[role="navigation"] {
   display: none;
 }
+
+.wy-table-responsive thead {
+  background: rgba(8, 30, 88, 0.1);
+}
 /* end menu */
 
 /* content */
