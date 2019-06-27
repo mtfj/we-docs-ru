@@ -77,6 +77,8 @@
 2. Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
 
    .. warning:: Платформа Vostok поддерживает только версию ``2.0.39014``!
+   
+   .. hint:: При использовании Waves-криптографии устанавливать CryptoPro JCP необязательно.
 
 3. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_.
 

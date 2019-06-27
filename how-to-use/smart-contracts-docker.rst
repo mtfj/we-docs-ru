@@ -2,7 +2,7 @@
 =========================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Смарт-контракты Docker (Тьюринг полные)
 
    smart-contracts/docker/first-contract-tutorial

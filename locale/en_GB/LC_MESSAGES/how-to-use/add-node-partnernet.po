@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 10:52+0300\n"
-"PO-Revision-Date: 2019-06-18 10:52+0300\n"
+"POT-Creation-Date: 2019-06-27 16:52+0300\n"
+"PO-Revision-Date: 2019-06-27 17:26+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
@@ -55,18 +55,16 @@ msgid ""
 ":ref:`Сгенерируйте <generate-keys-pair>` ключевую пару для подключаемой ноды "
 "при помощи генератора. Для удобства рекомендуется создавать пару для одной "
 "ноды, укажите в конфигурационном файле ``accounts.conf`` количество 1 в поле "
-"``amount``. При создании ключевой пары введите пароль от адреса ноды "
-"(``VOSTOK_NODE_OWNER_PASSWORD``) и сохраните его для последующей "
-"конфигурации. Если не хотите устанавливать пароль от адреса ноды, нажмите "
-"``enter``."
+"``amount``. При создании ключевой пары введите пароль от адреса ноды и "
+"сохраните его для последующей конфигурации. Если не хотите устанавливать "
+"пароль от адреса ноды, нажмите ``enter``."
 msgstr ""
 ":ref:`Generate <generate-keys-pair>` a key pair for the connected node using "
 "the generator. For your convenience it is recommended to create one key pair "
 "for one node, please, specify the number of nodes 1 in the ``amount`` field "
-"of the ``accounts.conf`` configuration file. Enter the node address "
-"(``VOSTOK_NODE_OWNER_PASSWORD``) password during the key pair creation and "
-"keep it for the following steps. Press ``enter`` key if you do not want to "
-"use this password."
+"of the ``accounts.conf`` configuration file. Enter the node address password "
+"during the key pair creation and keep it for the following steps. Press "
+"``enter`` key if you do not want to use this password."
 
 # 5eb8a2cb7d8541c1a7f00b86cd7d8558
 #: ../../how-to-use/add-node-partnernet.rst:12
@@ -88,38 +86,20 @@ msgstr ""
 "specify the PostgreSQL DB address as a value of the ``url`` parameter of the "
 "``privacy {storage {}}`` block."
 
-# 0df3520bcdeb41baa883624e4913c81f
+# a1d04b4eef5343a4853209b6668cd025
 #: ../../how-to-use/add-node-partnernet.rst:13
-msgid "Создайте следующие глобальные переменные в вашей ОС:"
-msgstr "Create the following global variables inside your OS:"
-
-# f98b0c56178b4922ae08b2b2b1647ac7
-#: ../../how-to-use/add-node-partnernet.rst:15
 msgid ""
-"``VOSTOK_NODE_OWNER_PASSWORD`` - пароль от адреса ноды, который вводится на "
-"этапе создания ключевой пары."
+"Если не хотите вводить пароль от адреса ноды при её старте в ручном режиме, "
+"создайте :ref:`глобальные переменные <var-env>` "
+"``VOSTOK_NODE_OWNER_PASSWORD`` и ``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` в вашей "
+"ОС."
 msgstr ""
-"``VOSTOK_NODE_OWNER_PASSWORD`` - the node address password specified during "
-"the key pair creation."
-
-# 3c006cde378d4f7e9be6848815000ebb
-#: ../../how-to-use/add-node-partnernet.rst:16
-msgid ""
-"``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` - ``true`` или ``false``, установите "
-"значение ``true``, если не хотите устанавливать пароль на адрес ноды, в таком "
-"случае создавать переменную ``VOSTOK_NODE_OWNER_PASSWORD`` необходимости нет. "
-"Если вы используете пароль, установите значение ``false`` и пропишите в "
-"переменную ``VOSTOK_NODE_OWNER_PASSWORD`` пароль от адреса ноды."
-msgstr ""
-"``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` - ``true`` or ``false``, specify the "
-"``true`` value if you do not want to use the node address password, in this "
-"case it is not necessary to create the ``VOSTOK_NODE_OWNER_PASSWORD`` "
-"variable. When you are using the password than specify the ``false`` value "
-"and write into the ``VOSTOK_NODE_OWNER_PASSWORD`` variable the node address "
-"password."
+"If you do not want to enter the password each time when node is starting, "
+"create the ``VOSTOK_NODE_OWNER_PASSWORD``and "
+"``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` global variables in your OS."
 
 # 39b2008dfb3b4799a2421caf048e653d
-#: ../../how-to-use/add-node-partnernet.rst:18
+#: ../../how-to-use/add-node-partnernet.rst:14
 msgid ""
 "Отправьте на почту mailto://support@vostok.io запрос на выдачу прав и "
 "подключение к сети \"Vostok Partnernet\"."
@@ -128,8 +108,36 @@ msgstr ""
 "permissions request and for the \"Vostok Partnernet\" connection."
 
 # 91d777397d7d4949a0e9c86033f1b489
-#: ../../how-to-use/add-node-partnernet.rst:19
+#: ../../how-to-use/add-node-partnernet.rst:15
 msgid ""
 "После получения разрешения на подключение к сети \"Vostok Partnernet\" :ref:"
 "`запустите <node-start>` ноду."
 msgstr ":ref:`Run <node-start>` the node after getting the application approve."
+
+# 0df3520bcdeb41baa883624e4913c81f
+#~ msgid "Создайте следующие глобальные переменные в вашей ОС:"
+#~ msgstr "Create the following global variables inside your OS:"
+
+# f98b0c56178b4922ae08b2b2b1647ac7
+#~ msgid ""
+#~ "``VOSTOK_NODE_OWNER_PASSWORD`` - пароль от адреса ноды, который вводится "
+#~ "на этапе создания ключевой пары."
+#~ msgstr ""
+#~ "``VOSTOK_NODE_OWNER_PASSWORD`` - the node address password specified "
+#~ "during the key pair creation."
+
+# 3c006cde378d4f7e9be6848815000ebb
+#~ msgid ""
+#~ "``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` - ``true`` или ``false``, установите "
+#~ "значение ``true``, если не хотите устанавливать пароль на адрес ноды, в "
+#~ "таком случае создавать переменную ``VOSTOK_NODE_OWNER_PASSWORD`` "
+#~ "необходимости нет. Если вы используете пароль, установите значение "
+#~ "``false`` и пропишите в переменную ``VOSTOK_NODE_OWNER_PASSWORD`` пароль "
+#~ "от адреса ноды."
+#~ msgstr ""
+#~ "``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` - ``true`` or ``false``, specify the "
+#~ "``true`` value if you do not want to use the node address password, in "
+#~ "this case it is not necessary to create the ``VOSTOK_NODE_OWNER_PASSWORD`` "
+#~ "variable. When you are using the password than specify the ``false`` value "
+#~ "and write into the ``VOSTOK_NODE_OWNER_PASSWORD`` variable the node "
+#~ "address password."
