@@ -139,7 +139,7 @@ li.toctree-l4.current > a.reference.internal {
   color: rgba(255, 255, 255, 1) !important;
 }
 
-.wy-menu.wy-menu-vertical > ul {
+.wy-menu.wy-menu-vertical > ul:not(:last-child) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 32px;
 }
