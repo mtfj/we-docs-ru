@@ -44,6 +44,29 @@ body {
   color: white;
 }
 
+.doc-link {
+  display: flex;
+  padding-top: 30px;
+}
+
+.doc-link__label {
+  display: block;
+  width: 40px;
+  height: 24px;
+  background-color: #ff2615;
+  text-transform: uppercase;
+  line-height: 1.71;
+  letter-spacing: 0.18px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.doc-link .reference {
+  color: white;
+}
+
 .wy-nav-content {
   margin: 0;
   max-width: 1000px;
