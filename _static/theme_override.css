@@ -162,6 +162,9 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
   border-bottom: 4px solid rgba(8, 30, 88, 0.2);
 }
 
+ul li a.reference.external, ul li a.reference.internal {
+  border: none !important;
+}
 
 .highlight {
   background: #1e1e1e;
