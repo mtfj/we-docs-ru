@@ -46,7 +46,7 @@ body {
 
 .doc-link {
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
   padding-top: 30px;
 }
 
