@@ -204,6 +204,11 @@ ol.arabic.simple > li {
 .rst-content h1, h2, h3, h4 {
   font-weight: bold;
   color: #081e58;
+  margin-bottom: 12px !important;
+}
+
+.rst-content p {
+  margin-bottom: 32px !important;
 }
 
 .rst-content h1 {
