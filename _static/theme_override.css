@@ -145,7 +145,7 @@ p.caption {
   color: rgba(255, 255, 255, 1) !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
-  border-left: 4px solid #ff2615;
+  border-left: 4px solid #ff2615 !important;
   padding-left: 12px !important;
 }
 
@@ -291,30 +291,35 @@ footer div:not(.rst-footer-buttons), footer hr {
   border: 0;
   padding: 0;
   position: relative;
-  font-family: Montserrat;
   font-size: 13px;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
 }
 
-.btn-neutral {
+.btn.btn-neutral {
   background-color: transparent !important;
+  display: flex;
 }
 
 .btn-neutral:hover {
   background-color: transparent !important;
 }
 
-.fa.fa-arrow-circle-right:before, .fa.fa-arrow-circle-left:before {
-  content: url("./img/pagination-arrow.svg");
+.fa.fa-arrow-circle-left:before {
+  content: url("./img/back-doc.svg")
 }
 
 .fa.fa-arrow-circle-right:before {
-  transform: rotate(180deg);
+  content: url("./img/next-doc.svg");
 }
 
 .fa.fa-arrow-circle-right:hover, .fa.fa-arrow-circle-left:hover {
   background: transparent;
+}
+
+.fa.fa-arrow-circle-left {
+  padding-right: 16px;
+}
+
+.fa.fa-arrow-circle-right {
+  padding-left: 16px;
 }
 /* end footer */
