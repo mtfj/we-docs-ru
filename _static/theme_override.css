@@ -174,6 +174,10 @@ li.toctree-l4.current > a.reference.internal {
 .wy-table-responsive thead {
   background: rgba(8, 30, 88, 0.1);
 }
+
+.wy-menu-vertical p.caption {
+  margin-top: 32px;
+}
 /* end menu */
 
 /* content */
@@ -188,7 +192,8 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
 
 .rst-content ul.simple > li,
 .rst-content ul > li.toctree-l1,
-.rst-content ul > li.toctree-l2 {
+.rst-content ul > li.toctree-l2,
+ol.arabic.simple > li {
   line-height: 2.25;
 }
 
@@ -297,7 +302,7 @@ footer div:not(.rst-footer-buttons), footer hr {
 
 .btn.btn-neutral {
   background-color: transparent !important;
-  display: flex;
+  display: inline-flex;
 }
 
 .btn-neutral:hover {
@@ -314,6 +319,10 @@ footer div:not(.rst-footer-buttons), footer hr {
 
 .fa.fa-arrow-circle-right:hover, .fa.fa-arrow-circle-left:hover {
   background: transparent;
+}
+
+.fa.fa-arrow-circle-left, .fa.fa-arrow-circle-right {
+  padding-top: 1px;
 }
 
 .fa.fa-arrow-circle-left {
