@@ -21,6 +21,10 @@ body {
 }
 
 /* menu */
+.wy-nav-top {
+  background: #081e58;
+}
+
 .vst-logo a:before {
   content: url("./img/vostok-logo-docs.svg");
 }
