@@ -1,23 +1,22 @@
 {% extends "!layout.html" %}
 {% block sidebartitle %}
 {{ super() }}
-<br>
-
 <link rel="icon" href="_static/img/favicon.png" type="image/png">
 
-<div style="position: relative; top: -50px">
-    <a href="https://docs.vostok.io/">
-        <img style="height: unset; width: unset; border-radius: 0; padding: 0; margin: -26px 0px 0px 0px;" src="{{ pathto("_static/img/logo.png", 1) }}" width="288" height="56">    
-    </a>
+<div class="vst-logo">
+    <a href="https://docs.vostok.io/en/"></a>
 </div>
 
-<div style="position: relative; top: 40px; color: black;">
-<a class="lang" href="https://docs.vostok.io/">Russian</a> | 
-<a class="lang" href="https://docs.vostok.io/en/">English</a>
+<div class="vst-lang-switcher">
+    <a class="lang" href="https://docs.vostok.io/">Русский</a>
+    <span class="separator">|</span>
+    <a class="lang" href="https://docs.vostok.io/en/">English</a>
 </div>
-<div style="position: relative; top: 38px; color: blue;">
-<a class="pdf" href="https://docs.vostok.io/vostokdocs.pdf">pdf-ru</a>
-</div>>
+
+<div class="doc-link">
+    <a class="reference internal" href="https://docs.vostok.io/vostokdocs.pdf">Документация</a>
+    <span class="doc-link__label">.pdf</span>
+</div>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >

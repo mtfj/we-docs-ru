@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-28 18:01+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 02abe6990eac4af69ccb2e5a74522f94
+#: ../../how-to-setup/config-description.rst:5
+msgid "Описание параметров конфигурационного файла ноды"
+msgstr ""
+
+# ab8b6c4831bd47088a7fecfb37ba9685
+#: ../../how-to-setup/config-description.rst:7
+msgid ""
+"Конфигурационный файл ноды содержит основные настройки для работы "
+"блокчейна Vostok. В состав файла входят следующие секции:"
+msgstr ""
+
+# b9b8867f6553477098f4c69c20f7481e
+#: ../../how-to-setup/config-description.rst:9
+msgid "``vostok`` - общая секция, куда входят все секции настройки блокчейна."
+msgstr ""
+
+# fc44d6afad304fa49403197ce0c65eb5
+#: ../../how-to-setup/config-description.rst:10
+msgid "``blockchain`` - настройка основных параметров блокчейна."
+msgstr ""
+
+# e3b391e86c7a4a6686a262adde2f4496
+#: ../../how-to-setup/config-description.rst:11
+msgid "``network`` - сетевые настройки."
+msgstr ""
+
+# ba5bbb5dbcd4455591ad47425c21f72e
+#: ../../how-to-setup/config-description.rst:12
+msgid "``wallet`` - настройка доступа к закрытым ключам ноды."
+msgstr ""
+
+# 5651833d831f414bb25e160a649ad545
+#: ../../how-to-setup/config-description.rst:13
+msgid "``miner`` - настройка майнинга."
+msgstr ""
+
+# 71ff60deb5cc408c9f0f129b2ca0ce54
+#: ../../how-to-setup/config-description.rst:14
+msgid "``rest-api`` - настройка REST API."
+msgstr ""
+
+# 0f645a15e27a48029501e87208f24f77
+#: ../../how-to-setup/config-description.rst:15
+msgid "``synchronization`` - настройка синхронизации ноды с блокчейном."
+msgstr ""
+
+# e5a9c13a66834501bf78834b2b457a82
+#: ../../how-to-setup/config-description.rst:16
+msgid "``utx`` - настройка хранилища неавторизованных транзакций."
+msgstr ""
+
+# af51aed0c3d845dc883c97332490deba
+#: ../../how-to-setup/config-description.rst:17
+msgid "``features`` - настройка дополнительных параметров ноды."
+msgstr ""
+
+# ce90dd58b9c64471a52dbf7be921414b
+#: ../../how-to-setup/config-description.rst:18
+msgid ""
+"``transaction-rebroadcaster`` - настройка повторной отправки транзакций в"
+" блокчейн."
+msgstr ""
+
+# da154ead71ce4c519012dafe0e84137c
+#: ../../how-to-setup/config-description.rst:19
+msgid "``docker-engine`` - настройка Docker смарт-контрактов."
+msgstr ""
+
+# e271c606977242b586b7e60377c357a9
+#: ../../how-to-setup/config-description.rst:24
+msgid "Секция ``vostok``"
+msgstr ""
+
+# 1c68287f29c84a329478dfd915316469
+#: ../../how-to-setup/config-description.rst:26
+msgid ""
+"Секция ``vostok`` включает все остальные секции настроек блокчейна, а "
+"также следующие отдельные параметры:"
+msgstr ""
+
+# 74027555db6c4669b41c523c0095a6b1
+#: ../../how-to-setup/config-description.rst:28
+msgid ""
+"``waves-crypto`` - тип :ref:`шифрования <cryptography>` в блокчейне. "
+"Возможные значения: ``yes`` - выбор криптографии Waves, ``no`` - выбор "
+"ГОСТ-криптографии."
+msgstr ""
+
+# 0fbe80b4daa14eb9857fe3e8c0e6fdd4
+#: ../../how-to-setup/config-description.rst:29
+msgid ""
+"``directory`` - основная директория для хранения ПО ноды. В данном "
+"параметре указывается путь к директории в формате, приемлемом для текущей"
+" ОС."
+msgstr ""
+
+# 551bb54cc5c943b5876bdef20e38059e
+#: ../../how-to-setup/config-description.rst:30
+msgid ""
+"``data-directory`` - директория для хранения данных блокчейна в LevelDB: "
+"блоки, транзакции, стейт ноды. В данном параметре указывается путь к "
+"директории в формате, приемлемом для текущей ОС."
+msgstr ""
+
+# 595fabb0a5864b2fa1c3f61b5772a02c
+#: ../../how-to-setup/config-description.rst:31
+msgid ""
+"``leveldb-cache-size`` - ограничение размера кэш-памяти, используемой для"
+" валидации блоков. Значение параметра числовое. Низкое значение уменьшает"
+" загрузку памяти, более высокое значение вместе с потреблением памяти "
+"увеличивает производительность ноды. Значение ``0`` отключает "
+"кэширование."
+msgstr ""
+
+# de0dd578faa947e1880035d126a7a5d2
+#: ../../how-to-setup/config-description.rst:32
+msgid ""
+"``max-cache-size`` - максимальный объём кэш-памяти. Значение параметра "
+"числовое."
+msgstr ""
+
+# 3cc79364f770475babac202333528e96
+#: ../../how-to-setup/config-description.rst:33
+msgid "``max-rollback-depth`` - количество блоков, на которые можно"
+msgstr ""
+
+# 2eff9b4c0a7141a9b7abb231b5be61af
+#: ../../how-to-setup/config-description.rst:34
+msgid ""
+"``remember-blocks-interval-in-cache`` - количество запоминаемых блоков в "
+"кэш-памяти."
+msgstr ""
+
+# 1753b5ca1a754905a26d584614b62f2f
+#: ../../how-to-setup/config-description.rst:35
+msgid "``ntp-server`` - адрес NTP-сервера."
+msgstr ""
+
+# 11a1dc86af384867869b5c9af7c503dc
+#: ../../how-to-setup/config-description.rst:36
+msgid ""
+"``logging-level`` - уровень логирования работы ноды. Возможные значения: "
+"``DEBUG``, ``INFO``, ``WARN``, ``ERROR``, по умолчанию установлено "
+"значение ``INFO``."
+msgstr ""
+
+# bd545dcde9b24b529d7f14f22b5f6f3b
+#: ../../how-to-setup/config-description.rst:37
+msgid ""
+"``owner-address`` - адрес ноды, которая будет владельцем "
+"конфигурационного файла. Значение параметра строковое."
+msgstr ""
+
+# d4bb210d2e1b4b179424c91cb9cfdccc
+#: ../../how-to-setup/config-description.rst:38
+msgid "``matcher.enable`` -"
+msgstr ""
+
+# a9e4a85baa154c729cc8e68ac1e8fbf9
+#: ../../how-to-setup/config-description.rst:39
+msgid ""
+"``scheduler-service.enable`` - активация :ref:`анкоринга <anchoring>`. "
+"Формат значений: ``yes`` или ``no``."
+msgstr ""
+
+# cf90e984f77b4ff9a2995f69d06d68af
+#: ../../how-to-setup/config-description.rst:44
+msgid "Секция ``blockchain``"
+msgstr ""
+
+# 39f026b3cee14397ba4ef02832f75d27
+#: ../../how-to-setup/config-description.rst:46
+msgid ""
+"Секция отвечает за основные параметры блокчейна и включает в себя "
+"следующие параметры:"
+msgstr ""
+
+# 6e67b8347f36492f939a5b6db601a187
+#: ../../how-to-setup/config-description.rst:48
+msgid "``type`` - тип блокчейна. Возможные значения ``DEFAULT`` или ``CUSTOM``."
+msgstr ""
+
+# 6a6ddb21ab454d5db1808f8a978291dd
+#: ../../how-to-setup/config-description.rst:49
+msgid ""
+"``consensus.type`` - тип :ref:`консенсуса <consensus>` в блокчейне. "
+"Возможные значения ``PoS`` или ``PoA``."
+msgstr ""
+
+# ccb28366d5804b8c89d1b0f9d3918129
+#: ../../how-to-setup/config-description.rst:50
+msgid ""
+"``fee`` - список :ref:`комиссий <transaction-structure>` за транзакции в "
+"блокчейне."
+msgstr ""
+
+# 50b392a5e76446bea256e1f8427a3255
+#: ../../how-to-setup/config-description.rst:52
+msgid ""
+"При выборе типа блокчейна ``CUSTOM`` появляется дополнительная "
+"возможность на"
+msgstr ""
+
+# dceb36b166ee4125bc40b6374f216008
+#: ../../how-to-setup/config-description.rst:54
+msgid "address-scheme-character"
+msgstr ""
+
+# 03d212e12d96453bae252f5d0ac1adfb
+#: ../../how-to-setup/config-description.rst:55
+msgid "functionality"
+msgstr ""
+
+# 36b74627ad2c41efb98c71432a6f35e5
+#: ../../how-to-setup/config-description.rst:56
+msgid "genesis"
+msgstr ""
+
