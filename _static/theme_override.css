@@ -237,7 +237,7 @@ ul li a.reference.external, ul li a.reference.internal {
 }
 
 .highlight {
-  background: #1e1e1e;
+  background: rgba(8, 30, 88, 0.05);
 }
 
 
