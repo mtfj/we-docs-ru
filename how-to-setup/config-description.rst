@@ -114,7 +114,7 @@
 Секция логирования входящих и исходящих сообщений.
 
 * ``ignore-tx-messages`` - 
-* ``ignore-rx-messages``
+* ``ignore-rx-messages`` - 
 
 
 
