@@ -54,14 +54,14 @@
 * ``functionality`` - настройка основных параметров блокчейна.
 * ``genesis`` - настройка параметров генезис-блока.
 
-**Секция ``functionality``**
+**Секция** ``functionality``
 
 * ``feature-check-blocks-period`` - количество блоков, через которые выполняется проверка и активация опций блокчейна. Значение параметра числовое.
 * ``blocks-for-feature-activation`` - количество блоков, через которые применяется активированная опция. Значение параметра числовое.
 * ``pre-activated-features`` - 
 * ``double-features-periods-after-height`` - 
 
-**Секция ``genesis``**
+**Секция** ``genesis``
 
 * ``average-block-delay`` - средняя задержка создания блоков. Значение указывается в секундах.
 * ``initial-base-target`` - 
@@ -86,20 +86,36 @@
 * ``known-peers`` - список известных сетевых адресов нод. Значение параметра - массив.
 * ``declared-address`` - сетевой адрес ноды вместе с номером порта. Значение параметра строковое.
 * ``peers-data-residence-time`` - период хранения информации о пирах в БД с момента последнего контакта с ними.
-* ``black-list-residence-time`` - 
-* ``break-idle-connections-timeout``
-* ``max-inbound-connections``
-* ``max-outbound-connections``
-* ``max-single-host-connections``
-* ``tx-buffer-size``
-* ``connection-timeout``
-* ``max-unverified-peers``
-* ``enable-peers-exchange``
-* ``enable-blacklisting``
-* ``peers-broadcast-interval``
-* ``handshake-timeout``
-* ``suspension-residence-time``
-* ``received-txs-cache-timeout``
+* ``black-list-residence-time`` - период бана пира, на который он должен оставаться в чёрном списке после бана.
+* ``break-idle-connections-timeout`` - период, за который при отсутствии сообщений от пира прерывается соединение с ним.
+* ``max-inbound-connections`` - максимальное количество соединений с внутренними сетями.
+* ``max-outbound-connections`` - максимальное количество соединений с внешними сетями.
+* ``max-single-host-connections`` - максимальное количество соединений с отдельными хостами.
+* ``tx-buffer-size`` - максимальный размер буфера для транзакций.
+* ``connection-timeout`` - таймаут соединения с другими пирами.
+* ``max-unverified-peers`` - максимальное количество непроверенных пиров.
+* ``enable-peers-exchange`` - активация опции обмена информацией об известных пирах.
+* ``enable-blacklisting`` - активация возможности бана пиров и создания чёрного списка.
+* ``peers-broadcast-interval`` - интервал отправки в сеть списка известных пиров.
+* ``handshake-timeout`` - таймаут для процедуры handshake.
+* ``suspension-residence-time`` - 
+* ``received-txs-cache-timeout`` - таймаут, за который удаляются из кэш-памяти транзакции с истёкшим сроком. 
+
+**Секция** ``upnp``
+
+Секция для настройки UPnP, используемой для работы блокчейна в домашней сети с применением роутеров или маршрутизаторов. Если ваш блокчейн работает в облаке, данную настройку рекомендуется не применять и установить значение ``enable = no``.
+
+* ``enable`` - активация использования UPnP.
+* ``gateway-timeout`` - таймаут соединения со шлюзом.
+* ``discover-timeout`` - таймаут обнаружения.
+
+**Секция** ``traffic-logger``
+
+Секция логирования входящих и исходящих сообщений.
+
+* ``ignore-tx-messages`` - 
+* ``ignore-rx-messages``
+
 
 
 
