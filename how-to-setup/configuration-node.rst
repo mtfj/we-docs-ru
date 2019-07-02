@@ -78,7 +78,7 @@
 
 Отредактируйте шаблон конфигурационного файла в соответствии со следующими рекомендациями:
 
-#. Укажите тип используемой криптографии (см. раздел :ref:`Криптография <cryptography>`):
+1. Укажите тип используемой криптографии (см. раздел :ref:`Криптография <cryptography>`):
 
     ::
 
@@ -94,27 +94,27 @@
   После выполнения утилиты в папке, определенной параметром ``wallet``, будут сохранены закрытые ключи участников, а на экране отобразятся адреса и открытые ключи в виде строк:
   ``[main] accounts-generator - Address: 3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; public key: 6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``
 
-#. Укажите байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf). Байт сети для "Vostok Mainnet" - ``V``, для "Vostok Partnernet" - ``P``.
+2. Укажите байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf). Байт сети для "Vostok Mainnet" - ``V``, для "Vostok Partnernet" - ``P``.
   
     ::
 
       address-scheme-character: "V"
 
-#. Укажите общий баланс активов сети:
+3. Укажите общий баланс активов сети:
   
     ::
 
       genesis {
         initial-balance: 100000000000
   
-#. Укажите :ref:`адреса участников <address-creation>` – владельцев начального баланса сети:
+4. Укажите :ref:`адреса участников <address-creation>` – владельцев начального баланса сети:
 
     ::
    
       transactions = [
       {recipient: "3P9nhmAEec4bDKsmLEZy2raimNJTVqedu43", amount: 100000000000} ]
 
-#. Укажите :ref:`публичные ключи участников сети <address-creation>` в блоке ``network-participants`` в том же порядке, как были указаны адреса участников:
+5. Укажите :ref:`публичные ключи участников сети <address-creation>` в блоке ``network-participants`` в том же порядке, как были указаны адреса участников:
 
     ::
 
@@ -124,7 +124,7 @@
         {  public-key: "HaL7GYu5hKwkc64PGcByi2Hoe2VH2Uf2ueoD75rsf7SF", roles: [miner, contract_developer] }
       ]
 
-#. Укажите владельца ноды в параметре ``owner-address``:
+6. Укажите владельца ноды в параметре ``owner-address``:
 
     ::
       
@@ -134,7 +134,7 @@
 
 .. _configuration-network:
 
-#. Укажите сетевые параметры настраиваемой ноды:
+7. Укажите сетевые параметры настраиваемой ноды:
 
     ::
 
@@ -144,8 +144,7 @@
         # Port number
         port = 6864
 
-
-#. Укажите сетевые адреса (hostname) нод, которые будут подключены к сети:
+8. Укажите сетевые адреса (hostname) нод, которые будут подключены к сети:
   
     ::
 
@@ -155,7 +154,7 @@
   
   | В случае, если адреса дополнительных узлов сети не определены, допустимо указать пустое значение ``known-peers = [ ]``
 
-#. Укажите путь и пароль от keystore - места хранения закрытых ключей участников сети, созданных на ноде (параметры ``wallet``, ``wallet-password`` в accounts.conf). Для криптографии Waves указывается путь до файла ``keystore.dat`` (пример, ``${user.home}/vostok/keystore.dat``), для ГОСТ-криптографии - путь до директории (``${user.home}/vostok/keystore/``):
+9. Укажите путь и пароль от keystore - места хранения закрытых ключей участников сети, созданных на ноде (параметры ``wallet``, ``wallet-password`` в accounts.conf). Для криптографии Waves указывается путь до файла ``keystore.dat`` (пример, ``${user.home}/vostok/keystore.dat``), для ГОСТ-криптографии - путь до директории (``${user.home}/vostok/keystore/``):
 
     ::
 
@@ -166,7 +165,7 @@
 
 .. _configuration-rest-api:
 
-#. Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды, а также хеш для доступа к методам :ref:`privacy <privacy-api>`: ``POST /privacy/sendData``, ``GET /privacy/getData/{policy-item-hash}`` и ``GET /privacy/getInfo/{policy-item-hash}``:
+10. Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды, а также хеш для доступа к методам :ref:`privacy <privacy-api>`: ``POST /privacy/sendData``, ``GET /privacy/getData/{policy-item-hash}`` и ``GET /privacy/getInfo/{policy-item-hash}``:
 
     ::
  

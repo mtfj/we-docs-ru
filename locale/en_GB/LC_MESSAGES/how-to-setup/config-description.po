@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 18:01+0300\n"
+"POT-Creation-Date: 2019-07-01 16:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,68 +171,301 @@ msgid ""
 "конфигурационного файла. Значение параметра строковое."
 msgstr ""
 
-# d4bb210d2e1b4b179424c91cb9cfdccc
-#: ../../how-to-setup/config-description.rst:38
-msgid "``matcher.enable`` -"
-msgstr ""
-
 # a9e4a85baa154c729cc8e68ac1e8fbf9
-#: ../../how-to-setup/config-description.rst:39
+#: ../../how-to-setup/config-description.rst:38
 msgid ""
 "``scheduler-service.enable`` - активация :ref:`анкоринга <anchoring>`. "
 "Формат значений: ``yes`` или ``no``."
 msgstr ""
 
 # cf90e984f77b4ff9a2995f69d06d68af
-#: ../../how-to-setup/config-description.rst:44
+#: ../../how-to-setup/config-description.rst:43
 msgid "Секция ``blockchain``"
 msgstr ""
 
 # 39f026b3cee14397ba4ef02832f75d27
-#: ../../how-to-setup/config-description.rst:46
+#: ../../how-to-setup/config-description.rst:45
 msgid ""
 "Секция отвечает за основные параметры блокчейна и включает в себя "
 "следующие параметры:"
 msgstr ""
 
 # 6e67b8347f36492f939a5b6db601a187
-#: ../../how-to-setup/config-description.rst:48
+#: ../../how-to-setup/config-description.rst:47
 msgid "``type`` - тип блокчейна. Возможные значения ``DEFAULT`` или ``CUSTOM``."
 msgstr ""
 
 # 6a6ddb21ab454d5db1808f8a978291dd
-#: ../../how-to-setup/config-description.rst:49
+#: ../../how-to-setup/config-description.rst:48
 msgid ""
 "``consensus.type`` - тип :ref:`консенсуса <consensus>` в блокчейне. "
 "Возможные значения ``PoS`` или ``PoA``."
 msgstr ""
 
 # ccb28366d5804b8c89d1b0f9d3918129
-#: ../../how-to-setup/config-description.rst:50
+#: ../../how-to-setup/config-description.rst:49
 msgid ""
 "``fee`` - список :ref:`комиссий <transaction-structure>` за транзакции в "
 "блокчейне."
 msgstr ""
 
 # 50b392a5e76446bea256e1f8427a3255
-#: ../../how-to-setup/config-description.rst:52
+#: ../../how-to-setup/config-description.rst:51
 msgid ""
 "При выборе типа блокчейна ``CUSTOM`` появляется дополнительная "
 "возможность на"
 msgstr ""
 
-# dceb36b166ee4125bc40b6374f216008
-#: ../../how-to-setup/config-description.rst:54
-msgid "address-scheme-character"
+# 49a9fc1866f647988f57b3f55cf82293
+#: ../../how-to-setup/config-description.rst:53
+msgid ""
+"``address-scheme-character`` - байт сети, для \"Vostok Mainnet\" - ``V``,"
+" для \"Vostok Partnernet\" - ``P``."
 msgstr ""
+
+# 4b03d5cf40aa4c66b9527758c4de5f59
+#: ../../how-to-setup/config-description.rst:54
+msgid "``functionality`` - настройка основных параметров блокчейна."
+msgstr ""
+
+# 7cde02aa69494bc4b42e61013100283f
+#: ../../how-to-setup/config-description.rst:55
+msgid "``genesis`` - настройка параметров генезис-блока."
+msgstr ""
+
+# 23018e2995aa4d288248817cc1fc0ec3
+#: ../../how-to-setup/config-description.rst:57
+msgid "**Секция ``functionality``**"
+msgstr ""
+
+# 19b7ad5b8f36429f9be75ed21f339fc0
+#: ../../how-to-setup/config-description.rst:59
+msgid ""
+"``feature-check-blocks-period`` - количество блоков, через которые "
+"выполняется проверка и активация опций блокчейна. Значение параметра "
+"числовое."
+msgstr ""
+
+# e48161f2c19a4ca99779d2539295839d
+#: ../../how-to-setup/config-description.rst:60
+msgid ""
+"``blocks-for-feature-activation`` - количество блоков, через которые "
+"применяется активированная опция. Значение параметра числовое."
+msgstr ""
+
+# aab64ddaf79d479c8505d66ab94733de
+#: ../../how-to-setup/config-description.rst:61
+msgid "``pre-activated-features`` -"
+msgstr ""
+
+# 91fa33dac3274342ab28d56c5592f85c
+#: ../../how-to-setup/config-description.rst:62
+msgid "``double-features-periods-after-height`` -"
+msgstr ""
+
+# cf90e984f77b4ff9a2995f69d06d68af
+#: ../../how-to-setup/config-description.rst:64
+msgid "**Секция ``genesis``**"
+msgstr ""
+
+# d144e5e46e414adfba6a69711e4346d9
+#: ../../how-to-setup/config-description.rst:66
+msgid ""
+"``average-block-delay`` - средняя задержка создания блоков. Значение "
+"указывается в секундах."
+msgstr ""
+
+# e7288495d58746c6bab75327351c0581
+#: ../../how-to-setup/config-description.rst:67
+msgid "``initial-base-target`` -"
+msgstr ""
+
+# fb1bb32efd7144ee9cc951d197d26fce
+#: ../../how-to-setup/config-description.rst:68
+msgid "``timestamp`` - числовой код даты и времени. Значение параметра числовое."
+msgstr ""
+
+# d677a80ef40c44c6ae77059882d95a43
+#: ../../how-to-setup/config-description.rst:69
+msgid "``block-timestamp`` -"
+msgstr ""
+
+# 70523afdddc9410aa92f3e025f717c44
+#: ../../how-to-setup/config-description.rst:70
+msgid "``initial-balance`` - начальный баланс сети. Значение параметра числовое."
+msgstr ""
+
+# 9cb676dced1745c48335e69473590bae
+#: ../../how-to-setup/config-description.rst:71
+msgid ""
+"``genesis-public-key-base-58`` - хеш публичного ключа генезис-блока, "
+"зашифрованный в Base58. Значение параметра строковое."
+msgstr ""
+
+# 5ba449fd875245548d83646ab22c32c1
+#: ../../how-to-setup/config-description.rst:72
+msgid "``signature`` - хеш подписи генезис-блока. Значение параметра строковое."
+msgstr ""
+
+# d2be99dc568a408e9e1385efcf3cf9dd
+#: ../../how-to-setup/config-description.rst:73
+msgid ""
+"``transactions`` - список участников сети с первоначальным балансом, "
+"создание которых войдёт в генезис-блок в виде генезис-транзакций. "
+"Значение параметра - массив."
+msgstr ""
+
+# 78ab21fe09244920bc9c2bb34ede2ec9
+#: ../../how-to-setup/config-description.rst:74
+msgid ""
+"``network-participants`` - список сетевых участников с ролями, создание "
+"которых войдёт в генезис-блок в виде генезис-транзакций. Значение "
+"параметра - массив."
+msgstr ""
+
+# cf90e984f77b4ff9a2995f69d06d68af
+#: ../../how-to-setup/config-description.rst:77
+msgid "Секция ``network``"
+msgstr ""
+
+# 39f026b3cee14397ba4ef02832f75d27
+#: ../../how-to-setup/config-description.rst:79
+msgid "Секция содержит сетевые настройки и включает в себя следующие параметры:"
+msgstr ""
+
+# 9d55891a176d4819b2dfd4d2bcbf75ae
+#: ../../how-to-setup/config-description.rst:81
+msgid ""
+"``file`` - путь к файлу с адресами известных участников сети и "
+"участников, доступ в сеть которым запрещён (blacklist). В данном "
+"параметре указывается путь к директории в формате, приемлемом для текущей"
+" ОС."
+msgstr ""
+
+# a85446b0068545128009f2906f9530b3
+#: ../../how-to-setup/config-description.rst:82
+msgid "``bind-address`` - сетевой адрес ноды. Значение параметра строковое."
+msgstr ""
+
+# 5a38b39e26324e7a90ddd932e31e7750
+#: ../../how-to-setup/config-description.rst:83
+msgid "``port`` - номер порта. Значение параметра числовое."
+msgstr ""
+
+# 8ccc466eed1c4153a9298316122d3ef8
+#: ../../how-to-setup/config-description.rst:84
+msgid "``node-name`` - имя ноды для отправки во время процедуры handshake."
+msgstr ""
+
+# d4bb210d2e1b4b179424c91cb9cfdccc
+#: ../../how-to-setup/config-description.rst:85
+msgid "``nonce`` -"
+msgstr ""
+
+# 6474286b99d6429da0aae939e843f384
+#: ../../how-to-setup/config-description.rst:86
+msgid ""
+"``known-peers`` - список известных сетевых адресов нод. Значение "
+"параметра - массив."
+msgstr ""
+
+# 9e058f4bda104e0db50321b2c6cb8bb8
+#: ../../how-to-setup/config-description.rst:87
+msgid ""
+"``declared-address`` - сетевой адрес ноды вместе с номером порта. "
+"Значение параметра строковое."
+msgstr ""
+
+# 0e525da4fa5247f28da645e0a8e3fa75
+#: ../../how-to-setup/config-description.rst:88
+msgid ""
+"``peers-data-residence-time`` - период хранения информации о пирах в БД с"
+" момента последнего контакта с ними."
+msgstr ""
+
+# e0e549bf35124938a541ca39e8b4da96
+#: ../../how-to-setup/config-description.rst:89
+msgid "``black-list-residence-time`` -"
+msgstr ""
+
+# e8762f92fb9f441ca4208621bb73604a
+#: ../../how-to-setup/config-description.rst:90
+msgid "``break-idle-connections-timeout``"
+msgstr ""
+
+# 498a6bae8c2d4ae0b204feaf4de16cc9
+#: ../../how-to-setup/config-description.rst:91
+msgid "``max-inbound-connections``"
+msgstr ""
+
+# f666b0eb068e425cbc5bc34dbe9fbb1e
+#: ../../how-to-setup/config-description.rst:92
+msgid "``max-outbound-connections``"
+msgstr ""
+
+# eaa13a431e0c4468874a3536e64db04c
+#: ../../how-to-setup/config-description.rst:93
+msgid "``max-single-host-connections``"
+msgstr ""
+
+# dfd07b0ebedd4c688fb1f2d38c167864
+#: ../../how-to-setup/config-description.rst:94
+msgid "``tx-buffer-size``"
+msgstr ""
+
+# 3961bfa8f9ff4d64aa622bf42a4e9e7c
+#: ../../how-to-setup/config-description.rst:95
+msgid "``connection-timeout``"
+msgstr ""
+
+# 0cb31d771c1b409f95b9cc9bd8645dff
+#: ../../how-to-setup/config-description.rst:96
+msgid "``max-unverified-peers``"
+msgstr ""
+
+# 65da0340aba64f878ccd482eba050e93
+#: ../../how-to-setup/config-description.rst:97
+msgid "``enable-peers-exchange``"
+msgstr ""
+
+# 2bc88bd2a30a4b1983cee79fb157ec40
+#: ../../how-to-setup/config-description.rst:98
+msgid "``enable-blacklisting``"
+msgstr ""
+
+# d9aebf79b29f47c39c14a8b107d95cb9
+#: ../../how-to-setup/config-description.rst:99
+msgid "``peers-broadcast-interval``"
+msgstr ""
+
+# 2a44f4af74ee45cda05fe99d475c1f05
+#: ../../how-to-setup/config-description.rst:100
+msgid "``handshake-timeout``"
+msgstr ""
+
+# 89abdd98844b4704860df34df9ea8667
+#: ../../how-to-setup/config-description.rst:101
+msgid "``suspension-residence-time``"
+msgstr ""
+
+# 29b0aab841de420285a51d699ecdb2c6
+#: ../../how-to-setup/config-description.rst:102
+msgid "``received-txs-cache-timeout``"
+msgstr ""
+
+# d4bb210d2e1b4b179424c91cb9cfdccc
+#~ msgid "``matcher.enable`` -"
+#~ msgstr ""
+
+# dceb36b166ee4125bc40b6374f216008
+#~ msgid "address-scheme-character"
+#~ msgstr ""
 
 # 03d212e12d96453bae252f5d0ac1adfb
-#: ../../how-to-setup/config-description.rst:55
-msgid "functionality"
-msgstr ""
+#~ msgid "functionality"
+#~ msgstr ""
 
 # 36b74627ad2c41efb98c71432a6f35e5
-#: ../../how-to-setup/config-description.rst:56
-msgid "genesis"
-msgstr ""
+#~ msgid "genesis"
+#~ msgstr ""
 
