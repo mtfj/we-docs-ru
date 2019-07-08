@@ -38,42 +38,44 @@ msgstr ""
 msgid ""
 ":ref:`vostok <vostok-sect-conf>` - общая секция, куда входят все секции "
 "настройки блокчейна."
-msgstr ""
+msgstr ":ref:`vostok <vostok-sect-conf>` - general section, which includes all "
+"sections of blockchain settings."
 
 # fc44d6afad304fa49403197ce0c65eb5
 #: ../../how-to-setup/config-description.rst:10
 msgid ""
 ":ref:`blockchain <blockchain-sect-conf>` - настройка основных параметров "
 "блокчейна."
-msgstr ""
+msgstr ":ref:`blockchain <blockchain-sect-conf>` - common blockchain settings."
 
 # a9a733f6724541298f20575ff32efd3b
 #: ../../how-to-setup/config-description.rst:11
 msgid ":ref:`network <network-sect-conf>` - сетевые настройки."
-msgstr ""
+msgstr ":ref:`network <network-sect-conf>` - network settings."
 
 # ba5bbb5dbcd4455591ad47425c21f72e
 #: ../../how-to-setup/config-description.rst:12
 msgid ""
 ":ref:`wallet <wallet-sect-conf>` - настройка доступа к закрытым ключам ноды."
-msgstr ""
+msgstr ":ref:`wallet <wallet-sect-conf>` - settings of the private keys access."
 
 # aab7021ff7a8407eaf2bf83b76058e12
 #: ../../how-to-setup/config-description.rst:13
 msgid ":ref:`miner <miner-sect-conf>` - настройка майнинга."
-msgstr ""
+msgstr ":ref:`miner <miner-sect-conf>` - mining settings."
 
 # cc3c11cac2624937be8a434d59a485f9
 #: ../../how-to-setup/config-description.rst:14
 msgid ":ref:`rest-api <restapi-sect-conf>` - настройка REST API."
-msgstr ""
+msgstr ":ref:`rest-api <restapi-sect-conf>` - REST API settings."
 
 # 0f645a15e27a48029501e87208f24f77
 #: ../../how-to-setup/config-description.rst:15
 msgid ""
 ":ref:`synchronization <synchronization-sect-conf>` - настройка синхронизации "
 "ноды с блокчейном."
-msgstr ""
+msgstr ":ref:`synchronization <synchronization-sect-conf>` - settings of the node "
+"synchonization with the blockchain."
 
 # e5a9c13a66834501bf78834b2b457a82
 #: ../../how-to-setup/config-description.rst:16
