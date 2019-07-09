@@ -81,7 +81,7 @@ msgstr ":ref:`synchronization <synchronization-sect-conf>` - settings of the nod
 #: ../../how-to-setup/config-description.rst:16
 msgid ""
 ":ref:`utx <utx-sect-conf>` - настройка хранилища неавторизованных транзакций."
-msgstr ""
+msgstr ":ref:`utx <utx-sect-conf>` - unverified transactions pool settings."
 
 # af51aed0c3d845dc883c97332490deba
 #: ../../how-to-setup/config-description.rst:17
