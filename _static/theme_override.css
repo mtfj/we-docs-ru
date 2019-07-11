@@ -207,6 +207,19 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
 .rst-content p {
   font-weight: normal;
   line-height: 1.75;
+  margin-bottom: 32px !important;
+}
+
+.admonition {
+  padding: 10px 10px 10px 16px !important;
+}
+
+.admonition > p {
+  margin: 0 !important;
+}
+
+.admonition > p.admonition-title {
+  padding: 0 0 14px 0 !important;
 }
 
 .rst-content ul.simple > li,
@@ -224,10 +237,6 @@ ol.arabic.simple > li {
   font-weight: bold;
   color: #081e58;
   margin-bottom: 12px !important;
-}
-
-.rst-content p {
-  margin-bottom: 32px !important;
 }
 
 .rst-content h1 {
