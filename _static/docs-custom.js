@@ -8,21 +8,19 @@ function setDocLink() {
 }
 
 function setLangSwitcherLink() {
-    if (window.location.href.indexOf('/en/') !== -1) {
-        var href = '';
+    var ruToggle = document.getElementById('lang-ru');
+    var enToggle = document.getElementById('lang-en');
+    var ruHref = '';
+    var enHref = '';
+    if (window.location.href.indexOf('/en/') === -1) {
+        ruHref = window.location.href.replace('/en', '');
         if (window.location.pathname !== '/') {
-            href = window.location.href.replace(window.location.pathname, 'en' + window.location.pathname);
+            enHref = window.location.href.replace(window.location.pathname, '/en' + window.location.pathname);
         } else {
-            href = window.location.href + 'en/';
+            enHref = window.location.href + 'en/';
         }
-        document.getElementById('lang-ru')
-            .setAttribute(
-                "href",
-                href
-            );
-    } else {
-        document.getElementById('lang-en')
-            .setAttribute("href", window.location.href.replace('/en', ''));
+        enToggle.setAttribute("href", enHref);
+        ruToggle.setAttribute("href", ruHref);
     }
 }
 
