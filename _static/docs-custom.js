@@ -8,11 +8,17 @@ function setDocLink() {
 }
 
 function setLangSwitcherLink() {
-    if (window.location.href.indexOf('/en/') === -1) {
+    if (window.location.href.indexOf('/en/') !== -1) {
+        var href = '';
+        if (window.location.pathname !== '/') {
+            href = window.location.href.replace(window.location.pathname, 'en' + window.location.pathname);
+        } else {
+            href = window.location.href + 'en/';
+        }
         document.getElementById('lang-ru')
             .setAttribute(
                 "href",
-                window.location.origin + '/en' + window.location.pathname + window.location.hash
+                href
             );
     } else {
         document.getElementById('lang-en')
