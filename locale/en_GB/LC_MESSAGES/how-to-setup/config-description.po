@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-04 17:26+0300\n"
-"PO-Revision-Date: 2019-07-12 14:50+0300\n"
+"PO-Revision-Date: 2019-07-12 17:51+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -135,7 +135,11 @@ msgid ""
 "временного периода или объёма памяти. В таком виде, как правило, указываются "
 "временные периоды в днях, часах или секундах, или объём кэш-памяти, например, "
 "``leveldb-cache-size = 256M`` или ``connection-timeout = 30s``."
-msgstr "Integer data with "
+msgstr ""
+"Integer data including measuring units to specify the time periods or memory "
+"volume. You typically specify the time periods in days, hours, or seconds, or "
+"the cache memory volume, for example, ``leveldb-cache-size = 256M`` or "
+"``connection-timeout = 30s``."
 
 # 4d7e41e9667e4804890c0f12cb19d611
 #: ../../how-to-setup/config-description.rst:26
@@ -144,6 +148,9 @@ msgid ""
 "паролям и т.д. Путь к директории указывается в формате, приемлемом для текущей "
 "ОС. Значение указывается в кавычках."
 msgstr ""
+"String which used to specify the addresses, directory paths, passwords and so "
+"on. The directory path is specifying in the acceptable format of your current OS "
+"and the value is quoted."
 
 # 48de20effc8648ba922002d40dda356c
 #: ../../how-to-setup/config-description.rst:27
@@ -151,17 +158,19 @@ msgid ""
 "Массив, используемый для указания списков значений, например, адресов или "
 "публичных ключей. Значение указывается в квадратных скобках через запятую."
 msgstr ""
+"Array for the list of values like addresses or public keys. The value is "
+"specified in square brackets separated by commas."
 
 # efe0a6b278674d6381070109c59bc339
 #: ../../how-to-setup/config-description.rst:28
 msgid ""
 "Логический тип ``no`` или ``yes``, используемый для активации различных опций."
-msgstr ""
+msgstr "Boolean ``no`` or ``yes`` which used for option activation."
 
 # e271c606977242b586b7e60377c357a9
 #: ../../how-to-setup/config-description.rst:33
 msgid "Секция ``vostok``"
-msgstr ""
+msgstr "``vostok`` section"
 
 # 1c68287f29c84a329478dfd915316469
 #: ../../how-to-setup/config-description.rst:35
@@ -169,6 +178,8 @@ msgid ""
 "Секция ``vostok`` включает все остальные секции настроек блокчейна, а также "
 "следующие отдельные параметры:"
 msgstr ""
+"The ``vostok`` section includes all other sections of blockchain settings, as "
+"well as the following individual parameters:"
 
 # 74027555db6c4669b41c523c0095a6b1
 #: ../../how-to-setup/config-description.rst:37
@@ -176,11 +187,13 @@ msgid ""
 "``waves-crypto`` - тип :ref:`шифрования <cryptography>` в блокчейне. Возможные "
 "значения: ``yes`` - выбор криптографии Waves, ``no`` - выбор ГОСТ-криптографии."
 msgstr ""
+"``waves-crypto`` - :ref:`cryptography <cryptography>` type in the blockchain. "
+"Possible values: ``yes`` - Waves cryptography, ``no`` - GOST cryptography."
 
 # 0fbe80b4daa14eb9857fe3e8c0e6fdd4
 #: ../../how-to-setup/config-description.rst:38
 msgid "``directory`` - основная директория для хранения ПО ноды."
-msgstr ""
+msgstr "``directory`` - the main directory for the storage of the node software."
 
 # 551bb54cc5c943b5876bdef20e38059e
 #: ../../how-to-setup/config-description.rst:39
@@ -188,38 +201,45 @@ msgid ""
 "``data-directory`` - директория для хранения данных блокчейна в LevelDB: блоки, "
 "транзакции, стейт ноды."
 msgstr ""
+"``data-directory`` - the directory for the blockchain data storage in the "
+"LevelDB: blocks, transactions, node state."
 
 # 595fabb0a5864b2fa1c3f61b5772a02c
 #: ../../how-to-setup/config-description.rst:40
 msgid ""
 "``leveldb-cache-size`` - ограничение размера кэш-памяти, используемой для "
-"валидации блоков.Низкое значение уменьшает загрузку памяти, более высокое "
+"валидации блоков. Низкое значение уменьшает загрузку памяти, более высокое "
 "значение вместе с потреблением памяти увеличивает производительность ноды. "
 "Значение ``0`` отключает кэширование."
 msgstr ""
+"``leveldb-cache-size`` - limits the size of caches which are used during block "
+"validation. Lower values slightly decrease memory consumption, while higher "
+"values might increase node performance. Setting this value to 0 disables caching "
+"all together."
 
 # de0dd578faa947e1880035d126a7a5d2
 #: ../../how-to-setup/config-description.rst:41
 msgid "``max-cache-size`` - максимальный объём кэш-памяти."
-msgstr ""
+msgstr "``max-cache-size`` - the maximum cache size."
 
 # 3cc79364f770475babac202333528e96
 #: ../../how-to-setup/config-description.rst:42
 msgid ""
 "``max-rollback-depth`` - количество блоков, на которые можно откатить ноду назад."
-msgstr ""
+msgstr "``max-rollback-depth`` - the maximum blocks number for the node rollback."
 
 # 2eff9b4c0a7141a9b7abb231b5be61af
 #: ../../how-to-setup/config-description.rst:43
 msgid ""
-"``remember-blocks-interval-in-cache`` - количество запоминаемых блоков в кэш-"
-"памяти."
+"``remember-blocks-interval-in-cache`` - период хранения блоков в кэш-памяти."
 msgstr ""
+"``remember-blocks-interval-in-cache`` - the time period for blocks storing in "
+"the cache."
 
 # 1753b5ca1a754905a26d584614b62f2f
 #: ../../how-to-setup/config-description.rst:44
 msgid "``ntp-server`` - адрес NTP-сервера."
-msgstr ""
+msgstr "``ntp-server`` - NTP server address."
 
 # 11a1dc86af384867869b5c9af7c503dc
 #: ../../how-to-setup/config-description.rst:45
@@ -228,22 +248,25 @@ msgid ""
 "``DEBUG``, ``INFO``, ``WARN``, ``ERROR``, по умолчанию установлено значение "
 "``INFO``."
 msgstr ""
+"``logging-level`` - logging level. Possible values: ``DEBUG``, ``INFO``, "
+"``WARN``, ``ERROR``, default value is ``INFO``."
 
 # bd545dcde9b24b529d7f14f22b5f6f3b
 #: ../../how-to-setup/config-description.rst:46
 msgid ""
 "``owner-address`` - адрес ноды, которая будет владельцем конфигурационного файла."
 msgstr ""
+"``owner-address`` - the node address, the future owner of the configuration file."
 
 # a9e4a85baa154c729cc8e68ac1e8fbf9
 #: ../../how-to-setup/config-description.rst:47
 msgid "``scheduler-service.enable`` - активация :ref:`анкоринга <anchoring>`."
-msgstr ""
+msgstr "``scheduler-service.enable`` - :ref:`anchoring <anchoring>` activation."
 
 # cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:52
 msgid "Секция ``blockchain``"
-msgstr ""
+msgstr "``blockchain`` section"
 
 # 39f026b3cee14397ba4ef02832f75d27
 #: ../../how-to-setup/config-description.rst:54
@@ -251,11 +274,15 @@ msgid ""
 "Секция отвечает за основные параметры блокчейна и включает в себя следующие "
 "параметры:"
 msgstr ""
+"The section helps to set the main parameters of the blockchain and includes the "
+"following parameters:"
 
 # 6e67b8347f36492f939a5b6db601a187
 #: ../../how-to-setup/config-description.rst:56
 msgid "``type`` - тип блокчейна. Возможные значения ``DEFAULT`` или ``CUSTOM``."
 msgstr ""
+"``type`` - the blockchain type. Could be ``DEFAULT`` or ``CUSTOM``. Default "
+"value is ``DEFAULT``."
 
 # 30f2e35339a0454b942f5c3023e348b1
 #: ../../how-to-setup/config-description.rst:57
@@ -264,7 +291,7 @@ msgid ""
 "значения ``PoS`` или ``PoA``. Если хотите дополнительно настроить алгоритм "
 "консенсуса, закомментируйте или удалите данный параметр и используйте "
 "дополнительную секцию ``consensus``."
-msgstr ""
+msgstr "``consensus.type`` - :ref:`consensus <consensus>` type."
 
 # ccb28366d5804b8c89d1b0f9d3918129
 #: ../../how-to-setup/config-description.rst:58
