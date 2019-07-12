@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-04 17:26+0300\n"
-"PO-Revision-Date: 2019-07-04 17:42+0300\n"
+"PO-Revision-Date: 2019-07-12 14:50+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,8 +38,9 @@ msgstr ""
 msgid ""
 ":ref:`vostok <vostok-sect-conf>` - общая секция, куда входят все секции "
 "настройки блокчейна."
-msgstr ":ref:`vostok <vostok-sect-conf>` - general section, which includes all "
-"sections of blockchain settings."
+msgstr ""
+":ref:`vostok <vostok-sect-conf>` - general section, which includes all sections "
+"of blockchain settings."
 
 # fc44d6afad304fa49403197ce0c65eb5
 #: ../../how-to-setup/config-description.rst:10
@@ -74,7 +75,8 @@ msgstr ":ref:`rest-api <restapi-sect-conf>` - REST API settings."
 msgid ""
 ":ref:`synchronization <synchronization-sect-conf>` - настройка синхронизации "
 "ноды с блокчейном."
-msgstr ":ref:`synchronization <synchronization-sect-conf>` - settings of the node "
+msgstr ""
+":ref:`synchronization <synchronization-sect-conf>` - settings of the node "
 "synchonization with the blockchain."
 
 # e5a9c13a66834501bf78834b2b457a82
@@ -88,6 +90,7 @@ msgstr ":ref:`utx <utx-sect-conf>` - unverified transactions pool settings."
 msgid ""
 ":ref:`features <features-sect-conf>` - настройка дополнительных параметров ноды."
 msgstr ""
+":ref:`features <features-sect-conf>` - additional settings of node parameters."
 
 # ce90dd58b9c64471a52dbf7be921414b
 #: ../../how-to-setup/config-description.rst:18
@@ -95,24 +98,26 @@ msgid ""
 ":ref:`transaction-rebroadcaster <transrebroad-sect-conf>` - настройка повторной "
 "отправки транзакций в блокчейн."
 msgstr ""
+":ref:`transaction-rebroadcaster <transrebroad-sect-conf>` - transaction "
+"rebroadcast settings."
 
 # da154ead71ce4c519012dafe0e84137c
 #: ../../how-to-setup/config-description.rst:19
 msgid ":ref:`docker <docker-sect-conf>` - настройка Docker смарт-контрактов."
-msgstr ""
+msgstr ":ref:`docker <docker-sect-conf>` - Docker smart contracts settings."
 
 # c5d218bc2eca4a3484d826d71d5b661b
 #: ../../how-to-setup/config-description.rst:20
 msgid ""
 ":ref:`privacy <privacy-sect-conf>` - настройка групп доступа к конфиденциальной "
 "информации."
-msgstr ""
+msgstr ":ref:`privacy <privacy-sect-conf>` - privacy groups settings."
 
 # 0cd8cdbd1e444d27b2a9aec28be8cb69
 #: ../../how-to-setup/config-description.rst:22
 msgid ""
 "Для параметров в конфигурационном файле применяется несколько типов значений."
-msgstr ""
+msgstr "Several types of values are used for parameters in the configuration file."
 
 # c88ded1958cc4cd2aef7f9fa98f44bee
 #: ../../how-to-setup/config-description.rst:24
@@ -120,6 +125,8 @@ msgid ""
 "Числовое значение, используемое для указания точного количества элементов. Это "
 "может быть количество транзакций, блоков, соединений."
 msgstr ""
+"Integer data which used to specify the exact number of elements. It can be the "
+"number of transactions, blocks or connections."
 
 # 37789bcc084c4334a95cd44919351bc6
 #: ../../how-to-setup/config-description.rst:25
@@ -128,7 +135,7 @@ msgid ""
 "временного периода или объёма памяти. В таком виде, как правило, указываются "
 "временные периоды в днях, часах или секундах, или объём кэш-памяти, например, "
 "``leveldb-cache-size = 256M`` или ``connection-timeout = 30s``."
-msgstr ""
+msgstr "Integer data with "
 
 # 4d7e41e9667e4804890c0f12cb19d611
 #: ../../how-to-setup/config-description.rst:26
@@ -199,8 +206,7 @@ msgstr ""
 # 3cc79364f770475babac202333528e96
 #: ../../how-to-setup/config-description.rst:42
 msgid ""
-"``max-rollback-depth`` - количество блоков, на которые можно откатить ноду "
-"назад."
+"``max-rollback-depth`` - количество блоков, на которые можно откатить ноду назад."
 msgstr ""
 
 # 2eff9b4c0a7141a9b7abb231b5be61af
@@ -226,8 +232,7 @@ msgstr ""
 # bd545dcde9b24b529d7f14f22b5f6f3b
 #: ../../how-to-setup/config-description.rst:46
 msgid ""
-"``owner-address`` - адрес ноды, которая будет владельцем конфигурационного "
-"файла."
+"``owner-address`` - адрес ноды, которая будет владельцем конфигурационного файла."
 msgstr ""
 
 # a9e4a85baa154c729cc8e68ac1e8fbf9
@@ -347,8 +352,8 @@ msgstr ""
 # e48161f2c19a4ca99779d2539295839d
 #: ../../how-to-setup/config-description.rst:79
 msgid ""
-"``blocks-for-feature-activation`` - количество блоков, через которые "
-"применяется активированная опция."
+"``blocks-for-feature-activation`` - количество блоков, через которые применяется "
+"активированная опция."
 msgstr ""
 
 # aab64ddaf79d479c8505d66ab94733de
@@ -481,8 +486,8 @@ msgstr ""
 # a7781521a0014668a5bf8bb629f99cb3
 #: ../../how-to-setup/config-description.rst:111
 msgid ""
-"``break-idle-connections-timeout`` - период, за который при отсутствии "
-"сообщений от пира прерывается соединение с ним."
+"``break-idle-connections-timeout`` - период, за который при отсутствии сообщений "
+"от пира прерывается соединение с ним."
 msgstr ""
 
 # a9ead67d2f6a4b2f965896e9dc3c8fe0
@@ -685,8 +690,8 @@ msgstr ""
 # ce25dd3193f544e9b55b31cfa16e4c3c
 #: ../../how-to-setup/config-description.rst:162
 msgid ""
-"``retry-for-contract-execution-complete-interval`` - интервал, за который "
-"майнер проверяет исполненные Docker-контракты для создания микроблоков."
+"``retry-for-contract-execution-complete-interval`` - интервал, за который майнер "
+"проверяет исполненные Docker-контракты для создания микроблоков."
 msgstr ""
 
 # cf90e984f77b4ff9a2995f69d06d68af
@@ -728,8 +733,7 @@ msgstr ""
 # d852ae09df874375ab18c8f487ffeffa
 #: ../../how-to-setup/config-description.rst:175
 msgid ""
-"``api-key-different-host`` - активация поддержки REST API ключа от других "
-"хостов."
+"``api-key-different-host`` - активация поддержки REST API ключа от других хостов."
 msgstr ""
 
 # 29141575681844f8bb1c9ce88cf7b74d
@@ -877,8 +881,8 @@ msgstr ""
 # e659ce63b7684cda9c085adfde0396f7
 #: ../../how-to-setup/config-description.rst:216
 msgid ""
-"``inv-cache-timeout`` - время хранения микроблоков с информацией об их нодах "
-"для предотвращения повторной обработки."
+"``inv-cache-timeout`` - время хранения микроблоков с информацией об их нодах для "
+"предотвращения повторной обработки."
 msgstr ""
 
 # e271c606977242b586b7e60377c357a9
@@ -899,8 +903,7 @@ msgstr ""
 # 7bc600c9b8574a8da755137c36bb07e5
 #: ../../how-to-setup/config-description.rst:225
 msgid ""
-"``cleanup-interval`` - интервал запуска очистки пула неподтверждённых "
-"транзакций."
+"``cleanup-interval`` - интервал запуска очистки пула неподтверждённых транзакций."
 msgstr ""
 
 # 9ce503ee726b410fada26f40f42fe872
@@ -988,8 +991,8 @@ msgstr ""
 # 3d4d1442e55c4732b03da94692647fae
 #: ../../how-to-setup/config-description.rst:256
 msgid ""
-"``reuse-containers`` - активация повторного использования docker-контейнеров "
-"для выполнения последующих смарт-контрактов."
+"``reuse-containers`` - активация повторного использования docker-контейнеров для "
+"выполнения последующих смарт-контрактов."
 msgstr ""
 
 # 2a23bbef0e2f406081139dc0f8e95452

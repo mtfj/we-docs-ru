@@ -8,20 +8,22 @@ function setDocLink() {
 }
 
 function setLangSwitcherLink() {
-    var ruToggle = document.getElementById('lang-ru');
-    var enToggle = document.getElementById('lang-en');
-    var ruHref = window.location.href.replace('/en', '');
-    var enHref = '';
-    if (window.location.href.indexOf('/en/') === -1) {
-        if (window.location.pathname !== '/') {
-            enHref = window.location.href.replace(window.location.pathname, '/en' + window.location.pathname);
-        } else {
-            enHref = window.location.href + 'en/';
-        }
-        enToggle.setAttribute("href", enHref);
-        ruToggle.setAttribute("href", ruHref);
-    }
-}
+    setTimeout(() => {
+        var ruToggle = document.getElementById('lang-ru');
+        var enToggle = document.getElementById('lang-en');
+        var ruHref = window.location.href.replace('/en', '');
+        var enHref = '';
+        if (window.location.href.indexOf('/en/') === -1) {
+            if (window.location.pathname !== '/') {
+                enHref = window.location.href.replace(window.location.pathname, '/en' + window.location.pathname);
+            } else {
+                enHref = window.location.href + 'en/';
+            }
+            enToggle.setAttribute("href", enHref);
+            ruToggle.setAttribute("href", ruHref);
+        }    
+    }, 10000)
+ }
 
 function main() {
     setDocLink();
