@@ -39,10 +39,16 @@ body {
 .page__inner {
   display: flex;
   width: 872px;
+  margin-bottom: 15%;
 }
 
 .page__link {
   width: 200px;
+}
+
+.page__main-text {
+  position: relative;
+  bottom: 14px;
 }
 
 .content-area {
