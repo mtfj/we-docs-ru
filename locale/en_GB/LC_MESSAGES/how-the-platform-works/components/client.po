@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 17:46+0300\n"
-"PO-Revision-Date: 2019-06-06 11:40+0300\n"
+"POT-Creation-Date: 2019-07-16 15:40+0300\n"
+"PO-Revision-Date: 2019-07-16 15:43+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -19,12 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 351e37c332dc4760a3f42582e7b08129
+# 1283e207aa6741d1a7bda5f03a0f0ea1
 #: ../../how-the-platform-works/components/client.rst:4
 msgid "Общее описание клиента"
 msgstr "General Description of the Client"
 
-# fb18ead0e50443a19abd742905d7ac1e
+# 003265ab40e9436cbfe93bda27fd78f5
 #: ../../how-the-platform-works/components/client.rst:6
 msgid ""
 "Клиент Vostok — это удобный способ управления вашим блокчейном Vostok. "
@@ -34,13 +34,13 @@ msgstr ""
 "Vostok client is a convenient way to manage your blockchain. `<https://client."
 "vostok.io>`_ is intended for operations in the Vostok public network."
 
-# 7966eff590a24900a05df694fbc39001
+# f1d090def75a4419a22a47070189429f
 #: ../../how-the-platform-works/components/client.rst:10
 msgid ""
 "Клиент включает в себя разделы для использования всех возможностей блокчейна:"
 msgstr "The client includes sections for use of all blockchain features:"
 
-# f3377755010a4cdeacf9a201d30b3e44
+# 741060f8bbcd4b179c0d8dceb8465ca9
 #: ../../how-the-platform-works/components/client.rst:12
 msgid ""
 "«Данные» — позволяет найти информацию о транзакциях или пользователях, "
@@ -49,12 +49,12 @@ msgstr ""
 "\"Data\" — allows to find information about transactions or users through "
 "flexible search and advanced filter system."
 
-# c9ed4e880bde43bdb3b7c3d6ecec8771
+# 9579b2efd13f4fb2afa1ede2b19714da
 #: ../../how-the-platform-works/components/client.rst:13
 msgid "«Токены» — позволяет переводить, выпускать, передавать в аренду токены."
 msgstr "\"Tokens\" — allows to transfer, issue, lease tokens."
 
-# 3317488f8561415f97c338ea917955dd
+# f3e39fd3b6e44185a023404398b3877f
 #: ../../how-the-platform-works/components/client.rst:14
 msgid ""
 "«Контракты» — предоставляет инструменты для публикации и вызова docker-"
@@ -65,7 +65,7 @@ msgstr ""
 "Contracts are available for publishing from the repository, the address of "
 "which was specified when the client was built."
 
-# 867df619f1ef4f838228407e7f30ce4e
+# ee0eda0c4cfc468d859e3774fe2d5a2e
 #: ../../how-the-platform-works/components/client.rst:15
 msgid ""
 "«Запись данных» — позволяет отправлять из интерфейса транзакции с данными и "
@@ -74,7 +74,7 @@ msgstr ""
 "\"Enter Data\" — allows sending data transactions and files from the "
 "interface."
 
-# 8e644b2cfe404825820b27cce1b9cba8
+# b9233f99904443bcaf59da330713dc0c
 #: ../../how-the-platform-works/components/client.rst:16
 msgid ""
 "«Настройки» — позволяет управлять разрешениями на действия пользователей в "
@@ -82,13 +82,52 @@ msgid ""
 msgstr ""
 "\"Settings\" — allows managing permissions for user actions in the blockchain."
 
-# bac9fa92e92a4c2f937dcb3c5fbfce58
-#: ../../how-the-platform-works/components/client.rst:19
+# 71fd49bad5a74c18946d44e35ec634fb
+#: ../../how-the-platform-works/components/client.rst:18
+msgid "Клиент поддерживает следующие типы браузеров:"
+msgstr "The client supports the following browsers:"
+
+# 956c104cf6274243beeb7aa1447da635
+#: ../../how-the-platform-works/components/client.rst:20
+msgid "Google Chrome."
+msgstr "Google Chrome."
+
+# 6b3e9b7eada3471a9de36d79e25c7665
+#: ../../how-the-platform-works/components/client.rst:21
+msgid "Mozilla Firefox."
+msgstr "Mozilla Firefox."
+
+# e9089ba63c5a4d9fa714400285b4eabf
+#: ../../how-the-platform-works/components/client.rst:22
+msgid "Opera."
+msgstr "Opera."
+
+# a72296131f4548e89eab11553d7249d2
+#: ../../how-the-platform-works/components/client.rst:23
+msgid "Apple Safari."
+msgstr "Apple Safari."
+
+# f3780125a3d14d4e9a984c2d71b83918
+#: ../../how-the-platform-works/components/client.rst:24
+msgid "Microsoft Edge."
+msgstr "Microsoft Edge."
+
+# 83a119eb8204487bb6978bbeba07aba0
+#: ../../how-the-platform-works/components/client.rst:26
+msgid ""
+"Если веб-интерфейс клиента некорректно отображается, или возникают какие-либо "
+"ошибки в процессе загрузки страниц, обновите ваш браузер до последней версии."
+msgstr ""
+"If the client web interface does not work properly, or if you see any errors "
+"during loading pages, please, update your browser to the latest version."
+
+# 9228b2b1b1b84e0c8fda403da6251357
+#: ../../how-the-platform-works/components/client.rst:28
 msgid "**Данные**"
 msgstr "**Data**"
 
-# 49662f22b97244cc85926dde91151db0
-#: ../../how-the-platform-works/components/client.rst:21
+# 148f3ff7c5e34e8d93980f5bd6d9f031
+#: ../../how-the-platform-works/components/client.rst:30
 msgid ""
 "Раздел содержит информацию о транзакциях в блокчейне. Для получения "
 "информации используйте фильтры и поиск с указанием полей транзакций для "
@@ -98,23 +137,23 @@ msgstr ""
 "information, use the filter and the search string to specify the transaction "
 "fields to search for."
 
-# 48ac16ede0fa4e63880abc492a1ac48c
-#: ../../how-the-platform-works/components/client.rst:23
+# fe503172541c4b10aefc336342a3e2ca
+#: ../../how-the-platform-works/components/client.rst:32
 msgid "Доступны фильтры транзакций:"
 msgstr "Available transaction filters:"
 
-# feeb08163d4844d7beaaba8e1cc7b374
-#: ../../how-the-platform-works/components/client.rst:25
+# 59060dfb84a5419abb316d4df689265f
+#: ../../how-the-platform-works/components/client.rst:34
 msgid "Все транзакции - отображение всех транзакций."
 msgstr "All transactions - displays of all transactions."
 
-# bf31d103be6f4e5a916c829b8343f367
-#: ../../how-the-platform-works/components/client.rst:26
+# 853910bfa67c41d0bad89fa6452e27e9
+#: ../../how-the-platform-works/components/client.rst:35
 msgid "Транзакции с данными - отображение транзакций только с данными."
 msgstr "Data transactions - displays of the data transactions."
 
-# 8ecb16ecbf1041448b8ef69fd47d457a
-#: ../../how-the-platform-works/components/client.rst:27
+# 5637adab278c48bb9ef078393c70e995
+#: ../../how-the-platform-works/components/client.rst:36
 msgid ""
 "Токены - выборка транзакций с токенами. При выборе доступны контекстные "
 "фильтры по типам операций с токенами (например, перевод, аренда или эмиссия "
@@ -124,8 +163,8 @@ msgstr ""
 "selected, an additional option of contextual filtering by types of token "
 "operations (for example, transfer, lease or issue of tokens) appears."
 
-# 485c326be6ab4c3ba649417c962315b7
-#: ../../how-the-platform-works/components/client.rst:28
+# df14c16d10264c57b57d2c688934393c
+#: ../../how-the-platform-works/components/client.rst:37
 msgid ""
 "Разрешения - выборка транзакций по операциям с псевдонимами и по "
 "пользовательским разрешениям. При выборе доступны контекстные фильтры по "
@@ -136,8 +175,8 @@ msgstr ""
 "permissions. When selected, context filters are available by permission type "
 "(for example, mining, contract publishing, or access control)."
 
-# d00675181dfb4555a9d643fbdd5beafc
-#: ../../how-the-platform-works/components/client.rst:29
+# 5b9a750abab540efb176d12c6a9f9f1d
+#: ../../how-the-platform-works/components/client.rst:38
 msgid ""
 "Группы - выборка транзакций по операциям с группами доступа к "
 "конфиденциальным данным. При выборе доступны контекстные фильтры по типам "
@@ -147,8 +186,8 @@ msgstr ""
 "value is selected, an additional option of contextual filtering by operation "
 "types (for example, a creation or an update of the access group) appears."
 
-# 994585fabdae47e0b5f45feaffc17865
-#: ../../how-the-platform-works/components/client.rst:30
+# 3a3773a9c2ea44f09e6bf6ca04b2f21b
+#: ../../how-the-platform-works/components/client.rst:39
 msgid ""
 "Контракты - выборка транзакций по операциям с контрактами. При выборе "
 "доступны контекстные фильтры по типам контрактов (например, Docker или RIDE)."
@@ -157,13 +196,13 @@ msgstr ""
 "selected, an additional option of contextual filtering by contracts types "
 "(for example, Docker or RIDE) appears."
 
-# a7253596796a45a59623d05b6e76fcdc
-#: ../../how-the-platform-works/components/client.rst:31
+# 4a359df23cf2491e986695cb99127624
+#: ../../how-the-platform-works/components/client.rst:40
 msgid "Неподтвержденные транзакции - выборка по неподтверждённым транзакциям."
 msgstr "Unconfirmed transactions - a selection of the unconfirmed transactions."
 
-# 548cf516e9104c379b27999a00f3cfa4
-#: ../../how-the-platform-works/components/client.rst:32
+# 68415d1dbacd4895b01000198f57ce73
+#: ../../how-the-platform-works/components/client.rst:41
 msgid ""
 "Пользователи - информация о пользователях. При выборе доступны контекстные "
 "фильтры по типам  разрешений (например, майнинг, публикация контрактов или "
@@ -173,13 +212,13 @@ msgstr ""
 "contextual filtering by permissions types (for example, mining, publish smart-"
 "contract or access control) appears."
 
-# e3323d2c444141198f01d2acadb30dc8
-#: ../../how-the-platform-works/components/client.rst:34
+# 535fc8369e5346e3babf76f637597d94
+#: ../../how-the-platform-works/components/client.rst:43
 msgid "**Токены**"
 msgstr "**Tokens**"
 
-# 15c8ae6aeff441cb8d04fb18e7dc4b67
-#: ../../how-the-platform-works/components/client.rst:36
+# 2ab78d16540b4634875aa4ad42f34fa7
+#: ../../how-the-platform-works/components/client.rst:45
 msgid ""
 "Раздел отображает баланс авторизованной учетной записи, а также позволяет "
 "переводить токены другим участникам сети, передавать токены в аренду и "
@@ -189,13 +228,13 @@ msgstr ""
 "tokens to other network participants, transfer tokens for lease and manage "
 "tokens. Token management requires the “Token Management” permission."
 
-# 9a6fe295881440b9bd94d60779d731e0
-#: ../../how-the-platform-works/components/client.rst:38
+# aac32f1c675244c393a0783393ae7159
+#: ../../how-the-platform-works/components/client.rst:47
 msgid "**Контракты**"
 msgstr "**Contracts**"
 
-# 72b6513dfdbd4cd48e3609a076439d32
-#: ../../how-the-platform-works/components/client.rst:40
+# a2d3d4f46b1d4d37b075f76c9ac710ef
+#: ../../how-the-platform-works/components/client.rst:49
 msgid ""
 "Раздел отображает информацию по существующим контрактам в сети, позволяет "
 "публиковать и запускать выбранные контракты. Доступна фильтрация в поисковой "
@@ -207,13 +246,13 @@ msgstr ""
 "transaction parameters for the filtration. Contract publishing requires the "
 "“contract-developer” role."
 
-# 5d6afed1e816469490d00e2b6412fbad
-#: ../../how-the-platform-works/components/client.rst:42
+# ebd5e40929ef4856982f0ca6674484a9
+#: ../../how-the-platform-works/components/client.rst:51
 msgid "**Запись данных**"
 msgstr "**Data transactions**"
 
-# 16e16d328793435f98db853303561a1b
-#: ../../how-the-platform-works/components/client.rst:44
+# 69a3f748c247421bb20ce014a7d0f7d5
+#: ../../how-the-platform-works/components/client.rst:53
 msgid ""
 "Раздел позволяет создавать транзакции с данными и просматривать информацию о "
 "существующих транзакциях с данными."
@@ -221,13 +260,13 @@ msgstr ""
 "The section allows to create data transactions and view information about "
 "existing data transactions."
 
-# 40f8a06311654bcba38c79672b5322c5
-#: ../../how-the-platform-works/components/client.rst:46
+# a91e1c6ed3864f20ac64aa5187560036
+#: ../../how-the-platform-works/components/client.rst:55
 msgid "**Настройки**"
 msgstr "**Settings**"
 
-# 35de9cbbebb94c938b10200cf5eb2def
-#: ../../how-the-platform-works/components/client.rst:48
+# 70d181de29a04f0293f08863f6d80591
+#: ../../how-the-platform-works/components/client.rst:57
 msgid ""
 "Раздел отображает информацию об аккаунте пользователя (публичный и приватный "
 "ключи, секретная фраза), о текущей версии клиента и позволяет сменить язык "

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-14 18:27+0300\n"
-"PO-Revision-Date: 2019-05-15 11:24+0300\n"
+"POT-Creation-Date: 2019-07-19 16:17+0300\n"
+"PO-Revision-Date: 2019-07-19 16:18+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -19,17 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# f08aadb91eeb49c18854466ffde3bf3c
-#: ../../how-the-platform-works/consensus.rst:10
-msgid "Содержание раздела"
-msgstr "Contents of Module"
-
-# 9ccd4e020a194bae80586b3b4d6f6383
+# 365659a0481c4fb2a4efacaf66c9457e
 #: ../../how-the-platform-works/consensus.rst:4
 msgid "Алгоритмы консенсуса"
 msgstr "Consensus algorithms"
 
-# 01c1da9bf7764c0f937124663a65fa45
+# ffe6033811f54569954aef59e8b93945
 #: ../../how-the-platform-works/consensus.rst:6
 msgid ""
 "Блокчейн — это децентрализованная система, в которой нет центрального "
@@ -48,7 +43,7 @@ msgstr ""
 "interests of the minority, but on the other hand, it guarantees an "
 "agreement that benefits the entire network."
 
-# 01c1da9bf7764c0f937124663a65fa45
+# d743e123aa05471caa7f3b452e3ccc95
 #: ../../how-the-platform-works/consensus.rst:8
 msgid ""
 "В Vostok вы можете выбрать механизм консенсуса при первичной "
@@ -78,3 +73,7 @@ msgstr ""
 #~ "Vostok, you can choose a consensus mechanism during the initial "
 #~ "network configuration. The description of available mechanisms, as "
 #~ "well as their pros and cons are given in respective modules."
+
+# f08aadb91eeb49c18854466ffde3bf3c
+#~ msgid "Содержание раздела"
+#~ msgstr "Contents of Module"

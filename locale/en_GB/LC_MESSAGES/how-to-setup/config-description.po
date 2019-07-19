@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-15 15:40+0300\n"
-"PO-Revision-Date: 2019-07-15 16:54+0300\n"
+"PO-Revision-Date: 2019-07-16 14:45+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -1098,7 +1098,7 @@ msgstr ""
 #: ../../how-to-setup/config-description.rst:255
 msgid ""
 "``integration-tests-mode-enable`` - активация опции запуска тестов интеграции."
-msgstr "``integration-tests-mode-enable`` - "
+msgstr "``integration-tests-mode-enable`` - the integration tests run option."
 
 # 3d4d1442e55c4732b03da94692647fae
 #: ../../how-to-setup/config-description.rst:256
@@ -1106,6 +1106,8 @@ msgid ""
 "``reuse-containers`` - активация повторного использования docker-контейнеров для "
 "выполнения последующих смарт-контрактов."
 msgstr ""
+"``reuse-containers`` - the reuse option for once created container on subsequent "
+"executions."
 
 # 2a23bbef0e2f406081139dc0f8e95452
 #: ../../how-to-setup/config-description.rst:257
@@ -1113,11 +1115,15 @@ msgid ""
 "``remove-container-after`` - период времени, после которого происходит "
 "автоматическое удаление контейнера."
 msgstr ""
+"``remove-container-after`` - a time period after which the container is "
+"automatically removed."
 
 # baa73a491c7844909a29536fe2905e99
 #: ../../how-to-setup/config-description.rst:258
 msgid "``allow-net-access`` - активация доступа в сеть для смарт-контрактов."
 msgstr ""
+"``allow-net-access`` - the option which allows network access for all smart "
+"contracts."
 
 # 8b62e31273714831ab3c49db0ec7c449
 #: ../../how-to-setup/config-description.rst:259
@@ -1125,6 +1131,8 @@ msgid ""
 "``remote-registries`` - список удалённых registry репозиториев для запуска "
 "Docker-контрактов."
 msgstr ""
+"``remote-registries`` - a list of remote registry repositories for the Docker "
+"contracts run."
 
 # c9d1dec0a8e9484395affe3447e82ee1
 #: ../../how-to-setup/config-description.rst:260
@@ -1132,66 +1140,69 @@ msgid ""
 "``check-registry-auth-on-startup`` - проверка авторизации на registry "
 "репозиториях при старте ноды."
 msgstr ""
+"``check-registry-auth-on-startup`` - the option which checks the registry "
+"repositories authorization during the node start."
 
 # 23018e2995aa4d288248817cc1fc0ec3
 #: ../../how-to-setup/config-description.rst:262
 msgid "**Блок** ``docker-auth``"
-msgstr ""
+msgstr "``docker-auth`` **unit**"
 
 # 1c231e2b47c14989a7d3e95a1a9d70f7
 #: ../../how-to-setup/config-description.rst:264
 msgid "Блок для указания параметров авторизации для Docker хоста."
 msgstr ""
+"This is unit for the specifying the authorization parameters for the Docker host."
 
 # be76bcd33adf42fd975f9085c93c59ce
 #: ../../how-to-setup/config-description.rst:266
 msgid "``username`` - логин."
-msgstr ""
+msgstr "``username`` - login."
 
 # e3b391e86c7a4a6686a262adde2f4496
 #: ../../how-to-setup/config-description.rst:267
 msgid "``password`` - пароль."
-msgstr ""
+msgstr "``password`` - password."
 
 # 23018e2995aa4d288248817cc1fc0ec3
 #: ../../how-to-setup/config-description.rst:269
 msgid "**Блок** ``execution-limits``"
-msgstr ""
+msgstr "``execution-limits`` **unit**"
 
 # da154ead71ce4c519012dafe0e84137c
 #: ../../how-to-setup/config-description.rst:271
 msgid "Блок настройки выполнения Docker контрактов."
-msgstr ""
+msgstr "This is unit for the Docker contracts run settings."
 
 # da154ead71ce4c519012dafe0e84137c
 #: ../../how-to-setup/config-description.rst:273
 msgid "``timeout`` - таймаут для исполнения смарт-контракта."
-msgstr ""
+msgstr "``timeout`` - a timeout for the smart contract execution."
 
 # 52c1ecade4a049be95a7f1530bb09ad1
 #: ../../how-to-setup/config-description.rst:274
 msgid "``memory`` - лимит памяти в мегабайтах для смарт-контракта."
-msgstr ""
+msgstr "``memory`` - a memory limit for a smart contract in megabytes."
 
 # 0630706432b54d61893c36b8260059b1
 #: ../../how-to-setup/config-description.rst:275
 msgid "``memory-swap`` - размер файла подкачки в мегабайтах для смарт-контракта."
-msgstr ""
+msgstr "``memory-swap`` - a memory swap value in megabytes."
 
 # 8b37626d52e1480ca11fdfc34bc1e85c
 #: ../../how-to-setup/config-description.rst:277
 msgid "**Блок** ``contract-execution-messages-cache``"
-msgstr ""
+msgstr "``contract-execution-messages-cache`` **unit**"
 
 # 4490c80680e64262b63eeab9b21a4f84
 #: ../../how-to-setup/config-description.rst:279
 msgid "Блок настройки кэширования сообщений исполняемых контрактов."
-msgstr ""
+msgstr "This is unit for contract execution messages cache settings."
 
 # 2eff9b4c0a7141a9b7abb231b5be61af
 #: ../../how-to-setup/config-description.rst:281
 msgid "``expire-after`` - время жизни сообщений в кэш-памяти."
-msgstr ""
+msgstr "``expire-after`` - a time period to expire for messages in cache."
 
 # 737bbf1a45164e8183c52de5c20d93c2
 #: ../../how-to-setup/config-description.rst:282
@@ -1199,6 +1210,8 @@ msgid ""
 "``max-buffer-size`` - максимальное количество сообщений буфере. При достижении "
 "лимита буфера нода обработает все сообщения в пакетном режиме."
 msgstr ""
+"``max-buffer-size`` - a maximum number of messages in buffer. When the limit is "
+"reached, the node processes all messages in batch."
 
 # ddfbd71cd64b4163bdb247e1aa7f3b8c
 #: ../../how-to-setup/config-description.rst:283
@@ -1206,11 +1219,13 @@ msgid ""
 "``max-buffer-time`` - максимальное время хранения сообщений в буфере. При "
 "достижении лимита буфера нода обработает все сооющения в пакетном режиме."
 msgstr ""
+"``max-buffer-time`` - a maximum time period of messages in buffer. When the "
+"limit is reached, the node processes all messages in batch."
 
 # cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:288
 msgid "Секция ``privacy``"
-msgstr ""
+msgstr "``privacy`` section"
 
 # 046ff0c2b5a24e1fa4497bbda3d1e463
 #: ../../how-to-setup/config-description.rst:290
@@ -1218,73 +1233,75 @@ msgid ""
 "Секция содержит блок ``storage``, в котором настраивается БД для хранения "
 "конфиденциальных данных."
 msgstr ""
+"The section consists of the ``storage`` unit which allows the database settings "
+"for privacy storage."
 
 # 23018e2995aa4d288248817cc1fc0ec3
 #: ../../how-to-setup/config-description.rst:292
 msgid "**Блок** ``storage``"
-msgstr ""
+msgstr "``storage`` **unit**"
 
 # 65da0340aba64f878ccd482eba050e93
 #: ../../how-to-setup/config-description.rst:294
 msgid "``enabled`` = false"
-msgstr ""
+msgstr "``enabled`` = false"
 
 # 1753b5ca1a754905a26d584614b62f2f
 #: ../../how-to-setup/config-description.rst:295
 msgid "``url`` - адрес БД PostgreSQL."
-msgstr ""
+msgstr "``url`` - PostgreSQL DB address."
 
 # 5651833d831f414bb25e160a649ad545
 #: ../../how-to-setup/config-description.rst:296
 msgid "``driver`` - имя драйвера JDBC."
-msgstr ""
+msgstr "``driver`` - JDBC driver name."
 
 # e575f4324b3c4bcdbf82c170a44f6302
 #: ../../how-to-setup/config-description.rst:297
 msgid "``profile`` - имя профиля для доступа к JDBC."
-msgstr ""
+msgstr "``profile`` - a profile name for the JDBC access."
 
 # a76ab2141d084f83aa5b42fd6f484687
 #: ../../how-to-setup/config-description.rst:298
 msgid "``user`` - имя пользователя для доступа к БД."
-msgstr ""
+msgstr "``user`` - a user name for the DB access."
 
 # a1ec9fc694d34c08920d0db13c860637
 #: ../../how-to-setup/config-description.rst:299
 msgid "``password`` - пароль для доступа к БД."
-msgstr ""
+msgstr "``password`` - a password for the DB access."
 
 # abf904afd0104084a56e61d56bc5980e
 #: ../../how-to-setup/config-description.rst:300
 msgid "``connectionPool`` - имя пула соединений. По умолчанию ``HikariCP``."
-msgstr ""
+msgstr "``connectionPool`` - a connection pool name. Default is ``HikariCP``."
 
 # 0840fe20f3464b1f8493b4356ca16409
 #: ../../how-to-setup/config-description.rst:301
 msgid "``connectionTimeout`` - таймаут для соединения."
-msgstr ""
+msgstr "``connectionTimeout`` - a connection timeout."
 
 # 063b649c2c3a43cd97735310c4120895
 #: ../../how-to-setup/config-description.rst:302
 msgid "``connectionTestQuery`` - имя тестового запроса."
-msgstr ""
+msgstr "``connectionTestQuery`` - a query name for the connection test."
 
 # ffb0c85473ba43baacc2ed05797ae062
 #: ../../how-to-setup/config-description.rst:303
 msgid "``queueSize`` - размер очереди запросов."
-msgstr ""
+msgstr "``queueSize`` - a requests queue size."
 
 # 3cc79364f770475babac202333528e96
 #: ../../how-to-setup/config-description.rst:304
 msgid "``numThreads`` - количество одновременных подключений"
-msgstr ""
+msgstr "``numThreads`` - a number of parallel connections."
 
 # 52aa59a9b12742dd939324a42bf6dd54
 #: ../../how-to-setup/config-description.rst:305
 msgid "``schema`` - схема взаимодействия."
-msgstr ""
+msgstr "``schema`` - an interaction scheme."
 
 # 65987c9738e84676bd8f239483c92da4
 #: ../../how-to-setup/config-description.rst:306
 msgid "``migration-dir`` - директория для миграции данных."
-msgstr ""
+msgstr "``migration-dir`` - a path to the data migration directory."
