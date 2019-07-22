@@ -15,6 +15,7 @@
    rest-api-node/blocks.rst
    rest-api-node/consensus.rst
    rest-api-node/contracts.rst
+   rest-api-node/crypto.rst
    rest-api-node/leasing.rst
    rest-api-node/node.rst
    rest-api-node/peers.rst

@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 10:56+0300\n"
+"PO-Revision-Date: 2019-07-22 11:15+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
+
+# ef546206159c4af3b4bf2519c2f45456
+#: ../../how-to-use/rest-api-node/crypto.rst:4
+msgid "Crypto"
+msgstr "Crypto"
+
+# fc88ca75516b4a5f995a6c69b1f7ac78
+#: ../../how-to-use/rest-api-node/crypto.rst:6
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+"The rules for generating queries to the node are given in module :ref:"
+"`rest-api-node`."
+
+# 0c72f5cd73ed4749b98e78f0ed37d5f4
+#: ../../how-to-use/rest-api-node/crypto.rst:9
+msgid "POST /crypto/encryptSeparate"
+msgstr "POST /crypto/encryptSeparate"
+
+# 4a1e74af43d44e84b514e76248c98884
+#: ../../how-to-use/rest-api-node/crypto.rst:11
+msgid "Шифрует текст отдельно для каждого получателя уникальным ключом."
+msgstr ""
+"Encrypts the text separately for the each recipient with the unique key."
+
+# eb6abb4846774b41a1adb881401c4ecf
+# df38aebd464049faa592b51a7827c40c
+# a9ef2d0a1106490fada658920a6cc726
+#: ../../how-to-use/rest-api-node/crypto.rst:13
+#: ../../how-to-use/rest-api-node/crypto.rst:44
+#: ../../how-to-use/rest-api-node/crypto.rst:74
+msgid "**Запрос метода**"
+msgstr "**Method Query**"
+
+# 03430f3f700b48fe96b1f5a0a2fdf2a1
+# d1f7a397094d4f7ead7a7871897bc7b6
+# b1fcff5837234b03b4d176a10819b396
+#: ../../how-to-use/rest-api-node/crypto.rst:24
+#: ../../how-to-use/rest-api-node/crypto.rst:55
+#: ../../how-to-use/rest-api-node/crypto.rst:86
+msgid "**Пример ответа**"
+msgstr "**Method Response**"
+
+# 205cd85a7e0d4ac38d6c126ebdf76fc4
+#: ../../how-to-use/rest-api-node/crypto.rst:40
+msgid "POST /crypto/encryptCommon"
+msgstr "POST /crypto/encryptCommon"
+
+# 430615c230784c4db1a721ec41c019be
+#: ../../how-to-use/rest-api-node/crypto.rst:42
+msgid ""
+"Шифрует данные единым ключом CEK для всех получателей, CEK оборачивается "
+"уникальными KEK для каждого получателя."
+msgstr ""
+"Encrypts the data with a single CEK key for all recipients and the CEK "
+"wraps into a unique KEK for the each recipient."
+
+# f10f199714724917ba99ac2a8ca13d58
+#: ../../how-to-use/rest-api-node/crypto.rst:70
+msgid "POST /crypto/decrypt"
+msgstr "POST /crypto/decrypt"
+
+# 0bba5d8d89974abaa068cf2436ec9f7c
+#: ../../how-to-use/rest-api-node/crypto.rst:72
+msgid ""
+"Расшифровывает данные. Расшифровка доступна в случае, если ключ "
+"получателя сообщения находится в keystore ноды."
+msgstr ""
+"Decrypts the data. The decryption is available only if the message "
+"recipient's key is in the node's keystore."
