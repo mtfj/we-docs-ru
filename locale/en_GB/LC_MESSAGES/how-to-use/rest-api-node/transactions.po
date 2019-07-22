@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 17:31+0300\n"
-"PO-Revision-Date: 2019-05-28 10:17+0300\n"
+"POT-Creation-Date: 2019-07-22 13:56+0300\n"
+"PO-Revision-Date: 2019-07-22 14:02+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -19,131 +19,120 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# af0bcdb221414260b6c2c7100912c1d7
+# e05ae2584b0349268b3a4b25627bc864
 #: ../../how-to-use/rest-api-node/transactions.rst:2
 msgid "Transactions"
 msgstr "Transactions"
 
-# 700dd237c58d4d77ad288ff87005c986
+# 5648cfda60214e9380c40f92be6e69d3
 #: ../../how-to-use/rest-api-node/transactions.rst:4
 msgid ""
-"За один запрос через API **/transactions/...** Data service вовращает не более "
-"500 транзакций."
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`."
 msgstr ""
-"Data service does not return more than 500 records during the one request via "
-"API **/transactions/...**."
+"The rules for generating node queries are given in module :ref:`rest-api-node`."
 
-# 212f456f30174153afd143587c065d83
-#: ../../how-to-use/rest-api-node/transactions.rst:5
-msgid ""
-"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`. "
-"Посмотреть :ref:`примеры <transaction-example>` транзакций."
-msgstr ""
-"The rules for generating node queries are given in module :ref:`rest-api-node`. "
-"View :ref:`examples of <transaction-example>` transactions."
-
-# 330d9f4e0cb149a48bc70d31fc6a153a
-#: ../../how-to-use/rest-api-node/transactions.rst:8
+# c5987b527bd24324bac4daf7b017d31b
+#: ../../how-to-use/rest-api-node/transactions.rst:7
 msgid "GET /transactions/info/{id}"
 msgstr "GET /transactions/info/{id}"
 
-# 4bc576620a594142b77830a203ab1263
-#: ../../how-to-use/rest-api-node/transactions.rst:10
+# 1f597943524849bea6a93235797f6a79
+#: ../../how-to-use/rest-api-node/transactions.rst:9
 msgid "Запрос сведений по транзакции по ее ID."
 msgstr "Query transaction information by its ID."
 
-# c0594c7d78cc4f5b9624164f938d4ca3
-#: ../../how-to-use/rest-api-node/transactions.rst:12
+# eea10e0d68f0453b8520c6e8f613769b
+#: ../../how-to-use/rest-api-node/transactions.rst:11
 msgid "**Параметры запроса:**"
 msgstr "**Query Parameters:**"
 
-# 2b7662c5b3a943129adf7da4571c1d13
-#: ../../how-to-use/rest-api-node/transactions.rst:18
-#: ../../how-to-use/rest-api-node/transactions.rst:42
-#: ../../how-to-use/rest-api-node/transactions.rst:67
+# 94224c0e77184f87b0bd342ddc39c194
+#: ../../how-to-use/rest-api-node/transactions.rst:17
+#: ../../how-to-use/rest-api-node/transactions.rst:41
+#: ../../how-to-use/rest-api-node/transactions.rst:66
 msgid "**Ответ метода:**"
 msgstr "**Method Response:**"
 
-# d45bfc4084b747f1998e10dd4cff1cb1
-#: ../../how-to-use/rest-api-node/transactions.rst:38
+# 7f85dc52cf0840fb87661d583d4ed01c
+#: ../../how-to-use/rest-api-node/transactions.rst:37
 msgid "GET /transactions/address/{address}/limit/{limit}"
 msgstr "GET /transactions/address/{address}/limit/{limit}"
 
-# 204f75f9fff740cc92788c11bff80f42
-#: ../../how-to-use/rest-api-node/transactions.rst:40
+# 7bf67c73f6d949a09de4327a080f8c37
+#: ../../how-to-use/rest-api-node/transactions.rst:39
 msgid "Возвращает последние {limit} транзакций с адреса {address}."
 msgstr "Returns latest {limit} transactions from address {address}."
 
-# 159a854c6d864475b40b11042fccb37c
-#: ../../how-to-use/rest-api-node/transactions.rst:63
+# eefd1a1ea23a4d6ea0f2d015a8dda9e2
+#: ../../how-to-use/rest-api-node/transactions.rst:62
 msgid "GET /transactions/unconfirmed"
 msgstr "GET /transactions/unconfirmed"
 
-# 12b4ac3c378a438aadb277629e8a0a97
-#: ../../how-to-use/rest-api-node/transactions.rst:65
+# ec428704f84e4241a9e368bb22748ee6
+#: ../../how-to-use/rest-api-node/transactions.rst:64
 msgid "Возвращает все неподтвержденные транзакции из utx-pool ноды."
 msgstr "Returns all unconfirmed transactions from node utx-pool."
 
-# 80eb8e368dde40b3a382a9f3bfe6f52e
-#: ../../how-to-use/rest-api-node/transactions.rst:88
+# 5caa64c741a04cf58ffb2f8df8086355
+#: ../../how-to-use/rest-api-node/transactions.rst:87
 msgid "GET /transactions/unconfirmed/size"
 msgstr "GET /transactions/unconfirmed/size"
 
-# 1f12248b6e6540eeaaf8c39dfdcaffde
-#: ../../how-to-use/rest-api-node/transactions.rst:90
+# f93cd4e70bfa428c911b870c04564f0b
+#: ../../how-to-use/rest-api-node/transactions.rst:89
 msgid "Возвращает количество транзакций, находящихся в UTX-пуле."
 msgstr "Return the number of transactions available in UTX pool."
 
-# b0c485fc49dd44ec982a1767869ab7f3
-#: ../../how-to-use/rest-api-node/transactions.rst:93
+# 48a0c3f539354fd385ac7b12bb13f00c
+#: ../../how-to-use/rest-api-node/transactions.rst:92
 msgid "GET /unconfirmed/info/{id}"
 msgstr "GET /unconfirmed/info/{id}"
 
-# 927978e6bdcb44b59ae5e87f82ea023e
-#: ../../how-to-use/rest-api-node/transactions.rst:95
+# 5f4ad3c6068e40889d8c9c5a6cffe810
+#: ../../how-to-use/rest-api-node/transactions.rst:94
 msgid "Запрос сведений по транзакции из UTX-пула по ее ID."
 msgstr "Query transaction details from UTX pool by its ID."
 
-# 0385457d04b64f949225605012db1c82
-#: ../../how-to-use/rest-api-node/transactions.rst:99
+# 3ca178542e7c41c480188c87ab71c5af
+#: ../../how-to-use/rest-api-node/transactions.rst:98
 msgid "POST /transactions/calculateFee"
 msgstr "POST /transactions/calculateFee"
 
-# 705c7b68a8f14432b4459cc370410d29
-#: ../../how-to-use/rest-api-node/transactions.rst:101
+# 46347d83382847d0a02e1d24570c07e7
+#: ../../how-to-use/rest-api-node/transactions.rst:100
 msgid "Расчитывет размер комиссии по переданной транзакции."
 msgstr "Calculates fee amount for transferred transaction."
 
-# decaa7c7b87540ea9518edeacfd3d7f4
-#: ../../how-to-use/rest-api-node/transactions.rst:103
+# 13876bf179b54433bbc0a13b4b34d4e8
+#: ../../how-to-use/rest-api-node/transactions.rst:102
 msgid "**Параметры запроса**"
 msgstr "**Query Parameters**"
 
-# ab02b3eba5194adf96cbda9ef866d481
-#: ../../how-to-use/rest-api-node/transactions.rst:113
-#: ../../how-to-use/rest-api-node/transactions.rst:630
+# 661d3b38e0524920a853910374eaf977
+#: ../../how-to-use/rest-api-node/transactions.rst:112
+#: ../../how-to-use/rest-api-node/transactions.rst:628
 msgid "**Запрос метода**"
 msgstr "**Method Query**"
 
-# d6f4521b3b904c898ede98087cb72e21
-#: ../../how-to-use/rest-api-node/transactions.rst:124
-#: ../../how-to-use/rest-api-node/transactions.rst:146
+# a0f34378d3854e94b28d38ad5f19d22e
+#: ../../how-to-use/rest-api-node/transactions.rst:123
+#: ../../how-to-use/rest-api-node/transactions.rst:145
 msgid "или"
 msgstr "or"
 
-# dcab051410774a7b94095ef7569ecb0f
-#: ../../how-to-use/rest-api-node/transactions.rst:137
-#: ../../how-to-use/rest-api-node/transactions.rst:643
+# ce1512383dd94ce899b5586c27e76b8f
+#: ../../how-to-use/rest-api-node/transactions.rst:136
+#: ../../how-to-use/rest-api-node/transactions.rst:641
 msgid "**Ответ метода**"
 msgstr "**Method Response**"
 
-# 5f7b74838f344af99d2b68211660a4f3
-#: ../../how-to-use/rest-api-node/transactions.rst:156
+# 21b378d6a8004d5499ef1b71a4c014cf
+#: ../../how-to-use/rest-api-node/transactions.rst:155
 msgid "POST /transactions/sign"
 msgstr "POST /transactions/sign"
 
-# 0e69d304e19d4019b35cd93e48a3eb63
-#: ../../how-to-use/rest-api-node/transactions.rst:162
+# 6386e2813635414e8431c67d80b19954
+#: ../../how-to-use/rest-api-node/transactions.rst:161
 msgid ""
 "Подписывает транзакцию закрытым ключом отправителя, сохраненным в keystore ноды. "
 "После подписания ответ метода должен быть подан на вход метода :ref:`Broadcast "
@@ -153,8 +142,8 @@ msgstr ""
 "signing, method response must be sent to method input :ref:`Broadcast "
 "<broadcast>`."
 
-# c1d4ffd6b6024d55817e4fc4bf16ecec
-#: ../../how-to-use/rest-api-node/transactions.rst:164
+# 75321a0da341458598b23fbb9ae231a7
+#: ../../how-to-use/rest-api-node/transactions.rst:163
 msgid ""
 "Для подписания запросов ключом из keystore ноды требуется обязательное указание "
 "пароля в поле ``password``."
@@ -162,355 +151,355 @@ msgstr ""
 "It is necessary to enter the password into the ``password`` field in order to "
 "sign requests with the key from keystore node."
 
-# edb04f0c8ed14655a2cc6d027c835e48
-#: ../../how-to-use/rest-api-node/transactions.rst:166
+# 0a66a8609aee4ac08d9035cd64794a20
+#: ../../how-to-use/rest-api-node/transactions.rst:165
 msgid "**Примеры запросов**"
 msgstr "**Sample queries**"
 
-# 736c4f2727c24b20a96be6d3e590205b
-#: ../../how-to-use/rest-api-node/transactions.rst:169
+# 66cd3d7e1e17471392c5a06ea674b95e
+#: ../../how-to-use/rest-api-node/transactions.rst:168
 msgid "ID"
 msgstr "ID"
 
-# c581af367776472f956dc3d338219ab9
-#: ../../how-to-use/rest-api-node/transactions.rst:169
+# 147271742d514470831cd6feb3745720
+#: ../../how-to-use/rest-api-node/transactions.rst:168
 msgid "Тип транзакции"
 msgstr "Transaction type"
 
-# b1cb17d71b404a609270ee3e88557202
-#: ../../how-to-use/rest-api-node/transactions.rst:171
+# cc9167c737b34dffbf3b2e31698ab008
+#: ../../how-to-use/rest-api-node/transactions.rst:170
 msgid "3"
 msgstr "3"
 
-# 1287010be6c5465cad5edfd13727f559
-#: ../../how-to-use/rest-api-node/transactions.rst:171
+# ff24a31d67664a5eacf25069d7844929
+#: ../../how-to-use/rest-api-node/transactions.rst:170
 msgid ":ref:`Issue <tx-issue>`"
 msgstr ":ref:`Issue <tx-issue>`"
 
-# 3e3138b2ce7a4242b9685782d663ca33
-#: ../../how-to-use/rest-api-node/transactions.rst:172
+# ef74248d12bf4f63b68303270a89c212
+#: ../../how-to-use/rest-api-node/transactions.rst:171
 msgid "4"
 msgstr "4"
 
-# 08e27dbb127747869ee623df03e854e5
-#: ../../how-to-use/rest-api-node/transactions.rst:172
+# e6b0febb16ec493e9781ce8a4877bbb4
+#: ../../how-to-use/rest-api-node/transactions.rst:171
 msgid ":ref:`Transfer <tx-transfer>`"
 msgstr ":ref:`Transfer <tx-transfer>`"
 
-# 2c9994662c7e4d8eadec9d91185a2b57
-#: ../../how-to-use/rest-api-node/transactions.rst:173
+# 7afa223c4cd9477a8ab2e936a28562a5
+#: ../../how-to-use/rest-api-node/transactions.rst:172
 msgid "5"
 msgstr "5"
 
-# b448a55d7cff463fb1eb323e7bcb6b7f
-#: ../../how-to-use/rest-api-node/transactions.rst:173
+# 48c553ee11cb4a60bfc8db2def94d8d9
+#: ../../how-to-use/rest-api-node/transactions.rst:172
 msgid "Reissue"
 msgstr "Reissue"
 
-# 4d0be0eee49f43cba49f50bc0f6cce25
-#: ../../how-to-use/rest-api-node/transactions.rst:174
+# 9e90851d34d7435eaf671fb495a6430f
+#: ../../how-to-use/rest-api-node/transactions.rst:173
 msgid "6"
 msgstr "6"
 
-# 6a743765f37d485798dce06105be0bad
-#: ../../how-to-use/rest-api-node/transactions.rst:174
+# 3ea2a6e53fc84802807bf8d2058b9bd9
+#: ../../how-to-use/rest-api-node/transactions.rst:173
 msgid "Burn"
 msgstr "Burn"
 
-# b0aa6553cab24231b51d936e89c6d5b8
-#: ../../how-to-use/rest-api-node/transactions.rst:175
+# e794e0bdce674589a1abfcbac18bb0c1
+#: ../../how-to-use/rest-api-node/transactions.rst:174
 msgid "7"
 msgstr "7"
 
-# f00b7a820967455bac43b83300751d45
-#: ../../how-to-use/rest-api-node/transactions.rst:175
+# 57561517fd53490185ebe383c6af7546
+#: ../../how-to-use/rest-api-node/transactions.rst:174
 msgid "Exchange"
 msgstr "Exchange"
 
-# fc729859bf9f4af4b13fd00c6f90f331
-#: ../../how-to-use/rest-api-node/transactions.rst:176
+# f495c5cb549f4207b08a82441f6ceb4d
+#: ../../how-to-use/rest-api-node/transactions.rst:175
 msgid "8"
 msgstr "8"
 
-# 97ea116a84b242c1a54d41eddee994c7
-#: ../../how-to-use/rest-api-node/transactions.rst:176
+# e038bfcd26b443faa0a62efc0c875fe0
+#: ../../how-to-use/rest-api-node/transactions.rst:175
 msgid "Lease"
 msgstr "Lease"
 
-# fe970cf287604c41bdf91bd5ee37a3f0
-#: ../../how-to-use/rest-api-node/transactions.rst:177
+# 9d407333be974760a0489d5cc271f370
+#: ../../how-to-use/rest-api-node/transactions.rst:176
 msgid "9"
 msgstr "9"
 
-# 8d4be6553571433581eaa2362665c71b
-#: ../../how-to-use/rest-api-node/transactions.rst:177
+# 9bdcf316fa41409abe93475b38719ce9
+#: ../../how-to-use/rest-api-node/transactions.rst:176
 msgid "Lease Cancel"
 msgstr "Lease Cancel"
 
-# b82247ee7b2347108c3a8a96c8f9eb50
-#: ../../how-to-use/rest-api-node/transactions.rst:178
+# 3bee93b0eb85447b8bbcbabc69a81cf0
+#: ../../how-to-use/rest-api-node/transactions.rst:177
 msgid "10"
 msgstr "10"
 
-# ba66409b1bc14a8e821385772f33d625
-#: ../../how-to-use/rest-api-node/transactions.rst:178
+# 2d54c1e1417445238dbae364522b3bca
+#: ../../how-to-use/rest-api-node/transactions.rst:177
 msgid ":ref:`Alias <tx-alias>`"
 msgstr ":ref:`Alias <tx-alias>`"
 
-# c27fe4f239e24f319609e8d0c5e1e419
-#: ../../how-to-use/rest-api-node/transactions.rst:179
+# 7ba57ec9482844129cb0b195d0f5a49a
+#: ../../how-to-use/rest-api-node/transactions.rst:178
 msgid "11"
 msgstr "11"
 
-# 7d0a08e5ec1f48f6b4d1f8fd15519bb0
-#: ../../how-to-use/rest-api-node/transactions.rst:179
+# 5bc9fb21766545a5b0a9578acb67ecc5
+#: ../../how-to-use/rest-api-node/transactions.rst:178
 msgid "Mass Transfer"
 msgstr "Mass Transfer"
 
-# 81b7aa2e4ae54cefba30a5063c5d8ecf
-#: ../../how-to-use/rest-api-node/transactions.rst:180
+# dda23e32626b4aab8ea43b6b2c01559d
+#: ../../how-to-use/rest-api-node/transactions.rst:179
 msgid "12"
 msgstr "12"
 
-# b9b82675a9684baab24ddb770e249638
-#: ../../how-to-use/rest-api-node/transactions.rst:180
+# f30889e64b24470cb574865366f68787
+#: ../../how-to-use/rest-api-node/transactions.rst:179
 msgid ":ref:`Data <tx-data>`"
 msgstr ":ref:`Data <tx-data>`"
 
-# 9cbe03db29074f09a87e56008a91c4ef
-#: ../../how-to-use/rest-api-node/transactions.rst:181
+# 9452e5cde27a466ab02c7b94858a6f49
+#: ../../how-to-use/rest-api-node/transactions.rst:180
 msgid "13"
 msgstr "13"
 
-# 5fbfb955729a443db276dc5a525ef925
-#: ../../how-to-use/rest-api-node/transactions.rst:181
+# 6e7e4fea9795496dbf086d687a175790
+#: ../../how-to-use/rest-api-node/transactions.rst:180
 msgid ":ref:`Set Script <tx-setscript>`"
 msgstr ":ref:`Set Script <tx-setscript>`"
 
-# 856d6eaf143f42ab87939a1e31b26cfb
-#: ../../how-to-use/rest-api-node/transactions.rst:182
+# 8973f5d83bb34ab49714cdddda06ef9a
+#: ../../how-to-use/rest-api-node/transactions.rst:181
 msgid "14"
 msgstr "14"
 
-# 05dad13cec8040aa98ce1d912872e497
-#: ../../how-to-use/rest-api-node/transactions.rst:182
+# 9d029b7e514942829b7006c9c3c33537
+#: ../../how-to-use/rest-api-node/transactions.rst:181
 msgid "Set Sponsorship"
 msgstr "Set Sponsorship"
 
-# bd17386ded7441dfb82c681e75be03d6
-#: ../../how-to-use/rest-api-node/transactions.rst:183
+# 3150c6ed3b0744ceb5100f6320b4bd62
+#: ../../how-to-use/rest-api-node/transactions.rst:182
 msgid "101"
 msgstr "101"
 
-# a565217d3bbd47b69aace3a63a05ffd8
-#: ../../how-to-use/rest-api-node/transactions.rst:183
+# 17783aa1a8284e2e8e41829620a37c14
+#: ../../how-to-use/rest-api-node/transactions.rst:182
 msgid "Permission (for Genesis block)"
 msgstr "Permission (for Genesis block)"
 
-# 415c9cebbe67437b9b9b1d80698e5281
-#: ../../how-to-use/rest-api-node/transactions.rst:184
+# b8457034def44192ace78f950889ad21
+#: ../../how-to-use/rest-api-node/transactions.rst:183
 msgid "102"
 msgstr "102"
 
-# 778bce0271c54902a7477dbf255d1d45
-#: ../../how-to-use/rest-api-node/transactions.rst:184
+# 9d80f87c6eb34e889c15f4be84a2f30a
+#: ../../how-to-use/rest-api-node/transactions.rst:183
 msgid ":ref:`PermissionTransaction <tx-permission>`"
 msgstr ":ref:`PermissionTransaction <tx-permission>`"
 
-# cdefde8287a147bb80db730fbb35c14f
-#: ../../how-to-use/rest-api-node/transactions.rst:185
+# 8736e4fdebd3406484292b702f1f0e2a
+#: ../../how-to-use/rest-api-node/transactions.rst:184
 msgid "103"
 msgstr "103"
 
-# cd85e5940e384920ae89fad10c24dc91
-#: ../../how-to-use/rest-api-node/transactions.rst:185
+# ea35c8d6e4754fe996466fa56678689e
+#: ../../how-to-use/rest-api-node/transactions.rst:184
 msgid ":ref:`CreateContractTransaction <tx-CreateContractTransaction>`"
 msgstr ":ref:`CreateContractTransaction <tx-CreateContractTransaction>`"
 
-# 2e2cd9f5315149a88c26e88bcd513f1e
-#: ../../how-to-use/rest-api-node/transactions.rst:186
+# 10ce2213dafd4e0b8114eab08935bc10
+#: ../../how-to-use/rest-api-node/transactions.rst:185
 msgid "104"
 msgstr "104"
 
-# bc2f9bbcc85541aea6c11f1515b4e5af
-#: ../../how-to-use/rest-api-node/transactions.rst:186
+# 47eef3dae417413ea7954df03c201746
+#: ../../how-to-use/rest-api-node/transactions.rst:185
 msgid ":ref:`CallContractTransaction <tx-CallContractTransaction>`"
 msgstr ":ref:`CallContractTransaction <tx-CallContractTransaction>`"
 
-# ab3e5bffc4c5487888eaf66fe97b6a0b
-#: ../../how-to-use/rest-api-node/transactions.rst:187
+# 503e527997844639bf02cd02d56f7a8c
+#: ../../how-to-use/rest-api-node/transactions.rst:186
 msgid "105"
 msgstr "105"
 
-# 717eea36dac64c3cac5ea913837654d3
-#: ../../how-to-use/rest-api-node/transactions.rst:187
+# 80c773132f104fe3a516c65058ce6354
+#: ../../how-to-use/rest-api-node/transactions.rst:186
 msgid ":ref:`ExecutedContractTransaction <tx-ExecutedContractTransaction>`"
 msgstr ":ref:`ExecutedContractTransaction <tx-ExecutedContractTransaction>`"
 
-# 070123c486d044feb05329f38f387c01
-#: ../../how-to-use/rest-api-node/transactions.rst:188
+# dcdb739df6d1484784a5029be5620aee
+#: ../../how-to-use/rest-api-node/transactions.rst:187
 msgid "106"
 msgstr "106"
 
-# 0b43e6ffb62c4b1dba9f740530d20559
-#: ../../how-to-use/rest-api-node/transactions.rst:188
+# b66d695bd1ce45b4a8db187ef2585cfa
+#: ../../how-to-use/rest-api-node/transactions.rst:187
 msgid ":ref:`DisableContractTransaction <tx-DisableContractTransaction>`"
 msgstr ":ref:`DisableContractTransaction <tx-DisableContractTransaction>`"
 
-# 6b839dba0a564dc194ce9b9b90b47b9a
-#: ../../how-to-use/rest-api-node/transactions.rst:189
+# 91f767cfcd734c1bbdc6dca413159b75
+#: ../../how-to-use/rest-api-node/transactions.rst:188
 msgid "110"
 msgstr "110"
 
-# 1ed57cec78ea4280b3ad9e5025733752
-#: ../../how-to-use/rest-api-node/transactions.rst:189
+# c26b66d6633042a092394ffc64dc432a
+#: ../../how-to-use/rest-api-node/transactions.rst:188
 msgid ":ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`"
 msgstr ":ref:`GenesisRegisterNode Transaction <tx-GenesisRegisterNodeTransaction>`"
 
-# 78f48ed014814b0ba901d03c4054bada
-#: ../../how-to-use/rest-api-node/transactions.rst:190
+# 6b426981f48f43b1a5c649a3fad0bfd0
+#: ../../how-to-use/rest-api-node/transactions.rst:189
 msgid "111"
 msgstr "111"
 
-# 415d987503e04604950904c3f6ff61c5
-#: ../../how-to-use/rest-api-node/transactions.rst:190
+# 47574176e7034cd2a8ce5b222f2c045e
+#: ../../how-to-use/rest-api-node/transactions.rst:189
 msgid ":ref:`RegisterNode Transaction <tx-RegisterNodeTransaction>`"
 msgstr ":ref:`RegisterNode Transaction <tx-RegisterNodeTransaction>`"
 
-# d09c42a726954aa581a5f4ced6f7d41b
-#: ../../how-to-use/rest-api-node/transactions.rst:191
+# 8d019cac84ad4f088bdc16527654dfdb
+#: ../../how-to-use/rest-api-node/transactions.rst:190
 msgid "112"
 msgstr "112"
 
-# 85d0e600fc8a4c33aa2ca847d1d03c84
-#: ../../how-to-use/rest-api-node/transactions.rst:191
+# 21f54677675548fcbd6faf821084506c
+#: ../../how-to-use/rest-api-node/transactions.rst:190
 msgid ":ref:`CreatePolicy Transaction <tx-CreatePolicyTransaction>`"
 msgstr ":ref:`CreatePolicy Transaction <tx-CreatePolicyTransaction>`"
 
-# 7497565104f549058665a9a4bb298eee
-#: ../../how-to-use/rest-api-node/transactions.rst:192
+# ae11f35ee14e498c8efe752c4deea071
+#: ../../how-to-use/rest-api-node/transactions.rst:191
 msgid "113"
 msgstr "113"
 
-# d6158fc726cf461d81b402b950caf0cd
-#: ../../how-to-use/rest-api-node/transactions.rst:192
+# 9621123f911b4c9e9d58a1902f5b1987
+#: ../../how-to-use/rest-api-node/transactions.rst:191
 msgid ":ref:`UpdatePolicy Transaction <tx-UpdatePolicyTransaction>`"
 msgstr ":ref:`UpdatePolicy Transaction <tx-UpdatePolicyTransaction>`"
 
-# a472335fb01e45c797182f09bf82697e
-#: ../../how-to-use/rest-api-node/transactions.rst:193
+# 9507e86a386749a485e1e2b66359386d
+#: ../../how-to-use/rest-api-node/transactions.rst:192
 msgid "114"
 msgstr "114"
 
-# 082dffc619be4a7daad0c552e0dff380
-#: ../../how-to-use/rest-api-node/transactions.rst:193
+# 4325d97a8c764ba68fa846278af9dc82
+#: ../../how-to-use/rest-api-node/transactions.rst:192
 msgid ":ref:`PolicyDataHash Transaction <tx-PolicyDataHashTransaction>`"
 msgstr ":ref:`PolicyDataHash Transaction <tx-PolicyDataHashTransaction>`"
 
-# b0ac161722654a5e9623a0b09e5cb20c
-#: ../../how-to-use/rest-api-node/transactions.rst:201
+# 816a770f50994df7876cfc59bf96d259
+#: ../../how-to-use/rest-api-node/transactions.rst:200
 msgid "**3. Issue**"
 msgstr "**3. Issue**"
 
-# 0e0a585b0b9944a9ae5cd5e7db6df6b8
-#: ../../how-to-use/rest-api-node/transactions.rst:219
+# 25f55db005bd4419b343283e7a6496f4
+#: ../../how-to-use/rest-api-node/transactions.rst:218
 msgid "**4. Transfer**"
 msgstr "**4. Transfer**"
 
-# 6559c603d5ff424ab8b316b94cf20d21
-#: ../../how-to-use/rest-api-node/transactions.rst:239
+# 67b30c47e1ce4d298260132d0ead5fd4
+#: ../../how-to-use/rest-api-node/transactions.rst:234
 msgid "**10. Alias**"
 msgstr "**10. Alias**"
 
-# b11b0fec36114e31b5925b43f69b99a0
-#: ../../how-to-use/rest-api-node/transactions.rst:253
+# 870e789241ac4545946f22e08a769606
+#: ../../how-to-use/rest-api-node/transactions.rst:248
 msgid "**12. Data**"
 msgstr "**12. Data**"
 
-# 017eabf7ce5f4eddbb19a249ac1926f0
-#: ../../how-to-use/rest-api-node/transactions.rst:276
+# 30bf098ee84946febb797a3bbdaee9f8
+#: ../../how-to-use/rest-api-node/transactions.rst:271
 msgid "**13. Set Script**"
 msgstr "**13. Set Script**"
 
-# ebec6f5b9de240d3b28679c7ef379a81
-#: ../../how-to-use/rest-api-node/transactions.rst:291
+# eedc98f1942d421da5364ed0989de659
+#: ../../how-to-use/rest-api-node/transactions.rst:286
 msgid "**102. PermissionTransaction**"
 msgstr "**102. PermissionTransaction**"
 
-# 0e0e603d65824a2fbc600e9ce0b61101
-#: ../../how-to-use/rest-api-node/transactions.rst:293
-#: ../../how-to-use/rest-api-node/transactions.rst:311
-#: ../../how-to-use/rest-api-node/transactions.rst:348
-#: ../../how-to-use/rest-api-node/transactions.rst:445
-#: ../../how-to-use/rest-api-node/transactions.rst:480
-#: ../../how-to-use/rest-api-node/transactions.rst:513
-#: ../../how-to-use/rest-api-node/transactions.rst:531
-#: ../../how-to-use/rest-api-node/transactions.rst:548
-#: ../../how-to-use/rest-api-node/transactions.rst:566
+# 582017e296684df8ad80f555333ea362
+#: ../../how-to-use/rest-api-node/transactions.rst:288
+#: ../../how-to-use/rest-api-node/transactions.rst:309
+#: ../../how-to-use/rest-api-node/transactions.rst:346
+#: ../../how-to-use/rest-api-node/transactions.rst:443
+#: ../../how-to-use/rest-api-node/transactions.rst:478
+#: ../../how-to-use/rest-api-node/transactions.rst:511
+#: ../../how-to-use/rest-api-node/transactions.rst:529
+#: ../../how-to-use/rest-api-node/transactions.rst:546
+#: ../../how-to-use/rest-api-node/transactions.rst:564
 msgid "**Пример запроса**"
 msgstr "**Sample query**"
 
-# 4d9286b4c24b43ea88f2e9772d35e00b
-#: ../../how-to-use/rest-api-node/transactions.rst:309
+# 95c72714f10d4565bad42c43d108aa36
+#: ../../how-to-use/rest-api-node/transactions.rst:307
 msgid "**103. CreateContractTransaction**"
 msgstr "**103. CreateContractTransaction**"
 
-# 1b281d34428e45cc9bc83c744a1c4607
-#: ../../how-to-use/rest-api-node/transactions.rst:324
-#: ../../how-to-use/rest-api-node/transactions.rst:373
-#: ../../how-to-use/rest-api-node/transactions.rst:407
-#: ../../how-to-use/rest-api-node/transactions.rst:460
-#: ../../how-to-use/rest-api-node/transactions.rst:494
+# b33f42d54f5a401eac31e5e70e27f99e
+#: ../../how-to-use/rest-api-node/transactions.rst:322
+#: ../../how-to-use/rest-api-node/transactions.rst:371
+#: ../../how-to-use/rest-api-node/transactions.rst:405
+#: ../../how-to-use/rest-api-node/transactions.rst:458
+#: ../../how-to-use/rest-api-node/transactions.rst:492
 msgid "**Пример ответа**"
 msgstr "**Sample response**"
 
-# 80b9395d03fa4c9799fc0f60d6afd3c4
-#: ../../how-to-use/rest-api-node/transactions.rst:346
+# 581610007a6d41cca466877b6ad2c117
+#: ../../how-to-use/rest-api-node/transactions.rst:344
 msgid "**104. CallContractTransaction**"
 msgstr "**104. CallContractTransaction**"
 
-# 60de12f3f8034a379522773e949edbfe
-#: ../../how-to-use/rest-api-node/transactions.rst:405
+# 695f268349724b14acd90108bd72cc09
+#: ../../how-to-use/rest-api-node/transactions.rst:403
 msgid "**105. ExecutedContractTransaction**"
 msgstr "**105. ExecutedContractTransaction**"
 
-# 98626b821bc54bbb982603076473b1de
-#: ../../how-to-use/rest-api-node/transactions.rst:443
+# a13db659e0b04e4382aaf171207cf5eb
+#: ../../how-to-use/rest-api-node/transactions.rst:441
 msgid "**106. DisableContractTransaction**"
 msgstr "**106. DisableContractTransaction**"
 
-# ebec6f5b9de240d3b28679c7ef379a81
-#: ../../how-to-use/rest-api-node/transactions.rst:478
+# 38db7988ca3f40d7b043ba3f335c36d8
+#: ../../how-to-use/rest-api-node/transactions.rst:476
 msgid "**110. GenesisRegisterNode**"
 msgstr "**110. GenesisRegisterNode**"
 
-# ebec6f5b9de240d3b28679c7ef379a81
-#: ../../how-to-use/rest-api-node/transactions.rst:511
+# c3e7620504ee4108aba6376ce853a74d
+#: ../../how-to-use/rest-api-node/transactions.rst:509
 msgid "**111. RegisterNode**"
 msgstr "**111. RegisterNode**"
 
-# 4d9286b4c24b43ea88f2e9772d35e00b
-#: ../../how-to-use/rest-api-node/transactions.rst:529
+# fe28c32b9dd64a0aa6a49cd471f3712a
+#: ../../how-to-use/rest-api-node/transactions.rst:527
 msgid "**112. CreatePolicy**"
 msgstr "**112. CreatePolicy**"
 
-# c264baa2062a4e85958026f9aaba9d62
-#: ../../how-to-use/rest-api-node/transactions.rst:546
+# 858718cc25cf4ed9bbee39a1c6f76e2e
+#: ../../how-to-use/rest-api-node/transactions.rst:544
 msgid "**113. UpdatePolicy**"
 msgstr "**113. UpdatePolicy**"
 
-# 80b9395d03fa4c9799fc0f60d6afd3c4
-#: ../../how-to-use/rest-api-node/transactions.rst:564
+# 4aa43821131742be9476bb8e71ebc4d2
+#: ../../how-to-use/rest-api-node/transactions.rst:562
 msgid "**114. PolicyDataHash**"
 msgstr "**114. PolicyDataHash**"
 
-# 4f479f76859d4648819f920dda319478
-#: ../../how-to-use/rest-api-node/transactions.rst:626
+# 2895049df80d4508b6228cdd29688d39
+#: ../../how-to-use/rest-api-node/transactions.rst:624
 msgid "POST /transactions/broadcast"
 msgstr "POST /transactions/broadcast"
 
-# 60aa52271c1a4de2912236fe658acc68
-#: ../../how-to-use/rest-api-node/transactions.rst:628
+# 4b1e4c2583b74e4585d4311f3cc757d8
+#: ../../how-to-use/rest-api-node/transactions.rst:626
 msgid "Отправляет подписанную транзакцию в блокчейн."
 msgstr "Sends a signed transaction to blockchain."
 
@@ -537,3 +526,11 @@ msgstr "Sends a signed transaction to blockchain."
 #~ msgstr ""
 #~ "Returns a list of transactions where {address} is specified as one of "
 #~ "addressees."
+
+# 700dd237c58d4d77ad288ff87005c986
+#~ msgid ""
+#~ "За один запрос через API **/transactions/...** Data service вовращает не "
+#~ "более 500 транзакций."
+#~ msgstr ""
+#~ "Data service does not return more than 500 records during the one request via "
+#~ "API **/transactions/...**."
