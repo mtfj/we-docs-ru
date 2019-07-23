@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 13:56+0300\n"
-"PO-Revision-Date: 2019-07-22 14:01+0300\n"
+"POT-Creation-Date: 2019-07-23 15:04+0300\n"
+"PO-Revision-Date: 2019-07-23 15:05+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -32,41 +32,52 @@ msgstr ""
 "The rules for generating queries to the node are given in module :ref:`rest-"
 "api-node`."
 
+# f64520d741c842c6961e8c5a89e4463a
+#: ../../how-to-use/rest-api-node/crypto.rst:8
+msgid ""
+"Метод ``crypto`` предоставляет возможность зашифрования/расшифрования "
+"текстовых данных транзакций при помощи сессионных ключей. Зашифрование "
+"текстовых данных может выполняться как индивидуально для каждого получателя по "
+"уникальному ключу, так и с применением единого ключа для всех получателей. "
+"Ограничение на размер данных при применении метода ``crypto`` - 165Кб."
+msgstr ""
+"The ``crypto`` method provides the ability to encrypt/decrypt transactions "
+"text data using session keys. The text data encryption can be performed either "
+"individually for each recipient using a unique key, or using a single key for "
+"all recipients. The data size limit is 165 Kbytes when using the ``crypto`` "
+"method."
+
 # 0c72f5cd73ed4749b98e78f0ed37d5f4
-#: ../../how-to-use/rest-api-node/crypto.rst:9
+#: ../../how-to-use/rest-api-node/crypto.rst:13
 msgid "POST /crypto/encryptSeparate"
 msgstr "POST /crypto/encryptSeparate"
 
 # 4a1e74af43d44e84b514e76248c98884
-#: ../../how-to-use/rest-api-node/crypto.rst:11
+#: ../../how-to-use/rest-api-node/crypto.rst:15
 msgid "Зашифровывает текст отдельно для каждого получателя уникальным ключом."
 msgstr "Encrypts the text separately for the each recipient with the unique key."
 
 # eb6abb4846774b41a1adb881401c4ecf
-# df38aebd464049faa592b51a7827c40c
-# a9ef2d0a1106490fada658920a6cc726
-#: ../../how-to-use/rest-api-node/crypto.rst:13
-#: ../../how-to-use/rest-api-node/crypto.rst:44
-#: ../../how-to-use/rest-api-node/crypto.rst:74
+#: ../../how-to-use/rest-api-node/crypto.rst:17
+#: ../../how-to-use/rest-api-node/crypto.rst:49
+#: ../../how-to-use/rest-api-node/crypto.rst:80
 msgid "**Запрос метода**"
 msgstr "**Method Query**"
 
 # 03430f3f700b48fe96b1f5a0a2fdf2a1
-# d1f7a397094d4f7ead7a7871897bc7b6
-# b1fcff5837234b03b4d176a10819b396
-#: ../../how-to-use/rest-api-node/crypto.rst:24
-#: ../../how-to-use/rest-api-node/crypto.rst:55
-#: ../../how-to-use/rest-api-node/crypto.rst:86
+#: ../../how-to-use/rest-api-node/crypto.rst:29
+#: ../../how-to-use/rest-api-node/crypto.rst:61
+#: ../../how-to-use/rest-api-node/crypto.rst:92
 msgid "**Пример ответа**"
 msgstr "**Method Response**"
 
 # 205cd85a7e0d4ac38d6c126ebdf76fc4
-#: ../../how-to-use/rest-api-node/crypto.rst:40
+#: ../../how-to-use/rest-api-node/crypto.rst:45
 msgid "POST /crypto/encryptCommon"
 msgstr "POST /crypto/encryptCommon"
 
 # 430615c230784c4db1a721ec41c019be
-#: ../../how-to-use/rest-api-node/crypto.rst:42
+#: ../../how-to-use/rest-api-node/crypto.rst:47
 msgid ""
 "Зашифровывает данные единым ключом CEK для всех получателей, CEK оборачивается "
 "уникальными KEK для каждого получателя."
@@ -75,12 +86,12 @@ msgstr ""
 "into a unique KEK for the each recipient."
 
 # f10f199714724917ba99ac2a8ca13d58
-#: ../../how-to-use/rest-api-node/crypto.rst:70
+#: ../../how-to-use/rest-api-node/crypto.rst:76
 msgid "POST /crypto/decrypt"
 msgstr "POST /crypto/decrypt"
 
 # 0bba5d8d89974abaa068cf2436ec9f7c
-#: ../../how-to-use/rest-api-node/crypto.rst:72
+#: ../../how-to-use/rest-api-node/crypto.rst:78
 msgid ""
 "Расшифровывает данные. Расшифровка доступна в случае, если ключ получателя "
 "сообщения находится в keystore ноды."

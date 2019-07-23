@@ -5,6 +5,10 @@ Crypto
 
 .. hint:: Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`.
 
+Метод ``crypto`` предоставляет возможность зашифрования/расшифрования текстовых данных транзакций при помощи сессионных ключей. Зашифрование текстовых данных может выполняться как индивидуально для каждого получателя по уникальному ключу, так и с применением единого ключа для всех получателей. Ограничение на размер данных при применении метода ``crypto`` - 165Кб.
+
+.. Метод ``crypto`` применяется для зашифрования любого вида текстовой информации, содержащейся в транзакциях, например, параметры Docker контрактов или данные из транзакций :ref:`Data Transaction <DataTransaction>`. Зашифрованные данные хранятся внутри транзакций в блокчейне.
+
 POST /crypto/encryptSeparate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -16,6 +20,7 @@ POST /crypto/encryptSeparate
 
    {
     "sender": "3MCUfX4P4U56hoQwSqXnLJenB6cDkxBjisL",
+    "password": "some string as a password",
     "encryptionText": "some text to encrypt",
     "recipientsPublicKeys": [ "5R65oLxp3iwPekwirA4VwwUXaySz6W6YKXBKBRL352pwwcpsFcjRHJ1VVHLp63LkrkxsNod64V1pffeiZz5i2qXc",
     "9LopMj2GqWxBYgnZ2gxaNxwXqxXHuWd6ZAdVqkprR1fFMNvDUHYUCwFxsB79B9sefgxNdqwNtqzuDS8Zmn48w3S"]
@@ -47,6 +52,7 @@ POST /crypto/encryptCommon
 
    {
     "sender": "3MCUfX4P4U56hoQwSqXnLJenB6cDkxBjisL",
+    "password": "some string as a password",
     "encryptionText": "some text to encrypt",
     "recipientsPublicKeys": [ "5R65oLxp3iwPekwirA4VwwUXaySz6W6YKXBKBRL352pwwcpsFcjRHJ1VVHLp63LkrkxsNod64V1pffeiZz5i2qXc",
     "9LopMj2GqWxBYgnZ2gxaNxwXqxXHuWd6ZAdVqkprR1fFMNvDUHYUCwFxsB79B9sefgxNdqwNtqzuDS8Zmn48w3S"]
@@ -77,7 +83,7 @@ POST /crypto/decrypt
 
    {
     "recipient": "3M5F8B1qxSY1W6kA2ZnQiDB4JTGz9W1jvQy",
-    "password": "3M5F8B1qxSY1W6kA2ZnQiDB4JTGz9W1jvQy",
+    "password": "some string as a password",
     "encryptedText": "oiKFJijfid8HkjsjdhKHhud987d",
     "wrappedKey": "M5F8B1qxSY1W6kA2ZnQiDB4JTGzA2ZnQiDB4JTGz9W1jvQy"
     "senderPublicKey": "M5F8B1qxSY1W6kA2ZnQiDB4JTGzA2ZnQiDB4JTGz9W1jvQy",
