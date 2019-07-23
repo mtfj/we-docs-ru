@@ -149,11 +149,11 @@ GET /privacy/getInfo/{hash}
       "policy": "4gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaC",
       "type": "file",
       "info": {
-        "filename":"Договор об оказании услуг №100/5.doc",
+        "filename":"Contract №100/5.doc",
         "size": "2048",
         "timestamp": 1000000000,
         "author": "AIvanov@org.com",
-        "comment": "Комментарий"
+        "comment": "Comment"
       },
     "hash": "e67ad392ab4d933f39d5723aeed96c18c491140e119d590103e7fd6de15623f1"
     }
@@ -173,4 +173,67 @@ POST /privacy/forceSync
     "result": "success" // or "error"
     "message": "Address '3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8' not in policy 'policyName'"
   }
+
+POST /privacy/getInfos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
+
+Запрос на возвращение массива мета-информации о приватных данных по предоставленным идентификатору группы и хешу данных.
+
+Пример запроса:
+
+.. code:: js
+
+   { "policiesDataHashes":
+     [
+      {
+       "policyId":"somepolicyId_1",
+       "datahashes":[ "datahash_1","datahash_2" ]
+      },
+      {
+        "policyId":"somepolicyId_2",
+        "datahashes":[ "datahash_3","datahash_4" ]
+      }
+     ]
+    }
+
+Ответ метода:
+
+.. code:: js
+
+  {
+   "policiesDataInfo":[
+      {
+         "policyId":"somepolicyId_1",
+         "datasInfo":[
+            {
+               "hash":"e67ad392ab4d933f39d5723aeed96c18c491140e119d590103e7fd6de15623f1",
+               "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+               "type":"file",
+               "info":{
+                  "filename":"Contract №100/5.doc",
+                  "size":"2048",
+                  "timestamp":1000000000,
+                  "author":"AIvanov@org.com",
+                  "comment":"Comment"
+               }
+            },
+            {
+               "hash":"e67ad392ab4d933f39d5723aeed96c18c491140e119d590103e7fd6de15623f1",
+               "sender":"3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
+               "type":"file",
+               "info":{
+                  "filename":"Contract №101/5.doc",
+                  "size":"2048",
+                  "timestamp":1000000000,
+                  "author":"AIvanov@org.com",
+                  "comment":"Comment"
+               }
+            }
+            }
+          ]
+      ]
+  }
+
 
