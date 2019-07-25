@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-06 16:54+0300\n"
-"PO-Revision-Date: 2019-06-06 16:55+0300\n"
+"POT-Creation-Date: 2019-07-24 17:14+0300\n"
+"PO-Revision-Date: 2019-07-25 10:18+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -19,12 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 5c965950e9714e6cbb16a428ff6bb736
+# 5e7b34fa14a24a7b897301f77c8d3fa1
 #: ../../how-the-platform-works/cryptography.rst:4
 msgid "Криптография"
 msgstr "Cryptography"
 
-# 89a85cecbcef404093ce673e62b1433d
+# d346f0081a49447db6dff0bd9189c9b5
 #: ../../how-the-platform-works/cryptography.rst:6
 msgid ""
 "Для обеспечения безопасности в платформе Vostok используются "
@@ -35,7 +35,7 @@ msgstr ""
 "algorithms complying with GOST requirements, as well as qualified "
 "electronic signatures."
 
-# 8c6051bcd5d747709a65ec2d090208da
+# fbc909116bc64676b6f42fc8c5d71bf4
 #: ../../how-the-platform-works/cryptography.rst:8
 msgid ""
 "Платформа предоставляет выбор используемой криптографии, которая "
@@ -44,7 +44,7 @@ msgstr ""
 "The platform provides a choice of cryptography to be used based on one "
 "of the standards:"
 
-# 30653666ceda4f4f8afaf42f43c61a84
+# d0c802c185664e44bc03c32205f9cb06
 #: ../../how-the-platform-works/cryptography.rst:10
 msgid ""
 "ГОСТ-криптография - для реализации проектов в государственных структурах "
@@ -53,7 +53,7 @@ msgstr ""
 "GOST-cryptography - for implementation of projects in government "
 "structures and departments;"
 
-# 1c36eaa6843946818e9be2de3ac10d77
+# 0971447caa0440dab3bfc251656c832f
 #: ../../how-the-platform-works/cryptography.rst:11
 msgid ""
 "Эллиптическая кривая Curve25519 - для проектов, в которых не требуется "
@@ -64,12 +64,12 @@ msgstr ""
 "compliance with GOST (commercial companies, organizations outside the "
 "Russian Federation)."
 
-# 43d15aff9d654c2d8f32d3072375d90c
+# 63648804f3454e50b47000eb29f66a7c
 #: ../../how-the-platform-works/cryptography.rst:14
 msgid "Предварительная обработка данных"
 msgstr "Data Pre-processing"
 
-# 15fed00a31914f02ad7ba6d21f2937cc
+# 4af37b4281804a18b552d4ac6312d551
 #: ../../how-the-platform-works/cryptography.rst:16
 msgid ""
 "Все байтовые последовательности перед операциями хеширования или "
@@ -78,7 +78,7 @@ msgstr ""
 "All byte sequences before hashing or signing operations are converted "
 "using Base58 or Base64 algorithm."
 
-# 6a944fed2e994940af56268982943a12
+# a7936ce2870043369587c40de7c96be1
 #: ../../how-the-platform-works/cryptography.rst:18
 msgid ""
 "Base64 — стандарт кодирования двоичных данных при помощи 64 символов "
@@ -91,7 +91,7 @@ msgstr ""
 "(62 characters) and 2 service symbols. Every 3 source bytes are encoded "
 "with 4 characters (¹ ⁄ ₃ magnification)."
 
-# fc1cb2b0f8384b9b9253b2dea1aea83a
+# 9eb47f23b6ec4b8182c454b2658efaa6
 #: ../../how-the-platform-works/cryptography.rst:20
 msgid ""
 "Base58 — вариант кодирования двоичных данных в виде буквенно-цифрового "
@@ -104,12 +104,12 @@ msgstr ""
 "characters used in Base64, such as 0, O, I, L, +,/ are excluded. It is "
 "used for data transmission in heterogeneous networks (transport coding)."
 
-# e8a23f0fda8743aaba8682d0dee27693
+# 5c2db17bd33145b59c39fe09ffbc764c
 #: ../../how-the-platform-works/cryptography.rst:25
 msgid "ГОСТ-криптография"
 msgstr "GOST-Cryptography"
 
-# 45cbe9a6d1a148f2af3b5d8ef899b378
+# fb0303d6875e4569ad2451f9ee09d2b2
 #: ../../how-the-platform-works/cryptography.rst:27
 msgid ""
 "Алгоритм хэширования реализован по ГОСТ Р 34.11 2012 \"Информационная "
@@ -121,7 +121,7 @@ msgstr ""
 "Hashing Function'. The Stribog function is used with 256 bits output "
 "blocks."
 
-# b23bc9e8d54441ffa1948d08be520755
+# 0d6962c021704d0fb31d91a5a42ca42b
 #: ../../how-the-platform-works/cryptography.rst:30
 msgid ""
 "Алгоритмы формирования и проверки ЭЦП реализованы по ГОСТ Р 34.10-2012 "
@@ -134,12 +134,12 @@ msgstr ""
 "Information. Electronic Digital Signature Generation and Verification "
 "Processes'. The key length is 256 bits."
 
-# 6b16ab47cbcd4e278315997b9f3ceda8
+# 2b9221e8326940b0b8f1088b7c80697b
 #: ../../how-the-platform-works/cryptography.rst:35
 msgid "Использование эллиптической кривой Curve25519 (криптография Waves)"
 msgstr "Using an elliptical curve Curve25519 (Waves cryptography)"
 
-# 96aba17b78d9484bb96bbf465737cf6a
+# 3b63dcad562f4b3e81cf10df0a2262c0
 #: ../../how-the-platform-works/cryptography.rst:37
 msgid ""
 "Алгоритм хэширования реализован последовательным хешированием функциями "
@@ -148,7 +148,7 @@ msgstr ""
 "The hashing algorithm is implemented by successive hashing functions "
 "Blake2b256 and Keccak256. The size of output blocks is 256 bits."
 
-# 29c668dbfd3e45a2b95244789a69fedc
+# 0a9f653c549b47bd9732d241bee6c288
 #: ../../how-the-platform-works/cryptography.rst:39
 msgid ""
 "Алгоритмы формирования и проверки ЭЦП реализованы на базе эллиптической "
@@ -157,3 +157,79 @@ msgstr ""
 "EDS generation and verification algorithms are implemented on the basis "
 "of elliptical curve Curve25519 (ED25519 with X25519 keys). The key "
 "length is 256 bits."
+
+# 014c01e65e164c03a27dc23989cba754
+#: ../../how-the-platform-works/cryptography.rst:44
+msgid "Зашифрование текстовых данных в транзакциях"
+msgstr "Encrypting text data in transactions"
+
+# e9151e0763dd416fbb3f8e8d724e78b1
+#: ../../how-the-platform-works/cryptography.rst:46
+msgid ""
+"Платформа Vostok предоставляет возможность зашифрования/расшифрования "
+"текстовых данных транзакций при помощи сессионных ключей. Опция "
+"применяется для зашифрования любого вида текстовой информации, "
+"содержащейся в транзакциях, например, параметры Docker контрактов или "
+"данные из транзакций :ref:`Data Transaction <DataTransaction>`. "
+"Зашифрованные данные хранятся внутри транзакций в блокчейне. "
+"Зашифрование текстовых данных может выполняться как индивидуально для "
+"каждого получателя по уникальному ключу, так и с применением единого "
+"ключа для всех получателей. Ограничение на размер зашифровываемых данных "
+"- 165Кб. Алгоритмы хеширования соответствуют выбранной схеме "
+"криптографии (ГОСТ или Waves)."
+msgstr ""
+"The Vostok platform allows to encrypt/decrypt the text data in "
+"transactions using the session keys."
+
+# 11c548c3ba634e47b6851422f07be312
+#: ../../how-the-platform-works/cryptography.rst:49
+msgid "Алгоритм зашифрования"
+msgstr ""
+
+# ce60c469b116445f8e3ab32fde501fd3
+#: ../../how-the-platform-works/cryptography.rst:51
+msgid ""
+"Для зашифрования/расшифрования данных применяются симметричные ключи CEK "
+"и KEK. CEK (Content Encryption Key) это ключ для зашифрования текстовых "
+"данных, KEK (Key Encryption Key) это ключ для зашифрования CEK."
+msgstr ""
+
+# 5d33155f27ec408abca05412c622c350
+#: ../../how-the-platform-works/cryptography.rst:53
+msgid ""
+"Нода использует метод :ref:`crypto <crypto>` для выполнения операций "
+"зашифрования/расшифрования текстовых данных, соблюдая следующий порядок "
+"действий:"
+msgstr ""
+
+# 43966593dd304fa895c43ce8dce09d21
+#: ../../how-the-platform-works/cryptography.rst:55
+msgid ""
+"Зашифрование текстовых данных производится нодой с применением ключа "
+"CEK, публичного ключа отправителя, пароля от keystore и публичных ключей "
+"получателей. Ключ CEK формируется нодой случайным образом с применением "
+"соответствующих алгоритмов хеширования."
+msgstr ""
+
+# d7b96d6e4c6d490385043639400d3d40
+#: ../../how-the-platform-works/cryptography.rst:57
+msgid ""
+"Ключ KEK формируется нодой, используя публичные и приватные ключи "
+"отправителя и получателей, и применяется для зашифровывания ключа CEK. "
+"Таким образом, для каждого получателя создаётся свой уникальный "
+"шифротекст с индивидуальным wrapedKey."
+msgstr ""
+
+# 0a3a6d8c235e426c889cc0effda151bb
+#: ../../how-the-platform-works/cryptography.rst:59
+msgid ""
+"Зашифрованные данные вместе с ключами wrapedKey кладутся в транзакцию, "
+"которая попадает в блокчейн."
+msgstr ""
+
+# eee01d65f6e6433c8a72bf4bcabdab27
+#: ../../how-the-platform-works/cryptography.rst:61
+msgid ""
+"Расшифрование текстовых данных транзакции выполняется нодой с "
+"использованием KEK и CEK ключей."
+msgstr ""
