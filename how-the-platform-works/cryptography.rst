@@ -71,7 +71,7 @@
 
 2. Для зашифровывания данных для всех получателей единым ключом CEK используется метод :ref:`POST /crypto/encryptCommon <encryptCommon>`. Укажите в JSON запросе параметры, аналогичные методу :ref:`POST /crypto/encryptSeparate <encryptSeparate>`.
 
-3. Для расшифровывания данных используется метод :ref:`POST /crypto/decrypt <decrypt>`. Укажите в в JSON запросе следующие параметры:
+3. Для расшифровывания данных используется метод :ref:`POST /crypto/decrypt <decrypt>`. Укажите в JSON запросе следующие параметры:
 
 * ``recipient`` - адрес получателя.
 * ``password`` - пароль от keystore ноды.
