@@ -7,6 +7,8 @@ Crypto
 
 Описание шифрования текстовых данных в транзакциях представлено в подразделе :ref:`Зашифрование текстовых данных в транзакциях <crypto-data-tx>`.
 
+.. _encryptSeparate:
+
 POST /crypto/encryptSeparate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -39,6 +41,8 @@ POST /crypto/encryptSeparate
     "wrappedKey": "LdzdoKadUzBTMwczGYgu1AM4YrbbLr9Uh1MvQ3MPcLZUhCD9herz4dv1m6ssaVHPiBNUGgqKnLZ6Si4Cc64UvhXBbG"
    }
 
+.. _encryptCommon:
+
 POST /crypto/encryptCommon
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -69,6 +73,8 @@ POST /crypto/encryptCommon
   "Doqn6gPvBBeSu2vdwgFYMbDHM4knEGMbqPn8Np76mNRRoZXLDioofyVbSSaTTEr4cvXwzEwVMugiy2wuzFWk3zCiT3"
    }
   }
+
+.. _decrypt:
 
 POST /crypto/decrypt
 ~~~~~~~~~~~~~~~~~~~~~~~

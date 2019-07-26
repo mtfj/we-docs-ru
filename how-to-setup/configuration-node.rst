@@ -180,6 +180,24 @@
 
 .. warning:: Для повышения безопасности рекомендуется генерировать различные значения ``api-key-hash`` и ``privacy-api-key-hash`` для доступа к REST API и для использования методов :ref:`privacy <privacy-api-access>`.
 
+11. При использовании методов :ref:`privacy <privacy-api>` активируйте функциональность и заполните блок ``privacy`` параметрами настройки БД для хранения конфиденциальных данных:
+
+    ::
+
+      privacy {
+        enable = false
+        url = "" # insert DB connection string here, example "jdbc:postgresql://db_hostname:5432/_____?user=_____________&password=____"
+        driver = "org.postgresql.Driver"
+        profile = "slick.jdbc.PostgresProfile$"
+        connectionPool = HikariCP
+        connectionTimeout = 5000
+        connectionTestQuery = "SELECT 1"
+        queueSize = 10000
+        numThreads = 10
+        schema = "public"
+        migration-dir = "db/migration"
+      }
+
 .. _rest-api-access:
 
 Доступ к REST API
