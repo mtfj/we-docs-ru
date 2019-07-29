@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-26 18:00+0300\n"
-"PO-Revision-Date: 2019-07-26 18:01+0300\n"
+"POT-Creation-Date: 2019-07-29 14:32+0300\n"
+"PO-Revision-Date: 2019-07-29 14:46+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -41,37 +41,70 @@ msgstr ""
 "The description of text data encryption is presented in the subsection :ref:"
 "`Encrypting text data in transactions <crypto-data-tx>`."
 
-# 0c72f5cd73ed4749b98e78f0ed37d5f4
+# 3d39878cc152419ab72357c554711e77
+#: ../../how-to-use/rest-api-node/crypto.rst:10
+msgid ""
+"Ноды версии **1.0** и ниже используют кодировку base58 для зашифрования/"
+"расшифрования текстовых данных. Начиная с версии **1.0.2**, используется "
+"кодировка base64. При наличии в сети нод разных версий используйте методы "
+"``crypto`` следующим образом:"
+msgstr ""
+"Nodes of the **1.0** version and below use base58 encoding to encrypt/decrypt "
+"text data. Starting from the **1.0.2** version the base64 encoding is used. If "
+"there are different versions of nodes in the network, use the ``crypto`` "
+"methods as follows:"
+
+# d42451e16a574fe8b9c015a02e954998
+#: ../../how-to-use/rest-api-node/crypto.rst:12
+msgid ""
+"Если данные принимаются от нод новых версий на ноде старой версии, то данные "
+"из строки ``encryptedText`` необходимо преобразовать из base64 в base58."
+msgstr ""
+"In case of accepting data from newer version nodes by the older version node "
+"you need to convert data from the ``encryptedText`` string from base64 to "
+"base58."
+
+# 4764c7c2970f4553887c8946e4ab068d
 #: ../../how-to-use/rest-api-node/crypto.rst:13
+msgid ""
+"Если данные принимаются от нод старых версий на ноде новой версии, то данные "
+"из строки ``encryptedText`` необходимо преобразовать из base58 в base64."
+msgstr ""
+"In case of accepting data from older version nodes by the newer version node "
+"you need to convert data from the ``encryptedText`` string from base58 to "
+"base64."
+
+# 0c72f5cd73ed4749b98e78f0ed37d5f4
+#: ../../how-to-use/rest-api-node/crypto.rst:18
 msgid "POST /crypto/encryptSeparate"
 msgstr "POST /crypto/encryptSeparate"
 
 # 4a1e74af43d44e84b514e76248c98884
-#: ../../how-to-use/rest-api-node/crypto.rst:15
+#: ../../how-to-use/rest-api-node/crypto.rst:20
 msgid "Зашифровывает текст отдельно для каждого получателя уникальным ключом."
 msgstr "Encrypts the text separately for the each recipient with the unique key."
 
 # eb6abb4846774b41a1adb881401c4ecf
-#: ../../how-to-use/rest-api-node/crypto.rst:17
-#: ../../how-to-use/rest-api-node/crypto.rst:51
-#: ../../how-to-use/rest-api-node/crypto.rst:84
+#: ../../how-to-use/rest-api-node/crypto.rst:22
+#: ../../how-to-use/rest-api-node/crypto.rst:56
+#: ../../how-to-use/rest-api-node/crypto.rst:89
 msgid "**Запрос метода**"
 msgstr "**Method Query**"
 
 # 03430f3f700b48fe96b1f5a0a2fdf2a1
-#: ../../how-to-use/rest-api-node/crypto.rst:29
-#: ../../how-to-use/rest-api-node/crypto.rst:63
-#: ../../how-to-use/rest-api-node/crypto.rst:96
+#: ../../how-to-use/rest-api-node/crypto.rst:34
+#: ../../how-to-use/rest-api-node/crypto.rst:68
+#: ../../how-to-use/rest-api-node/crypto.rst:101
 msgid "**Пример ответа**"
 msgstr "**Method Response**"
 
 # 205cd85a7e0d4ac38d6c126ebdf76fc4
-#: ../../how-to-use/rest-api-node/crypto.rst:47
+#: ../../how-to-use/rest-api-node/crypto.rst:52
 msgid "POST /crypto/encryptCommon"
 msgstr "POST /crypto/encryptCommon"
 
 # 430615c230784c4db1a721ec41c019be
-#: ../../how-to-use/rest-api-node/crypto.rst:49
+#: ../../how-to-use/rest-api-node/crypto.rst:54
 msgid ""
 "Зашифровывает данные единым ключом CEK для всех получателей, CEK оборачивается "
 "уникальными KEK для каждого получателя."
@@ -80,12 +113,12 @@ msgstr ""
 "into a unique KEK for the each recipient."
 
 # f10f199714724917ba99ac2a8ca13d58
-#: ../../how-to-use/rest-api-node/crypto.rst:80
+#: ../../how-to-use/rest-api-node/crypto.rst:85
 msgid "POST /crypto/decrypt"
 msgstr "POST /crypto/decrypt"
 
 # 0bba5d8d89974abaa068cf2436ec9f7c
-#: ../../how-to-use/rest-api-node/crypto.rst:82
+#: ../../how-to-use/rest-api-node/crypto.rst:87
 msgid ""
 "Расшифровывает данные. Расшифровка доступна в случае, если ключ получателя "
 "сообщения находится в keystore ноды."

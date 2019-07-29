@@ -185,7 +185,7 @@
     ::
 
       privacy {
-        enable = false
+        enable = true
         url = "" # insert DB connection string here, example "jdbc:postgresql://db_hostname:5432/_____?user=_____________&password=____"
         driver = "org.postgresql.Driver"
         profile = "slick.jdbc.PostgresProfile$"
