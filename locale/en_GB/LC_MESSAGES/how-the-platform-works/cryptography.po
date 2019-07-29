@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-26 18:01+0300\n"
-"PO-Revision-Date: 2019-07-26 18:02+0300\n"
+"POT-Creation-Date: 2019-07-29 10:17+0300\n"
+"PO-Revision-Date: 2019-07-29 10:24+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -244,12 +244,14 @@ msgstr ""
 msgid "``sender`` - адрес отправителя."
 msgstr "``sender`` - the sender address."
 
-# a133c564e90749a09658960363a5116e
-# 8946096d3ff84089b64a829d3a3245a1
+# ca140ebd7f714d378bdedd3a4d1dbdab
 #: ../../how-the-platform-works/cryptography.rst:68
-#: ../../how-the-platform-works/cryptography.rst:77
-msgid "``password`` - пароль от keystore ноды."
-msgstr "``password`` - the node keystore password."
+msgid ""
+"``password`` - пароль от ключевой пары отправителя, создаваемый вместе с "
+"аккаунтом."
+msgstr ""
+"``password`` - a key pair password of the sender, which is generated at the "
+"same time as the account itself."
 
 # 78cdf557b88e460cab1a33b36baedc16
 #: ../../how-the-platform-works/cryptography.rst:69
@@ -288,6 +290,15 @@ msgstr ""
 #: ../../how-the-platform-works/cryptography.rst:76
 msgid "``recipient`` - адрес получателя."
 msgstr "``recipient`` - the recipient address."
+
+# ae20ecc9fe784b5fb5e6e5033454765b
+#: ../../how-the-platform-works/cryptography.rst:77
+msgid ""
+"``password`` - пароль от ключевой пары получателя, создаваемый вместе с "
+"аккаунтом."
+msgstr ""
+"``password`` - a key pair password of the recipient, which is generated at "
+"the same time as the account itself."
 
 # 225acc3933d94d7b8d0a805ff17b8668
 #: ../../how-the-platform-works/cryptography.rst:78
@@ -368,3 +379,8 @@ msgstr "``senderPublicKey`` - the sender public key."
 #~ msgstr ""
 #~ "The decryption of the transaction text data is performed by the node using "
 #~ "the KEK and CEK keys in the reverse encryption process."
+
+# a133c564e90749a09658960363a5116e
+# 8946096d3ff84089b64a829d3a3245a1
+#~ msgid "``password`` - пароль от keystore ноды."
+#~ msgstr "``password`` - the node keystore password."
