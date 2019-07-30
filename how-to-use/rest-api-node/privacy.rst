@@ -49,7 +49,7 @@ GET /privacy/{policy-id}/recipients
 
 Получение адресов всех участников, записанных в группу {policy-id}.
 
-Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-policy/recipients
+.. Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-policy/recipients
 
 Ответ метода:
 
@@ -110,7 +110,7 @@ GET /privacy/{policy-id}/hashes
 
 Получение массива идентификационный хешей, которые записаны в привязке к {policy-id}.
 
-Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-policy/getHashes
+.. Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-policy/getHashes
 
 Ответ метода:
 
@@ -128,8 +128,14 @@ GET /privacy/getData/{policy-item-hash}
 
 Получение пакета конфиденциальных данных по идентификационному хешу.
 
-Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
+.. Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
 
+Ответ метода:
+
+.. code:: js
+
+    c29tZV9iYXNlNjRfZW5jb2RlZF9zdHJpbmc=
+    
 
 GET /privacy/getInfo/{policy-item-hash}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -138,7 +144,7 @@ GET /privacy/getInfo/{policy-item-hash}
 
 Получение метаданных для пакета конфиденциальных данных по идентификационному хешу.
 
-Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
+.. Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
 
 Ответ метода:
 

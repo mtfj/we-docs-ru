@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-30 15:01+0300\n"
-"PO-Revision-Date: 2019-07-30 15:01+0300\n"
+"POT-Creation-Date: 2019-07-30 17:59+0300\n"
+"PO-Revision-Date: 2019-07-30 17:59+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
@@ -104,27 +104,15 @@ msgstr ""
 "Getting all addresses of participants, signed to the access group {policy-"
 "id}."
 
-# f26f3f6e09e54e9e8a64627f0208e169
-#: ../../how-to-use/rest-api-node/privacy.rst:52
-msgid ""
-"Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
-"policy/recipients"
-msgstr ""
-"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
-"policy/recipients"
-
 # e19f236f3e4f4c4b87f12673d078c3e6
-# e359245046c04d20a4ab4b3edccd3ea1
-# d2f8a7cd85eb4b8ebf589ee7a056402f
 # 06339dea716c41dd9c2cc518625aac7f
-# 38e4d80a52de496ca38913ac804c6c17
-# c93d312d78924b54a769d8116dfe1078
 #: ../../how-to-use/rest-api-node/privacy.rst:54
 #: ../../how-to-use/rest-api-node/privacy.rst:68
 #: ../../how-to-use/rest-api-node/privacy.rst:115
-#: ../../how-to-use/rest-api-node/privacy.rst:143
-#: ../../how-to-use/rest-api-node/privacy.rst:168
-#: ../../how-to-use/rest-api-node/privacy.rst:201
+#: ../../how-to-use/rest-api-node/privacy.rst:133
+#: ../../how-to-use/rest-api-node/privacy.rst:149
+#: ../../how-to-use/rest-api-node/privacy.rst:174
+#: ../../how-to-use/rest-api-node/privacy.rst:207
 msgid "Ответ метода:"
 msgstr "Method answer:"
 
@@ -154,15 +142,6 @@ msgstr ""
 "Getting the array of identified hashes which are written with association "
 "to the {policy-id}."
 
-# cba9fcf5cae44d8a901fcf8685458eb8
-#: ../../how-to-use/rest-api-node/privacy.rst:113
-msgid ""
-"Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
-"policy/getHashes"
-msgstr ""
-"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
-"policy/getHashes"
-
 # 0a20475f3be444b798b0684d64685aa1
 #: ../../how-to-use/rest-api-node/privacy.rst:125
 msgid "GET /privacy/getData/{policy-item-hash}"
@@ -173,22 +152,13 @@ msgstr "GET /privacy/getData/{policy-item-hash}"
 msgid "Получение пакета конфиденциальных данных по идентификационному хешу."
 msgstr "Getting the confidential data package by its identified hash."
 
-# 8700428d9efc444d8ccdb6358271f106
-#: ../../how-to-use/rest-api-node/privacy.rst:131
-msgid ""
-"Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/"
-"NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
-msgstr ""
-"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/"
-"NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
-
 # 5dce1cd8186c45008e0122b5ec5d4ce8
-#: ../../how-to-use/rest-api-node/privacy.rst:135
+#: ../../how-to-use/rest-api-node/privacy.rst:141
 msgid "GET /privacy/getInfo/{policy-item-hash}"
 msgstr "GET /privacy/getInfo/{policy-item-hash}"
 
 # f2de3b433ac742c2911e23562c6303c9
-#: ../../how-to-use/rest-api-node/privacy.rst:139
+#: ../../how-to-use/rest-api-node/privacy.rst:145
 msgid ""
 "Получение метаданных для пакета конфиденциальных данных по "
 "идентификационному хешу."
@@ -196,32 +166,23 @@ msgstr ""
 "Getting the metadata for the confidential data package by the identified "
 "hash."
 
-# 1da6a76a8fa6426a9476ba213482877c
-#: ../../how-to-use/rest-api-node/privacy.rst:141
-msgid ""
-"Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/"
-"NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
-msgstr ""
-"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/getinfo/"
-"NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
-
 # 1e79c2ad588c4cae805b2a3e8b4e5356
-#: ../../how-to-use/rest-api-node/privacy.rst:162
+#: ../../how-to-use/rest-api-node/privacy.rst:168
 msgid "POST /privacy/forceSync"
 msgstr "POST /privacy/forceSync"
 
 # f98943a9caac4257950d5724c934c232
-#: ../../how-to-use/rest-api-node/privacy.rst:166
+#: ../../how-to-use/rest-api-node/privacy.rst:172
 msgid "Запрос на принудительное получение пакета конфиденциальных данных."
 msgstr "Forced getting the confidential data package by the identified hash."
 
 # 3c0139f7d94b4202b75451cef1632dc7
-#: ../../how-to-use/rest-api-node/privacy.rst:178
+#: ../../how-to-use/rest-api-node/privacy.rst:184
 msgid "POST /privacy/getInfos"
 msgstr "POST /privacy/getInfos"
 
 # ffd58798237348c48882af39f0cd5afd
-#: ../../how-to-use/rest-api-node/privacy.rst:182
+#: ../../how-to-use/rest-api-node/privacy.rst:188
 msgid ""
 "Запрос на возвращение массива мета-информации о приватных данных по "
 "предоставленным идентификатору группы и хешу данных."
@@ -230,7 +191,7 @@ msgstr ""
 "provided group ID and data hash."
 
 # de27af4f488a492cadc38ce17792c36b
-#: ../../how-to-use/rest-api-node/privacy.rst:184
+#: ../../how-to-use/rest-api-node/privacy.rst:190
 msgid "Пример запроса:"
 msgstr "Request example:"
 
@@ -267,3 +228,35 @@ msgstr "Request example:"
 #~ msgstr ""
 #~ "Getting the confidential data package by the identified hash. The "
 #~ "request must be protected by the authorization."
+
+# f26f3f6e09e54e9e8a64627f0208e169
+#~ msgid ""
+#~ "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
+#~ "policy/recipients"
+#~ msgstr ""
+#~ "Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
+#~ "policy/recipients"
+
+# cba9fcf5cae44d8a901fcf8685458eb8
+#~ msgid ""
+#~ "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
+#~ "policy/getHashes"
+#~ msgstr ""
+#~ "Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/rusal-"
+#~ "policy/getHashes"
+
+# 8700428d9efc444d8ccdb6358271f106
+#~ msgid ""
+#~ "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+#~ "getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
+#~ msgstr ""
+#~ "Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+#~ "getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
+
+# 1da6a76a8fa6426a9476ba213482877c
+#~ msgid ""
+#~ "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+#~ "getinfo/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
+#~ msgstr ""
+#~ "Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+#~ "getinfo/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg"
