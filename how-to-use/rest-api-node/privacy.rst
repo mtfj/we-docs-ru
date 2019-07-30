@@ -121,8 +121,8 @@ GET /privacy/{policy-id}/hashes
     "eedfdNBVqYXrapgJP9atQccdBPAgJPwHDKkh6A"
     ]
 
-GET /privacy/getData/{hash}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GET /privacy/getData/{policy-item-hash}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
@@ -131,8 +131,8 @@ GET /privacy/getData/{hash}
 Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/getdata/NBVqYXrapgJP9atQccdBPAgJPwHapgJP9atQccdBPAg
 
 
-GET /privacy/getInfo/{hash}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GET /privacy/getInfo/{policy-item-hash}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 16:02+0300\n"
-"PO-Revision-Date: 2019-07-23 16:07+0300\n"
+"POT-Creation-Date: 2019-07-30 15:01+0300\n"
+"PO-Revision-Date: 2019-07-30 15:01+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -165,8 +165,8 @@ msgstr ""
 
 # 0a20475f3be444b798b0684d64685aa1
 #: ../../how-to-use/rest-api-node/privacy.rst:125
-msgid "GET /privacy/getData/{hash}"
-msgstr "GET /privacy/getData/{hash}"
+msgid "GET /privacy/getData/{policy-item-hash}"
+msgstr "GET /privacy/getData/{policy-item-hash}"
 
 # 01fdbc6ac73743e9abe855d5f9b4b0eb
 #: ../../how-to-use/rest-api-node/privacy.rst:129
@@ -184,8 +184,8 @@ msgstr ""
 
 # 5dce1cd8186c45008e0122b5ec5d4ce8
 #: ../../how-to-use/rest-api-node/privacy.rst:135
-msgid "GET /privacy/getInfo/{hash}"
-msgstr "GET /privacy/getInfo/{hash}"
+msgid "GET /privacy/getInfo/{policy-item-hash}"
+msgstr "GET /privacy/getInfo/{policy-item-hash}"
 
 # f2de3b433ac742c2911e23562c6303c9
 #: ../../how-to-use/rest-api-node/privacy.rst:139

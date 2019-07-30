@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-15 15:40+0300\n"
-"PO-Revision-Date: 2019-07-16 14:45+0300\n"
+"POT-Creation-Date: 2019-07-30 15:01+0300\n"
+"PO-Revision-Date: 2019-07-30 15:02+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -516,10 +516,12 @@ msgstr "``known-peers`` - a list of IP addresses of well known nodes."
 
 # 9e058f4bda104e0db50321b2c6cb8bb8
 #: ../../how-to-setup/config-description.rst:108
-msgid "``declared-address`` - сетевой адрес ноды вместе с номером порта."
+msgid ""
+"``declared-address`` - сетевой адрес ноды вместе с номером порта для процедуры "
+"handshake."
 msgstr ""
 "``declared-address`` - a string with IP address and port to send as external "
-"address during handshake."
+"address during the handshake."
 
 # 0e525da4fa5247f28da645e0a8e3fa75
 #: ../../how-to-setup/config-description.rst:109
