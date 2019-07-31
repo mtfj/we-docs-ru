@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 12:36+0300\n"
-"PO-Revision-Date: 2019-07-31 12:39+0300\n"
+"POT-Creation-Date: 2019-07-31 14:15+0300\n"
+"PO-Revision-Date: 2019-07-31 14:16+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -383,21 +383,21 @@ msgstr ""
 
 # 8c7755ca01c24658a13b9659fc90b457
 #: ../../how-to-setup/configuration-node.rst:112
-msgid "Укажите общий баланс активов сети:"
-msgstr "Specify the total balance of network assets:"
+msgid "Укажите в блоке ``genesis`` общий баланс активов сети:"
+msgstr "Specify the total balance of network assets in the ``genesis`` unit:"
 
 # e58538d8a39344fb952337a09fdaa109
 #: ../../how-to-setup/configuration-node.rst:119
 msgid ""
-"Необходимо проверить значения полей ``timestamp`` и ``block-timestamp``. Время "
-"указывается в миллисекундах, значение должно состоять из 13 цифр. Если вы берёте "
-"стандартное значение ``timpstamp``, состоящее из 10 цифр, то в конце необходимо "
-"добавить три любые цифры."
+"Необходимо проверить значения полей ``timestamp`` и ``block-timestamp`` блока "
+"``genesis``. Время указывается в миллисекундах, значение должно состоять из 13 "
+"цифр. Если вы берёте стандартное значение ``timpstamp``, состоящее из 10 цифр, "
+"то в конце необходимо добавить три любые цифры."
 msgstr ""
-"You need to check the ``timestamp`` and ``block-timestamp`` fields. The time is "
-"specified in milliseconds and the value must consist of 13 digits. If you "
-"specify the standard value ``timestamp`` consisting of 10 digits, then you need "
-"to add any three digits at the end."
+"You need to check the ``timestamp`` and ``block-timestamp`` fields of the "
+"``genesis`` unit. The time is specified in milliseconds and the value must "
+"consist of 13 digits. If you specify the standard value ``timestamp`` consisting "
+"of 10 digits, then you need to add any three digits at the end."
 
 # 4ae19df46f3449a2bbc7fb12726b9052
 #: ../../how-to-setup/configuration-node.rst:121
