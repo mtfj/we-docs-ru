@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-30 15:01+0300\n"
-"PO-Revision-Date: 2019-07-30 15:02+0300\n"
+"POT-Creation-Date: 2019-07-31 11:46+0300\n"
+"PO-Revision-Date: 2019-07-31 12:36+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -421,15 +421,31 @@ msgstr "``average-block-delay`` - an average delay between the blocks creation."
 msgid "``initial-base-target`` -"
 msgstr "``initial-base-target`` -"
 
-# fb1bb32efd7144ee9cc951d197d26fce
+# 801e1ad09bc3444abd30c3c27ac9e2e0
 #: ../../how-to-setup/config-description.rst:87
-msgid "``timestamp`` - числовой код даты и времени."
-msgstr "``timestamp`` - a timestamp of genesis block."
+msgid ""
+"``timestamp`` - числовой код даты и времени. Время указывается в миллисекундах, "
+"значение должно состоять из 13 цифр. Если вы берёте стандартное значение "
+"``timpstamp``, состоящее из 10 цифр, то в конце необходимо добавить три любые "
+"цифры."
+msgstr ""
+"``timestamp`` - a time and data code. The time is specified in milliseconds and "
+"the value must consist of 13 digits. If you specify the standard value "
+"``timestamp`` consisting of 10 digits, then you need to add any three digits at "
+"the end."
 
-# d677a80ef40c44c6ae77059882d95a43
+# 3d61f19e88cf4ac9af3ca0f422082e9a
 #: ../../how-to-setup/config-description.rst:88
-msgid "``block-timestamp`` -"
-msgstr "``block-timestamp`` -"
+msgid ""
+"``block-timestamp`` - числовой код даты и времени. Время указывается в "
+"миллисекундах, значение должно состоять из 13 цифр. Если вы берёте стандартное "
+"значение ``timpstamp``, состоящее из 10 цифр, то в конце необходимо добавить три "
+"любые цифры."
+msgstr ""
+"``block-timestamp`` - a time and data code. The time is specified in "
+"milliseconds and the value must consist of 13 digits. If you specify the "
+"standard value ``timestamp`` consisting of 10 digits, then you need to add any "
+"three digits at the end."
 
 # 70523afdddc9410aa92f3e025f717c44
 #: ../../how-to-setup/config-description.rst:89
@@ -1307,3 +1323,11 @@ msgstr "``schema`` - an interaction scheme."
 #: ../../how-to-setup/config-description.rst:306
 msgid "``migration-dir`` - директория для миграции данных."
 msgstr "``migration-dir`` - a path to the data migration directory."
+
+# fb1bb32efd7144ee9cc951d197d26fce
+#~ msgid "``timestamp`` - числовой код даты и времени."
+#~ msgstr "``timestamp`` - a timestamp of genesis block."
+
+# d677a80ef40c44c6ae77059882d95a43
+#~ msgid "``block-timestamp`` -"
+#~ msgstr "``block-timestamp`` -"

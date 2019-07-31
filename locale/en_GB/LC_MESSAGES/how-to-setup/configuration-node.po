@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-26 17:34+0300\n"
-"PO-Revision-Date: 2019-07-26 17:54+0300\n"
+"POT-Creation-Date: 2019-07-31 12:36+0300\n"
+"PO-Revision-Date: 2019-07-31 12:39+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -106,7 +106,7 @@ msgstr "The description of the configuration file parameters is represented belo
 # ec50b409751f45d9b1e38c4d9cd57a63
 # ebb4b6fc522e4335bebee6661508467e
 #: ../../how-to-setup/configuration-node.rst:39
-#: ../../how-to-setup/configuration-node.rst:225
+#: ../../how-to-setup/configuration-node.rst:236
 msgid ""
 "waves-crypto – выбор криптографического алгоритма (\"yes\" - использовать "
 "криптографию :ref:`Waves <crypto-waves>`, \"no\" - использовать :ref:`ГОСТ-"
@@ -348,8 +348,30 @@ msgstr ""
 "3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; public key: "
 "6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``"
 
-# f8822e98b42b4810bc1e4e522dd8c317
+# 37eba883988746d985c01ef99321f6b1
 #: ../../how-to-setup/configuration-node.rst:97
+msgid ""
+"Укажите адреса домашней директории и директории для хранения данных блокчейна в "
+"соответствующих полях:"
+msgstr ""
+"Specify the addresses of the home directory and blockchain storage directory in "
+"the corresponding fields:"
+
+# 2473790e329f436d9f0d193ed6519e3e
+#: ../../how-to-setup/configuration-node.rst:104
+msgid ""
+"Если нода ранее работала с другой сетью блокчейна Vostok, то удалить данные из "
+"папки, указанной в параметре ``data-directory`` (по умолчанию, для ОС Ubuntu "
+"используется путь ``${user.home}/vostok``, для ОС Windows используется путь ``C:"
+"\\Users\\<username>\\vostok``)."
+msgstr ""
+"If the node previously was part of another Vostok's blockchain network, delete "
+"the data from the folder specified in parameter \"data-directory\" (by default, "
+"the path ``${user.home}/vostok`` is used for Ubuntu OS; for Windows path ``C:"
+"\\Users\\<username>\\vostok``) is used."
+
+# f8822e98b42b4810bc1e4e522dd8c317
+#: ../../how-to-setup/configuration-node.rst:106
 msgid ""
 "Укажите байт сети, с которым генерировались адреса участников сети (параметр "
 "``chain-id`` в accounts.conf). Байт сети для \"Vostok Mainnet\" - ``V``, для "
@@ -360,12 +382,25 @@ msgstr ""
 "the \"Vostok Mainnet\" - ``V``, for the \"Vostok Partnernet\" - ``P``."
 
 # 8c7755ca01c24658a13b9659fc90b457
-#: ../../how-to-setup/configuration-node.rst:103
+#: ../../how-to-setup/configuration-node.rst:112
 msgid "Укажите общий баланс активов сети:"
 msgstr "Specify the total balance of network assets:"
 
+# e58538d8a39344fb952337a09fdaa109
+#: ../../how-to-setup/configuration-node.rst:119
+msgid ""
+"Необходимо проверить значения полей ``timestamp`` и ``block-timestamp``. Время "
+"указывается в миллисекундах, значение должно состоять из 13 цифр. Если вы берёте "
+"стандартное значение ``timpstamp``, состоящее из 10 цифр, то в конце необходимо "
+"добавить три любые цифры."
+msgstr ""
+"You need to check the ``timestamp`` and ``block-timestamp`` fields. The time is "
+"specified in milliseconds and the value must consist of 13 digits. If you "
+"specify the standard value ``timestamp`` consisting of 10 digits, then you need "
+"to add any three digits at the end."
+
 # 4ae19df46f3449a2bbc7fb12726b9052
-#: ../../how-to-setup/configuration-node.rst:110
+#: ../../how-to-setup/configuration-node.rst:121
 msgid ""
 "Укажите :ref:`адреса участников <address-creation>` – владельцев начального "
 "баланса сети:"
@@ -374,7 +409,7 @@ msgstr ""
 "network balance:"
 
 # c450f635930d4853a2a287840c1f700e
-#: ../../how-to-setup/configuration-node.rst:117
+#: ../../how-to-setup/configuration-node.rst:128
 msgid ""
 "Укажите :ref:`публичные ключи участников сети <address-creation>` в блоке "
 "``network-participants`` в том же порядке, как были указаны адреса участников:"
@@ -384,22 +419,22 @@ msgstr ""
 "participant addresses:"
 
 # fbf9d90d935a4fc9b3a89a4b02406f2f
-#: ../../how-to-setup/configuration-node.rst:127
+#: ../../how-to-setup/configuration-node.rst:138
 msgid "Укажите владельца ноды в параметре ``owner-address``:"
 msgstr "Specify the node owner in the ``owner-address`` parameter:"
 
 # e517e8adcdfa4a8d871178c7a868a5f9
-#: ../../how-to-setup/configuration-node.rst:133
+#: ../../how-to-setup/configuration-node.rst:144
 msgid "Владелец ноды должен иметь положительный баланс и набор ролей."
 msgstr "The node owner must have a positive balance and a set of roles."
 
 # 12d722b862a54d0e980d699297f2e007
-#: ../../how-to-setup/configuration-node.rst:137
+#: ../../how-to-setup/configuration-node.rst:148
 msgid "Укажите сетевые параметры настраиваемой ноды:"
 msgstr "Specify network settings of customizable node:"
 
 # 3c2fe0afb38748a29970b78c59d9f45f
-#: ../../how-to-setup/configuration-node.rst:147
+#: ../../how-to-setup/configuration-node.rst:158
 msgid "Укажите сетевые адреса (hostname) нод, которые будут подключены к сети:"
 msgstr ""
 "Specify network addresses (hostnames) for nodes which will be connected to the "
@@ -415,7 +450,7 @@ msgstr ""
 "permissible to specify the empty value ``known-peers = [ ]``"
 
 # 6c26ca22578d476fa336a7fe01d6cff8
-#: ../../how-to-setup/configuration-node.rst:157
+#: ../../how-to-setup/configuration-node.rst:168
 msgid ""
 "Укажите путь и пароль от keystore - места хранения закрытых ключей участников "
 "сети, созданных на ноде (параметры ``wallet``, ``wallet-password`` в accounts."
@@ -431,7 +466,7 @@ msgstr ""
 "keystore/``):"
 
 # 92a3a74d894a474abeac02fbcffca186
-#: ../../how-to-setup/configuration-node.rst:168
+#: ../../how-to-setup/configuration-node.rst:179
 msgid ""
 "Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды, а также хеш "
 "для доступа к методам :ref:`privacy <privacy-api>`: ``POST /privacy/sendData``, "
@@ -444,7 +479,7 @@ msgstr ""
 "getInfo/{policy-item-hash}``:"
 
 # 4710ca624444428cb9c9944d2fd07979
-#: ../../how-to-setup/configuration-node.rst:181
+#: ../../how-to-setup/configuration-node.rst:192
 msgid ""
 "Для повышения безопасности рекомендуется генерировать различные значения ``api-"
 "key-hash`` и ``privacy-api-key-hash`` для доступа к REST API и для использования "
@@ -454,7 +489,7 @@ msgstr ""
 "values for the REST API and privacy access to provide more security."
 
 # c942623f679f4ef79d0e7ee288bc712e
-#: ../../how-to-setup/configuration-node.rst:183
+#: ../../how-to-setup/configuration-node.rst:194
 msgid ""
 "При использовании методов :ref:`privacy <privacy-api>` активируйте "
 "функциональность и заполните блок ``privacy`` параметрами настройки БД для "
@@ -464,12 +499,12 @@ msgstr ""
 "in the ``privacy`` block with database settings for storing the private data:"
 
 # 12522b4c8fe0418ead3937418ef51e95
-#: ../../how-to-setup/configuration-node.rst:204
+#: ../../how-to-setup/configuration-node.rst:215
 msgid "Доступ к REST API"
 msgstr "The REST API access"
 
 # cbcfd479fa524f91b2fe0d5d671369a8
-#: ../../how-to-setup/configuration-node.rst:206
+#: ../../how-to-setup/configuration-node.rst:217
 msgid ""
 "Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/"
 "Vostok-Releases/releases>`_, создайте ``api-key-hash`` для доступа к REST API "
@@ -484,7 +519,7 @@ msgstr ""
 "hash``. Use the following command to run the generator:"
 
 # b76b07cae52047d3b878eb71f4aa4056
-#: ../../how-to-setup/configuration-node.rst:212
+#: ../../how-to-setup/configuration-node.rst:223
 msgid ""
 "Полученное в результате исполнения утилиты значение указать в параметре ``api-"
 "key-hash`` конфигурационного файла ноды."
@@ -493,12 +528,12 @@ msgstr ""
 "``api-key-hash`` in the node configuration file."
 
 # 830abf02c1414eb38a197c9eb70b009c
-#: ../../how-to-setup/configuration-node.rst:223
+#: ../../how-to-setup/configuration-node.rst:234
 msgid "**Описание параметров:**"
 msgstr "**The parameters description:**"
 
 # c428b6071a0c4f8aac99905bf131ba63
-#: ../../how-to-setup/configuration-node.rst:226
+#: ../../how-to-setup/configuration-node.rst:237
 msgid ""
 "api-key – ключ, который необходимо придумать. Значение данного ключа потребуется "
 "указать в запросах к REST API ноды (подробнее на странице :ref:`REST API ноды "
@@ -509,12 +544,12 @@ msgstr ""
 "API <rest-api-node>`)."
 
 # 2d284df126c5443e905d7b327512ade1
-#: ../../how-to-setup/configuration-node.rst:231
+#: ../../how-to-setup/configuration-node.rst:242
 msgid "Доступ к методам privacy"
 msgstr "The privacy methods access"
 
 # 1f749f8788974cd4aa070233ea883d12
-#: ../../how-to-setup/configuration-node.rst:233
+#: ../../how-to-setup/configuration-node.rst:244
 msgid ""
 "Используя утилиту `generators-x.x.x.jar <https://github.com/vostokplatform/"
 "Vostok-Releases/releases>`_, создайте ``privacy-api-key-hash`` для доступа к "
@@ -531,7 +566,7 @@ msgstr ""
 "following command to run the generator:"
 
 # 715bbb084e3c4c01b1c397459def514a
-#: ../../how-to-setup/configuration-node.rst:239
+#: ../../how-to-setup/configuration-node.rst:250
 msgid ""
 "Полученное в результате исполнения утилиты значение указать в параметре "
 "``privacy-api-key-hash`` конфигурационного файла ноды."
@@ -540,12 +575,12 @@ msgstr ""
 "``privacy-api-key-hash`` in the node configuration file."
 
 # 6e075af0dcf948e086aa617eecfa91c4
-#: ../../how-to-setup/configuration-node.rst:244
+#: ../../how-to-setup/configuration-node.rst:255
 msgid "Подписание genesis-блока"
 msgstr "Signing the genesis block"
 
 # fbcfe7c4f6b64b8b827608c7e628efb0
-#: ../../how-to-setup/configuration-node.rst:246
+#: ../../how-to-setup/configuration-node.rst:257
 msgid ""
 "Подпишите genesis-блок утилитой `generators-x.x.x.jar <https://github.com/"
 "vostokplatform/Vostok-Releases/releases>`_. Команда для подписания: ``java -jar "
@@ -568,26 +603,13 @@ msgstr ""
 msgid "Пример:"
 msgstr "Example:"
 
-# 2473790e329f436d9f0d193ed6519e3e
-#: ../../how-to-setup/configuration-node.rst:255
-msgid ""
-"Если нода ранее работала с другой сетью блокчейна Vostok, то удалить данные из "
-"папки, указанной в параметре \"data-directory\" (по умолчанию, для ОС Ubuntu "
-"используется путь ``${user.home}/vostok``, для ОС Windows используется путь ``C:"
-"\\Users\\<username>\\vostok``)"
-msgstr ""
-"If the node previously was part of another Vostok's blockchain network, delete "
-"the data from the folder specified in parameter \"data-directory\" (by default, "
-"the path ``${user.home}/vostok`` is used for Ubuntu OS; for Windows path ``C:"
-"\\Users\\<username>\\vostok``) is used."
-
 # 82436f1496fe41fdb212b0d1f64b893d
-#: ../../how-to-setup/configuration-node.rst:260
+#: ../../how-to-setup/configuration-node.rst:269
 msgid "Запуск ноды"
 msgstr "Running of the node"
 
 # 4b7143f0a61144589ef455c711100948
-#: ../../how-to-setup/configuration-node.rst:262
+#: ../../how-to-setup/configuration-node.rst:271
 msgid "Выполните указанную команду для запуска ноды:"
 msgstr "Run the following command for the node start:"
 

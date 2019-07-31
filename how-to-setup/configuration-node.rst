@@ -94,7 +94,16 @@
   После выполнения утилиты в папке, определенной параметром ``wallet``, будут сохранены закрытые ключи участников, а на экране отобразятся адреса и открытые ключи в виде строк:
   ``[main] accounts-generator - Address: 3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; public key: 6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``
 
-2. Укажите байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf). Байт сети для "Vostok Mainnet" - ``V``, для "Vostok Partnernet" - ``P``.
+2. Укажите адреса домашней директории и директории для хранения данных блокчейна в соответствующих полях:
+
+    ::
+
+      directory = ${user.home}"/vostok"
+      data-directory = ${vostok.directory}"/data"
+  
+  .. important:: Если нода ранее работала с другой сетью блокчейна Vostok, то удалить данные из папки, указанной в параметре ``data-directory`` (по умолчанию, для ОС Ubuntu используется путь ``${user.home}/vostok``, для ОС Windows используется путь ``C:\Users\<username>\vostok``).
+
+3. Укажите байт сети, с которым генерировались адреса участников сети (параметр ``chain-id`` в accounts.conf). Байт сети для "Vostok Mainnet" - ``V``, для "Vostok Partnernet" - ``P``.
   
     ::
 
@@ -107,6 +116,8 @@
       genesis {
         initial-balance: 100000000000
   
+.. important:: Необходимо проверить значения полей ``timestamp`` и ``block-timestamp``. Время указывается в миллисекундах, значение должно состоять из 13 цифр. Если вы берёте стандартное значение ``timpstamp``, состоящее из 10 цифр, то в конце необходимо добавить три любые цифры.
+
 4. Укажите :ref:`адреса участников <address-creation>` – владельцев начального баланса сети:
 
     ::
@@ -251,8 +262,6 @@
 
     genesis-public-key-base-58: "4ozcAj...penxrm"
     signature: "5QNVGF...7Bj4Pc"
-
-.. important:: Если нода ранее работала с другой сетью блокчейна Vostok, то удалить данные из папки, указанной в параметре "data-directory" (по умолчанию, для ОС Ubuntu используется путь ``${user.home}/vostok``, для ОС Windows используется путь ``C:\Users\<username>\vostok``)
 
 .. _node-start:
 
