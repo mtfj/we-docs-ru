@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-27 16:52+0300\n"
-"PO-Revision-Date: 2019-06-27 17:42+0300\n"
+"POT-Creation-Date: 2019-08-02 15:25+0300\n"
+"PO-Revision-Date: 2019-08-02 15:28+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -98,17 +98,44 @@ msgstr ""
 "create the ``VOSTOK_NODE_OWNER_PASSWORD`` and "
 "``VOSTOK_NODE_OWNER_PASSWORD_EMPTY`` global variables in your OS."
 
-# 39b2008dfb3b4799a2421caf048e653d
+# 91d843d8813d4bb38c6f0b6bf66e4f15
 #: ../../how-to-use/add-node-partnernet.rst:14
 msgid ""
-"Отправьте на почту mailto://support@vostok.io запрос на выдачу прав и "
-"подключение к сети \"Vostok Partnernet\"."
+"Зайдите на сайт `<https://support.vostok.io/servicedesk/customer/portal/3>`_ "
+"и зарегистрируйтесь."
 msgstr ""
-"Send to the mailto://support@vostok.io address an application with "
-"permissions request and for the \"Vostok Partnernet\" connection."
+"Go to the website `<https://support.vostok.io/servicedesk/customer/"
+"portal/3>`_ and perform the registration."
+
+# 7c69ab6718ca4bf0903471764797094a
+#: ../../how-to-use/add-node-partnernet.rst:15
+msgid ""
+"Выберите тип заявки \"Подключение участника\" для юридического или "
+"физического лица."
+msgstr ""
+"Select the type of request \"Participant connection\" for legal or natural "
+"person."
+
+# df3aa08574414e45bdbf78c02d5ac41a
+#: ../../how-to-use/add-node-partnernet.rst:16
+msgid ""
+"Заполните все необходимые поля формы. Если вы хотите майнить, отметьте поле "
+"**Прошу предоставить права майнинга**."
+msgstr ""
+"Register on the resource by filling in all the required fields of the form. "
+"If you want to mine, check the box **Please grant mining rights**."
+
+# 07913ca41ed54e989178e17c52659c93
+#: ../../how-to-use/add-node-partnernet.rst:17
+msgid ""
+"Дождитесь рассмотрения заявки на подключение. После успешной регистрации "
+"можете начинать работу в сети \"Vostok Partnernet\"."
+msgstr ""
+"Please, wait for the connection application consideration. You can start "
+"working in the \"Vostok Partnernet\" after successful registration."
 
 # 91d777397d7d4949a0e9c86033f1b489
-#: ../../how-to-use/add-node-partnernet.rst:15
+#: ../../how-to-use/add-node-partnernet.rst:18
 msgid ""
 "После получения разрешения на подключение к сети \"Vostok Partnernet\" :ref:"
 "`запустите <node-start>` ноду."
@@ -141,3 +168,11 @@ msgstr ":ref:`Run <node-start>` the node after getting the application approve."
 #~ "variable. When you are using the password than specify the ``false`` value "
 #~ "and write into the ``VOSTOK_NODE_OWNER_PASSWORD`` variable the node "
 #~ "address password."
+
+# 39b2008dfb3b4799a2421caf048e653d
+#~ msgid ""
+#~ "Отправьте на почту mailto://support@vostok.io запрос на выдачу прав и "
+#~ "подключение к сети \"Vostok Partnernet\"."
+#~ msgstr ""
+#~ "Send to the mailto://support@vostok.io address an application with "
+#~ "permissions request and for the \"Vostok Partnernet\" connection."

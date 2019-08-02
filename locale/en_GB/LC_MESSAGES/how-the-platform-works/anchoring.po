@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-23 15:52+0300\n"
-"PO-Revision-Date: 2019-05-23 15:53+0300\n"
+"POT-Creation-Date: 2019-08-02 15:25+0300\n"
+"PO-Revision-Date: 2019-08-02 15:26+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -19,17 +19,17 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# dc4a7594575048e0a172c89e76852557
+# 219ccc7024c24ef781eb9cef02f52d90
 #: ../../how-the-platform-works/anchoring.rst:4
 msgid "Анкоринг"
 msgstr "Anchoring"
 
-# 28ee130b38d5436e89638fa51572c9f2
+# 65ba8172880142c8808b094e6f6ccfc7
 #: ../../how-the-platform-works/anchoring.rst:5
 msgid ""
 "В приватном блокчейне транзакции обрабатывает определенный список "
 "участников, каждый из которых заранее известен. Малое, по сравнению с "
-"публичным, количество участников, блоков и транзакций в приватном "
+"публичным, количество участников блоков и транзакций в приватном "
 "блокчейне несёт угрозу подмены информации. Перезапись цепочки блоков и "
 "транзакций, особенно в случае использования PoS консенсуса, становится "
 "реальной."
@@ -42,8 +42,8 @@ msgstr ""
 "using PoS consensus algorithm, the threat of overwriting a blockchain "
 "becomes real."
 
-# 70df8f6ca889476bae471399feffb2b2
-#: ../../how-the-platform-works/anchoring.rst:9
+# d2c879ba3ff347469125ded1f3ded4cf
+#: ../../how-the-platform-works/anchoring.rst:7
 msgid ""
 "Для повышения доверия участников приватного блокчейна к размещенным в "
 "нём данным разработан механизм анкоринга. Анкоринг позволяет проверить "
@@ -60,13 +60,13 @@ msgstr ""
 "number of participants and blocks. Published data represent hashes of "
 "blocks in a private network."
 
-# cf4f350200ad4dd5bbfd893c54706dab
-#: ../../how-the-platform-works/anchoring.rst:13
+# 10ea3996b7b049d7b10b671315b02619
+#: ../../how-the-platform-works/anchoring.rst:9
 msgid "Анкоринг работает следующим образом:"
 msgstr "Anchoring works as follows:"
 
-# 7d151de18aa54917843845875b09b48f
-#: ../../how-the-platform-works/anchoring.rst:15
+# 7ab71e173780495db351d0cc0d44cf26
+#: ../../how-the-platform-works/anchoring.rst:11
 msgid ""
 "В конфигурационном файле указывается период анкоринга: раз в 10 блоков, "
 "раз в 100 блоков или иной."
@@ -74,8 +74,8 @@ msgstr ""
 "The anchoring frequency is specified in the configuration file: once in "
 "every 10 blocks, once in every 100 blocks or other."
 
-# bf9036c4ef4b4c889d39eeb0b8bca1e4
-#: ../../how-the-platform-works/anchoring.rst:16
+# b28eff7e7d444c85931fd46a9f647cd0
+#: ../../how-the-platform-works/anchoring.rst:12
 msgid ""
 "Приватный блокчейн начинает регулярно создавать транзакции с данными в "
 "основной сети. Данные содержат хеш блока приватной сети и его высоту."
@@ -84,8 +84,8 @@ msgstr ""
 "main network. The data contains the hash of the private network block "
 "and its height."
 
-# aac664d7dec84c10aa69b16a1c13c2d2
-#: ../../how-the-platform-works/anchoring.rst:17
+# e871754b02fa4e609dbd1777e94d3324
+#: ../../how-the-platform-works/anchoring.rst:13
 msgid ""
 "Нода приватной сети дожидается подтверждения успешной записи транзакции "
 "от основной сети, и получает идентификатор этой транзакции с данными."
@@ -94,8 +94,8 @@ msgstr ""
 "transaction entry from the main network, and gets this data transaction "
 "ID."
 
-# b6ce86e837dd4bb294d0d86747ee1941
-#: ../../how-the-platform-works/anchoring.rst:18
+# 1c2beb9666bd41ca9a16b3cc838f3a20
+#: ../../how-the-platform-works/anchoring.rst:14
 msgid ""
 "Затем, в приватной сети публикуется такая же транзакция с данными, "
 "дополнительно содержащая идентификатор транзакции с этими данными в "
@@ -104,8 +104,8 @@ msgstr ""
 "Next, the same data transaction is published in the private network and "
 "it additionally contains this data transaction ID on the main network."
 
-# 31f20e477e5c4594b64f8c6090984450
-#: ../../how-the-platform-works/anchoring.rst:20
+# 572289a02bfb4e799d2d480ee01a74f4
+#: ../../how-the-platform-works/anchoring.rst:16
 msgid ""
 "Взаимная связность двух и более сетей повышает их стойкость, т.к. для "
 "подлога или изменнения данных в результате `long-range атаки <https://"

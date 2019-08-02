@@ -46,15 +46,16 @@ extensions = ['sphinx.ext.autodoc',
     ]
 
 # Versioning settings
-author = 'exebeeche'
-project = 'Vostok'
-scv_greatest_tag = True
-scv_recent_tag = True
-scv_whitelist_branches = ('master', 'mayVostok')
-scv_banner_recent_tag = True
-scv_show_banner = True
-scv_banner_main_ref = 'feature_branch'
-scv_root_ref = 'feature_branch'
+# author = 'exebeeche'
+# project = 'Vostok'
+# scv_greatest_tag = True
+# scv_recent_tag = True
+# scv_whitelist_branches = ('master', 'mayVostok')
+# scv_whitelist_tags = (re.compile(r'^v\d+\.\d+\.\d+$'),) 
+# scv_banner_recent_tag = True
+# scv_show_banner = True
+# scv_banner_main_ref = 'feature_branch'
+# scv_root_ref = 'feature_branch'
 
 
 
