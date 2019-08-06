@@ -209,6 +209,62 @@
         migration-dir = "db/migration"
       }
 
+.. _anchoring-settings:
+
+Настройка анкоринга
+-------------------------
+
+Если используете опцию :ref:`анкоринга <anchoring>`, необходимо настроить блок ``vostok.scheduler-service``. 
+
+    ::
+
+      vostok.scheduler-service {
+      enable = yes
+      height-range = 100
+      height-above = 10
+      threshold = 100
+ 
+      mainnet-scheme-byte = "K"
+      mainnet-node-address = "http://node-1"
+      mainnet-node-port = 6862
+      mainnet-node-api-key = "vostok"
+      mainnet-node-recipient-address = "3JWveBpXS1EcDpxcoAwVNAjFfUMrxaALgZt"
+      mainnet-private-key-password = "mainnet-priv-key-password" //optional parameter
+ 
+      wallet {
+       file = "node-1_mainnet-wallet.dat"
+       password = "small"
+      }
+ 
+      mainnet-fee = 500000
+      sidechain-fee = 500000
+    }
+      
+**Параметры анкоринга**
+
+* height-range 
+* height-above
+* threshold
+
+**Параметры Mainnet**
+
+* mainnet-scheme-byte
+* mainnet-node-address
+* mainnet-node-port
+* mainnet-node-api-key
+* mainnet-node-recipient-address
+* mainnet-private-key-password
+
+**Параметры авторизации на Mainnet, секция wallet**
+
+* ``file`` - путь до каталога хранения ключей на ноде.
+* ``password`` - пароль для доступа к закрытым ключам ноды.
+
+**Параметры комиссий**
+
+* mainnet-fee
+* sidechain-fee
+
 .. _rest-api-access:
 
 Доступ к REST API

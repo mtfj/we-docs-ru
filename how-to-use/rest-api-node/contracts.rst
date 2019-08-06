@@ -148,8 +148,6 @@ http://localhost:6862/contracts/executed-tx-for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nq
     },
     "results": []
   }
-  
-
 
 GET /contracts/{contractId}/{key}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -169,3 +167,4 @@ http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s/upd
     "type": "integer",
     "value": 1545835909
   }
+
