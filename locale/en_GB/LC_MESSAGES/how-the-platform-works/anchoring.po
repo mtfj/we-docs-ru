@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 15:25+0300\n"
-"PO-Revision-Date: 2019-08-02 15:26+0300\n"
+"POT-Creation-Date: 2019-08-08 15:54+0300\n"
+"PO-Revision-Date: 2019-08-09 12:06+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -29,93 +29,207 @@ msgstr "Anchoring"
 msgid ""
 "В приватном блокчейне транзакции обрабатывает определенный список "
 "участников, каждый из которых заранее известен. Малое, по сравнению с "
-"публичным, количество участников блоков и транзакций в приватном "
-"блокчейне несёт угрозу подмены информации. Перезапись цепочки блоков и "
-"транзакций, особенно в случае использования PoS консенсуса, становится "
-"реальной."
+"публичным, количество участников блоков и транзакций в приватном блокчейне "
+"несёт угрозу подмены информации. Перезапись цепочки блоков и транзакций, "
+"особенно в случае использования PoS консенсуса, становится реальной."
 msgstr ""
 "One of the main ideas of the private blockchain is that transactions are "
-"processed by a certain number of participants known in advance. In a "
-"private blockchain there is a threat of information spoofing, because "
-"the number of participants is quite small if we compare it to the public "
-"blockchain where there are no restrictions to join the network. When "
-"using PoS consensus algorithm, the threat of overwriting a blockchain "
-"becomes real."
+"processed by a certain number of participants known in advance. In a private "
+"blockchain there is a threat of information spoofing, because the number of "
+"participants is quite small if we compare it to the public blockchain where "
+"there are no restrictions to join the network. When using PoS consensus "
+"algorithm, the threat of overwriting a blockchain becomes real."
 
-# d2c879ba3ff347469125ded1f3ded4cf
+# 433fc32281ac455ea4d32bddf16ec943
 #: ../../how-the-platform-works/anchoring.rst:7
 msgid ""
-"Для повышения доверия участников приватного блокчейна к размещенным в "
-"нём данным разработан механизм анкоринга. Анкоринг позволяет проверить "
-"данные на неизменность. Гарантия неизменности достигается публикацией "
-"данных из приватного блокчейна в более крупную сеть, где подмена данных "
-"маловероятна из-за большего количества участников и блоков. Публикуемые "
-"данные — хеш от блоков приватной сети."
+"Для повышения доверия участников приватного блокчейна к размещенным в нём "
+"данным разработан механизм анкоринга. Анкоринг позволяет проверить данные на "
+"неизменность. Гарантия неизменности достигается публикацией данных из "
+"приватного блокчейна в более крупную сеть, где подмена данных маловероятна "
+"из-за большего количества участников и блоков. Публикуемые данные — хеш от "
+"блоков приватной сети. Взаимная связность двух и более сетей повышает их "
+"стойкость, т.к. для подлога или изменнения данных в результате `long-range "
+"атаки <https://medium.com/@abhisharm/understanding-proof-of-stake-through-"
+"its-flaws-part-3-long-range-attacks-672a3d413501/>`_ необходимо атаковать "
+"все связанные сети."
 msgstr ""
-"To increase the confidence of the private blockchain participants in "
-"data placed there, the anchoring mechanism was developed. Anchoring "
-"allows checking the data for invariability. The guarantee of "
-"invariability is achieved by publishing data from a private blockchain "
-"to a larger network, where data spoofing is unlikely due to a larger "
-"number of participants and blocks. Published data represent hashes of "
-"blocks in a private network."
+"To increase the confidence of the private blockchain participants in data "
+"placed there, the anchoring mechanism was developed. Anchoring allows "
+"checking the data for invariability. The guarantee of invariability is "
+"achieved by publishing data from a private blockchain to a larger network, "
+"where data spoofing is unlikely due to a larger number of participants and "
+"blocks. Published data represent hashes of blocks in a private network. "
+"Mutual connectivity of two or more networks increases their resistance, "
+"because as a result of `a long-range attack <https://medium.com/@abhisharm/"
+"understanding-proof-of-stake-through-its-flaws-part-3-long-range-"
+"attacks-672a3d413501/>`_ as forgery or alteration of data resulting from a "
+"long-range attack would require attacking all connected networks."
+
+# 1d785b258ac340b9b1040a275b6fa647
+#: ../../how-the-platform-works/anchoring.rst:12
+msgid "Как работает анкоринг в блокчейне Vostok"
+msgstr "How does the anchoring works in the Vostok blockchain"
+
+# b45caea6db044109b68e8565c37a5914
+#: ../../how-the-platform-works/anchoring.rst:20
+msgid "Схема анкоринга в Mainnet"
+msgstr "The Mainnet anchoring scheme"
 
 # 10ea3996b7b049d7b10b671315b02619
-#: ../../how-the-platform-works/anchoring.rst:9
+#: ../../how-the-platform-works/anchoring.rst:22
 msgid "Анкоринг работает следующим образом:"
 msgstr "Anchoring works as follows:"
 
-# 7ab71e173780495db351d0cc0d44cf26
-#: ../../how-the-platform-works/anchoring.rst:11
+# 72bba99e27b74b97b1a3a3920e4b52e8
+#: ../../how-the-platform-works/anchoring.rst:24
 msgid ""
-"В конфигурационном файле указывается период анкоринга: раз в 10 блоков, "
-"раз в 100 блоков или иной."
+"Выполняются :ref:`настройки анкоринга <anchoring-settings>` в "
+"конфигурационном файле ноды приватного блокчейна. При указании параметров, "
+"ответственных за работу анкоринга, устанавливайте рекомендованные значения, "
+"чтобы избежать сложностей в работе приватного блокчейна."
 msgstr ""
-"The anchoring frequency is specified in the configuration file: once in "
-"every 10 blocks, once in every 100 blocks or other."
+"Perform :ref:`anchoring settings <anchoring-settings>` in the configuration "
+"file of the private blockchain node. Please, use the recommended values to "
+"avoid difficulties in private blockchain operation when specify the "
+"parameters values responsible for the anchoring."
+
+# 3bb6592ebb964acba06a2b3634ebf9a0
+#: ../../how-the-platform-works/anchoring.rst:25
+msgid ""
+"Через каждый заданный диапазон блоков ``height-range`` нода создаёт "
+"транзакцию для анкоринга в Mainnet. В качестве такой транзакции "
+"используется :ref:`Data Transaction <DataTransaction>` со списком пар полей "
+"``key-value``, описание которых представлено :ref:`ниже <anchoring-"
+"transaction>`. После отправки транзакции нода получает её высоту в Mainnet."
+msgstr ""
+"The node is creating the anchoring transaction to the Mainnet each specified "
+"blocks range ``height-range``. The :ref:`Data Transaction <DataTransaction>` "
+"with a ``key-value`` list is used as :ref:`an anchoring transaction "
+"<anchoring-transaction>`. The node requests the transaction height after "
+"sending it to the Mainnet."
+
+# eeea7bd2335f4daaa6a07f310ec2c6e7
+#: ../../how-the-platform-works/anchoring.rst:26
+msgid ""
+"Нода выполняет проверку высоты блокчейна в Mainnet каждые 30 секунд, пока "
+"высота не достигнет значения **высота созданной транзакции +** ``height-"
+"above``."
+msgstr ""
+"The node is checking the Mainnet blockchain height each 30 seconds until the "
+"height reaches the **the height of the created transaction +** ``height-"
+"above``."
+
+# 87817ba3c0d140d1ad10da205c11bf4b
+#: ../../how-the-platform-works/anchoring.rst:27
+msgid ""
+"При достижении высоты блокчейна Mainnet, определённой в пункте 3 и "
+"положительной проверке наличия первой транзакции в блокчейне Mainnet, нода "
+"создаёт вторую транзакцию для анкоринга уже в приватном блокчейне."
+msgstr ""
+"When the height, defined in the item 3, is reached and the verification of "
+"the first transaction in the Mainnet blockchain is positive, the node "
+"creates the second anchoring transaction in the private blockchain."
+
+# 623e33703d4e417b9b0a696c11655ead
+#: ../../how-the-platform-works/anchoring.rst:32
+msgid "Структура транзакции для анкоринга"
+msgstr "Transaction structure for the anchoring"
+
+# ed2ef030e01b4eb7abbe03504e8be1b2
+#: ../../how-the-platform-works/anchoring.rst:34
+msgid "Транзакция для отправки в Mainnet содержит следующие поля:"
+msgstr "The Mainnet transaction consists of the following fields:"
+
+# 75f6815fe2fc4dfaa0083381320e711d
+#: ../../how-the-platform-works/anchoring.rst:36
+msgid ""
+"``signature`` - хеш выбранного блока из приватного блокчейна. Номер блока "
+"получается из разности высоты текущего блока и значения ``threshold``."
+msgstr ""
+"``signature`` - the hash of the chosen block from the private blockchain. We "
+"get the block number from the difference between the current height and the "
+"``threshold`` value."
+
+# 21b889246c6b426c917f011a1c5d38b7
+# 49a6409d30b84b60b3d57d28271f42a9
+#: ../../how-the-platform-works/anchoring.rst:37
+#: ../../how-the-platform-works/anchoring.rst:42
+msgid "``height`` - высота выбранного блока из приватного блокчейна."
+msgstr ""
+"``height`` - the height of the chosen block from the private blockchain."
+
+# 7dabf878a1df455c85a1d32e6918ecb3
+#: ../../how-the-platform-works/anchoring.rst:39
+msgid "Транзакция, создаваемая в приватном блокчейне, содержит следующие поля:"
+msgstr "The private blockchain transaction consists of the following fields:"
+
+# d5122fea003f479fb6ab3eaba08fd3e4
+#: ../../how-the-platform-works/anchoring.rst:41
+msgid "``signature`` - хеш выбранного блока из приватного блокчейна."
+msgstr ""
+"``signature`` - the hash of the chosen block from the private blockchain."
+
+# 755ca26ca06b47499387e2a809a5a854
+#: ../../how-the-platform-works/anchoring.rst:43
+msgid "``mainnet-tx-id`` - идентификатор транзакции для анкоринга в Mainnet."
+msgstr "``mainnet-tx-id`` - the Mainnet anchoring transaction ID."
+
+# 43845f7c46d64ff0b1319cb9526c482a
+#: ../../how-the-platform-works/anchoring.rst:44
+msgid ""
+"``mainnet-tx-timestamp`` - дата и время создания транзакции для анкоринга в "
+"Mainnet."
+msgstr ""
+"``mainnet-tx-timestamp`` - the timestamp of the Mainnet anchoring "
+"transaction."
+
+# 7ab71e173780495db351d0cc0d44cf26
+#~ msgid ""
+#~ "В конфигурационном файле указывается период анкоринга: раз в 10 блоков, "
+#~ "раз в 100 блоков или иной."
+#~ msgstr ""
+#~ "The anchoring frequency is specified in the configuration file: once in "
+#~ "every 10 blocks, once in every 100 blocks or other."
 
 # b28eff7e7d444c85931fd46a9f647cd0
-#: ../../how-the-platform-works/anchoring.rst:12
-msgid ""
-"Приватный блокчейн начинает регулярно создавать транзакции с данными в "
-"основной сети. Данные содержат хеш блока приватной сети и его высоту."
-msgstr ""
-"A private blockchain begins to regularly create data transactions on the "
-"main network. The data contains the hash of the private network block "
-"and its height."
+#~ msgid ""
+#~ "Приватный блокчейн начинает регулярно создавать транзакции с данными в "
+#~ "основной сети. Данные содержат хеш блока приватной сети и его высоту."
+#~ msgstr ""
+#~ "A private blockchain begins to regularly create data transactions on the "
+#~ "main network. The data contains the hash of the private network block and "
+#~ "its height."
 
 # e871754b02fa4e609dbd1777e94d3324
-#: ../../how-the-platform-works/anchoring.rst:13
-msgid ""
-"Нода приватной сети дожидается подтверждения успешной записи транзакции "
-"от основной сети, и получает идентификатор этой транзакции с данными."
-msgstr ""
-"The private network node is waiting for confirmation of a successful "
-"transaction entry from the main network, and gets this data transaction "
-"ID."
+#~ msgid ""
+#~ "Нода приватной сети дожидается подтверждения успешной записи транзакции "
+#~ "от основной сети, и получает идентификатор этой транзакции с данными."
+#~ msgstr ""
+#~ "The private network node is waiting for confirmation of a successful "
+#~ "transaction entry from the main network, and gets this data transaction "
+#~ "ID."
 
 # 1c2beb9666bd41ca9a16b3cc838f3a20
-#: ../../how-the-platform-works/anchoring.rst:14
-msgid ""
-"Затем, в приватной сети публикуется такая же транзакция с данными, "
-"дополнительно содержащая идентификатор транзакции с этими данными в "
-"основной сети."
-msgstr ""
-"Next, the same data transaction is published in the private network and "
-"it additionally contains this data transaction ID on the main network."
+#~ msgid ""
+#~ "Затем, в приватной сети публикуется такая же транзакция с данными, "
+#~ "дополнительно содержащая идентификатор транзакции с этими данными в "
+#~ "основной сети."
+#~ msgstr ""
+#~ "Next, the same data transaction is published in the private network and "
+#~ "it additionally contains this data transaction ID on the main network."
 
 # 572289a02bfb4e799d2d480ee01a74f4
-#: ../../how-the-platform-works/anchoring.rst:16
-msgid ""
-"Взаимная связность двух и более сетей повышает их стойкость, т.к. для "
-"подлога или изменнения данных в результате `long-range атаки <https://"
-"medium.com/@abhisharm/understanding-proof-of-stake-through-its-flaws-"
-"part-3-long-range-attacks-672a3d413501/>`_  необходимо атаковать все "
-"связанные сети."
-msgstr ""
-"Mutual connectivity of two or more networks increases their resistance, "
-"because as a result of `a long-range attack <https://medium.com/"
-"@abhisharm/understanding-proof-of-stake-through-its-flaws-part-3-long-"
-"range-attacks-672a3d413501/>`_  as forgery or alteration of data "
-"resulting from a long-range attack would require attacking all connected "
-"networks."
+#~ msgid ""
+#~ "Взаимная связность двух и более сетей повышает их стойкость, т.к. для "
+#~ "подлога или изменнения данных в результате `long-range атаки <https://"
+#~ "medium.com/@abhisharm/understanding-proof-of-stake-through-its-flaws-"
+#~ "part-3-long-range-attacks-672a3d413501/>`_  необходимо атаковать все "
+#~ "связанные сети."
+#~ msgstr ""
+#~ "Mutual connectivity of two or more networks increases their resistance, "
+#~ "because as a result of `a long-range attack <https://medium.com/"
+#~ "@abhisharm/understanding-proof-of-stake-through-its-flaws-part-3-long-"
+#~ "range-attacks-672a3d413501/>`_  as forgery or alteration of data "
+#~ "resulting from a long-range attack would require attacking all connected "
+#~ "networks."
