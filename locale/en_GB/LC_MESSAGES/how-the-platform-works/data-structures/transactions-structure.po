@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-01 14:41+0300\n"
-"PO-Revision-Date: 2019-08-01 15:41+0300\n"
+"POT-Creation-Date: 2019-08-12 15:28+0300\n"
+"PO-Revision-Date: 2019-08-12 15:43+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -41,6 +41,11 @@ msgstr ""
 "Transaction <DataTransaction>` and :ref:`CreateContract Transaction "
 "<CreateContractTransaction>`."
 
+# 1b578ebd17a743f594b25cf25fd07343
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:9
+msgid "Типы транзакций"
+msgstr "Transaction types"
+
 # 8643065930124b5580a75a86e43febbe
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:12
 msgid "№"
@@ -72,9 +77,6 @@ msgid ":ref:`Genesis transaction <GenesisTransaction>`"
 msgstr ""
 
 # ed19dd1740b842ee88e47e44d72aee9c
-# e2e7e49c08ef4cd5811d493adfb34ac5
-# 58bb344ed91b44e6bf8d001e8e3ad297
-# 48e8b464eb934dfe872da601a6b51260
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:29
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:33
@@ -111,11 +113,6 @@ msgid ":ref:`Issue Transaction <issueTransaction>`"
 msgstr ""
 
 # 1677546655b14151854f256cc7448b6f
-# 5bb9ab528b4943e7ac236a253cdfd33a
-# 4873436c90264da5a2f6dd0df7b6396a
-# 2f4bdcf4566b4f73a6136f7634cb8ecf
-# d8926b2af31443af90402f97fb6404aa
-# cd853951f649426ca96fe305f42c3f54
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:16
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:18
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
@@ -141,10 +138,6 @@ msgid ":ref:`Transfer Transaction <TransferTransaction>`"
 msgstr ""
 
 # 4cd81fde82af43148229a0741f7902c2
-# f8e3b2c168774a9690c7bc588b3ca3ac
-# d57b083f396947198373a1f1131ca961
-# cca657454e5146f083060da7a0fe32a9
-# bf6167e7129945d9872f1611d8b7bb3d
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:17
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
@@ -184,9 +177,6 @@ msgid ":ref:`Burn Transaction <BurnTransaction>`"
 msgstr ""
 
 # 062edd9f589c4dc48640c5fd04596035
-# 02ec97e07cdd4f41952e33cbc0e59b4d
-# 27e4699dffd64627a12982382cba5933
-# a748465836be41d8be618c7ae7341b52
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:19
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:24
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
@@ -299,7 +289,6 @@ msgid ":ref:`SetScript Transaction <SetScriptTransaction>`"
 msgstr ""
 
 # c52f141826d548e8a8733cb04563145b
-# 68b948cba2a7417aba7e54db81157f25
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:26
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:38
 msgid "0.5VST"
@@ -392,7 +381,6 @@ msgid ":ref:`CallContract Transaction <CallContractTransaction>`"
 msgstr ""
 
 # f8e9b40492ee4e91b1cd86f47cc9d551
-# d74a256af8d6468aa11086fc34e2a12f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:32
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
 msgid "0.1VST"
@@ -514,398 +502,76 @@ msgid "1. Genesis transaction"
 msgstr "1. Genesis transaction"
 
 # bd904a359d4d421c81c8c7792854a175
-# b876078ab8314fc686c25332666707f3
-# 0745831552284b25b8a6902a5f4608fd
-# 78ea2549cafe4cd3818aac5f213b6ad0
-# 6eb1199fcdf24c11ade9fc1a157bfa47
-# 6061a82e6c8e4b5faa30a1edf20f784f
-# e4a9c08b22794836b345320fa24a7222
-# a467682d642e43c9bc6473d6ba32acd6
-# 4f303f94a099476c9cd0b1df618e808f
-# d02d2cab9899402fb4c9e7d95a245ae7
-# 50a7b05e95634a4da329487bdf2de87b
-# f1659c25beb94bcaa882d99e580d505f
-# d9bb75c0b15c41aaa808a906e91eba04
-# 3261a1d91ab24c5798b16d8eb31169f6
-# 064e8e2acd014d0f89f98a0216026016
-# 2f7bc3eb17e94445821c941997f9673e
-# dcc06b0deb4d4b9b9b9fc3ffc52335e3
-# 9002e09ea5eb44289a7c4aed648ea5a3
-# cade1f5f0a284ce2af1d74718dc81124
-# f59a4542f766414baf05993d82ff66f7
-# efd9b0af1d7c436e8493e2ad0d8c12fa
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Field"
 msgstr "Field"
 
 # 3c10f4dc8915474bbe96c3f45d2fa1f1
-# df0f6cccbe49485283cba5da7cecb32e
-# 35946f556b8a4154907d21148c39eb09
-# db114995706b4ed28f3f3c25f73e655b
-# fdc82d7458f34cb883ca908aad591145
-# c5564fbcd3b54ac2bdfcc81b6dc648f1
-# 050d3417d2344374988767c41eb51761
-# e508244cc8424283a44f3abb2ed9edf0
-# 9db72a1f26904ec88fa4985162048c92
-# 55daabbdcd7749a8bf0a55b60f520f9b
-# 811781a88be84ac8a72ac3f807ff8678
-# 58f273dcdf4b44d5a49380584826b417
-# 22424b2861684dd683c0a5b7ebed173e
-# 8cb9f1f9fda54f5a877f4acbe850862b
-# e25addda6a0d43bb8fb1fa3486476d05
-# b1ecbe40b8f143a8a32c9a53283050ef
-# ddf38c32f3b74d85a411d54678c6f14b
-# 666c6af5f1e74a7ca6b1852e07750495
-# 06ed124f12d24c85a84d173106d30bf1
-# ae307ebd46624bbf868f0c16f04153e8
-# e07b5d62c9864ec68315b5da341a5dc3
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Broadcasted JSON"
 msgstr ""
 
 # d34a6a713b094a488e8ef3640df15e75
-# 52c9cc3587e44280994756f0392e3c55
-# f85a6c06512f44fa94ba0a171b68e85c
-# 0dab7a1b55544a9eb8c4f5b38c643a6a
-# 363e6814d6a84185811edd5342634734
-# 887e93b62a1d43559da362276a941565
-# f8772950673640d2913cbbb539b64748
-# 583e7242fe79489f86b3d013a1a194c5
-# 97c24b386e334f6eb8478c456df72315
-# 8b0bb37436bd42e2b78a3eef0bd9d29d
-# 58fc4b2184e14e7293766f8f6b0fb629
-# b186618ce9a742a9805539bc08e11787
-# 348374a915be41e19975ebc63d8a33a2
-# 71cecff97f8e445e89ee0bbf1c7729d7
-# 6c3520cbeb4940db8dd684f7800a52a4
-# 2f843203f11a49f0a7e0892f8b3704ef
-# b8ce50705db44ed89adfc4624d4d6f70
-# 46716b2a40944634ac4cd1b5b62f63ee
-# 713857fe81eb4004955b987b12e768d8
-# 7ff8a6a8c97a490db6115dc9478c406f
-# dbf38a5a0bc44e168cb07685e86997fc
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Blockchain state"
 msgstr ""
 
 # fc79b43ef39941d19a6c1116ba10a47d
-# 2ea23bf0190742a6870b2370dc2290d3
-# c29ee998630d48fe89ece375a891f0ef
-# f16f4fd8ebc14c13bdd3114b738a7354
-# 1fa21718550549eabd65caf867424254
-# c5679b88c1664111a954e3e3a21940f3
-# adc0502552174f01a99cf69036a25940
-# 9b94ab6ed3c3474288a63b8ad3fff880
-# 74bb01ad4cd94650aa4e933d6e6b2a91
-# e67cb95274934a76afeb9a02b0f8cf95
-# 94c081e3f85042e986314c93fcadd75e
-# 0b0a35c810764a35a5f82f9eae49880f
-# 882565d5a1c14199ac89e3a6fa3dc3dd
-# bde99f0d7b254d40a6984e4b1a155ef1
-# 533c2db0844948eeacac5044b5f915cb
-# a4102b5017684a7eb9432ea99ae77703
-# 16518fef2c2f48e1b0b7d523f0876d9e
-# ff514c07f843405498b140860e68405e
-# b86002f6aa3544469ca0fc029d8c7b55
-# 754cd69366724e749d18fc13a5cb82ad
-# 32ffcacb728740bbbda6353d47b22a10
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Type"
 msgstr "Type"
 
 # ea3bac66d7504ab69f1cda919a3a9b22
-# e11af30cccbb42e4a604d624d9bd06b3
-# d4fc1154637941b4ad81c3987738e3ee
-# 301545c19db84aa0a0c2ede3d341a442
-# f974e75d10a74f459670461f226321af
-# f19da110cc3c4f3792c4375730e11516
-# 5971b33a65844f9fb62aaf703569f3c7
-# 8f05921e10ec4c3f8a68491631933be3
-# 52a366f6ab414189b16eb0f1b54731a1
-# ab047f9f4cce4d169dca27a4eaac0f2b
-# 6d45b0ab2f4b4fffa7a8a0e0dc6cc41c
-# 4195953b32b646c3ab1c057a1521a1b9
-# 4b503108de874dcea4bb8213e303d82c
-# e23d3b7fb933473fa916ebfebaaf1984
-# eaad8779b9b2440b891a5968112e3902
-# d610d87f893f44bea36d33b0c0d2e035
-# b699f7e516134d538960402f20dd6f38
-# bb51204cab2f420abef44d49bf1af39e
-# b9a6ea03e5a343e29aebc690887b6bc3
-# 4cff6dcd89f24c01950a7bc7f9702bfd
-# d4dc86ef79f646be97e725e8433dea19
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "type"
 msgstr "Type"
 
 # 0a895ee349db47689719c95485c74a3c
-# ab0ee727b01c4e0dbc03d7fadf42f741
-# ed2757c91c014f1ea9ba263446f7ad03
-# 14ea2187fc2445afb7f6c442773e1fd4
-# 6ae7b4c20afe438fb47e6e667e693711
-# d99e0358e9554c2288e3adaf9a7817c1
-# e11abad14d9340b8969b4d51eb1d17c0
-# cd5e695c62ab4badab31dc74206b86c1
-# a45ce9e349424ced987901fd80facf67
-# 753e08779ede42c195ebcb74497ea51d
-# e8ca6ab260484738af414f1b7c10f8ee
-# 55ef89f9958d4d27b1fe4b0af78a1167
-# ca8f8a1388604e29b5f8b7a1c62990b5
-# 6b789ed25fce431289ea3c24c14c4f8b
-# 2bc58b67a18a49ad8c1f5b7367dd8059
-# fb4f106ccd29441d8175c3d47fd9fb52
-# 00d5f3ecdd23462393360b1247ef9242
-# 0cf56198cf894889961e27401002e67d
-# 74fa8c73f28741638017e02310d810ba
-# 1fc4c84ced10485e9622b4c66d692806
-# f8b6cdc220834d87ada76fbdb61217c4
-# 67a9a65da9244d7ebdc6e8790df17676
-# 3d77214800f04528b8c3e72f1c69f2d6
-# 9cfd48864f164f8db502f6a01b3bf361
-# 618e8bbbfcba43f3a98ae52871dc2e2d
-# 0c53f05d9942408e898ee02e7ec6a606
-# a000538a323d46f992142768cf548b61
-# 344cac905e114ab1bc4dba34eaa9467b
-# 5475930a02aa45f3ad5bdd32eab40df6
-# 4509da0aba8c4f2cb3883cc064b55d82
-# 4ee800103943452990bf7d21120dcc7c
-# 528af37284094fef88a5453881aa026e
-# abf052db5b1c4e5e955eda176f99f3d7
-# 7676abfcf16540ba8d19cb690e530cea
-# a2834da534c04698b98976dc07a2e520
-# b25d1cb69e28498aab2a79c2d319f23a
-# fbeecd2f3224435693b6eea343b42fb8
-# 2990af25a2444c47baf06381d9282214
-# 1f5d2b29a6af435cbd6ebcf754bd73d8
-# 1c73f27628fa420ea1d33d5cc6b3cc2c
-# a23a19b71f8942ab927ad79741d181d8
-# 88affe2fde1f45fa9ff81656d9029c56
-# b068872e99434e8db20d246a860587cb
-# e7206611d8114075bc8e01f3d6c8a29e
-# 55ef1867513a4c2da85b37a5647d3b2c
-# b6eed18244bb47a684d405a2b843f688
-# c6ca82e1b6e0489786316a16df4241fa
-# b37c6529ba824e179a67dd4c73371a89
-# 63179a1c74994203bdcc1a27dd73a815
-# d93fd6d356154d7c96154760e3e87aec
-# 21961336d74f4fb58b1801246088d9d4
-# 8f515d2f02a248ab99c881451d43498e
-# 752c2df6b8dc4b18895bb3f60c8229c0
-# f4e9739e336944ccaeef1116ecb64b74
-# c04b89e084ff4b0bba02b1a988df76b4
-# 076b47aa59af467687b6c8d793141e4e
-# 785dd0e92b9e4a6bbe9c8a11598b7cdd
-# 2993845f0a7d4d49bc5a17d883252d1d
-# eb9a250d125643e5836614fc12b7c198
-# 73bbc79b5aa146e8aeb5c16d9bb2ff45
-# 5d99955e761a4a1b85befefa091f3c06
-# bc6bfb424a8947d98d463f088485cd66
-# b45b07e2c5e24167a035e3b2ad780757
-# 556e66d6457f4596859a561441b55f3e
-# a0835f7b7e9b4e77946f4b19775c1383
-# d269fbc2e4934162a4cc6b8a2cc2f5fc
-# 82214873e2074c3094f88fb54973724f
-# e28c0d86702c4e428e01c4f15e18ab8b
-# fe6d77e607cf409d96b759767e0072b9
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Byte"
 msgstr "Byte"
 
 # 665ec891251b488b9b9900812c4b059a
-# 6d25afa9dfc4454d8e89885325ae904f
-# fa5e216f9f584a94905c1bdc9de0ebdf
-# 805d07de656943ed8a6da73dc5e0758b
-# 4f8482e0ba1c4e3485ac9e538b4c5e37
-# fe64c319ffa745a2ac2fac4eebb031da
-# 7e07983fa22c487ebad34c84be8b49e7
-# 62f1c2624061442cb204acb754d0585f
-# 971c5899684c4de2a0388a99b422d02f
-# d2904807a04441ddacc2a77764d6a184
-# d424712872934b17a9082ceb61ca1176
-# 91b4fda8ad99403ab76ffbd47a2e9210
-# a7754cfa93af4dce8be456ecf630cd81
-# 7ec0b62b34264ea9a66a6eb29e12d8ec
-# 7f8adb7842b841509cd7bdb590869b7d
-# 339dd3adfdf14fa3807bfe6bd5367f21
-# 7e0e92a4d1e94d458abd7c5c3cb25ebe
-# 9c83dd6668b846efbe1852c1ec32f4ed
-# 2eed8fb6c4ec4827b3db36233bf724ae
-# 184646be73af40c89df313541b668b9d
-# 1d63ba898e3049fb8c704abf846a5d7d
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "id"
 msgstr ""
 
 # 80af9b927c0b4a5390b6d42b90200076
-# 7ae4921ae583434d92ac008cd0d03e1a
-# c02f5e0bdfcf466c940fcb099a324933
-# 2f5e07e334e04584985453324165da5c
-# 93d4ead3131b4c5d88d23573d069d440
-# 785cd4623f6548e698352dc91ffd676c
-# 618cb4de52bc4f98b894ab214d17a2cd
-# c08e8212e29f4869b4f0f1e82cb538df
-# 39501b89d3de44a1b41b17aebf85ca82
-# 5c369e167f5d495f9f0b69398ed5f737
-# 92d3bf2a49e946c2bd60a9f3a0bd049b
-# 89e778fb549e4e089d6d19328b302291
-# 7d46c5c00eff4ada96d03647a52e5391
-# c31e43c9d0814fd183630a321c089c98
-# 2e93fd4604854680b8b8998503dc95c5
-# 3392d2f080c34a5eb5a5b5cb814e5a4c
-# 0f16f92a07fa48bfaf7f108e0cf89a62
-# 315061b431f94c6bb59ebcf56691e60e
-# 19d06c11ba994828883d4dae3147c0d6
-# c47b936da6a84100a0f0250d19c3015d
-# 5886b5f627374e5f86a6d97d98f59e53
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "fee"
 msgstr "Fee"
 
 # fac0a38aeff5488f8a33cf459e489c58
-# 012b8b3591fb471fbf51b3b74bfdfdeb
-# d158d7fef0cd4d2e898b9256b415ec34
-# b560179d2dc543aea6a181b5a5ac3782
-# ca9ec39dc70548e7a9f4dac812877087
-# 0ace344cbb4940489d8e2871526b6244
-# ae4db246e22642559312da9b61b95c4b
-# 0e2ae53ac9c442ba91d96bc0e4819e6a
-# 8a6adc44642946e08fbbb8022023bebe
-# c0fa432747b3433999932517addc439c
-# 3d6f7e950d4344d9849b6f7eb4b4df10
-# d283bbaa772649208603bc3df765857e
-# 17e85135031d41228433f18d74e70e88
-# 639e1ded69f64c41919fa7a5016ab177
-# ee7e1e468b2c43058893abeacb35fd19
-# f5699f043a654ae486961133813f6f5e
-# 0b42f888a8ca4d7aa623f15b162cc559
-# 5313674511244a368d4cefc92608a719
-# 60ef9b1339f245e8ab28999186ebc3c0
-# 0ed99065fb454a39ab5c816dc1943f81
-# 3e82b511c4944561abf24f1d0d9b3c79
-# bbe43d237edf4beabd441140a0b0db87
-# a95ceafb04824e2492ea43d700c0cad7
-# a2b30460fd434e2fa5b707fb31350997
-# 1d0d64b28a2641718d496fe8bfb2a719
-# 0c2015068651489ea16f3609a3ecf1c4
-# 9dbf24c5f7d54607b2b23550ba6e459f
-# bcb669c6ae0341baa138b453d486e22b
-# 358335fb73414ac586851ef5da1a96a8
-# 07e0081041154d2e842f6d70334b4a29
-# ebc4ef9830944d21b125f07e39e13c74
-# e6775584f3364d15bbae8ff8c408dba2
-# 8c5229bccab845cb82ecce5a3cc12c67
-# 542d8f7a1cae4f6c97324459ccaf5c00
-# 4c033131c3b446d1bd4c54f89182ac5e
-# 21ba7dc8797d4e5ab0a3d56422dd1fb9
-# 510de3371e2240c18669dfb90c71ed1d
-# 1ef7b68c38ff40e1a3a36e6dba2d469a
-# 2e3017d202ff47c18b92e9f3c971dfab
-# ce19c6a766aa4347b08326a0959915aa
-# ea6bd2651b334882960a5e85343f883e
-# 023d37455a974bb2912c89a361e86643
-# a662a99b1d8043f48f37f1a4f72ba9c4
-# 5cbd1f17625e49e4baa3303c91d950b8
-# f98aa8d620fd42aaac1ffcd41380cbd8
-# 12e28d4fec1b45cfa38b6e10c826679e
-# f6f7c9b8b328426fad7537f2a7fd0a78
-# cb44a37684a7437fb5b61f454fae3747
-# 3cf0bda0c2e5433b879ce75ace6d8d87
-# 3328c4d4a6154a2bb8db927da538926b
-# e10df20c584242e6a575ff22e3ce5d33
-# f676bd3127ff498f8e92937ce1d1f7a5
-# 12a8225f6f8d4f1389f7b83be235f30c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Long"
 msgstr "Long"
 
 # 79a57fe933b34dbe96b0cd3ba26624bf
-# c644bfa8ff3c4266a9f3d9d172ff3355
-# 5dfe4ffbd79f4eba823f72c85ecfde9c
-# 17e6bd8d103d47c7aeaddb11b0758caf
-# 630798ac895f416b97734f0b53724d7c
-# 74bfd6348b634e45b410c4b3b6904fbc
-# c46ebf48a47b434fa944211ad2491093
-# 677de17ad95441369c240d2df57ce6bc
-# 2da9e2c3f1b6422187c3bdaf270c939f
-# a505dda25d8f42d4a7df273bddde3e83
-# c08c904e6e41478faa4a02cfc2dd0350
-# 55fbe52f2939413ba9e6d0a6329cbd89
-# 49e87db33a554c38b5c64a8e99f3acfd
-# 736057d693964a31a614ceb58398004f
-# 224e016c4cfd400ba9ad876b6eb29958
-# 413e78a889a446f2b241ae8749548e7d
-# d600fcde28c942f3886e3d086c0c116d
-# 6741fb56642c43d59ffdaffa97cdf055
-# 7861119c449d418c94c8c654a97fbd09
-# 3f2a9930379e4e54ad7874661a8fe8c9
-# ae3e1f8c9d9644fcb5de40418ce936f9
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "timestamp"
 msgstr "timestamp"
 
 # 57cb7800fbcb412fae94edd962e9f242
-# 374977f0359b48c5b1ba4f1196c4c4fe
-# 4c9cd3822e8549a6933164c370da8a8e
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "signature"
 msgstr "Signature"
 
 # 162fe3df9d1347f28d5b9c47fd04a92d
-# 2abc73ff170b439ea37f33c1b272c9ce
-# 75ab174ca1e242aaaa504b97e4adedcf
-# 82b9f3ef869b4318bb87983eb199e99e
-# ff1e2564d70445368846f5232a9d7113
-# 149be75fedb649f8a6f1c08f7f73372b
-# a872661a89544985906c3e9c9e183d3e
-# 6162783080a04d6fa38c2fb54490ca52
-# b0f8a489591e4650bf6654c837973345
-# f2151e2619ed42ad9ac1093a449bb5c2
-# 19f1d0b8b7e74e0f9cb9beaf009b6769
-# cda81924e697483ea187494b2148c97b
-# d037d1ee43934d9fbca07ecb4ca809b3
-# 806fadbf2233439eaae1259ccc07fd26
-# 04bade56171749feba503f0f2652869e
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "ByteStr"
 msgstr "ByteStr"
 
 # 2afecc20e30a4aa88aa357383236956d
-# 62efe17cf4da4faf9410c2667f688402
-# 0effc4d253eb479f9f1584fe4c77abdd
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "recipient"
 msgstr "Recipient"
 
 # 8bb2affb8f544e78b855a97316e1a56a
-# e45280c126c8415e944ca14719039c0c
-# c53667d8a2e14153a197572731f3dc0e
-# 150fc59c90eb434dadf1a2ef0bc68fd4
-# 6c04b3199c2f4e38b8ddb505ca1c550e
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "amount"
 msgstr "Amount"
 
 # a219b1db67724c249118d14a066627e4
-# 139edbdd208a4bc589373246731f28a6
-# ff356c22ec344340ac0ffba317f2b49a
-# 9de38c4c0a98407ab4731d2b5c7cd997
-# 1b4ada395dc74b2fbe1bd37e5d1c3411
-# 3f5cd6d9fe404768ba0cc8a04efec7f7
-# 621692aee73f4fa0bb13a210135430bc
-# 6295f4329e1a42359effb5a15801b8b6
-# 57a499fd729f4100b4586e0c6822675c
-# 6c4a1ebea01c422284715568626a6ab1
-# b5be48b4408840ccaa9e1a30607e953b
-# c01dee9aee9d44a499d9015f4a9eb8dd
-# 2d0d842a97b840d38f36d0743fdd8f79
-# 51c16ad1a8024d77b3e36f9a353bccc6
-# c050709b85ca43bface3944ecffacb4b
-# 7024187349594e0993ec30bc598a7532
-# e17b82c835b9447fb8d593405ea068b9
-# 2d0bece7502149c8b06c2d50052e21bc
-# 5f326593cf1544768dd2e639a4477f06
-# 6cdb8db3fb2749309db3568c945d8ef2
-# 785e9231e1e84f0ea19cc130fe1dee4f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "height"
 msgstr "Height"
@@ -916,260 +582,71 @@ msgid "3. issueTransaction"
 msgstr "3. Issue Transaction"
 
 # 516a2278dfe040549dbb990bad40643c
-# 16f5b50c3bfa432ea060805dee0203cd
-# 9f03291ccd8f4069826855b45cc474b5
-# 65e9439c69d840a0a0239e76b9a73c36
-# 463880158d534f6db9421ef523889285
-# 78c0c5818f124a4dafed90830a595da7
-# 5005a283b47f4ac6b5148f0993e45a51
-# ba7155ee7a6041c687354ce9fb7b87ac
-# 47cdb3a5a7c1453b888ed93dd72dd238
-# 95d5551fdb9b4be3bd24a27be374825f
-# 6006460b26f04feb8ff2af69060eacaa
-# 30c8f85e32534a38ac10bae275c69427
-# 4ac907cbd1e4463285c7bb7439fd3093
-# 8aa7caf671374334b443e0e105087288
-# 35bc065ca3224e56a80f9c17d40b97fc
-# 647e7bf72df847b096af1d2516d769dc
-# 383fc40612e140a29c357b94245f0cec
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "JSON to sign"
 msgstr "JSON to sign"
 
 # c877b606512c4ef78cbd7277439b65b1
-# 92670df966e44072bc4f79c597a9f0ce
-# e4e6dfdfb8724efa86f23394cce65354
-# 5ad4fef683c04d57b2160045d26f50df
-# 66bc3bac4e4d48f18a66e13c48fd455c
-# 5ea72efb7b1343009ce64ea16d459a26
-# 9be1e1ccd7304a1f91aaf12cff787c3b
-# 48762100f8944d68a2308cd3e6521345
-# d1dc135359a84be5a386bb755e05b743
-# 5ea2bf4021df4e2184c8f353ce45acfc
-# 7caad7c725444f91af1ce044b8305c52
-# 188a5df2711c495e8c03a9b46ec09b71
-# da7dc28099de4765aebd005d35ac5b53
-# a24a077f7857403396ff129aa10323dc
-# 8c5bae524a0046a6a595602daf49cc0c
-# b4998f4bae714f38989f1d317a666c90
-# 4947d84bbfa7412993907228a3af8abc
-# 20952d0acd114eca8bf1ff6c9650d957
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "sender"
 msgstr "Sender"
 
 # 8330f8bcbbcb4914a70cb9ff6b693abd
-# f39bdfac499b434485d45a1f70e8c898
-# a8ff93625c704690a0dc3f1be5ddeb73
-# 0372e7fc7a694723b7cfa7f5fa76af84
-# 875187bfb201420bbca3258143b5e953
-# f8a35e31b89b4d0aae45778308dd6581
-# 1c56ec436c2d4a5a808afbb4677a70f7
-# f612f6975b7642069b61f75ec6603bc4
-# 1376eb5b1dcd40b7b82e0aacab2abacf
-# 85be7404fccc49d28f9015fa60164ba8
-# 4b0a21f27f24485aab0c302309af1213
-# 7c0376f874194d39a0c80f6f068cfd69
-# cb326052d5c4468a880c05d278c589c8
-# f8138691c11648bfb951e43d432f4e71
-# d970295f1a324ef1babda3ac41d0b7a6
-# 8643334c3b5f4f0d93397c8697a856c5
-# 73aba07bf33f4081a7eea8c092b15ac8
-# b9314d72d56a4d238c38379a8ee058d5
-# d5bf1768f088457a93913a05e4362c6e
-# b52af645ff5b4a1dab51b41171e92bb7
-# 8ab9e5b10eab4a75b1af994cb8f15a8f
-# cc1cdeb94a5547c88e843c4394fd3cd5
-# 1cab73cedf8a4311bb1f66e769c89bb7
-# 434555f93e5a4db7b1276a28d51faebe
-# 8d2402419c2441cba2ebaca15ea0e6b6
-# 626ac2cdd7d04172bc30872e47a3291f
-# 90171bff32584c0994611e334f0eb855
-# d9d5b7b2d28540749291eed169c5e098
-# ef07a72293d447a99f8c602c9b54ca7b
-# f51f8e7ad69a409bb8db152e144cab80
-# 4a04911f2bc245168a11f18b79ad67d6
-# 7cc94c85d823403baeabfc36e265c4ab
-# 215c3e2c546848819ba0a10d57fbad72
-# b15bd8af48c6410082465867ddf048fc
-# 17d8c00c0ed243989d98f6609f895298
-# 2f6b933fedcb41fc8110e8122c81c3b0
-# 9b75e89fa27a4cb492c8b41d30523326
-# 1119322baff4412f85af8c17318fafde
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "PublicKeyAccount"
 msgstr "PublicKeyAccount"
 
 # 99f6792ec52340c6a02c5b2995a48e84
-# d30b79f518224e0fa5ddee6f50b14cc9
-# 58458c588156421595510e743027a8e4
-# 07de817223214cd8934f61ddaa6155b0
-# cde5ad1489cf40388cdba431deaf4b01
-# 62079e94588b421fa1c60fb5913bbb72
-# bc6ae0c30b514179a6271ddd549ca9b8
-# 8e9821ab5eda462aa912cabe6fc544ac
-# a279d4ba806d40d89adb039a5240fe0b
-# 63386e1d2de14397a137fd9b648ac424
-# 9600cbecc0f2495795ea4bd14a2ee623
-# a1e3d3d5cafd4d64a0b8c40ed749f26b
-# 9af8213c1bd2417982d0e268f573fe7d
-# ab7434b783c246f7bbf082c126ff2b19
-# fcfb14dd65924516a48c4998c6a3d68f
-# f9b24461000e4daaae10d363cc75d3f9
-# 9c512ef562004e1c9a370baf4b690703
-# da8014dffc8649fc8b81aed08149ee2f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "senderPublicKey"
 msgstr "Sender's public key"
 
 # 7502b888923e4f3e8bd99b85ed5a04ac
-# 7ed4dc1430e343b799a0a71552936de3
-# a0e9273e512a42559d13360f5dcb08c1
-# 387f30a5dd754961b0a9946210c72595
-# 0134cfac55ce44a7840981ca6d376ef5
-# 5e2aecdb1a7b4199b99ad1cf1004cfe5
-# c408dbd1149d4e19b3425d027e4274b3
-# 68548545e27641f4ab6cf6de154fddb9
-# 77fea67f667445c0af88fb27e3dd2eb3
-# a6d6db2ee64d4527b0b697201e31be34
-# e54a4d8d2c9b48198052a44da9f5e54c
-# 2cd41639ca9747d7b6920e7ec1306ebd
-# 67da26319e304ac89efbc52b15de7876
-# 51213af0ee954797871640752529d469
-# c5cb03a96a524a8c97185d8fa161d3a7
-# 129a2ea52b2b4bfea8749b1f0d5f3a76
-# 9f49601658e946f1995e84220f87c02e
-# 9d97e6f3d9d841f59945cabdf968dda7
-# dc241687a83347d89eb56a594f4f95dd
-# d137436a339246f5b5f5307ad1d06dad
-# 62d629ee2397492ab1f99ef9e7f2aaa4
-# ed3ea6d108af44819ac5cb974a60bb10
-# c89ecefb6e8e46b59193261331911511
-# 12eaeab80dd1448dae98fd552de339cd
-# faf3160a17d34a409c9dce9da7fe1ceb
-# c70fb77a000341938225534efef947a3
-# 1bb10e40cdef43168501adcfa3f953c7
-# 25fa305a51464fdfbe92a8061218af53
-# 4cab31b3e7dd49d698dba40e09c52ca5
-# 6d06b17b878e4293b54574929f31a3b5
-# 2f72ba8993ac40febf5f87cd2b224b21
-# a648be3d529a41bb88564e90468d736a
-# 29d20bcf03474da48773e0b4f1f5fccb
-# 7b9efdc6abb840ef912e123528a49cef
-# 16005326fcef4b388abdabad81763cdb
-# 052c63cd3c874fdfafafabe5f7f0c4cb
-# 187a2928a93248ff8b5c7117c827b88d
-# 992d4598bbc1491e95c747e63c303141
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "(opt)"
 msgstr "(opt)"
 
 # fdc2f2d458f44e68b840e259a1552521
-# 0b5bc68b077542838a8e809f0e71230b
-# 735960c9d9e7461680bc34a9b3616fdd
-# 9df0f35d76524bc4a4b6c280678c5191
-# 919fe4a33fb74115a80e27a39f63916a
-# 42c6117409f2413291c23cc493b6c235
-# 21b02352fa9e4716af7a590f0b8c011b
-# e70ed822f17d4439955b7b5289af6fca
-# 871ea7f3c2fe46fe9864c675a5bd056e
-# fba3053b6f0242899df923e57fdacee5
-# 2872893a3a1b40a2b532c4a84aea7f30
-# 17d01f1a55014972aeb91afd29491041
-# 0a12b48d545b4f5895baee2865842b44
-# 9dfa38ec288145f38ebc8e897c043a02
-# 1cb818e38ea241d7b2d13797fe69ad5a
-# 0f5fdb1897354f8e9f3aeaa880ff2227
-# feaa90ce4b1f485c94da7def6f349891
-# 5403e6bf8f264792a4db5a11f6e4aa39
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "proofs"
 msgstr "proofs"
 
 # f5e70f7caece4b4bb81133c3f1f6617b
-# ba8d7a00fb0b4a5ba460c7ea7d17aedf
-# c7a0a04f21fc40e39659dca34ae00d6f
-# fa8464b17b5d47f7876314d46fe3e221
-# 762a0574677c4adb87a71df709351c13
-# a442c8be985b46c0b68b640f1fc59769
-# 9c8e47bd7ea2457697e4ce330c18d393
-# 9a31642c9c9b49d59eebb78941b64623
-# fcc3526272204b2192bfef7c9e137b55
-# e2b92e29603a48d0b7e84dd274e271fd
-# af1d67bfb94147e8906a45e714fe9f3c
-# ebaa892e768c4e5680d14464253a923e
-# a6aa174b60964638b2abbdfc7aaee7bc
-# 4805e178a8bd468884a92e95ffee523c
-# 9e57ec9840b2478683958919c5ae3982
-# 6ef8282a9df04b229bc253de5225d816
-# a14c045e0b2f4e48939236434b215c07
-# 533ada7e50644c81b4afba501a1e3d78
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "List[ByteStr]"
 msgstr "List[ByteStr]"
 
 # fa0053747d6746d2b0f008182844d5fa
-# c910f4eff3734eedb41c5ac998549d29
-# a98115a7a8d744dfa6814a2159f9a214
-# f307528908bd4b1ab797b694fc1af6de
-# 111318f372924439a485fa1192d11e3e
-# 391fa68ba7c3484f862df46a302fc008
-# 37be59e1fc224d8ba1c994eac8200bb8
-# d817fa531af04d42b1f89693a4dcb068
-# cf3f72cfd5a04c438859300d012b371a
-# ae6ae66475db4d5985c0b6f2c9651307
-# 1278790f19ee4363b3975acfb3cd9c18
-# 84c7c85aa70f4d038996d15d975c65e5
-# 89253597e5b842c1a9a1b23a76b4116b
-# de539788c73147148d8d7fa0a2f86b12
-# d14ee00affcc46528608da3401d00ab1
-# b71a862464e647ce90b26ed2be24fbc8
-# d8652bf5d10e41c78492172564d051fa
-# 8467975ce1414b43b6ff5242891ec5de
-# 153f8d8d683949eb812947ab8adce1f1
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "version"
 msgstr "version"
 
 # aa949e5e74b3400fb8e22f8ce9e65fbb
-# 9fb29284278547ffbfcabcb0f0843e7a
-# 477ff4cd6d634b4999e0131058f8f7a1
-# 1b8161ea1a784e61a70a01289b9475fa
-# ac8a70b65d994e4c98e63896ebe9e945
-# 60d9a3cd97e5463fbff23f89af9fd26e
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "assetId"
 msgstr "assetId"
 
 # 724a895c103940c686699e81b8fa8a75
-# 53a74d496b19477e9cd705de79bd2d3a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "name"
 msgstr "Name"
 
 # 32805580b97a4ac0971a6a9a68ae3a3d
-# f868f3234d3d4117b31d2a7785f55fdd
-# 85c17a5fd30d42669c2224af6be0d427
-# 1b3b4106b850416a815f0af2f817a291
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Array[Byte]"
 msgstr "Array[Byte]"
 
 # faa59ff4a4774e5d94b48e756b2a0e06
-# 3563e462c5fe4132b195dc1692bb8195
-# 92c69be339ba4728beddbc996383978d
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "quantity"
 msgstr "Quantity"
 
 # cf45335fce514a4bbed1498899369538
-# 73a53c3c13b44d0784aaecc1f6cd0293
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "reissuable"
 msgstr "Reissuable"
 
 # e952f63471e64624a59492e94c919057
-# 371af8a2c36e48c894228a62bbc50732
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Boolean"
 msgstr "Boolean"
@@ -1180,95 +657,36 @@ msgid "decimals"
 msgstr "Decimals"
 
 # d0f5df40854041d180ada10effdf9321
-# 7aee86610f694082bf8d68ab118e0213
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "description"
 msgstr "Description"
 
 # ab26fdc90d3b40769b273e1471d94bd4
-# 9dfd82595994426c9101e54dc0080eb2
-# fb6de815da314881b6ecf6fea4aafff8
-# fdd0544ec1ba4b8492287a9e248c6e7f
-# e5a1bf1a3ced45769d760fb7ee096c09
-# 68004793686f4f948f56837f3a3acef1
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "chainId"
 msgstr "chainId"
 
 # 455fe1d97be0472fa332d6edb36b5399
-# 9e7afa8948664aabb55cd5bb2fcc2e23
-# 584f5b697e76436b8d9cb60acacded10
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "script"
 msgstr "Script"
 
 # 1e200d255bf249f1a2dc1d1f9259e17d
-# 4d09cb718d5449bc92b0486b1c080629
-# f40ec7d85e6e4033b61a63ecf497ab37
-# 76788648f3584584a952778bf12b1b3c
-# 253095f148874fccbcbd4e600bda2f74
-# 5142a272ad934fdea67d7a9610fa8d21
-# 16e358693fdc40b0b8d1d3bf7a5a6076
-# ba376df49af14bc3bb6cfee8434ef204
-# a583b2392eb74cc0a067adbe01697e7b
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Bytes"
 msgstr "Bytes"
 
 # 6ad2fb1604014dacaeb110308af24064
-# 828e859f7ba94f1a84e61e18eacdf8b5
-# f122b115d7dd4004a05b060abc734b8d
-# cc5f473cf9464d5db65a1ef159750706
-# ef0e7b6341724aaf9842ca0b4c04e736
-# c560e453c56042cdbceca89fdfa1ce0e
-# 4f7cf2a1fc6d4741bd110e2d538e8d76
-# 23bad7d7e5e04e8ead0b371072321441
-# 02ff787daad648f19fe05dd938d68667
-# 9328fa0eda174e93a0869374a0ff3da7
-# 5fd0722e3e07447c8606bbffbc35cc66
-# 8bbd08e7e53844d4a8a25304ac9c01e0
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "password"
 msgstr "Password"
 
 # 53601c6345644d61b754be3974c6a048
-# 99538fbe9e854197a98d8674cb1c1219
-# e75d0d371a514dce9514147f451c2bfc
-# 00ee68e809b0421cbd5cba0e579c340d
-# 9d4da4b485244c3787267e5266956bed
-# 7f7bc7095835478d97a47720f26b4afa
-# 954443990dbe429b8a6c2af840820f14
-# cbe11c7af56c4066883f50892897b313
-# ed8f12715f98428cac17ebf2cad2c550
-# f295ce1f62a64f38ab73f730b573e18d
-# 97339f38c03c48bcba7483aa0b298eb4
-# f4daf032ea8246e694bc6991ccf441b6
-# 55a8f804522542d39dc7ebf6ff277cd6
-# aff2371829374e69bf87633912fe7da6
-# 1106498754f646a8ad6617695e91af57
-# 1cc9dce7588b4aa995caa054422bcd1c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "String"
 msgstr "String"
 
 # 574c58e0a5fa49c8b108e1a098b58666
-# cfa6380ef5214617ac0de0cd3e60754e
-# 727d0fdedbe74ffb9ec7abea1f861a31
-# 840da64292c7491da683cb7fd90962be
-# b09b1cfa45bf43af980d17c17600dab3
-# eef337cea16e4c4d95a7d739f3602e0d
-# 69145c71998845e08ff1db54883b9522
-# 1fecabe7d80a4605ba4c6b211f365d58
-# fce6d5269d154812ad9e9bd963fa21df
-# 2290628022864151a593c63bee6aaca2
-# 8a5a86d8bcae48b29b0e519c1a9695c4
-# 1a882454750a4984bb5936ee9acd7a29
-# 4eac08a47e964d71a392b0e280c4a4a4
-# 55fd665a46f24e248f30bda4326e0d5a
-# 71cebf6d78b04a59af3c5137d4de6eca
-# 63abb827472e4c5baa7aad70dad35a91
-# 4e26a928adee4ab985e91bc47121c72d
-# ae39d6f95c3143cd83273a39b5e8da26
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:122
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:187
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:248
@@ -1291,21 +709,6 @@ msgid "**JSON для вызова метода sign**"
 msgstr "**JSON to sign**"
 
 # 7caef61f4ee24e9982c79c95dd1f1799
-# 332ff1e4963d4d86950bb20df2136797
-# 3ec0200eef8c434ca76e10994bc5c74a
-# 90e583a5245d47c085529cd1a7f02aa0
-# 8d8eabf7291f4f2ab3b3112645817662
-# b1b85eb5f4004c3c85393a055ec36a42
-# fb2075cdc217425dbb7d2cb8521d4e59
-# 5c24599b46c1488ab5908d8f5723b3dc
-# fb0f7cb636b44a82b98fbef7cba351c8
-# 4872053d48ff4eec93ac246a2636dfe8
-# cb1b63f3b52f4112b2d79ef7634846af
-# 074d9b068e92407ba2180c29fc276a39
-# 4fc52ae405024725b98746a62fb3b59e
-# a8eeecd6cae54c708de64a8c9a12ae7e
-# 3276b2c8dc8d4765befcd90ec0307bac
-# bd0e6dffde294e069efa8d5de4a749b3
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:138
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:202
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:263
@@ -1336,7 +739,6 @@ msgid "feeAssetId"
 msgstr "Fee assetId"
 
 # 92278fc17099433fa04ddf92f2938f44
-# 362163a921034ebda66ee636379a97b5
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "attachment"
 msgstr "Attachment"
@@ -1492,13 +894,11 @@ msgid "101. GenesisPermitTransaction"
 msgstr "101. GenesisPermitTransaction"
 
 # c8535227bde9445cae7f8dc340975c27
-# 53a907ac1f1245cd9f7a21ca0523ef38
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "target"
 msgstr "Target"
 
 # 184291ffb4154b41bc29e69708ae49f3
-# aa16004b4bb94b7ca6190f3ad81ab06a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "role"
 msgstr "Role"
@@ -1508,14 +908,13 @@ msgstr "Role"
 msgid "102. PermitTransaction"
 msgstr "102. PermissionTransaction"
 
-# e6b48eb98ceb40c0b0004e72e4f3f20b
 # efe829cdcba04a08ad20089648d8983f
+# e6b48eb98ceb40c0b0004e72e4f3f20b
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "PermissionOp"
 msgstr "PermissionOp"
 
 # 00d8180558fa46bca0a058f8558138db
-# f43838aa6c954a99a3c6d5fb88809fb8
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "opType"
 msgstr "opType"
@@ -1541,7 +940,6 @@ msgid "image"
 msgstr "Image"
 
 # 9d35e55d9952498eb41a1e9021216420
-# 52518dfa58ba48fc86d1881ff3b01cab
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Array[Bytes]"
 msgstr "Array[Bytes]"
@@ -1552,14 +950,11 @@ msgid "imageHash"
 msgstr "ImageHash"
 
 # 1c1afe76f81b43baa10689eb93b073f0
-# 9910bf2b33f147809f9c87783864cc25
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "params"
 msgstr "params"
 
 # 79fdc2f8f99441c9af7915acffe2d1e5
-# 74300b3914df42ca89d6038b1d71496e
-# 5f0d1159c4ce46af9617dc53f9779dfc
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "List[DataEntry[_]]"
 msgstr "List[DataEntry[_]]"
@@ -1570,7 +965,6 @@ msgid "104. CallContractTransaction"
 msgstr "104. CallContractTransaction"
 
 # 40758660b5bb44edacfdae3bcb979a39
-# b6419f51df6147728f20b760c3cc7fc1
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "contractId"
 msgstr "contractId"
@@ -1606,7 +1000,6 @@ msgid "110. GenesisRegisterNodeTransaction"
 msgstr "110. GenesisRegisterNodeTransaction"
 
 # 22c3e59275054923bfeebd63c45bc7d9
-# 0b559ac24b69479295cbda90a4f5dc2d
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "targetPubKey"
 msgstr "targetPubKey"

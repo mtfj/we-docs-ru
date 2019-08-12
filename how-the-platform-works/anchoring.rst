@@ -53,25 +53,38 @@
 * ``error-code`` - код ошибки.
 * ``error-message`` - описание ошибки.
 
-.. csv-table:: Типы ошибок при анкоринге
+.. .. csv-table:: Типы ошибок при анкоринге
    :header: "Код","Сообщение об ошибке","Возможная причина"
-   :widths: 10, 40, 40
-
-   0, ``Unknown error``, При отправке транзакции в Mainnet произошла неизвестная ошибка
-   1, ``Fail to create data transaction for Mainnet``, Создание транзакции для отправки в Mainnet завершилась ошибкой
-   2, ``Fail send transaction to Mainnet``, Публикация транзакции в Mainnet завершилась ошибкой (возможно, ошибка JSON-запроса)
-   3, ``Invalid http status of response from mainnet transaction broadcast``, 
-   4        ,+      ,       ,ByteStr
-   5        ,+      ,+      ,ByteStr
-   6           ,+      ,+      ,Long
-   7           ,+      ,       , 
-   8
-   9
-
-
+   0,``Unknown error``,При отправке транзакции в Mainnet произошла неизвестная ошибка
+   1,``Fail to create data transaction for Mainnet``,Создание транзакции для отправки в Mainnet завершилась ошибкой
+   2,``Fail send transaction to Mainnet``,Публикация транзакции в Mainnet завершилась ошибкой (это может быть ошибка JSON-запроса)
+   3,``Invalid http status of response from mainnet transaction broadcast``,В результате публикации транзакции в Mainnet вернулся отличный от 200 код
+   4,``Fail to parse http body of response from mainnet transaction broadcast``,В результате отправки транзакции в Mainnet вернулся нераспознаваемый JSON-запрос
+   5,``Mainnet return transaction with id='$mainnetTxId' but it differ from transaction that we sent id='$sentTxId``,В результате отправки транзакции в Mainnet вернулся отличный от первой транзакции идентификатор
+   6,``Mainnet didn't respond on transaction info request``,Mainnet не ответил на запрос об информации о транзакции
+   7,``Fail to get current height in Mainnet``,Не удалось получить текущую высоту в Mainnet
+   8,``Anchoring transaction in mainnet disappeared after height rise enough``,Анкоринг транзакция пропала из Mainnet после увеличения высоты на значение ``height-above``
+   9,``Fail to create sidechain anchoring transaction``,Не удалось опубликовать анкоринг транзакцию в приватном блокчейне
 
 .. table:: Типы ошибок при анкоринге
 
+   ===   ===============================================================================================================   ==================================================================================================
+   Код   Сообщение об ошибке                                                                                               Возможная причина
+   ===   ===============================================================================================================   ==================================================================================================
+   0     ``Unknown error``                                                                                                 При отправке транзакции в Mainnet произошла неизвестная ошибка
+   1     ``Fail to create data transaction for Mainnet``                                                                   Создание транзакции для отправки в Mainnet завершилась ошибкой
+   2     ``Fail send transaction to Mainnet``                                                                              Публикация транзакции в Mainnet завершилась ошибкой (это может быть ошибка JSON-запроса)
+   3     ``Invalid http status of response from mainnet transaction broadcast``                                            В результате публикации транзакции в Mainnet вернулся отличный от 200 код
+   4     ``Fail to parse http body of response from mainnet transaction broadcast``                                        В результате отправки транзакции в Mainnet вернулся нераспознаваемый JSON-запрос
+   5     ``Mainnet return transaction with id='$mainnetTxId' but it differ from transaction that we sent id='$sentTxId``   В результате отправки транзакции в Mainnet вернулся отличный от первой транзакции идентификатор
+   6     ``Mainnet didn't respond on transaction info request``                                                            Mainnet не ответил на запрос об информации о транзакции
+   7     ``Fail to get current height in Mainnet``                                                                         Не удалось получить текущую высоту в Mainnet
+   8     ``Anchoring transaction in mainnet disappeared after height rise enough``                                         Анкоринг транзакция пропала из Mainnet после увеличения высоты на значение ``height-above``
+   9     ``Fail to create sidechain anchoring transaction``                                                                Не удалось опубликовать анкоринг транзакцию в приватном блокчейне
+   ===   ===============================================================================================================   ==================================================================================================   
+
+
+.. .. table:: Типы ошибок при анкоринге
    +----------------------------+--------------------------------+-------------------------------+
    |  Этап анкоринга            |  Код и сообщение об ошибке     |  Возможная причина            |
    |                            |                                |                               |
