@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-12 15:28+0300\n"
-"PO-Revision-Date: 2019-08-12 15:43+0300\n"
+"POT-Creation-Date: 2019-08-13 15:15+0300\n"
+"PO-Revision-Date: 2019-08-13 15:16+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -502,51 +502,77 @@ msgid "1. Genesis transaction"
 msgstr "1. Genesis transaction"
 
 # bd904a359d4d421c81c8c7792854a175
+# 8084f47a4fdc4b6282bc74adbc5e7ffa
+# bb2cd21f4dec4a67bf35d4cdfbbe4f6c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Field"
 msgstr "Field"
 
 # 3c10f4dc8915474bbe96c3f45d2fa1f1
+# 84ff8ae26b5445819844358d2a755705
+# 7fe580591eed43b6922277ecfce3da1c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Broadcasted JSON"
 msgstr ""
 
 # d34a6a713b094a488e8ef3640df15e75
+# a9a57f3f7cd3498aae23e5a339f455e0
+# bdd8d5a70577408fbdb7f19bdce288e9
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Blockchain state"
 msgstr ""
 
 # fc79b43ef39941d19a6c1116ba10a47d
+# 6ea30e47529f48ed9e9663404a0fe1cb
+# 7918ea7deed0484da559e1092ace78d6
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Type"
 msgstr "Type"
 
 # ea3bac66d7504ab69f1cda919a3a9b22
+# 56cec813541f41ca9ae05825532f549e
+# ca2b76964bd1430383929b59de882389
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "type"
 msgstr "Type"
 
 # 0a895ee349db47689719c95485c74a3c
+# 52d82eb9f6ca416d92b4eda7a7a8b142
+# 4ae80396e1a14aaf94bea57ed317f9d8
+# 811e4ee0f67a417dbb315afadc364ebd
+# 882967add3674449b654dc6b2dbb90c6
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Byte"
 msgstr "Byte"
 
 # 665ec891251b488b9b9900812c4b059a
+# 7c9ddcc9b29740b5afe6ce00e40b8f6b
+# d3ce5e2876c341f3bc2e176b3e728f45
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "id"
 msgstr ""
 
 # 80af9b927c0b4a5390b6d42b90200076
+# ea3bc100bfff42c3a16e3c36859387f9
+# 857752ae9479489cb0a0ccc38f574787
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "fee"
 msgstr "Fee"
 
 # fac0a38aeff5488f8a33cf459e489c58
+# 18527545a6f94820b852a761c245b7db
+# 6fdfc1e8f52c4d59879ea478397fcb31
+# 86b1ad91afe641f490cc9736babbddf5
+# c8a902829e834a96b7c2f13d1e1cc5d4
+# 541f12189cdd4dcf9631c7fe5ad7aec0
+# b889ecf8494d4a49adeb3d99e66c05f8
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Long"
 msgstr "Long"
 
 # 79a57fe933b34dbe96b0cd3ba26624bf
+# 2899a7ee96a34a20ad8d8be65fdb7958
+# 22d3c693839e4c00934fafbf5be3b172
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "timestamp"
 msgstr "timestamp"
@@ -572,6 +598,8 @@ msgid "amount"
 msgstr "Amount"
 
 # a219b1db67724c249118d14a066627e4
+# c41823b143ac43fa985c3affc608aeed
+# 7ba6506befda428bbb15981f2032200a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "height"
 msgstr "Height"
@@ -582,36 +610,54 @@ msgid "3. issueTransaction"
 msgstr "3. Issue Transaction"
 
 # 516a2278dfe040549dbb990bad40643c
+# 6da0d2d385ab4309b968df36190ce2cd
+# 7f2313a2d5d2420f9dfad9fac281258c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "JSON to sign"
 msgstr "JSON to sign"
 
 # c877b606512c4ef78cbd7277439b65b1
+# 0a2fcebf36ff414289408e83f3dec50f
+# 219222270b284b218b0c98e35e050b53
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "sender"
 msgstr "Sender"
 
 # 8330f8bcbbcb4914a70cb9ff6b693abd
+# 0c87a02dd3024a76a388842d00b62480
+# c31afbf1cbf142b786bcd97fa2c417f6
+# 24d5f659a78e4e11ac89007f6e585fca
+# c4376daa59e8494faff4a803d3784d30
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "PublicKeyAccount"
 msgstr "PublicKeyAccount"
 
 # 99f6792ec52340c6a02c5b2995a48e84
+# 1805e664258b4b37af5b2a98852bdd94
+# b663da1bb43649cfb605b5d41112d250
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "senderPublicKey"
 msgstr "Sender's public key"
 
 # 7502b888923e4f3e8bd99b85ed5a04ac
+# f86d06aa745d4d9da1e98598e786d20f
+# 2859f211621143288e0ad48c14c3dcbb
+# 1257ebf3723d4713a87ca49f1ec17c09
+# 778eb3d6db954fb38bd859daead2df3e
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "(opt)"
 msgstr "(opt)"
 
 # fdc2f2d458f44e68b840e259a1552521
+# 5e97f1d184c04994b473607b9daf32cc
+# 35dab89cc7ab4b639e5556b685d3fada
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "proofs"
 msgstr "proofs"
 
 # f5e70f7caece4b4bb81133c3f1f6617b
+# b773aecb8553437aa7bcb61228e2d5b0
+# 4620e62972e64d7381f83693a9263057
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "List[ByteStr]"
 msgstr "List[ByteStr]"
@@ -632,6 +678,10 @@ msgid "name"
 msgstr "Name"
 
 # 32805580b97a4ac0971a6a9a68ae3a3d
+# 779a727c49b84579a48a01bb31a37a48
+# 0407607672fe4442bdcba4606d887617
+# 17bb36f83938424d8b1c976285cd6da7
+# 092c2b7608814cc8b7739d95c6613b08
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Array[Byte]"
 msgstr "Array[Byte]"
@@ -657,6 +707,8 @@ msgid "decimals"
 msgstr "Decimals"
 
 # d0f5df40854041d180ada10effdf9321
+# 08cb612408294e1595ed298205750481
+# f8649ba871c04c7fac216d5fd3b16433
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "description"
 msgstr "Description"
@@ -677,11 +729,19 @@ msgid "Bytes"
 msgstr "Bytes"
 
 # 6ad2fb1604014dacaeb110308af24064
+# c8ba0934bcac4982a3ca7342dd319dd7
+# 836327fc3ea14e40bdfa65084af493b5
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "password"
 msgstr "Password"
 
 # 53601c6345644d61b754be3974c6a048
+# e85db053fba14cdbbd3f3935ae2287a3
+# b3a769ea113c41c186a1487d9a1398a8
+# 29780710c44c468e8dcf2b80c658a18a
+# 65da85fa657c4e66aad0c7d63bc927d3
+# 6a7d3623c6d34bfd88fb0367fbeb07a4
+# a6d30d3b171346aa8a207e1dfd74f953
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "String"
 msgstr "String"
@@ -703,8 +763,8 @@ msgstr "String"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:933
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1059
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1129
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1148
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1178
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1166
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1215
 msgid "**JSON для вызова метода sign**"
 msgstr "**JSON to sign**"
 
@@ -915,6 +975,7 @@ msgid "PermissionOp"
 msgstr "PermissionOp"
 
 # 00d8180558fa46bca0a058f8558138db
+# fad7b5fd6e164efa8bc2489292534a41
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "opType"
 msgstr "opType"
@@ -1019,18 +1080,36 @@ msgstr "nodeName"
 msgid "112. CreatePolicyTransaction"
 msgstr "112. CreatePolicyTransaction"
 
+# 48fb4ef6fc784e28bac5faf2853f5cbd
+# 58bd3624a40e4c968e5a208d12c3edd7
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
+msgid "policyName"
+msgstr "policyName"
+
+# 3053ffa4ca29441586ec5d7bcb339749
+# dc14f630b3c247d79443de531e994230
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
+msgid "recipients"
+msgstr "recipients"
+
+# 677c378a20ec4982b08fa0814306e9a3
+# aaf9b6a0f8224ae7a26b4af33eec1863
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
+msgid "owners"
+msgstr "owners"
+
 # 67797f6aaa4c47cfae4419e788a3e7e8
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1176
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1194
 msgid "113. UpdatePolicyTransaction"
 msgstr "113. UpdatePolicyTransaction"
 
 # 55e87ffc8cba41b6ad8fcc70185444bc
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1210
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1245
 msgid "114. PolicyDataHashTransaction"
 msgstr "114. PolicyDataHashTransaction"
 
 # 612f41d561ea41f79555351258f098a4
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1212
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1247
 msgid ""
 "Когда пользователь отправляет конфиденциальные данные в сеть при помощи :ref:"
 "`POST /privacy/sendData <privacy-api>`, нода автоматически формирует транзакцию "

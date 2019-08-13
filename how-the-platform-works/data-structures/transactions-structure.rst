@@ -1145,6 +1145,24 @@
 112. CreatePolicyTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
+
+   type             ,+      ,+      ,+      ,Byte
+   id               ,       ,+      ,+      ,Byte
+   sender           ,+      ,+      ,+      ,PublicKeyAccount
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
+   policyName       ,+      ,+      ,+      ,String
+   recipients       ,+      ,+      ,+      ,Array[Byte]
+   owners           ,+      ,+      ,+      ,Array[Byte]
+   fee              ,+      ,+      ,+      ,Long
+   timestamp        ,+ (opt),+      ,+      ,Long
+   proofs           ,       ,+      ,+      ,List[ByteStr]
+   height           ,       ,       ,+      ,Long
+   description      ,+      ,+      +,      ,String
+   password         ,+ (opt),       ,       ,String
+
 **JSON для вызова метода sign**
 
 .. code:: js
@@ -1175,12 +1193,30 @@
 113. UpdatePolicyTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
+
+   type             ,+      ,+      ,+      ,Byte
+   id               ,       ,+      ,+      ,Byte
+   sender           ,+      ,+      ,+      ,PublicKeyAccount
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
+   policyName       ,+      ,+      ,+      ,String
+   recipients       ,+      ,+      ,+      ,Array[Byte]
+   owners           ,+      ,+      ,+      ,Array[Byte]
+   fee              ,+      ,+      ,+      ,Long
+   timestamp        ,+ (opt),+      ,+      ,Long
+   proofs           ,       ,+      ,+      ,List[ByteStr]
+   height           ,       ,       ,+      ,Long
+   opType           ,+      ,+      ,+      ,
+   description      ,+      ,+      ,+      ,String
+   password         ,+ (opt),       ,       ,String
+
 **JSON для вызова метода sign**
 
 .. code:: js
 
    {
-     "senderPublicKey": "CgqRPcPnexY533gCh2SSvBXh5bca1qMs7KFGntawHGww",
      "policyId": "7wphGbhqbmUgzuN5wzgqwqtViTiMdFezSa11fxRV58Lm",
      "password":"sfgKYBFCF@#$fsdf()*%",
      "sender": "3NkZd8Xd4KsuPiNVsuphRNCZE3SqJycqv8d",
@@ -1201,7 +1237,6 @@
        "3Nm84ERiJqKfuqSYxzMAhaJXdj2ugA7Ve7T"
      ],
      "type": 113,
-     "timestamp": 1557836033984
     }
 
 .. _PolicyDataHashTransaction:
