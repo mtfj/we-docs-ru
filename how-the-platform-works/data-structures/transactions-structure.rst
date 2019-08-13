@@ -1160,7 +1160,7 @@
    timestamp        ,+ (opt),+      ,+      ,Long
    proofs           ,       ,+      ,+      ,List[ByteStr]
    height           ,       ,       ,+      ,Long
-   description      ,+      ,+      +,      ,String
+   description      ,+      ,+      ,+      ,String
    password         ,+ (opt),       ,       ,String
 
 **JSON для вызова метода sign**
