@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-13 15:15+0300\n"
-"PO-Revision-Date: 2019-08-13 15:16+0300\n"
+"POT-Creation-Date: 2019-08-13 17:21+0300\n"
+"PO-Revision-Date: 2019-08-13 17:21+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -504,6 +504,7 @@ msgstr "1. Genesis transaction"
 # bd904a359d4d421c81c8c7792854a175
 # 8084f47a4fdc4b6282bc74adbc5e7ffa
 # bb2cd21f4dec4a67bf35d4cdfbbe4f6c
+# 26830c195b71496c88030f381156fcb7
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Field"
 msgstr "Field"
@@ -511,6 +512,7 @@ msgstr "Field"
 # 3c10f4dc8915474bbe96c3f45d2fa1f1
 # 84ff8ae26b5445819844358d2a755705
 # 7fe580591eed43b6922277ecfce3da1c
+# b82f76ea5eea42a3a255ea397778ab98
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Broadcasted JSON"
 msgstr ""
@@ -518,6 +520,7 @@ msgstr ""
 # d34a6a713b094a488e8ef3640df15e75
 # a9a57f3f7cd3498aae23e5a339f455e0
 # bdd8d5a70577408fbdb7f19bdce288e9
+# aeff832ed7084388b2d6c01c35189aec
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Blockchain state"
 msgstr ""
@@ -525,6 +528,7 @@ msgstr ""
 # fc79b43ef39941d19a6c1116ba10a47d
 # 6ea30e47529f48ed9e9663404a0fe1cb
 # 7918ea7deed0484da559e1092ace78d6
+# ffe1afb0b1d348b4a772656b86c503d5
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Type"
 msgstr "Type"
@@ -532,6 +536,7 @@ msgstr "Type"
 # ea3bac66d7504ab69f1cda919a3a9b22
 # 56cec813541f41ca9ae05825532f549e
 # ca2b76964bd1430383929b59de882389
+# b004a2171d2c4f09a6cda1f4aea05c92
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "type"
 msgstr "Type"
@@ -541,6 +546,8 @@ msgstr "Type"
 # 4ae80396e1a14aaf94bea57ed317f9d8
 # 811e4ee0f67a417dbb315afadc364ebd
 # 882967add3674449b654dc6b2dbb90c6
+# ace7511f5855435e95ade6c906d07b32
+# b068478fa16b40df816f1f4dccb9398f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Byte"
 msgstr "Byte"
@@ -548,6 +555,7 @@ msgstr "Byte"
 # 665ec891251b488b9b9900812c4b059a
 # 7c9ddcc9b29740b5afe6ce00e40b8f6b
 # d3ce5e2876c341f3bc2e176b3e728f45
+# 77f70f7ac6544fb2a1c4dea18afe0e8a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "id"
 msgstr ""
@@ -555,6 +563,7 @@ msgstr ""
 # 80af9b927c0b4a5390b6d42b90200076
 # ea3bc100bfff42c3a16e3c36859387f9
 # 857752ae9479489cb0a0ccc38f574787
+# 7d818444640744d3a00c17ab8da4ceae
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "fee"
 msgstr "Fee"
@@ -566,6 +575,9 @@ msgstr "Fee"
 # c8a902829e834a96b7c2f13d1e1cc5d4
 # 541f12189cdd4dcf9631c7fe5ad7aec0
 # b889ecf8494d4a49adeb3d99e66c05f8
+# b0352cc75c37443e85b1b3028b3b5d82
+# 8f3fbe71f54941eca52c1c37c322e3a5
+# 515f488c749c480bbee024c9f7f79412
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Long"
 msgstr "Long"
@@ -573,6 +585,7 @@ msgstr "Long"
 # 79a57fe933b34dbe96b0cd3ba26624bf
 # 2899a7ee96a34a20ad8d8be65fdb7958
 # 22d3c693839e4c00934fafbf5be3b172
+# 5e37f136f3264aa4867e00463c083ec6
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "timestamp"
 msgstr "timestamp"
@@ -600,6 +613,7 @@ msgstr "Amount"
 # a219b1db67724c249118d14a066627e4
 # c41823b143ac43fa985c3affc608aeed
 # 7ba6506befda428bbb15981f2032200a
+# e3e539e24b29472b8746842a2b42a773
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "height"
 msgstr "Height"
@@ -619,6 +633,7 @@ msgstr "JSON to sign"
 # c877b606512c4ef78cbd7277439b65b1
 # 0a2fcebf36ff414289408e83f3dec50f
 # 219222270b284b218b0c98e35e050b53
+# 14f2a68899a647888ef8586ee67e1ab2
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "sender"
 msgstr "Sender"
@@ -628,6 +643,8 @@ msgstr "Sender"
 # c31afbf1cbf142b786bcd97fa2c417f6
 # 24d5f659a78e4e11ac89007f6e585fca
 # c4376daa59e8494faff4a803d3784d30
+# 4983456e37a94a5a8ccf001dd68b0377
+# 351cb2d149c84756928d0d942edd16f3
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "PublicKeyAccount"
 msgstr "PublicKeyAccount"
@@ -635,6 +652,7 @@ msgstr "PublicKeyAccount"
 # 99f6792ec52340c6a02c5b2995a48e84
 # 1805e664258b4b37af5b2a98852bdd94
 # b663da1bb43649cfb605b5d41112d250
+# b0c296849293462a858fb48e120acc88
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "senderPublicKey"
 msgstr "Sender's public key"
@@ -651,6 +669,7 @@ msgstr "(opt)"
 # fdc2f2d458f44e68b840e259a1552521
 # 5e97f1d184c04994b473607b9daf32cc
 # 35dab89cc7ab4b639e5556b685d3fada
+# 3f34d9ba48474dbd8940942b9f3333fd
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "proofs"
 msgstr "proofs"
@@ -658,6 +677,7 @@ msgstr "proofs"
 # f5e70f7caece4b4bb81133c3f1f6617b
 # b773aecb8553437aa7bcb61228e2d5b0
 # 4620e62972e64d7381f83693a9263057
+# 7b91360f588e40a6942d7cdf2d7cbe47
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "List[ByteStr]"
 msgstr "List[ByteStr]"
@@ -742,6 +762,8 @@ msgstr "Password"
 # 65da85fa657c4e66aad0c7d63bc927d3
 # 6a7d3623c6d34bfd88fb0367fbeb07a4
 # a6d30d3b171346aa8a207e1dfd74f953
+# 624678ce8ce240c1973c9c2fcfedd993
+# 0a99f67f544e4a83b4194ebddd203978
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "String"
 msgstr "String"
@@ -1117,6 +1139,16 @@ msgid ""
 msgstr ""
 "When the user sends confidential data to the network using :ref:`POST /privacy/"
 "sendData <privacy-api>`, the node automatically will create the 114 transaction."
+
+# 453a950892bb43cda619b50378b9314f
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
+msgid "policyId"
+msgstr "policyId"
+
+# a48343b745a2436f85aef678d7274660
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
+msgid "dataHash"
+msgstr "dataHash"
 
 # f38ad577ec7a4a4ab0307689926f4379
 #~ msgid ""

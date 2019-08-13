@@ -1246,6 +1246,20 @@
 
 Когда пользователь отправляет конфиденциальные данные в сеть при помощи :ref:`POST /privacy/sendData <privacy-api>`, нода автоматически формирует транзакцию 114.
 
+.. csv-table::
+   :header: "Field","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10
+
+   type             ,+      ,+      ,Byte
+   id               ,+      ,+      ,Byte
+   sender           ,+      ,+      ,PublicKeyAccount
+   senderPublicKey  ,+      ,+      ,PublicKeyAccount
+   policyId         ,+      ,+      ,String
+   dataHash         ,+      ,+      ,String
+   fee              ,+      ,+      ,Long
+   timestamp        ,+      ,+      ,Long
+   proofs           ,+      ,+      ,List[ByteStr]
+   height           ,       ,+      ,Long
 
 ..  .. _SponsorFeeTransaction:
   14. SponsorFeeTransaction
