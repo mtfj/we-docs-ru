@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 15:20+0300\n"
-"PO-Revision-Date: 2019-08-14 15:51+0300\n"
+"PO-Revision-Date: 2019-08-15 17:07+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -527,7 +527,7 @@ msgid ""
 "отправляет в Mainnet транзакции для анкоринга."
 msgstr ""
 "``height-range`` - the range of blocks which is used as an interval between "
-"anchoring transactions sending to the Mainnet."
+"anchoring transactions."
 
 # 1870b5b7ca4147e58168fe52e2d8cac2
 #: ../../how-to-setup/configuration-node.rst:246
@@ -537,10 +537,10 @@ msgid ""
 "транзакции. Рекомендуется устанавливать значение, близкое к максимальной "
 "величине отката в Mainnet ``max-rollback-depth``."
 msgstr ""
-"``height-above`` - the range of blocks in the Mainnet through which the node of "
-"the private blockchain creates the confirming transaction containing the data "
-"from the first one. We recommend to specify the value which is very close to the "
-"Mainnet maximum rollback depth ``max-rollback-depth``."
+"``height-above`` - the range of blocks in the Mainnet after which the private "
+"blockchain node creates the confirming data-transaction containing data from the "
+"first data-transaction. We recommend specifying this value close to the Mainnet "
+"maximum rollback depth ``max-rollback-depth``."
 
 # cdbe49a34763418fa65faaaa31f3692b
 #: ../../how-to-setup/configuration-node.rst:247
@@ -554,10 +554,9 @@ msgid ""
 msgstr ""
 "``threshold`` - the number of blocks subtracted from the current height of the "
 "private blockchain. The anchoring transaction sent to the Mainnet includes the "
-"data from the block at the height ``current-height - threshold``. When the value "
-"is 0, the current block is taken. We recommend to specify the value which is "
-"very close to the maximum rollback depth ``max-rollback-depth`` of the private "
-"blockchain."
+"data from the block at height ``current-height - threshold``. When the value is "
+"0, the current block is anchored. We recommend specifying this value close to "
+"the private blockchain maximum rollback depth ``max-rollback-depth``."
 
 # 0fbd77c8b896429da87b86693c119785
 #: ../../how-to-setup/configuration-node.rst:249
@@ -607,7 +606,7 @@ msgstr ""
 #: ../../how-to-setup/configuration-node.rst:256
 msgid ""
 "``mainnet-private-key-password`` - пароль от ключевой пары ноды в сети Mainnet."
-msgstr "``mainnet-private-key-password`` - the keys pair password in the Mainnet."
+msgstr "``mainnet-private-key-password`` - the key pair password in the Mainnet."
 
 # ccb62e22af084216ad701c9e28a4c65c
 #: ../../how-to-setup/configuration-node.rst:258

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 15:20+0300\n"
-"PO-Revision-Date: 2019-08-14 15:39+0300\n"
+"PO-Revision-Date: 2019-08-15 16:43+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -33,7 +33,7 @@ msgid ""
 "подмены информации. Перезапись цепочки блоков и транзакций, особенно в случае "
 "использования PoS консенсуса, становится реальной."
 msgstr ""
-"One of the main ideas of the private blockchain is that transactions are "
+"One of the main ideas behind private blockchain is that transactions are "
 "processed by a certain number of participants known in advance. In a private "
 "blockchain there is a threat of information spoofing, because the number of "
 "participants is quite small if we compare it to the public blockchain where "
@@ -68,17 +68,17 @@ msgstr ""
 # 1d785b258ac340b9b1040a275b6fa647
 #: ../../how-the-platform-works/anchoring.rst:12
 msgid "Как работает анкоринг в блокчейне Vostok"
-msgstr "How does the anchoring works in the Vostok blockchain"
+msgstr "How does anchoring work in the Vostok blockchain"
 
 # b45caea6db044109b68e8565c37a5914
 #: ../../how-the-platform-works/anchoring.rst:20
 msgid "Схема анкоринга в Mainnet"
-msgstr "The Mainnet anchoring scheme"
+msgstr "Mainnet anchoring scheme"
 
 # 10ea3996b7b049d7b10b671315b02619
 #: ../../how-the-platform-works/anchoring.rst:22
 msgid "Анкоринг работает следующим образом:"
-msgstr "Anchoring works as follows:"
+msgstr "Anchoring process is shown below:"
 
 # 72bba99e27b74b97b1a3a3920e4b52e8
 #: ../../how-the-platform-works/anchoring.rst:24
@@ -88,10 +88,9 @@ msgid ""
 "работу анкоринга, устанавливайте рекомендованные значения, чтобы избежать "
 "сложностей в работе приватного блокчейна."
 msgstr ""
-"Perform :ref:`anchoring settings <anchoring-settings>` in the configuration file "
-"of the private blockchain node. Please, use the recommended values to avoid "
-"difficulties in private blockchain operation when specify the parameters values "
-"responsible for the anchoring."
+":ref:`Anchoring configurations <anchoring-settings>` are set in the "
+"configuration file of the private blockchain node. You should use recommended "
+"values for the configurations to avoid anchoring malfunctioning."
 
 # 3bb6592ebb964acba06a2b3634ebf9a0
 #: ../../how-the-platform-works/anchoring.rst:25
@@ -103,11 +102,11 @@ msgid ""
 "<anchoring-transaction>`. После отправки транзакции нода получает её высоту в "
 "Mainnet."
 msgstr ""
-"The node is creating the anchoring transaction to the Mainnet each specified "
-"blocks range ``height-range`` at the height ``current-height - threshold``. The :"
-"ref:`Data Transaction <DataTransaction>` with a ``key-value`` list is used as :"
-"ref:`an anchoring transaction <anchoring-transaction>`. The node requests the "
-"transaction height after sending it to the Mainnet."
+"Each ``height-range`` an anchoring transaction, that contains data of the block "
+"at ``current-height - threshold``, is broadcasted to the Mainnet by the "
+"anchoring node. The :ref:`Data Transaction <DataTransaction>` with a ``key-"
+"value`` list is used as :ref:`an anchoring transaction <anchoring-transaction>`. "
+"The node then requests height of the broadcasted transaction."
 
 # eeea7bd2335f4daaa6a07f310ec2c6e7
 #: ../../how-the-platform-works/anchoring.rst:26
@@ -115,8 +114,8 @@ msgid ""
 "Нода выполняет проверку высоты блокчейна в Mainnet каждые 30 секунд, пока высота "
 "не достигнет значения **высота созданной транзакции +** ``height-above``."
 msgstr ""
-"The node is checking the Mainnet blockchain height each 30 seconds until the "
-"height reaches the **the height of the created transaction +** ``height-above``."
+"The node then checks the Mainnet height each 30 seconds until its height reaches "
+"**the height of the created transaction +** ``height-above``."
 
 # 87817ba3c0d140d1ad10da205c11bf4b
 #: ../../how-the-platform-works/anchoring.rst:27
@@ -125,19 +124,19 @@ msgid ""
 "положительной проверке наличия первой транзакции в блокчейне Mainnet нода "
 "создаёт вторую транзакцию с данными для анкоринга уже в приватном блокчейне."
 msgstr ""
-"When the height, defined in the item 3, is reached and the verification of the "
-"first transaction in the Mainnet blockchain is positive, the node creates the "
-"second anchoring data transaction in the private blockchain."
+"When required height is reached and the presence of previously created data "
+"transaction is confirmed, another anchoring data transaction is created in the "
+"private blockchain."
 
 # 623e33703d4e417b9b0a696c11655ead
 #: ../../how-the-platform-works/anchoring.rst:32
 msgid "Структура транзакции для анкоринга"
-msgstr "Transaction structure for the anchoring"
+msgstr "Transaction structure for anchoring"
 
 # ed2ef030e01b4eb7abbe03504e8be1b2
 #: ../../how-the-platform-works/anchoring.rst:34
 msgid "Транзакция для отправки в Mainnet содержит следующие поля:"
-msgstr "The Mainnet transaction consists of the following fields:"
+msgstr "Mainnet transaction consists of the following fields:"
 
 # 21b889246c6b426c917f011a1c5d38b7
 #: ../../how-the-platform-works/anchoring.rst:36
@@ -187,8 +186,8 @@ msgid ""
 msgstr ""
 "Errors during the anchoring can occur at any step. In case of any error in the "
 "private blockchain the :ref:`Data Transaction <DataTransaction>` containing the "
-"error code and description is always published. The error transaction includes "
-"the following data:"
+"error code and the description is always published. The error transaction "
+"includes the following data:"
 
 # 13d33a686468492eb3619f9ca3c13176
 #: ../../how-the-platform-works/anchoring.rst:53
@@ -233,7 +232,8 @@ msgstr "``Unknown error``"
 # 1532a4192d9c479f96a33545d7c873ba
 #: ../../how-the-platform-works/anchoring.rst:74
 msgid "При отправке транзакции в Mainnet произошла неизвестная ошибка"
-msgstr "An unknown error occurred during sending the transaction to the Mainnet"
+msgstr ""
+"An unknown error occurred during the send of the transaction to the Mainnet"
 
 # f64f3d77a6464beda3e8c1115e1ef09c
 #: ../../how-the-platform-works/anchoring.rst:75
@@ -248,7 +248,7 @@ msgstr "``Fail to create data transaction for Mainnet``"
 # ab426c86e5944a6386aa34cf086481f5
 #: ../../how-the-platform-works/anchoring.rst:75
 msgid "Создание транзакции для отправки в Mainnet завершилась ошибкой"
-msgstr "Creating a transaction to be sent to the Mainnet failed"
+msgstr "Creating of the transaction to be sent to the Mainnet failed"
 
 # 65bcace8b6a14e71b8c4daec7c923423
 #: ../../how-the-platform-works/anchoring.rst:76
@@ -266,8 +266,8 @@ msgid ""
 "Публикация транзакции в Mainnet завершилась ошибкой (это может быть ошибка JSON-"
 "запроса)"
 msgstr ""
-"The transaction publication to the Mainnet has failed (it could be a JSON "
-"request error)"
+"The transaction publication to the Mainnet failed (it could be a JSON request "
+"error)"
 
 # 552799622a074eae9264f7ede654e607
 #: ../../how-the-platform-works/anchoring.rst:77
@@ -283,7 +283,7 @@ msgstr "``Invalid http status of response from mainnet transaction broadcast``"
 #: ../../how-the-platform-works/anchoring.rst:77
 msgid "В результате публикации транзакции в Mainnet вернулся отличный от 200 код"
 msgstr ""
-"The Mainnet has returned a different code than 200 after the transaction "
+"The Mainnet has returned an HTTP code other than 200 after the transaction "
 "publication"
 
 # 3d728fda1702457487e6e3e59f9e9471
@@ -300,9 +300,7 @@ msgstr "``Fail to parse http body of response from mainnet transaction broadcast
 #: ../../how-the-platform-works/anchoring.rst:78
 msgid ""
 "В результате отправки транзакции в Mainnet вернулся нераспознаваемый JSON-запрос"
-msgstr ""
-"The Mainnet has returned the unknown JSON request after the transaction "
-"publication"
+msgstr "The Mainnet has returned an unknown JSON after the transaction publication"
 
 # 677d47dce2b14b41a885b3d1585e18d9
 #: ../../how-the-platform-works/anchoring.rst:79
@@ -338,7 +336,7 @@ msgstr "``Mainnet didn't respond on transaction info request``"
 # 41fb65cad5d24f3aa1fded826f372ffb
 #: ../../how-the-platform-works/anchoring.rst:80
 msgid "Mainnet не ответил на запрос об информации о транзакции"
-msgstr "The Mainnet has not responded for the request about the transaction info"
+msgstr "The Mainnet has not responded to the request about the transaction info"
 
 # dda1d12ffd4445fba65b06cdf4aeb929
 #: ../../how-the-platform-works/anchoring.rst:81
@@ -353,7 +351,7 @@ msgstr "``Fail to get current height in Mainnet``"
 # 9447cd9e57714ee38913159fe3fb1d19
 #: ../../how-the-platform-works/anchoring.rst:81
 msgid "Не удалось получить текущую высоту в Mainnet"
-msgstr "Fail to get the current height of the Mainnet"
+msgstr "Failed to get current Mainnet height"
 
 # ba4905f8ffd54a6688bfb6d8d08451e1
 #: ../../how-the-platform-works/anchoring.rst:82
@@ -371,8 +369,8 @@ msgid ""
 "Анкоринг транзакция пропала из Mainnet после увеличения высоты на значение "
 "``height-above``"
 msgstr ""
-"The anchoring transaction has disappeared from the Mainnet after the achieving "
-"the height with the ``height-above`` value"
+"The anchoring transaction has disappeared from the Mainnet after its height "
+"evened ``height-above`` value"
 
 # 6b8e67409bea470c854ac0a089ae0e7a
 #: ../../how-the-platform-works/anchoring.rst:83

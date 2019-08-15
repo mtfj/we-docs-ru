@@ -11,6 +11,7 @@
    rest-api-node/activation.rst
    rest-api-node/address.rst
    rest-api-node/alias.rst
+   rest-api-node/anchoring-api.rst
    rest-api-node/assets.rst
    rest-api-node/blocks.rst
    rest-api-node/consensus.rst
