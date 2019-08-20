@@ -21,6 +21,7 @@
    rest-api-node/node.rst
    rest-api-node/peers.rst
    rest-api-node/permissions.rst
+   rest-api-node/pki-api.rst
    rest-api-node/privacy.rst
    rest-api-node/transactions.rst
    rest-api-node/utils.rst
