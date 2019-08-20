@@ -183,16 +183,16 @@ li.toctree-l4.current > a.reference.internal {
   max-width: 120% !important;
 }
 
+.wy-table-responsive caption {
+  text-align: left !important;
+}
+
 .wy-table-responsive thead {
   background: rgba(8, 30, 88, 0.1);
 }
 
 .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
   background: transparent;
-}
-
-.rst-content table.docutils:not(.field-list) td, .rst-content table.docutils:not(.field-list) th {
-  padding: 16px 48px;
 }
 
 .wy-menu-vertical p.caption {

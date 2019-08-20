@@ -4,3 +4,5 @@ blacklist/
 vale.exe
 config.conf
 conf2.py
+env
+.idea
