@@ -3,24 +3,25 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-20 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-08-21 17:52+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # 569adee52f6646d0b2c3073d5d738109
 #: ../../how-to-setup/install-nodes-docker.rst:3
 msgid "Установка нескольких нод"
-msgstr ""
+msgstr "how to install multiple nodes"
 
 # d2eca024f67e45639f345d7be0b49642
 #: ../../how-to-setup/install-nodes-docker.rst:4
@@ -32,24 +33,33 @@ msgid ""
 "руководстве выше, либо есть возможность использовать решение на базе "
 "docker. Здесь будет рассмотрен пример для docker."
 msgstr ""
+"In order to avoid software conflicts, different virtualization "
+"mechanisms should be used to set up nodes on a single machine. You can "
+"use the virtual machine like Oracle VM Box. Then you will have to tune "
+"and configure each virtual machine as described in this manual above, or "
+"you can use a docker-based solution. Here we will consider an example "
+"for docker."
 
 # 3c69771a917543d8b62b2ad276c1b99a
 #: ../../how-to-setup/install-nodes-docker.rst:10
 msgid "Проверить настройки портов"
-msgstr ""
+msgstr "Check the availability of computer ports"
 
 # 1629922f96464ef58de4cad75721da95
 #: ../../how-to-setup/install-nodes-docker.rst:13
 msgid "1. Проверка предустановленного docker"
-msgstr ""
+msgstr "1. Checking the docker installation"
 
 # 977bd0651a854680930d3e10460f7d72
 #: ../../how-to-setup/install-nodes-docker.rst:15
 msgid ""
 "Корректность установки можно проверить набрав в консоли вашей ОС команду "
-"``docker version``. Можно переходить в следующему шагу, если отображается"
-" результат вида:"
+"``docker version``. Можно переходить в следующему шагу, если "
+"отображается результат вида:"
 msgstr ""
+"You can check the correctness of the installation by typing the command "
+"``docker version`` in the console of your \tOS. You can proceed to the "
+"next step if the result of the view is displayed:"
 
 # 24a6a7cbd58e4aa8a8427e2ee94d0001
 #: ../../how-to-setup/install-nodes-docker.rst:48
@@ -57,60 +67,71 @@ msgid ""
 "В любом ином случае вам необходимо установить соответствующие docker и "
 "docker-compose -пакеты, соответствущие вашей ОС."
 msgstr ""
+"Otherwise, you will need to install the docker and the docker-compose "
+"for your OS."
 
 # f0df9810b15f45069093b05ac2eeec9c
 #: ../../how-to-setup/install-nodes-docker.rst:51
 msgid "2. Работа с контейнерами docker"
-msgstr ""
+msgstr "2. Work with docker-containers"
 
 # 1495ab0b02924275b3837f5e7c8ee718
 #: ../../how-to-setup/install-nodes-docker.rst:52
 msgid ""
 "Переходите директорию со скачанным контейнером. И из текущего каталога "
 "наберите в терминале команду ``docker-compose up -d``. В процессе "
-"корректной работы docker выдает индикацию состояния процесса, представлен"
-" пример успешного процесса:"
+"корректной работы docker выдает индикацию состояния процесса, "
+"представлен пример успешного процесса:"
 msgstr ""
+"Go to the directory with the downloaded container. And from the current "
+"directory type the command ```docker-compose up -d`` in the terminal. In "
+"the process of correct work docker gives the indication of the process "
+"state, an example of a successful process is presented:"
 
 # 4bd0677b5e714833b996c876e3e65aee
 #: ../../how-to-setup/install-nodes-docker.rst:67
 msgid "В ином случае docker напишет сообщение об ошибке вида:"
-msgstr ""
+msgstr "Otherwise, docker will wrote about an error message such as:"
 
 # 5bf7504435e74fd2ae3fd09821f7bd8b
 #: ../../how-to-setup/install-nodes-docker.rst:71
 msgid "Проверка и тестирование нод"
-msgstr ""
+msgstr "Node checking and testing"
 
 # 748366be38cc44febed9d671292354b7
 #: ../../how-to-setup/install-nodes-docker.rst:78
 msgid ""
-"В терминале наберите команду ``docker ps -f name=node``. Тогда вы увидите"
-" все запущенные локально ноды у вас:"
+"В терминале наберите команду ``docker ps -f name=node``. Тогда вы "
+"увидите все запущенные локально ноды у вас:"
 msgstr ""
+"Run command in terminal  ``docker ps -f name=node`` . Then you should "
+"see a nodes list running on your PC:"
 
 # dc39200d06a341b08d8ff5f4b322c532
 #: ../../how-to-setup/install-nodes-docker.rst:80
 msgid "В случае успеха, вы получите список из трех нод."
 msgstr ""
+"If all OK you will see a nodes list which consists of three running "
+"nodes."
 
 # b98e2ad807e34b5b97d4cbe2790bc72a
 #: ../../how-to-setup/install-nodes-docker.rst:84
 msgid "Проверка через api-ноды"
-msgstr ""
+msgstr "Nodes testing by api-node interface"
 
 # 17bb7990120645848804083291cfe4eb
 #: ../../how-to-setup/install-nodes-docker.rst:91
 msgid ""
-"Для тестирования p2p-соединения используйте api каждой из нод.  Для этого"
-" необходимо набрать в строке браузера"
+"Для тестирования p2p-соединения используйте api каждой из нод.  Для "
+"этого необходимо набрать в строке браузера"
 msgstr ""
+"Use a api-node interface for testing each node from p2p connection ."
 
 # adb4292a94d443e391ab5a8ccb775f3a
 #: ../../how-to-setup/install-nodes-docker.rst:87
 msgid ""
-"`` http://2.performance-test.vostoknodes.com:6862/api-"
-"docs/index.html#!/peers/connectedPeers ``."
+"`` http://2.performance-test.vostoknodes.com:6862/api-docs/index.html#!/"
+"peers/connectedPeers ``."
 msgstr ""
 
 # b73fae7dbe814c32abaed1e17612eea7
@@ -119,4 +140,5 @@ msgid ""
 "И следуя инструкциям по api-ноды [] вы можете посмотреть и проверить "
 "корректность работы каждой ноды."
 msgstr ""
-
+"And following the instructions of api-node [] you can see and check the "
+"correctness of each node."
