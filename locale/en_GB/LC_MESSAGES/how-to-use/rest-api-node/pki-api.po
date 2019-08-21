@@ -3,63 +3,65 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-20 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-08-21 15:41+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # ca0fce3051884b94bf7fd588c73a6b8d
 #: ../../how-to-use/rest-api-node/pki-api.rst:4
 msgid "PKI"
-msgstr ""
+msgstr "PKI"
 
 # cc426b2f96bc47dd8fd44d2027a4447d
 #: ../../how-to-use/rest-api-node/pki-api.rst:7
 msgid "POST /pki/sign"
-msgstr ""
+msgstr "POST /pki/sign"
 
 # f453698aa5854816ab9ce9856ced4cf6
 #: ../../how-to-use/rest-api-node/pki-api.rst:9
 msgid ""
-"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
-"node`."
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`."
 msgstr ""
+"The rules for generating queries to the node are given in :ref:`rest-api-node` "
+"module."
 
 # b9c0af3dc75847bc8a8ed8914b7bf4ae
 #: ../../how-to-use/rest-api-node/pki-api.rst:11
 msgid "Метод формирует отсоединённую ЭП для данных, передаваемых в запросе."
-msgstr ""
+msgstr "This method creates a detached digital signature."
 
 # afff74687eae49fe82aabc351013fb9e
 # 84d4f26299074f4296cd94e2356da42e
 #: ../../how-to-use/rest-api-node/pki-api.rst:13
 #: ../../how-to-use/rest-api-node/pki-api.rst:36
 msgid "**Пример запроса**"
-msgstr ""
+msgstr "**Request example**"
 
 # aaddc9251cd8496cac22c9eee9b5a53c
 # 73a992006c44476ba46f9f1d8818dede
 #: ../../how-to-use/rest-api-node/pki-api.rst:24
 #: ../../how-to-use/rest-api-node/pki-api.rst:50
 msgid "**Пример ответа**"
-msgstr ""
+msgstr "**Answer example**"
 
 # ead4041645a847eba8313b802f5ea35c
 #: ../../how-to-use/rest-api-node/pki-api.rst:32
 msgid "POST /pki/verify"
-msgstr ""
+msgstr "POST /pki/verify"
 
 # bf423ed909f24021b9d495487c01de47
 #: ../../how-to-use/rest-api-node/pki-api.rst:34
 msgid "Метод выполняет проверку отсоединённой ЭП для данных переданных в запросе."
-msgstr ""
-
+msgstr "This method checks the detached digital signature for the sent data."
