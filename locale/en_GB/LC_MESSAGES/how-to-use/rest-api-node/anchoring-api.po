@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-15 17:55+0300\n"
+"PO-Revision-Date: 2019-08-15 17:55+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
+
+# 0de7ad128e41440d89c490f64d46baa9
+#: ../../how-to-use/rest-api-node/anchoring-api.rst:4
+msgid "Anchoring"
+msgstr "Anchoring"
+
+# 1b53840e0ad84942ba75fb13b243bf4f
+#: ../../how-to-use/rest-api-node/anchoring-api.rst:7
+msgid "GET /anchoring/config"
+msgstr "GET /anchoring/config"
+
+# 4a030222a9f74033ba870f0f4f04b4c8
+#: ../../how-to-use/rest-api-node/anchoring-api.rst:9
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+"Rules of the creating requests to a node, see :ref:`rest-api-node` "
+"section."
+
+# 5f7fa87d4b7540a1a76eaa458f34e8a5
+#: ../../how-to-use/rest-api-node/anchoring-api.rst:11
+msgid ""
+"Получение секции :ref:`анкоринга <anchoring-settings>` конфигурационного "
+"файла ноды."
+msgstr ""
+"Get the :ref:`anchoring <anchoring-settings>` section of the node "
+"configuration file."
+
+# 319cfb4318fb41d683ec58373514f5c0
+#: ../../how-to-use/rest-api-node/anchoring-api.rst:13
+msgid "**Ответ метода**"
+msgstr "**Method answer**"
+
+# 8ad110457d414a208222e2093a1203a7
+#~ msgid "}"
+#~ msgstr "}"

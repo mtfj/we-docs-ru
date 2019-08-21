@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 11:17+0300\n"
-"PO-Revision-Date: 2019-06-11 11:18+0300\n"
+"POT-Creation-Date: 2019-08-20 16:07+0300\n"
+"PO-Revision-Date: 2019-08-20 16:09+0300\n"
 "Last-Translator: \n"
 "Language: en_GB\n"
 "Language-Team: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# e202834ab4d94db6a47801e9d0a74fdf
+# 7bab073a6be94395bc62a3ffff9bf7d0
 #: ../../README.md:3
 msgid ""
 "Vostok Blockchain Platform is a universal solution for a scalable "
@@ -30,4 +30,11 @@ msgid ""
 "protocol. Supported PoS and PoA consensuses guarantee correctness of "
 "data added to the blockchain, while decentralization provides "
 "counterparty independence in terms of data access."
+msgstr ""
+
+# 8315bcea63024a73a09ad5e0eb73f335
+#: ../../README.md:5
+msgid ""
+"dev-new-javainstall \"@TODO need help for creating linked icons WIN/LIN/"
+"MAC by front-end developer\"."
 msgstr ""

@@ -16,10 +16,9 @@ Cмарт-контракты Docker
 
 .. important:: Если нода выполняет майнинг смарт-контрактов Docker, и на ней запущен движок Docker, то на этой ноде также должен работать и демон Docker.
 
-
-.. image:: ../img/docker-1.png
-    :scale: 80%
-    :align: right
+.. figure:: ../img/docker-1.png
+        :scale: 80%
+        :align: center
 
 Создание контракта
 --------------------------
