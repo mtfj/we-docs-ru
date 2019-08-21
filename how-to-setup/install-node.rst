@@ -1,9 +1,5 @@
 .. _install-node:
 
-.. meta:: 
-  :description: reStructuredText язык разметки система документирования Sphinx-pyhton3 русская документация
-   :keywords: reStructuredText, markup language reStructuredText, Waves утсановка, руководство по установке Waves platform, русская документация
-
 Установка ПО
 ===============
 
@@ -195,7 +191,4 @@ Waves-криптография
 для Mac
 ^^^^^^^^^
  Lorem text...
-    
-    .. image:: img/scheme_p.svg
-        :height: 300
-      
+          
