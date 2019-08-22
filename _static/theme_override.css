@@ -208,7 +208,6 @@ h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
 .rst-content p {
   font-weight: normal;
   line-height: 1.75;
-  margin-bottom: 32px !important;
 }
 
 .admonition {
@@ -263,11 +262,6 @@ ul li a.reference.external, ul li a.reference.internal {
 
 .highlight {
   background: rgba(8, 30, 88, 0.05);
-}
-
-
-.rst-content pre.literal-block, .rst-content div[class^='highlight'] {
-  width: 120%;
 }
 
 .rst-content .admonition-title:before {
