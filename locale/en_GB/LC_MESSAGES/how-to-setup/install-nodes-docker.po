@@ -25,18 +25,11 @@ msgstr "how to install multiple nodes"
 # d2eca024f67e45639f345d7be0b49642
 #: ../../how-to-setup/install-nodes-docker.rst:5
 msgid ""
-"Воизбежание конфликтов ПО установку нод на отдельной машине следует "
-"использовать механизмы виртуализации различного уровня. Вы можете "
-"использовать механизм виртуальных машин. Тогда вам предстоит настоирть и "
-"сконфигурировать каджую виртуальную машину, согласно инструкциям раздела "
-"[install-node], либо используйте решение на базе docker. Рассмотрен пример "
-"для docker."
+"Воизбежание конфликтов ПО установку нод на отдельной машине следует использовать механизмы виртуализации различного уровня. Вы можете использовать механизм виртуальных машин. Тогда вам предстоит настоирть и сконфигурировать каджую виртуальную машину, согласно  
+инструкциям раздела [install-node], либо используйте решение на базе docker. Рассмотрен пример для docker."
 msgstr ""
-"In order to avoid software conflicts, different virtualization mechanisms "
-"should be used to set up nodes on a single machine. You can use the virtual "
-"machine like Oracle VM Box. Then you will have to tune and configure each "
-"virtual machine as described in this manual above, or you can use a docker-"
-"based solution. Here we will consider an example for docker."
+"Avoid software node conflicts on a single machine by using different levels of virtualization mechanisms. You can use the virtual machine mechanism. Then you will have to tune and configure each virtual machine according to  
+or use a docker-based solution. An example for docker is given."
 
 # 3c69771a917543d8b62b2ad276c1b99a
 #: ../../how-to-setup/install-nodes-docker.rst:13
