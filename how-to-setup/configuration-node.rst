@@ -214,31 +214,39 @@
 Настройка анкоринга
 -------------------------
 
-Если используете опцию :ref:`анкоринга <anchoring>`, необходимо настроить блок ``vostok.scheduler-service``.
+Если используете опцию :ref:`анкоринга <anchoring>`, необходимо настроить блок ``anchoring``.
 
     ::
 
-      vostok.scheduler-service {
+      anchoring {
       enable = yes
-      height-range = 100
-      height-above = 10
-      threshold = 100
- 
+      height-range = 5
+      height-above = 6
+      threshold = 1
+
+      mainnet-authorization {
+      type = "api-key" # "api-key" or "auth-service"
+      api-key = "vostok"
+
+      //      type = "auth-service"
+      //      authorization-token = "xxxx"
+      //      authorization-service-url = "http://localhost:3000"
+      //      token-update-interval = "7 minutes"
+      }
+
       mainnet-scheme-byte = "K"
       mainnet-node-address = "http://node-1"
       mainnet-node-port = 6862
-      mainnet-node-api-key = "vostok"
       mainnet-node-recipient-address = "3JWveBpXS1EcDpxcoAwVNAjFfUMrxaALgZt"
-      mainnet-private-key-password = "mainnet-priv-key-password" //optional parameter
- 
-      wallet {
+
+       wallet {
        file = "node-1_mainnet-wallet.dat"
        password = "small"
-      }
- 
+        }
+
       mainnet-fee = 500000
       sidechain-fee = 500000
-      }
+     }
       
 **Параметры анкоринга**
 
@@ -246,14 +254,22 @@
 * ``height-above`` - диапазон блоков в Mainnet, через который нода приватного блокчейна создаёт подтверждающую анкоринг транзакцию с данными первой транзакции. Рекомендуется устанавливать значение, близкое к максимальной величине отката в Mainnet ``max-rollback-depth``.
 * ``threshold`` - число блоков, которое отнимается от текущей высоты приватного блокчейна. В транзакцию для анкоринга, отправляемую в Mainnet, попадёт информация из блока на высоте ``current-height - threshold``. Если устанавливается значение 0, то берётся информация из текущего блока. Рекомендуется устанавливать значение, близкое к максимальной величине отката в приватном блокчейне ``max-rollback-depth``.
 
+**Параметры авторизации при использовании анкоринга**
+
+* ``type`` - тип авторизации при использовании анкоринга. ``api-key`` - авторизация по ``api-key-hash``, ``auth-service`` - авторизация по специальному токену.
+
+В случае выбора авторизации по ``api-key-hash`` достаточно указать значение ключа в параметре ``api-key`` ниже. Если вы выбираете авторизацию по токену, необходимо указать ``type = "auth-service"``, раскомментировать параметры ниже и установить для них значения:
+
+* ``authorization-token`` - постоянный авторизационный токен
+* ``authorization-service-url`` - 
+* ``token-update-interval`` - интервал обновления авторизационного токена.
+
 **Параметры для доступа Mainnet**
 
 * ``mainnet-scheme-byte`` - байт сети Mainnet.
 * ``mainnet-node-address`` - сетевой адрес ноды в сети Mainnet, от которого будут отправляться транзакции для анкоринга.
 * ``mainnet-node-port`` - номер порта ноды в сети Mainnet, от которого будут отправляться транзакции для анкоринга.
-* ``mainnet-node-api-key`` - ``api-key-hash`` для доступа к REST API сети Mainnet.
 * ``mainnet-node-recipient-address`` - адрес ноды в сети Mainnet, от которого будут отправляться транзакции для анкоринга.
-* ``mainnet-private-key-password`` - пароль от ключевой пары ноды в сети Mainnet.
 
 **Параметры авторизации на Mainnet, секция wallet**
 
