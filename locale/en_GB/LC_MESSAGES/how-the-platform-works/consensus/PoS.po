@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-23 15:53+0300\n"
+"POT-Creation-Date: 2019-06-21 16:30+0300\n"
 "PO-Revision-Date: 2019-06-05 16:42+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -16,14 +16,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 
-# bba77a36419641ed84fcd390f12055cc
+# 6252df2a26de40c99333f8abfdfcc6a0
 #: ../../how-the-platform-works/consensus/PoS.rst:2
 msgid "Алгоритм консенсуса LPoS"
 msgstr "LPoS consensus algorithm"
 
-# f2822ad86cae48829f080498616b69a4
+# 390b848340a3455b926864fb2e2a1844
 #: ../../how-the-platform-works/consensus/PoS.rst:3
 msgid ""
 "Доказательство доли владения с правом аренды. В PoS системах создание "
@@ -34,12 +34,12 @@ msgstr ""
 "of a block does not require energy-intensive calculations, the miner's "
 "task is to create a digital block proof."
 
-# 7360fd4e59704baf800578228a8a4b54
+# 24e77f99e1b84e2fabb3833977bc2298
 #: ../../how-the-platform-works/consensus/PoS.rst:6
 msgid "Proof of Stake"
 msgstr "Proof of Stake"
 
-# 4dd9c73d9bc64da1988778fda2a76af5
+# b73dd4b875d74e3e9693eb371f3fa3a7
 #: ../../how-the-platform-works/consensus/PoS.rst:7
 msgid ""
 "Механизм распределения прав создания блоков основан на количестве токенов"
@@ -50,7 +50,7 @@ msgstr ""
 " of tokens in the user's account. The more tokens a user has, the more "
 "likely he or she can create a block."
 
-# 9e6cd4ff41114eec8fe509ec064b4072
+# 6b699a0ac95b44678ed9f4a6038e8ac8
 #: ../../how-the-platform-works/consensus/PoS.rst:10
 msgid ""
 "В консенсусе Proof of Stake (доказательство доли) право выпуска блока "
@@ -70,19 +70,12 @@ msgstr ""
 "following miner. The time of block generation for account i is calculated"
 " as:"
 
-# 949955f986da40f28ee72553de622e84
-#: ../../how-the-platform-works/consensus/PoS.rst:14
-msgid ""
-"T_i = T_{min} + C_1 \\log (1 - C_2 \\frac{\\log \\frac{X_n}{X_{max}}}{b_i"
-" A_n})"
-msgstr ""
-
-# 63179d7fefb94b2baac3da17bcbd850d
+# 8bfba14006c4494c98c5c458dbc86a58
 #: ../../how-the-platform-works/consensus/PoS.rst:18
 msgid "где:"
 msgstr "where:"
 
-# ba9fbdb215ee4e6aa132b115f6b78a93
+# 55ef8c11b8f14f76816e9f8dfc3b37a1
 #: ../../how-the-platform-works/consensus/PoS.rst:20
 msgid ""
 "b\\ :sub:`i` \\ - это стейк (доля баланса участника от общего баланса "
@@ -91,7 +84,7 @@ msgstr ""
 "b\\ :sub:`i` \\ - is a stake (stake of participant's balance of overall "
 "balance of the system);"
 
-# 88bfe90bb1604407905a0f05883808d7
+# 26631c2cd1214f59a3e27ebc7ba725eb
 #: ../../how-the-platform-works/consensus/PoS.rst:21
 msgid ""
 "A\\ :sub:`n` \\ - baseTarget, адаптивный коэффициент, регулирующий "
@@ -100,12 +93,12 @@ msgstr ""
 "A\\ :sub:`n` \\ - baseTarget, the adaptive ratio, regulating the average "
 "time of issue of the block;"
 
-# 206b5d3a3e6b4a11ba38f2825b779db1
+# 0ab17a3789bc460facf52cfe1e031c9f
 #: ../../how-the-platform-works/consensus/PoS.rst:22
 msgid "X\\ :sub:`n` \\ - генерирующая подпись;"
 msgstr "X\\ :sub:`n` \\ - generating signature;"
 
-# 12ba62ba88de4eab8c62b49e970e6fbf
+# e03576d65c1e4fd594c3c898d8d2357c
 #: ../../how-the-platform-works/consensus/PoS.rst:23
 msgid ""
 "T\\ :sub:`min` \\ - 5 секунд, константа, определяющая минимальный "
@@ -114,7 +107,7 @@ msgstr ""
 "T\\ :sub:`min` \\ - 5 seconds, it is a constant defining the minimum time"
 " interval between blocks;"
 
-# 16ce30d8058541bfbb1697c2adf57b54
+# 72a94a7b331142b089a3b70a1b820209
 #: ../../how-the-platform-works/consensus/PoS.rst:24
 msgid ""
 "C\\ :sub:`1` \\ - константа, равная 70 и корректирующая форму "
@@ -123,7 +116,7 @@ msgstr ""
 "C\\ :sub:`1` \\ - a constant, which is equal 70 and adjusting the form of"
 " allocation of the interval between blocks;"
 
-# bcc3b12c1cad4d9a8d287e1ea1f5f5b4
+# 69e7ae4d76324200aed541dc87bc7b4c
 #: ../../how-the-platform-works/consensus/PoS.rst:25
 msgid ""
 "C\\ :sub:`2` \\ - константа, равная 5E17 и предназначенная для "
@@ -132,7 +125,7 @@ msgstr ""
 "C\\ :sub:`2` \\ - a constant which is equal 5E17 and adjusting the "
 "baseTarget value (complexity)."
 
-# ef983bd3886f432b9651847f65e8b921
+# ee2eece362044409a22d257484f0edab
 #: ../../how-the-platform-works/consensus/PoS.rst:27
 msgid ""
 "Из приведенной формулы легко убедиться, что вероятность выбора участника "
@@ -148,20 +141,12 @@ msgstr ""
 "computational complexity, a parameter that maintains the block generation"
 " time within a given range. BaseTarget in its turn is calculated as:"
 
-# c7e0522304a348b7973f2bedde5ce6f4
-#: ../../how-the-platform-works/consensus/PoS.rst:31
-msgid ""
-"(S > R_{max} \\rightarrow T_b = T_{p} + max(1, \\frac{T_p}{100})) \\wedge"
-" (S < R_{min} \\land \\land T_{b} > 1 \\rightarrow T_b = T_p - max(1, "
-"\\frac{T_p}{100}))"
-msgstr ""
-
-# 63179d7fefb94b2baac3da17bcbd850d
+# 069b4c4db5ce418ba5eeec8649b832df
 #: ../../how-the-platform-works/consensus/PoS.rst:35
 msgid "где"
 msgstr "where"
 
-# 81f9497dedfe4280a70ded4732fd9ed4
+# 99478fb2acaa40239b590df13c6c156f
 #: ../../how-the-platform-works/consensus/PoS.rst:37
 msgid ""
 "R \\ :sub:`max` \\ = 90 - максимальное уменьшение сложности, когда время "
@@ -170,7 +155,7 @@ msgstr ""
 "R \\ :sub:`max` \\ = 90 - is a maximum reduction of complexity when the "
 "block generation time in the network exceeds 40 seconds;"
 
-# cbbe84642a8f4a1e842738c657d07289
+# b03dafc8bd28453da416faff22e8fd98
 #: ../../how-the-platform-works/consensus/PoS.rst:38
 msgid ""
 "R\\ :sub:`min` \\ = 30 - минимальное увеличение сложности, когда время "
@@ -179,22 +164,22 @@ msgstr ""
 "R\\ :sub:`min` \\ = 30 - minimal increase of complexity when the block "
 "generation time in the network is less than 40 seconds;"
 
-# ee5f171f9dbc4dea9343c087b3242a4f
+# 4419d07670094950b2a45cf06ab13ca0
 #: ../../how-the-platform-works/consensus/PoS.rst:39
 msgid "S - среднее время генерации, как минимум для трех последних блоков;"
 msgstr "S - average generation time, at least for the last three blocks;"
 
-# bcc3b12c1cad4d9a8d287e1ea1f5f5b4
+# de67c757df714b29b2bd9bb2cb684528
 #: ../../how-the-platform-works/consensus/PoS.rst:40
 msgid "T\\ :sub:`p` \\ - предыдущее значение baseTarget;"
 msgstr "T\\ :sub:`p` \\ - previous baseTarget value;"
 
-# bcc3b12c1cad4d9a8d287e1ea1f5f5b4
+# 00288ccd50d74143a8551759620e38d1
 #: ../../how-the-platform-works/consensus/PoS.rst:41
 msgid "T\\ :sub:`b` \\ - вычисленное значение baseTarget."
 msgstr "T\\ :sub:`b` \\ - computed baseTarget value."
 
-# 92580fd468844bd395ff237187d17b9d
+# 3b18b29341f04fe5a11de0cb4b13c252
 #: ../../how-the-platform-works/consensus/PoS.rst:43
 msgid ""
 "Глубокое описание технических особенностей и доработок классического PoS "
@@ -205,12 +190,12 @@ msgstr ""
 "classic PoS algorithm see `article "
 "<https://forum.wavesplatform.com/uploads/default/original/2X/7/7397a4cb5fa77d659a7b7ecc9188dd0a4fe0decc.pdf/>`_."
 
-# e4afe3f6bf2b4cc08c05fa729b9bec02
+# c8e0a4a2bd2243c0b9d4410223f447ec
 #: ../../how-the-platform-works/consensus/PoS.rst:46
 msgid "Преимущества перед Proof of Work"
 msgstr "Advantages Over Proof of Work"
 
-# f181f0bd297f46df9c9b9c30f27502b4
+# 39d379da0603461b9fabc91796467d83
 #: ../../how-the-platform-works/consensus/PoS.rst:47
 msgid ""
 "Отсутствие сложных вычислений позволяет PoS сетям снизить требования к "
@@ -227,12 +212,12 @@ msgstr ""
 " new block. In PoS-Systems a miner receives a reward in the form of fees "
 "for transactions which appeared in its block."
 
-# 70fbc2b6a0b3448ba13f0d0577bf0dd2
+# f20aff9e550847c08d15d32906ad1270
 #: ../../how-the-platform-works/consensus/PoS.rst:51
 msgid "Leased Proof of Stake"
 msgstr "Leased Proof of Stake"
 
-# 98432eeb9d834951a66255ed429bd5a9
+# dbbea024dd084557b03afd2a1cfbeafa
 #: ../../how-the-platform-works/consensus/PoS.rst:52
 msgid ""
 "Для пользователя, который обладает стейком, недостаточным для "
@@ -253,15 +238,12 @@ msgstr ""
 "you delegate the right to consider your balance when you draw the right "
 "of mining to another member of the network."
 
-# 29f677312a274387b2823b283c1cc679
+# 949955f986da40f28ee72553de622e84
 #~ msgid ""
 #~ "T_i = T_{min} + C_1 \\log (1 "
 #~ "- C_2 \\frac{\\log \\frac{X_n}{X_{max}}}{b_i "
 #~ "A_n})"
 #~ msgstr ""
-#~ "T_i = T_{min} + C_1 \\log (1 "
-#~ "- C_2 \\frac{\\log \\frac{X_n}{X_{max}}}{b_i "
-#~ "A_n})"
 
 # 4bebd4b6e1984855a280fae1c0b992ca
 #~ msgid ""
@@ -273,7 +255,7 @@ msgstr ""
 #~ " generating signature or hit of "
 #~ "participant i;"
 
-# 7c28608d449c489bb7ea5b58cc2cb7ad
+# c7e0522304a348b7973f2bedde5ce6f4
 #~ msgid ""
 #~ "(S > R_{max} \\rightarrow T_b = "
 #~ "T_{p} + max(1, \\frac{T_p}{100})) \\wedge "
@@ -281,11 +263,6 @@ msgstr ""
 #~ " 1 \\rightarrow T_b = T_p - "
 #~ "max(1, \\frac{T_p}{100}))"
 #~ msgstr ""
-#~ "(S > R_{max} \\rightarrow T_b = "
-#~ "T_{p} + max(1, \\frac{T_p}{100})) \\wedge "
-#~ "(S < R_{min} \\land \\land T_{b} >"
-#~ " 1 \\rightarrow T_b = T_p - "
-#~ "max(1, \\frac{T_p}{100}))"
 
 # f0e55dc4300e402882dc48d8081c0456
 #~ msgid ""
