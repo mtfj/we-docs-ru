@@ -7,34 +7,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-20 16:07+0300\n"
+"POT-Creation-Date: 2019-08-23 15:53+0300\n"
 "PO-Revision-Date: 2019-08-20 16:09+0300\n"
 "Last-Translator: \n"
 "Language: en_GB\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
+
+# 2495709bee10464190b4bfec8fcf6705
+#: ../../README.md:1
+msgid "Vostok docs"
+msgstr ""
 
 # 7bab073a6be94395bc62a3ffff9bf7d0
 #: ../../README.md:3
 msgid ""
-"Vostok Blockchain Platform is a universal solution for a scalable "
-"digital infrastructure that combines properties of public and private "
+"Vostok Blockchain Platform is a universal solution for a scalable digital"
+" infrastructure that combines properties of public and private "
 "blockchains for enterprise and state usage. The enterprise blockchain "
-"platform solves the problem of trust between the parties not at the "
-"level of business logic, but at the level of the platform operation "
-"protocol. Supported PoS and PoA consensuses guarantee correctness of "
-"data added to the blockchain, while decentralization provides "
-"counterparty independence in terms of data access."
+"platform solves the problem of trust between the parties not at the level"
+" of business logic, but at the level of the platform operation protocol. "
+"Supported PoS and PoA consensuses guarantee correctness of data added to "
+"the blockchain, while decentralization provides counterparty independence"
+" in terms of data access."
 msgstr ""
 
 # 8315bcea63024a73a09ad5e0eb73f335
 #: ../../README.md:5
 msgid ""
-"dev-new-javainstall \"@TODO need help for creating linked icons WIN/LIN/"
-"MAC by front-end developer\"."
+"dev-new-javainstall \"@TODO need help for creating linked icons "
+"WIN/LIN/MAC by front-end developer\"."
 msgstr ""
+
