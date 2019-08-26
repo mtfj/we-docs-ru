@@ -1,4 +1,5 @@
 {
     "restructuredtext.confPath": "${workspaceFolder}",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "c:\\vostokdocs\\env\\Scripts\\python.exe"
 }
