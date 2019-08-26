@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-23 15:49+0300\n"
-"PO-Revision-Date: 2019-08-23 17:36+0300\n"
+"PO-Revision-Date: 2019-08-26 14:53+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -570,6 +570,9 @@ msgid ""
 "авторизация по ``api-key-hash``, ``auth-service`` - авторизация по специальному "
 "токену."
 msgstr ""
+"``type`` - an authorization type for anchoring option. ``api-key`` - an "
+"authorization by ``api-key-hash`` value, ``auth-service`` - an authorization by "
+"a specialized token."
 
 # 7d4dfc1b7b6440218c7a3d5f10c8d802
 #: ../../how-to-setup/configuration-node.rst:261
@@ -579,21 +582,26 @@ msgid ""
 "необходимо указать ``type = \"auth-service\"``, раскомментировать параметры ниже "
 "и установить для них значения:"
 msgstr ""
+"When you are choosing the ``api-key-hash`` authorization you need to specify the "
+"``api-key`` value below the ``type`` parameter. In the case of token "
+"authorization, please, specify the ``type = \"auth-service\"`` value, uncomment "
+"the parameters below and set their values:"
 
 # 89740a8f95b34cac8bbe5be771e3da8f
 #: ../../how-to-setup/configuration-node.rst:263
 msgid "``authorization-token`` - постоянный авторизационный токен"
-msgstr ""
+msgstr "``authorization-token`` - a constant authorization token"
 
 # 4888e330381c438db24faf49145bd5ad
 #: ../../how-to-setup/configuration-node.rst:264
 msgid "``authorization-service-url`` -"
-msgstr ""
+msgstr "``authorization-service-url`` -"
 
 # 767c20e3d6044dd0b22d642b9589fd18
 #: ../../how-to-setup/configuration-node.rst:265
 msgid "``token-update-interval`` - интервал обновления авторизационного токена."
 msgstr ""
+"``token-update-interval`` - the refresh interval of the authorization token."
 
 # 0fbd77c8b896429da87b86693c119785
 #: ../../how-to-setup/configuration-node.rst:267
