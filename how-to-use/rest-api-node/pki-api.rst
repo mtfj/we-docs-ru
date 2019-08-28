@@ -24,6 +24,7 @@ POST /pki/sign
 **Пример ответа**
 
 .. code::
+
     {
       "signature" : "c2RmZ3NkZmZoZ2ZkZ2hmZGpkZ2ZoamhnZmtqaGdmamtkZmdoZmdkc2doZmQjsndjfvnksdnjfn="
      }
@@ -50,6 +51,7 @@ POST /pki/verify
 **Пример ответа**
 
 .. code::
+
     {
      "sigStatus" : "true"
      }
