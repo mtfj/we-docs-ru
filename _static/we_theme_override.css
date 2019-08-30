@@ -26,7 +26,7 @@ body {
 }
 
 .vst-logo a:before {
-  content: url("./img/vostok-logo-docs.svg");
+  content: url("./img/we-logo-docs.svg");
 }
 
 .wy-nav-content-wrap, .wy-nav-content {
@@ -37,7 +37,8 @@ body {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.18px;
-  margin-top: 28px
+  margin-top: 28px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .vst-lang-switcher span.separator {
@@ -45,7 +46,7 @@ body {
 }
 
 .vst-lang-switcher > a {
-  color: white;
+  color: rgba(0, 0, 0, 1);
 }
 
 .doc-link {
@@ -85,7 +86,7 @@ body {
 }
 
 .wy-nav-side, .wy-side-nav-search {
-  background-color: #081e58;
+  background-color: rgba(98, 122, 116, 0.04);
   text-align: left;
   padding-left: 0;
   padding-right: 0;
@@ -126,7 +127,7 @@ p.caption {
 .wy-menu.wy-menu-vertical .caption .caption-text {
   font-size: 18px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
   text-transform: initial;
 }
 
@@ -135,24 +136,24 @@ p.caption {
 }
 
 .wy-menu.wy-menu-vertical li {
-  background: #081e58;
+  background: rgba(98, 122, 116, 0.04);
   padding-top: 12px;
 }
 
 .wy-menu-vertical li a.reference.internal {
   font-size: 14px;
   letter-spacing: 0.2px;
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(0, 0, 0, 0.7) !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
-  background: #081e58 !important;
+  background: rgba(98, 122, 116, 0.04) !important;
 }
 
 .wy-menu-vertical li a.reference.internal.current {
-  color: rgba(255, 255, 255, 1) !important;
+  color: rgba(0, 0, 0, 1) !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
-  border-left: 4px solid #ff2615 !important;
+  border-left: 4px solid #00a87a !important;
   padding-left: 12px !important;
 }
 
@@ -166,7 +167,7 @@ li.toctree-l1.current > a.reference.internal,
 li.toctree-l2.current > a.reference.internal,
 li.toctree-l3.current > a.reference.internal,
 li.toctree-l4.current > a.reference.internal {
-  color: rgba(255, 255, 255, 1) !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
 .wy-menu.wy-menu-vertical > ul:not(:last-child) {
@@ -233,9 +234,13 @@ ol.arabic.simple > li {
   padding: 64px 128px;
 }
 
-.rst-content h1, h2, h3, h4 {
+h1 {
+  color: #00a87a;
+}
+
+.rst-content h2, h3, h4 {
   font-weight: bold;
-  color: #081e58;
+  color: rgba(0, 0, 0, 1);
   margin-bottom: 12px !important;
 }
 
