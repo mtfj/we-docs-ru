@@ -146,7 +146,7 @@ html_static_path = ['_static']
 
 def setup(app):
     #app.add_stylesheet('css/custom.css')
-    app.add_stylesheet('theme_override.css')
+    app.add_stylesheet('we_theme_override.css')
     app.add_javascript('docs-custom.js')
 
 # html_logo = 'img/logo-1.png'
