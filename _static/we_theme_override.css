@@ -150,7 +150,7 @@ p.caption {
 }
 
 .wy-menu-vertical li a.reference.internal.current {
-  color: rgba(98, 122, 116, 0.04) !important;
+  color: rgba(0, 0, 0, 1) !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
   border-left: 4px solid #00a87a !important;
