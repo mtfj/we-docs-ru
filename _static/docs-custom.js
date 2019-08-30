@@ -3,7 +3,7 @@ function setDocLink() {
     div.className = 'doc-link';
     div.innerHTML = 
     '<div>' +
-        '<a class="reference internal" href="https://docs.vostok.io/vostokdocs.pdf">Документация</a>' + 
+        '<a class="reference internal" href="https://docs.wavesenterprise.com/vostokdocs.pdf">Документация</a>' +
         '<span class="doc-link__label">.pdf</span>' +
     '</div>' +
     '<div class="version-text">Release 1.0.2</div>'
