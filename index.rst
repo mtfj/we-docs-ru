@@ -1,9 +1,9 @@
-Документация блокчейн-платформы Vostok
-=============================================
+Документация блокчейн-платформы Waves Enterprise
+=================================================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Блокчейн-платформа Vostok
+   :caption: Блокчейн-платформа Waves Enterprise
    :name: overview
 
    overview/overview
