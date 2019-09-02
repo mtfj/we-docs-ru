@@ -6,3 +6,4 @@ config.conf
 conf2.py
 env
 .idea
+/html

@@ -1,5 +1,5 @@
 Документация блокчейн-платформы Waves Enterprise
-=================================================
+==================================================
 
 .. toctree::
    :maxdepth: 1
@@ -38,7 +38,7 @@
    how-to-use/rest-api-methods
    how-to-use/smart-contracts-docker
    how-to-use/role-management
-   how-to-use/operations-node	
+   how-to-use/operations-node
 .. how-to-use/smart-contracts-ride
 
 .. toctree::

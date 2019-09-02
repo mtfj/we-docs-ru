@@ -1,0 +1,734 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Системные требования &mdash; Документация Vostok master</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/theme_override.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Алфавитный указатель"
+              href="../genindex.html"/>
+        <link rel="search" title="Поиск" href="../search.html"/>
+    <link rel="top" title="Документация Vostok master" href="../index.html"/>
+        <link rel="next" title="Установка ноды" href="install-node.html"/>
+        <link rel="prev" title="Основные операции в сети" href="../how-to-use/operations-node.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+
+          
+            <a href="../index.html" class="icon icon-home"> Vostok
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+<link rel="icon" href="_static/img/favicon.png" type="image/png">
+
+<div class="vst-logo">
+    <a href="https://docs.vostok.io/en/"></a>
+</div>
+
+<div class="vst-lang-switcher">
+    <a class="lang" href="https://docs.vostok.io/" id="lang-ru">Русский</a>
+    <span class="separator">|</span>
+    <a class="lang" href="https://docs.vostok.io/en/" id="lang-en">English</a>
+</div>
+
+<!--
+<div class="doc-link">
+    <a class="reference internal" href="https://docs.wavesenterprise.com/vostokdocs.pdf">Документация</a><span class="doc-link__label">.pdf</span>
+</div>
+-->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(54051694, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/54051694" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+
+
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Блокчейн-платформа Vostok</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/overview.html">Обзор возможностей</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../overview/overview.html#vostok">Блокчейн Vostok</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../overview/overview.html#id2">Варианты развертывания сети Vostok</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../overview/overview.html#id3">Основная сеть</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../overview/overview.html#id4">Независимая частная сеть</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../overview/overview.html#id5">Частная сеть с публикацией хешей в основную сеть</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/links.html">Официальные ресурсы</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Как устроена платформа</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/architecture.html">Архитектура</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/architecture.html#id2">Архитектура ноды и дополнительных сервисов</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/waves-ng-protocol.html">Протокол Waves-NG</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/waves-ng-protocol.html#id1">Термины</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/waves-ng-protocol.html#id2">Описание протокола</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/waves-ng-protocol.html#liquid-block">1. Процесс создания Liquid Block</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/waves-ng-protocol.html#id3">2. Механизм вознаграждения майнеров в Waves-NG</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/waves-ng-protocol.html#id4">3. Разрешение конфликтов</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/consensus.html">Алгоритмы консенсуса</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/consensus/PoS.html">Алгоритм консенсуса LPoS</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/consensus/PoS.html#proof-of-stake">Proof of Stake</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/consensus/PoS.html#proof-of-work">Преимущества перед Proof of Work</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/consensus/PoS.html#leased-proof-of-stake">Leased Proof of Stake</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/consensus/PoA.html">Алгоритм консенсуса Proof of Authority</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/consensus/PoA.html#id1">Описание алгоритма</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/consensus/PoA.html#id2">Синхронизация времени между узлами сети</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/consensus/PoA.html#kick-inactive">Исключение неактивных майнеров</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/consensus/PoA.html#id4">Мониторинг</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/consensus/PoA.html#id5">Изменение параметров консенсуса</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/cryptography.html">Криптография</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/cryptography.html#id2">Предварительная обработка данных</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/cryptography.html#crypto-gost">ГОСТ-криптография</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/cryptography.html#curve25519-waves">Использование эллиптической кривой Curve25519 (криптография Waves)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/cryptography.html#crypto-data-tx">Зашифрование текстовых данных в транзакциях</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/cryptography.html#id5">Алгоритм зашифрования</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/authorization.html">Авторизация участников</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/authorization.html#id2">Ролевая модель</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/authorization.html#id3">Модель разрешений</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/authorization.html#id4">Обновление списка разрешений</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/registration-node.html">Регистрация участников</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/data-privacy.html">Конфиденциальность данных</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/data-privacy.html#id2">Группы доступа</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/data-privacy.html#id3">Отправка и получение данных</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/components.html">Клиент</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/components/client.html">Общее описание клиента</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/components/data-service.html">Сервис подготовки данных</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id2">Использование</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id3">Уточняющие параметры</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id4">Поиск</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id5">Фильтры</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id6">Транзакции</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-transactions">GET /transactions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-transactions-count">GET /transactions/count</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-transactions-id-id">GET /transactions/id/{id}</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id7">Наборы токенов</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-assets">GET /assets</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id8">Пользователи</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-users">GET /users</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-users-useraddress">GET /users/{userAddress}</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id9">Блоки</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-blocks-height">GET /blocks/{height}</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#id10">Транзакции с данными</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-api-v1-txids-key">GET /api/v1/txIds/{key}</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-api-v1-txids-key-value">GET /api/v1/txIds/{key}/{value}</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-api-v1-txdata-key">GET /api/v1/txData/{key}</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/components/data-service.html#get-api-v1-txdata-key-value">GET /api/v1/txData/{key}/{value}</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/data-structures.html">Структура объектов</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/data-structures/blocks-structure.html">Блоки</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html">Транзакции</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#genesis-transaction">1. Genesis transaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#issuetransaction">3. issueTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#transfertransaction">4. TransferTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#reissuetransaction">5. ReissueTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#burntransaction">6. BurnTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#exchangetransaction">7. ExchangeTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#leasetransaction">8. LeaseTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#leasecanceltransaction">9. LeaseCancelTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#createaliastransaction">10. CreateAliasTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#masstransfertransaction">11. MassTransferTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#datatransaction">12. DataTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#setscripttransaction">13. SetScriptTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#setassetscripttransaction">15. SetAssetScriptTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#genesispermittransaction">101. GenesisPermitTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#permittransaction">102. PermitTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#createcontracttransaction">103. CreateContractTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#callcontracttransaction">104. CallContractTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#executedcontracttransaction">105. ExecutedContractTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#disablecontracttransaction">106. DisableContractTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#genesisregisternodetransaction">110. GenesisRegisterNodeTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#registernodetransaction">111. RegisterNodeTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#createpolicytransaction">112. CreatePolicyTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#updatepolicytransaction">113. UpdatePolicyTransaction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/transactions-structure.html#policydatahashtransaction">114. PolicyDataHashTransaction</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html">Сетевые сообщения</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#id2">Network message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#handshake-message">Handshake message</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#handshake">Авторизованный Handshake</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#getpeers-message">GetPeers message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#peers-message">Peers message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#getsignatures-message">GetSignatures message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#signatures-message">Signatures message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#getblock-message">GetBlock message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#block-message">Block message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#score-message">Score message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#transaction-message">Transaction message</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/data-structures/network-messages.html#checkpoint-message">Checkpoint message</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/smart-contracts.html">Смарт-контракты</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/smart-contracts/about.html">Смарт-контракты RIDE</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/about.html#id2">RIDE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/about.html#id3">Сложность скриптов</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/about.html#id4">Подписи и скрипт «по умолчанию»</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/about.html#id5">Данные на аккаунте</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html">Cмарт-контракты Docker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html#id1">Создание контракта</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html#id2">Исполнение контракта</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html#id3">Запрет вызова контракта</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html#id4">Описание транзакций</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html#id5">Конфигурация ноды</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html#rest-api">REST API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-the-platform-works/smart-contracts/docker.html#id6">Примеры реализации</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-the-platform-works/anchoring.html">Анкоринг</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Использование платформы</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-use/mainnet.html">Работа в сети «Vostok Mainnet»</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/add-node-mainnet.html">Подключение ноды в сеть «Vostok Mainnet»</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/comissions-mainnet.html">Комиссии в сети «Vostok Mainnet»</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/config-examples.html">Примеры конфигурационных фалов для сети «Vostok Mainnet»</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/config-examples.html#accounts-conf">Пример конфигурационного файла <code class="docutils literal"><span class="pre">accounts.conf</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/config-examples.html#api-key-hash">Пример конфигурационного файла <code class="docutils literal"><span class="pre">api-key-hash</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/config-examples.html#id1">Пример конфигурационного файла ноды</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-use/partnernet.html">Работа в сети «Vostok Partnernet»</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/add-node-partnernet.html">Подключение ноды в сеть «Vostok Partnernet»</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/config-examples-partnernet.html">Примеры конфигурационных фалов для сети «Vostok Partnernet»</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/config-examples-partnernet.html#accounts-conf">Пример конфигурационного файла <code class="docutils literal"><span class="pre">accounts.conf</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/config-examples-partnernet.html#api-key-hash">Пример конфигурационного файла <code class="docutils literal"><span class="pre">api-key-hash</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/config-examples-partnernet.html#id1">Пример конфигурационного файла ноды</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-use/rest-api-node.html">REST API ноды</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node.html#id1">Как использовать REST API</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-use/rest-api-methods.html">Методы REST API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/activation.html">Activation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/activation.html#get-activation-status">GET /activation/status</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/address.html">Address</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses">GET /addresses</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-seq-from-to">GET /addresses/seq/{from}/{to}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-balance-address">GET /addresses/balance/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#post-addresses-balance-details">POST /addresses/balance/details</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-effectivebalance-address-confirmations">GET /addresses/effectiveBalance/{address}/{confirmations}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-effectivebalance-address">GET /addresses/effectiveBalance/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-balance-details-address">GET /addresses/balance/details/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-scriptinfo-address">GET /addresses/scriptInfo/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#post-addresses-sign-address">POST /addresses/sign/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#post-addresses-verify-address">POST /addresses/verify/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#post-addresses-signtext-address">POST /addresses/signText/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#post-addresses-verifytext-address">POST /addresses/verifyText/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-validate-addressoralias">GET /addresses/validate/{addressOrAlias}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#post-addresses-validatemany">POST /addresses/validateMany</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-publickey-publickey">GET /addresses/publicKey/{publicKey}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-data-address">GET /addresses/data/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/address.html#get-addresses-data-address-key">GET /addresses/data/{address}/{key}</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/alias.html">Alias</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/alias.html#get-alias-by-alias-alias">GET /alias/by-alias/{alias}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/alias.html#get-alias-by-address-address">GET /alias/by-address/{address}</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/assets.html">Assets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/assets.html#get-assets-balance-address">GET /assets/balance/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/assets.html#get-assets-balance-address-assetid">GET /assets/balance/{address}/{assetId}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/assets.html#get-assets-details-assetid">GET /assets/details/{assetId}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/assets.html#get-assets-assetid-distribution">GET /assets/{assetId}/distribution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/assets.html#post-assets-balance">POST /assets/balance</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html">Blocks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-height">GET /blocks/height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-height-signature">GET /blocks/height/{signature}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-first">GET /blocks/first</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-last">GET /blocks/last</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-at-height">GET /blocks/at/{height}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-seq-from-to">GET /blocks/seq/{from}/{to}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-seqext-from-to">GET /blocks/seqext/{from}/{to}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-signature-signature">GET /blocks/signature/{signature}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-address-address-from-to">GET /blocks/address/{address}/{from}/{to}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-child-signature">GET /blocks/child/{signature}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-headers-at-height">GET /blocks/headers/at/{height}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-headers-seq-from-to">GET /blocks/headers/seq/{from}/{to}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/blocks.html#get-blocks-headers-last">GET /blocks/headers/last</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html">Consensus</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-algo">GET /consensus/algo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-settings">GET /consensus/settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-minersatheight-height">GET /consensus/minersAtHeight/{height}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-miners-timestamp">GET /consensus/miners/{timestamp}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-bannedminers-height">GET /consensus/bannedMiners/{height}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-basetarget-blockid">GET /consensus/basetarget/{blockId}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-basetarget">GET /consensus/basetarget</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-generatingbalance-address">GET /consensus/generatingbalance/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-generationsignature-blockid">GET /consensus/generationsignature/{blockId}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/consensus.html#get-consensus-generationsignature">GET /consensus/generationsignature</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/contracts.html">Contracts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/contracts.html#get-contracts">GET /contracts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/contracts.html#post-contracts">POST /contracts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/contracts.html#get-contracts-status-id">GET /contracts/status/{id}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/contracts.html#get-contracts-contractid">GET /contracts/{contractId}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/contracts.html#get-contracts-executed-tx-for-id">GET /contracts/executed-tx-for/{id}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/contracts.html#get-contracts-contractid-key">GET /contracts/{contractId}/{key}</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/crypto.html">Crypto</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/crypto.html#post-crypto-encryptseparate">POST /crypto/encryptSeparate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/crypto.html#post-crypto-encryptcommon">POST /crypto/encryptCommon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/crypto.html#post-crypto-decrypt">POST /crypto/decrypt</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/leasing.html">Leasing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/leasing.html#get-leasing-active-address">GET /leasing/active/{address}</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/node.html">Node</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/node.html#get-node-config">GET /node/config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/node.html#post-node-stop">POST /node/stop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/node.html#get-node-status">GET /node/status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/node.html#get-node-version">GET /node/version</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html">Peers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#post-peers-connect">POST /peers/connect</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#get-peers-connected">GET /peers/connected</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#get-peers-blacklisted">GET /peers/blacklisted</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#get-peers-all">GET /peers/all</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#post-peers-clearblacklist">POST /peers/clearblacklist</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#get-peers-suspended">GET /peers/suspended</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#post-peers-identity">POST /peers/identity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#get-peers-hostname-address">GET /peers/hostname/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/peers.html#get-peers-allowednodes">GET /peers/allowedNodes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/permissions.html">Permissions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/permissions.html#get-permissions-address">GET /permissions/{address}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/permissions.html#get-permissions-address-at-timestamp">GET /permissions/{address}/at/{timestamp}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/permissions.html#post-permissions-addresses">POST /permissions/addresses</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html">Privacy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#post-privacy-senddata">POST /privacy/sendData</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#get-privacy-policy-id-recipients">GET /privacy/{policy-id}/recipients</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#get-privacy-policy-id-owners">GET /privacy/{policy-id}/owners</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#get-privacy-policy-id-hashes">GET /privacy/{policy-id}/hashes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#get-privacy-getdata-policy-item-hash">GET /privacy/getData/{policy-item-hash}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#get-privacy-getinfo-policy-item-hash">GET /privacy/getInfo/{policy-item-hash}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#post-privacy-forcesync">POST /privacy/forceSync</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/privacy.html#post-privacy-getinfos">POST /privacy/getInfos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html">Transactions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#get-transactions-info-id">GET /transactions/info/{id}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#get-transactions-address-address-limit-limit">GET /transactions/address/{address}/limit/{limit}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#get-transactions-unconfirmed">GET /transactions/unconfirmed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#get-transactions-unconfirmed-size">GET /transactions/unconfirmed/size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#get-unconfirmed-info-id">GET /unconfirmed/info/{id}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#post-transactions-calculatefee">POST /transactions/calculateFee</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#post-transactions-sign">POST /transactions/sign</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/transactions.html#post-transactions-broadcast">POST /transactions/broadcast</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html">Utils</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#post-utils-hash-secure">POST /utils/hash/secure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#post-utils-hash-fast">POST /utils/hash/fast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#get-utils-seed-length">GET /utils/seed/{length}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#get-utils-seed">GET /utils/seed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#post-utils-script-compile">POST /utils/script/compile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#post-utils-script-estimate">POST /utils/script/estimate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#get-utils-time">GET /utils/time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/rest-api-node/utils.html#post-utils-reload-wallet">POST /utils/reload-wallet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-use/smart-contracts-docker.html">Смарт-контракты Docker</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/smart-contracts/docker/first-contract-tutorial.html">Пример запуска контракта</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/smart-contracts/docker/first-contract-tutorial.html#id2">Описание логики программы</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/smart-contracts/docker/first-contract-tutorial.html#id3">Установка смарт-контракта</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../how-to-use/smart-contracts/docker/first-contract-tutorial.html#id4">Исполнение смарт-контракта</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-use/role-management.html">Управление полномочиями участников</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/role-management.html#o1-rest-api">Вариант №1 (через REST API)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/role-management.html#o2">Вариант №2 (через утилиту)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-use/operations-node.html">Основные операции в сети</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/operations-node.html#connect-existing-net">Подключение новой ноды к существующей сети</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/operations-node.html#delete-node">Удаление ноды</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/operations-node.html#add-privacy-policy">Создание группы доступа к конфиденциальным данным</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/operations-node.html#update-privacy-policy">Изменение группы доступа</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../how-to-use/operations-node.html#data-privacy-exchange">Процесс обмена конфиденциальными данными</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Установка и настройка</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Системные требования</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-node.html">Установка ноды</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install-node.html#windows">Установка на Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-node.html#ubuntu">Установка на Ubuntu</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration-node.html">Конфигурация ноды</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#accounts-conf">Создание конфигурационного файла <code class="docutils literal"><span class="pre">accounts.conf</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#generate-keys-pair">Генерирование ключевых пар</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#var-env">Глобальные переменные</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#create-node-config">Создание конфигурационного файла из шаблона</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#rest-api">Доступ к REST API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#privacy">Доступ к методам privacy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#genesis">Подписание genesis-блока</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration-node.html#node-start">Запуск ноды</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install-client.html">Установка клиента</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-configuration.html">Запуск docker-контрактов</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Дополнительная информация</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Словарь терминов</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Vostok</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Системные требования</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/how-to-setup/system-requirement.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>Системные требования<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Ниже представлены аппартные и системные требования.</p>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="30%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="61%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Вариант</th>
+<th class="head">vCPU</th>
+<th class="head">RAM</th>
+<th class="head">SSD</th>
+<th class="head">Режим работы JVM</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Минимальные требования</td>
+<td>1</td>
+<td>3Gb</td>
+<td>30Gb</td>
+<td>java -Xmx3072M -jar</td>
+</tr>
+<tr class="row-odd"><td>Рекомендуемые требования</td>
+<td>2+</td>
+<td>4+ Gb</td>
+<td>30+ Gb</td>
+<td>java -Xmx4096M -jar</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">«Xmx» - флаг, определяющий максимальный размер доступной для JVM памяти.</p>
+</div>
+<p><strong>Требования к окружению для ноды при использовании криптографии Waves</strong></p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.oracle.com/technetwork/java/javase/downloads/2133155">Oracle JRE 1.8 (64-bit)</a> или <a class="reference external" href="https://jdk.java.net/12/">OpenJDK 12.0.1</a></li>
+</ul>
+<p><strong>Требования к окружению для ноды при использовании криптографии CryptoPro JCP</strong></p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.oracle.com/technetwork/java/javase/downloads/2133155">Oracle JRE 1.8 (64-bit)</a></li>
+<li><a class="reference external" href="https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip">CryptoPro JCP 2.0.39014</a></li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Платформа Vostok поддерживает только версию <code class="docutils literal"><span class="pre">2.0.39014</span></code> для ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на сайте. Для получения дистрибутива Oracle JRE 1.8 необходимо также зарегистрироваться на официальном сайте компании Oracle.</p>
+</div>
+<p><strong>Требования к окружению для корпоративного клиента и дата-сервиса</strong></p>
+<ul class="simple">
+<li><a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/ubuntu/">Docker CE</a></li>
+<li><a class="reference external" href="https://docs.docker.com/compose/install/">Docker-compose</a></li>
+<li><a class="reference external" href="https://nodejs.org/en/download/">node.js</a> LTS версии 10+</li>
+<li><a class="reference external" href="https://www.npmjs.com/">npm</a> 6+</li>
+</ul>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="install-node.html" class="btn btn-neutral float-right" title="Установка ноды" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../how-to-use/operations-node.html" class="btn btn-neutral" title="Основные операции в сети" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+Copyright <a href="https://wavesenterprise.com/">Waves Enterprise, 2019</a>
+     
+    </p>
+  </div>
+  <div>
+    <p>
+      Version 0.9.0
+      </p>
+      </div>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'master',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/docs-custom.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
