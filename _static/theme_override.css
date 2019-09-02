@@ -1,18 +1,18 @@
 ﻿@font-face {
   font-family: "GraphikLC";
-  src: url("./fonts/Graphik-Regular-Web.woff2");
+  src: url("./fonts/SuisseIntl-Regular.otf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "GraphikLC";
-  src: url("./fonts/Graphik-Medium-Web.woff2");
+  src: url("./fonts/SuisseIntl-Medium.otf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "GraphikLC";
-  src: url("./fonts/Graphik-Bold-Web.woff2");
+  src: url("./fonts/SuisseIntl-Bold.otf");
   font-weight: bold;
 }
 
@@ -65,7 +65,7 @@ body {
   display: inline-block;
   width: 40px;
   height: 24px;
-  background-color: #ff2615;
+  background-color: #00a87a;
   text-transform: uppercase;
   line-height: 1.71;
   letter-spacing: 0.18px;
