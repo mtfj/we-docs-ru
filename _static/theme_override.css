@@ -206,6 +206,11 @@ li.toctree-l4.current > a.reference.internal {
 .wy-menu-vertical p.caption {
   margin-top: 32px;
 }
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  white-space: normal;
+  height: auto;
+}
 /* end menu */
 
 /* content */
