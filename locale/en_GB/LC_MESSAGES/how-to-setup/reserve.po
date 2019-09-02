@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Waves Enterprice 0.9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 17:13+0300\n"
-"PO-Revision-Date: 2019-09-02 17:22+0300\n"
+"PO-Revision-Date: 2019-09-02 19:50+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,10 @@ msgid ""
 "готовый конфигурационный файл ноды у одного из участников сетевого "
 "взаимодействия."
 msgstr ""
+"Get the node configuration file with the parameters of the blockchain network "
+"to be connected to. To simplify the connection, it is recommended that you "
+"request a ready-made node configuration file from one of the network "
+"participants."
 
 # 9e2cf4ea29264765a1176a7f9de088b4
 #: ../../how-to-setup/reserve.rst:10
@@ -44,6 +48,10 @@ msgid ""
 "которой осуществляется подключение, и не должны изменяться. Параметры, которые "
 "описывают конфигурацию нового узла и шаги по их настройке приведены ниже."
 msgstr ""
+"Some of the parameters in the configuration file describe the parameters of "
+"the blockchain network to which the connection is being made and must not be "
+"changed. Parameters that describe the configuration of the new node and the "
+"steps to configure them are shown below."
 
 # 33cb9698306c491fac65798329f55cd2
 #: ../../how-to-setup/reserve.rst:12
@@ -51,11 +59,13 @@ msgid ""
 "Для подключения к существующим общедоступным сетям Восток воспользуйтесь "
 "конфигурационным файлом из таблицы ниже."
 msgstr ""
+"To connect to existing public Waves Enterprise networks, use the configuration "
+"file from the table below."
 
 # 9bda33c1767444958e1fa3383c75404d
 #: ../../how-to-setup/reserve.rst:15
 msgid "#"
-msgstr ""
+msgstr "#"
 
 # d8383b2e8d74453ba0db46c67b48486d
 #: ../../how-to-setup/reserve.rst:15
@@ -71,7 +81,7 @@ msgstr "Configuration file"
 # 32c4bb16dfab4047a89e8693b26ce4de
 #: ../../how-to-setup/reserve.rst:17 ../../how-to-setup/reserve.rst:64
 msgid "1"
-msgstr ""
+msgstr "1"
 
 # 891603e8dad54f5da121bc12d2e92e62
 #: ../../how-to-setup/reserve.rst:17
@@ -84,6 +94,8 @@ msgid ""
 "`скачать <https://github.com/vostokplatform/Vostok-Releases/blob/master/"
 "configs/example.conf>`_"
 msgstr ""
+"`dwonload <https://github.com/waves-enterprise/WE-releases/blob/master/configs/"
+"example.conf>`_"
 
 # 76a2eb18a4594d398c63be5f5d931a0d
 #: ../../how-to-setup/reserve.rst:20
@@ -288,7 +300,7 @@ msgstr ""
 # acc7d749e9824dec9ead0d0a5ecfbd60
 #: ../../how-to-setup/reserve.rst:67
 msgid "4"
-msgstr ""
+msgstr "4"
 
 # 1da0d6345cf3496ebff38ceb73b04cb2
 #: ../../how-to-setup/reserve.rst:72
@@ -368,7 +380,7 @@ msgstr ""
 # 10240acddd78407c8cacc49c0b5e1ad6
 #: ../../how-to-setup/reserve.rst:125
 msgid "Где:"
-msgstr ""
+msgstr "Where"
 
 # 765d8b2e06d74555b05041b4b0dafb64
 #: ../../how-to-setup/reserve.rst:127
