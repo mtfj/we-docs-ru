@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-16 15:40+0300\n"
-"PO-Revision-Date: 2019-07-16 15:43+0300\n"
+"POT-Creation-Date: 2019-09-02 15:12+0300\n"
+"PO-Revision-Date: 2019-09-02 16:08+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # 1283e207aa6741d1a7bda5f03a0f0ea1
 #: ../../how-the-platform-works/components/client.rst:4
@@ -27,12 +27,13 @@ msgstr "General Description of the Client"
 # 003265ab40e9436cbfe93bda27fd78f5
 #: ../../how-the-platform-works/components/client.rst:6
 msgid ""
-"Клиент Vostok — это удобный способ управления вашим блокчейном Vostok. "
-"`<https://client.vostok.io>`_ — предназначен для работы в публичной сети "
-"Vostok."
+"Клиент Waves Enterprise — это удобный способ управления вашим блокчейном "
+"Waves Enterprise. `<https://client.wavesenterprise.com>`_ — предназначен для "
+"работы в публичной сети Waves Enterprise."
 msgstr ""
-"Vostok client is a convenient way to manage your blockchain. `<https://client."
-"vostok.io>`_ is intended for operations in the Vostok public network."
+"Waves Enterprise client is a convenient way to manage your blockchain. "
+"`<https://client.wavesenterprise.com>`_ is intended for operations in the "
+"Waves Enterprise public network."
 
 # f1d090def75a4419a22a47070189429f
 #: ../../how-the-platform-works/components/client.rst:10

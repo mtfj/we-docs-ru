@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 16:55+0300\n"
-"PO-Revision-Date: 2019-06-26 17:03+0300\n"
+"POT-Creation-Date: 2019-09-02 15:12+0300\n"
+"PO-Revision-Date: 2019-09-02 17:19+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # 96f9c179ec7b4887837729ca47a353bc
 #: ../../how-to-setup/system-requirement.rst:2
@@ -127,8 +127,7 @@ msgstr ""
 #: ../../how-to-setup/system-requirement.rst:19
 msgid ""
 "**Требования к окружению для ноды при использовании криптографии CryptoPro JCP**"
-msgstr ""
-"**Node environment requirements for the CryptoPro JCP cryptography usage**"
+msgstr "**Node environment requirements for the CryptoPro JCP cryptography usage**"
 
 # 38018bc0d08e4411bb21221e24c35d7d
 #: ../../how-to-setup/system-requirement.rst:21
@@ -151,15 +150,15 @@ msgstr ""
 # ab68b92a873a48ecab67a4cd8827044c
 #: ../../how-to-setup/system-requirement.rst:24
 msgid ""
-"Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. "
-"Для скачивания дистрибутива необходимо пройти регистрацию на сайте. Для "
-"получения дистрибутива Oracle JRE 1.8 необходимо также зарегистрироваться на "
-"официальном сайте компании Oracle."
+"Платформа Waves Enterprise поддерживает только версию ``2.0.39014`` для ПО "
+"CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на "
+"сайте. Для получения дистрибутива Oracle JRE 1.8 необходимо также "
+"зарегистрироваться на официальном сайте компании Oracle."
 msgstr ""
-"The Vostok platform only supports ``2.0.39014`` version for the CryptoPro JCP "
-"software. You need to register on the site before downloading the installation "
-"package. Also you need to register on the Oracle site to get the Oracle JRE 1.8 "
-"distributive."
+"The Waves Enterprise platform only supports ``2.0.39014`` version for the "
+"CryptoPro JCP software. You need to register on the site before downloading the "
+"installation package. Also you need to register on the Oracle site to get the "
+"Oracle JRE 1.8 distributive."
 
 # 228b391992014ad8af6c61d3b15c3eb3
 #: ../../how-to-setup/system-requirement.rst:26

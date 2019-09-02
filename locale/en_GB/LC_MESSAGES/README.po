@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-23 16:08+0300\n"
+"POT-Creation-Date: 2019-09-02 18:20+0300\n"
 "PO-Revision-Date: 2019-08-20 16:09+0300\n"
 "Last-Translator: \n"
 "Language: en_GB\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-# e91f215195e44b589863514ee1229a84
+# 775e19cc1a1342e18ceca8b3fcfa0003
 #: ../../README.md:1
 msgid "Vostok docs"
 msgstr ""
@@ -43,7 +43,7 @@ msgid ""
 "WIN/LIN/MAC by front-end developer\"."
 msgstr ""
 
-# 2495709bee10464190b4bfec8fcf6705
+# e91f215195e44b589863514ee1229a84
 #~ msgid "Vostok docs"
 #~ msgstr ""
 

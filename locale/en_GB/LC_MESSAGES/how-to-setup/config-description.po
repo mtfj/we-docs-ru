@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-07 17:48+0300\n"
+"POT-Creation-Date: 2019-09-02 15:12+0300\n"
 "PO-Revision-Date: 2019-08-08 15:53+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
 
 # 02abe6990eac4af69ccb2e5a74522f94
 #: ../../how-to-setup/config-description.rst:5
@@ -26,21 +25,23 @@ msgstr "Description of the node configuration file parameters"
 
 # ab8b6c4831bd47088a7fecfb37ba9685
 #: ../../how-to-setup/config-description.rst:7
+#, fuzzy
 msgid ""
-"Конфигурационный файл ноды содержит основные настройки для работы блокчейна "
-"Vostok. В состав файла входят следующие секции:"
+"Конфигурационный файл ноды содержит основные настройки для работы "
+"блокчейна Waves Enterprise. В состав файла входят следующие секции:"
 msgstr ""
-"The node configuration file contains the main settings for the Vostok platform. "
-"It includes the following sections:"
+"The node configuration file contains the main settings for the Vostok "
+"platform. It includes the following sections:"
 
 # b9b8867f6553477098f4c69c20f7481e
 #: ../../how-to-setup/config-description.rst:9
+#, fuzzy
 msgid ""
-":ref:`vostok <vostok-sect-conf>` - общая секция, куда входят все секции "
-"настройки блокчейна."
+":ref:`Waves Enterprise <vostok-sect-conf>` - общая секция, куда входят "
+"все секции настройки блокчейна."
 msgstr ""
-":ref:`vostok <vostok-sect-conf>` - general section, which includes all sections "
-"of blockchain settings."
+":ref:`vostok <vostok-sect-conf>` - general section, which includes all "
+"sections of blockchain settings."
 
 # fc44d6afad304fa49403197ce0c65eb5
 #: ../../how-to-setup/config-description.rst:10
@@ -57,7 +58,8 @@ msgstr ":ref:`network <network-sect-conf>` - network settings."
 # ba5bbb5dbcd4455591ad47425c21f72e
 #: ../../how-to-setup/config-description.rst:12
 msgid ""
-":ref:`wallet <wallet-sect-conf>` - настройка доступа к закрытым ключам ноды."
+":ref:`wallet <wallet-sect-conf>` - настройка доступа к закрытым ключам "
+"ноды."
 msgstr ":ref:`wallet <wallet-sect-conf>` - settings of the private keys access."
 
 # aab7021ff7a8407eaf2bf83b76058e12
@@ -73,30 +75,33 @@ msgstr ":ref:`rest-api <restapi-sect-conf>` - REST API settings."
 # 0f645a15e27a48029501e87208f24f77
 #: ../../how-to-setup/config-description.rst:15
 msgid ""
-":ref:`synchronization <synchronization-sect-conf>` - настройка синхронизации "
-"ноды с блокчейном."
+":ref:`synchronization <synchronization-sect-conf>` - настройка "
+"синхронизации ноды с блокчейном."
 msgstr ""
-":ref:`synchronization <synchronization-sect-conf>` - settings of the node "
-"synchonization with the blockchain."
+":ref:`synchronization <synchronization-sect-conf>` - settings of the node"
+" synchonization with the blockchain."
 
 # e5a9c13a66834501bf78834b2b457a82
 #: ../../how-to-setup/config-description.rst:16
 msgid ""
-":ref:`utx <utx-sect-conf>` - настройка хранилища неавторизованных транзакций."
+":ref:`utx <utx-sect-conf>` - настройка хранилища неавторизованных "
+"транзакций."
 msgstr ":ref:`utx <utx-sect-conf>` - unverified transactions pool settings."
 
 # af51aed0c3d845dc883c97332490deba
 #: ../../how-to-setup/config-description.rst:17
 msgid ""
-":ref:`features <features-sect-conf>` - настройка дополнительных параметров ноды."
+":ref:`features <features-sect-conf>` - настройка дополнительных "
+"параметров ноды."
 msgstr ""
-":ref:`features <features-sect-conf>` - additional settings of node parameters."
+":ref:`features <features-sect-conf>` - additional settings of node "
+"parameters."
 
 # ce90dd58b9c64471a52dbf7be921414b
 #: ../../how-to-setup/config-description.rst:18
 msgid ""
-":ref:`transaction-rebroadcaster <transrebroad-sect-conf>` - настройка повторной "
-"отправки транзакций в блокчейн."
+":ref:`transaction-rebroadcaster <transrebroad-sect-conf>` - настройка "
+"повторной отправки транзакций в блокчейн."
 msgstr ""
 ":ref:`transaction-rebroadcaster <transrebroad-sect-conf>` - transaction "
 "rebroadcast settings."
@@ -104,60 +109,64 @@ msgstr ""
 # da154ead71ce4c519012dafe0e84137c
 #: ../../how-to-setup/config-description.rst:19
 msgid ""
-":ref:`docker-engine <docker-sect-conf>` - настройка Docker смарт-контрактов."
+":ref:`docker-engine <docker-sect-conf>` - настройка Docker "
+"смарт-контрактов."
 msgstr ":ref:`docker-engine <docker-sect-conf>` - Docker smart contracts settings."
 
 # c5d218bc2eca4a3484d826d71d5b661b
 #: ../../how-to-setup/config-description.rst:20
 msgid ""
-":ref:`privacy <privacy-sect-conf>` - настройка групп доступа к конфиденциальной "
-"информации."
+":ref:`privacy <privacy-sect-conf>` - настройка групп доступа к "
+"конфиденциальной информации."
 msgstr ":ref:`privacy <privacy-sect-conf>` - privacy groups settings."
 
 # 0cd8cdbd1e444d27b2a9aec28be8cb69
 #: ../../how-to-setup/config-description.rst:22
 msgid ""
-"Для параметров в конфигурационном файле применяется несколько типов значений."
+"Для параметров в конфигурационном файле применяется несколько типов "
+"значений."
 msgstr "Several types of values are used for parameters in the configuration file."
 
 # c88ded1958cc4cd2aef7f9fa98f44bee
 #: ../../how-to-setup/config-description.rst:24
 msgid ""
-"Числовое значение, используемое для указания точного количества элементов. Это "
-"может быть количество транзакций, блоков, соединений."
+"Числовое значение, используемое для указания точного количества "
+"элементов. Это может быть количество транзакций, блоков, соединений."
 msgstr ""
-"Integer data which used to specify the exact number of elements. It can be the "
-"number of transactions, blocks or connections."
+"Integer data which used to specify the exact number of elements. It can "
+"be the number of transactions, blocks or connections."
 
 # 37789bcc084c4334a95cd44919351bc6
 #: ../../how-to-setup/config-description.rst:25
 msgid ""
-"Числовое значение с указанием единиц измерения, используемое для определения "
-"временного периода или объёма памяти. В таком виде, как правило, указываются "
-"временные периоды в днях, часах или секундах, или объём кэш-памяти, например, "
-"``leveldb-cache-size = 256M`` или ``connection-timeout = 30s``."
-msgstr ""
-"Integer data including measuring units to specify the time periods or memory "
-"volume. You typically specify the time periods in days, hours, or seconds, or "
-"the cache memory volume, for example, ``leveldb-cache-size = 256M`` or "
+"Числовое значение с указанием единиц измерения, используемое для "
+"определения временного периода или объёма памяти. В таком виде, как "
+"правило, указываются временные периоды в днях, часах или секундах, или "
+"объём кэш-памяти, например, ``leveldb-cache-size = 256M`` или "
 "``connection-timeout = 30s``."
+msgstr ""
+"Integer data including measuring units to specify the time periods or "
+"memory volume. You typically specify the time periods in days, hours, or "
+"seconds, or the cache memory volume, for example, ``leveldb-cache-size = "
+"256M`` or ``connection-timeout = 30s``."
 
 # 4d7e41e9667e4804890c0f12cb19d611
 #: ../../how-to-setup/config-description.rst:26
 msgid ""
-"Строковое значение, используемое для указания адресов, путей к директориям, "
-"паролям и т.д. Путь к директории указывается в формате, приемлемом для текущей "
-"ОС. Значение указывается в кавычках."
+"Строковое значение, используемое для указания адресов, путей к "
+"директориям, паролям и т.д. Путь к директории указывается в формате, "
+"приемлемом для текущей ОС. Значение указывается в кавычках."
 msgstr ""
-"String which used to specify the addresses, directory paths, passwords and so "
-"on. The directory path is specifying in the acceptable format of your current OS "
-"and the value is quoted."
+"String which used to specify the addresses, directory paths, passwords "
+"and so on. The directory path is specifying in the acceptable format of "
+"your current OS and the value is quoted."
 
 # 48de20effc8648ba922002d40dda356c
 #: ../../how-to-setup/config-description.rst:27
 msgid ""
-"Массив, используемый для указания списков значений, например, адресов или "
-"публичных ключей. Значение указывается в квадратных скобках через запятую."
+"Массив, используемый для указания списков значений, например, адресов или"
+" публичных ключей. Значение указывается в квадратных скобках через "
+"запятую."
 msgstr ""
 "Array for the list of values like addresses or public keys. The value is "
 "specified in square brackets separated by commas."
@@ -165,31 +174,36 @@ msgstr ""
 # efe0a6b278674d6381070109c59bc339
 #: ../../how-to-setup/config-description.rst:28
 msgid ""
-"Логический тип ``no`` или ``yes``, используемый для активации различных опций."
+"Логический тип ``no`` или ``yes``, используемый для активации различных "
+"опций."
 msgstr "Boolean ``no`` or ``yes`` which used for option activation."
 
-# e271c606977242b586b7e60377c357a9
+# cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:33
-msgid "Секция ``vostok``"
-msgstr "``vostok`` section"
+#, fuzzy
+msgid "Секция ``Waves Enterprise``"
+msgstr "``rest-api`` section"
 
 # 1c68287f29c84a329478dfd915316469
 #: ../../how-to-setup/config-description.rst:35
+#, fuzzy
 msgid ""
-"Секция ``vostok`` включает все остальные секции настроек блокчейна, а также "
-"следующие отдельные параметры:"
+"Секция ``Waves Enterprise`` включает все остальные секции настроек "
+"блокчейна, а также следующие отдельные параметры:"
 msgstr ""
-"The ``vostok`` section includes all other sections of blockchain settings, as "
-"well as the following individual parameters:"
+"The ``vostok`` section includes all other sections of blockchain "
+"settings, as well as the following individual parameters:"
 
 # 74027555db6c4669b41c523c0095a6b1
 #: ../../how-to-setup/config-description.rst:37
 msgid ""
-"``waves-crypto`` - тип :ref:`шифрования <cryptography>` в блокчейне. Возможные "
-"значения: ``yes`` - выбор криптографии Waves, ``no`` - выбор ГОСТ-криптографии."
+"``waves-crypto`` - тип :ref:`шифрования <cryptography>` в блокчейне. "
+"Возможные значения: ``yes`` - выбор криптографии Waves, ``no`` - выбор "
+"ГОСТ-криптографии."
 msgstr ""
-"``waves-crypto`` - :ref:`cryptography <cryptography>` type in the blockchain. "
-"Possible values: ``yes`` - Waves cryptography, ``no`` - GOST cryptography."
+"``waves-crypto`` - :ref:`cryptography <cryptography>` type in the "
+"blockchain. Possible values: ``yes`` - Waves cryptography, ``no`` - GOST "
+"cryptography."
 
 # 0fbe80b4daa14eb9857fe3e8c0e6fdd4
 #: ../../how-to-setup/config-description.rst:38
@@ -199,24 +213,24 @@ msgstr "``directory`` - the main directory for the storage of the node software.
 # 551bb54cc5c943b5876bdef20e38059e
 #: ../../how-to-setup/config-description.rst:39
 msgid ""
-"``data-directory`` - директория для хранения данных блокчейна в LevelDB: блоки, "
-"транзакции, стейт ноды."
+"``data-directory`` - директория для хранения данных блокчейна в LevelDB: "
+"блоки, транзакции, стейт ноды."
 msgstr ""
-"``data-directory`` - the directory for the blockchain data storage in the "
-"LevelDB: blocks, transactions, node state."
+"``data-directory`` - the directory for the blockchain data storage in the"
+" LevelDB: blocks, transactions, node state."
 
 # 595fabb0a5864b2fa1c3f61b5772a02c
 #: ../../how-to-setup/config-description.rst:40
 msgid ""
-"``leveldb-cache-size`` - ограничение размера кэш-памяти, используемой для "
-"валидации блоков. Низкое значение уменьшает загрузку памяти, более высокое "
-"значение вместе с потреблением памяти увеличивает производительность ноды. "
-"Значение ``0`` отключает кэширование."
+"``leveldb-cache-size`` - ограничение размера кэш-памяти, используемой для"
+" валидации блоков. Низкое значение уменьшает загрузку памяти, более "
+"высокое значение вместе с потреблением памяти увеличивает "
+"производительность ноды. Значение ``0`` отключает кэширование."
 msgstr ""
-"``leveldb-cache-size`` - limits the size of caches which are used during block "
-"validation. Lower values slightly decrease memory consumption, while higher "
-"values might increase node performance. Setting this value to 0 disables caching "
-"all together."
+"``leveldb-cache-size`` - limits the size of caches which are used during "
+"block validation. Lower values slightly decrease memory consumption, "
+"while higher values might increase node performance. Setting this value "
+"to 0 disables caching all together."
 
 # de0dd578faa947e1880035d126a7a5d2
 #: ../../how-to-setup/config-description.rst:41
@@ -226,16 +240,18 @@ msgstr "``max-cache-size`` - the maximum cache size."
 # 3cc79364f770475babac202333528e96
 #: ../../how-to-setup/config-description.rst:42
 msgid ""
-"``max-rollback-depth`` - количество блоков, на которые можно откатить ноду назад."
+"``max-rollback-depth`` - количество блоков, на которые можно откатить "
+"ноду назад."
 msgstr "``max-rollback-depth`` - the maximum blocks number for the node rollback."
 
 # 2eff9b4c0a7141a9b7abb231b5be61af
 #: ../../how-to-setup/config-description.rst:43
 msgid ""
-"``remember-blocks-interval-in-cache`` - период хранения блоков в кэш-памяти."
+"``remember-blocks-interval-in-cache`` - период хранения блоков в "
+"кэш-памяти."
 msgstr ""
-"``remember-blocks-interval-in-cache`` - the time period for blocks storing in "
-"the cache."
+"``remember-blocks-interval-in-cache`` - the time period for blocks "
+"storing in the cache."
 
 # 1753b5ca1a754905a26d584614b62f2f
 #: ../../how-to-setup/config-description.rst:44
@@ -246,8 +262,8 @@ msgstr "``ntp-server`` - NTP server address."
 #: ../../how-to-setup/config-description.rst:45
 msgid ""
 "``logging-level`` - уровень логирования работы ноды. Возможные значения: "
-"``DEBUG``, ``INFO``, ``WARN``, ``ERROR``, по умолчанию установлено значение "
-"``INFO``."
+"``DEBUG``, ``INFO``, ``WARN``, ``ERROR``, по умолчанию установлено "
+"значение ``INFO``."
 msgstr ""
 "``logging-level`` - logging level. Possible values: ``DEBUG``, ``INFO``, "
 "``WARN``, ``ERROR``, default value is ``INFO``."
@@ -255,9 +271,11 @@ msgstr ""
 # bd545dcde9b24b529d7f14f22b5f6f3b
 #: ../../how-to-setup/config-description.rst:46
 msgid ""
-"``owner-address`` - адрес ноды, которая будет владельцем конфигурационного файла."
+"``owner-address`` - адрес ноды, которая будет владельцем "
+"конфигурационного файла."
 msgstr ""
-"``owner-address`` - the node address, the future owner of the configuration file."
+"``owner-address`` - the node address, the future owner of the "
+"configuration file."
 
 # a9e4a85baa154c729cc8e68ac1e8fbf9
 #: ../../how-to-setup/config-description.rst:47
@@ -272,26 +290,26 @@ msgstr "``blockchain`` section"
 # 39f026b3cee14397ba4ef02832f75d27
 #: ../../how-to-setup/config-description.rst:54
 msgid ""
-"Секция отвечает за основные параметры блокчейна и включает в себя следующие "
-"параметры:"
+"Секция отвечает за основные параметры блокчейна и включает в себя "
+"следующие параметры:"
 msgstr ""
-"The section helps to set the main parameters of the blockchain and includes the "
-"following parameters:"
+"The section helps to set the main parameters of the blockchain and "
+"includes the following parameters:"
 
 # 6e67b8347f36492f939a5b6db601a187
 #: ../../how-to-setup/config-description.rst:56
 msgid "``type`` - тип блокчейна. Возможные значения ``DEFAULT`` или ``CUSTOM``."
 msgstr ""
-"``type`` - the blockchain type. Could be ``DEFAULT`` or ``CUSTOM``. Default "
-"value is ``DEFAULT``."
+"``type`` - the blockchain type. Could be ``DEFAULT`` or ``CUSTOM``. "
+"Default value is ``DEFAULT``."
 
 # 30f2e35339a0454b942f5c3023e348b1
 #: ../../how-to-setup/config-description.rst:57
 msgid ""
-"``consensus.type`` - тип :ref:`консенсуса <consensus>` в блокчейне. Возможные "
-"значения ``PoS`` или ``PoA``. Если хотите дополнительно настроить алгоритм "
-"консенсуса, закомментируйте или удалите данный параметр и используйте "
-"дополнительную секцию ``consensus``."
+"``consensus.type`` - тип :ref:`консенсуса <consensus>` в блокчейне. "
+"Возможные значения ``PoS`` или ``PoA``. Если хотите дополнительно "
+"настроить алгоритм консенсуса, закомментируйте или удалите данный "
+"параметр и используйте дополнительную секцию ``consensus``."
 msgstr "``consensus.type`` - :ref:`consensus <consensus>` type."
 
 # ccb28366d5804b8c89d1b0f9d3918129
@@ -300,28 +318,30 @@ msgid ""
 "``fee`` - список :ref:`комиссий <transaction-structure>` за тразакции в "
 "блокчейне."
 msgstr ""
-"``fee`` - the list of :ref:`fees <transaction-structure>`for the blockchain "
-"transactions."
+"``fee`` - the list of :ref:`fees <transaction-structure>`for the "
+"blockchain transactions."
 
 # 50b392a5e76446bea256e1f8427a3255
 #: ../../how-to-setup/config-description.rst:60
 msgid ""
-"При выборе типа блокчейна ``CUSTOM`` появляется дополнительная возможность "
-"кастомизации конфигурационного файла."
+"При выборе типа блокчейна ``CUSTOM`` появляется дополнительная "
+"возможность кастомизации конфигурационного файла."
 msgstr ""
 "When you choose the ``CUSTOM`` blockchain type you can customize your "
 "configuration file additionally."
 
 # 49a9fc1866f647988f57b3f55cf82293
 #: ../../how-to-setup/config-description.rst:62
+#, fuzzy
 msgid ""
-"``address-scheme-character`` - байт сети, для \"Vostok Mainnet\" - ``V``, для "
-"\"Vostok Partnernet\" - ``P``. Данный параметр используется для предотвращения "
-"конфликта адресов из разных сетей."
+"``address-scheme-character`` - байт сети, для \"Waves Enterprise "
+"Mainnet\" - ``V``, для \"Waves Enterprise Partnernet\" - ``P``. Данный "
+"параметр используется для предотвращения конфликта адресов из разных "
+"сетей."
 msgstr ""
-"``address-scheme-character`` - the address feature character which is used to "
-"prevent mixing up addresses from different networks. For the \"Vostok Mainnet\" "
-"- ``V`` and for the \"Vostok Partnernet\" - ``P``."
+"``address-scheme-character`` - the address feature character which is "
+"used to prevent mixing up addresses from different networks. For the "
+"\"Vostok Mainnet\" - ``V`` and for the \"Vostok Partnernet\" - ``P``."
 
 # af51aed0c3d845dc883c97332490deba
 #: ../../how-to-setup/config-description.rst:63
@@ -381,20 +401,20 @@ msgstr "``functionality`` unit"
 # 19b7ad5b8f36429f9be75ed21f339fc0
 #: ../../how-to-setup/config-description.rst:78
 msgid ""
-"``feature-check-blocks-period`` - количество блоков, через которые выполняется "
-"проверка и активация опций блокчейна."
+"``feature-check-blocks-period`` - количество блоков, через которые "
+"выполняется проверка и активация опций блокчейна."
 msgstr ""
-"``feature-check-blocks-period`` - the blocks period for feature checking and "
-"activation."
+"``feature-check-blocks-period`` - the blocks period for feature checking "
+"and activation."
 
 # e48161f2c19a4ca99779d2539295839d
 #: ../../how-to-setup/config-description.rst:79
 msgid ""
-"``blocks-for-feature-activation`` - количество блоков, через которые применяется "
-"активированная опция."
+"``blocks-for-feature-activation`` - количество блоков, через которые "
+"применяется активированная опция."
 msgstr ""
-"``blocks-for-feature-activation`` - the number of blocks required to accept "
-"feature."
+"``blocks-for-feature-activation`` - the number of blocks required to "
+"accept feature."
 
 # aab64ddaf79d479c8505d66ab94733de
 #: ../../how-to-setup/config-description.rst:80
@@ -424,28 +444,28 @@ msgstr "``initial-base-target`` -"
 # 801e1ad09bc3444abd30c3c27ac9e2e0
 #: ../../how-to-setup/config-description.rst:87
 msgid ""
-"``timestamp`` - числовой код даты и времени. Время указывается в миллисекундах, "
-"значение должно состоять из 13 цифр. Если вы берёте стандартное значение "
-"``timpstamp``, состоящее из 10 цифр, то в конце необходимо добавить три любые "
-"цифры."
+"``timestamp`` - числовой код даты и времени. Время указывается в "
+"миллисекундах, значение должно состоять из 13 цифр. Если вы берёте "
+"стандартное значение ``timpstamp``, состоящее из 10 цифр, то в конце "
+"необходимо добавить три любые цифры."
 msgstr ""
-"``timestamp`` - a time and data code. The time is specified in milliseconds and "
-"the value must consist of 13 digits. If you specify the standard value "
-"``timestamp`` consisting of 10 digits, then you need to add any three digits at "
-"the end."
+"``timestamp`` - a time and data code. The time is specified in "
+"milliseconds and the value must consist of 13 digits. If you specify the "
+"standard value ``timestamp`` consisting of 10 digits, then you need to "
+"add any three digits at the end."
 
 # 3d61f19e88cf4ac9af3ca0f422082e9a
 #: ../../how-to-setup/config-description.rst:88
 msgid ""
 "``block-timestamp`` - числовой код даты и времени. Время указывается в "
-"миллисекундах, значение должно состоять из 13 цифр. Если вы берёте стандартное "
-"значение ``timpstamp``, состоящее из 10 цифр, то в конце необходимо добавить три "
-"любые цифры."
+"миллисекундах, значение должно состоять из 13 цифр. Если вы берёте "
+"стандартное значение ``timpstamp``, состоящее из 10 цифр, то в конце "
+"необходимо добавить три любые цифры."
 msgstr ""
 "``block-timestamp`` - a time and data code. The time is specified in "
 "milliseconds and the value must consist of 13 digits. If you specify the "
-"standard value ``timestamp`` consisting of 10 digits, then you need to add any "
-"three digits at the end."
+"standard value ``timestamp`` consisting of 10 digits, then you need to "
+"add any three digits at the end."
 
 # 70523afdddc9410aa92f3e025f717c44
 #: ../../how-to-setup/config-description.rst:89
@@ -458,8 +478,8 @@ msgid ""
 "``genesis-public-key-base-58`` - хеш публичного ключа генезис-блока, "
 "зашифрованный в Base58."
 msgstr ""
-"``genesis-public-key-base-58`` - the public key hash of the genesis block, "
-"encrypted in Base58."
+"``genesis-public-key-base-58`` - the public key hash of the genesis "
+"block, encrypted in Base58."
 
 # 7f5d91a67c854d27ad96146a4f4bd49e
 #: ../../how-to-setup/config-description.rst:91
@@ -469,20 +489,20 @@ msgstr "``signature`` - the genesis block signature, encrypted in Base58."
 # d2be99dc568a408e9e1385efcf3cf9dd
 #: ../../how-to-setup/config-description.rst:92
 msgid ""
-"``transactions`` - список участников сети с первоначальным балансом, создание "
-"которых войдёт в генезис-блок в виде генезис-транзакций."
+"``transactions`` - список участников сети с первоначальным балансом, "
+"создание которых войдёт в генезис-блок в виде генезис-транзакций."
 msgstr ""
-"``transactions`` - a list of network participants with an initial balance, the "
-"creation of which will be included in the genesis block."
+"``transactions`` - a list of network participants with an initial "
+"balance, the creation of which will be included in the genesis block."
 
 # 78ab21fe09244920bc9c2bb34ede2ec9
 #: ../../how-to-setup/config-description.rst:93
 msgid ""
-"``network-participants`` - список сетевых участников с ролями, создание которых "
-"войдёт в генезис-блок в виде генезис-транзакций."
+"``network-participants`` - список сетевых участников с ролями, создание "
+"которых войдёт в генезис-блок в виде генезис-транзакций."
 msgstr ""
-"``network-participants`` - a list of network participants with specified roles, "
-"the creation of which will be included in the genesis block."
+"``network-participants`` - a list of network participants with specified "
+"roles, the creation of which will be included in the genesis block."
 
 # cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:98
@@ -493,13 +513,14 @@ msgstr "``network`` section"
 #: ../../how-to-setup/config-description.rst:100
 msgid "Секция содержит сетевые настройки и включает в себя следующие параметры:"
 msgstr ""
-"The section contains network settings and includes the following parameters:"
+"The section contains network settings and includes the following "
+"parameters:"
 
 # 9d55891a176d4819b2dfd4d2bcbf75ae
 #: ../../how-to-setup/config-description.rst:102
 msgid ""
-"``file`` - путь к файлу с адресами известных участников сети и участников, "
-"доступ в сеть которым запрещён (blacklist)."
+"``file`` - путь к файлу с адресами известных участников сети и "
+"участников, доступ в сеть которым запрещён (blacklist)."
 msgstr "``file`` - the path to the peers and blacklist storage file."
 
 # a85446b0068545128009f2906f9530b3
@@ -521,9 +542,9 @@ msgstr "``node-name`` - a node name to send during handshake."
 #: ../../how-to-setup/config-description.rst:106
 msgid "``nonce`` -"
 msgstr ""
-"``nonce`` - a node nonce to send during handshake. It should be different if few "
-"nodes run on the same external IP address. Comment this out means to set random "
-"nonce."
+"``nonce`` - a node nonce to send during handshake. It should be different"
+" if few nodes run on the same external IP address. Comment this out means"
+" to set random nonce."
 
 # 6474286b99d6429da0aae939e843f384
 #: ../../how-to-setup/config-description.rst:107
@@ -533,20 +554,20 @@ msgstr "``known-peers`` - a list of IP addresses of well known nodes."
 # 9e058f4bda104e0db50321b2c6cb8bb8
 #: ../../how-to-setup/config-description.rst:108
 msgid ""
-"``declared-address`` - сетевой адрес ноды вместе с номером порта для процедуры "
-"handshake."
+"``declared-address`` - сетевой адрес ноды вместе с номером порта для "
+"процедуры handshake."
 msgstr ""
-"``declared-address`` - a string with IP address and port to send as external "
-"address during the handshake."
+"``declared-address`` - a string with IP address and port to send as "
+"external address during the handshake."
 
 # 0e525da4fa5247f28da645e0a8e3fa75
 #: ../../how-to-setup/config-description.rst:109
 msgid ""
-"``peers-data-residence-time`` - период хранения информации о пирах в БД с "
-"момента последнего контакта с ними."
+"``peers-data-residence-time`` - период хранения информации о пирах в БД с"
+" момента последнего контакта с ними."
 msgstr ""
-"``peers-data-residence-time`` - a period of storing information about peers in "
-"the database since the last contact."
+"``peers-data-residence-time`` - a period of storing information about "
+"peers in the database since the last contact."
 
 # 0e525da4fa5247f28da645e0a8e3fa75
 #: ../../how-to-setup/config-description.rst:110
@@ -558,27 +579,29 @@ msgstr "``black-list-residence-time`` - a blacklist period for peers stored in i
 # a7781521a0014668a5bf8bb629f99cb3
 #: ../../how-to-setup/config-description.rst:111
 msgid ""
-"``break-idle-connections-timeout`` - период, за который при отсутствии сообщений "
-"от пира прерывается соединение с ним."
+"``break-idle-connections-timeout`` - период, за который при отсутствии "
+"сообщений от пира прерывается соединение с ним."
 msgstr ""
-"``break-idle-connections-timeout`` - a timeout for a breaking the connection if "
-"there is no message from the peer."
+"``break-idle-connections-timeout`` - a timeout for a breaking the "
+"connection if there is no message from the peer."
 
 # a9ead67d2f6a4b2f965896e9dc3c8fe0
 #: ../../how-to-setup/config-description.rst:112
 msgid ""
-"``max-inbound-connections`` - максимальное количество соединений с внутренними "
-"сетями."
+"``max-inbound-connections`` - максимальное количество соединений с "
+"внутренними сетями."
 msgstr ""
-"``max-inbound-connections`` - a maximum number of inbound network connections."
+"``max-inbound-connections`` - a maximum number of inbound network "
+"connections."
 
 # 596ba5fddd73410e902816ad5e0b5082
 #: ../../how-to-setup/config-description.rst:113
 msgid ""
-"``max-outbound-connections`` - максимальное количество соединений с внешними "
-"сетями."
+"``max-outbound-connections`` - максимальное количество соединений с "
+"внешними сетями."
 msgstr ""
-"``max-outbound-connections`` - a maximum number of outbound network connections."
+"``max-outbound-connections`` - a maximum number of outbound network "
+"connections."
 
 # 5c9f307b3d464826b4f52fffabb66a6c
 #: ../../how-to-setup/config-description.rst:114
@@ -586,8 +609,8 @@ msgid ""
 "``max-single-host-connections`` - максимальное количество соединений с "
 "отдельными хостами."
 msgstr ""
-"``max-single-host-connections`` - a maximum number of connections from a single "
-"host."
+"``max-single-host-connections`` - a maximum number of connections from a "
+"single host."
 
 # de0dd578faa947e1880035d126a7a5d2
 #: ../../how-to-setup/config-description.rst:115
@@ -609,26 +632,27 @@ msgstr ""
 # 5de28ce63e1046819435bddf27d66a80
 #: ../../how-to-setup/config-description.rst:118
 msgid ""
-"``enable-peers-exchange`` - активация опции обмена информацией об известных "
-"пирах."
+"``enable-peers-exchange`` - активация опции обмена информацией об "
+"известных пирах."
 msgstr ""
-"``enable-peers-exchange`` - an exchange option activation which allows to "
-"request peers and sends known peers info."
+"``enable-peers-exchange`` - an exchange option activation which allows to"
+" request peers and sends known peers info."
 
 # 5c3fd41061794bd1b353ebe238ed1291
 #: ../../how-to-setup/config-description.rst:119
 msgid ""
-"``enable-blacklisting`` - активация возможности бана пиров и создания чёрного "
-"списка."
+"``enable-blacklisting`` - активация возможности бана пиров и создания "
+"чёрного списка."
 msgstr "``enable-blacklisting`` - a blacklist option activation."
 
 # c5e9dccbc9f14851aef77531a315c1d5
 #: ../../how-to-setup/config-description.rst:120
 msgid ""
-"``peers-broadcast-interval`` - интервал отправки в сеть списка известных пиров."
+"``peers-broadcast-interval`` - интервал отправки в сеть списка известных "
+"пиров."
 msgstr ""
-"``peers-broadcast-interval`` - an interval for the broadcast of the connected "
-"peers list."
+"``peers-broadcast-interval`` - an interval for the broadcast of the "
+"connected peers list."
 
 # 8ccc466eed1c4153a9298316122d3ef8
 #: ../../how-to-setup/config-description.rst:121
@@ -643,11 +667,11 @@ msgstr "``suspension-residence-time`` -"
 # 24de3916bc9b45f0a38b322b5a647bf1
 #: ../../how-to-setup/config-description.rst:123
 msgid ""
-"``received-txs-cache-timeout`` - таймаут, за который удаляются из кэш-памяти "
-"транзакции с истёкшим сроком."
+"``received-txs-cache-timeout`` - таймаут, за который удаляются из "
+"кэш-памяти транзакции с истёкшим сроком."
 msgstr ""
-"``received-txs-cache-timeout`` - a timeout to remove an expired transactions "
-"from the elimination cache"
+"``received-txs-cache-timeout`` - a timeout to remove an expired "
+"transactions from the elimination cache"
 
 # cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:125
@@ -657,14 +681,14 @@ msgstr "``upnp`` **unit**"
 # 2c9a225264494a5c8e2605b4d20b8f2d
 #: ../../how-to-setup/config-description.rst:127
 msgid ""
-"Блок для настройки UPnP, используемой для работы блокчейна в домашней сети с "
-"применением роутеров или маршрутизаторов. Если ваш блокчейн работает в облаке, "
-"данную настройку рекомендуется не применять и установить значение ``enable = "
-"no``."
+"Блок для настройки UPnP, используемой для работы блокчейна в домашней "
+"сети с применением роутеров или маршрутизаторов. Если ваш блокчейн "
+"работает в облаке, данную настройку рекомендуется не применять и "
+"установить значение ``enable = no``."
 msgstr ""
-"This is unit for the UPnP configuration which is used in the home network with "
-"switches or routers. If your blockchain works in the cloud, this setting is "
-"recommended not to be used and set to ``enable = no``."
+"This is unit for the UPnP configuration which is used in the home network"
+" with switches or routers. If your blockchain works in the cloud, this "
+"setting is recommended not to be used and set to ``enable = no``."
 
 # 1e35b09262e94056af19f49f1ab1d234
 #: ../../how-to-setup/config-description.rst:129
@@ -695,7 +719,8 @@ msgstr "This is unit for the logging of incoming and outgoing messages."
 #: ../../how-to-setup/config-description.rst:137
 msgid "``ignore-tx-messages`` - список кодов игнорируемых отправляемых сообщений."
 msgstr ""
-"``ignore-tx-messages`` - a list of codes of transmitted messages to ignore."
+"``ignore-tx-messages`` - a list of codes of transmitted messages to "
+"ignore."
 
 # b1fddb8b13384717a0a372fc29fa8327
 #: ../../how-to-setup/config-description.rst:138
@@ -720,10 +745,11 @@ msgstr "``password`` - a password for the private keys file access."
 # 819754d9a4734e3388847e488024e5ed
 #: ../../how-to-setup/config-description.rst:147
 msgid ""
-"``seed`` - секретная фраза для восстановления доступа к аккаунту, закодированная "
-"в Base58."
+"``seed`` - секретная фраза для восстановления доступа к аккаунту, "
+"закодированная в Base58."
 msgstr ""
-"``seed`` - a secret phrase to restore the account access, encrypted in Base58."
+"``seed`` - a secret phrase to restore the account access, encrypted in "
+"Base58."
 
 # cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:152
@@ -738,18 +764,19 @@ msgstr "``enable`` - a miner option activation."
 # 4d4d9ee9d75f42b78dbdcf6795fae403
 #: ../../how-to-setup/config-description.rst:155
 msgid ""
-"``quorum`` - необходимое количество соединений для создания блока. Значение "
-"``0`` позволит генерировать блоки оффлайн."
+"``quorum`` - необходимое количество соединений для создания блока. "
+"Значение ``0`` позволит генерировать блоки оффлайн."
 msgstr ""
-"``quorum`` - required number of connections (both incoming and outgoing) to "
-"attempt block generation. Setting this value to ``0`` enables off-line "
-"generation."
+"``quorum`` - required number of connections (both incoming and outgoing) "
+"to attempt block generation. Setting this value to ``0`` enables off-line"
+" generation."
 
 # 60f16c56a8ff40f9b51f0fbee0e2990e
 #: ../../how-to-setup/config-description.rst:156
 msgid ""
-"``interval-after-last-block-then-generation-is-allowed`` - создание блока только "
-"в том случае, если последний блок не старше указанного периода времени."
+"``interval-after-last-block-then-generation-is-allowed`` - создание блока"
+" только в том случае, если последний блок не старше указанного периода "
+"времени."
 msgstr ""
 "``interval-after-last-block-then-generation-is-allowed`` - enable block "
 "generation only if the last block is not older the given period of time."
@@ -758,7 +785,8 @@ msgstr ""
 #: ../../how-to-setup/config-description.rst:157
 msgid "``no-quorum-mining-delay`` - задержка майнинга при отсутствии кворума."
 msgstr ""
-"``no-quorum-mining-delay`` - a mining attempts delay, if no quorum available."
+"``no-quorum-mining-delay`` - a mining attempts delay, if no quorum "
+"available."
 
 # 2eff9b4c0a7141a9b7abb231b5be61af
 #: ../../how-to-setup/config-description.rst:158
@@ -771,17 +799,17 @@ msgid ""
 "``max-transactions-in-key-block`` - максимальное количество транзакций в "
 "ключевом блоке."
 msgstr ""
-"``max-transactions-in-key-block`` - a maximum number of transaction in the key "
-"block."
+"``max-transactions-in-key-block`` - a maximum number of transaction in "
+"the key block."
 
 # ce90dd58b9c64471a52dbf7be921414b
 #: ../../how-to-setup/config-description.rst:160
 msgid ""
-"``max-transactions-in-micro-block`` - максимальное количество транзакций в "
-"микроблоке."
+"``max-transactions-in-micro-block`` - максимальное количество транзакций "
+"в микроблоке."
 msgstr ""
-"``max-transactions-in-micro-block`` - a maximum number of transaction in the "
-"microblock."
+"``max-transactions-in-micro-block`` - a maximum number of transaction in "
+"the microblock."
 
 # 12b41b7a787f444e9f8638ecb8461ad8
 #: ../../how-to-setup/config-description.rst:161
@@ -791,8 +819,8 @@ msgstr "``min-micro-block-age`` - a minimal age of the microblock."
 # ce25dd3193f544e9b55b31cfa16e4c3c
 #: ../../how-to-setup/config-description.rst:162
 msgid ""
-"``retry-for-contract-execution-complete-interval`` - интервал, за который майнер "
-"проверяет исполненные Docker-контракты для создания микроблоков."
+"``retry-for-contract-execution-complete-interval`` - интервал, за который"
+" майнер проверяет исполненные Docker-контракты для создания микроблоков."
 msgstr ""
 "``retry-for-contract-execution-complete-interval`` - an interval for the "
 "checking the executed Docker contracts to create microblock."
@@ -825,9 +853,11 @@ msgstr "``api-key-hash``- a hash of API key string."
 # 57f241ad56644e27a695753ad557b62a
 #: ../../how-to-setup/config-description.rst:173
 msgid ""
-"``privacy-api-key-hash`` - хеш от ключевой строки доступа к методам ``privacy``."
+"``privacy-api-key-hash`` - хеш от ключевой строки доступа к методам "
+"``privacy``."
 msgstr ""
-"``privacy-api-key-hash`` - a hash of API key string for ``privacy`` methods."
+"``privacy-api-key-hash`` - a hash of API key string for ``privacy`` "
+"methods."
 
 # f8f7a1dbd09b4dcd94097d9575deaa70
 #: ../../how-to-setup/config-description.rst:174
@@ -837,7 +867,8 @@ msgstr "``cors`` - enable/disable CORS support."
 # d852ae09df874375ab18c8f487ffeffa
 #: ../../how-to-setup/config-description.rst:175
 msgid ""
-"``api-key-different-host`` - активация поддержки REST API ключа от других хостов."
+"``api-key-different-host`` - активация поддержки REST API ключа от других"
+" хостов."
 msgstr "``api-key-different-host`` - enable/disable X-API-Key from different host."
 
 # 29141575681844f8bb1c9ce88cf7b74d
@@ -846,8 +877,8 @@ msgid ""
 "``transactions-by-address-limit`` - максимальное количество транзакций, "
 "возвращаемых методом ``/transactions/address/{address}/limit/{limit}``."
 msgstr ""
-"``transactions-by-address-limit`` - a maximum number of transactions returned by "
-"``/transactions/address/{address}/limit/{limit}`` method."
+"``transactions-by-address-limit`` - a maximum number of transactions "
+"returned by ``/transactions/address/{address}/limit/{limit}`` method."
 
 # e8762f92fb9f441ca4208621bb73604a
 #: ../../how-to-setup/config-description.rst:177
@@ -862,12 +893,12 @@ msgstr "``synchronization`` section"
 # 35bea44bff1f4f26920b879027572ccb
 #: ../../how-to-setup/config-description.rst:184
 msgid ""
-"``max-rollback`` - максимальное количество блоков, на которые можно откатить "
-"ноду при форке. Если при форке разница высот нод больше указанного значения, "
-"откат невозможен."
+"``max-rollback`` - максимальное количество блоков, на которые можно "
+"откатить ноду при форке. Если при форке разница высот нод больше "
+"указанного значения, откат невозможен."
 msgstr ""
-"``max-rollback`` - a maximum number of blocks for rollback if fork is detected. "
-"If fork is longer than this value, rollback is impossible."
+"``max-rollback`` - a maximum number of blocks for rollback if fork is "
+"detected. If fork is longer than this value, rollback is impossible."
 
 # e7288495d58746c6bab75327351c0581
 #: ../../how-to-setup/config-description.rst:185
@@ -904,10 +935,11 @@ msgstr "``max-size`` - a maximum number of elements in the cache."
 # 0e525da4fa5247f28da645e0a8e3fa75
 #: ../../how-to-setup/config-description.rst:194
 msgid ""
-"``timeout`` - период хранения невалидных блоков и их владельцев в чёрном списке."
+"``timeout`` - период хранения невалидных блоков и их владельцев в чёрном "
+"списке."
 msgstr ""
-"``timeout`` - a timeout to store invalid blocks and blacklist their owners in "
-"advance."
+"``timeout`` - a timeout to store invalid blocks and blacklist their "
+"owners in advance."
 
 # b7adda79566546cf9dec9fb7c407ed32
 #: ../../how-to-setup/config-description.rst:196
@@ -925,7 +957,8 @@ msgid ""
 "``max-micro-block-cache-size`` - максимальное количество микроблоков для "
 "кэширования."
 msgstr ""
-"``max-micro-block-cache-size`` - a maximum number of microblocks for caching."
+"``max-micro-block-cache-size`` - a maximum number of microblocks for "
+"caching."
 
 # de0dd578faa947e1880035d126a7a5d2
 #: ../../how-to-setup/config-description.rst:201
@@ -945,36 +978,40 @@ msgstr "This is unit for unconfirmed transactions synchronizer caching settings.
 # de0dd578faa947e1880035d126a7a5d2
 #: ../../how-to-setup/config-description.rst:207
 msgid ""
-"``network-tx-cache-size`` - максимальный объём кэш-памяти для неподтверждённых "
-"транзакций."
+"``network-tx-cache-size`` - максимальный объём кэш-памяти для "
+"неподтверждённых транзакций."
 msgstr ""
-"``network-tx-cache-size`` - a maximum cache volume for unconfirmed transactions."
+"``network-tx-cache-size`` - a maximum cache volume for unconfirmed "
+"transactions."
 
 # 82c6531748d1470e98eed64189411661
 #: ../../how-to-setup/config-description.rst:208
 msgid ""
-"``network-tx-cache-time`` - максимальное время кэширования для неподтверждённых "
-"транзакций."
+"``network-tx-cache-time`` - максимальное время кэширования для "
+"неподтверждённых транзакций."
 msgstr ""
-"``network-tx-cache-time`` - a maximum cache time for unconfirmed transactions."
+"``network-tx-cache-time`` - a maximum cache time for unconfirmed "
+"transactions."
 
 # 530539112cdd464fadf615881284a2c4
 #: ../../how-to-setup/config-description.rst:209
 msgid ""
 "``max-buffer-size`` - максимальное количество транзакций в буфере. При "
-"достижении лимита буфера нода обработает все транзакции в пакетном режиме."
+"достижении лимита буфера нода обработает все транзакции в пакетном "
+"режиме."
 msgstr ""
-"``max-buffer-size`` - a maximum number of transactions in buffer. When the limit "
-"is reached, the node processes all transactions in batch."
+"``max-buffer-size`` - a maximum number of transactions in buffer. When "
+"the limit is reached, the node processes all transactions in batch."
 
 # f46b90ed5186474c841deeffcbcaa911
 #: ../../how-to-setup/config-description.rst:210
 msgid ""
-"``max-buffer-time`` - максимальное время хранения транзакций в буфере. При "
-"достижении лимита времени нода обработает все транзакции в пакетном режиме."
+"``max-buffer-time`` - максимальное время хранения транзакций в буфере. "
+"При достижении лимита времени нода обработает все транзакции в пакетном "
+"режиме."
 msgstr ""
-"``max-buffer-time`` - a maximum storage time of transactions in buffer. When the "
-"limit is reached, the node processes all transactions in batch."
+"``max-buffer-time`` - a maximum storage time of transactions in buffer. "
+"When the limit is reached, the node processes all transactions in batch."
 
 # 963d8299aee94e83bed0e81ecc811089
 #: ../../how-to-setup/config-description.rst:212
@@ -984,29 +1021,29 @@ msgstr "``micro-block-synchronizer`` **unit**"
 # bb2785c444034177aa1d5ac74fad576a
 #: ../../how-to-setup/config-description.rst:214
 msgid ""
-"``wait-response-timeout`` - максимальное время ожидания до нового запроса на "
-"создание следующего микроблока."
+"``wait-response-timeout`` - максимальное время ожидания до нового запроса"
+" на создание следующего микроблока."
 msgstr ""
-"``wait-response-timeout`` - a maximum time to wait before a new request of a "
-"microblock will be done."
+"``wait-response-timeout`` - a maximum time to wait before a new request "
+"of a microblock will be done."
 
 # bbe9b5bfc9c74e069cf66541122e8abf
 #: ../../how-to-setup/config-description.rst:215
 msgid ""
-"``processed-micro-blocks-cache-timeout`` - время хранения подписей обработанных "
-"микроблоков."
+"``processed-micro-blocks-cache-timeout`` - время хранения подписей "
+"обработанных микроблоков."
 msgstr ""
-"``processed-micro-blocks-cache-timeout`` - a maximum time to remember processed "
-"microblock signatures."
+"``processed-micro-blocks-cache-timeout`` - a maximum time to remember "
+"processed microblock signatures."
 
 # e659ce63b7684cda9c085adfde0396f7
 #: ../../how-to-setup/config-description.rst:216
 msgid ""
-"``inv-cache-timeout`` - время хранения микроблоков с информацией об их нодах для "
-"предотвращения повторной обработки."
+"``inv-cache-timeout`` - время хранения микроблоков с информацией об их "
+"нодах для предотвращения повторной обработки."
 msgstr ""
-"``inv-cache-timeout`` - a maximum time to remember microblocks and their nodes "
-"to prevent same processing."
+"``inv-cache-timeout`` - a maximum time to remember microblocks and their "
+"nodes to prevent same processing."
 
 # e271c606977242b586b7e60377c357a9
 #: ../../how-to-setup/config-description.rst:221
@@ -1026,21 +1063,24 @@ msgstr "``memory-limit`` - a memory limit, default - 1 Gb."
 # 7bc600c9b8574a8da755137c36bb07e5
 #: ../../how-to-setup/config-description.rst:225
 msgid ""
-"``cleanup-interval`` - интервал запуска очистки пула неподтверждённых транзакций."
+"``cleanup-interval`` - интервал запуска очистки пула неподтверждённых "
+"транзакций."
 msgstr ""
-"``cleanup-interval`` - an unconfirmed transactions pool cleanup task interval."
+"``cleanup-interval`` - an unconfirmed transactions pool cleanup task "
+"interval."
 
 # 9ce503ee726b410fada26f40f42fe872
 #: ../../how-to-setup/config-description.rst:226
 msgid "``blacklist-sender-addresses`` - список адресов, попавших в чёрный список."
 msgstr ""
-"``blacklist-sender-addresses`` - blacklist transactions from specified addresses."
+"``blacklist-sender-addresses`` - blacklist transactions from specified "
+"addresses."
 
 # b5b99a8bff92483899ee380af3ce21ac
 #: ../../how-to-setup/config-description.rst:227
 msgid ""
-"``allow-blacklisted-transfer-to`` - список адресов, к которым могут приходить "
-"транзакции от адресов из чёрного списка."
+"``allow-blacklisted-transfer-to`` - список адресов, к которым могут "
+"приходить транзакции от адресов из чёрного списка."
 msgstr ""
 "``allow-blacklisted-transfer-to`` - allow transfer transactions from the "
 "blacklisted addresses to specified recipients."
@@ -1048,11 +1088,11 @@ msgstr ""
 # 05822d07ac524719be6ff983ef22828f
 #: ../../how-to-setup/config-description.rst:228
 msgid ""
-"``allow-transactions-from-smart-accounts`` - список адресов, к которым могут "
-"приходить транзакции от смарт-аккаунтов."
+"``allow-transactions-from-smart-accounts`` - список адресов, к которым "
+"могут приходить транзакции от смарт-аккаунтов."
 msgstr ""
-"``allow-transactions-from-smart-accounts`` - allow transactions from smart "
-"accounts."
+"``allow-transactions-from-smart-accounts`` - allow transactions from "
+"smart accounts."
 
 # cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:233
@@ -1107,25 +1147,27 @@ msgstr "``docker-host`` - a Docker host name."
 # d1b5cb2ff7ea409084997cf50016b1eb
 #: ../../how-to-setup/config-description.rst:254
 msgid ""
-"``node-rest-api`` - адрес доступа к REST API ноды, если используется хост для "
-"Docker."
+"``node-rest-api`` - адрес доступа к REST API ноды, если используется хост"
+" для Docker."
 msgstr ""
-"``node-rest-api`` - REST API address if you are using the remote Docker host."
+"``node-rest-api`` - REST API address if you are using the remote Docker "
+"host."
 
 # 7d7d2ba251df42049f845f971285455b
 #: ../../how-to-setup/config-description.rst:255
 msgid ""
-"``integration-tests-mode-enable`` - активация опции запуска тестов интеграции."
+"``integration-tests-mode-enable`` - активация опции запуска тестов "
+"интеграции."
 msgstr "``integration-tests-mode-enable`` - the integration tests run option."
 
 # 3d4d1442e55c4732b03da94692647fae
 #: ../../how-to-setup/config-description.rst:256
 msgid ""
-"``reuse-containers`` - активация повторного использования docker-контейнеров для "
-"выполнения последующих смарт-контрактов."
+"``reuse-containers`` - активация повторного использования "
+"docker-контейнеров для выполнения последующих смарт-контрактов."
 msgstr ""
-"``reuse-containers`` - the reuse option for once created container on subsequent "
-"executions."
+"``reuse-containers`` - the reuse option for once created container on "
+"subsequent executions."
 
 # 2a23bbef0e2f406081139dc0f8e95452
 #: ../../how-to-setup/config-description.rst:257
@@ -1140,17 +1182,17 @@ msgstr ""
 #: ../../how-to-setup/config-description.rst:258
 msgid "``allow-net-access`` - активация доступа в сеть для смарт-контрактов."
 msgstr ""
-"``allow-net-access`` - the option which allows network access for all smart "
-"contracts."
+"``allow-net-access`` - the option which allows network access for all "
+"smart contracts."
 
 # 8b62e31273714831ab3c49db0ec7c449
 #: ../../how-to-setup/config-description.rst:259
 msgid ""
-"``remote-registries`` - список удалённых registry репозиториев для запуска "
-"Docker-контрактов."
+"``remote-registries`` - список удалённых registry репозиториев для "
+"запуска Docker-контрактов."
 msgstr ""
-"``remote-registries`` - a list of remote registry repositories for the Docker "
-"contracts run."
+"``remote-registries`` - a list of remote registry repositories for the "
+"Docker contracts run."
 
 # c9d1dec0a8e9484395affe3447e82ee1
 #: ../../how-to-setup/config-description.rst:260
@@ -1158,8 +1200,8 @@ msgid ""
 "``check-registry-auth-on-startup`` - проверка авторизации на registry "
 "репозиториях при старте ноды."
 msgstr ""
-"``check-registry-auth-on-startup`` - the option which checks the registry "
-"repositories authorization during the node start."
+"``check-registry-auth-on-startup`` - the option which checks the registry"
+" repositories authorization during the node start."
 
 # 23018e2995aa4d288248817cc1fc0ec3
 #: ../../how-to-setup/config-description.rst:262
@@ -1170,7 +1212,8 @@ msgstr "``docker-auth`` **unit**"
 #: ../../how-to-setup/config-description.rst:264
 msgid "Блок для указания параметров авторизации для Docker хоста."
 msgstr ""
-"This is unit for the specifying the authorization parameters for the Docker host."
+"This is unit for the specifying the authorization parameters for the "
+"Docker host."
 
 # be76bcd33adf42fd975f9085c93c59ce
 #: ../../how-to-setup/config-description.rst:266
@@ -1225,20 +1268,21 @@ msgstr "``expire-after`` - a time period to expire for messages in cache."
 # 737bbf1a45164e8183c52de5c20d93c2
 #: ../../how-to-setup/config-description.rst:282
 msgid ""
-"``max-buffer-size`` - максимальное количество сообщений буфере. При достижении "
-"лимита буфера нода обработает все сообщения в пакетном режиме."
+"``max-buffer-size`` - максимальное количество сообщений буфере. При "
+"достижении лимита буфера нода обработает все сообщения в пакетном режиме."
 msgstr ""
-"``max-buffer-size`` - a maximum number of messages in buffer. When the limit is "
-"reached, the node processes all messages in batch."
+"``max-buffer-size`` - a maximum number of messages in buffer. When the "
+"limit is reached, the node processes all messages in batch."
 
 # ddfbd71cd64b4163bdb247e1aa7f3b8c
 #: ../../how-to-setup/config-description.rst:283
 msgid ""
-"``max-buffer-time`` - максимальное время хранения сообщений в буфере. При "
-"достижении лимита буфера нода обработает все сооющения в пакетном режиме."
+"``max-buffer-time`` - максимальное время хранения сообщений в буфере. При"
+" достижении лимита буфера нода обработает все сооющения в пакетном "
+"режиме."
 msgstr ""
-"``max-buffer-time`` - a maximum time period of messages in buffer. When the "
-"limit is reached, the node processes all messages in batch."
+"``max-buffer-time`` - a maximum time period of messages in buffer. When "
+"the limit is reached, the node processes all messages in batch."
 
 # cf90e984f77b4ff9a2995f69d06d68af
 #: ../../how-to-setup/config-description.rst:288
@@ -1248,11 +1292,11 @@ msgstr "``privacy`` section"
 # 046ff0c2b5a24e1fa4497bbda3d1e463
 #: ../../how-to-setup/config-description.rst:290
 msgid ""
-"Секция содержит блок ``storage``, в котором настраивается БД для хранения "
-"конфиденциальных данных."
+"Секция содержит блок ``storage``, в котором настраивается БД для хранения"
+" конфиденциальных данных."
 msgstr ""
-"The section consists of the ``storage`` unit which allows the database settings "
-"for privacy storage."
+"The section consists of the ``storage`` unit which allows the database "
+"settings for privacy storage."
 
 # 23018e2995aa4d288248817cc1fc0ec3
 #: ../../how-to-setup/config-description.rst:292
@@ -1331,3 +1375,8 @@ msgstr "``migration-dir`` - a path to the data migration directory."
 # d677a80ef40c44c6ae77059882d95a43
 #~ msgid "``block-timestamp`` -"
 #~ msgstr "``block-timestamp`` -"
+
+# e271c606977242b586b7e60377c357a9
+#~ msgid "Секция ``vostok``"
+#~ msgstr "``vostok`` section"
+

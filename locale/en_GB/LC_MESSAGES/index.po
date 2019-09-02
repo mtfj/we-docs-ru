@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-22 15:58+0300\n"
-"PO-Revision-Date: 2019-05-23 12:16+0300\n"
+"POT-Creation-Date: 2019-09-02 15:12+0300\n"
+"PO-Revision-Date: 2019-09-02 18:37+0300\n"
 "Last-Translator: \n"
 "Language: en_GB\n"
 "Language-Team: \n"
@@ -16,13 +16,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.0.6\n"
+
+# 86e44ec5facb4c49972634b1ff3f3527
+#: ../../index.rst:2
+msgid "Документация блокчейн-платформы Waves Enterprise"
+msgstr "Waves Enterprise  Blockchain Documentation"
 
 # 2e7b076075bf4fe78234caaf164c8fa5
 #: ../../index.rst:4
-msgid "Блокчейн-платформа Vostok"
-msgstr "Blockchain-platform Vostok"
+msgid "Блокчейн-платформа Waves Enterprise"
+msgstr "Blockchain-platform Waves Enterprise"
 
 # b9ffb51a4abb4bccadaf553ee3ca880b
 #: ../../index.rst:12
@@ -30,24 +35,19 @@ msgid "Как устроена платформа"
 msgstr "How the Platform Works"
 
 # d17638bda3c0466aa9e9de23968b8153
-#: ../../index.rst:28
+#: ../../index.rst:30
 msgid "Использование платформы"
 msgstr "Use"
 
 # 95ace6cb775847f387302b92c4db05ca
-#: ../../index.rst:39
+#: ../../index.rst:44
 msgid "Установка и настройка"
 msgstr "Installation and Setup"
 
 # 6ae51aaa730c4c019c5c58357294d35c
-#: ../../index.rst:50
+#: ../../index.rst:56
 msgid "Дополнительная информация"
 msgstr "Additional Information"
-
-# 86e44ec5facb4c49972634b1ff3f3527
-#: ../../index.rst:2
-msgid "Документация блокчейн-платформы Vostok"
-msgstr "Vostok Blockchain Documentation"
 
 # 99bc80269ac446cb8a9efb9f8f24edf9
 #~ msgid "FAQ"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 12:15+0300\n"
-"PO-Revision-Date: 2019-06-26 16:54+0300\n"
+"POT-Creation-Date: 2019-09-02 15:12+0300\n"
+"PO-Revision-Date: 2019-09-02 17:38+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # dfebcb84a2ae47af9ac7e8b35fd70c6a
 #: ../../overview/overview.rst:2
@@ -27,28 +27,28 @@ msgstr "Features overview"
 # 7a5fa40ce2964bc1876b23dd6c4141ff
 #: ../../overview/overview.rst:4
 msgid ""
-"Блокчейн-платформа Vostok — это универсальное решение для масштабируемой "
-"цифровой инфраструктуры, сочетающее в себе свойства публичных и приватных "
-"блокчейнов для корпоративного и государственного использования. Корпоративная "
-"блокчейн-платформа решает проблему доверия между участниками отношений на "
-"уровне протокола работы платформы. Поддерживаемые типы консенсусов :ref:`PoS "
-"<pos-glossary>` и :ref:`PoA <poa-glossary>` гарантируют корректность "
-"добавляемых в блокчейн данных, а децентрализация обеспечивает независимый от "
-"контрагентов доступ к данным."
+"Блокчейн-платформа Waves Enterprise — это универсальное решение для "
+"масштабируемой цифровой инфраструктуры, сочетающее в себе свойства публичных и "
+"приватных блокчейнов для корпоративного и государственного использования. "
+"Корпоративная блокчейн-платформа решает проблему доверия между участниками "
+"отношений на уровне протокола работы платформы. Поддерживаемые типы "
+"консенсусов :ref:`PoS <pos-glossary>` и :ref:`PoA <poa-glossary>` гарантируют "
+"корректность добавляемых в блокчейн данных, а децентрализация обеспечивает "
+"независимый от контрагентов доступ к данным."
 msgstr ""
-"Vostok Blockchain Platform — is a universal solution for scalable digital "
-"infrastructures that combines features of public and private blockchain for "
-"corporate and government use. The enterprise blockchain platform solves the "
-"problem of trust between the parties not at the level of business logic, but "
-"at the level of the platform operation protocol. Supported :ref:`PoS <pos-"
-"glossary>` and :ref:`PoA <poa-glossary>` consensuses guarantee correctness of "
-"data added to the blockchain, while decentralization provides counterparty "
-"independence in terms of data access."
+"Waves Enterprise Blockchain Platform — is a universal solution for scalable "
+"digital infrastructures that combines features of public and private "
+"blockchain for corporate and government use. The enterprise blockchain "
+"platform solves the problem of trust between the parties not at the level of "
+"business logic, but at the level of the platform operation protocol. "
+"Supported :ref:`PoS <pos-glossary>` and :ref:`PoA <poa-glossary>` consensuses "
+"guarantee correctness of data added to the blockchain, while decentralization "
+"provides counterparty independence in terms of data access."
 
-# 26d590f5b6984a728f3cbdd66ac976c8
+# 154b5ef15df94e559f6346b837d2037c
 #: ../../overview/overview.rst:7
-msgid "Блокчейн Vostok"
-msgstr "Vostok Blockchain"
+msgid "Блокчейн Waves Enterprise"
+msgstr ""
 
 # 8e01421f4c98462a9a03d8aa7ef5bc61
 #: ../../overview/overview.rst:9
@@ -120,19 +120,19 @@ msgstr "Permission management system implemented at the consensus level."
 # 6c986c73049049bdbf09d7e2db2aef4b
 #: ../../overview/overview.rst:19
 msgid ""
-"Веб-клиент Vostok реализует следующие функции: просмотр :ref:`транзакций "
-"<transaction-glossary>`, кошелек, отправка всех типов транзакций, разработка "
-"смарт-контрактов, мониторинг состояния блокчейна, управление полномочиями "
-"участников сети."
+"Веб-клиент Waves Enterprise реализует следующие функции: просмотр :ref:"
+"`транзакций <transaction-glossary>`, кошелек, отправка всех типов транзакций, "
+"разработка смарт-контрактов, мониторинг состояния блокчейна, управление "
+"полномочиями участников сети."
 msgstr ""
-"Vostok web client features :ref:`transactions <transaction-glossary>` "
-"explorer, wallet, creation of transactions, smart contract development, "
-"blockchain status monitoring, permission management."
+"Waves Enterprise web client features :ref:`transactions <transaction-"
+"glossary>` explorer, wallet, creation of transactions, smart contract "
+"development, blockchain status monitoring, permission management."
 
 # 784edcf2cffb4ce4844803bd70769bac
 #: ../../overview/overview.rst:22
-msgid "Варианты развертывания сети Vostok"
-msgstr "Vostok network deployment options"
+msgid "Варианты развертывания сети Waves Enterprise"
+msgstr "Waves Enterprise network deployment options"
 
 # 76fcf04463f244bb8a7046be78138145
 #: ../../overview/overview.rst:24
@@ -179,13 +179,13 @@ msgstr "Independent private network"
 # 0f13f3b74b834fe6960b1a44aa5053c8
 #: ../../overview/overview.rst:38
 msgid ""
-"Коробочное решение Vostok позволяет развернуть собственную частную сеть для "
-"тех компаний, которые не готовы публично вести свои корпоративные процессы. "
-"Сеть конфигурируется под потребности каждой отдельной компании."
+"Коробочное решение Waves Enterprise позволяет развернуть собственную частную "
+"сеть для тех компаний, которые не готовы публично вести свои корпоративные "
+"процессы. Сеть конфигурируется под потребности каждой отдельной компании."
 msgstr ""
 "There are cases when company is not ready to share its processes publicly. "
-"Vostok box version allows such companies to deploy a stand-alone private "
-"network and configure it in accordance to business needs."
+"Waves Enterprise box version allows such companies to deploy a stand-alone "
+"private network and configure it in accordance to business needs."
 
 # 170577d57a2248f6bee05bee3aa660a4
 #: ../../overview/overview.rst:40
@@ -280,3 +280,7 @@ msgstr ""
 #~ "Using a private network allows to hide transactions for the public network "
 #~ "while regular publication of hashes from private network blocks into the "
 #~ "main network increases durability due to the scale of the main network."
+
+# 26d590f5b6984a728f3cbdd66ac976c8
+#~ msgid "Блокчейн Vostok"
+#~ msgstr "Vostok Blockchain"
