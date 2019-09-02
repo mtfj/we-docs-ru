@@ -34,7 +34,7 @@ body {
 }
 
 .wy-nav-content-wrap, .wy-nav-content {
-  background: none;
+  background: rgb(255, 255, 255);
 }
 
 .vst-lang-switcher {
