@@ -1,108 +1,204 @@
 .. _install-node:
 
-Установка ноды
+Установка ПО
 ===============
 
-Во избежание конфликтов ПО установку нод для платформы Vostok необходимо выполнять на отдельной машине от нод блокчейн-платформы Waves.
+Установку нод для платформы Waves Enterprise необходимо выполнять на отдельной машине от нод блокчейн-платформы Waves. Нода предоставляет возможность использовать ГОСТ-криптографию на базе КриптоПро и встроенный модуль Waves-криптографии. От типа используемой криптографии зависит список предустановленных пакетов для ноды. 
 
-.. _install-windows:
+.. _install-gos:
 
-Установка на Windows
+ГОСТ-криптография
 ----------------------------
 
-1.	Скачайте и установите `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_.
-    | Корректность установки можно проверить командой ``java -version``.
-    | Если отображается следующий результат, то можно переходить к следующему шагу.    
-    
-    .. code:: js
+1. Проверка предустановленных Java-пакетов 
 
-        Java version "1.8.0_74"
-        Java(TM) SE Runtime Environment (build 1.8.0_74-b02)
-        Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)
+Корректность установки можно проверить, набрав в консоли вашей ОС команду ``java -version``. Если отображается следующий результат, то можно переходить к следующему шагу - "Установка КриптоПРО".
 
-2.	Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
-
-    .. warning:: Платформа Vostok поддерживает только версию ``2.0.39014``!
-  
-    .. hint:: При использовании Waves-криптографии устанавливать CryptoPro JCP необязательно.
-
-    При установке `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ необходимо убедиться, что указан верный путь до исполняемого файла пакета JRE: 
-     
-     .. image:: img/JCP_1.png
-        :height: 250
- 
-    Если в процессе инсталляции возникают ошибки, связанные с JRE, то необходимо проверить корректность пути до файла java.exe пакета JRE, указанного в системной переменной ``PATH``.
-     
-     .. image:: img/JCP_2.png
-        :height: 250
-
-3.	Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_.
-    | Самая свежая версия приложений находится в шапке страницы:
-
-    .. image:: img/latest.png
-       :height: 250
-
-    - node-x.x.x.jar - приложение ноды Vostok;
-    - generators-x.x.x.jar - утилита для настройки параметров ноды Vostok и создания аккаунтов пользователей.
- 
-4.  Отредактируйте ``example.conf`` в соответствии с руководством :ref:`Конфигурация ноды <configuration>`.
-5.	Запустите ноду коммандой:
-
-    .. code:: js
-    
-        java -jar node-x.x.x.jar example.conf
-
-.. _install-ubuntu:
-
-Установка на Ubuntu
-----------------------------
-
-1. Скачайте и установите `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_.
-
-   .. code:: js
-        
-       sudo add-apt-repository -y ppa:webupd8team/java
-       sudo apt-get update
-       sudo apt-get -y install oracle-java8-installer
-
-   Корректность установки можно проверить командой ``java -version``.
-   Если отображается следующий результат, то можно переходить к следующему шагу.    
-    
-   .. code:: js
+ .. code:: js
 
        Java version "1.8.0_74"
        Java(TM) SE Runtime Environment (build 1.8.0_74-b02)
        Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)
 
-2. Скачайте и установите `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
+Если Java-пакеты не установлены, то вам следует скачать и установить `JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_, соответствущий вашей ОС. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
 
-   .. warning:: Платформа Vostok поддерживает только версию ``2.0.39014``!
+2. Установка КриптоПро
+
++-----------------------------+----------------------------+---------------------------+
+|  .. image:: img/win.png     |   .. image:: img/lin.png   |  .. image:: img/mac.png   |
+|      :height: 70            |       :height: 70          |      :height: 70          |
+|      :target: `windows1`_   |       :target: `linux1`_   |      :target: `mac1`_     |
++-----------------------------+----------------------------+---------------------------+
+
+Скачайте и установите пакет `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ согласно вашему типу ОС. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
+
+.. warning:: Платформа Waves Enterprise поддерживает только версию CryptoPro ``2.0.39014`` !
+  
+.. hint:: При использовании Waves-криптографии устанавливать CryptoPro JCP необязательно.
+
+
+В состав дистрибутива `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ входит справочная документация. Инструкцию по установке можно найти в папке *Doc/\ЖТЯИ.00091-01-JCP*. Также проверьте правильность пути до исполняемого пакета JRE. Для использования `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ достаточно следующего набора опций:
+
+* Криптопровайдер JCP.
+* Модуль шифрования.
+* Провайдер TLS.
+* Модули CAdES, XAdES, данные модули требуют установки зависимых модулей ``bcpkix-jdk15on-1.50.jar`` и ``bcprov-jdk15on-1.50.jar``. После установки вручную скопируйте файлы *jcp-2.0.39014.zip/dependencies/bcpkix-jdk15on-1.50.jar* и *jcp-2.0.39014.zip/dependencies/bcprov-jdk15on-1.50.jar* в директорию **$JAVA_HOME/jre/lib/ext**.
+
+
+.. _windows1:
+
+Windows
+~~~~~~~~~~~
+
+Windows позволяет устанавливать ПО КриптоПро JCP при помощи командной строки или графического интерфейса. Выберите предпочитаемый тип установки и придерживайтесь инструкции по установке ПО для Windows документа **ЖТЯИ.00091-01 91 01. Инструкция по использованию**.
+
+     .. image:: img/JCP_1.png
+        :height: 250
+
+Если в процессе инсталляции возникают ошибки, связанные с JRE, то необходимо проверить корректность пути до исполняемого файла java пакета JRE, указанного в системной переменной ``PATH``.
+     
+     .. image:: img/JCP_2.png
+        :height: 250
+    
+.. _linux1:
+
+Linux
+~~~~~~~~~~~
+
+Пропишите переменные окружения для Java JDK для всех пользователей по умолчанию, набрав в терминале следующую команду.
+    
+     .. code:: js 
+
+           sudo vi /etc/profile.d/oracle.share
+
+В данный файл внесите следующие значения переменных окружения:
+    
+     .. code:: js
+
+         export JAVA_HOME=/opt/jdk1.8.0_xxx
+         export JRE_HOME=/opt/jdk1.8.0_xxx/jre
+         export PATH=$PATH:/opt/jdk1.8.0_xxx/bin:/opt/jdk1.8.0_xxx/jre/bin 
+
+Если на сервере стоит несколько версий Java JDK, то необходимо зарегистрировать альтернативы для новой версии.
+     
+     .. code:: js
+
+         sudo alternatives --install /usr/bin/java java /opt/jdk1.8.0_xxx/bin/java 
+         sudo alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_xxx/bin/jar 
+         sudo alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_xxx/bin/javac 
+         sudo alternatives --set jar /opt/jdk1.8.0_xxx/bin/jar
+         sudo alternatives --set jar /opt/jdk1.8.0_xxx/bin/jar
+         sudo alternatives --set javac /opt/jdk1.8.0_xxx/bin/javac
+         sudo alternatives --config java
+
+Обеспечьте пользователей соответствующими правами:
+     
+     .. code:: js
+
+         sudo chmod 777 -R /opt/jdk1.8.0_xxx/jre/.systemPrefs
+
+Для установки КриптоПро используйте соответствующий раздел установки под Linux **ЖТЯИ.00091-01 91 01. Инструкция по использованию**.
+
+.. _mac1:
+
+Mac
+~~~~~~~~~
+
+Для установки Java JDK используйте официальный сайт Oracle. Следуйте инструкциям сайта по установке пакета "1.8.X_XXX" - версии.
+Вы можете использовать OpenJDK
+
+        .. code:: js
+
+         brew install adoptopenjdk/openjdk/adoptopenjdk-openjdk8
+        
+Далее установите значение ``JAVA_HOME`` равным `` /usr/local/Cellar/adoptopenjdk-openjdk8/jdk8u172-b11 ``
+
+Для установки КриптоПро используйте соответствующий раздел установки под Mac **ЖТЯИ.00091-01 91 01. Инструкция по использованию**.
+
+.. _install-node:
+
+Установка ноды
+------------------
+
++-----------------------------+----------------------------+---------------------------+
+|  .. image:: img/win.png     |   .. image:: img/lin.png   |  .. image:: img/mac.png   |
+|      :height: 70            |       :height: 70          |      :height: 70          |
+|      :target: `windows2`_   |       :target: `linux2`_   |      :target: `mac2`_     |
++-----------------------------+----------------------------+---------------------------+
+
+.. _windows2:
+
+Windows
+~~~~~~~~~~~
+
+1. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
+
+    .. image:: img/latest.png
+       :height: 250
+
+    - node-x.x.x.jar - приложение ноды Waves Enterprise;
+    - generators-x.x.x.jar - утилита для настройки параметров ноды Waves Enterprise и создания аккаунтов пользователей.
+
+2. Отредактируйте конфигурационный файл в соответствии с руководством :ref:`Конфигурация ноды <configuration>`.
+
+3. Запустите ноду, набрав в консоли вашей ОС команду:
    
-   .. hint:: При использовании Waves-криптографии устанавливать CryptoPro JCP необязательно.
+    .. code:: js
+    
+        java -jar node-x.x.x.jar example.conf
 
-3. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_.
+Для остановки ноды можно использовать сочетание клавиш ``ctrl + C``.
 
-4. Отредактируйте ``example.conf`` в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`.
+.. _linux2:
 
-5. Установите ноду из deb-пакета. Команда для установки: 
+Linux (Ubuntu)
+~~~~~~~~~~~~~~~~
+  
+1. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_.
+
+2. Отредактируйте конфигурационный файл в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`.
+
+3. Установите ноду из скачанного deb-пакета, соответствущего дистрибутиву Linux. Ниже приведен пример для .deb-пакета. Команда для установки следующая: 
 
    .. code:: js
 
        sudo dpkg -i vostok.deb
-
     
    - Директория для конфигурационного файла - /etc/vostok/vostok.conf
    - Директория для jar-файла и библиотек - /usr/share/vostok/
    - Директория для данных блокчейна - /var/lib/vostok/
 
-   Запуск ноды выполняется командой: 
+4. Запуск ноды выполняется командой: 
     
    .. code:: js
 
         sudo systemctl start vostok.service
 
-   Остановка ноды выполняется командой: 
+5. Остановка ноды выполняется командой: 
     
    .. code:: js
 
         sudo systemctl stop vostok.service
+
+.. _mac2:
+
+Mac
+~~~~~~~~~
+          
+1. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
+
+    .. image:: img/latest.png
+       :height: 250
+
+    - node-x.x.x.jar - приложение ноды Waves Enterprise;
+    - generators-x.x.x.jar - утилита для настройки параметров ноды Waves Enterprise и создания аккаунтов пользователей.
+
+2. Отредактируйте конфигурационный файл в соответствии с руководством :ref:`Конфигурация ноды <configuration>`.
+
+3. Запустите ноду, набрав в консоли вашей ОС команду:
+   
+    .. code:: js
+    
+        java -jar node-x.x.x.jar example.conf
+
+Для остановки ноды можно использовать сочетание клавиш ``ctrl + C``.

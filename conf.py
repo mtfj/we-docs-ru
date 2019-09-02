@@ -135,7 +135,7 @@ html_theme_options = {
     'sticky_navigation': True,
     'navigation_depth': 4,
     'display_version': False,
-    'includehidden': False,
+#    'includehidden': False,
     'display_version': True
 }
 

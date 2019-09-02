@@ -11,82 +11,60 @@ GET /activation/status
 **Ответ метода:**
 
 .. code:: js
-
-    {
-    "height": 47041,
+ 
+   {"height": 47041,
     "votingInterval": 1,
     "votingThreshold": 1,
     "nextCheck": 47041,
     "features": [
-        {
-        "id": 1,
+       {"id": 1,
         "description": "Minimum Generating Balance of 1000 VST",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 2,
+        "activationHeight": 0 },
+       {"id": 2,
         "description": "NG Protocol",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 3,
+        "activationHeight": 0 },
+       {"id": 3,
         "description": "Mass Transfer Transaction",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 4,
+        "activationHeight": 0 },
+       {"id": 4,
         "description": "Smart Accounts",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 5,
+        "activationHeight": 0 },
+       {"id": 5,
         "description": "Data Transaction",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 6,
+        "activationHeight": 0 },
+       {"id": 6,
         "description": "Burn Any Tokens",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 7,
+        "activationHeight": 0 },
+       {"id": 7,
         "description": "Fee Sponsorship",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 8,
+        "activationHeight": 0 },
+       {"id": 8,
         "description": "Fair PoS",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        },
-        {
-        "id": 9,
+        "activationHeight": 0 },
+       {"id": 9,
         "description": "Smart Assets",
         "blockchainStatus": "VOTING",
         "nodeStatus": "IMPLEMENTED",
-        "supportingBlocks": 0
-        },
-        {
-        "id": 10,
+        "supportingBlocks": 0 },
+       {"id": 10,
         "description": "Smart Account Trading",
         "blockchainStatus": "ACTIVATED",
         "nodeStatus": "IMPLEMENTED",
-        "activationHeight": 0
-        }
-    ]
+        "activationHeight": 0 } ]
     }
