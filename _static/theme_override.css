@@ -178,7 +178,7 @@ li.toctree-l4.current > a.reference.internal {
 }
 
 .wy-menu.wy-menu-vertical > ul:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #cccccc;
   padding-bottom: 32px;
 }
 
