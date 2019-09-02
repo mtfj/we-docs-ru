@@ -1,23 +1,23 @@
 ﻿@font-face {
-  font-family: "GraphikLC";
-  src: url("./fonts/Graphik-Regular-Web.woff2");
+  font-family: "SuisseIntl";
+  src: url("./fonts/SuisseIntl-Regular.otf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "GraphikLC";
-  src: url("./fonts/Graphik-Medium-Web.woff2");
+  font-family: "SuisseIntl";
+  src: url("./fonts/SuisseIntl-Medium.otf");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "GraphikLC";
-  src: url("./fonts/Graphik-Bold-Web.woff2");
+  font-family: "SuisseIntl";
+  src: url("./fonts/SuisseIntl-Bold.otf");
   font-weight: bold;
 }
 
 body {
-  font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "SuisseIntl", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* menu */
@@ -65,7 +65,7 @@ body {
   display: inline-block;
   width: 40px;
   height: 24px;
-  background-color: #ff2615;
+  background-color: #00a87a;
   text-transform: uppercase;
   line-height: 1.71;
   letter-spacing: 0.18px;
@@ -77,7 +77,7 @@ body {
 }
 
 .doc-link .reference {
-  color: white;
+  color: rgba(0, 0, 0, 1);
 }
 
 .wy-nav-content {
@@ -178,7 +178,7 @@ li.toctree-l4.current > a.reference.internal {
 }
 
 .wy-menu.wy-menu-vertical > ul:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #cccccc;
   padding-bottom: 32px;
 }
 
@@ -206,11 +206,16 @@ li.toctree-l4.current > a.reference.internal {
 .wy-menu-vertical p.caption {
   margin-top: 32px;
 }
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  white-space: normal;
+  height: auto;
+}
 /* end menu */
 
 /* content */
 h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
-  font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "SuisseIntl", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 .rst-content p {
@@ -375,6 +380,7 @@ footer div:not(.rst-footer-buttons), footer hr {
 }
 
 .version-text {
+  color: rgba(0, 0, 0, 1);
   padding-top: 10px;
 }
 /* end footer */
