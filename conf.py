@@ -80,16 +80,16 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'Vostok'
-copyright = u'2018 - 2019, vostok'
-author = u'vostok'
+project = u'Waves Enterprise'
+copyright = u'2018 - 2019, Waves Enterprise'
+author = u'Waves Enterprise'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '1.0'
+version = '0.9.0'
 # The full version, including alpha/beta/rc tags.
 release = u'master'
 
@@ -195,14 +195,14 @@ latex_elements = {
 # ]
 
 latex_documents = [
-  ('index', 'Sphinx.tex', u'Техническое описание платформы Vostok',
-   u'https://vostok.io', 'manual'),
+  ('index', 'Sphinx.tex', u'Техническое описание платформы Waves Enterprise',
+   u'https://wavesenterprise.com', 'manual'),
 #  ('index', 'Sphinx.tex', u'Technical description of the Vostok platform', u'https://vostok.io', 'manual')
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = '_static/img/logo.png'
+latex_logo = '_static/img/logo.svg'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
