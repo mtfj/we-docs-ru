@@ -1,23 +1,23 @@
 ﻿@font-face {
-  font-family: "GraphikLC";
+  font-family: "SuisseIntl";
   src: url("./fonts/SuisseIntl-Regular.otf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "GraphikLC";
+  font-family: "SuisseIntl";
   src: url("./fonts/SuisseIntl-Medium.otf");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "GraphikLC";
+  font-family: "SuisseIntl";
   src: url("./fonts/SuisseIntl-Bold.otf");
   font-weight: bold;
 }
 
 body {
-  font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "SuisseIntl", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* menu */
@@ -210,7 +210,7 @@ li.toctree-l4.current > a.reference.internal {
 
 /* content */
 h1, h2, .rst-content .toctree-wrapper p.caption, .btn, h3, h4, h5, h6, legend {
-  font-family: "GraphikLC", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "SuisseIntl", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 .rst-content p {
