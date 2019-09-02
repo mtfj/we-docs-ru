@@ -21,8 +21,12 @@ body {
 }
 
 /* menu */
-.wy-nav-top {
-  background: #081e58;
+.wy-nav-side {
+  background: none;
+}
+
+.wy-side-nav-search {
+  background: none;
 }
 
 .vst-logo a:before {
@@ -85,8 +89,11 @@ body {
   padding-top: 30px;
 }
 
-.wy-nav-side, .wy-side-nav-search {
+.wy-nav-side {
   background-color: rgba(98, 122, 116, 0.04);
+}
+
+.wy-nav-side, .wy-side-nav-search {
   text-align: left;
   padding-left: 0;
   padding-right: 0;
@@ -136,7 +143,7 @@ p.caption {
 }
 
 .wy-menu.wy-menu-vertical li {
-  background: rgba(98, 122, 116, 0.04);
+  /*background: rgba(98, 122, 116, 0.04);*/
   padding-top: 12px;
 }
 
@@ -146,7 +153,7 @@ p.caption {
   color: rgba(0, 0, 0, 0.7) !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
-  background: rgba(98, 122, 116, 0.04) !important;
+  /*background: rgba(98, 122, 116, 0.04) !important;*/
 }
 
 .wy-menu-vertical li a.reference.internal.current {
@@ -231,6 +238,7 @@ ol.arabic.simple > li {
 }
 
 .wy-nav-content {
+  background: rgba(255, 255, 255, 1);
   padding: 64px 128px;
 }
 
