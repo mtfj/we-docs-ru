@@ -8,21 +8,21 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-06-19 17:20+0300\n"
+"PO-Revision-Date: 2019-09-02 19:56+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # b351f82ca36341bbb5195dbc1d3d2230
 #: ../../how-to-use/comissions-mainnet.rst:4
-#, fuzzy
 msgid "Комиссии в сети \"Waves Enterprise Mainnet\""
-msgstr "Fees in the \"Vostok Mainnet\""
+msgstr "Fees in the \"Waves Enterprise Mainnet\""
 
 # 026eadf7248c4e0599507fbf99cefa5b
 #: ../../how-to-use/comissions-mainnet.rst:9
@@ -68,11 +68,10 @@ msgstr "no fee"
 # 6c79e52006a04becba71f7a4bfe778d3
 #: ../../how-to-use/comissions-mainnet.rst:11
 msgid ""
-"Первоначальная привязка баланса к адресам создаваемых при старте "
-"блокчейна нод"
+"Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод"
 msgstr ""
-"Initial binding of the balance to the addresses of nodes created at the "
-"start of the blockchain"
+"Initial binding of the balance to the addresses of nodes created at the start "
+"of the blockchain"
 
 # 325bd37ed9d443a29a92f33a5d3e99d9
 #: ../../how-to-use/comissions-mainnet.rst:12
@@ -256,8 +255,8 @@ msgid ""
 "Массовый перевод токенов. Указана минимальная комиссия, размер комиссии "
 "зависит от количества адресов в транзакции"
 msgstr ""
-"Mass tokens transfer. Minimum commission is specified, the fee depends on"
-" the number of addresses in the transaction"
+"Mass tokens transfer. Minimum commission is specified, the fee depends on the "
+"number of addresses in the transaction"
 
 # 20cd450c352d4a339d76fd09a8300d71
 #: ../../how-to-use/comissions-mainnet.rst:22
@@ -273,12 +272,12 @@ msgstr ":ref:`Data Transaction <DataTransaction>`"
 #: ../../how-to-use/comissions-mainnet.rst:22
 msgid ""
 "Транзакция с данными в виде полей с парой ключ-значение. Комиссия всегда "
-"взимается с автора транзакции. Указана минимальная комиссия, размер "
-"комиссии зависит от размера данных"
+"взимается с автора транзакции. Указана минимальная комиссия, размер комиссии "
+"зависит от размера данных"
 msgstr ""
-"Transaction with the data in the key-value pairs format. The fee is "
-"always charged to the transaction author. Minimum commission is "
-"specified, the fee depends on data volume"
+"Transaction with the data in the key-value pairs format. The fee is always "
+"charged to the transaction author. Minimum commission is specified, the fee "
+"depends on data volume"
 
 # ab7940fb3c8f4b5a98c82f2acb26ec04
 #: ../../how-to-use/comissions-mainnet.rst:23
@@ -341,8 +340,8 @@ msgstr ":ref:`Genesis Permission Transaction <GenesisPermitTransaction>`"
 #: ../../how-to-use/comissions-mainnet.rst:26
 msgid "Назначение первого администратора сети для дальнейшей раздачи прав"
 msgstr ""
-"Assignment of the first network administrator for further distribution of"
-" rights"
+"Assignment of the first network administrator for further distribution of "
+"rights"
 
 # c1880bcb053844429cc45d216919e357
 #: ../../how-to-use/comissions-mainnet.rst:27
@@ -498,4 +497,3 @@ msgstr ":ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`"
 #: ../../how-to-use/comissions-mainnet.rst:36
 msgid "Отправка в сеть хеша данных"
 msgstr "A data hash sending to the net"
-

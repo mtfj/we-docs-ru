@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-15 17:51+0300\n"
-"PO-Revision-Date: 2019-08-15 17:52+0300\n"
+"PO-Revision-Date: 2019-09-02 19:57+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # 14495c32cd59425b83c074a4ae9ab479
 #: ../../how-to-use/rest-api-node/address.rst:2
 msgid "Addresses"
-msgstr "GET/addresses"
+msgstr "Addresses"
 
 # dafe29cf46824a4589cef6df22c2576c
 #: ../../how-to-use/rest-api-node/address.rst:4

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 17:33+0300\n"
+"PO-Revision-Date: 2019-09-02 19:57+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -21,9 +21,8 @@ msgstr ""
 
 # 0ad8ebe5556d4af383c3b6353b0c79e4
 #: ../../how-to-use/config-examples-partnernet.rst:5
-#, fuzzy
 msgid "Примеры конфигурационных фалов для сети \"Waves Enterprise Partnernet\""
-msgstr "Examples of the \"Vostok Partnernet\" configuration files"
+msgstr "Examples of the \"Waves Enterprise  Partnernet\" configuration files"
 
 # f303fe83b5074e7fa2aebac7a6834bee
 #: ../../how-to-use/config-examples-partnernet.rst:7
