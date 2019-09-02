@@ -77,7 +77,7 @@ body {
 }
 
 .doc-link .reference {
-  color: white;
+  color: rgba(0, 0, 0, 1);
 }
 
 .wy-nav-content {
@@ -375,6 +375,7 @@ footer div:not(.rst-footer-buttons), footer hr {
 }
 
 .version-text {
+  color: rgba(0, 0, 0, 1);
   padding-top: 10px;
 }
 /* end footer */
