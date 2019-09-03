@@ -131,7 +131,7 @@ Mac
 Windows
 ~~~~~~~~~~~
 
-1. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
+1. Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/waves-enterprise/WE-releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
 
     .. image:: img/latest.png
        :height: 250
@@ -154,7 +154,7 @@ Windows
 Linux (Ubuntu)
 ~~~~~~~~~~~~~~~~
   
-1. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_.
+1. Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/waves-enterprise/WE-releases/tree/master/configs>`_.
 
 2. Отредактируйте конфигурационный файл в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`.
 
@@ -185,7 +185,7 @@ Linux (Ubuntu)
 Mac
 ~~~~~~~~~
           
-1. Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
+1. Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/waves-enterprise/WE-releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
 
     .. image:: img/latest.png
        :height: 250

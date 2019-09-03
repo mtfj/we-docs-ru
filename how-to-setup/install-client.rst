@@ -14,10 +14,10 @@
     
     | Для операционных систем семейств Linux и macOS используются команды ``docker --version`` и ``docker-compose --version``.
 
-2. Скачайте и разархивируйте файл `frontend-deployment.zip <https://github.com/vostokplatform/Vostok-Releases/releases>`_.
+2. Скачайте и разархивируйте файл `frontend-deployment.zip <https://github.com/waves-enterprise/WE-releases/releases>`_.
 3. В конфигурационном файле приложения ``frontend-deployment/config/nginx-proxy.env`` укажите путь до REST API и hostname ноды:
 
-    .. code:: js 
+    .. code:: js
         
         // nginx-proxy.env listing 
         

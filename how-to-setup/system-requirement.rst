@@ -23,13 +23,17 @@
 
 .. warning:: Платформа Waves Enterprise поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на сайте. Для получения дистрибутива Oracle JRE 1.8 необходимо также зарегистрироваться на официальном сайте компании Oracle.
 
-**Требования к окружению для корпоративного клиента и дата-сервиса**
+**Требования к окружению для корпоративного клиента**
 
 - `Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_
 - `Docker-compose <https://docs.docker.com/compose/install/>`_
 - `node.js <https://nodejs.org/en/download/>`_ LTS версии 10+
 - `npm <https://www.npmjs.com/>`_ 6+  
 
+**Требования к окружению для дата-сервиса**
 
+- `node.js <https://nodejs.org/en/download/>`_ LTS версии 10+
+- `npm <https://www.npmjs.com/>`_ 6+  
+- `Postgresql <https://www.postgresql.org/download/>`_ 11 версии
 
 
