@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 17:38+0300\n"
+"PO-Revision-Date: 2019-09-03 14:58+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -48,7 +48,7 @@ msgstr ""
 # 154b5ef15df94e559f6346b837d2037c
 #: ../../overview/overview.rst:7
 msgid "Блокчейн Waves Enterprise"
-msgstr ""
+msgstr "Blockchain Waves Enterprise"
 
 # 8e01421f4c98462a9a03d8aa7ef5bc61
 #: ../../overview/overview.rst:9
