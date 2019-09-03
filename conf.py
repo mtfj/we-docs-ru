@@ -154,7 +154,7 @@ def setup(app):
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'vostok-docs'
+htmlhelp_basename = 'WE-docs'
 
 html_favicon = '_static/img/favicon.png'
 
