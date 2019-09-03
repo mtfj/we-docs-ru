@@ -162,7 +162,7 @@ Linux (Ubuntu)
 
    .. code:: js
 
-       sudo dpkg -i vostok.deb
+       sudo dpkg -i WE.deb
     
    - Директория для конфигурационного файла - /etc/vostok/vostok.conf
    - Директория для jar-файла и библиотек - /usr/share/vostok/
@@ -172,13 +172,13 @@ Linux (Ubuntu)
     
    .. code:: js
 
-        sudo systemctl start vostok.service
+        sudo systemctl start we.service
 
 5. Остановка ноды выполняется командой: 
     
    .. code:: js
 
-        sudo systemctl stop vostok.service
+        sudo systemctl stop we.service
 
 .. _mac2:
 
