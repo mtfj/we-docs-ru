@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-03 11:51+0300\n"
+"PO-Revision-Date: 2019-09-03 15:17+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -45,7 +45,6 @@ msgstr ""
 
 # d743e123aa05471caa7f3b452e3ccc95
 #: ../../how-the-platform-works/consensus.rst:8
-#, fuzzy
 msgid ""
 "В Waves Enterprise вы можете выбрать механизм консенсуса при первичной "
 "конфигурации сети. Описание доступных механизмов, а также их плюсы и "

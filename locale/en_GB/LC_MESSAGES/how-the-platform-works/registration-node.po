@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-03 11:50+0300\n"
-"PO-Revision-Date: 2019-09-03 11:55+0300\n"
+"PO-Revision-Date: 2019-09-03 15:18+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -45,7 +45,6 @@ msgstr ""
 
 # 7ba5a69d17cc48ad909bb22c481a427d
 #: ../../how-the-platform-works/registration-node.rst:8
-#, fuzzy
 msgid ""
 "В блокчейне Waves Enterprise правом на подключение участников к сети "
 "обладает пользователь с ролью \"Connection Manager\". Доказательством "
@@ -56,11 +55,12 @@ msgid ""
 "участников."
 msgstr ""
 "Only a user with the \"Connection Manager\" role can add new "
-"participants to the Vostok blockchain. The :ref:`111 RegisterNode "
-"<RegisterNodeTransaction>` transaction is used to connect a new node to "
-"the network. This transaction contains the credentials of the connected "
-"node. As a result of all such transactions each node is creating and "
-"updating the table which includes all approved network participants."
+"participants to the Waves Enterprise blockchain. The :ref:`111 "
+"RegisterNode <RegisterNodeTransaction>` transaction is used to connect a "
+"new node to the network. This transaction contains the credentials of "
+"the connected node. As a result of all such transactions each node is "
+"creating and updating the table which includes all approved network "
+"participants."
 
 # 88f7453e84674c4e9997c5d63bfd3559
 #: ../../how-the-platform-works/registration-node.rst:10
