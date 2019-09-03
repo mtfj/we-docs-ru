@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
+"POT-Creation-Date: 2019-09-03 14:31+0300\n"
 "PO-Revision-Date: 2019-05-06 12:34+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -26,7 +26,7 @@ msgstr "Official resources"
 # 0748b3704e984f39b3bbfabeadb99fe0
 #: ../../overview/links.rst:3
 #, fuzzy
-msgid "Официальный сайт блокчейн-платформы Waves_Enterprise_"
+msgid "Официальный сайт блокчейн-платформы `Waves Enterprise`_"
 msgstr "Official site of the blockchain-platform Waves_"
 
 # 2dd987d3d04f4b8daae92f3f4cef2a45
