@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-31 10:22+0300\n"
-"PO-Revision-Date: 2019-05-31 10:23+0300\n"
+"POT-Creation-Date: 2019-09-03 11:50+0300\n"
+"PO-Revision-Date: 2019-09-03 12:06+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # 75bd9a11cb4649d586938e5502814d30
 #: ../../how-to-setup/install-client.rst:4
@@ -69,16 +69,16 @@ msgstr ""
 "version`` for macOS and Linux OS."
 
 # 33bebc4e911d4175b57aaae6c77486fc
-#: ../../how-to-setup/install-client.rst:18
+#: ../../how-to-setup/install-client.rst:17
 msgid ""
 "Скачайте и разархивируйте файл `frontend-deployment.zip <https://github."
-"com/vostokplatform/Vostok-Releases/releases>`_."
+"com/waves-enterprise/WE-releases/releases>`_."
 msgstr ""
 "Download and unzip the file `frontend-deployment.zip <https://github.com/"
-"vostokplatform/Vostok-Releases/releases>`_."
+"waves-enterprise/WE-releases/releases>`_."
 
 # aec95d898a53477e9534dcfcd822ba2f
-#: ../../how-to-setup/install-client.rst:19
+#: ../../how-to-setup/install-client.rst:18
 msgid ""
 "В конфигурационном файле приложения ``frontend-deployment/config/nginx-"
 "proxy.env`` укажите путь до REST API и hostname ноды:"
@@ -87,12 +87,12 @@ msgstr ""
 "of the application ``frontend-deployment/config/nginx-proxy.env``:"
 
 # 8b0c25e950d247329cb23d82edc259cc
-#: ../../how-to-setup/install-client.rst:28
+#: ../../how-to-setup/install-client.rst:27
 msgid "Запустите скрипт развертывания командой ``bash ./deploy.sh``."
 msgstr "Run the deployment script using the command ``bash ./deploy.sh``."
 
 # ee920413652341bab4c02710fb31e83d
-#: ../../how-to-setup/install-client.rst:29
+#: ../../how-to-setup/install-client.rst:28
 msgid ""
 "Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, "
 "что клиент системы успешно развернут."
@@ -101,7 +101,7 @@ msgstr ""
 "is successfully deployed."
 
 # 71b8e711415a4dc38b80b528793ccf33
-#: ../../how-to-setup/install-client.rst:31
+#: ../../how-to-setup/install-client.rst:30
 msgid ""
 "Ознакомиться с подробным описанием компонентов установленного приложение "
 "можно в разделе :ref:`Описание клиента <client>`."

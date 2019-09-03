@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 15:56+0300\n"
+"PO-Revision-Date: 2019-09-03 11:55+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -84,7 +84,7 @@ msgstr "User - an certificate owner or a person requesting a digital certificate
 # 16c5c0d961db4e8c9510c1a93ffc444e
 #: ../../how-the-platform-works/pki-description.rst:25
 msgid "Блокчейн Waves Enterprise."
-msgstr ""
+msgstr "Blockchain Waves Enterprise"
 
 # 85f2291e23a44f9fb68137010c0c75a7
 #: ../../how-the-platform-works/pki-description.rst:27

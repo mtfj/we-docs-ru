@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Waves Enterprice 0.9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 17:13+0300\n"
-"PO-Revision-Date: 2019-09-02 19:50+0300\n"
+"PO-Revision-Date: 2019-09-03 12:26+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -106,6 +106,12 @@ msgid ""
 "сети <creation-new-net>`). Внести публичный ключ созданного участника в блок "
 "``network-participants`` конфигурационного файла ноды и задать для него роли."
 msgstr ""
+"Using the utility `generators-x.x.x.x+VST-x.x.x.jar <https://github.com/waves-"
+"enterprise/WE-releases/releases>`_ to create at least one network member on "
+"the node (see Section 2.3.1.1). :ref:`1 <address-creation>` section :ref:"
+"`Create a new network <creation-new-net>`). Enter the public key of the "
+"created participant into the ``network-participants`` block of the node "
+"configuration file and set the roles for it."
 
 # 661d916026ec499a8a9cd34cc5b5501c
 #: ../../how-to-setup/reserve.rst:22
@@ -116,6 +122,10 @@ msgid ""
 "биологического датчика случайных чисел, автоматическое создание пары ключей "
 "невозможно."
 msgstr ""
+"When using :ref:`Waves <crypto-waves>` the user can be created automatically "
+"at node start and the previous step can be skipped. For :ref:`GOST-"
+"cryptography <crypto-gost> ` in view of necessity of use of the biological "
+"gauge of casual numbers, automatic creation of pair of keys is impossible."
 
 # f4f37866224f44e5852ff29c28a336f0
 #: ../../how-to-setup/reserve.rst:24
@@ -125,6 +135,12 @@ msgid ""
 "``accounts.conf`` при создании участников сети (см. п. :ref:`1 <address-"
 "creation>` раздела :ref:`\"Создание новой сети\" <creation-new-net>`)."
 msgstr ""
+"To enter a way to storage of the closed keys of the participants of the "
+"network created on a node, in the block ```wallet ` ` a configuration file of "
+"a node. The path to the storage is set in ``accounts.conf`` when creating the "
+"network members (see the section \"Setting the path to the storage\"). :ref:`1 "
+"<address-creation> ` section :ref:`\"Creating a new network\" <creation-new-"
+"net>)."
 
 # 417e72a74c7a4da0b62109ba68083cfc
 #: ../../how-to-setup/reserve.rst:25
@@ -136,6 +152,13 @@ msgid ""
 "rest-api>` раздела :ref:`\"Создание новой сети\" <creation-new-net>`). "
 "Полученный ключ необходимо внести в конфигурационный файл ноды."
 msgstr ""
+"If you need to activate the :ref:`REST API of the interface <rest-api-node>` "
+"on the customizable node, you need to use the utility `generators-x.x.x.x+VST-"
+"x.x.x.jar <https://github.com/waves-enterprise/WE-releases/releases>`_ create "
+"a ``api-key-hash`` for access to the API (see Section 2.2.2. :ref:`2.10.-2.11. "
+"<configuration-rest-api>`` section :ref:``\"Creating a new network\" <creation-"
+"new-net>`). The obtained key must be entered into the configuration file of "
+"the node."
 
 # be88d9975c77429195a5fe659e19ddda
 #: ../../how-to-setup/reserve.rst:26
@@ -144,6 +167,10 @@ msgid ""
 "<configuration-network>` раздела :ref:`\"Создание новой сети\" <creation-new-"
 "net>`) и IP-адрес/порт интерфейса REST API."
 msgstr ""
+"Enter the network parameters of the node - IP address/port of the node (see "
+"section \"IP address/port\"). :ref:`2.7. <configuration-network>` section :ref:"
+"``\"Creating a new network\" <creation-new-net>`) and IP-address/port of REST "
+"API interface."
 
 # 47a7a2e8b1b24ef693b4b6031a32d7dc
 #: ../../how-to-setup/reserve.rst:27
@@ -153,12 +180,16 @@ msgid ""
 "используется путь ``${user.home}/vostok``, для ОС Windows используется путь "
 "``C:\\Users\\<username>\\vostok``)."
 msgstr ""
+"If the node previously worked with another Waves Enterprise blockchain "
+"network, delete data from the folder specified in the \"data-directory\" "
+"parameter (by default, for Ubuntu OS the path ``${user.home}/vostok`` is used, "
+"for Windows the path ``C:\\Users\\<username>\\vostok`)."
 
 # a07284f9fdee46d0b19804ff1f9a6360
 # d5805132a76a4f0a8f751a0a1ce272b6
 #: ../../how-to-setup/reserve.rst:28 ../../how-to-setup/reserve.rst:88
 msgid ":ref:`Запустить ноду <install-node>`"
-msgstr ""
+msgstr ":ref:`Run  <install-node>`"
 
 # 228d6ac409ac44e485be70fb73deadea
 #: ../../how-to-setup/reserve.rst:35
@@ -168,12 +199,12 @@ msgstr "New net"
 # 59dfc3a6c0cb424b9576e51a35a294c7
 #: ../../how-to-setup/reserve.rst:37
 msgid "Для создания новой блокчейн-сети необходимо выполнить следующие действия:"
-msgstr ""
+msgstr "To create a new blockchain network, proceed as follows"
 
 # bd5ce3ba91c1476a9596a9d2eabed537
 #: ../../how-to-setup/reserve.rst:41
 msgid "Создать участников сети (сгенерировать ключевые пары и адреса)"
-msgstr ""
+msgstr "Create network members (generate key pairs and addresses"
 
 # 67d38da5251a46d8829c97d3a090c272
 #: ../../how-to-setup/reserve.rst:43
@@ -184,6 +215,11 @@ msgid ""
 "консенсуса, то также должен быть определен участник, который хранит "
 "первоначальный баланс активов создаваемой блокчейн-сети."
 msgstr ""
+"In order for the network to function, at least one member must have been "
+"created with permission from :ref:`\"permissioner\" <authorization>`(assigns "
+"roles to other members). If your network will use a Proof-of-Stake consensual "
+"algorithm, then the member who keeps the original balance of assets of the "
+"blockchain network being created must also be identified."
 
 # 3bed40d4899d49068420396683510cec
 #: ../../how-to-setup/reserve.rst:45
@@ -191,6 +227,8 @@ msgid ""
 "Советуем не использовать один адрес для хранения всего баланса сети. "
 "Безопаснее разделить его между несколькими участниками!"
 msgstr ""
+"We advise you not to use one address to store the entire network balance. It "
+"is safer to share it among several members!"
 
 # 2109bc7267cb447485c4a219fca787b6
 #: ../../how-to-setup/reserve.rst
@@ -202,6 +240,12 @@ msgid ""
 "для запуска: ``java -jar generators-x.x.x+VST-x.x.x.jar AccountsGeneratorApp "
 "accounts.conf``"
 msgstr ""
+"1.1 A key pair is created using the utility `generators-x.x.x.x+VST-x.x.x.jar "
+"<https://github.com/waves-enterprise/WE-releases/releases>`_. To run the "
+"utility, you should specify the file ```accounts.conf`` as one of the "
+"parameters, where the parameters of key generation are defined. Command to "
+"start: ``java -jar generators-x.x.x+VST-x.x.x.jar AccountsGeneratorApp "
+"accounts.conf``"
 
 # cd801e6043be4c139eb3567538b335c0
 #: ../../how-to-setup/reserve.rst
@@ -210,6 +254,9 @@ msgid ""
 "команды создания участников на экран будет выведено окно КриптоПро "
 "инициализации биологического датчика случайных чисел."
 msgstr ""
+"1.2 When using :ref:`GOST-cryptography <crypto-gost> ` after the start of the "
+"command to create participants on the screen will be displayed window "
+"CryptoPro initialization of biological sensor random numbers."
 
 # c7fa8894b38e4a48b59e4f51d1fa7987
 #: ../../how-to-setup/reserve.rst
@@ -218,6 +265,9 @@ msgid ""
 "сохранены закрытые ключи участников, а на экране отобразятся адреса и открытые "
 "ключи в виде строк:"
 msgstr ""
+"After the utility is executed, the private keys of the participants will be "
+"saved in the folder defined by the ``wallet`` parameter, and the addresses and "
+"public keys will be displayed on the screen as strings:"
 
 # fd3fa215c65b40ab8555f87c5f7dae81
 #: ../../how-to-setup/reserve.rst
@@ -225,6 +275,8 @@ msgid ""
 "``[main] accounts-generator - Address: 3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; "
 "public key: 6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``"
 msgstr ""
+"``[main] accounts-generator - Address: 3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; "
+"public key: 6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``"
 
 # eb31d30ed5c543c1b14e4d72db76a189
 #: ../../how-to-setup/reserve.rst
@@ -234,36 +286,40 @@ msgid ""
 "платформы приведена на странице :ref:`\"Авторизация участников\" "
 "<authorization>`."
 msgstr ""
+"1.3 The generated addresses must be saved for specifying the node in the "
+"configuration file. Information on the possible roles of the platform "
+"participants is given on the page :ref:`\"Authorization of participants\" "
+"<authorization>`."
 
 # 9e9710ac20024e3abaed5c90bcd0afde
 #: ../../how-to-setup/reserve.rst:59
 msgid "Начальный состав участников может быть следующим:"
-msgstr ""
+msgstr "The starting line-up of participants may be as follows:"
 
 # d4f1da27937a46bfae1c7c07603542a7
 #: ../../how-to-setup/reserve.rst:62
 msgid "№ участника"
-msgstr ""
+msgstr "ID of participant"
 
 # f1899da2b0894930bd0ca3d036a1b096
 #: ../../how-to-setup/reserve.rst:62
 msgid "Роль"
-msgstr ""
+msgstr "Role"
 
 # fe286cc2900c4e7bb2c4cc33a67162db
 #: ../../how-to-setup/reserve.rst:62
 msgid "Назначение участника"
-msgstr ""
+msgstr "Appointment of a participant"
 
 # 514a477ff7c544a78418a1e9bc906011
 #: ../../how-to-setup/reserve.rst:64
 msgid "permissioner"
-msgstr ""
+msgstr "permissioner"
 
 # 8bf079d5229a45aa81f5114b0f41b231
 #: ../../how-to-setup/reserve.rst:64
 msgid "Выдача разрешений для других участников"
-msgstr ""
+msgstr "Issuance of permits for other participants"
 
 # eceb40720ea2493a9b804b7fad17c2c0
 #: ../../how-to-setup/reserve.rst:65
@@ -273,12 +329,12 @@ msgstr ""
 # f5a1d63fc2b24ea5982dd221e7d2ed79
 #: ../../how-to-setup/reserve.rst:65
 msgid "miner"
-msgstr ""
+msgstr "miner"
 
 # a90c11118e0e4f709b019beebb6c32d7
 #: ../../how-to-setup/reserve.rst:65
 msgid "Валидация и включение транзакций в блоки"
-msgstr ""
+msgstr "Validate and block transactions"
 
 # 521c7cd520db4561b9196f50253476c7
 #: ../../how-to-setup/reserve.rst:66
@@ -289,13 +345,13 @@ msgstr ""
 # 6d249da75fe643bc9f974e8f3b572a7b
 #: ../../how-to-setup/reserve.rst:66 ../../how-to-setup/reserve.rst:67
 msgid "нет"
-msgstr ""
+msgstr "No"
 
 # 57baeb18972340abbcf0037bc6d0a230
 # c19183895511445b981c29ff5d94ecb5
 #: ../../how-to-setup/reserve.rst:66 ../../how-to-setup/reserve.rst:67
 msgid "Владелец первоначального баланса сети"
-msgstr ""
+msgstr "Owner of the initial network balance sheet"
 
 # acc7d749e9824dec9ead0d0a5ecfbd60
 #: ../../how-to-setup/reserve.rst:67
@@ -308,6 +364,8 @@ msgid ""
 "Скачать `шаблон <https://github.com/vostokplatform/Vostok-Releases/blob/master/"
 "configs/example.conf>`_ конфигурационного файла ноды и отредактировать его:"
 msgstr ""
+"Download the `template <https://github.com/waves-enterprise/WE-releases/blob/"
+"master/configs/example.conf>`_ node configuration file and edit it:"
 
 # 20e93301389b4c0d94aac823af99861b
 #: ../../how-to-setup/reserve.rst:76
@@ -320,11 +378,18 @@ msgid ""
 "``genesis-public-key-base-58`` и ``signature`` конфигурационного файла будут "
 "заполнены значениями открытого ключа и подписи genesis-блока."
 msgstr ""
+"Sign the genesis-block with the utility `generators-x.x.x.x+VST-x.x.x.jar "
+"<https://github.com/waves-enterprise/WE-releases/release>`_. Command to sign: "
+"``java -jar generators-x.x.x.x+VST-x.x.x.jar GenesisBlockGenerator private-"
+"blockchain.conf``, where the private-blockchain.conf edited in :ref:` in 2 "
+"<configuration-node>` node configuration file. After signing the ``genesis-"
+"public-key-base-58`` and ``signature`` fields of the configuration file will "
+"be filled with the values of the public key and the genesis block signature."
 
 # 12e760fd0d6944d9bf914858f72032c3
 #: ../../how-to-setup/reserve.rst
 msgid "Пример:"
-msgstr ""
+msgstr "Example:"
 
 # 11c946670f1e4ea7af2a977df1298ff9
 #: ../../how-to-setup/reserve.rst:85
@@ -334,11 +399,15 @@ msgid ""
 "используется путь ``${user.home}/vostok``, для ОС Windows используется путь "
 "``C:\\Users\\<username>\\vostok``)"
 msgstr ""
+"If the node previously worked with another Waves Enterprise blockchain "
+"network, delete data from the folder specified in the \"data-directory\" "
+"parameter (by default, the Ubuntu operating system uses the path ``${user."
+"home}/vostok``, for Windows the path ``C:\\Users\\<username>\\vostok`)"
 
 # 343358835fd4415fb549d0587ec6ad2b
 #: ../../how-to-setup/reserve.rst:94
 msgid "Создание приватной сети"
-msgstr ""
+msgstr "Creating a private network"
 
 # 99e196a29ac44931ae669297cd01456a
 #: ../../how-to-setup/reserve.rst:96
@@ -350,6 +419,13 @@ msgid ""
 "владельца ноды и ее имя). При получении от пиров авторизованного handshake "
 "сообщения узлы проверяют, что оно отправлено известным участником сети."
 msgstr ""
+"On the Waves Enterprise platform there is a possibility to launch a non-public "
+"blockchain network, i.e. a network to which a new node needs to be approved by "
+"the network administrator. A member of the network as a connection-manager "
+"publishes a transaction with the parameters of the node to be added (the "
+"public key of the node owner and its name) in the RegisterNode network. When "
+"receiving an authorized handshake message from peers, the nodes check that it "
+"has been sent by a known network member."
 
 # b64927bf6f914f08aec7e72fbad4505b
 #: ../../how-to-setup/reserve.rst:98
@@ -359,6 +435,10 @@ msgid ""
 "взаимодействие узлов может происходить только после получения и валидации :ref:"
 "`авторизованного handshake<network-message-auth-handshake>` сообщения."
 msgstr ""
+"When creating a private network it is necessary to set the value of ``privacy."
+"allow-all-nodes = false`` parameter in the configuration file. In such a "
+"network, node interaction can only take place after receiving and validating "
+"the :ref:`authorized handshake<network-messagee-auth-handshake>` message."
 
 # f7be13668996455f9cd3fcb496fdfed4
 #: ../../how-to-setup/reserve.rst:100
@@ -366,6 +446,9 @@ msgid ""
 "Так же необходимо указать публичный ключ владельца ноды в параметре ``privacy."
 "owner-address`` и пароль к keystore ноды ``privacy.owner-password``."
 msgstr ""
+"It is also necessary to specify the public key of the node owner in the "
+"``privacy.owner-address` parameter and the password to the keystore node "
+"```privacy.owner-password``."
 
 # 558773d71185443784ecee5fb8e4ff46
 #: ../../how-to-setup/reserve.rst:112
@@ -376,6 +459,11 @@ msgid ""
 "\"permissioner\" должен опубликовать в сети :ref:`Permit<PermitTransaction>` "
 "транзакцию:"
 msgstr ""
+"In addition, it is necessary to create a user with \"connection-manager\" "
+"rights. The user can be specified in the ``genesis`` block of the "
+"configuration file in the ``network-participants`` field when creating the "
+"network, or later - the user must publish the ` permissioner` on the network :"
+"ref:`Permit<PermitTransaction>` transaction:"
 
 # 10240acddd78407c8cacc49c0b5e1ad6
 #: ../../how-to-setup/reserve.rst:125
@@ -385,22 +473,22 @@ msgstr "Where"
 # 765d8b2e06d74555b05041b4b0dafb64
 #: ../../how-to-setup/reserve.rst:127
 msgid "type - тип транзакции по добавлению/редактированию permissions;"
-msgstr ""
+msgstr "type - type of transaction for adding/editing permissions;"
 
 # 7c4de85d04a8436bb1af35fe31e159b3
 #: ../../how-to-setup/reserve.rst:128
 msgid "sender - нода, обладающая правами на подписание permission-транзакций;"
-msgstr ""
+msgstr "sender - a node that has permissions to sign permission-transactions;"
 
 # 00d360199eeb454b9fcaf95f7146aac3
 #: ../../how-to-setup/reserve.rst:129
 msgid "target - адрес ноды, которая добавляется в сеть;"
-msgstr ""
+msgstr "target - the address of the node that is added to the network;"
 
 # 22a8a4786c8048a8a784eea5ddfd3229
 #: ../../how-to-setup/reserve.rst:130
 msgid "role - роль пользователя, в данном случае это \"connection-manager\";"
-msgstr ""
+msgstr "role - user role, in this case it is \"connection-manager\";"
 
 # 32aad4baf77546aa8c4225691e0c0ffd
 #: ../../how-to-setup/reserve.rst:131
@@ -408,11 +496,14 @@ msgid ""
 "opType -  тип операции \"add\" (добавить полномочия) или \"remove\" (удалить "
 "полномочия);"
 msgstr ""
+"opType - type of operation \"add\" (add permissions) or \"remove\" (remove "
+"permissions);"
 
 # 872f3d565e034d9b8360c59e49f4dda3
 #: ../../how-to-setup/reserve.rst:132
 msgid "dueTimestamp - дата действия permission в формате timestamp."
 msgstr ""
+"dueTimestamp - the date of validity of permission in the timestamp format."
 
 # f1e28fde4fc242fdb0b862216e3cc883
 #: ../../how-to-setup/reserve.rst:135
@@ -423,3 +514,8 @@ msgid ""
 "`RegisterNode<RegisterNodeTransaction>` транзакцию, означающую что к сети "
 "подключен новый авторизованный участник:"
 msgstr ""
+"To register a new node on a blockchain network, its owner must provide the "
+"node name and public key to the network administrator. After that, the "
+"\"connection-manager\" can publish a :ref:"
+"`RegisterNode<RegisterNodeTransaction>`transaction, which means that a new "
+"authorized member is connected to the network:"

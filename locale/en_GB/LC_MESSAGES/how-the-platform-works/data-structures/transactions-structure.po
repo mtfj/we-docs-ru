@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-13 17:21+0300\n"
-"PO-Revision-Date: 2019-08-13 17:21+0300\n"
+"POT-Creation-Date: 2019-09-03 11:50+0300\n"
+"PO-Revision-Date: 2019-09-03 11:58+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 # 5f175e22d52a428ab96f1a690ccd4b59
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:4
@@ -28,17 +28,17 @@ msgstr "Transactions"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:6
 msgid ""
 "В этом разделе приведена структура хранения транзакций в блокчейн-платформе "
-"Восток. Для некоторых типов транзакций введено версионирование. Также "
+"Waves Enterprise. Для некоторых типов транзакций введено версионирование. Также "
 "транзакции, которые содержат вложенные данные, имеют ограничение на объём "
 "передаваемых данных - 165 КБ. Это такие транзакции, как :ref:`Data Transaction "
 "<DataTransaction>` и :ref:`CreateContract Transaction "
 "<CreateContractTransaction>`."
 msgstr ""
-"This module contains the structure of transaction storage in the Vostok "
-"blockchain platform. Versioning has been introduced for some transaction types. "
-"Also, transactions that contain attached data have a size limit of the "
-"transferred data - 165 KB. These are transactions such as :ref:`Data "
-"Transaction <DataTransaction>` and :ref:`CreateContract Transaction "
+"This module contains the structure of transaction storage in the Waves "
+"Enterprise blockchain platform. Versioning has been introduced for some "
+"transaction types. Also, transactions that contain attached data have a size "
+"limit of the transferred data - 165 KB. These are transactions such as :ref:"
+"`Data Transaction <DataTransaction>` and :ref:`CreateContract Transaction "
 "<CreateContractTransaction>`."
 
 # 1b578ebd17a743f594b25cf25fd07343
@@ -74,7 +74,7 @@ msgstr "1"
 # 309055455770478182ee179f0bcf9d3d
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
 msgid ":ref:`Genesis transaction <GenesisTransaction>`"
-msgstr ""
+msgstr ":ref:`Genesis transaction <GenesisTransaction>`"
 
 # ed19dd1740b842ee88e47e44d72aee9c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:14
