@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-03 11:50+0300\n"
-"PO-Revision-Date: 2019-09-03 12:06+0300\n"
+"PO-Revision-Date: 2019-09-03 13:43+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -269,7 +269,6 @@ msgstr "Creation of the configuration file using the template"
 
 # efd15fe28b264837a19e240bdcc9bf07
 #: ../../how-to-setup/configuration-node.rst:75
-#, fuzzy
 msgid ""
 "Если планируется подключение к существующей сети, то для упрощения подключения "
 "запросите готовый конфигурационный файл генератора у одного из участников "
@@ -282,8 +281,8 @@ msgstr ""
 "more easy to request full configuration file from your network administrator or "
 "from any of net participants. When you are creating the configuration file from "
 "a scratch or connecting to the \" Waves Enterprise Mainnet\", you can get the "
-"example of the file from our `GitHub <https://github.com/vostokplatform/Vostok-"
-"Releases/tree/master/configs>`_ page."
+"example of the file from our `GitHub <https://github.com/waves-enterprise/WE-"
+"releases/tree/master/configs>`_ page."
 
 # 0ac42875a3a246188b3c080291b81d77
 #: ../../how-to-setup/configuration-node.rst:77

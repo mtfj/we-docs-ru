@@ -51,7 +51,6 @@
    how-to-setup/configuration-node
    how-to-setup/install-client
    how-to-setup/docker-configuration
-   how-to-setup/install-nodes-docker
 
 .. toctree::
    :maxdepth: 2
