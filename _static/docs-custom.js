@@ -1,15 +1,14 @@
-
 function setDocLink() {
     var div = document.createElement('div');
     div.className = 'doc-link';
-    div.innerHTML =
-    '<div id="rus_link">' +
-        '<a  class="reference internal" href="https://docs.wavesenterprise.com/wedocs.pdf">Документация</a>' +
+    div.innerHTML = 
+    '<div>' +
+        '<a class="reference internal" href="https://docs.wavesenterprise.com/wedocs.pdf">Документация</a>' +
         '<span class="doc-link__label">.pdf</span>' +
-    '</div>'+'<div class="version-text">Release 0.9.0</div>';
+    '</div>' +
+    '<div class="version-text">Release 0.9.0</div>'
     var menu = document.querySelector('.wy-side-scroll');
     menu.appendChild(div);
-	
 }
 
 function setLangSwitcherLink() {
