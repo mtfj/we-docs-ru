@@ -2,7 +2,7 @@ function delete_href()
 {
 let val=document.getElementsByTagName('html')[0].getAttribute('lang');
  let val_lang='en';
- 	if (val_lang==val) 
+ 	if (val_lang==val_lang) 
 	{ $('#rus_link').remove();}
  }
 
@@ -11,7 +11,7 @@ function setDocLink() {
     div.className = 'doc-link';
     div.innerHTML =
     '<div id="rus_link">' +
-        '<a  class="reference internal" href="https://docs.wavesenterprise.com/vostokdocs.pdf">Документация</a>' +
+        '<a  class="reference internal" href="https://docs.wavesenterprise.com/wedocs.pdf">Документация</a>' +
         '<span class="doc-link__label">.pdf</span>' +
     '</div>';
 	div.innerHTML=	 
