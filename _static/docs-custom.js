@@ -1,10 +1,3 @@
-function delete_href()
-{
-let val=document.getElementsByTagName('html')[0].getAttribute('lang');
- let val_lang='en';
- 	if (val_lang==val_lang) 
-	{ $('#rus_link').remove();}
- }
 
 function setDocLink() {
     var div = document.createElement('div');
@@ -13,12 +6,9 @@ function setDocLink() {
     '<div id="rus_link">' +
         '<a  class="reference internal" href="https://docs.wavesenterprise.com/wedocs.pdf">Документация</a>' +
         '<span class="doc-link__label">.pdf</span>' +
-    '</div>';
-	div.innerHTML=	 
-    '<div class="version-text">Release 0.9.0</div>';
+    '</div>'+'<div class="version-text">Release 0.9.0</div>';
     var menu = document.querySelector('.wy-side-scroll');
     menu.appendChild(div);
-    delete_href();
 	
 }
 
