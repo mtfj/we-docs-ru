@@ -32,7 +32,11 @@
 
 Скачайте и установите пакет `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ согласно вашему типу ОС. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
 
+<<<<<<< HEAD
 .. warning:: Платформа Waves Enterprise поддерживает только версию CryptoPro ``2.0.39014`` !
+=======
+.. warning:: Платформа Vostok поддерживает только версию CryptoPro ``2.0.39014`` !
+>>>>>>> origin/master
   
 .. hint:: При использовании Waves-криптографии устанавливать CryptoPro JCP необязательно.
 
