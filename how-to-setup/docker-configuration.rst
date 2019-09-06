@@ -7,27 +7,51 @@
 
 ::
 
+# Docker smart contracts settings
   docker-engine {
-    enable = yes
+    # Docker smart contracts enabled flag
+    enable = no
+    # Basic auth credentials for docker host
+     docker-auth {
+       username = "some user"
+       password = "some password"
+     }
+    # Optional connection string to docker host
+    # docker-host = "unix:///var/run/docker.sock"
+    # Optional string to node REST API if we use remote docker host
+    # node-rest-api = "https://clinton.wavesenterprise.com/node-0"
+    # Run for integration tests
     integration-tests-mode-enable = no
+    # Execution settings
     execution-limits {
-      timeout = 10s
+      # Contract execution timeout
+      timeout = 60s
+      # Memory limit in Megabytes
       memory = 512
+      # Memory swap value in Megabytes (see https://docs.docker.com/config/containers/resource_constraints/)
+      memory-swap = 0
     }
-    stop-container-after-execution = no
-    remove-container-after-execution = no
-    allow-net-access = yes
-    remove-containers-on-shutdown = yes
-    remote-registries = [
-       {
-         domain = "myregistry.com:5000"
-         username = "user"
-         password = "password"
-       }
-     ]
-    check-registry-auth-on-startup = no
-    check-image-hash = no
+    # Reuse once created container on subsequent executions
+    reuse-containers = yes
+    # Remove container with contract after specified duration passed
+    remove-container-after = 10m
+    # Allows net access for all contracts
+    allow-net-access = no
+    # Remote registries auth information
+    remote-registries = []
+    # Check registry auth on node startup
+    check-registry-auth-on-startup = yes
+    # Contract execution messages cache settings
+    contract-execution-messages-cache {
+      # Time to expire for messages in cache
+      expire-after = 60m
+      # Max number of messages in buffer. When the limit is reached, the node processes all messages in batch
+      max-buffer-size = 10
+      # Max time for buffer. When time is out, the node processes all messages in batch
+      max-buffer-time = 100ms
+    }
   }
+
 
 **Параметры:**
 
