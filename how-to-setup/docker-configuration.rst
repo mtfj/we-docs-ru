@@ -7,8 +7,8 @@
 
 ::
 
-# Docker smart contracts settings
-  docker-engine {
+    # Docker smart contracts settings
+    docker-engine {
     # Docker smart contracts enabled flag
     enable = no
     # Basic auth credentials for docker host
