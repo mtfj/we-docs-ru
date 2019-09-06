@@ -108,7 +108,6 @@ source_encoding = 'utf-8-sig'
 exclude_patterns = [
    'blacklist/*.rst',
    'blacklist/ride/*.rst',
-   'env/**/*',
 ]
 
 # The name of the Pygments (syntax highlighting) style to use.

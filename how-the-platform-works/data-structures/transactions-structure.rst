@@ -12,19 +12,16 @@
    №	  Тип транзакции                                                                  Комиссия               Описание                                               
    ===   =============================================================================   ====================   ======================================================================
    1	 :ref:`Genesis transaction <GenesisTransaction>`                                 отсутствует            Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод
-   2	 Payment Transaction (не используется)                                                         
    3	 :ref:`Issue Transaction <issueTransaction>`                                     1VST                   Выпуск токенов     
    4	 :ref:`Transfer Transaction <TransferTransaction>`                               0.01VST                Перевод токенов        
    5	 :ref:`Reissue Transaction <ReissueTransaction>`                                 1VST                   Перевыпуск токенов    
    6	 :ref:`Burn Transaction <BurnTransaction>`                                       0.05VST                Сжигание токенов        
-   7	 :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`                                                       
    8	 :ref:`Lease Transaction <LeaseTransaction>`                                     0.01VST                Передача токенов в аренду
    9	 :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.01VST                Отмена аренды токенов        
    10	 :ref:`Create Alias Transaction <CreateAliasTransaction>`                        1VST                   Создание псевдонима         
    11	 :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.05VST                Массовый перевод токенов. Указана минимальная комиссия
    12	 :ref:`Data Transaction <DataTransaction>`                                       0.05VST                Транзакция с данными в виде полей с парой ключ-значение. Указана минимальная комиссия
    13	 :ref:`SetScript Transaction <SetScriptTransaction>`                             0.5VST                 Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
-   14	 SponsorFee Transaction (не используется)              
    15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               1VST                   Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
    101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                отсутствует            Назначение первого администратора сети для дальнейшей раздачи прав
    102   :ref:`Permission Transaction <PermitTransaction>`                               0.01VST                Выдача/отзыв прав у аккаунта
@@ -44,19 +41,16 @@
    :header: "№","Тип транзакции","Комиссия","Описание"
    :widths: 10, 30, 25, 50
    1,:ref:`Genesis transaction <GenesisTransaction>`,отсутствует
-   2,Payment Transaction (не используется)
    3,:ref:`Issue Transaction <issueTransaction>`,1 - 1.004VST,Выпуск токенов     
    4,:ref:`Transfer Transaction <TransferTransaction>`,0.001 - 0.009VST,Перевод токенов        
    5,:ref:`Reissue Transaction <ReissueTransaction>`,1 - 1.008VST,Перевыпуск токенов    
    6,:ref:`Burn Transaction <BurnTransaction>`,0.001 - 0.009VST,Сжигание токенов        
-   7,:ref:`Exchange Transaction (не используется) <ExchangeTransaction>`,0.003 - 0.007VST,Обмен токенами       
    8,:ref:`Lease Transaction <LeaseTransaction>`,0.001 - 0.005VST,Аренда токенов        
    9,:ref:`Lease Cancel Transaction <LeaseCancelTransaction>`,0.001 - 0.005VST,Отмена аренды токенов        
    10,:ref:`Create Alias Transaction <CreateAliasTransaction>`,0.001 - 0.005VST,Создание псевдонима         
    11,:ref:`MassTransfer Transaction <MassTransferTransaction>`,0.001 - 0.009VST,Массовый перевод токенов        
    12,:ref:`Data Transaction <DataTransaction>`,0.001 - 0.005VST,Транзакция с данными в виде полей с парой ключ-значение    
    13,:ref:`SetScript Transaction <SetScriptTransaction>`,0.01 - 0.014VST,Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
-   14,SponsorFee Transaction (не используется)              
    15,:ref:`SetAssetScript <SetAssetScriptTransaction>`,0.996 - 1VST,Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
    101,:ref:`Genesis Permission Transaction <GenesisPermitTransaction>`,отсутствует,Назначение первого администратора сети для дальнейшей раздачи прав
    102,:ref:`Permission Transaction <PermitTransaction>`,0VST,Выдача/забор прав у аккаунта
@@ -338,30 +332,6 @@
         "height": 1190
     }
 
-.. _ExchangeTransaction:
-
-7. ExchangeTransaction
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :header: "Field","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10
-
-   type             ,+          ,+      ,Byte
-   id               ,+          ,       ,Byte
-   sender           ,+          ,       ,PublicKeyAccount
-   senderPublicKey  ,+          ,+      ,PublicKeyAccount
-   fee              ,+          ,+      ,Long
-   timestamp        ,+          ,+      ,Long
-   proofs           ,+          ,+      ,List[ByteStr]
-   version          ,+          ,+      ,Byte
-   amount           ,+          ,+      ,Long
-   Price            ,+          ,+      ,Long
-   buyOrder         ,+(order1)  ,+      ,Bytes
-   sellOrder        ,+(order2)  ,+      ,Bytes
-   buyMatcherFee    ,+          ,+      ,Long
-   sellMatcherFee   ,+          ,+      ,Long
-   height           ,           ,       ,
 
 .. _LeaseTransaction:
 

@@ -7,13 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2019-09-03 15:52+0300\n"
 "PO-Revision-Date: 2019-09-03 15:52+0300\n"
-=======
-"POT-Creation-Date: 2019-08-28 18:28+0300\n"
-"PO-Revision-Date: 2019-08-20 16:09+0300\n"
->>>>>>> origin/master
 "Last-Translator: \n"
 "Language: en_GB\n"
 "Language-Team: \n"
@@ -24,11 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Poedit 2.0.6\n"
 
-<<<<<<< HEAD
 # ef1dddf221594e1ab6eef6550b635fcc
-=======
-# 7deb209c01564b7ab635f17ff3df3c29
->>>>>>> origin/master
 #: ../../README.md:1
 msgid "Waves Enterprise docs"
 msgstr ""
@@ -45,18 +36,3 @@ msgid ""
 "correctness of data added to the blockchain, while decentralization "
 "provides counterparty independence in terms of data access."
 msgstr ""
-<<<<<<< HEAD
-=======
-
-# 8315bcea63024a73a09ad5e0eb73f335
-#: ../../README.md:5
-msgid ""
-"dev-new-javainstall \"@TODO need help for creating linked icons "
-"WIN/LIN/MAC by front-end developer\"."
-msgstr ""
-
-# e91f215195e44b589863514ee1229a84
-#~ msgid "Vostok docs"
-#~ msgstr ""
-
->>>>>>> origin/master

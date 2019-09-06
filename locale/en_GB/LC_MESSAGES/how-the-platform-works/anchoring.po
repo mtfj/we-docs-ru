@@ -7,13 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
 "PO-Revision-Date: 2019-09-02 15:51+0300\n"
-=======
-"POT-Creation-Date: 2019-08-28 18:24+0300\n"
-"PO-Revision-Date: 2019-08-28 18:54+0300\n"
->>>>>>> origin/master
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -22,11 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-<<<<<<< HEAD
 "X-Generator: Poedit 2.0.6\n"
-=======
-"X-Generator: Poedit 2.2.1\n"
->>>>>>> origin/master
 
 # 219ccc7024c24ef781eb9cef02f52d90
 #: ../../how-the-platform-works/anchoring.rst:4
@@ -76,13 +67,8 @@ msgstr ""
 
 # 1d785b258ac340b9b1040a275b6fa647
 #: ../../how-the-platform-works/anchoring.rst:13
-<<<<<<< HEAD
 msgid "Как работает анкоринг в блокчейне Waves Enterprise"
 msgstr "How does anchoring work in the Waves Enterprise blockchain"
-=======
-msgid "Как работает анкоринг в блокчейне Vostok"
-msgstr "How does anchoring work in the Vostok blockchain"
->>>>>>> origin/master
 
 # b45caea6db044109b68e8565c37a5914
 #: ../../how-the-platform-works/anchoring.rst:21
@@ -155,22 +141,14 @@ msgstr "Mainnet transaction consists of the following fields:"
 # 21b889246c6b426c917f011a1c5d38b7
 #: ../../how-the-platform-works/anchoring.rst:37
 #: ../../how-the-platform-works/anchoring.rst:42
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:52
-=======
-#: ../../how-the-platform-works/anchoring.rst:65
->>>>>>> origin/master
 msgid "``height`` - высота сохраняемого блока из приватного блокчейна."
 msgstr "``height`` - the height of the chosen block from the private blockchain."
 
 # d5122fea003f479fb6ab3eaba08fd3e4
 #: ../../how-the-platform-works/anchoring.rst:38
 #: ../../how-the-platform-works/anchoring.rst:43
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:53
-=======
-#: ../../how-the-platform-works/anchoring.rst:66
->>>>>>> origin/master
 msgid "``signature`` - подпись сохраняемого блока из приватного блокчейна."
 msgstr ""
 "``signature`` - the signature of the chosen block from the private blockchain."
@@ -193,90 +171,13 @@ msgid ""
 msgstr ""
 "``mainnet-tx-timestamp`` - the timestamp of the Mainnet anchoring transaction."
 
-# e367b4fa40674fccb47bc77221f48881
-#: ../../how-the-platform-works/anchoring.rst:50
-msgid "Авторизация в анкоринге"
-msgstr "Authorization in the anchoring"
-
-# 2986b3ebbb264bb7babd5d63d4fba75f
-#: ../../how-the-platform-works/anchoring.rst:52
-msgid ""
-"Анкоринг в Mainnet выполняется только с использованием авторизации по токену. "
-"Авторизация по ``api-key-hash`` возможна при построении независимых блокчейн "
-"сетей с возможностью взаимного анкоринга или по другим индивидуальным схемам. "
-"Для пользователя авторизация при анкоринге работает по следующей схеме:"
-msgstr ""
-"The Mainnet supports only token authorization. If you want to use ``api-key-"
-"hash`` authorization you can do it inside your own private blockchains with "
-"mutual anchoring or using another custom schemes of blockchain. The anchoring "
-"authorization is working this way for an user:"
-
-# 2f048b4552a44c748ba5fbe53b460ba8
-#: ../../how-the-platform-works/anchoring.rst:54
-msgid ""
-"Администратор приватного блокчейна создаёт ключевую пару, соответствующую "
-"параметрам Mainnet (байт сети и схема криптографии), и кладёт её в отдельный "
-"keystore."
-msgstr ""
-"Private blockchain administrator creates a keypair with Mainnet parameters (the "
-"network byte and the cryptography scheme) and places it to the separate keystore."
-
-# d28bf8e84c1c4dc5935cf4fbef6459d8
-#: ../../how-the-platform-works/anchoring.rst:55
-msgid ""
-"Создаётся запрос в службу технической поддержки :ref:`Vostok <https://support."
-"vostok.io/servicedesk/customer/portal/3>` о создании учётной записи для "
-"анкоринга."
-msgstr ""
-"The administrator requests the anchoring permission using the :ref:`Vostok "
-"<https://support.vostok.io/servicedesk/customer/portal/3>` support service."
-
-# ab65cd1d277846f7908ec19c3d373e30
-#: ../../how-the-platform-works/anchoring.rst:56
-msgid ""
-"После подтверждения использования анкоринга в Mainnet технической поддержкой "
-"компании Vostok присылаются значения конфигурационных параметров авторизации для "
-"анкоринга, которые добавляются в соответствующий :ref:`раздел <anchoring-"
-"settings>`."
-msgstr ""
-"Vostok company sends parameters values for the anchoring configuration after "
-"request approve. These values should be added into the corresponding :ref:"
-"`section <anchoring-settings>`."
-
-# a077475a23604a989eda140d46aab4a7
-#: ../../how-the-platform-works/anchoring.rst:57
-msgid ""
-"Администратор приватного блокчейна пополняет баланс адреса, созданного в первом "
-"шаге, чтобы выполнять :ref:`Data Transaction <DataTransaction>` для анкоринга."
-msgstr ""
-"To provide the sending of the :ref:`Data Transaction <DataTransaction>` private "
-"blockchain administrator tops up the balance of the address created in the first "
-"step."
-
-# 97a3b3d491bb42d9bf931d4c95e2ddd9
-#: ../../how-the-platform-works/anchoring.rst:58
-msgid ""
-"Анкоринг транзакции в приватном блокчейне отправляются от адреса ноды, на "
-"которой включена опция анкоринга."
-msgstr ""
-"Anchoring transactions are sending from the address of the node with enabled "
-"anchoring option."
-
 # 3f37a35a762c4347897c03186c0a6999
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:48
-=======
-#: ../../how-the-platform-works/anchoring.rst:61
->>>>>>> origin/master
 msgid "Ошибки, возникающие в процессе анкоринга"
 msgstr "Errors during the anchoring"
 
 # 9c0feddd8ffa4735a32eb03019e07f71
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:50
-=======
-#: ../../how-the-platform-works/anchoring.rst:63
->>>>>>> origin/master
 msgid ""
 "Ошибки в анкоринге могут возникать на любом этапе. В случае возникновения ошибок "
 "в приватном блокчейне всегда публикуется :ref:`Data Transaction "
@@ -289,138 +190,78 @@ msgstr ""
 "includes the following data:"
 
 # 13d33a686468492eb3619f9ca3c13176
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:54
-=======
-#: ../../how-the-platform-works/anchoring.rst:67
->>>>>>> origin/master
 msgid "``error-code`` - код ошибки."
 msgstr "``error-code`` - the error code."
 
 # 51af00f9be784bc19ec5859dc82f92c7
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:55
-=======
-#: ../../how-the-platform-works/anchoring.rst:68
->>>>>>> origin/master
 msgid "``error-message`` - описание ошибки."
 msgstr "``error-message`` - the error message."
 
 # e367b4fa40674fccb47bc77221f48881
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:70
-=======
-#: ../../how-the-platform-works/anchoring.rst:83
->>>>>>> origin/master
 msgid "Типы ошибок при анкоринге"
 msgstr "Error types"
 
 # ee7c426dc2584eff939c25238c71b030
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:73
-=======
-#: ../../how-the-platform-works/anchoring.rst:86
->>>>>>> origin/master
 msgid "Код"
 msgstr "Code"
 
 # 9f33597c23d34db6beaa321d6f6ac452
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:73
-=======
-#: ../../how-the-platform-works/anchoring.rst:86
->>>>>>> origin/master
 msgid "Сообщение об ошибке"
 msgstr "Message"
 
 # 7743283965e3412fa8f9e973ed39a983
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:73
-=======
-#: ../../how-the-platform-works/anchoring.rst:86
->>>>>>> origin/master
 msgid "Возможная причина"
 msgstr "Possible cause"
 
 # fd124d2c667745ebadacd2cd5a266288
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:75
-=======
-#: ../../how-the-platform-works/anchoring.rst:88
->>>>>>> origin/master
 msgid "0"
 msgstr "0"
 
 # e20c78c80e3f44b597a68631922f5358
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:75
-=======
-#: ../../how-the-platform-works/anchoring.rst:88
->>>>>>> origin/master
 msgid "``Unknown error``"
 msgstr "``Unknown error``"
 
 # 1532a4192d9c479f96a33545d7c873ba
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:75
-=======
-#: ../../how-the-platform-works/anchoring.rst:88
->>>>>>> origin/master
 msgid "При отправке транзакции в Mainnet произошла неизвестная ошибка"
 msgstr ""
 "An unknown error occurred during the send of the transaction to the Mainnet"
 
 # f64f3d77a6464beda3e8c1115e1ef09c
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:76
-=======
-#: ../../how-the-platform-works/anchoring.rst:89
->>>>>>> origin/master
 msgid "1"
 msgstr "1"
 
 # 2864e3d7b6ed477da595be6037a8681e
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:76
-=======
-#: ../../how-the-platform-works/anchoring.rst:89
->>>>>>> origin/master
 msgid "``Fail to create data transaction for Mainnet``"
 msgstr "``Fail to create data transaction for Mainnet``"
 
 # ab426c86e5944a6386aa34cf086481f5
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:76
-=======
-#: ../../how-the-platform-works/anchoring.rst:89
->>>>>>> origin/master
 msgid "Создание транзакции для отправки в Mainnet завершилась ошибкой"
 msgstr "Creating of the transaction to be sent to the Mainnet failed"
 
 # 65bcace8b6a14e71b8c4daec7c923423
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:77
-=======
-#: ../../how-the-platform-works/anchoring.rst:90
->>>>>>> origin/master
 msgid "2"
 msgstr "2"
 
 # da109c631be24ae3b2e9e895da64b484
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:77
-=======
-#: ../../how-the-platform-works/anchoring.rst:90
->>>>>>> origin/master
 msgid "``Fail send transaction to Mainnet``"
 msgstr "``Fail send transaction to Mainnet``"
 
 # 1bc9c4adc12f4aeabc5ca2009c83d1e8
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:77
-=======
-#: ../../how-the-platform-works/anchoring.rst:90
->>>>>>> origin/master
 msgid ""
 "Публикация транзакции в Mainnet завершилась ошибкой (это может быть ошибка JSON-"
 "запроса)"
@@ -429,77 +270,45 @@ msgstr ""
 "error)"
 
 # 552799622a074eae9264f7ede654e607
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:78
-=======
-#: ../../how-the-platform-works/anchoring.rst:91
->>>>>>> origin/master
 msgid "3"
 msgstr "3"
 
 # 97c24f21ce214208a93c99a8ae3b8575
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:78
-=======
-#: ../../how-the-platform-works/anchoring.rst:91
->>>>>>> origin/master
 msgid "``Invalid http status of response from mainnet transaction broadcast``"
 msgstr "``Invalid http status of response from mainnet transaction broadcast``"
 
 # 76afe798bdfa41aeb689e7753e2c8bcd
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:78
-=======
-#: ../../how-the-platform-works/anchoring.rst:91
->>>>>>> origin/master
 msgid "В результате публикации транзакции в Mainnet вернулся отличный от 200 код"
 msgstr ""
 "The Mainnet has returned an HTTP code other than 200 after the transaction "
 "publication"
 
 # 3d728fda1702457487e6e3e59f9e9471
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:79
-=======
-#: ../../how-the-platform-works/anchoring.rst:92
->>>>>>> origin/master
 msgid "4"
 msgstr "4"
 
 # f8b4ff08268e41e0bcb3e6db1ec162e5
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:79
-=======
-#: ../../how-the-platform-works/anchoring.rst:92
->>>>>>> origin/master
 msgid "``Fail to parse http body of response from mainnet transaction broadcast``"
 msgstr "``Fail to parse http body of response from mainnet transaction broadcast``"
 
 # 96ec729d22af46ef8e5955cbfe584d67
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:79
-=======
-#: ../../how-the-platform-works/anchoring.rst:92
->>>>>>> origin/master
 msgid ""
 "В результате отправки транзакции в Mainnet вернулся нераспознаваемый JSON-запрос"
 msgstr "The Mainnet has returned an unknown JSON after the transaction publication"
 
 # 677d47dce2b14b41a885b3d1585e18d9
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:80
-=======
-#: ../../how-the-platform-works/anchoring.rst:93
->>>>>>> origin/master
 msgid "5"
 msgstr "5"
 
 # febbd3c66b3b4cc48a42dd3e0ad8a6e6
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:80
-=======
-#: ../../how-the-platform-works/anchoring.rst:93
->>>>>>> origin/master
 msgid ""
 "``Mainnet return transaction with id='$mainnetTxId' but it differ from "
 "transaction that we sent id='$sentTxId``"
@@ -508,94 +317,54 @@ msgstr ""
 "transaction that we sent id='$sentTxId``"
 
 # 2482508edbe34bc9a63e4153c6c8dbb7
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:80
-=======
-#: ../../how-the-platform-works/anchoring.rst:93
->>>>>>> origin/master
 msgid ""
 "В результате отправки транзакции в Mainnet вернулся отличный от первой "
 "транзакции идентификатор"
 msgstr "The Mainnet has returned mismatched ID after the transaction publication"
 
 # a6ee1e6ada134574b9c89a6e57d493f5
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:81
-=======
-#: ../../how-the-platform-works/anchoring.rst:94
->>>>>>> origin/master
 msgid "6"
 msgstr "6"
 
 # 6b718f0ad8eb41f3994618b1bdcac1df
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:81
-=======
-#: ../../how-the-platform-works/anchoring.rst:94
->>>>>>> origin/master
 msgid "``Mainnet didn't respond on transaction info request``"
 msgstr "``Mainnet didn't respond on transaction info request``"
 
 # 41fb65cad5d24f3aa1fded826f372ffb
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:81
-=======
-#: ../../how-the-platform-works/anchoring.rst:94
->>>>>>> origin/master
 msgid "Mainnet не ответил на запрос об информации о транзакции"
 msgstr "The Mainnet has not responded to the request about the transaction info"
 
 # dda1d12ffd4445fba65b06cdf4aeb929
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:82
-=======
-#: ../../how-the-platform-works/anchoring.rst:95
->>>>>>> origin/master
 msgid "7"
 msgstr "7"
 
 # ff7a324bcfbc402685aecd5976b7d33a
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:82
-=======
-#: ../../how-the-platform-works/anchoring.rst:95
->>>>>>> origin/master
 msgid "``Fail to get current height in Mainnet``"
 msgstr "``Fail to get current height in Mainnet``"
 
 # 9447cd9e57714ee38913159fe3fb1d19
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:82
-=======
-#: ../../how-the-platform-works/anchoring.rst:95
->>>>>>> origin/master
 msgid "Не удалось получить текущую высоту в Mainnet"
 msgstr "Failed to get current Mainnet height"
 
 # ba4905f8ffd54a6688bfb6d8d08451e1
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:83
-=======
-#: ../../how-the-platform-works/anchoring.rst:96
->>>>>>> origin/master
 msgid "8"
 msgstr "8"
 
 # 047dc233c1d5433098552656e22d4b7d
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:83
-=======
-#: ../../how-the-platform-works/anchoring.rst:96
->>>>>>> origin/master
 msgid "``Anchoring transaction in mainnet disappeared after height rise enough``"
 msgstr "``Anchoring transaction in mainnet disappeared after height rise enough``"
 
 # f026c2ce4b164f57b8f77e29dbd858a0
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:83
-=======
-#: ../../how-the-platform-works/anchoring.rst:96
->>>>>>> origin/master
 msgid ""
 "Анкоринг транзакция пропала из Mainnet после увеличения высоты на значение "
 "``height-above``"
@@ -604,29 +373,17 @@ msgstr ""
 "evened ``height-above`` value"
 
 # 6b8e67409bea470c854ac0a089ae0e7a
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:84
-=======
-#: ../../how-the-platform-works/anchoring.rst:97
->>>>>>> origin/master
 msgid "9"
 msgstr "9"
 
 # acadef4b6f254f588c2c0d0a93d5d756
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:84
-=======
-#: ../../how-the-platform-works/anchoring.rst:97
->>>>>>> origin/master
 msgid "``Fail to create sidechain anchoring transaction``"
 msgstr "``Fail to create sidechain anchoring transaction``"
 
 # 2db32cffd3f54ef2a6ffbbd715964c71
-<<<<<<< HEAD
 #: ../../how-the-platform-works/anchoring.rst:84
-=======
-#: ../../how-the-platform-works/anchoring.rst:97
->>>>>>> origin/master
 msgid "Не удалось опубликовать анкоринг транзакцию в приватном блокчейне"
 msgstr "Fail to public the anchoring transaction in the private blockchain"
 

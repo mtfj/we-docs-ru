@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-29 13:46+0300\n"
-"PO-Revision-Date: 2019-08-29 13:54+0300\n"
-"Last-Translator: \n"
-"Language: en\n"
-"Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"PO-Revision-Date: 2019-03-24 10:53+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # 74e81312dc6c4a2fa8c0124e88e3d889
@@ -27,147 +27,94 @@ msgstr "Launching Docker Contracts"
 # 5aca8633f3e842028f0022a7be04e0ef
 #: ../../how-to-setup/docker-configuration.rst:6
 msgid ""
-"Установка и исполнение docker-контрактов задается объектом ``docker-engine`` в "
-"конфигурационном файле ноды."
+"Установка и исполнение docker-контрактов задается объектом ``docker-engine`` "
+"в конфигурационном файле ноды."
 msgstr ""
 "Installation and execution of Docker contracts is set by object ''docker-"
 "engine'' in the node configuration file."
 
 # 99241a3a9d2d4276ab23f1cc2c6b486b
-#: ../../how-to-setup/docker-configuration.rst:78
+#: ../../how-to-setup/docker-configuration.rst:32
 msgid "**Параметры:**"
 msgstr "**Parameters:**"
 
 # 50fe77ae7c314ec7be7113f2ad6241ce
-#: ../../how-to-setup/docker-configuration.rst:80
-msgid "``enable`` - включение обработки транзакций для docker-контрактов (yes/no)."
-msgstr "``enable`` - enables transaction processing for Docker contracts (yes/no)."
-
-# f6764b0fce704eafa23bde084a4fd15b
-#: ../../how-to-setup/docker-configuration.rst:81
-msgid "``docker-auth`` - секция базовой авторизации по логину и паролю."
-msgstr "``docker-auth`` - basic authorization section using a login/password."
-
-# ca4aa68de7164f2c9605c479f994364f
-#: ../../how-to-setup/docker-configuration.rst:82
-msgid "``docker-host`` - URL-адрес Docker-хоста."
-msgstr "``docker-host`` - URL address Docker host."
-
-# c8cb2fd1d61442809201e70b2ca0465d
-#: ../../how-to-setup/docker-configuration.rst:83
+#: ../../how-to-setup/docker-configuration.rst:34
 msgid ""
-"``node-rest-api`` - URL-адрес к REST API ноды при использовании Docker-хоста."
-msgstr "``node-rest-api`` - REST API node URL address when using the Docker host."
+"``enable`` - включение обработки транзакций для docker-контрактов (yes/no);"
+msgstr ""
+"''enable'' - enables transaction processing for Docker contracts (yes/no);"
 
 # c2ffd42ff7e745558fa3ef95e3f621cd
-#: ../../how-to-setup/docker-configuration.rst:84
+#: ../../how-to-setup/docker-configuration.rst:35
 msgid ""
-"``integration-tests-mode-enable`` - режим тестирования Docker-контрактов (yes/"
-"no)."
+"``integration-tests-mode-enable`` - режим тестирования docker-контрактов "
+"(yes/no);"
 msgstr ""
-"``integration-tests-mode-enable`` - Docker contracts testing mode (yes/no)."
-
-# 2630ae039ea44002b350a638fcd62530
-#: ../../how-to-setup/docker-configuration.rst:85
-msgid "``execution-limits`` - секция ограничений на выполнение Docker-контрактов:"
-msgstr "``execution-limits`` - a section with execution Docker contracts limits:"
+"''integration-tests-mode-enable'' - Docker contracts testing mode (yes/no);"
 
 # 11d217b1960e40c5a2f7454b3a00290d
-#: ../../how-to-setup/docker-configuration.rst:87
+#: ../../how-to-setup/docker-configuration.rst:36
 msgid "``timeout`` - таймаут на выполнение контракта (в секундах);"
 msgstr "''Timeout'' - timeout for contract execution (in seconds);"
 
 # cabeff5657d246b89a2a9a7b3c7612f5
-#: ../../how-to-setup/docker-configuration.rst:88
+#: ../../how-to-setup/docker-configuration.rst:37
 msgid "``memory`` - ограничение по памяти для контейнера контракта (в Мб);"
 msgstr "''memory'' - memory limit for contract container (in MB);"
 
-# cabeff5657d246b89a2a9a7b3c7612f5
-#: ../../how-to-setup/docker-configuration.rst:89
-msgid "``memory-swap`` - файл подкачки памяти для контракта (в Мб)."
-msgstr "``memory-swap`` - memory swap for contract (in MB)."
-
-# c6cc8616af0e4662b1f938f1eda1f3f2
-#: ../../how-to-setup/docker-configuration.rst:91
+# 2d4cd97320f14cc385d2b5f827ae4866
+#: ../../how-to-setup/docker-configuration.rst:38
 msgid ""
-"``reuse-containers`` - повторное использование существующего Docker-контракта."
-msgstr "``reuse-containers`` - reuse of existing Docker contract."
+"``stop-container-after-execution`` - обязательность остановки контейнера "
+"после исполнения (yes/no);"
+msgstr ""
+"''stop-container-after-execution'' - mandatory to stop container after "
+"execution (yes/no);"
 
 # ca40e934270c4311afaab877a6dda999
-#: ../../how-to-setup/docker-configuration.rst:92
+#: ../../how-to-setup/docker-configuration.rst:39
 msgid ""
-"``remove-container-after`` - обязательность удаления контейнера после исполнения "
-"(yes/no)."
+"``remove-container-after-execution`` - обязательность удаления контейнера "
+"после исполнения (yes/no);"
 msgstr ""
-"``remove-container-after`` - mandatory removal of container after execution (yes/"
-"no)."
+"''remove-container-after-execution'' - mandatory removal of container after "
+"execution (yes/no);"
 
 # 32257acce69640ed94de9d80958d8543
-#: ../../how-to-setup/docker-configuration.rst:93
-msgid "``allow-net-access`` - доступ к сети (yes/no)."
-msgstr "``allow-net-access`` - network access (yes/no)."
-
-# 2d6f12d8326846998d943d103c39d079
-#: ../../how-to-setup/docker-configuration.rst:94
-msgid "``remote-registries`` - адреса удаленных репозиториев и доступов к ним."
-msgstr "``remote-registries`` - addresses and access to remote registries."
-
-# 1bc5a06fbe214ac798f1946b47c26ed1
-#: ../../how-to-setup/docker-configuration.rst:95
-msgid ""
-"``check-registry-auth-on-startup`` - обязательность проверки авторизации к "
-"репозиториям при запуске ноды (yes/no)."
-msgstr ""
-"``check-registry-auth-on-startup`` - mandatory verification of authorization for "
-"registry upon node launch (yes/no)."
-
-# c560e5f37c0349ddb1c65cb766bd235d
-#: ../../how-to-setup/docker-configuration.rst:96
-msgid ""
-"``contract-execution-messages-cache`` - секция настройки кеш-памяти Docker-"
-"контракта. При достижении лимита буфера нода обработает все сообщения в пакетном "
-"режиме:"
-msgstr ""
-"``contract-execution-messages-cache`` - a section with contract execution "
-"messages cache settings. When the limit is reached, the node processes all "
-"messages in batch:"
-
-# 292038a88b4d4409a6359003e8495a09
-#: ../../how-to-setup/docker-configuration.rst:98
-msgid "``expire-after`` - время жизни сообщений в кеш-памяти в минутах."
-msgstr "``expire-after`` - a time period to expire for messages in cache."
-
-# 65bdcc061fa64c4492257f7a45c34f9a
-#: ../../how-to-setup/docker-configuration.rst:99
-msgid "``max-buffer-size`` - максимальное количество сообщений в буфере."
-msgstr "``max-buffer-size`` - a maximum number of messages in buffer."
-
-# 655695b914d34a23954ad4aa5abc6ad3
-#: ../../how-to-setup/docker-configuration.rst:100
-msgid "``max-buffer-time`` - максимальное время для буфера в миллисекундах."
-msgstr "``max-buffer-time`` - a maximum time period of messages in buffer."
-
-# 2d4cd97320f14cc385d2b5f827ae4866
-#~ msgid ""
-#~ "``stop-container-after-execution`` - обязательность остановки контейнера "
-#~ "после исполнения (yes/no);"
-#~ msgstr ""
-#~ "''stop-container-after-execution'' - mandatory to stop container after "
-#~ "execution (yes/no);"
+#: ../../how-to-setup/docker-configuration.rst:40
+msgid "``allow-net-access`` - доступ к сети (yes/no);"
+msgstr "''allow-net-access'' - network access (yes/no);"
 
 # 32841b922e444f14aa2572a158a6f518
-#~ msgid ""
-#~ "``remove-containers-on-shutdown`` - обязательность удаления всех контейнеров "
-#~ "контрактов при остановке ноды (yes/no);"
-#~ msgstr ""
-#~ "''remove-containers-on-shutdown'' - mandatory removal of all contract "
-#~ "containers when the node is stopped (yes/no);"
+#: ../../how-to-setup/docker-configuration.rst:41
+msgid ""
+"``remove-containers-on-shutdown`` - обязательность удаления всех контейнеров "
+"контрактов при остановке ноды (yes/no);"
+msgstr ""
+"''remove-containers-on-shutdown'' - mandatory removal of all contract "
+"containers when the node is stopped (yes/no);"
+
+# 2d6f12d8326846998d943d103c39d079
+#: ../../how-to-setup/docker-configuration.rst:42
+msgid "``remote-registries`` - адреса удаленных репозиториев и доступов к ним;"
+msgstr "''remote-registries'' - addresses and access to remote registries;"
+
+# 1bc5a06fbe214ac798f1946b47c26ed1
+#: ../../how-to-setup/docker-configuration.rst:43
+msgid ""
+"``check-registry-auth-on-startup`` - обязательность проверки авторизации к "
+"репозиториям при запуске ноды (yes/no);"
+msgstr ""
+"''check-registry-auth-on-startup'' - mandatory verification of authorization "
+"for registry upon node launch (yes/no);"
 
 # 5a1409085cc74a458a6bb7b19b182466
-#~ msgid ""
-#~ "``check-image-hash`` - обязательность проверки hash-суммы контракта перед его "
-#~ "запуском. Проверка ведется по hash-сумме из CreateContract транзакции (yes/"
-#~ "no)."
-#~ msgstr ""
-#~ "``check-image-hash`` - mandatory verification of contract hash-sum before "
-#~ "starting it. Hash-sum is checked from CreateContract transaction (yes/No)."
+#: ../../how-to-setup/docker-configuration.rst:44
+msgid ""
+"``check-image-hash`` - обязательность проверки hash-суммы контракта перед "
+"его запуском. Проверка ведется по hash-сумме из CreateContract транзакции "
+"(yes/no)."
+msgstr ""
+"``check-image-hash`` - mandatory verification of contract hash-sum before "
+"starting it. Hash-sum is checked from CreateContract transaction (yes/No)."

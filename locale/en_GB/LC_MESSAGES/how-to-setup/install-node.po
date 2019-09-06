@@ -7,13 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2019-09-03 11:50+0300\n"
 "PO-Revision-Date: 2019-09-03 12:07+0300\n"
-=======
-"POT-Creation-Date: 2019-08-26 15:38+0300\n"
-"PO-Revision-Date: 2019-08-26 15:40+0300\n"
->>>>>>> origin/master
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -21,13 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-<<<<<<< HEAD
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Poedit 2.0.6\n"
-=======
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
->>>>>>> origin/master
 
 # 5644b6978def4989bcf335ae1613b531
 #: ../../how-to-setup/install-node.rst:4
@@ -37,7 +27,6 @@ msgstr "Node Installation"
 # 11aa6c41e86c42408cf6ac5f788fff68
 #: ../../how-to-setup/install-node.rst:6
 msgid ""
-<<<<<<< HEAD
 "Установку нод для платформы Waves Enterprise необходимо выполнять на отдельной "
 "машине от нод блокчейн-платформы Waves. Нода предоставляет возможность "
 "использовать ГОСТ-криптографию на базе КриптоПро и встроенный модуль Waves-"
@@ -49,19 +38,6 @@ msgstr ""
 "node allows to use the GOST cryptography based on the CryptoPro software as "
 "well as the embedded Waves cryptography module. The list of node supporting "
 "packages depends on the cryptography scheme."
-=======
-"Во избежание конфликтов ПО установку нод для платформы Vostok необходимо "
-"выполнять на отдельной машине от нод блокчейн-платформы Waves. Нода "
-"предоставляет возможность использовать ГОСТ-криптографию на базе КриптоПро и "
-"встроенный модуль Waves-криптографии. От типа используемой криптографии "
-"зависит список предустановленных пакетов для ноды."
-msgstr ""
-"To avoid software conflicts Vostok nodes installation must be performed on a "
-"separate machine from the Waves blockchain platform nodes. The node allows to "
-"use the GOST cryptography based on the CryptoPro software as well as the "
-"embedded Waves cryptography module. The list of node supporting packages "
-"depends on the cryptography scheme."
->>>>>>> origin/master
 
 # bf39b9daae59475e9035f96394cadc7f
 #: ../../how-to-setup/install-node.rst:11
@@ -128,11 +104,7 @@ msgstr ""
 "You do not need to install the CryptoPro JCP software if you want to use only "
 "the Waves cryptography."
 
-<<<<<<< HEAD
 # 8c4f0b98e1804f3198ffa83b1b0419c1
-=======
-# 605819f3f8754ee895936b8aba74510a
->>>>>>> origin/master
 #: ../../how-to-setup/install-node.rst:40
 msgid ""
 "В состав дистрибутива `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/"
@@ -142,44 +114,24 @@ msgid ""
 "`CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/"
 "jcp-2.0.39014.zip>`_ достаточно следующего набора опций:"
 msgstr ""
-<<<<<<< HEAD
 "FIle-zip archive `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/"
 "default/files/private/jcp/jcp-2.0.39014.zip>`_  has a doc-folder with a "
 "documentation files. Instruction's named a  **ЖТЯИ.00091-01-JCP**"
-=======
-"The installation guide is included into the `CryptoPro JCP 2.0.39014 <https://"
-"www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ "
-"distributive. You can find the installation guide in the *Doc/\\ЖТЯИ.00091-01-"
-"JCP* directory. Also you need to ensure the execution JRE package path is "
-"correct. Use the following option list:"
->>>>>>> origin/master
 
 # 5b5240fd9ffa452994b676ab2e179ffd
 #: ../../how-to-setup/install-node.rst:42
 msgid "Криптопровайдер JCP."
-<<<<<<< HEAD
 msgstr "Crypto-option for JSP"
-=======
-msgstr "The JCP cryptographic provider."
->>>>>>> origin/master
 
 # 7dfc9d9ea60c46bbad230e59860ff130
 #: ../../how-to-setup/install-node.rst:43
 msgid "Модуль шифрования."
-<<<<<<< HEAD
 msgstr "Crypto-app"
-=======
-msgstr "The encryption module."
->>>>>>> origin/master
 
 # cc1d5f406b054b8c91c7067aed2bc95e
 #: ../../how-to-setup/install-node.rst:44
 msgid "Провайдер TLS."
-<<<<<<< HEAD
 msgstr "TLS"
-=======
-msgstr "TLS provider."
->>>>>>> origin/master
 
 # 35d1e77a450b4eb9ab0abcfed7da7404
 #: ../../how-to-setup/install-node.rst:45
@@ -190,7 +142,6 @@ msgid ""
 "jar* и *jcp-2.0.39014.zip/dependencies/bcprov-jdk15on-1.50.jar* в директорию **"
 "$JAVA_HOME/jre/lib/ext**."
 msgstr ""
-<<<<<<< HEAD
 "Pakages: CAdES, XAdES, have a dependencies install  ``bcpkix-jdk15on-1.50."
 "jar`` and ``bcprov-jdk15on-1.50.jar``. After installation, please copy  files  "
 "*jcp-2.0.39014.zip/dependencies/bcpkix-jdk15on-1.50.jar* and *jcp-2.0.39014."
@@ -199,16 +150,6 @@ msgstr ""
 
 # d7386374799242b2aceaa83e878059f2
 #: ../../how-to-setup/install-node.rst:51 ../../how-to-setup/install-node.rst:132
-=======
-"Modules CAdES, XAdES, these modules demand the installation of dependent "
-"modules ``bcpkix-jdk15on-1.50.jar`` and ``bcprov-jdk15on-1.50.jar``. Then you "
-"need to copy manually *jcp-2.0.39014.zip/dependencies/bcpkix-jdk15on-1.50.jar* "
-"and *jcp-2.0.39014.zip/dependencies/bcprov-jdk15on-1.50.jar* files to the **"
-"$JAVA_HOME/jre/lib/ext** directory."
-
-# d7386374799242b2aceaa83e878059f2
-#: ../../how-to-setup/install-node.rst:51 ../../how-to-setup/install-node.rst:121
->>>>>>> origin/master
 msgid "Windows"
 msgstr "Windows"
 
@@ -220,15 +161,9 @@ msgid ""
 "придерживайтесь инструкции по установке ПО для Windows документа "
 "**ЖТЯИ.00091-01 91 01. Инструкция по использованию**."
 msgstr ""
-<<<<<<< HEAD
 "Windows allows you to install CryptoPro JCP software using the command line or "
 "graphical interface. Choose your preferred installation type and follow the "
 "installation instructions for the Windows software **ЖТЯИ.00091-01 91 01**."
-=======
-"You can use the command line or the graphical interface for the CryptoPro JCP "
-"software installation. Choose the preferred installation type and follow the "
-"**ЖТЯИ.00091-01 91 01. Инструкция по использованию** installation guide."
->>>>>>> origin/master
 
 # b129ebfcbde34fb0a33d9e69799dce36
 #: ../../how-to-setup/install-node.rst:58
@@ -283,7 +218,6 @@ msgstr ""
 "**ЖТЯИ.00091-01 91 01**"
 
 # 4d0a27db934b4430b768beba442e3265
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:105
 #: ../../how-to-setup/install-node.rst:186
 msgid "Mac"
@@ -295,17 +229,6 @@ msgid ""
 "Для установки Java JDK используйте официальный сайт Oracle. Следуйте "
 "инструкциям сайта по установке пакета \"1.8.X_XXX\" - версии. Вы можете "
 "использовать OpenJDK"
-=======
-#: ../../how-to-setup/install-node.rst:103
-#: ../../how-to-setup/install-node.rst:175
-msgid "Mac"
-msgstr "Mac"
-
-# 72a8f55113434ae8a241c5bfe1aa1920
-#: ../../how-to-setup/install-node.rst:105
-#: ../../how-to-setup/install-node.rst:176
-msgid "Lorem text..."
->>>>>>> origin/master
 msgstr ""
 "Use the official Oracle website to install Java JDK. Follow the instructions "
 "of the site to install \"1.8.X_XXX\" package - version. You can use OpenJDK"
@@ -329,16 +252,11 @@ msgstr ""
 "**ЖТЯИ.00091-01 91 01**"
 
 # 5644b6978def4989bcf335ae1613b531
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:121
-=======
-#: ../../how-to-setup/install-node.rst:110
->>>>>>> origin/master
 msgid "Установка ноды"
 msgstr "Node Installation"
 
 # 1a8d993b352448c1bda88a4379875043
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:134
 #: ../../how-to-setup/install-node.rst:188
 msgid ""
@@ -371,36 +289,6 @@ msgstr ""
 # dd64dc54854149e4b9cf361d28e9d569
 #: ../../how-to-setup/install-node.rst:142
 #: ../../how-to-setup/install-node.rst:196
-=======
-#: ../../how-to-setup/install-node.rst:123
-msgid ""
-"Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/"
-"releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы "
-"проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/"
-"master/configs>`_. Самая свежая версия приложений находится в шапке страницы:"
-msgstr ""
-"Download the `latest release <https:/githuub.com/votopokplat/stocok-releases/"
-"releases>`_ of the node in the deb-package format and the config file template "
-"from the `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/"
-"master/configs>`_. The latest version is on the top:"
-
-# 1a5896fbdbc24bb08d045aab0f65eb10
-#: ../../how-to-setup/install-node.rst:128
-msgid "node-x.x.x.jar - приложение ноды Vostok;"
-msgstr "node-x.x.x.jar - Vostok Node Application;"
-
-# aa8d34aa842949b1bc162535ae364aab
-#: ../../how-to-setup/install-node.rst:129
-msgid ""
-"generators-x.x.x.jar - утилита для настройки параметров ноды Vostok и создания "
-"аккаунтов пользователей."
-msgstr ""
-"generators-x.x.x.jar - the utility for setting the Vostok node parameters and "
-"creating user accounts."
-
-# dd64dc54854149e4b9cf361d28e9d569
-#: ../../how-to-setup/install-node.rst:131
->>>>>>> origin/master
 msgid ""
 "Отредактируйте конфигурационный файл в соответствии с руководством :ref:"
 "`Конфигурация ноды <configuration>`."
@@ -409,36 +297,23 @@ msgstr ""
 "<configuration>` section."
 
 # e406ece079284a1e96c2622b7d83e461
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:144
 #: ../../how-to-setup/install-node.rst:198
-=======
-#: ../../how-to-setup/install-node.rst:133
->>>>>>> origin/master
 msgid "Запустите ноду, набрав в консоли вашей ОС команду:"
 msgstr "Run the node using the following command:"
 
 # 792c0068b36b4c4093cc07f4fce35c0c
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:150
 #: ../../how-to-setup/install-node.rst:204
-=======
-#: ../../how-to-setup/install-node.rst:139
->>>>>>> origin/master
 msgid "Для остановки ноды можно использовать сочетание клавиш ``ctrl + C``."
 msgstr "You can use the ``ctrl + C`` keys to stop the node."
 
 # dbefdfd311b44701b80c9822610804a1
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:155
-=======
-#: ../../how-to-setup/install-node.rst:144
->>>>>>> origin/master
 msgid "Linux (Ubuntu)"
 msgstr "Linux (Ubuntu)"
 
 # 528aea1c2b0c413cae9ca67fc6949e76
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:157
 msgid ""
 "Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ "
@@ -453,22 +328,6 @@ msgstr ""
 
 # dd64dc54854149e4b9cf361d28e9d569
 #: ../../how-to-setup/install-node.rst:159
-=======
-#: ../../how-to-setup/install-node.rst:146
-msgid ""
-"Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/"
-"releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со "
-"страницы проекта в `GitHub <https://github.com/vostokplatform/Vostok-Releases/"
-"tree/master/configs>`_."
-msgstr ""
-"Download the `latest release <https:/githuub.com/votopokplat/stocok-releases/"
-"releases>`_ of the node in the deb-package format and the config file template "
-"from the `GitHub <https://github.com/vostokplatform/Vostok-Releases/tree/"
-"master/configs>`_."
-
-# dd64dc54854149e4b9cf361d28e9d569
-#: ../../how-to-setup/install-node.rst:148
->>>>>>> origin/master
 msgid ""
 "Отредактируйте конфигурационный файл в соответствии с руководством :ref:`"
 "\"Конфигурация ноды\" <configuration>`."
@@ -477,66 +336,37 @@ msgstr ""
 "<configuration>` section."
 
 # a1491c6e513647f0b03a3df6159b1f3a
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:161
-=======
-#: ../../how-to-setup/install-node.rst:150
->>>>>>> origin/master
 msgid ""
 "Установите ноду из скачанного deb-пакета, соответствущего дистрибутиву Linux. "
 "Ниже приведен пример для .deb-пакета. Команда для установки следующая:"
 msgstr ""
-<<<<<<< HEAD
 "3. Install the node using the downloaded deb package corresponding to the "
 "Linux distributive. An example below is for the .deb package. The installation "
 "command is:"
 
 # cba92c2259a248daa08e66c7f2497bda
 #: ../../how-to-setup/install-node.rst:167
-=======
-"Install the node using the downloaded deb package corresponding to the Linux "
-"distributive. An example below is for the .deb package. The installation "
-"command is following:"
-
-# cba92c2259a248daa08e66c7f2497bda
-#: ../../how-to-setup/install-node.rst:156
->>>>>>> origin/master
 msgid "Директория для конфигурационного файла - /etc/vostok/vostok.conf"
 msgstr "Directory for configuration file - /etc/vostok/vostok.conf"
 
 # 6203c3c457824dd6b8523b87f18a49f7
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:168
-=======
-#: ../../how-to-setup/install-node.rst:157
->>>>>>> origin/master
 msgid "Директория для jar-файла и библиотек - /usr/share/vostok/"
 msgstr "Directory for jar-file and libraries - /usr/share/vostok/"
 
 # 7d3decbcd7df40fc852869599e738daf
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:169
-=======
-#: ../../how-to-setup/install-node.rst:158
->>>>>>> origin/master
 msgid "Директория для данных блокчейна - /var/lib/vostok/"
 msgstr "Directory for blockchain data - /var/lib/vostok/"
 
 # 50cc02d018fb47da8d60c87227a2ea66
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:171
-=======
-#: ../../how-to-setup/install-node.rst:160
->>>>>>> origin/master
 msgid "Запуск ноды выполняется командой:"
 msgstr "Launch the node using the command:"
 
 # 3b3f26e84bfc4849bc230311eccf4c1f
-<<<<<<< HEAD
 #: ../../how-to-setup/install-node.rst:177
-=======
-#: ../../how-to-setup/install-node.rst:166
->>>>>>> origin/master
 msgid "Остановка ноды выполняется командой:"
 msgstr "Stop the node using the command:"
 
@@ -683,44 +513,3 @@ msgstr "Stop the node using the command:"
 #~ "package executable file is specified.Before installing `CryptoPro JCP "
 #~ "<https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014."
 #~ "zip>`_, check the correct path for JRE package executable file is specified."
-<<<<<<< HEAD
-=======
-
-# fca5a26711594bbd854214f0cb77dc05
-#~ msgid ""
-#~ "Во время установки `CryptoPro JCP <https://www.cryptopro.ru/sites/default/"
-#~ "files/private/jcp/jcp-2.0.39014.zip>`_ необходимо убедиться, что указан "
-#~ "верный путь до исполняемого пакета JRE. В качестве справочной документации "
-#~ "для установки ПО используйте документ **ЖТЯИ.00091-01 91 01. Инструкция по "
-#~ "использованию**, который находится в папке *Doc/\\ЖТЯИ.00091-01-JCP* архива "
-#~ "с дистрибутивом. Отметьте следующий набор опций при установке `CryptoPro "
-#~ "JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014."
-#~ "zip>`_:"
-#~ msgstr ""
-#~ "During the `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/"
-#~ "private/jcp/jcp-2.0.39014.zip>`_ installation you need to ensure the "
-#~ "execution JRE package path is correct. Use the **ЖТЯИ.00091-01 91 01. "
-#~ "Инструкция по использованию** as an installation guide which is located in "
-#~ "the distributive directory *Doc/\\ЖТЯИ.00091-01-JCP*. Mark the following "
-#~ "options list for the `CryptoPro JCP <https://www.cryptopro.ru/sites/default/"
-#~ "files/private/jcp/jcp-2.0.39014.zip>`_ installation:"
-
-# 605819f3f8754ee895936b8aba74510a
-#~ msgid ""
-#~ "Во время установки `CryptoPro JCP <https://www.cryptopro.ru/sites/default/"
-#~ "files/private/jcp/jcp-2.0.39014.zip>`_ необходимо убедиться, что указан "
-#~ "верный путь до исполняемого пакета JRE. В качестве справочной документации "
-#~ "для установки ПО используйте документ **ЖТЯИ.00091-01 91 01. Инструкция по "
-#~ "использованию**, который находится в папке *Doc/\\ЖТЯИ.00091-01-JCP* архива "
-#~ "с дистрибутивом. Для использования `CryptoPro JCP <https://www.cryptopro.ru/"
-#~ "sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ достаточно следующего "
-#~ "набора опций:"
-#~ msgstr ""
-#~ "During the `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/"
-#~ "private/jcp/jcp-2.0.39014.zip>`_ installation you need to ensure the "
-#~ "execution JRE package path is correct. Use the **ЖТЯИ.00091-01 91 01. "
-#~ "Инструкция по использованию** as an installation guide which is located in "
-#~ "the distributive directory *Doc/\\ЖТЯИ.00091-01-JCP*. This option list will "
-#~ "be enough for the `CryptoPro JCP <https://www.cryptopro.ru/sites/default/"
-#~ "files/private/jcp/jcp-2.0.39014.zip>`_:"
->>>>>>> origin/master

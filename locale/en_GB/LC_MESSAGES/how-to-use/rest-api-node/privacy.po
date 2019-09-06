@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 18:24+0300\n"
-"PO-Revision-Date: 2019-08-28 18:39+0300\n"
+"POT-Creation-Date: 2019-07-30 17:59+0300\n"
+"PO-Revision-Date: 2019-07-30 17:59+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # be52b27e1efe40fca69b3fb6010a8e99
@@ -144,8 +144,8 @@ msgstr ""
 
 # 0a20475f3be444b798b0684d64685aa1
 #: ../../how-to-use/rest-api-node/privacy.rst:125
-msgid "GET /privacy/{policy-id}/getData/{policy-item-hash}"
-msgstr "GET /privacy/{policy-id}/getData/{policy-item-hash}"
+msgid "GET /privacy/getData/{policy-item-hash}"
+msgstr "GET /privacy/getData/{policy-item-hash}"
 
 # 01fdbc6ac73743e9abe855d5f9b4b0eb
 #: ../../how-to-use/rest-api-node/privacy.rst:129
@@ -154,8 +154,8 @@ msgstr "Getting the confidential data package by its identified hash."
 
 # 5dce1cd8186c45008e0122b5ec5d4ce8
 #: ../../how-to-use/rest-api-node/privacy.rst:141
-msgid "GET /privacy/{policy-id}/getInfo/{policy-item-hash}"
-msgstr "GET /privacy/{policy-id}/getInfo/{policy-item-hash}"
+msgid "GET /privacy/getInfo/{policy-item-hash}"
+msgstr "GET /privacy/getInfo/{policy-item-hash}"
 
 # f2de3b433ac742c2911e23562c6303c9
 #: ../../how-to-use/rest-api-node/privacy.rst:145

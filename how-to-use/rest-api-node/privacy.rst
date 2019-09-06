@@ -121,8 +121,8 @@ GET /privacy/{policy-id}/hashes
     "eedfdNBVqYXrapgJP9atQccdBPAgJPwHDKkh6A"
     ]
 
-GET /privacy/{policy-id}/getData/{policy-item-hash}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GET /privacy/getData/{policy-item-hash}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
@@ -137,8 +137,8 @@ GET /privacy/{policy-id}/getData/{policy-item-hash}
     c29tZV9iYXNlNjRfZW5jb2RlZF9zdHJpbmc=
     
 
-GET /privacy/{policy-id}/getInfo/{policy-item-hash}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GET /privacy/getInfo/{policy-item-hash}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 

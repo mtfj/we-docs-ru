@@ -3,25 +3,6 @@
 PKI
 ======
 
-В PKI используются форматы ЭП, представленные в таблице ниже. Номер формата ЭП из таблицы соответствует значению поля ``sigtype``.
-
-.. list-table:: Форматы ЭП
-   :widths: 10 30
-   :header-rows: 1
-
-   * - №
-     - Формат ЭП
-   * - 1
-     - CAdES-BES
-   * - 2
-     - CAdES-X Long Type 1
-   * - 3
-     - CAdES-T
-   * - 4
-     - CAdES-C
-   * - 5
-     - PKCS7
-
 POST /pki/sign
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -37,13 +18,12 @@ POST /pki/sign
      "inputData" : "SGVsbG8gd29ybGQh",
      "keystoreAlias" : "key1",
      "password" : "password",
-     "sigType" : 1,
+     "sigType" : "CAdES_X_Long_Type_1",
      }
 
 **Пример ответа**
 
 .. code::
-
     {
       "signature" : "c2RmZ3NkZmZoZ2ZkZ2hmZGpkZ2ZoamhnZmtqaGdmamtkZmdoZmdkc2doZmQjsndjfvnksdnjfn="
      }
@@ -60,7 +40,7 @@ POST /pki/verify
     {
      "inputData" : "SGVsbG8gd29ybGQh",
      "signature" : "c2RmZ3NkZmZoZ2ZkZ2hmZGpkZ2ZoamhnZmtqaGdmamtkZmdoZmdkc2doZmQ=",
-     "sigType" : 1,
+     "sigType" : "CAdES_X_Long_Type_1",
      "extendedKeyUsageList": [
      "1.2.643.7.1.1.1.1",
      "1.2.643.2.2.35.2"
@@ -70,7 +50,6 @@ POST /pki/verify
 **Пример ответа**
 
 .. code::
-
     {
      "sigStatus" : "true"
      }

@@ -7,13 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
 "PO-Revision-Date: 2019-09-02 19:54+0300\n"
-=======
-"POT-Creation-Date: 2019-08-28 18:24+0300\n"
-"PO-Revision-Date: 2019-08-28 18:54+0300\n"
->>>>>>> origin/master
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -22,11 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-<<<<<<< HEAD
 "X-Generator: Poedit 2.0.6\n"
-=======
-"X-Generator: Poedit 2.2.1\n"
->>>>>>> origin/master
 
 # f015e7c6eec84caaa32afcce6422638b
 #: ../../how-the-platform-works/architecture.rst:2
@@ -36,7 +27,6 @@ msgstr "Architecture"
 # c2915a7131e344a881fd6fc30d7f025e
 #: ../../how-the-platform-works/architecture.rst:4
 msgid ""
-<<<<<<< HEAD
 "Платформа  Waves Enterprise построена на базе технологии распределенного "
 "реестра и представляет собой фрактальную сеть, состоящую из мастер-блокчейна "
 "( Waves Enterprise Mainnet), который обеспечивает работу сети в целом, "
@@ -56,30 +46,10 @@ msgstr ""
 "for higher speeds or large volumes of calculations, consistency and "
 "availability of data, as well as resistance to malicious changes in "
 "information."
-=======
-"Платформа Vostok построена на базе технологии распределенного реестра и "
-"представляет собой фрактальную сеть, состоящую из мастер-блокчейна (Vostok "
-"Mainnet), который обеспечивает работу сети в целом, выступая в качестве "
-"глобального арбитра и опорной цепи, и ряда пользовательских, отдельных "
-"сайдченов, легко настраиваемых в соответствии с конкретной бизнес-задачей. "
-"Применение такого принципа построения позволяет добиться оптимизации для более "
-"высоких скоростей или больших объемов вычислений, согласованности и "
-"доступности данных, а также устойчивости к злонамеренному изменению информации."
-msgstr ""
-"The Vostok platform is based on distributed ledger technology and represents a "
-"fractal network consisting of a master blockchain (Vostok Mainnet), which "
-"secures the operation of the network as a whole, serving as a global arbiter "
-"and a reference chain, and a number of custom, separated sidechains that can "
-"be easily tuned according to a specific business task. The implementation of "
-"such construction principle allows to achieve optimization for higher speeds "
-"or large volumes of calculations, consistency and availability of data, as "
-"well as resistance to malicious changes in information."
->>>>>>> origin/master
 
 # efcd25e072a44789888840637a71e04d
 #: ../../how-the-platform-works/architecture.rst:6
 msgid ""
-<<<<<<< HEAD
 "Также в  Waves Enterprise реализован :ref:`механизм анкоринга сетей "
 "<anchoring>`, позволяющий создать конфигурацию сети, использующую сильные "
 "стороны обоих алгоритмов консенсуса. Например, основной блокчейн  Waves "
@@ -98,28 +68,6 @@ msgstr ""
 "Proof-of-Authority algorithm. Sidechains are embedded in the main blockchain "
 "using the anchoring mechanism (by placing cryptographic proof of transactions "
 "in the main blockchain network)."
-=======
-"Также в Vostok реализован :ref:`механизм анкоринга сетей <anchoring>`, "
-"позволяющий создать конфигурацию сети, использующую сильные стороны обоих "
-"алгоритмов консенсуса. Например, основной блокчейн Vostok базируется на "
-"алгоритме консенсуса Proof-of-Stake, так как поддерживается независимыми "
-"участниками. В тоже время корпоративные сайдчейны, в которых нет необходимости "
-"стимуляции майнеров за счёт комиссий за транзакции, могут использовать "
-"алгоритм Proof-of-Authority. Сайдчейны встраиваются в основной блокчейн с "
-"помощью механизма анкоринга (помещая криптографические доказательства "
-"транзакций в основную блокчейн-сеть). Другие индивидуальные варианты "
-"реализации сайдчейнов могут не включать в себя функцию анкоринга."
-msgstr ""
-":ref:`Anchoring mechanism <anchoring>` uses strengths of both consensus "
-"algorithms for creating a net configuration. The main blockchain Vostok is "
-"based on the Proof-of-Stake consensus algorithm, since it is supported by "
-"independent participants. At the same time, enterprise sidechains do not need "
-"to stimulate miners by means of transaction fees and can use the Proof-of-"
-"Authority algorithm. Sidechains are embedded in the main blockchain using the "
-"anchoring mechanism (by placing cryptographic proof of transactions in the "
-"main blockchain network). The anchoring option may not be included into other "
-"custom sidechains implementations."
->>>>>>> origin/master
 
 # f0ae112db4e84067bf6816d835a8cb6e
 #: ../../how-the-platform-works/architecture.rst:14
@@ -137,25 +85,15 @@ msgid ""
 "ПО ноды может быть установлено без дополнительных сервисов, поскольку оно "
 "обеспечивает функционирование и взаимодействие внутри блокчейн-сети. Другие "
 "компоненты облегчают и значительно упрощают взаимодействие пользователя с "
-<<<<<<< HEAD
 "блокчейн-платформой. Платформа  Waves Enterprise состоит из пяти основных "
 "модулей и нескольких дополнительных микросервисов. В состав основных модулей "
 "входят:"
-=======
-"блокчейн-платформой. Платформа Vostok состоит из пяти основных модулей и "
-"нескольких дополнительных микросервисов. В состав основных модулей входят:"
->>>>>>> origin/master
 msgstr ""
 "Only the node component is mandatory, since it ensures the functioning and "
 "interaction within the blockchain network. Other components serve auxiliary "
 "purposes, but significantly simplify user interaction with the blockchain "
-<<<<<<< HEAD
 "platform. The  Waves Enterprise platform instance consists of five basic "
 "modules and several additional microservices. The main modules include:"
-=======
-"platform. The Vostok platform instance consists of five basic modules and "
-"several additional microservices. The main modules include:"
->>>>>>> origin/master
 
 # d913997ca57a48398a1dd209d3f3b979
 #: ../../how-the-platform-works/architecture.rst:21
