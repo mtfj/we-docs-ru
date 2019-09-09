@@ -4,7 +4,7 @@
 =====================
 
 В этом разделе приведена структура хранения транзакций в блокчейн-платформе Waves Enterprise.
-Для некоторых типов транзакций введено версионирование. Также транзакции, которые содержат вложенные данные, имеют ограничение на объём передаваемых данных - 165 КБ. Это такие транзакции, как :ref:`Data Transaction <DataTransaction>` и :ref:`CreateContract Transaction <CreateContractTransaction>`.
+Для некоторых типов транзакций введено версионирование. Также транзакции, которые содержат вложенные данные, имеют ограничение на объём передаваемых данных - 150 КБ. Это такие транзакции, как :ref:`Data Transaction <DataTransaction>` и :ref:`CreateContract Transaction <CreateContractTransaction>`.
 
 .. table:: Типы транзакций
 
@@ -568,7 +568,7 @@
 12. DataTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Транзакция имеет ограничение на объём передаваемых данных - 165 КБ.
+.. warning:: Транзакция имеет ограничение на объём передаваемых данных - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
@@ -832,7 +832,7 @@
 103. CreateContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Транзакция имеет ограничение на объём передаваемых данных - 165 КБ.
+.. warning:: Транзакция имеет ограничение на объём передаваемых данных - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
