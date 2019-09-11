@@ -4,7 +4,7 @@
 =====================
 
 В этом разделе приведена структура хранения транзакций в блокчейн-платформе Waves Enterprise.
-Для некоторых типов транзакций введено версионирование. Также транзакции, которые содержат вложенные данные, имеют ограничение на объём передаваемых данных - 150 КБ. Это такие транзакции, как :ref:`Data Transaction <DataTransaction>` и :ref:`CreateContract Transaction <CreateContractTransaction>`.
+Для некоторых типов транзакций введено версионирование.
 
 .. table:: Типы транзакций
 
@@ -568,25 +568,25 @@
 12. DataTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Транзакция имеет ограничение на объём передаваемых данных - 150 КБ.
+.. warning:: Транзакция имеет ограничения: количество данных в JSON-секции "data" должно быть не более 100, суммарный объём передаваемых данных - 150 КБ.
 
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size (Bytes)"
+   :widths: 10, 10, 10, 10, 10, 10
 
-   type             ,+      ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   sender           ,+      ,+      ,       ,PublicKeyAccount
-   senderPublicKey  ,+      ,+      ,+      ,PublicKeyAccount
-   fee              ,+      ,+      ,+      ,Long
-   timestamp        ,+ (opt),+      ,+      ,Long
-   proofs           ,       ,+      ,+      ,List[ByteStr]
-   version          ,+      ,+      ,       ,Byte
-   authorPublicKey  ,       ,+      ,+      ,PublicKeyAccount
-   author           ,+      ,+      ,       ,
-   data             ,+      ,+      ,+      ,
-   password         ,+ (opt),       ,       ,String
-   height           ,       ,+      ,       ,
+   type             ,+      ,+      ,+      ,Byte             , 1
+   id               ,       ,+      ,       ,Byte             , 1
+   sender           ,+      ,+      ,       ,PublicKeyAccount , 32\64
+   senderPublicKey  ,+      ,+      ,+      ,PublicKeyAccount , 32\64
+   fee              ,+      ,+      ,+      ,Long             , 8
+   timestamp        ,+ (opt),+      ,+      ,Long             , 8
+   proofs           ,       ,+      ,+      ,List[ByteStr]    , 32767
+   version          ,+      ,+      ,       ,Byte             , 1
+   authorPublicKey  ,       ,+      ,+      ,PublicKeyAccount , 32\64
+   author           ,+      ,+      ,       ,                 , 32\64
+   data             ,+      ,+      ,+      ,                 , 32\64
+   password         ,+ (opt),       ,       ,String           , 32767
+   height           ,       ,+      ,       ,                 , 8
 
 **JSON для вызова метода sign** 
 
@@ -832,24 +832,24 @@
 103. CreateContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Транзакция имеет ограничение на объём передаваемых данных - 150 КБ.
+.. warning:: Транзакция имеет ограничение только на суммарный объём передаваемых данных - 150 КБ.
 
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
+   :widths: 10, 10, 10, 10, 10, 10
 
-   type             ,+      ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   sender           ,+      ,+      ,       ,PublicKeyAccount
-   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
-   fee              ,+      ,+      ,+      ,Long
-   timestamp        ,+ (opt),+      ,+      ,Long
-   proofs           ,       ,+      ,+      ,List[ByteStr]
-   version          ,       ,+      ,+      ,Byte
-   image            ,+      ,+      ,+      ,Array[Bytes]
-   imageHash        ,+      ,+      ,+      ,Array[Bytes]
-   params           ,+      ,+      ,+      ,List[DataEntry[_]]
-   height           ,       ,+      ,       ,
+   type             ,+      ,+      ,+      ,Byte               , 1
+   id               ,       ,+      ,       ,Byte               , 1
+   sender           ,+      ,+      ,       ,PublicKeyAccount   , 32\64
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount   , 32\64
+   fee              ,+      ,+      ,+      ,Long               , 8
+   timestamp        ,+ (opt),+      ,+      ,Long               , 8
+   proofs           ,       ,+      ,+      ,List[ByteStr]      , 32767
+   version          ,       ,+      ,+      ,Byte               , 1
+   image            ,+      ,+      ,+      ,Array[Bytes]       , 32767
+   imageHash        ,+      ,+      ,+      ,Array[Bytes]       , 32767
+   params           ,+      ,+      ,+      ,List[DataEntry[_]] , 32767
+   height           ,       ,+      ,       ,                   , 8
 
 **JSON для вызова метода sign** 
 
@@ -888,21 +888,23 @@
 104. CallContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
-   :widths: 10, 10, 10, 10, 10
+.. warning:: Транзакция имеет ограничение на только суммарный объём передаваемых данных - 150 КБ.
 
-   type             ,+      ,+      ,+      ,Byte
-   id               ,       ,+      ,       ,Byte
-   sender           ,+      ,+      ,       ,PublicKeyAccount
-   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
-   fee              ,+      ,+      ,+      ,Long
-   timestamp        ,+ (opt),+      ,+      ,Long
-   proofs           ,       ,+      ,+      ,List[ByteStr]
-   version          ,       ,+      ,+      ,Byte
-   contractId       ,+      ,+      ,+      ,ByteStr
-   params           ,+      ,+      ,+      ,List[DataEntry[_]]
-   height           ,       ,+      ,       ,
+.. csv-table::
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
+   :widths: 10, 10, 10, 10, 10, 10
+
+   type             ,+      ,+      ,+      ,Byte               , 1
+   id               ,       ,+      ,       ,Byte               , 1
+   sender           ,+      ,+      ,       ,PublicKeyAccount   , 32\64
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount   , 32\64
+   fee              ,+      ,+      ,+      ,Long               , 8
+   timestamp        ,+ (opt),+      ,+      ,Long               , 8
+   proofs           ,       ,+      ,+      ,List[ByteStr]      , 32767
+   version          ,       ,+      ,+      ,Byte               , 1
+   contractId       ,+      ,+      ,+      ,ByteStr            , 32767
+   params           ,+      ,+      ,+      ,List[DataEntry[_]] , 32767
+   height           ,       ,+      ,       ,                   , 8
 
 **JSON для вызова метода sign**
 
