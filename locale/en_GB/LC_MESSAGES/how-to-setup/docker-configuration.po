@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 14:06+0300\n"
-"PO-Revision-Date: 2019-09-12 16:40+0300\n"
+"PO-Revision-Date: 2019-09-12 16:50+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -85,7 +85,7 @@ msgstr "``memory`` - memory limit for contract container (in MB)."
 # cabeff5657d246b89a2a9a7b3c7612f5
 #: ../../how-to-setup/docker-configuration.rst:67
 msgid "``memory-swap`` - файл подкачки памяти для контракта (в Мб)."
-msgstr "``memory`` - memory limit for contract container (in MB)."
+msgstr "``memory-swap`` - memory swap limit for contract container (in MB)."
 
 # edb023fd029945ffbde302ef827f8714
 #: ../../how-to-setup/docker-configuration.rst:68
@@ -105,7 +105,7 @@ msgstr ""
 # 32257acce69640ed94de9d80958d8543
 #: ../../how-to-setup/docker-configuration.rst:70
 msgid "``allow-net-access`` - доступ к сети (yes/no)."
-msgstr "allow-net-access`` - network access (yes/no)."
+msgstr "``allow-net-access`` - network access (yes/no)."
 
 # 2d6f12d8326846998d943d103c39d079
 #: ../../how-to-setup/docker-configuration.rst:71
