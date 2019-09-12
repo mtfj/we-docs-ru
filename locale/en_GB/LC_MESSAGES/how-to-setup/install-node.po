@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 14:06+0300\n"
-"PO-Revision-Date: 2019-09-09 14:25+0300\n"
+"PO-Revision-Date: 2019-09-12 16:26+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 5644b6978def4989bcf335ae1613b531
 #: ../../how-to-setup/install-node.rst:4
@@ -62,7 +62,6 @@ msgstr ""
 
 # 9ec4ba466cf848ae83a02d4b019bf125
 #: ../../how-to-setup/install-node.rst:23
-#, fuzzy
 msgid ""
 "Если Java-пакеты не установлены, то вам следует скачать и установить `JRE 1.8 "
 "(64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_, "
@@ -71,8 +70,8 @@ msgid ""
 msgstr ""
 "If Java packages are not installed, you should download and install `JRE 1.8 "
 "(64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_, "
-"which is fit to your OS. Also you need to register on the site before "
-"downloading the installation package."
+"which is fit to your OS. Also you need to register on the Oracle website "
+"before downloading the installation package."
 
 # 28c930a62f8f46529e9e8dbb2aece124
 #: ../../how-to-setup/install-node.rst:25
@@ -81,7 +80,6 @@ msgstr "CryptoPro Installation"
 
 # 9ec4ba466cf848ae83a02d4b019bf125
 #: ../../how-to-setup/install-node.rst:33
-#, fuzzy
 msgid ""
 "Скачайте и установите пакет `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/"
 "sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ , согласно вашему типу "
@@ -89,8 +87,8 @@ msgid ""
 msgstr ""
 "Download and install `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/"
 "default/files/private/jcp/jcp-2.0.39014.zip>`_ according with the your OS "
-"type. You need to register on the site before downloading the installation "
-"package."
+"type. You need to register on the CryptoPro website before downloading the "
+"installation package."
 
 # c23bcc1b9dba425380214d6376d745ba
 #: ../../how-to-setup/install-node.rst:35
@@ -108,7 +106,6 @@ msgstr ""
 
 # 8c4f0b98e1804f3198ffa83b1b0419c1
 #: ../../how-to-setup/install-node.rst:40
-#, fuzzy
 msgid ""
 "В состав дистрибутива `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/"
 "default/files/private/jcp/jcp-2.0.39014.zip>`_ входит справочная документация. "
@@ -117,39 +114,40 @@ msgid ""
 "`CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/"
 "jcp-2.0.39014.zip>`_ достаточно опций:"
 msgstr ""
-"FIle-zip archive `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/"
-"default/files/private/jcp/jcp-2.0.39014.zip>`_  has a doc-folder with a "
-"documentation files. Instruction's named a  **ЖТЯИ.00091-01-JCP**"
+"The installation guide is included into the `CryptoPro JCP 2.0.39014 <https://"
+"www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ "
+"distributive. You can find the installation guide in the *Doc/\\ЖТЯИ.00091-01-"
+"JCP* directory. Also you need to ensure the execution JRE package path is "
+"correct. Use the following option list:"
 
 # 5b5240fd9ffa452994b676ab2e179ffd
 #: ../../how-to-setup/install-node.rst:42
 msgid "Криптопровайдер JCP."
-msgstr "Crypto-option for JSP"
+msgstr "Crypto-option for JSP."
 
 # 7dfc9d9ea60c46bbad230e59860ff130
 #: ../../how-to-setup/install-node.rst:43
 msgid "Модуль шифрования."
-msgstr "Crypto-app"
+msgstr "Crypto-app."
 
 # cc1d5f406b054b8c91c7067aed2bc95e
 #: ../../how-to-setup/install-node.rst:44
 msgid "Провайдер TLS."
-msgstr "TLS"
+msgstr "TLS."
 
 # 35d1e77a450b4eb9ab0abcfed7da7404
 #: ../../how-to-setup/install-node.rst:45
-#, fuzzy
 msgid ""
 "CAdES, XAdES требуют установки зависимых пакетов ``bcpkix-jdk15on-1.50.jar`` и "
 "``bcprov-jdk15on-1.50.jar``. Скопируйте файлы *jcp-2.0.39014.zip/dependencies/"
 "bcpkix-jdk15on-1.50.jar* и *jcp-2.0.39014.zip/dependencies/bcprov-jdk15on-1.50."
 "jar* в  **$JAVA_HOME/jre/lib/ext** (после ручной установки)."
 msgstr ""
-"Pakages: CAdES, XAdES, have a dependencies install  ``bcpkix-jdk15on-1.50."
-"jar`` and ``bcprov-jdk15on-1.50.jar``. After installation, please copy  files  "
+"Pakages: CAdES, XAdES, have a dependencies install ``bcpkix-jdk15on-1.50.jar`` "
+"and ``bcprov-jdk15on-1.50.jar``. After installation, please, copy files "
 "*jcp-2.0.39014.zip/dependencies/bcpkix-jdk15on-1.50.jar* and *jcp-2.0.39014."
-"zip/dependencies/bcprov-jdk15on-1.50.jar* in directory *$JAVA_HOME/jre/lib/"
-"ext**."
+"zip/dependencies/bcprov-jdk15on-1.50.jar* into the directory **$JAVA_HOME/jre/"
+"lib/ext**."
 
 # d7386374799242b2aceaa83e878059f2
 #: ../../how-to-setup/install-node.rst:51 ../../how-to-setup/install-node.rst:132
@@ -165,7 +163,7 @@ msgid ""
 msgstr ""
 "Windows allows you to install JCP CryptoPro software using the command line or "
 "graphical interface. Use one of the two types of installation according to the "
-"instructions **ЖТЯИ.00091-01 91 01. Instructions for use** for Windows"
+"instructions **ЖТЯИ.00091-01 91 01. Instructions for use** for Windows."
 
 # b129ebfcbde34fb0a33d9e69799dce36
 #: ../../how-to-setup/install-node.rst:58
@@ -184,17 +182,15 @@ msgstr "Linux"
 
 # 1dea2bc1e6e5493f95e9495483498cd6
 #: ../../how-to-setup/install-node.rst:68
-#, fuzzy
 msgid ""
 "Пропишите переменные окружения Java JDK для всех пользователей, набрав в "
 "терминале команду:"
 msgstr ""
 "Write environment variables for Java JDK for all users by default typing the "
-"following command in the terminal."
+"following command in the terminal:"
 
 # f12e735b15984deaaa3b04c07921a34f
 #: ../../how-to-setup/install-node.rst:74
-#, fuzzy
 msgid "В данный файл внесите значения переменных окружения:"
 msgstr "Enter the following values of the environment variables into this file:"
 
@@ -209,19 +205,17 @@ msgstr ""
 
 # 590f61334425405c8bb1130475eef637
 #: ../../how-to-setup/install-node.rst:94
-#, fuzzy
 msgid "Обеспечьте пользователей необходимыми правами:"
 msgstr "Provide users with corresponding rights:"
 
 # 9dc9c650fca94808a1b6eff1e2f15940
 #: ../../how-to-setup/install-node.rst:100
-#, fuzzy
 msgid ""
 "Для использования КриптоПро прочтите соответствующий раздел установки под "
 "Linux из инструкции **ЖТЯИ.00091-01 91 01. Инструкция по использованию**."
 msgstr ""
 "To install CryptoPro use the appropriate installation section for Linux "
-"**ЖТЯИ.00091-01 91 01**"
+"**ЖТЯИ.00091-01 91 01**."
 
 # 4d0a27db934b4430b768beba442e3265
 #: ../../how-to-setup/install-node.rst:105
@@ -241,7 +235,6 @@ msgstr ""
 
 # c5aa8e8aa10d4d148a66f448fe972351
 #: ../../how-to-setup/install-node.rst:114
-#, fuzzy
 msgid ""
 "Установите значение ``JAVA_HOME`` равным `` /usr/local/Cellar/adoptopenjdk-"
 "openjdk8/jdk8u172-b11 ``"
@@ -251,13 +244,12 @@ msgstr ""
 
 # 93a84bd1b801432b8372de7ea7be73b2
 #: ../../how-to-setup/install-node.rst:116
-#, fuzzy
 msgid ""
 "При установке КриптоПро под MAC используйте соответствующий раздел инструкции "
 "**ЖТЯИ.00091-01 91 01. Инструкция по использованию**."
 msgstr ""
 "To install CryptoPro use the appropriate installation section for Mac "
-"**ЖТЯИ.00091-01 91 01**"
+"**ЖТЯИ.00091-01 91 01**."
 
 # 5644b6978def4989bcf335ae1613b531
 #: ../../how-to-setup/install-node.rst:121
@@ -306,7 +298,6 @@ msgstr ""
 
 # e406ece079284a1e96c2622b7d83e461
 #: ../../how-to-setup/install-node.rst:144
-#, fuzzy
 msgid "Запустите ноду, набрав в командной строке вашей ОС:"
 msgstr "Run the node using the following command:"
 
@@ -349,8 +340,8 @@ msgid ""
 "Установите ноду из скачанного deb-пакета, соответствущего дистрибутиву Linux. "
 "Ниже приведен пример для .deb-пакета. Команда для установки следующая:"
 msgstr ""
-"3. Install the node using the downloaded deb package corresponding to the "
-"Linux distributive. An example below is for the .deb package. The installation "
+"Install the node using the downloaded deb package corresponding to the Linux "
+"distributive. An example below is for the .deb package. The installation "
 "command is:"
 
 # cba92c2259a248daa08e66c7f2497bda
