@@ -568,7 +568,22 @@
 12. DataTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Транзакция имеет ограничения: количество данных в JSON-секции "data" должно быть не более 100, суммарный объём передаваемых данных - 150 КБ.
+.. warning:: Транзакция имеет ограничения:
+
+
+             1.количество данных в секции "data" передаваемого JSON должно быть не более 100 пар ``"key":"value"``
+
+              .. code:: js
+              
+                 "data": [
+                   {
+                    "key": "objectId",
+                    "type": "string",
+                    "value": "obj:123:1234"
+                   }, {...}
+                  ]
+                  
+             2.суммарный объём передаваемых данных в секции "data" - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size (Bytes)"
@@ -832,7 +847,7 @@
 103. CreateContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Транзакция имеет ограничение только на суммарный объём передаваемых данных - 150 КБ.
+.. warning:: Ограничение на объём данных в секции "params" - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
@@ -888,7 +903,7 @@
 104. CallContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Транзакция имеет ограничение на только суммарный объём передаваемых данных - 150 КБ.
+.. warning:: Ограничение на объём данных в секции "params" - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
@@ -964,6 +979,8 @@
 
 105. ExecutedContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. warning:: Ограничение на объём данных в секции "results" - 150 КБ.
 
 .. csv-table::
    :header: "Field","Broadcasted JSON","Blockchain state","Type"
