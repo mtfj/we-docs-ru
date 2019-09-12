@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 14:06+0300\n"
-"PO-Revision-Date: 2019-09-09 14:23+0300\n"
+"PO-Revision-Date: 2019-09-12 16:40+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 74e81312dc6c4a2fa8c0124e88e3d889
 #: ../../how-to-setup/docker-configuration.rst:4
@@ -30,8 +30,8 @@ msgid ""
 "Установка и исполнение docker-контрактов задается объектом ``docker-engine`` в "
 "конфигурационном файле ноды."
 msgstr ""
-"Installation and execution of Docker contracts is set by object ''docker-"
-"engine'' in the node configuration file."
+"Installation and execution of Docker contracts is set by object ``docker-"
+"engine`` in the node configuration file."
 
 # 99241a3a9d2d4276ab23f1cc2c6b486b
 #: ../../how-to-setup/docker-configuration.rst:56
@@ -40,14 +40,13 @@ msgstr "**Parameters:**"
 
 # 50fe77ae7c314ec7be7113f2ad6241ce
 #: ../../how-to-setup/docker-configuration.rst:59
-#, fuzzy
 msgid "``enable`` - включение обработки транзакций для docker-контрактов (yes/no)."
-msgstr "''enable'' - enables transaction processing for Docker contracts (yes/no);"
+msgstr "``enable`` - enables transaction processing for Docker contracts (yes/no)."
 
 # 3e323bd274bc4a2eb6f12442d096d16f
 #: ../../how-to-setup/docker-configuration.rst:60
 msgid "``docker-auth`` - секция базовой авторизации по логину и паролю."
-msgstr "``docker-auth`` - basic authorization section by login+password"
+msgstr "``docker-auth`` - basic authorization section by login+password."
 
 # 55d5d8be376242a99b0d3a03ded99e2b
 #: ../../how-to-setup/docker-configuration.rst:61
@@ -58,17 +57,15 @@ msgstr "``docker-host`` - URL-address of Docker-host."
 #: ../../how-to-setup/docker-configuration.rst:62
 msgid ""
 "``node-rest-api`` - URL-адрес к REST API ноды при использовании Docker-хоста."
-msgstr ""
-"``node-rest-api`` - URL-address for node's  REST API  of Docker-host using."
+msgstr "``node-rest-api`` - URL-address for node's REST API of Docker-host using."
 
 # c2ffd42ff7e745558fa3ef95e3f621cd
 #: ../../how-to-setup/docker-configuration.rst:63
-#, fuzzy
 msgid ""
 "``integration-tests-mode-enable`` - режим тестирования Docker-контрактов (yes/"
 "no)."
 msgstr ""
-"''integration-tests-mode-enable'' - Docker contracts testing mode (yes/no);"
+"``integration-tests-mode-enable`` - Docker contracts testing mode (yes/no)."
 
 # c1da105edddc408d8e48f684f2def97f
 #: ../../how-to-setup/docker-configuration.rst:64
@@ -77,19 +74,18 @@ msgstr "``execution-limits`` - section  limitsfor runing smart contracts:"
 
 # 11d217b1960e40c5a2f7454b3a00290d
 #: ../../how-to-setup/docker-configuration.rst:65
-msgid "``timeout`` - таймаут на выполнение контракта (в секундах);"
-msgstr "''Timeout'' - timeout for contract execution (in seconds);"
+msgid "``timeout`` - таймаут на выполнение контракта (в секундах)."
+msgstr "``timeout`` - timeout for contract execution (in seconds)."
 
 # cabeff5657d246b89a2a9a7b3c7612f5
 #: ../../how-to-setup/docker-configuration.rst:66
-msgid "``memory`` - ограничение по памяти для контейнера контракта (в Мб);"
-msgstr "''memory'' - memory limit for contract container (in MB);"
+msgid "``memory`` - ограничение по памяти для контейнера контракта (в Мб)."
+msgstr "``memory`` - memory limit for contract container (in MB)."
 
 # cabeff5657d246b89a2a9a7b3c7612f5
 #: ../../how-to-setup/docker-configuration.rst:67
-#, fuzzy
 msgid "``memory-swap`` - файл подкачки памяти для контракта (в Мб)."
-msgstr "''memory'' - memory limit for contract container (in MB);"
+msgstr "``memory`` - memory limit for contract container (in MB)."
 
 # edb023fd029945ffbde302ef827f8714
 #: ../../how-to-setup/docker-configuration.rst:68
@@ -99,35 +95,31 @@ msgstr "``reuse-containers`` - using existing docker smart contract."
 
 # ca40e934270c4311afaab877a6dda999
 #: ../../how-to-setup/docker-configuration.rst:69
-#, fuzzy
 msgid ""
 "``remove-container-after`` - обязательность удаления контейнера после исполнения "
 "(yes/no)."
 msgstr ""
-"''remove-container-after-execution'' - mandatory removal of container after "
-"execution (yes/no);"
+"``remove-container-after`` - mandatory removal of container after execution (yes/"
+"no)."
 
 # 32257acce69640ed94de9d80958d8543
 #: ../../how-to-setup/docker-configuration.rst:70
-#, fuzzy
 msgid "``allow-net-access`` - доступ к сети (yes/no)."
-msgstr "''allow-net-access'' - network access (yes/no);"
+msgstr "allow-net-access`` - network access (yes/no)."
 
 # 2d6f12d8326846998d943d103c39d079
 #: ../../how-to-setup/docker-configuration.rst:71
-#, fuzzy
 msgid "``remote-registries`` - адреса удаленных репозиториев и доступов к ним."
-msgstr "''remote-registries'' - addresses and access to remote registries;"
+msgstr "``remote-registries`` - addresses and access to remote registries."
 
 # 1bc5a06fbe214ac798f1946b47c26ed1
 #: ../../how-to-setup/docker-configuration.rst:72
-#, fuzzy
 msgid ""
 "``check-registry-auth-on-startup`` - обязательность проверки авторизации к "
 "репозиториям при запуске ноды (yes/no)."
 msgstr ""
-"''check-registry-auth-on-startup'' - mandatory verification of authorization for "
-"registry upon node launch (yes/no);"
+"``check-registry-auth-on-startup`` - mandatory verification of authorization for "
+"registry upon node launch (yes/no)."
 
 # 3d96e21881ef413a962253ddf9197620
 #: ../../how-to-setup/docker-configuration.rst:73
@@ -159,10 +151,10 @@ msgstr "``max-buffer-time`` - max time for buffer per ms."
 #: ../../how-to-setup/docker-configuration.rst:79
 msgid ""
 "``remove-containers-on-shutdown`` - обязательность удаления всех контейнеров "
-"контрактов при остановке ноды (yes/no);"
+"контрактов при остановке ноды (yes/no)."
 msgstr ""
-"''remove-containers-on-shutdown'' - mandatory removal of all contract containers "
-"when the node is stopped (yes/no);"
+"``remove-containers-on-shutdown`` - mandatory removal of all contract containers "
+"when the node is stopped (yes/no)."
 
 # 5a1409085cc74a458a6bb7b19b182466
 #: ../../how-to-setup/docker-configuration.rst:80
