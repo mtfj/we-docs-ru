@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-09 14:06+0300\n"
-"PO-Revision-Date: 2019-09-12 16:50+0300\n"
+"POT-Creation-Date: 2019-09-12 17:06+0300\n"
+"PO-Revision-Date: 2019-09-12 17:06+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -68,19 +68,19 @@ msgstr ""
 "``integration-tests-mode-enable`` - Docker contracts testing mode (yes/no)."
 
 # c1da105edddc408d8e48f684f2def97f
-#: ../../how-to-setup/docker-configuration.rst:64
+#: ../../how-to-setup/docker-configuration.rst:66
 msgid "``execution-limits`` - секция ограничений на выполнение Docker-контрактов:"
 msgstr "``execution-limits`` - section  limitsfor runing smart contracts:"
 
 # 11d217b1960e40c5a2f7454b3a00290d
 #: ../../how-to-setup/docker-configuration.rst:65
-msgid "``timeout`` - таймаут на выполнение контракта (в секундах)."
-msgstr "``timeout`` - timeout for contract execution (in seconds)."
+msgid "``timeout`` - таймаут на выполнение контракта (в секундах);"
+msgstr "``timeout`` - timeout for contract execution (in seconds);"
 
 # cabeff5657d246b89a2a9a7b3c7612f5
 #: ../../how-to-setup/docker-configuration.rst:66
-msgid "``memory`` - ограничение по памяти для контейнера контракта (в Мб)."
-msgstr "``memory`` - memory limit for contract container (in MB)."
+msgid "``memory`` - ограничение по памяти для контейнера контракта (в Мб);"
+msgstr "``memory`` - memory limit for contract container (in MB);"
 
 # cabeff5657d246b89a2a9a7b3c7612f5
 #: ../../how-to-setup/docker-configuration.rst:67
@@ -122,7 +122,7 @@ msgstr ""
 "registry upon node launch (yes/no)."
 
 # 3d96e21881ef413a962253ddf9197620
-#: ../../how-to-setup/docker-configuration.rst:73
+#: ../../how-to-setup/docker-configuration.rst:76
 msgid ""
 "``contract-execution-messages-cache`` - секция настройки кеш-памяти Docker-"
 "контракта. При достижении лимита буфера нода обработает все сообщения в пакетном "
@@ -134,36 +134,18 @@ msgstr ""
 
 # a3de1b7c16b946b9b770737f1c168ed7
 #: ../../how-to-setup/docker-configuration.rst:74
-msgid "``expire-after`` - время жизни сообщений в кеш-памяти в минутах."
-msgstr "``expire-after`` -  time-to-live per minutes in memory-cache."
+msgid "``expire-after`` - время жизни сообщений в кеш-памяти в минутах;"
+msgstr "``expire-after`` -  time-to-live per minutes in memory-cache;"
 
 # 6338f4b9e2de4f9a8d4d46fb2179c342
 #: ../../how-to-setup/docker-configuration.rst:75
-msgid "``max-buffer-size`` - максимальное количество сообщений в буфере."
-msgstr "``max-buffer-size`` - max counter of buffered messages."
+msgid "``max-buffer-size`` - максимальное количество сообщений в буфере;"
+msgstr "``max-buffer-size`` - max counter of buffered messages;"
 
 # 11672f70de1a4234afcd36fa1e423808
 #: ../../how-to-setup/docker-configuration.rst:76
 msgid "``max-buffer-time`` - максимальное время для буфера в миллисекундах."
 msgstr "``max-buffer-time`` - max time for buffer per ms."
-
-# 32841b922e444f14aa2572a158a6f518
-#: ../../how-to-setup/docker-configuration.rst:79
-msgid ""
-"``remove-containers-on-shutdown`` - обязательность удаления всех контейнеров "
-"контрактов при остановке ноды (yes/no)."
-msgstr ""
-"``remove-containers-on-shutdown`` - mandatory removal of all contract containers "
-"when the node is stopped (yes/no)."
-
-# 5a1409085cc74a458a6bb7b19b182466
-#: ../../how-to-setup/docker-configuration.rst:80
-msgid ""
-"``check-image-hash`` - обязательность проверки hash-суммы контракта перед его "
-"запуском. Проверка ведется по hash-сумме из CreateContract транзакции (yes/no)."
-msgstr ""
-"``check-image-hash`` - mandatory verification of contract hash-sum before "
-"starting it. Hash-sum is checked from CreateContract transaction (yes/No)."
 
 # 2d4cd97320f14cc385d2b5f827ae4866
 #~ msgid ""
@@ -172,3 +154,20 @@ msgstr ""
 #~ msgstr ""
 #~ "''stop-container-after-execution'' - mandatory to stop container after "
 #~ "execution (yes/no);"
+
+# 32841b922e444f14aa2572a158a6f518
+#~ msgid ""
+#~ "``remove-containers-on-shutdown`` - обязательность удаления всех контейнеров "
+#~ "контрактов при остановке ноды (yes/no);"
+#~ msgstr ""
+#~ "``remove-containers-on-shutdown`` - mandatory removal of all contract "
+#~ "containers when the node is stopped (yes/no);"
+
+# 5a1409085cc74a458a6bb7b19b182466
+#~ msgid ""
+#~ "``check-image-hash`` - обязательность проверки hash-суммы контракта перед его "
+#~ "запуском. Проверка ведется по hash-сумме из CreateContract транзакции (yes/"
+#~ "no)."
+#~ msgstr ""
+#~ "``check-image-hash`` - mandatory verification of contract hash-sum before "
+#~ "starting it. Hash-sum is checked from CreateContract transaction (yes/No)."
