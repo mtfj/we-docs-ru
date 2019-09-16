@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 15:14+0300\n"
-"PO-Revision-Date: 2019-09-13 15:19+0300\n"
+"POT-Creation-Date: 2019-08-22 14:54+0300\n"
+"PO-Revision-Date: 2019-08-22 16:22+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # ca0fce3051884b94bf7fd588c73a6b8d
@@ -24,133 +24,46 @@ msgstr ""
 msgid "PKI"
 msgstr "PKI"
 
-# 716538934b2d43019d292c8c35202a1b
-#: ../../how-to-use/rest-api-node/pki-api.rst:6
-msgid ""
-"В PKI используются форматы ЭП, представленные в таблице ниже. Номер формата "
-"ЭП из таблицы соответствует значению поля ``sigtype``."
-msgstr ""
-"Digital signature formats listed in the table below is used in PKI. The "
-"digital signature number in the table is consistent for the ``sigType`` field "
-"value."
-
-# 2fa0fb57bee547beb9de1a5f7955c6c7
-#: ../../how-to-use/rest-api-node/pki-api.rst:8
-msgid "Форматы ЭП"
-msgstr "Digital signature fotmats"
-
-# e5a643c867774ac68945af787690fddd
-#: ../../how-to-use/rest-api-node/pki-api.rst:12
-msgid "№"
-msgstr "#"
-
-# ec27cc3c47114c808c07c6db026bf65d
-#: ../../how-to-use/rest-api-node/pki-api.rst:13
-msgid "Формат ЭП"
-msgstr "Digital signature fotmat"
-
-# 90a0d0e496b14ac7a471f15581ad0d93
-#: ../../how-to-use/rest-api-node/pki-api.rst:14
-msgid "1"
-msgstr "1"
-
-# 842559d9bc1843288a1b549851047865
-#: ../../how-to-use/rest-api-node/pki-api.rst:15
-msgid "CAdES-BES"
-msgstr "CAdES-BES"
-
-# 46c52b948f4a4e1089f46ddc122fb47c
-#: ../../how-to-use/rest-api-node/pki-api.rst:16
-msgid "2"
-msgstr "2"
-
-# 47b652f532244f078e1b243dcc84c2a7
-#: ../../how-to-use/rest-api-node/pki-api.rst:17
-msgid "CAdES-X Long Type 1"
-msgstr "CAdES-X Long Type 1"
-
-# 16339d1d19ce4c5f8f3e0e582258f7a5
-#: ../../how-to-use/rest-api-node/pki-api.rst:18
-msgid "3"
-msgstr "3"
-
-# cbdde22a23a44d82bc401949d6d03b8d
-#: ../../how-to-use/rest-api-node/pki-api.rst:19
-msgid "CAdES-T"
-msgstr "CAdES-T"
-
-# feece16af57248948d05da3aec303d24
-#: ../../how-to-use/rest-api-node/pki-api.rst:20
-msgid "4"
-msgstr "4"
-
-# 79feac10c6b24e6da3b8b06d0fadb164
-#: ../../how-to-use/rest-api-node/pki-api.rst:21
-msgid "CAdES-C"
-msgstr "CAdES-C"
-
-# 84e0c548019c4ee88d21fb67d9951218
-#: ../../how-to-use/rest-api-node/pki-api.rst:22
-msgid "5"
-msgstr "5"
-
-# 976eaf90e33a4ba3b60b0767067007ca
-#: ../../how-to-use/rest-api-node/pki-api.rst:23
-msgid "PKCS7"
-msgstr "PKCS7"
-
 # cc426b2f96bc47dd8fd44d2027a4447d
-#: ../../how-to-use/rest-api-node/pki-api.rst:26
+#: ../../how-to-use/rest-api-node/pki-api.rst:7
 msgid "POST /pki/sign"
 msgstr "POST /pki/sign"
 
 # f453698aa5854816ab9ce9856ced4cf6
-#: ../../how-to-use/rest-api-node/pki-api.rst:28
+#: ../../how-to-use/rest-api-node/pki-api.rst:9
 msgid ""
-"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`."
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
 msgstr ""
 "The rules for generating queries to the node are given in :ref:`rest-api-"
 "node` module."
 
 # b9c0af3dc75847bc8a8ed8914b7bf4ae
-#: ../../how-to-use/rest-api-node/pki-api.rst:30
+#: ../../how-to-use/rest-api-node/pki-api.rst:11
 msgid "Метод формирует отсоединённую ЭП для данных, передаваемых в запросе."
 msgstr "This method creates a detached digital signature."
 
 # afff74687eae49fe82aabc351013fb9e
 # 84d4f26299074f4296cd94e2356da42e
-#: ../../how-to-use/rest-api-node/pki-api.rst:32
-#: ../../how-to-use/rest-api-node/pki-api.rst:56
+#: ../../how-to-use/rest-api-node/pki-api.rst:13
+#: ../../how-to-use/rest-api-node/pki-api.rst:36
 msgid "**Пример запроса**"
 msgstr "**Request example**"
 
 # aaddc9251cd8496cac22c9eee9b5a53c
 # 73a992006c44476ba46f9f1d8818dede
-#: ../../how-to-use/rest-api-node/pki-api.rst:43
-#: ../../how-to-use/rest-api-node/pki-api.rst:70
+#: ../../how-to-use/rest-api-node/pki-api.rst:24
+#: ../../how-to-use/rest-api-node/pki-api.rst:50
 msgid "**Пример ответа**"
 msgstr "**Answer example**"
 
 # ead4041645a847eba8313b802f5ea35c
-#: ../../how-to-use/rest-api-node/pki-api.rst:52
+#: ../../how-to-use/rest-api-node/pki-api.rst:32
 msgid "POST /pki/verify"
 msgstr "POST /pki/verify"
 
-# 879ca1af7f5b4ef4b0cc19fedcf89540
-#: ../../how-to-use/rest-api-node/pki-api.rst:54
-msgid ""
-"Метод выполняет проверку отсоединённой ЭП для данных, переданных в запросе. "
-"Поле ``extendedKeyUsageList`` является опциональным и может содержать массив "
-"значений OID (Объектный идентификатор) для определения области действия "
-"сертификата. Проверку сертификата может осуществлять любая нода, имеющая "
-"параметры запроса."
-msgstr ""
-"This method checks the detached digital signature for the sent data. The "
-"``extendedKeyUsageList`` is optional and may contain an array of object "
-"identifiers - OID. It is useful for the determination of the scope of the "
-"certificate. Any node with query parameters can check the certificate."
-
 # bf423ed909f24021b9d495487c01de47
-#~ msgid ""
-#~ "Метод выполняет проверку отсоединённой ЭП для данных, переданных в запросе."
-#~ msgstr "This method checks the detached digital signature for the sent data."
+#: ../../how-to-use/rest-api-node/pki-api.rst:34
+msgid ""
+"Метод выполняет проверку отсоединённой ЭП для данных, переданных в запросе."
+msgstr "This method checks the detached digital signature for the sent data."
