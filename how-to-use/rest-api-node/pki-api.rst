@@ -33,13 +33,12 @@ POST /pki/sign
      "inputData" : "SGVsbG8gd29ybGQh",
      "keystoreAlias" : "key1",
      "password" : "password",
-     "sigType" : 1,
+     "sigType" : "CAdES_X_Long_Type_1",
      }
 
 **Пример ответа**
 
 .. code::
-
     {
       "signature" : "c2RmZ3NkZmZoZ2ZkZ2hmZGpkZ2ZoamhnZmtqaGdmamtkZmdoZmdkc2doZmQjsndjfvnksdnjfn="
      }
@@ -47,7 +46,7 @@ POST /pki/sign
 POST /pki/verify
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Метод выполняет проверку отсоединённой ЭП для данных, переданных в запросе. Поле ``extendedKeyUsageList`` является опциональным и может содержать массив значений OID (Объектный идентификатор) для определения области действия сертификата. Проверку сертификата может осуществлять любая нода, имеющая параметры запроса.
+Метод выполняет проверку отсоединённой ЭП для данных, переданных в запросе.
 
 **Пример запроса**
 
@@ -55,8 +54,8 @@ POST /pki/verify
 
     {
      "inputData" : "SGVsbG8gd29ybGQh",
-     "signature" : "c2RmZ3NkZmZoZ2ZkZ2hmZGpkZ2ZoamhnZmtqaGdmamtkZmdoZmdkc2doZmQjsndjfvnksdnjfn=",
-     "sigType" : 1,
+     "signature" : "c2RmZ3NkZmZoZ2ZkZ2hmZGpkZ2ZoamhnZmtqaGdmamtkZmdoZmdkc2doZmQ=",
+     "sigType" : "CAdES_X_Long_Type_1",
      "extendedKeyUsageList": [
      "1.2.643.7.1.1.1.1",
      "1.2.643.2.2.35.2"
@@ -66,8 +65,13 @@ POST /pki/verify
 **Пример ответа**
 
 .. code::
-
     {
      "sigStatus" : "true"
      }
+
+
+
+
+
+
 

@@ -568,22 +568,22 @@
 12. DataTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 .. warning:: Транзакция имеет ограничения:
-
-
-             1.количество данных в секции "data" передаваемого JSON должно быть не более 100 пар ``"key":"value"``
-
-              .. code:: js
-              
-                 "data": [
-                   {
-                    "key": "objectId",
-                    "type": "string",
-                    "value": "obj:123:1234"
-                   }, {...}
-                  ]
-                  
-             2.суммарный объём передаваемых данных в секции "data" - 150 КБ.
+                                                                        
+       1. Количество данных в секции "data" передаваемого JSON должно быть не более 100 пар ``"key":"value"``,
+                                                                        
+                .. code:: js
+                        
+                        "data": [
+                              {
+                               "key": "objectId",
+                               "type": "string",
+                               "value": "obj:123:1234"
+                              }, {...}
+                             ]
+                                                                        
+       2. Суммарный объём передаваемых данных в секции "data" - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size (Bytes)"
