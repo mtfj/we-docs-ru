@@ -873,7 +873,7 @@
     {
         "type": 103,
         "sender":"3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
-        "image":"localhost:5000/sum-contract-kv",
+        "image":"sum-contract-kv",
         "params":[],
         "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
         "fee":500000
@@ -892,7 +892,7 @@
         "timestamp": 1550591678479,
         "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
         "version": 1, 
-        "image": "localhost:5000/lshevtsova", 
+        "image": "lshevtsova", 
         "imageHash": "a93c124016b87bbbf1c1deff9638c0f9393d31289d824401d280f85098d154f7", 
         "params": [], 
         "height": 1619 
