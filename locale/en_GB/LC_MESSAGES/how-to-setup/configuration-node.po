@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-03 11:50+0300\n"
-"PO-Revision-Date: 2019-09-03 13:43+0300\n"
+"POT-Creation-Date: 2019-09-17 14:09+0300\n"
+"PO-Revision-Date: 2019-09-17 14:10+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # cf7c31d070b8482dac3d334d1a43f54d
 #: ../../how-to-setup/configuration-node.rst:4
@@ -106,7 +106,7 @@ msgstr "The description of the configuration file parameters is represented belo
 # ec50b409751f45d9b1e38c4d9cd57a63
 # ebb4b6fc522e4335bebee6661508467e
 #: ../../how-to-setup/configuration-node.rst:39
-#: ../../how-to-setup/configuration-node.rst:308
+#: ../../how-to-setup/configuration-node.rst:318
 msgid ""
 "waves-crypto – выбор криптографического алгоритма (\"yes\" - использовать "
 "криптографию :ref:`Waves <crypto-waves>`, \"no\" - использовать :ref:`ГОСТ-"
@@ -284,8 +284,33 @@ msgstr ""
 "example of the file from our `GitHub <https://github.com/waves-enterprise/WE-"
 "releases/tree/master/configs>`_ page."
 
-# 0ac42875a3a246188b3c080291b81d77
+# 8395cb946e244529abfe59cc5a187460
 #: ../../how-to-setup/configuration-node.rst:77
+msgid ""
+"Для нод версии 1.0.3 и выше в конфигурационном файле ноды в корневой секции "
+"``vostok`` необходимо наличие следующего параметра:"
+msgstr ""
+"If your node’s version is 1.0.3 and higher you need to specify the following "
+"parameter in the ``vostok`` section of the node configuration file:"
+
+# 7fa9382c25404479858bfe2a62b9fb20
+#: ../../how-to-setup/configuration-node.rst:85
+msgid ""
+"Данная опция становится активной после достижения суммарного количества блоков "
+"из параметров ``feature-check-blocks-period = 15000`` и ``blocks-for-feature-"
+"activation = 10000`` (25000 блоков), которые находятся в секции ``blockchain``. "
+"При подключении к Mainnet или Partnernet данные параметры не могут быть "
+"изменены. Ноды без активации данной опции не смогут подключиться к сети."
+msgstr ""
+"This option becomes active when the total quantity of blocks from ``feature-"
+"check-blocks-period = 15000`` and ``blocks-for-feature-activation = 10000`` "
+"parameters is achieved (25 000 of blocks). These parameters are stored in the "
+"``blockchain`` section and can not be changed during Mainnet or Partnernet "
+"connection. Nodes will not be able to connect to the network without activation "
+"of this option."
+
+# 0ac42875a3a246188b3c080291b81d77
+#: ../../how-to-setup/configuration-node.rst:87
 msgid ""
 "Часть параметров конфигурационного файла описывают параметры блокчейн-сети, к "
 "которой осуществляется подключение, и не должны изменяться."
@@ -294,7 +319,7 @@ msgstr ""
 "network to be joined and should not be modified."
 
 # 04261648d6544f84837dc49ad9a875fb
-#: ../../how-to-setup/configuration-node.rst:79
+#: ../../how-to-setup/configuration-node.rst:89
 msgid ""
 "Отредактируйте шаблон конфигурационного файла в соответствии со следующими "
 "рекомендациями:"
@@ -302,7 +327,7 @@ msgstr ""
 "Edit the configuration file template according to following recommendations:"
 
 # 58b19a4e546841f28a86e092035818eb
-#: ../../how-to-setup/configuration-node.rst:81
+#: ../../how-to-setup/configuration-node.rst:91
 msgid ""
 "Укажите тип используемой криптографии (см. раздел :ref:`Криптография "
 "<cryptography>`):"
@@ -311,7 +336,7 @@ msgstr ""
 "<cryptography>`):"
 
 # 5417e303fc5d4e859d327af5f8aa120d
-#: ../../how-to-setup/configuration-node.rst:87
+#: ../../how-to-setup/configuration-node.rst:97
 msgid ""
 "При использовании :ref:`криптографии Waves <crypto-waves>` пользователь может "
 "быть создан автоматически при запуске ноды, и предыдущий шаг можно пропустить. "
@@ -324,7 +349,7 @@ msgstr ""
 "random number generator, automatic generation of a key pair is impossible."
 
 # f8b1e68d2bc0441ab9a0226aca062a03
-#: ../../how-to-setup/configuration-node.rst:89
+#: ../../how-to-setup/configuration-node.rst:99
 msgid ""
 "При использовании :ref:`ГОСТ-криптографии <crypto-gost>` после запуска команды "
 "создания участников на экран будет выведено окно КриптоПро инициализации "
@@ -335,7 +360,7 @@ msgstr ""
 "initialization of the biological random number generator."
 
 # 44ba648c0bff4e72848c430f868c5955
-#: ../../how-to-setup/configuration-node.rst:94
+#: ../../how-to-setup/configuration-node.rst:104
 msgid ""
 "После выполнения утилиты в папке, определенной параметром ``wallet``, будут "
 "сохранены закрытые ключи участников, а на экране отобразятся адреса и открытые "
@@ -350,7 +375,7 @@ msgstr ""
 "6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``"
 
 # 37eba883988746d985c01ef99321f6b1
-#: ../../how-to-setup/configuration-node.rst:97
+#: ../../how-to-setup/configuration-node.rst:107
 msgid ""
 "Укажите адреса домашней директории и директории для хранения данных блокчейна в "
 "соответствующих полях:"
@@ -359,7 +384,7 @@ msgstr ""
 "the corresponding fields:"
 
 # 2473790e329f436d9f0d193ed6519e3e
-#: ../../how-to-setup/configuration-node.rst:104
+#: ../../how-to-setup/configuration-node.rst:114
 msgid ""
 "Если нода ранее работала с другой сетью блокчейна Waves Enterprise, то удалить "
 "данные из папки, указанной в параметре ``data-directory`` (по умолчанию, для ОС "
@@ -372,7 +397,7 @@ msgstr ""
 "for Windows path ``C:\\Users\\<username>\\vostok``) is used."
 
 # f8822e98b42b4810bc1e4e522dd8c317
-#: ../../how-to-setup/configuration-node.rst:106
+#: ../../how-to-setup/configuration-node.rst:116
 msgid ""
 "Укажите байт сети, с которым генерировались адреса участников сети (параметр "
 "``chain-id`` в accounts.conf). Байт сети для \"Waves Enterprise Mainnet\" - "
@@ -384,12 +409,12 @@ msgstr ""
 "\" - ``P``."
 
 # 8c7755ca01c24658a13b9659fc90b457
-#: ../../how-to-setup/configuration-node.rst:112
+#: ../../how-to-setup/configuration-node.rst:122
 msgid "Укажите в блоке ``genesis`` общий баланс активов сети:"
 msgstr "Specify the total balance of network assets in the ``genesis`` unit:"
 
 # e58538d8a39344fb952337a09fdaa109
-#: ../../how-to-setup/configuration-node.rst:119
+#: ../../how-to-setup/configuration-node.rst:129
 msgid ""
 "Необходимо проверить значения полей ``timestamp`` и ``block-timestamp`` блока "
 "``genesis``. Время указывается в миллисекундах, значение должно состоять из 13 "
@@ -402,7 +427,7 @@ msgstr ""
 "of 10 digits, then you need to add any three digits at the end."
 
 # 4ae19df46f3449a2bbc7fb12726b9052
-#: ../../how-to-setup/configuration-node.rst:121
+#: ../../how-to-setup/configuration-node.rst:131
 msgid ""
 "Укажите :ref:`адреса участников <address-creation>` – владельцев начального "
 "баланса сети:"
@@ -411,7 +436,7 @@ msgstr ""
 "network balance:"
 
 # c450f635930d4853a2a287840c1f700e
-#: ../../how-to-setup/configuration-node.rst:128
+#: ../../how-to-setup/configuration-node.rst:138
 msgid ""
 "Укажите :ref:`публичные ключи участников сети <address-creation>` в блоке "
 "``network-participants`` в том же порядке, как были указаны адреса участников:"
@@ -421,22 +446,22 @@ msgstr ""
 "participant addresses:"
 
 # fbf9d90d935a4fc9b3a89a4b02406f2f
-#: ../../how-to-setup/configuration-node.rst:138
+#: ../../how-to-setup/configuration-node.rst:148
 msgid "Укажите владельца ноды в параметре ``owner-address``:"
 msgstr "Specify the node owner in the ``owner-address`` parameter:"
 
 # e517e8adcdfa4a8d871178c7a868a5f9
-#: ../../how-to-setup/configuration-node.rst:144
+#: ../../how-to-setup/configuration-node.rst:154
 msgid "Владелец ноды должен иметь положительный баланс и набор ролей."
 msgstr "The node owner must have a positive balance and a set of roles."
 
 # 12d722b862a54d0e980d699297f2e007
-#: ../../how-to-setup/configuration-node.rst:148
+#: ../../how-to-setup/configuration-node.rst:158
 msgid "Укажите сетевые параметры настраиваемой ноды:"
 msgstr "Specify network settings of customizable node:"
 
 # 3c2fe0afb38748a29970b78c59d9f45f
-#: ../../how-to-setup/configuration-node.rst:158
+#: ../../how-to-setup/configuration-node.rst:168
 msgid "Укажите сетевые адреса (hostname) нод, которые будут подключены к сети:"
 msgstr ""
 "Specify network addresses (hostnames) for nodes which will be connected to the "
@@ -452,7 +477,7 @@ msgstr ""
 "permissible to specify the empty value ``known-peers = [ ]``"
 
 # 6c26ca22578d476fa336a7fe01d6cff8
-#: ../../how-to-setup/configuration-node.rst:168
+#: ../../how-to-setup/configuration-node.rst:178
 msgid ""
 "Укажите путь и пароль от keystore - места хранения закрытых ключей участников "
 "сети, созданных на ноде (параметры ``wallet``, ``wallet-password`` в accounts."
@@ -468,7 +493,7 @@ msgstr ""
 "keystore/``):"
 
 # 92a3a74d894a474abeac02fbcffca186
-#: ../../how-to-setup/configuration-node.rst:179
+#: ../../how-to-setup/configuration-node.rst:189
 msgid ""
 "Укажите доступ к :ref:`интерфейсу REST API <rest-api-node>` ноды, а также хеш "
 "для доступа к методам :ref:`privacy <privacy-api>`: ``POST /privacy/sendData``, "
@@ -481,7 +506,7 @@ msgstr ""
 "getInfo/{policy-item-hash}``:"
 
 # 4710ca624444428cb9c9944d2fd07979
-#: ../../how-to-setup/configuration-node.rst:192
+#: ../../how-to-setup/configuration-node.rst:202
 msgid ""
 "Для повышения безопасности рекомендуется генерировать различные значения ``api-"
 "key-hash`` и ``privacy-api-key-hash`` для доступа к REST API и для использования "
@@ -491,7 +516,7 @@ msgstr ""
 "values for the REST API and privacy access to provide more security."
 
 # c942623f679f4ef79d0e7ee288bc712e
-#: ../../how-to-setup/configuration-node.rst:194
+#: ../../how-to-setup/configuration-node.rst:204
 msgid ""
 "При использовании методов :ref:`privacy <privacy-api>` активируйте "
 "функциональность и заполните блок ``privacy`` параметрами настройки БД для "
@@ -501,12 +526,12 @@ msgstr ""
 "in the ``privacy`` block with database settings for storing the private data:"
 
 # 11dc7058f2a941419c031f7855eb0e7e
-#: ../../how-to-setup/configuration-node.rst:215
+#: ../../how-to-setup/configuration-node.rst:225
 msgid "Настройка анкоринга"
 msgstr "Anchoring settings"
 
 # 1a4f72aa9d4a4e559aeedab04726905c
-#: ../../how-to-setup/configuration-node.rst:217
+#: ../../how-to-setup/configuration-node.rst:227
 msgid ""
 "Если используете опцию :ref:`анкоринга <anchoring>`, необходимо настроить блок "
 "``anchoring``."
@@ -515,12 +540,12 @@ msgstr ""
 "``anchoring`` unit."
 
 # 6984be2329624d25992ddc86ed3530fd
-#: ../../how-to-setup/configuration-node.rst:251
+#: ../../how-to-setup/configuration-node.rst:261
 msgid "**Параметры анкоринга**"
 msgstr "**Anchoring parameters**"
 
 # c2813ab1de1e4527aad4fc13d5f480c7
-#: ../../how-to-setup/configuration-node.rst:253
+#: ../../how-to-setup/configuration-node.rst:263
 msgid ""
 "``height-range`` - диапазон блоков, через который нода приватного блокчейна "
 "отправляет в Mainnet транзакции для анкоринга."
@@ -529,7 +554,7 @@ msgstr ""
 "anchoring transactions."
 
 # 1870b5b7ca4147e58168fe52e2d8cac2
-#: ../../how-to-setup/configuration-node.rst:254
+#: ../../how-to-setup/configuration-node.rst:264
 msgid ""
 "``height-above`` - диапазон блоков в Mainnet, через который нода приватного "
 "блокчейна создаёт подтверждающую анкоринг транзакцию с данными первой "
@@ -542,7 +567,7 @@ msgstr ""
 "maximum rollback depth ``max-rollback-depth``."
 
 # cdbe49a34763418fa65faaaa31f3692b
-#: ../../how-to-setup/configuration-node.rst:255
+#: ../../how-to-setup/configuration-node.rst:265
 msgid ""
 "``threshold`` - число блоков, которое отнимается от текущей высоты приватного "
 "блокчейна. В транзакцию для анкоринга, отправляемую в Mainnet, попадёт "
@@ -558,12 +583,12 @@ msgstr ""
 "the private blockchain maximum rollback depth ``max-rollback-depth``."
 
 # ccb62e22af084216ad701c9e28a4c65c
-#: ../../how-to-setup/configuration-node.rst:257
+#: ../../how-to-setup/configuration-node.rst:267
 msgid "**Параметры авторизации при использовании анкоринга**"
 msgstr "**Anchoring authorization parameters**"
 
 # 4f917e8160884ed39f7abd427ebc68d0
-#: ../../how-to-setup/configuration-node.rst:259
+#: ../../how-to-setup/configuration-node.rst:269
 msgid ""
 "``type`` - тип авторизации при использовании анкоринга. ``api-key`` - "
 "авторизация по ``api-key-hash``, ``auth-service`` - авторизация по специальному "
@@ -573,7 +598,7 @@ msgstr ""
 "authorization , ``auth-service`` - authorization by a special security token."
 
 # 7d4dfc1b7b6440218c7a3d5f10c8d802
-#: ../../how-to-setup/configuration-node.rst:261
+#: ../../how-to-setup/configuration-node.rst:271
 msgid ""
 "В случае выбора авторизации по ``api-key-hash`` достаточно указать значение "
 "ключа в параметре ``api-key`` ниже. Если вы выбираете авторизацию по токену, "
@@ -585,32 +610,32 @@ msgstr ""
 "\"auth-service\"`` and comment config-file  structure values:"
 
 # 89740a8f95b34cac8bbe5be771e3da8f
-#: ../../how-to-setup/configuration-node.rst:263
+#: ../../how-to-setup/configuration-node.rst:273
 msgid "``authorization-token`` - постоянный авторизационный токен"
 msgstr "``authorization-token`` - constant of  authorization token"
 
 # 4888e330381c438db24faf49145bd5ad
-#: ../../how-to-setup/configuration-node.rst:264
-msgid "``authorization-service-url`` -"
-msgstr ""
+#: ../../how-to-setup/configuration-node.rst:274
+msgid "``authorization-service-url`` - URL-адрес сервиса авторизации."
+msgstr "``authorization-service-url`` - URL address authorization service."
 
 # 767c20e3d6044dd0b22d642b9589fd18
-#: ../../how-to-setup/configuration-node.rst:265
+#: ../../how-to-setup/configuration-node.rst:275
 msgid "``token-update-interval`` - интервал обновления авторизационного токена."
 msgstr "``token-update-interval`` - data interval for a token refresh."
 
 # 0fbd77c8b896429da87b86693c119785
-#: ../../how-to-setup/configuration-node.rst:267
+#: ../../how-to-setup/configuration-node.rst:277
 msgid "**Параметры для доступа Mainnet**"
 msgstr "**Mainnet access parameters**"
 
 # 1bb47a4b5eea411284e2ff9b183fcfbb
-#: ../../how-to-setup/configuration-node.rst:269
+#: ../../how-to-setup/configuration-node.rst:279
 msgid "``mainnet-scheme-byte`` - байт сети Mainnet."
 msgstr "``mainnet-scheme-byte`` - the Mainnet network byte."
 
 # 8b19be5f8f1d4e5ba808195689490f78
-#: ../../how-to-setup/configuration-node.rst:270
+#: ../../how-to-setup/configuration-node.rst:280
 msgid ""
 "``mainnet-node-address`` - сетевой адрес ноды в сети Mainnet, от которого будут "
 "отправляться транзакции для анкоринга."
@@ -619,7 +644,7 @@ msgstr ""
 "sending of anchoring transactions."
 
 # 1fded1809713435ca2125ec3c63583e7
-#: ../../how-to-setup/configuration-node.rst:271
+#: ../../how-to-setup/configuration-node.rst:281
 msgid ""
 "``mainnet-node-port`` - номер порта ноды в сети Mainnet, от которого будут "
 "отправляться транзакции для анкоринга."
@@ -628,7 +653,7 @@ msgstr ""
 "anchoring transactions."
 
 # a92d4abef96246cb943c939800134515
-#: ../../how-to-setup/configuration-node.rst:272
+#: ../../how-to-setup/configuration-node.rst:282
 msgid ""
 "``mainnet-node-recipient-address`` - адрес ноды в сети Mainnet, от которого "
 "будут отправляться транзакции для анкоринга."
@@ -637,45 +662,45 @@ msgstr ""
 "sending of anchoring transactions."
 
 # ccb62e22af084216ad701c9e28a4c65c
-#: ../../how-to-setup/configuration-node.rst:274
+#: ../../how-to-setup/configuration-node.rst:284
 msgid "**Параметры авторизации на Mainnet, секция wallet**"
 msgstr "**Mainnet authorization parameters, wallet section**"
 
 # 28384287d3804a5eaf7ed2ff026f3035
-#: ../../how-to-setup/configuration-node.rst:276
+#: ../../how-to-setup/configuration-node.rst:286
 msgid "``file`` - путь до каталога хранения ключей на ноде."
 msgstr "``file`` - the path to the key storage directory on the node."
 
 # b950de57319948c386255758e3e58e6b
-#: ../../how-to-setup/configuration-node.rst:277
+#: ../../how-to-setup/configuration-node.rst:287
 msgid "``password`` - пароль от keystore ноды."
 msgstr "``password`` - the node keystore password."
 
 # 9550bf73ee2b4b029a2321a13bf6f132
-#: ../../how-to-setup/configuration-node.rst:279
+#: ../../how-to-setup/configuration-node.rst:289
 msgid "**Параметры комиссий**"
 msgstr "**Fee parameters**"
 
 # e85c177215304cfd9c0445f0377fb2a2
-#: ../../how-to-setup/configuration-node.rst:281
+#: ../../how-to-setup/configuration-node.rst:291
 msgid "``mainnet-fee`` - плата за выпуск транзакции для анкоринга в сети Mainnet."
 msgstr ""
 "``mainnet-fee`` - the fee for the anchoring transaction issue in the Mainnet."
 
 # 184f2b1188474af4abda567517e4e2e1
-#: ../../how-to-setup/configuration-node.rst:282
+#: ../../how-to-setup/configuration-node.rst:292
 msgid "``sidechain-fee`` - плата за выпуск транзакции в приватном блокчейне."
 msgstr ""
 "``sidechain-fee`` - the fee for the anchoring transaction issue in the private "
 "blockchain."
 
 # 12522b4c8fe0418ead3937418ef51e95
-#: ../../how-to-setup/configuration-node.rst:287
+#: ../../how-to-setup/configuration-node.rst:297
 msgid "Доступ к REST API"
 msgstr "The REST API access"
 
 # cbcfd479fa524f91b2fe0d5d671369a8
-#: ../../how-to-setup/configuration-node.rst:289
+#: ../../how-to-setup/configuration-node.rst:299
 msgid ""
 "Используя утилиту `generators-x.x.x.jar <https://github.com/waves-enterprise/WE-"
 "releases/releases>`_, создайте ``api-key-hash`` для доступа к REST API ноды. Для "
@@ -690,7 +715,7 @@ msgstr ""
 "hash``. Use the following command to run the generator:"
 
 # b76b07cae52047d3b878eb71f4aa4056
-#: ../../how-to-setup/configuration-node.rst:295
+#: ../../how-to-setup/configuration-node.rst:305
 msgid ""
 "Полученное в результате исполнения утилиты значение указать в параметре ``api-"
 "key-hash`` конфигурационного файла ноды."
@@ -699,12 +724,12 @@ msgstr ""
 "``api-key-hash`` in the node configuration file."
 
 # 830abf02c1414eb38a197c9eb70b009c
-#: ../../how-to-setup/configuration-node.rst:306
+#: ../../how-to-setup/configuration-node.rst:316
 msgid "**Описание параметров:**"
 msgstr "**The parameters description:**"
 
 # c428b6071a0c4f8aac99905bf131ba63
-#: ../../how-to-setup/configuration-node.rst:309
+#: ../../how-to-setup/configuration-node.rst:319
 msgid ""
 "api-key – ключ, который необходимо придумать. Значение данного ключа потребуется "
 "указать в запросах к REST API ноды (подробнее на странице :ref:`REST API ноды "
@@ -715,12 +740,12 @@ msgstr ""
 "API <rest-api-node>`)."
 
 # 2d284df126c5443e905d7b327512ade1
-#: ../../how-to-setup/configuration-node.rst:314
+#: ../../how-to-setup/configuration-node.rst:324
 msgid "Доступ к методам privacy"
 msgstr "The privacy methods access"
 
 # 1f749f8788974cd4aa070233ea883d12
-#: ../../how-to-setup/configuration-node.rst:316
+#: ../../how-to-setup/configuration-node.rst:326
 msgid ""
 "Используя утилиту `generators-x.x.x.jar <https://github.com/waves-enterprise/WE-"
 "releases/releases>`_, создайте ``privacy-api-key-hash`` для доступа к методам :"
@@ -737,7 +762,7 @@ msgstr ""
 "following command to run the generator:"
 
 # 715bbb084e3c4c01b1c397459def514a
-#: ../../how-to-setup/configuration-node.rst:322
+#: ../../how-to-setup/configuration-node.rst:332
 msgid ""
 "Полученное в результате исполнения утилиты значение указать в параметре "
 "``privacy-api-key-hash`` конфигурационного файла ноды."
@@ -746,12 +771,12 @@ msgstr ""
 "``privacy-api-key-hash`` in the node configuration file."
 
 # 6e075af0dcf948e086aa617eecfa91c4
-#: ../../how-to-setup/configuration-node.rst:327
+#: ../../how-to-setup/configuration-node.rst:337
 msgid "Подписание genesis-блока"
 msgstr "Signing the genesis block"
 
 # fbcfe7c4f6b64b8b827608c7e628efb0
-#: ../../how-to-setup/configuration-node.rst:329
+#: ../../how-to-setup/configuration-node.rst:339
 msgid ""
 "Подпишите genesis-блок утилитой `generators-x.x.x.jar <https://github.com/waves-"
 "enterprise/WE-releases/releases>`_. Команда для подписания: ``java -jar "
@@ -775,12 +800,12 @@ msgid "Пример:"
 msgstr "Example:"
 
 # 82436f1496fe41fdb212b0d1f64b893d
-#: ../../how-to-setup/configuration-node.rst:341
+#: ../../how-to-setup/configuration-node.rst:351
 msgid "Запуск ноды"
 msgstr "Running of the node"
 
 # 4b7143f0a61144589ef455c711100948
-#: ../../how-to-setup/configuration-node.rst:343
+#: ../../how-to-setup/configuration-node.rst:353
 msgid "Выполните указанную команду для запуска ноды:"
 msgstr "Run the following command for the node start:"
 
