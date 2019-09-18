@@ -847,7 +847,7 @@
 103. CreateContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Ограничение на объём данных в секции "params" - 150 КБ.
+.. warning:: Ограничение на транзакцию - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
@@ -907,7 +907,7 @@
 104. CallContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Ограничение на объём данных в секции "params" - 150 КБ.
+.. warning:: Ограничение на транзакцию - 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
@@ -985,7 +985,7 @@
 105. ExecutedContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Ограничение на объём данных в секции "results" - 150 КБ.
+.. warning:: Ограничение на транзакцию - 150 КБ.
 
 .. csv-table::
    :header: "Field","Broadcasted JSON","Blockchain state","Type"

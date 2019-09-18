@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WE\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 17:05+0300\n"
-"PO-Revision-Date: 2019-09-18 17:07+0300\n"
+"POT-Creation-Date: 2019-09-18 17:24+0300\n"
+"PO-Revision-Date: 2019-09-18 17:25+0300\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -993,8 +993,9 @@ msgstr "103. CreateContractTransaction"
 # 5a23890d4cea492c88320d8cf1aa101a
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:850
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:910
-msgid "Ограничение на объём данных в секции \"params\" - 150 КБ."
-msgstr "Data size limit in \"params\" section is 150 KB."
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:988
+msgid "Ограничение на транзакцию - 150 КБ."
+msgstr "Transaction size limit is 150 KB."
 
 # 194562fbb7e047e391e81310e81a58f8
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
@@ -1045,11 +1046,6 @@ msgstr "contractId"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:986
 msgid "105. ExecutedContractTransaction"
 msgstr "105. ExecutedContractTransaction"
-
-# 5a23890d4cea492c88320d8cf1aa101a
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:988
-msgid "Ограничение на объём данных в секции \"results\" - 150 КБ."
-msgstr "Data size limit in \"params\" section is 150 KB."
 
 # 68e84c417bfe45f1a7b851d6216cf98c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
@@ -1896,3 +1892,7 @@ msgstr "dataHash"
 #~ "Транзакция имеет ограничение на только суммарный объём передаваемых данных в "
 #~ "секции \"params\" - 150 КБ."
 #~ msgstr "Data size limit in \"params\" section  is 150 KB."
+
+# 5a23890d4cea492c88320d8cf1aa101a
+#~ msgid "Ограничение на объём данных в секции \"results\" - 150 КБ."
+#~ msgstr "Data size limit in \"params\" section is 150 KB."
