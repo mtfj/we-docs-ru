@@ -25,7 +25,8 @@
    how-the-platform-works/data-structures
    how-the-platform-works/smart-contracts
    how-the-platform-works/anchoring
-   how-the-platform-works/pki-description
+   
+..   how-the-platform-works/pki-description
 
 .. toctree::
    :maxdepth: 2

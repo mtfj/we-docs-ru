@@ -133,8 +133,7 @@ Windows
 
 1. Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/waves-enterprise/WE-releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
 
-    .. image:: img/latest.png
-       :height: 250
+ .. figure:: img/latest.png
 
     - node-x.x.x.jar - приложение ноды Waves Enterprise;
     - generators-x.x.x.jar - утилита для настройки параметров ноды Waves Enterprise и создания аккаунтов пользователей.

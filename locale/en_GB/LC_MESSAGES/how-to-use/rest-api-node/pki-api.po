@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 16:06+0300\n"
-"PO-Revision-Date: 2019-09-17 14:08+0300\n"
+"POT-Creation-Date: 2019-09-18 12:44+0300\n"
+"PO-Revision-Date: 2019-09-18 12:56+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -79,54 +79,13 @@ msgstr "3"
 msgid "CAdES-T"
 msgstr "CAdES-T"
 
-# cc426b2f96bc47dd8fd44d2027a4447d
-#: ../../how-to-use/rest-api-node/pki-api.rst:22
-msgid "POST /pki/sign"
-msgstr "POST /pki/sign"
-
-# f453698aa5854816ab9ce9856ced4cf6
-#: ../../how-to-use/rest-api-node/pki-api.rst:24
-msgid ""
-"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`."
-msgstr ""
-"The rules for generating queries to the node are given in :ref:`rest-api-"
-"node` module."
-
-# b0d9ea1d4e0f412c847e90d0b8850a5e
-#: ../../how-to-use/rest-api-node/pki-api.rst:26
-msgid ""
-"Метод формирует отсоединённую ЭП для данных, передаваемых в запросе. В данном "
-"запросе ``inputData`` - это данные для формирования ЭП в виде массива байт в "
-"кодировке **Base64**, ``keystoreAlias`` - это наименование ключевого "
-"контейнера закрытого ключа ЭП. Также необходимо указать пароль от ключевого "
-"контейнера в параметре ``password``."
-msgstr ""
-"This method creates a detached digital signature. ``inputData`` is data for "
-"generating a digital signature as an array of bytes in the **Base64** coding, "
-"``keystoreAlias`` is a name of the key container of the digital signature "
-"private key. Also you need to specify a password in the ``password`` string."
-
-# afff74687eae49fe82aabc351013fb9e
-# 84d4f26299074f4296cd94e2356da42e
-#: ../../how-to-use/rest-api-node/pki-api.rst:28
-#: ../../how-to-use/rest-api-node/pki-api.rst:52
-msgid "**Пример запроса**"
-msgstr "**Request example**"
-
-# aaddc9251cd8496cac22c9eee9b5a53c
-# 73a992006c44476ba46f9f1d8818dede
-#: ../../how-to-use/rest-api-node/pki-api.rst:39
-#: ../../how-to-use/rest-api-node/pki-api.rst:66
-msgid "**Пример ответа**"
-msgstr "**Answer example**"
-
 # ead4041645a847eba8313b802f5ea35c
-#: ../../how-to-use/rest-api-node/pki-api.rst:48
+#: ../../how-to-use/rest-api-node/pki-api.rst:41
 msgid "POST /pki/verify"
 msgstr "POST /pki/verify"
 
 # 879ca1af7f5b4ef4b0cc19fedcf89540
-#: ../../how-to-use/rest-api-node/pki-api.rst:50
+#: ../../how-to-use/rest-api-node/pki-api.rst:43
 msgid ""
 "Метод выполняет проверку отсоединённой ЭП для данных, переданных в запросе. "
 "Поле ``extendedKeyUsageList`` является опциональным и может содержать массив "
@@ -139,6 +98,18 @@ msgstr ""
 "identifiers - OID. It is useful for the determination of the scope of the "
 "certificate. Any node with query parameters can check the certificate."
 
+# afff74687eae49fe82aabc351013fb9e
+# 84d4f26299074f4296cd94e2356da42e
+#: ../../how-to-use/rest-api-node/pki-api.rst:45
+msgid "**Пример запроса**"
+msgstr "**Request example**"
+
+# aaddc9251cd8496cac22c9eee9b5a53c
+# 73a992006c44476ba46f9f1d8818dede
+#: ../../how-to-use/rest-api-node/pki-api.rst:59
+msgid "**Пример ответа**"
+msgstr "**Answer example**"
+
 # b9c0af3dc75847bc8a8ed8914b7bf4ae
 #~ msgid "Метод формирует отсоединённую ЭП для данных, передаваемых в запросе."
 #~ msgstr "This method creates a detached digital signature."
@@ -147,3 +118,29 @@ msgstr ""
 #~ msgid ""
 #~ "Метод выполняет проверку отсоединённой ЭП для данных, переданных в запросе."
 #~ msgstr "This method checks the detached digital signature for the sent data."
+
+# cc426b2f96bc47dd8fd44d2027a4447d
+#~ msgid "POST /pki/sign"
+#~ msgstr "POST /pki/sign"
+
+# f453698aa5854816ab9ce9856ced4cf6
+#~ msgid ""
+#~ "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+#~ "node`."
+#~ msgstr ""
+#~ "The rules for generating queries to the node are given in :ref:`rest-api-"
+#~ "node` module."
+
+# b0d9ea1d4e0f412c847e90d0b8850a5e
+#~ msgid ""
+#~ "Метод формирует отсоединённую ЭП для данных, передаваемых в запросе. В "
+#~ "данном запросе ``inputData`` - это данные для формирования ЭП в виде "
+#~ "массива байт в кодировке **Base64**, ``keystoreAlias`` - это наименование "
+#~ "ключевого контейнера закрытого ключа ЭП. Также необходимо указать пароль "
+#~ "от ключевого контейнера в параметре ``password``."
+#~ msgstr ""
+#~ "This method creates a detached digital signature. ``inputData`` is data "
+#~ "for generating a digital signature as an array of bytes in the **Base64** "
+#~ "coding, ``keystoreAlias`` is a name of the key container of the digital "
+#~ "signature private key. Also you need to specify a password in the "
+#~ "``password`` string."

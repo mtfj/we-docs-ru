@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Waves Enterprise 0.9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 14:09+0300\n"
-"PO-Revision-Date: 2019-09-17 14:10+0300\n"
+"POT-Creation-Date: 2019-09-18 12:44+0300\n"
+"PO-Revision-Date: 2019-09-18 12:56+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -20,93 +20,39 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
-# 6e9cd437168d4f58ad77539f1cf55a35
+# 5d29398ff1024610a3020fbd45a6d655
 #: ../../how-to-use/working-pki.rst:5
-msgid "Работа с PKI"
-msgstr "Working with PKI"
+msgid "Работа с методом POST /pki/verify"
+msgstr "Working with POST /pki/verify method"
 
-# 5c2f761b462147c4bcc6e70219c38738
-#: ../../how-to-use/working-pki.rst:7
-msgid "Общий алгоритм работы с PKI состоит из следующих этапов:"
-msgstr "Work with PKI includes the following stages:"
-
-# 696444f25d084cddb16e860bb9da29cc
-#: ../../how-to-use/working-pki.rst:9
+# aca202254bc949cc984a4d9fb6be572a
+#: ../../how-to-use/working-pki.rst:14
 msgid ""
-"Пользователь готовит персональные данные для получения сертификата. Для "
-"физического лица такими данными могут быть ФИО, из которых формируется "
-"``commonName`` как идентификатор пользователя. Для юридических лиц это "
-"может быть наименование организации и её адрес."
+"Нода имеет возможность проверять УКЭП (Усиленная квалифицированная "
+"электронная подпись), используя метод API :ref:`PKI /pki/verify <pki-api>`. "
+"Для корректности работы метода API :ref:`PKI /pki/verify <pki-api>` "
+"необходимо установить корневой сертификат на ноду. Корневой сертификат УЦ "
+"однозначно идентифицирует центр сертификации и является основанием в "
+"цепочке доверия."
 msgstr ""
-"A user prepares the personal data for receiving a certificate. Individuals "
-"can use the full name and surname for the creation of the ``commonName`` "
-"parameter as an user’s identifier. For legal entities this may be a company "
-"name and its address."
-
-# bf5edb96f02a467f9b01c6f71d25787d
-#: ../../how-to-use/working-pki.rst:10
-msgid ""
-"Пользователь отправляет данные в УЦ в формате ``*.req`` для создания "
-"сертификата. Администратор регистрирует данные о запросе в УЦ и на основе "
-"предоставленных данных выпускает сертификат пользователя."
-msgstr ""
-"A user sends the data to CA using the ``*.req`` format to create the "
-"certificate. An administrator sends the user request to CA, which issues a "
-"digital certificate based on the provided data."
-
-# 04d6629ccd2f47bbbbb7b29b4a3c2747
-#: ../../how-to-use/working-pki.rst:11
-msgid ""
-"Пользователь получает сертификат в формате ``*.cer`` от администратора УЦ "
-"или самого УЦ."
-msgstr ""
-"A user receives the digital certificate in the ``*.cer`` format from the "
-"administrator or CA itself."
-
-# 4e513df3cabb4ea480f26eea29a9618b
-#: ../../how-to-use/working-pki.rst:12
-msgid ""
-"При помощи ПО `УЦ ПАК «КриптоПро УЦ 2.0» <https://www.cryptopro.ru/products/"
-"ca/2.0>`_ пользователь помещает сертификат в криптоконтейнер и передаёт его "
-"на ноду в keystore."
-msgstr ""
-"A user places the certificate into a crypto container using the `CryptoPro "
-"CA 2.0 <https://www.cryptopro.ru/products/ca/2.0>`_ software and sends this "
-"data to the node keystore."
-
-# d6a4d1b48036419892b3ea1acf03dd7c
-#: ../../how-to-use/working-pki.rst:13
-msgid ""
-"Далее пользователь может применять методы API :ref:`PKI <pki-api>` для "
-"использования ЭП."
-msgstr ""
-"Further a user can use the API :ref:`PKI <pki-api>` methods for using the "
-"digital signature."
+"Using API :ref:`PKI /pki/verify <pki-api>` method you can verify qualified "
+"digital signature. You need to install the root certificate on the node for "
+"proper using of API :ref:`PKI /pki/verify <pki-api>` method. The CA root "
+"certificate uniquely identifies the certification authority and is the "
+"basis in the chain of trust."
 
 # 53cb3bf658714d46ba5cdafb87798795
-#: ../../how-to-use/working-pki.rst:16
+#: ../../how-to-use/working-pki.rst:17
 msgid "Как установить корневой сертификат на ноду"
 msgstr "How to install a root certificate on a node"
 
-# 7b650996a1b34b718c09e2bff126e084
-#: ../../how-to-use/working-pki.rst:18
-msgid ""
-"Для корректности работы методов API :ref:`PKI <pki-api>` необходимо "
-"установить корневой сертификат на ноду. Корневой сертификат УЦ однозначно "
-"идентифицирует центр сертификации и является основанием в цепочке доверия."
-msgstr ""
-"You need to install the root certificate on the node for proper using of "
-"API :ref:`PKI <pki-api>` methods. The CA root certificate uniquely "
-"identifies the certification authority and is the basis in the chain of "
-"trust."
-
 # 870aa92cd3934bd4a375804b9b661a0b
-#: ../../how-to-use/working-pki.rst:20
+#: ../../how-to-use/working-pki.rst:19
 msgid "Корневой сертификат устанавливается в следующую папку со средой Java:"
 msgstr "The root certificate is installing into the following Java directory:"
 
 # f0afdefcc2eb4547adf688b48032a7c1
-#: ../../how-to-use/working-pki.rst:26
+#: ../../how-to-use/working-pki.rst:25
 msgid ""
 "Пароль по умолчанию на хранилище сертификатов Java cacerts - ``changeit``. "
 "При желании вы можете изменить пароль. Установка сертификатов выполняется "
@@ -115,3 +61,71 @@ msgstr ""
 "The default password for the Java cacerts certificate store is "
 "``changeit``. You can change the password if you wish. Install certificates "
 "using the following command:"
+
+# 6e9cd437168d4f58ad77539f1cf55a35
+#~ msgid "Работа с PKI"
+#~ msgstr "Working with PKI"
+
+# 5c2f761b462147c4bcc6e70219c38738
+#~ msgid "Общий алгоритм работы с PKI состоит из следующих этапов:"
+#~ msgstr "Work with PKI includes the following stages:"
+
+# 696444f25d084cddb16e860bb9da29cc
+#~ msgid ""
+#~ "Пользователь готовит персональные данные для получения сертификата. Для "
+#~ "физического лица такими данными могут быть ФИО, из которых формируется "
+#~ "``commonName`` как идентификатор пользователя. Для юридических лиц это "
+#~ "может быть наименование организации и её адрес."
+#~ msgstr ""
+#~ "A user prepares the personal data for receiving a certificate. "
+#~ "Individuals can use the full name and surname for the creation of the "
+#~ "``commonName`` parameter as an user’s identifier. For legal entities "
+#~ "this may be a company name and its address."
+
+# bf5edb96f02a467f9b01c6f71d25787d
+#~ msgid ""
+#~ "Пользователь отправляет данные в УЦ в формате ``*.req`` для создания "
+#~ "сертификата. Администратор регистрирует данные о запросе в УЦ и на "
+#~ "основе предоставленных данных выпускает сертификат пользователя."
+#~ msgstr ""
+#~ "A user sends the data to CA using the ``*.req`` format to create the "
+#~ "certificate. An administrator sends the user request to CA, which issues "
+#~ "a digital certificate based on the provided data."
+
+# 04d6629ccd2f47bbbbb7b29b4a3c2747
+#~ msgid ""
+#~ "Пользователь получает сертификат в формате ``*.cer`` от администратора "
+#~ "УЦ или самого УЦ."
+#~ msgstr ""
+#~ "A user receives the digital certificate in the ``*.cer`` format from the "
+#~ "administrator or CA itself."
+
+# 4e513df3cabb4ea480f26eea29a9618b
+#~ msgid ""
+#~ "При помощи ПО `УЦ ПАК «КриптоПро УЦ 2.0» <https://www.cryptopro.ru/"
+#~ "products/ca/2.0>`_ пользователь помещает сертификат в криптоконтейнер и "
+#~ "передаёт его на ноду в keystore."
+#~ msgstr ""
+#~ "A user places the certificate into a crypto container using the "
+#~ "`CryptoPro CA 2.0 <https://www.cryptopro.ru/products/ca/2.0>`_ software "
+#~ "and sends this data to the node keystore."
+
+# d6a4d1b48036419892b3ea1acf03dd7c
+#~ msgid ""
+#~ "Далее пользователь может применять методы API :ref:`PKI <pki-api>` для "
+#~ "использования ЭП."
+#~ msgstr ""
+#~ "Further a user can use the API :ref:`PKI <pki-api>` methods for using "
+#~ "the digital signature."
+
+# 7b650996a1b34b718c09e2bff126e084
+#~ msgid ""
+#~ "Для корректности работы методов API :ref:`PKI <pki-api>` необходимо "
+#~ "установить корневой сертификат на ноду. Корневой сертификат УЦ "
+#~ "однозначно идентифицирует центр сертификации и является основанием в "
+#~ "цепочке доверия."
+#~ msgstr ""
+#~ "You need to install the root certificate on the node for proper using of "
+#~ "API :ref:`PKI <pki-api>` methods. The CA root certificate uniquely "
+#~ "identifies the certification authority and is the basis in the chain of "
+#~ "trust."
