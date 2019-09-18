@@ -863,6 +863,7 @@
    version          ,       ,+      ,+      ,Byte               , 1
    image            ,+      ,+      ,+      ,Array[Bytes]       , 32767
    imageHash        ,+      ,+      ,+      ,Array[Bytes]       , 32767
+   contractName     ,+      ,+      ,+      ,Array[Bytes]       , 32767
    params           ,+      ,+      ,+      ,List[DataEntry[_]] , 32767
    height           ,       ,+      ,       ,                   , 8
 
@@ -871,13 +872,15 @@
 .. code:: js
 
     {
-        "type": 103,
-        "sender":"3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
-        "image":"sum-contract-kv",
-        "params":[],
-        "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
-        "fee":500000
-    }
+      "fee": 100000000,
+      "image": "stateful-increment-contract:latest",
+      "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
+      "contractName": "stateful-increment-contract",
+      "sender": "3PudkbvjV1nPj1TkuuRahh4sGdgfr4YAUV2",
+      "params": [],
+      "type": 103,
+      "version": 1
+     }
 
 **Broadcasted JSON**
 
@@ -892,8 +895,9 @@
         "timestamp": 1550591678479,
         "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
         "version": 1, 
-        "image": "lshevtsova", 
-        "imageHash": "a93c124016b87bbbf1c1deff9638c0f9393d31289d824401d280f85098d154f7", 
+        "image": "stateful-increment-contract:latest", 
+        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
+        "contractName": "stateful-increment-contract",
         "params": [], 
         "height": 1619 
     }
@@ -943,7 +947,8 @@
                "value": 100
 
             }
-        ]
+        ],
+        "version": 1
     }
 
 **Broadcasted JSON**
@@ -1012,19 +1017,21 @@
         "proofs": [ "5whBipAWQgFvm3myNZe6GDd9Ky8199C9qNxLBHqDNmVAUJW9gLf7t9LBQDi68CKT57dzmnPJpJkrwKh2HBSwUer6" ], 
         "version": 1, 
         "tx": 
-        { 
-            "type": 103,
-            "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky", 
-            "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew", 
-            "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M", 
-            "fee": 500000, 
-            "timestamp": 1550591678479, 
-            "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
-            "version": 1, 
-            "image": "localhost:5000/lshevtsova", 
-            "imageHash": "a93c124016b87bbbf1c1deff9638c0f9393d31289d824401d280f85098d154f7", 
-            "params": [] 
-        }, 
+             {
+                "type": 103,
+                "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
+                "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew",
+                "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M",
+                "fee": 500000,
+                "timestamp": 1550591678479,
+                "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
+                "version": 1, 
+                "image": "stateful-increment-contract:latest", 
+                "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
+                "contractName": "stateful-increment-contract",
+                "params": [], 
+                "height": 1619 
+              }, 
         "results": [], 
         "height": 1619 
     }
