@@ -85,9 +85,8 @@ GET /contracts/{contractId}
 
 Возвращает результат исполнения смарт-контракта по его идентификатору (id транзакции создания контракта).
 
-**Пример запроса**
-
-http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s
+.. **Пример запроса**
+    http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s
 
 **Ответ метода:**
 
@@ -112,9 +111,8 @@ GET /contracts/executed-tx-for/{id}
 
 Возвращает результат исполнения смарт-контракта по идентификатору транзакции исполнения контракта.
 
-**Пример запроса**
-
-http://localhost:6862/contracts/executed-tx-for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
+.. **Пример запроса**
+    http://localhost:6862/contracts/executed-tx-for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
 
 **Ответ метода:**
 
@@ -132,19 +130,19 @@ http://localhost:6862/contracts/executed-tx-for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nq
     ],
     "version": 1,
     "tx": {
-      "type": 103,
-      "id": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2",
-      "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
-      "senderPublicKey": "2YvzcVLrqLCqouVrFZynjfotEuPNV9GrdauNpgdWXLsq",
-      "fee": 500000,
-      "timestamp": 1549365501462,
-      "proofs": [
-        "2ZK1Y1ecfQXeWsS5sfcTLM5W1KA3kwi9Up2H7z3Q6yVzMeGxT9xWJT6jREQsmuDBcvk3DCCiWBdFHaxazU8pbo41"
-      ],
-      "version": 1,
-      "image": "localhost:5000/contract256",
-      "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
-      "params": []
+        "type": 103,
+        "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
+        "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew",
+        "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M",
+        "fee": 500000,
+        "timestamp": 1550591678479,
+        "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
+        "version": 1, 
+        "image": "stateful-increment-contract:latest", 
+        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
+        "contractName": "stateful-increment-contract",
+        "params": [], 
+        "height": 1619
     },
     "results": []
   }
@@ -154,9 +152,8 @@ GET /contracts/{contractId}/{key}
 
 Возвращает значение исполнения смарт-контракта по его идентификатору (id транзакции создания контракта) и ключу {key}.
 
-**Пример запроса**
-
-http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s/updated
+.. **Пример запроса**
+    http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s/updated
 
 **Ответ метода:**
 

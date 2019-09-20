@@ -115,25 +115,31 @@
 .. code:: js
 
     {
-        "type": 103,
-        "sender":"3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
-        "image":"localhost:5000/sum-contract-kv",
-        "params":[],
-        "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
-        "fee":500000
-    }
+      "fee": 100000000,
+      "image": "stateful-increment-contract:latest",
+      "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
+      "contractName": "stateful-increment-contract",
+      "sender": "3PudkbvjV1nPj1TkuuRahh4sGdgfr4YAUV2",
+      "password": "",
+      "params": [],
+      "type": 103,
+      "version": 1
+     }
 
 **Пример запроса**
 
 .. code:: js
 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '    { \ 
-            "type": 103, \ 
-            "sender":"3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 
-            "image":"localhost:5000/sum-contract-kv", \ 
-            "params":[], \ 
-            "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662", \ 
-            "fee":500000 \ 
+            "fee": 100000000, \
+            "image": "stateful-increment-contract:latest", \
+            "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65", \
+            "contractName": "stateful-increment-contract", \
+            "sender": "3PudkbvjV1nPj1TkuuRahh4sGdgfr4YAUV2", \
+            "password": "", \
+            "params": [], \
+            "type": 103, \
+            "version": 1 \
         }' 'http://localhost:6862/transactions/sign'
 
 **Пример ответа**
@@ -141,19 +147,19 @@
 .. code:: js
 
     {
-    "type": 103,
-    "id": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2",
-    "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
-    "senderPublicKey": "2YvzcVLrqLCqouVrFZynjfotEuPNV9GrdauNpgdWXLsq",
-    "fee": 500000,
-    "timestamp": 1549443811183,
-    "proofs": [
-        "YSomSCKBhQWHKHR8f8ZMp7EzuA6Uouu1oq5WA5VDiZ8o2adL4XMQP3jgccketjGCEpnTnCjm5bABZG486CVR5ZM"
-    ],
-    "version": 1,
-    "image": "localhost:5000/sum-contract-kv",
-    "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
-    "params": []
+        "type": 103,
+        "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
+        "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew",
+        "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M",
+        "fee": 500000,
+        "timestamp": 1550591678479,
+        "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
+        "version": 1, 
+        "image": "stateful-increment-contract:latest", 
+        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
+        "contractName": "stateful-increment-contract",
+        "params": [], 
+        "height": 1619 
     }
 
 5. Отправить подписанную транзакцию в блокчейн. Ответ от метода sign необходимо передать на вход для метода broadcast.
@@ -163,19 +169,21 @@
 .. code:: js
 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '{ \ 
-    "type": 103, \ 
-    "id": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2", \ 
-    "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 
-    "senderPublicKey": "2YvzcVLrqLCqouVrFZynjfotEuPNV9GrdauNpgdWXLsq", \ 
-    "fee": 500000, \ 
-    "timestamp": 1549443811183, \ 
-    "proofs": [ \ 
-        "YSomSCKBhQWHKHR8f8ZMp7EzuA6Uouu1oq5WA5VDiZ8o2adL4XMQP3jgccketjGCEpnTnCjm5bABZG486CVR5ZM" \ 
-    ], \ 
-    "version": 1, \ 
-    "image": "localhost:5000/sum-contract-kv", \ 
-    "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662", \ 
-    "params": [] \ 
+    {
+        "type": 103, \
+        "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky", \
+        "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew", \
+        "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M", \
+        "fee": 500000, \
+        "timestamp": 1550591678479, \
+        "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], \
+        "version": 1, \
+        "image": "stateful-increment-contract:latest", \
+        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65", \
+        "contractName": "stateful-increment-contract", \
+        "params": [], \
+        "height": 1619 \
+    }
     }' 'http://localhost:6862/transactions/broadcast'
 
 5. По id транзакции убедиться, что транзакция с инициализацией контракта размещена в блокчейне.
@@ -187,20 +195,19 @@ http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJe
 .. code:: js
 
     {
-    "type": 103,
-    "id": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7   nqh5wTXvJeYGo2",
-    "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
-    "senderPublicKey": "2YvzcVLrqLCqouVrFZynjfotEuPNV9GrdauNpgdWXLsq",
-    "fee": 500000,
-    "timestamp": 1549365501462,
-    "proofs": [
-        "2ZK1Y1ecfQXeWsS5sfcTLM5W1KA3kwi9Up2H7z3Q6yVzMeGxT9xWJT6jREQsmuDBcvk3DCCiWBdFHaxazU8pbo41"
-    ],
-    "version": 1,
-    "image": "localhost:5000/contract256",
-    "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
-    "params": [],
-    "height": 1256
+        "type": 103,
+        "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
+        "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew",
+        "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M",
+        "fee": 500000,
+        "timestamp": 1550591678479,
+        "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
+        "version": 1, 
+        "image": "stateful-increment-contract:latest", 
+        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
+        "contractName": "stateful-increment-contract",
+        "params": [], 
+        "height": 1619 
     }
 
 Исполнение смарт-контракта

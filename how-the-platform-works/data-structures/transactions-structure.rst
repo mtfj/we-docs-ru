@@ -847,7 +847,7 @@
 103. CreateContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Ограничение на транзакцию - 150 КБ.
+.. warning:: Байтовое представление транзакции после подписания не должно превышать размер в 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
@@ -857,6 +857,7 @@
    id               ,       ,+      ,       ,Byte               , 1
    sender           ,+      ,+      ,       ,PublicKeyAccount   , 32\64
    senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount   , 32\64
+   password         ,+ (opt),       ,       ,String             , 32767
    fee              ,+      ,+      ,+      ,Long               , 8
    timestamp        ,+ (opt),+      ,+      ,Long               , 8
    proofs           ,       ,+      ,+      ,List[ByteStr]      , 32767
@@ -877,6 +878,7 @@
       "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
       "contractName": "stateful-increment-contract",
       "sender": "3PudkbvjV1nPj1TkuuRahh4sGdgfr4YAUV2",
+      "password": "",
       "params": [],
       "type": 103,
       "version": 1
@@ -907,7 +909,7 @@
 104. CallContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Ограничение на транзакцию - 150 КБ.
+.. warning:: Байтовое представление транзакции после подписания не должно превышать размер в 150 КБ.
 
 .. csv-table::
    :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
@@ -985,7 +987,7 @@
 105. ExecutedContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Ограничение на транзакцию - 150 КБ.
+.. warning:: Байтовое представление транзакции после подписания не должно превышать размер в 150 КБ.
 
 .. csv-table::
    :header: "Field","Broadcasted JSON","Blockchain state","Type"

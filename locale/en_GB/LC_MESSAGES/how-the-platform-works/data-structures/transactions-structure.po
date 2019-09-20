@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WE\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 17:24+0300\n"
-"PO-Revision-Date: 2019-09-18 17:25+0300\n"
+"POT-Creation-Date: 2019-09-19 16:56+0300\n"
+"PO-Revision-Date: 2019-09-19 17:24+0300\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -746,12 +746,12 @@ msgstr "String"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:676
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:733
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:809
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:870
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:928
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1059
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1129
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1166
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1215
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:871
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:930
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1061
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1131
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1168
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1217
 msgid "**JSON для вызова метода sign**"
 msgstr "**JSON to sign**"
 
@@ -768,10 +768,10 @@ msgstr "**JSON to sign**"
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:689
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:746
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:825
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:885
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:954
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1006
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1071
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:887
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:956
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1008
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1073
 msgid "**Broadcasted JSON**"
 msgstr "**Broadcasted JSON**"
 
@@ -990,17 +990,23 @@ msgstr "Option[Long]"
 msgid "103. CreateContractTransaction"
 msgstr "103. CreateContractTransaction"
 
-# 5a23890d4cea492c88320d8cf1aa101a
+# e7e0ba58eff445a0bc224856fbc9378f
+# 141ab47575e54cc3ba90e56d2552475e
+# 07ea505f67204cbe81225265cc21c332
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:850
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:910
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:988
-msgid "Ограничение на транзакцию - 150 КБ."
-msgstr "Transaction size limit is 150 KB."
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:912
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:990
+msgid ""
+"Байтовое представление транзакции после подписания не должно превышать размер в "
+"150 КБ."
+msgstr ""
+"The byte composition of the signed transaction should not exceed more than 150 "
+"KB."
 
 # 194562fbb7e047e391e81310e81a58f8
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
 msgid "Size(Bytes)"
-msgstr ""
+msgstr "Size(Bytes)"
 
 # 3cbdc98e824242e8a1339075ec6abfa4
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:1
@@ -1033,7 +1039,7 @@ msgid "List[DataEntry[_]]"
 msgstr "List[DataEntry[_]]"
 
 # a991cb1f708d451bb712eac99f4ec5aa
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:908
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:910
 msgid "104. CallContractTransaction"
 msgstr "104. CallContractTransaction"
 
@@ -1043,7 +1049,7 @@ msgid "contractId"
 msgstr "contractId"
 
 # 924ae11011264d2c9018ae5bc83d33d7
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:986
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:988
 msgid "105. ExecutedContractTransaction"
 msgstr "105. ExecutedContractTransaction"
 
@@ -1063,12 +1069,12 @@ msgid "results"
 msgstr "results"
 
 # c0a687f0beb7461c9e3c43a16a3bbff6
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1042
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1044
 msgid "106. DisableContractTransaction"
 msgstr "106. DisableContractTransaction"
 
 # 7013e7d4122a4d8da403bf85261a8649
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1092
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1094
 msgid "110. GenesisRegisterNodeTransaction"
 msgstr "110. GenesisRegisterNodeTransaction"
 
@@ -1078,7 +1084,7 @@ msgid "targetPubKey"
 msgstr "targetPubKey"
 
 # f209b97492c44a6abb604f8065e73929
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1110
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1112
 msgid "111. RegisterNodeTransaction"
 msgstr "111. RegisterNodeTransaction"
 
@@ -1088,7 +1094,7 @@ msgid "nodeName"
 msgstr "nodeName"
 
 # dc9249fb23fd4a888b0f7ed063050a90
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1146
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1148
 msgid "112. CreatePolicyTransaction"
 msgstr "112. CreatePolicyTransaction"
 
@@ -1111,17 +1117,17 @@ msgid "owners"
 msgstr "owners"
 
 # 67797f6aaa4c47cfae4419e788a3e7e8
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1194
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1196
 msgid "113. UpdatePolicyTransaction"
 msgstr "113. UpdatePolicyTransaction"
 
 # 55e87ffc8cba41b6ad8fcc70185444bc
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1245
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1247
 msgid "114. PolicyDataHashTransaction"
 msgstr "114. PolicyDataHashTransaction"
 
 # 612f41d561ea41f79555351258f098a4
-#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1247
+#: ../../how-the-platform-works/data-structures/transactions-structure.rst:1249
 msgid ""
 "Когда пользователь отправляет конфиденциальные данные в сеть при помощи :ref:"
 "`POST /privacy/sendData <privacy-api>`, нода автоматически формирует транзакцию "
@@ -1896,3 +1902,7 @@ msgstr "dataHash"
 # 5a23890d4cea492c88320d8cf1aa101a
 #~ msgid "Ограничение на объём данных в секции \"results\" - 150 КБ."
 #~ msgstr "Data size limit in \"params\" section is 150 KB."
+
+# 5a23890d4cea492c88320d8cf1aa101a
+#~ msgid "Ограничение на транзакцию - 150 КБ."
+#~ msgstr "Transaction size limit is 150 KB."

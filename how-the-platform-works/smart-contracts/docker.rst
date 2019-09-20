@@ -66,7 +66,8 @@ Cмарт-контракты Docker
    104, :ref:`CallContractTransaction <CallContractTransaction>`,Вызов контракта. Подписание транзакции производится инициатором исполнения контракта
    105, :ref:`ExecutedContractTransaction <ExecutedContractTransaction>`,"Запись результата исполнения контракта на стейт контракта. |br|  Подписание транзакции производится нодой, формирующей блок"
    106, :ref:`DisableContractTransaction <ExecutedContractTransaction>`,Запрет вызова контракта. |br|  Подписание транзакции производится пользователем с ролью :ref:`"contract_developer" <authorization>`
-   107, :ref:`UpdateContractTransaction <UpdateContractTransaction>`,Обновление кода контракта. |br|  Подписание транзакции производится пользователем с ролью :ref:`"contract_developer" <authorization>`
+   
+.. 107, :ref:`UpdateContractTransaction <UpdateContractTransaction>`,Обновление кода контракта. |br|  Подписание транзакции производится пользователем с ролью :ref:`"contract_developer" <authorization>`
 
 Конфигурация ноды
 -----------------------

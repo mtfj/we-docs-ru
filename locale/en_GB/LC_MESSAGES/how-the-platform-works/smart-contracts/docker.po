@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 16:03+0300\n"
+"POT-Creation-Date: 2019-09-19 16:56+0300\n"
+"PO-Revision-Date: 2019-09-19 17:25+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # acf92d7e615648a9bb86863203d11998
 #: ../../how-the-platform-works/smart-contracts/docker.rst:8
@@ -249,32 +249,13 @@ msgstr ""
 "Disables calling a contract. |br| Transaction is signed by a user with "
 "the role :ref:`\"contract_developer\" <authorization>`"
 
-# 4d9bc6ff51c84fadb8e043f815b0f4ab
-#: ../../how-the-platform-works/smart-contracts/docker.rst:1
-msgid "107"
-msgstr "107"
-
-# c1dfa311b16f440592140882e71f6006
-#: ../../how-the-platform-works/smart-contracts/docker.rst:1
-msgid ":ref:`UpdateContractTransaction <UpdateContractTransaction>`"
-msgstr ":ref:`UpdateContractTransaction <UpdateContractTransaction>`"
-
-# 08165396a1fd4ba58a45656c1432b1a6
-#: ../../how-the-platform-works/smart-contracts/docker.rst:1
-msgid ""
-"Обновление кода контракта. |br|  Подписание транзакции производится "
-"пользователем с ролью :ref:`\"contract_developer\" <authorization>`"
-msgstr ""
-"Updates the contract code. |br| Transaction is signed by a user with the "
-"role :ref:`\"contract_developer\" <authorization>`"
-
 # e25d290472784c2b8eb0072d3ed5a9e0
-#: ../../how-the-platform-works/smart-contracts/docker.rst:72
+#: ../../how-the-platform-works/smart-contracts/docker.rst:73
 msgid "Конфигурация ноды"
 msgstr "Node configuration"
 
 # 36cfd0d02add4aa09b675b92e65560c8
-#: ../../how-the-platform-works/smart-contracts/docker.rst:74
+#: ../../how-the-platform-works/smart-contracts/docker.rst:75
 msgid ""
 "Скачивание и исполнение Docker-контрактов, инициированных транзакциями с "
 "кодами ``103 - 107`` выполняется на нодах с включенной опцией ``docker-"
@@ -288,12 +269,12 @@ msgstr ""
 "<docker-configuration>`)."
 
 # b0699746e4a84a6a811704110500b205
-#: ../../how-the-platform-works/smart-contracts/docker.rst:78
+#: ../../how-the-platform-works/smart-contracts/docker.rst:79
 msgid "REST API"
 msgstr "REST API"
 
 # 5779552c373d4c4bb517579ab4d52a6c
-#: ../../how-the-platform-works/smart-contracts/docker.rst:80
+#: ../../how-the-platform-works/smart-contracts/docker.rst:81
 msgid ""
 "Описание REST API Docker-контрактов приведено в разделе :ref:`"
 "\"Использование\" > \"REST API ноды\" > \"Contracts\" <contracts>`."
@@ -302,12 +283,12 @@ msgstr ""
 "\"Use\" > \"Node's REST API\" > \"Contracts\" <contracts>`."
 
 # ba0b289321d54b2bbd47b108b2b5506b
-#: ../../how-the-platform-works/smart-contracts/docker.rst:83
+#: ../../how-the-platform-works/smart-contracts/docker.rst:84
 msgid "Примеры реализации"
 msgstr "Implementation examples"
 
 # 61f031364bb84d369e7cba8b4aaebbe8
-#: ../../how-the-platform-works/smart-contracts/docker.rst:85
+#: ../../how-the-platform-works/smart-contracts/docker.rst:86
 msgid ":ref:`Создание простого контракта <first-contract-tutorial>`"
 msgstr ":ref:`Creating a simple contract <first-contract-tutorial>`"
 
@@ -334,3 +315,19 @@ msgstr ":ref:`Creating a simple contract <first-contract-tutorial>`"
 #~ "Registry and a special (UpdateContractTransaction) transaction "
 #~ "published. The transaction contains a link to the Contract ID and an "
 #~ "updated Docker image."
+
+# 4d9bc6ff51c84fadb8e043f815b0f4ab
+#~ msgid "107"
+#~ msgstr "107"
+
+# c1dfa311b16f440592140882e71f6006
+#~ msgid ":ref:`UpdateContractTransaction <UpdateContractTransaction>`"
+#~ msgstr ":ref:`UpdateContractTransaction <UpdateContractTransaction>`"
+
+# 08165396a1fd4ba58a45656c1432b1a6
+#~ msgid ""
+#~ "Обновление кода контракта. |br|  Подписание транзакции производится "
+#~ "пользователем с ролью :ref:`\"contract_developer\" <authorization>`"
+#~ msgstr ""
+#~ "Updates the contract code. |br| Transaction is signed by a user with "
+#~ "the role :ref:`\"contract_developer\" <authorization>`"

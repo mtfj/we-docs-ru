@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 15:30+0300\n"
-"PO-Revision-Date: 2019-06-11 15:31+0300\n"
+"POT-Creation-Date: 2019-09-20 14:05+0300\n"
+"PO-Revision-Date: 2019-09-20 14:06+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # c167570d05af4cab8328bde01e574fba
@@ -27,8 +27,7 @@ msgstr "Contracts"
 # ccc227a86077466b91466f9a9e129f9a
 #: ../../how-to-use/rest-api-node/contracts.rst:6
 msgid "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`."
-msgstr ""
-"The rules for generating queries to the node are given in module :ref:`rest-api-node`."
+msgstr "The rules for generating queries to the node are given in module :ref:`rest-api-node`."
 
 # f8a620adb2a94b6aabaa693aa4b52f90
 #: ../../how-to-use/rest-api-node/contracts.rst:9
@@ -77,71 +76,64 @@ msgstr "GET /contracts/{contractId}"
 # bf5a05a4403d46068d36d5bcb9c6d95e
 #: ../../how-to-use/rest-api-node/contracts.rst:86
 msgid ""
-"Возвращает результат исполнения смарт-контракта по его идентификатору (id транзакции "
-"создания контракта)."
+"Возвращает результат исполнения смарт-контракта по его идентификатору (id транзакции создания "
+"контракта)."
 msgstr ""
 "Returns result of smart contract execution by its ID (contract creation transaction ID)."
 
-# afe4a78a36544b4595e50c7b8587ba3e
-#: ../../how-to-use/rest-api-node/contracts.rst:88
-#: ../../how-to-use/rest-api-node/contracts.rst:115
-#: ../../how-to-use/rest-api-node/contracts.rst:159
-msgid "**Пример запроса**"
-msgstr "**Sample query**"
-
-# 5d2efe2ae3b6419bb0bf95f32e8b44c3
-#: ../../how-to-use/rest-api-node/contracts.rst:90
-msgid "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s"
-msgstr "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s"
-
 # 75585e024b2c4032bd0bfebc55831cfd
-#: ../../how-to-use/rest-api-node/contracts.rst:92
-#: ../../how-to-use/rest-api-node/contracts.rst:119
-#: ../../how-to-use/rest-api-node/contracts.rst:163
+#: ../../how-to-use/rest-api-node/contracts.rst:91
+#: ../../how-to-use/rest-api-node/contracts.rst:117
+#: ../../how-to-use/rest-api-node/contracts.rst:158
 msgid "**Ответ метода:**"
 msgstr "**Method Response:**"
 
 # cb1d8213680d4d77956b5d147ba4a18b
-#: ../../how-to-use/rest-api-node/contracts.rst:111
+#: ../../how-to-use/rest-api-node/contracts.rst:110
 msgid "GET /contracts/executed-tx-for/{id}"
 msgstr "GET /contracts/executed-tx-for/{id}"
 
 # 174f48d51a66494e8a64b9e1ef1552a2
-#: ../../how-to-use/rest-api-node/contracts.rst:113
+#: ../../how-to-use/rest-api-node/contracts.rst:112
 msgid ""
 "Возвращает результат исполнения смарт-контракта по идентификатору транзакции исполнения "
 "контракта."
 msgstr "Returns result of smart contract execution by ID of contract execution transaction."
 
-# 705f01a56a384d91a0d085867e555bc1
-#: ../../how-to-use/rest-api-node/contracts.rst:117
-msgid ""
-"http://localhost:6862/contracts/executed-tx-"
-"for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"
-msgstr ""
-"http://localhost:6862/contracts/executed-tx-"
-"for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"
-
 # 2db80475b92145b388f54b16ff3285a3
-#: ../../how-to-use/rest-api-node/contracts.rst:155
+#: ../../how-to-use/rest-api-node/contracts.rst:151
 msgid "GET /contracts/{contractId}/{key}"
 msgstr "GET /contracts/{contractId}/{key}"
 
 # 9adc62da76444cae9a4d825e80d01ff2
-#: ../../how-to-use/rest-api-node/contracts.rst:157
+#: ../../how-to-use/rest-api-node/contracts.rst:153
 msgid ""
-"Возвращает значение исполнения смарт-контракта по его идентификатору (id транзакции "
-"создания контракта) и ключу {key}."
+"Возвращает значение исполнения смарт-контракта по его идентификатору (id транзакции создания "
+"контракта) и ключу {key}."
 msgstr ""
-"Returns smart contract execution value by its ID (contract creation transaction ID) and "
-"key {key}."
-
-# 6c0bcd49e47346c6b81d352c430c9516
-#: ../../how-to-use/rest-api-node/contracts.rst:161
-msgid "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s/updated"
-msgstr "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s/updated"
+"Returns smart contract execution value by its ID (contract creation transaction ID) and key "
+"{key}."
 
 # fcec553ff6964b8f9052f0d24c788d45
 #~ msgid "Функциональность Docker-контрактов доступна начиная с релиза версии 0.8."
+#~ msgstr "Functionality of Docker contracts is available starting from release of version 0.8."
+
+# 5d2efe2ae3b6419bb0bf95f32e8b44c3
+#~ msgid "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s"
+#~ msgstr "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s"
+
+# 6c0bcd49e47346c6b81d352c430c9516
+#~ msgid "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s/updated"
+#~ msgstr "http://localhost:6862/contracts/DkUTuWehJXvZMj44GT81KbhXhvsJnyPDCi4eW9BbrH3s/updated"
+
+# afe4a78a36544b4595e50c7b8587ba3e
+#~ msgid "**Пример запроса**"
+#~ msgstr "**Sample query**"
+
+# 705f01a56a384d91a0d085867e555bc1
+#~ msgid ""
+#~ "http://localhost:6862/contracts/executed-tx-"
+#~ "for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"
 #~ msgstr ""
-#~ "Functionality of Docker contracts is available starting from release of version 0.8."
+#~ "http://localhost:6862/contracts/executed-tx-"
+#~ "for/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"

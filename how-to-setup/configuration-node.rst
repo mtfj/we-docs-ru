@@ -205,19 +205,39 @@
 
     ::
 
-      privacy {
-        enable = true
-        url = "" # insert DB connection string here, example "jdbc:postgresql://db_hostname:5432/_____?user=_____________&password=____"
-        driver = "org.postgresql.Driver"
-        profile = "slick.jdbc.PostgresProfile$"
-        connectionPool = HikariCP
-        connectionTimeout = 5000
-        connectionTestQuery = "SELECT 1"
-        queueSize = 10000
-        numThreads = 10
-        schema = "public"
-        migration-dir = "db/migration"
-      }
+        privacy {
+          storage {
+          enabled = true
+          url = "jdbc:postgresql://"${POSTGRES_ADDRESS}":"${POSTGRES_PORT}"/"${POSTGRES_DB}
+          driver = "org.postgresql.Driver"
+          profile = "slick.jdbc.PostgresProfile$"  
+          user = ${POSTGRES_USER}
+          password = ${POSTGRES_PASSWORD}
+          connectionPool = HikariCP
+          connectionTimeout = 5000
+          connectionTestQuery = "SELECT 1"
+          queueSize = 10000
+          numThreads = 20
+          schema = "public"
+          migration-dir = "db/migration"
+          }
+         }
+
+В качестве базы данных для хранения конфиденциальных данных используется `PostgreSQL <https://www.postgresql.org/>`_. Необходимо установить БД PostgreSQL на машину с нодой и создать аккаунт доступа к БД. Вы можете воспользоваться справочной документацией на `PostgreSQL <http://www.postgresqltutorial.com/install-postgresql/>`_ для скачивания и установки версии, которая соответствует вашей ОС. Во время установки БД система предложит создать аккаунт для доступа к БД. Эти логин и пароль для доступа необходимо внести в соответствующие параметры ``user/password``.
+
+Внесите URL подключения к PostgreSQL в параметр ``url``. В URL входят следующие параметры:
+
+* POSTGRES_ADDRESS - адрес хоста PostgreSQL.
+* POSTGRES_PORT - номер порта хоста PostgreSQL.
+* POSTGRES_DB - наименование БД PostgreSQL.
+
+Можно указывать URL до БД PostgreSQL в одной строке с данными аккаунта. Пример представлен ниже, где ``user=user_privacy_node_0@vst-dev`` это логин пользователя, ``password=7nZL7Jr41qOWUHz5qKdypA&sslmode=require`` - пароль с опцией требования его ввода при авторизации.
+
+**Пример**
+
+    ::
+
+        privacy.storage.url = "jdbc:postgresql://vostk-dev.postgres.database.azure.com:5432/privacy_node_0?user=user_privacy_node_0@vst-dev&password=7nZL7Jr41qOWUHz5qKdypA&sslmode=require"
 
 .. _anchoring-settings:
 
@@ -260,9 +280,9 @@
       
 **Параметры анкоринга**
 
-* ``height-range`` - диапазон блоков, через который нода приватного блокчейна отправляет в Mainnet транзакции для анкоринга.
-* ``height-above`` - диапазон блоков в Mainnet, через который нода приватного блокчейна создаёт подтверждающую анкоринг транзакцию с данными первой транзакции. Рекомендуется устанавливать значение, близкое к максимальной величине отката в Mainnet ``max-rollback-depth``.
-* ``threshold`` - число блоков, которое отнимается от текущей высоты приватного блокчейна. В транзакцию для анкоринга, отправляемую в Mainnet, попадёт информация из блока на высоте ``current-height - threshold``. Если устанавливается значение 0, то берётся информация из текущего блока. Рекомендуется устанавливать значение, близкое к максимальной величине отката в приватном блокчейне ``max-rollback-depth``.
+* ``height-range`` - число блоков, через которое нода приватного блокчейна отправляет в Mainnet транзакции для анкоринга.
+* ``height-above`` - число блоков в Mainnet, через которое нода приватного блокчейна создаёт подтверждающую анкоринг транзакцию с данными первой транзакции. Рекомендуется устанавливать значение, близкое к максимальной величине отката в Mainnet ``max-rollback``.
+* ``threshold`` - число блоков, которое отнимается от текущей высоты приватного блокчейна. В транзакцию для анкоринга, отправляемую в Mainnet, попадёт информация из блока на высоте ``current-height - threshold``. Если устанавливается значение 0, то берётся информация из текущего блока. Рекомендуется устанавливать значение, близкое к максимальной величине отката в приватном блокчейне ``max-rollback``.
 
 **Параметры авторизации при использовании анкоринга**
 
@@ -270,16 +290,20 @@
 
 В случае выбора авторизации по ``api-key-hash`` достаточно указать значение ключа в параметре ``api-key`` ниже. Если вы выбираете авторизацию по токену, необходимо указать ``type = "auth-service"``, раскомментировать параметры ниже и установить для них значения:
 
-* ``authorization-token`` - постоянный авторизационный токен
+* ``authorization-token`` - постоянный авторизационный токен.
 * ``authorization-service-url`` - URL-адрес сервиса авторизации.
 * ``token-update-interval`` - интервал обновления авторизационного токена.
 
 **Параметры для доступа Mainnet**
 
+Для ноды, которая будет отправлять транзакции анкоринга в Mainnet, генерируется отдельный файл ``keystore.dat`` с ключевой парой для доступа в Mainnet.
+
 * ``mainnet-scheme-byte`` - байт сети Mainnet.
-* ``mainnet-node-address`` - сетевой адрес ноды в сети Mainnet, от которого будут отправляться транзакции для анкоринга.
-* ``mainnet-node-port`` - номер порта ноды в сети Mainnet, от которого будут отправляться транзакции для анкоринга.
-* ``mainnet-node-recipient-address`` - адрес ноды в сети Mainnet, от которого будут отправляться транзакции для анкоринга.
+* ``mainnet-node-address`` - сетевой адрес ноды в сети Mainnet, на который будут отправляться транзакции для анкоринга.
+* ``mainnet-node-port`` - номер порта ноды в сети Mainnet, на который будут отправляться транзакции для анкоринга.
+* ``mainnet-node-recipient-address`` - адрес ноды в сети Mainnet, на который будут записываться транзакции для анкоринга, подписанные ключевой парой данного адреса.
+
+Сетевой адрес и порт для анкоринга в сеть Mainnet/Partnernet можно получить у сотрудников технической поддержки Waves Enterprise. Если используется несколько приватных блокчейнов с взаимным анкорингом, то необходимо использовать соответствующие сетевые настройки частных сетей.
 
 **Параметры авторизации на Mainnet, секция wallet**
 
