@@ -32,7 +32,8 @@ Cмарт-контракты Docker
     ADD contract.py /
     ADD run.sh /
     RUN chmod +x run.sh
-    CMD ["/bin/sleep", "6000"]
+    RUN apk add --no-cache --update iptables
+    CMD exec /bin/sh -c "trap : TERM INT; (while true; do sleep 1000; done) & wait"
 
 Установка контракта реализуется через публикацию специальной (CreateContractTransaction) транзакции, содержащей ссылку на образ в Docker Registry. 
 После получения транзакции нода скачивает образ по указанной в поле "image" ссылке, образ проверяется и запускается в виде Docker-контейнера.

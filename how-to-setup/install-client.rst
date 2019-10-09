@@ -21,11 +21,22 @@
         
         // nginx-proxy.env listing 
         
-        VOSTOK_NODE_ADDRESS=http://yournet.vostoknodes.com:6862
-        VOSTOK_NODE_HOST=yournet.vostoknodes.com:6862
+        VOSTOK_NODE_ADDRESS=http://yournet.wavesenterprise.com:6862
+        VOSTOK_NODE_HOST=yournet.wavesenterprise.com:6862
 
-4. Запустите скрипт развертывания командой ``bash ./deploy.sh``.
-5. Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, что клиент системы успешно развернут.
+4. В конфигурационном файле приложения ``frontend-deployment/config/postgres.env`` в параметрах ``POSTGRES_USER`` и ``POSTGRES_PASSWORD`` укажите логин и пароль для пользователя соответственно. Рекомендуется использовать сложные комбинации букв, цифр и символов для повышения уровня безопасности.
+
+    .. code:: js
+        
+        // postgres.env listing 
+        
+        POSTGRES_HOST=crawler-db
+        POSTGRES_DB=blockchain
+        POSTGRES_USER=user login
+        POSTGRES_PASSWORD=user password
+
+5. Запустите скрипт развертывания командой ``bash ./deploy.sh``.
+6. Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, что клиент системы успешно развернут.
 
 .. note:: Ознакомиться с подробным описанием компонентов установленного приложение можно в разделе :ref:`Описание клиента <client>`.
 

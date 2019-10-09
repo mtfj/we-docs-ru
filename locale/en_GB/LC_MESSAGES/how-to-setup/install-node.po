@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-19 16:56+0300\n"
-"PO-Revision-Date: 2019-09-19 17:26+0300\n"
+"POT-Creation-Date: 2019-10-08 17:12+0300\n"
+"PO-Revision-Date: 2019-10-09 14:51+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -130,13 +130,8 @@ msgstr "Crypto-option for JSP."
 msgid "Модуль шифрования."
 msgstr "Crypto-app."
 
-# cc1d5f406b054b8c91c7067aed2bc95e
-#: ../../how-to-setup/install-node.rst:44
-msgid "Провайдер TLS."
-msgstr "TLS."
-
 # 35d1e77a450b4eb9ab0abcfed7da7404
-#: ../../how-to-setup/install-node.rst:45
+#: ../../how-to-setup/install-node.rst:44
 msgid ""
 "CAdES, XAdES требуют установки зависимых пакетов ``bcpkix-jdk15on-1.50.jar`` и "
 "``bcprov-jdk15on-1.50.jar``. Скопируйте файлы *jcp-2.0.39014.zip/dependencies/"
@@ -150,12 +145,12 @@ msgstr ""
 "lib/ext**."
 
 # d7386374799242b2aceaa83e878059f2
-#: ../../how-to-setup/install-node.rst:51 ../../how-to-setup/install-node.rst:132
+#: ../../how-to-setup/install-node.rst:50 ../../how-to-setup/install-node.rst:131
 msgid "Windows"
 msgstr "Windows"
 
 # f63dbf409b714fadba56010b6f122161
-#: ../../how-to-setup/install-node.rst:53
+#: ../../how-to-setup/install-node.rst:52
 msgid ""
 "Windows позволяет устанавливать ПО КриптоПро JCP при помощи командной строки "
 "или графического интерфейса. Используйте один из двух типов установки согласно "
@@ -166,7 +161,7 @@ msgstr ""
 "instructions **ЖТЯИ.00091-01 91 01. Instructions for use** for Windows."
 
 # b129ebfcbde34fb0a33d9e69799dce36
-#: ../../how-to-setup/install-node.rst:58
+#: ../../how-to-setup/install-node.rst:57
 msgid ""
 "Если в процессе инсталляции возникают ошибки, связанные с JRE, то необходимо "
 "проверить корректность пути до исполняемого файла java пакета JRE, указанного "
@@ -176,12 +171,12 @@ msgstr ""
 "exe file of JRE package is specified correctly in the system ``PATH`` variable."
 
 # 9263c560d8ef4e48b92e227a16a2bea5
-#: ../../how-to-setup/install-node.rst:66
+#: ../../how-to-setup/install-node.rst:65
 msgid "Linux"
 msgstr "Linux"
 
 # 1dea2bc1e6e5493f95e9495483498cd6
-#: ../../how-to-setup/install-node.rst:68
+#: ../../how-to-setup/install-node.rst:67
 msgid ""
 "Пропишите переменные окружения Java JDK для всех пользователей, набрав в "
 "терминале команду:"
@@ -190,12 +185,12 @@ msgstr ""
 "following command in the terminal:"
 
 # f12e735b15984deaaa3b04c07921a34f
-#: ../../how-to-setup/install-node.rst:74
+#: ../../how-to-setup/install-node.rst:73
 msgid "В данный файл внесите значения переменных окружения:"
 msgstr "Enter the following values of the environment variables into this file:"
 
 # c2feac2ba02540479453edae1bc046b9
-#: ../../how-to-setup/install-node.rst:82
+#: ../../how-to-setup/install-node.rst:81
 msgid ""
 "Если на сервере стоит несколько версий Java JDK, то необходимо "
 "зарегистрировать альтернативы для новой версии."
@@ -204,12 +199,12 @@ msgstr ""
 "new one."
 
 # 590f61334425405c8bb1130475eef637
-#: ../../how-to-setup/install-node.rst:94
+#: ../../how-to-setup/install-node.rst:93
 msgid "Обеспечьте пользователей необходимыми правами:"
 msgstr "Provide users with corresponding rights:"
 
 # 9dc9c650fca94808a1b6eff1e2f15940
-#: ../../how-to-setup/install-node.rst:100
+#: ../../how-to-setup/install-node.rst:99
 msgid ""
 "Для использования КриптоПро прочтите соответствующий раздел установки под "
 "Linux из инструкции **ЖТЯИ.00091-01 91 01. Инструкция по использованию**."
@@ -218,13 +213,13 @@ msgstr ""
 "**ЖТЯИ.00091-01 91 01**."
 
 # 4d0a27db934b4430b768beba442e3265
-#: ../../how-to-setup/install-node.rst:105
-#: ../../how-to-setup/install-node.rst:185
+#: ../../how-to-setup/install-node.rst:104
+#: ../../how-to-setup/install-node.rst:184
 msgid "Mac"
 msgstr "Mac"
 
 # ea8bfa3d8ec94daca2aadae9b9e9d320
-#: ../../how-to-setup/install-node.rst:107
+#: ../../how-to-setup/install-node.rst:106
 msgid ""
 "Для установки Java JDK используйте официальный сайт Oracle. Следуйте "
 "инструкциям сайта по установке пакета \"1.8.X_XXX\" - версии. Вы можете "
@@ -234,7 +229,7 @@ msgstr ""
 "of the site to install \"1.8.X_XXX\" package - version. You can use OpenJDK"
 
 # c5aa8e8aa10d4d148a66f448fe972351
-#: ../../how-to-setup/install-node.rst:114
+#: ../../how-to-setup/install-node.rst:113
 msgid ""
 "Установите значение ``JAVA_HOME`` равным `` /usr/local/Cellar/adoptopenjdk-"
 "openjdk8/jdk8u172-b11 ``"
@@ -243,7 +238,7 @@ msgstr ""
 "jdk8u172-b11 ``"
 
 # 93a84bd1b801432b8372de7ea7be73b2
-#: ../../how-to-setup/install-node.rst:116
+#: ../../how-to-setup/install-node.rst:115
 msgid ""
 "При установке КриптоПро под MAC используйте соответствующий раздел инструкции "
 "**ЖТЯИ.00091-01 91 01. Инструкция по использованию**."
@@ -252,13 +247,13 @@ msgstr ""
 "**ЖТЯИ.00091-01 91 01**."
 
 # 5644b6978def4989bcf335ae1613b531
-#: ../../how-to-setup/install-node.rst:121
+#: ../../how-to-setup/install-node.rst:120
 msgid "Установка ноды"
 msgstr "Node Installation"
 
 # 1a8d993b352448c1bda88a4379875043
-#: ../../how-to-setup/install-node.rst:134
-#: ../../how-to-setup/install-node.rst:187
+#: ../../how-to-setup/install-node.rst:133
+#: ../../how-to-setup/install-node.rst:186
 msgid ""
 "Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ "
 "ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в "
@@ -271,8 +266,8 @@ msgstr ""
 "configs>`_. The latest version is on the top:"
 
 # dd64dc54854149e4b9cf361d28e9d569
-#: ../../how-to-setup/install-node.rst:141
-#: ../../how-to-setup/install-node.rst:194
+#: ../../how-to-setup/install-node.rst:140
+#: ../../how-to-setup/install-node.rst:193
 msgid ""
 "Отредактируйте конфигурационный файл в соответствии с руководством :ref:"
 "`Конфигурация ноды <configuration>`."
@@ -281,23 +276,23 @@ msgstr ""
 "<configuration>` section."
 
 # e406ece079284a1e96c2622b7d83e461
-#: ../../how-to-setup/install-node.rst:143
+#: ../../how-to-setup/install-node.rst:142
 msgid "Запустите ноду, набрав в командной строке вашей ОС:"
 msgstr "Run the node using the following command:"
 
 # 792c0068b36b4c4093cc07f4fce35c0c
-#: ../../how-to-setup/install-node.rst:149
-#: ../../how-to-setup/install-node.rst:202
+#: ../../how-to-setup/install-node.rst:148
+#: ../../how-to-setup/install-node.rst:201
 msgid "Для остановки ноды можно использовать сочетание клавиш ``ctrl + C``."
 msgstr "You can use the ``ctrl + C`` keys to stop the node."
 
 # dbefdfd311b44701b80c9822610804a1
-#: ../../how-to-setup/install-node.rst:154
+#: ../../how-to-setup/install-node.rst:153
 msgid "Linux (Ubuntu)"
 msgstr "Linux (Ubuntu)"
 
 # 528aea1c2b0c413cae9ca67fc6949e76
-#: ../../how-to-setup/install-node.rst:156
+#: ../../how-to-setup/install-node.rst:155
 msgid ""
 "Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ "
 "ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта "
@@ -310,7 +305,7 @@ msgstr ""
 "configs>`_."
 
 # dd64dc54854149e4b9cf361d28e9d569
-#: ../../how-to-setup/install-node.rst:158
+#: ../../how-to-setup/install-node.rst:157
 msgid ""
 "Отредактируйте конфигурационный файл в соответствии с руководством :ref:`"
 "\"Конфигурация ноды\" <configuration>`."
@@ -319,7 +314,7 @@ msgstr ""
 "<configuration>` section."
 
 # a1491c6e513647f0b03a3df6159b1f3a
-#: ../../how-to-setup/install-node.rst:160
+#: ../../how-to-setup/install-node.rst:159
 msgid ""
 "Установите ноду из скачанного deb-пакета, соответствущего дистрибутиву Linux. "
 "Ниже приведен пример для .deb-пакета. Команда для установки следующая:"
@@ -329,32 +324,32 @@ msgstr ""
 "command is:"
 
 # cba92c2259a248daa08e66c7f2497bda
-#: ../../how-to-setup/install-node.rst:166
+#: ../../how-to-setup/install-node.rst:165
 msgid "Директория для конфигурационного файла - /etc/vostok/vostok.conf"
 msgstr "Directory for configuration file - /etc/vostok/vostok.conf"
 
 # 6203c3c457824dd6b8523b87f18a49f7
-#: ../../how-to-setup/install-node.rst:167
+#: ../../how-to-setup/install-node.rst:166
 msgid "Директория для jar-файла и библиотек - /usr/share/vostok/"
 msgstr "Directory for jar-file and libraries - /usr/share/vostok/"
 
 # 7d3decbcd7df40fc852869599e738daf
-#: ../../how-to-setup/install-node.rst:168
+#: ../../how-to-setup/install-node.rst:167
 msgid "Директория для данных блокчейна - /var/lib/vostok/"
 msgstr "Directory for blockchain data - /var/lib/vostok/"
 
 # 50cc02d018fb47da8d60c87227a2ea66
-#: ../../how-to-setup/install-node.rst:170
+#: ../../how-to-setup/install-node.rst:169
 msgid "Запуск ноды выполняется командой:"
 msgstr "Launch the node using the command:"
 
 # 3b3f26e84bfc4849bc230311eccf4c1f
-#: ../../how-to-setup/install-node.rst:176
+#: ../../how-to-setup/install-node.rst:175
 msgid "Остановка ноды выполняется командой:"
 msgstr "Stop the node using the command:"
 
 # e406ece079284a1e96c2622b7d83e461
-#: ../../how-to-setup/install-node.rst:196
+#: ../../how-to-setup/install-node.rst:195
 msgid "Запустите ноду, набрав в консоли вашей ОС команду:"
 msgstr "Run the node using the following command:"
 
@@ -525,3 +520,7 @@ msgstr "Run the node using the following command:"
 #~ msgstr ""
 #~ "generators-x.x.x.jar - the utility for setting the Waves Enterprise node "
 #~ "parameters and creating user accounts."
+
+# cc1d5f406b054b8c91c7067aed2bc95e
+#~ msgid "Провайдер TLS."
+#~ msgstr "TLS."

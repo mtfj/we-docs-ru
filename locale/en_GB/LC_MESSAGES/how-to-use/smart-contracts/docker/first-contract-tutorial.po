@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 17:25+0300\n"
+"POT-Creation-Date: 2019-10-08 17:12+0300\n"
+"PO-Revision-Date: 2019-10-09 14:57+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 17b60065fd2a4897ba37bb5acacf74de
 #: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:4
@@ -119,14 +119,23 @@ msgstr "Listing of run.sh file"
 msgid "Листинг файла Dockerfile"
 msgstr "Dockerfile File Listing"
 
-# 2e71991976ea4c70b196978455624cd0
+# a39cd2eb66e64c96b57ebc815ef032d8
 #: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:97
+msgid ""
+"В контейнер со смарт-контрактом необходимо установить `iptables <https://en.wikipedia.org/"
+"wiki/Iptables>`_."
+msgstr ""
+"It is required to install `iptables <https://en.wikipedia.org/wiki/Iptables>`_ into the "
+"smart contract container."
+
+# 2e71991976ea4c70b196978455624cd0
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:99
 msgid "Установить образ в Docker registry. Выполнить в терминале следующие команды:"
 msgstr ""
 "Install the image in Docker registry. Execute the following commands in the terminal:"
 
 # d728d6e1f42b49ddbc7d3d415e306494
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:109
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:111
 msgid ""
 "Подписать транзакцию на создание смарт-контракта. В рассматриваемом примере транзакция "
 "подписывается ключом, сохраненным в keystore ноды."
@@ -135,7 +144,7 @@ msgstr ""
 "with the key stored in the node keystore."
 
 # edcf46ad268146a181c43b91b5b8a188
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:111
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:113
 msgid ""
 "Для создания ключевой пары и адреса участника используется утилита `generators.jar "
 "<https://github.com/waves-enterprise/WE-releases>`_. Порядок действий создания ключевой "
@@ -151,8 +160,8 @@ msgstr ""
 
 # fffc3fd6240c49259f1533e951e4fdf7
 # 4837d992c9f64be59225847bd2eb4ae1
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:113
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:215
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:115
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:224
 msgid "**Тело запроса**"
 msgstr "**Query Body**"
 
@@ -160,10 +169,10 @@ msgstr "**Query Body**"
 # 8a0f0adaca064238a02a221fc0a0028f
 # 22ffb8671f1e4354bcb436a89fed1883
 # 3ab7c8764344464493cef0e72985f719
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:126
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:161
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:240
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:297
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:131
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:169
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:249
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:306
 msgid "**Пример запроса**"
 msgstr "**Sample query**"
 
@@ -171,17 +180,17 @@ msgstr "**Sample query**"
 # 02f1d27af82d41e6be8e73763ae01926
 # cf6d33b80d87400fa2d772e4b491cabe
 # 7782fc72e49e4109ada161b364e23bab
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:139
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:185
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:265
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:331
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:147
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:195
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:274
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:340
 msgid "**Пример ответа**"
 msgstr "**Sample response**"
 
 # ede40c0d23e74ced99ab5cbde0c0a30f
 # 8106d0315d8e475aaafb5aac4aa23c36
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:159
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:295
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:167
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:304
 msgid ""
 "Отправить подписанную транзакцию в блокчейн. Ответ от метода sign необходимо передать на "
 "вход для метода broadcast."
@@ -190,7 +199,7 @@ msgstr ""
 "transferred to the input for the broadcast method."
 
 # 7f1b6155767546bb9c4365cc0b9deb2b
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:181
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:191
 msgid ""
 "По id транзакции убедиться, что транзакция с инициализацией контракта размещена в "
 "блокчейне."
@@ -199,31 +208,31 @@ msgstr ""
 "blockchain."
 
 # 107bde1e61504af9a545daee434cf8d0
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:183
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:193
 msgid "http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"
 msgstr "http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"
 
 # 49e8303e7a2d4d658812564d45313b48
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:207
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:216
 msgid "Исполнение смарт-контракта"
 msgstr "Smart Contract Execution"
 
 # 688c9d45d9674f13814c1075aad92b45
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:211
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:220
 msgid "Подписать call-транзакцию на вызов (исполнение) смарт-контракта."
 msgstr "Sign a call-transaction to call (execute) the smart contract."
 
 # c541e3dc5f4646b9b636d3b93037af97
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:213
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:222
 msgid "В поле ``contractId`` указать идентификатор транзакции инициализации контракта."
 msgstr "In the ''contractID'' field, specify the contract initialization transaction ID."
 
 # c0a6772cc39949e19c588d6f529683c3
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:327
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:336
 msgid "Получить результат выполнения смарт-контракта по его идентификатору."
 msgstr "Get the result of smart contract execution by its ID."
 
 # 1272fca5c2aa4719a3b334efe2751b2c
-#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:329
+#: ../../how-to-use/smart-contracts/docker/first-contract-tutorial.rst:338
 msgid "http://localhost:6862/contracts/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"
 msgstr "http://localhost:6862/contracts/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2"

@@ -41,7 +41,6 @@
 
 * Криптопровайдер JCP.
 * Модуль шифрования.
-* Провайдер TLS.
 * CAdES, XAdES требуют установки зависимых пакетов ``bcpkix-jdk15on-1.50.jar`` и ``bcprov-jdk15on-1.50.jar``. Скопируйте файлы *jcp-2.0.39014.zip/dependencies/bcpkix-jdk15on-1.50.jar* и *jcp-2.0.39014.zip/dependencies/bcprov-jdk15on-1.50.jar* в  **$JAVA_HOME/jre/lib/ext** (после ручной установки).
 
 

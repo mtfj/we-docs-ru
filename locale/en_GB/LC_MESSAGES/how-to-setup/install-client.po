@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-03 11:50+0300\n"
-"PO-Revision-Date: 2019-09-03 12:06+0300\n"
+"POT-Creation-Date: 2019-10-08 17:12+0300\n"
+"PO-Revision-Date: 2019-10-09 14:54+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 75bd9a11cb4649d586938e5502814d30
 #: ../../how-to-setup/install-client.rst:4
@@ -86,13 +86,28 @@ msgstr ""
 "Specify the path to REST API and node hostname in the configuration file "
 "of the application ``frontend-deployment/config/nginx-proxy.env``:"
 
-# 8b0c25e950d247329cb23d82edc259cc
+# 44066ad59b9343c48415de9b22a149d7
 #: ../../how-to-setup/install-client.rst:27
+msgid ""
+"В конфигурационном файле приложения ``frontend-deployment/config/"
+"postgres.env`` в параметрах ``POSTGRES_USER`` и ``POSTGRES_PASSWORD`` "
+"укажите логин и пароль для пользователя соответственно. Рекомендуется "
+"использовать сложные комбинации букв, цифр и символов для повышения "
+"уровня безопасности."
+msgstr ""
+"Specify a user login and a password in the ``POSTGRES_USER`` и "
+"``POSTGRES_PASSWORD`` parameters of the configuration file of the "
+"application ``frontend-deployment/config/postgres.env``. We recommend to "
+"use complex combinations of letters, numbers and symbols to increase "
+"your safety level."
+
+# 8b0c25e950d247329cb23d82edc259cc
+#: ../../how-to-setup/install-client.rst:38
 msgid "Запустите скрипт развертывания командой ``bash ./deploy.sh``."
 msgstr "Run the deployment script using the command ``bash ./deploy.sh``."
 
 # ee920413652341bab4c02710fb31e83d
-#: ../../how-to-setup/install-client.rst:28
+#: ../../how-to-setup/install-client.rst:39
 msgid ""
 "Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, "
 "что клиент системы успешно развернут."
@@ -101,7 +116,7 @@ msgstr ""
 "is successfully deployed."
 
 # 71b8e711415a4dc38b80b528793ccf33
-#: ../../how-to-setup/install-client.rst:30
+#: ../../how-to-setup/install-client.rst:41
 msgid ""
 "Ознакомиться с подробным описанием компонентов установленного приложение "
 "можно в разделе :ref:`Описание клиента <client>`."

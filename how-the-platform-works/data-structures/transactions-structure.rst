@@ -124,6 +124,7 @@
       "quantity": 100000000000,
       "description": "Some description",
       "sender": "3FSCKyfFo3566zwiJjSFLBwKvd826KXUaqR",
+      "password": "",
       "decimals": 8,
       "reissuable": true,
       "fee": 100000000
@@ -247,7 +248,8 @@
         "type": 5, 
         "version":2, 
         "quantity": 10000, 
-        "sender": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB", 
+        "sender": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB",
+        "password": "",
         "assetId": "7bE3JPwZC3QcN9edctFrLAKYysjfMEk1SDjZx5gitSGg", 
         "reissuable": true, 
         "fee": 100000001
@@ -307,6 +309,7 @@
         "type": 6,
         "version": 2,
         "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
+        "password": "",
         "assetId": "7bE3JPwZC3QcN9edctFrLAKYysjfMEk1SDjZx5gitSGg",
         "quantity": 1000,
         "fee": 100000,

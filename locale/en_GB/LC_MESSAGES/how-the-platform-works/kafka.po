@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-08 17:12+0300\n"
+"PO-Revision-Date: 2019-10-09 14:50+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
+
+# 2b6685ce4cfb4564868264db592c18a0
+#: ../../how-the-platform-works/kafka.rst:5
+msgid "Брокер сообщений Kafka"
+msgstr "Kafka message broker"
+
+# 619ce18abf8743a290bec5024cd32024
+#: ../../how-the-platform-works/kafka.rst:7
+msgid ""
+"`Apache Kafka <https://kafka.apache.org/>`_ представляет собой "
+"распределённую платформу потоковой передачи данных с открытым исходным "
+"кодом. Блокчейн-платформа Waves Enterprise использует Apache Kafka для "
+"сбора, хранения и поставки данных блокчейна потребителям."
+msgstr ""
+"`Apache Kafka <https://kafka.apache.org/>`_ is a distributed open source "
+"streaming platform. Waves Enterprise platform utilizes Apache Kafka for the "
+"to collect, store and deliver the blockchain data to customers."
+
+# accee346fe1e4aa1830ea6d12aab10a7
+#: ../../how-the-platform-works/kafka.rst:9
+msgid ""
+"Платформа `Apache Kafka <https://kafka.apache.org/>`_ состоит из одного или "
+"нескольких кластеров. В свою очередь кластер может включать в себя один или "
+"несколько серверов для хранения топиков с сообщениями. На самих серверах "
+"может быть запущено от одного серверного процесса по обработке и хранению "
+"сообщений, который называется брокером сообщений."
+msgstr ""
+"`Apache Kafka <https://kafka.apache.org/>`_ platform consists of one or "
+"several clusters. A cluster may include one or more servers to store message "
+"topics. A single server process or more can be run on these servers for the "
+"procession and storing messages, this process is called a message broker."
+
+# 10756295a1a0410c901b72695ffd7377
+#: ../../how-the-platform-works/kafka.rst:14
+msgid "Архитектура взаимодействия брокера сообщений с блокчейн-платформой"
+msgstr "Message broker platform interaction architecture"
+
+# 1fd564592d754bab90a26dc0dfc73801
+#: ../../how-the-platform-works/kafka.rst:16
+msgid ""
+"Платформа `Apache Kafka <https://kafka.apache.org/>`_ имеет следующие "
+"основные компоненты:"
+msgstr ""
+"`Apache Kafka <https://kafka.apache.org/>`_ platform has the following "
+"components:"
+
+# a86708f8895949a7b8eea08d8eb02d3d
+#: ../../how-the-platform-works/kafka.rst:18
+msgid "Кластер - компонент обработки и хранения данных."
+msgstr "Cluster - a processing and storing component."
+
+# 703ed8a8271c420bb9cd679e569a3850
+#: ../../how-the-platform-works/kafka.rst:19
+msgid ""
+"`ZooKeeper <https://zookeeper.apache.org/>`_ - интерфейс координации между "
+"брокерами Kafka и потребителями."
+msgstr ""
+"`ZooKeeper <https://zookeeper.apache.org/>`_ - a coordination interface "
+"between Kafka brokers and consumers."
+
+# 81e5d0d2be6f47afadc1d1c3b8bb611d
+#: ../../how-the-platform-works/kafka.rst:20
+msgid "Производитель - поставщик потока данных."
+msgstr "Producer - a data stream supplier."
+
+# d6f528d7469f48cca477b14d1c728ff1
+#: ../../how-the-platform-works/kafka.rst:21
+msgid "Потребитель - приложения или процессы, подписанные на получение данных."
+msgstr ""
+"Consumer - applications and processes, which was subscribed for the data "
+"receiving."
+
+# 762a74bb455945bda2768ee6ff5a5307
+#: ../../how-the-platform-works/kafka.rst:29
+msgid "Схема взаимодействия блокчейн-платформы Waves Enterprise и Apache Kafka"
+msgstr ""
+"Blockchain platform interaction scheme between Waves Enterprise and Apache "
+"Kafka"
+
+# 98fb2c2b66c74ef0a7899740667173a8
+#: ../../how-the-platform-works/kafka.rst:31
+msgid ""
+"Кластер `Apache Kafka <https://kafka.apache.org/>`_ хранит потоки данных, "
+"сгруппированные по разделам (topic). Каждая запись состоит из пары ключ-"
+"значение и временной метки (key, value, timestamp). Для каждого раздела "
+"Kafka ведёт секционированный журнал. Каждая секция журнала представляет "
+"собой упорядоченную, неизменяемую последовательность записей, которая "
+"постоянно добавляется к секционированному журналу. Каждой записи в секции "
+"присваивается уникальный идентификатор, который называется ``offset``. "
+"Кластер Kafka сохраняет все опубликованные записи в течение настраиваемого "
+"периода хранения независимо от того, были ли они поставлены потребителям или "
+"нет."
+msgstr ""
+"`Apache Kafka <https://kafka.apache.org/>`_ cluster stores the data streams "
+"grouped by topics. Each record consists of a key-value pair and a timestamp "
+"(key, value, timestamp). Kafka keeps a partitioned log for each section. "
+"Each partition of the log is an ordered, unchangeable sequence of entries, "
+"which is constantly added to the partitioned log. Each entry is assigned a "
+"unique identifier called ``offset``. The Kafka cluster stores all published "
+"entries during a configurable storage period, regardless of whether they "
+"have been delivered to consumers or not."
+
+# 9158e38edf404e1cbbc6e698311ae539
+#: ../../how-the-platform-works/kafka.rst:33
+msgid ""
+"`ZooKeeper <https://zookeeper.apache.org/>`_ позволяет распределенным "
+"процессам взаимодействовать друг с другом через общее иерархическое "
+"пространство имен, организованное аналогично стандартной файловой системе. "
+"Пространство имен состоит из регистров данных, похожих на файлы и каталоги, "
+"и называемых Z-нодами. Имя - это последовательность элементов пути, "
+"разделенная косой чертой (/). Каждая Z-нода в пространстве имен ZooKeeper "
+"идентифицируется по этому пути."
+msgstr ""
+"`ZooKeeper <https://zookeeper.apache.org/>`_ allows distributed processes to "
+"communicate with each other through a common hierarchical namespace, "
+"organized similarly to a standard file system. The namespace consists of "
+"data registers similar to files and directories and called Z-nodes. A name "
+"is a sequence of path elements separated by a slash (/). Each Z-node in the "
+"ZooKeeper namespace is identified by this path."
+
+# 456b87486e23414a83cfa4d921c4f9d8
+#: ../../how-the-platform-works/kafka.rst:35
+msgid ""
+"Производителем и поставщиком данных является блокчейн-платформа Waves "
+"Enterprise. В качестве данных используются все транзакции, попавшие в блок. "
+"В структуре каждой записи ключом является высота блокчейна, а значением - "
+"`сериализованный <https://en.wikipedia.org/wiki/Serialization>`_ вид всего "
+"соержимого блока."
+msgstr ""
+"Blockchain platform Waves Enterprise is a data producer and a supplier. All "
+"transactions included in the block are used as data. The key is the height "
+"of the blockchain in the structure of each record, and the value is a "
+"`serialized <https://en.wikipedia.org/wiki/Serialization>`_ view of the "
+"entire block content."
+
+# b2cde8abf5cc43f19d6403b111569bce
+#: ../../how-the-platform-works/kafka.rst:37
+msgid ""
+"Потребителями данных могут быть любые сервисы и приложения. `Apache Kafka "
+"<https://kafka.apache.org/>`_ предоставляет по умолчанию Java-клиент для "
+"работы с сообщениями, также клиенты доступны на многих других языках."
+msgstr ""
+"Any application or service can be a consumer. `Apache Kafka <https://kafka."
+"apache.org/>`_ provides a Java client for messages, but clients are "
+"available in many languages."

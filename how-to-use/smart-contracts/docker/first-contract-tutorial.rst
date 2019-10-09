@@ -94,6 +94,8 @@
     RUN apk add --no-cache --update iptables
     CMD exec /bin/sh -c "trap : TERM INT; (while true; do sleep 1000; done) & wait"
 
+.. important:: В контейнер со смарт-контрактом необходимо установить `iptables <https://en.wikipedia.org/wiki/Iptables>`_.
+
 3. Установить образ в Docker registry. Выполнить в терминале следующие команды:
 
 .. code:: js
