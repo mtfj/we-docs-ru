@@ -190,7 +190,6 @@
 
 5. По id транзакции убедиться, что транзакция с инициализацией контракта размещена в блокчейне.
 
-http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
 
 **Пример ответа**
 
@@ -334,8 +333,6 @@ http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJe
     }' 'http://localhost:6862/transactions/broadcast'
 
 3. Получить результат выполнения смарт-контракта по его идентификатору.
-
-http://localhost:6862/contracts/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
 
 **Пример ответа**
 
