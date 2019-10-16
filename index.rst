@@ -26,6 +26,7 @@
    how-the-platform-works/smart-contracts
    how-the-platform-works/anchoring
    how-the-platform-works/kafka
+   how-the-platform-works/authorization-service
 
 ..   how-the-platform-works/pki-description
 
@@ -38,10 +39,12 @@
    how-to-use/partnernet
    how-to-use/rest-api-node
    how-to-use/rest-api-methods
+   how-to-use/rest-api-auth-methods
    how-to-use/smart-contracts-docker
    how-to-use/role-management
    how-to-use/pki
    how-to-use/operations-node
+   
 .. how-to-use/smart-contracts-ride
 
 .. toctree::
