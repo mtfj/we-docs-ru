@@ -17,6 +17,58 @@ POST ​/auth​/login
 Создание пары токенов - **access** и **refresh**.
 
 
+POST ​/auth​/token
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+POST ​/auth​/refresh
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+GET ​/auth​/publicKey
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Методы автризации user
+----------------------------
+
+
+
+GET ​/user​/doesEmailExist
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+GET ​/user​/confirm​/{code}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+POST ​/user​/create
+~~~~~~~~~~~~~~~~~~~~
+
+
+POST ​/user​/resendEmail
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+POST ​/user​/password​/restore
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+POST ​/user​/password​/reset
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+GET ​/user​/{id}
+~~~~~~~~~~~~~~~~~~
+
+
+POST ​/user​/{id}​/addresses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 
 

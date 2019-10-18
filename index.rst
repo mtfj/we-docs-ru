@@ -44,7 +44,7 @@
    how-to-use/role-management
    how-to-use/pki
    how-to-use/operations-node
-   
+
 .. how-to-use/smart-contracts-ride
 
 .. toctree::
@@ -54,9 +54,10 @@
 
    how-to-setup/system-requirement
    how-to-setup/install-node
-   how-to-setup/configuration-node
+   how-to-setup/config-node-opers
    how-to-setup/install-client
-   how-to-setup/docker-configuration
+
+
 
 .. toctree::
    :maxdepth: 2
