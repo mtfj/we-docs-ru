@@ -121,7 +121,7 @@
         }
       }
 
-      # Mainnet genesis settings
+      # Genesis settings
       genesis {
         average-block-delay: 60s
         initial-base-target: 153722867
