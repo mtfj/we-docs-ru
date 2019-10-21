@@ -17,7 +17,7 @@ GET /contracts
    [
      {
        "contractId": "dmLT1ippM7tmfSC8u9P4wU6sBgHXGYy6JYxCq1CCh8i",
-       "image": "registry.vostokservices.com/vostok-sc/may14_1:latest",
+       "image": "registry.wvservices.com/wv-sc/may14_1:latest",
        "imageHash": "ff9b8af966b4c84e66d3847a514e65f55b2c1f63afcd8b708b9948a814cb8957",
        "version": 1,
        "active": false

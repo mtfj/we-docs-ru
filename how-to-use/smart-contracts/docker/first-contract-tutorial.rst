@@ -10,8 +10,6 @@
 
 В разделе рассматривается пример создания и запуска простого смарт-контракта. Контракт выполняет суммирование 2х чисел, переданных на вход контракта в :ref:`call-транзакции <first-contract-tutorial-call>`.
 
-.. `Скачать <contracts-sample/sum-contract-kv_1.0.zip>`_ исходный код контракта.
-
 Листинг программы ``contract.py`` на Python:
 
 .. code:: python
@@ -68,8 +66,6 @@
 -----------------------------------
 
 1. Скачать и установить `Docker for Developers <https://www.docker.com/get-started>`_ для вашей операционной системы.
-
-.. hint:: Для операционной системы Windows в настройках Docker включить признак "Expose deamon on .... without TLS".
 
 2. Подготовить образ контракта. В папке ``sum-contract-kv`` создать следующие файлы:
 
@@ -132,7 +128,7 @@
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '    { \ 
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '    { \ 
             "fee": 100000000, \
             "image": "stateful-increment-contract:latest", \
             "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65", \
@@ -170,7 +166,7 @@
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '{ \ 
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '{ \ 
     {
         "type": 103, \
         "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky", \
@@ -249,7 +245,7 @@
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '{ \ 
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '{ \ 
         "contractId": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2", \ 
         "fee": 10, \ 
         "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 
@@ -306,7 +302,7 @@
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '{ \ 
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '{ \ 
     "type": 104, \ 
     "id": "9fBrL2n5TN473g1gNfoZqaAqAsAJCuHRHYxZpLexL3VP", \ 
     "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 

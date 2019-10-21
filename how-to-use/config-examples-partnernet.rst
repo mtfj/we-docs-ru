@@ -17,7 +17,7 @@
       waves-crypto = yes
       chain-id = P
       amount = 1
-      wallet = "c:/nodes/vostoknodes/node0/keystore.dat"
+      wallet = ${user.home}"/nodeName/keystore.dat"
       wallet-password = "some string as password"
       reload-node-wallet {
         enabled = false
@@ -44,7 +44,7 @@
 
   ::
 
-      vostok {
+      node {
       waves-crypto = yes
       # Blockchain settings
       blockchain {
@@ -88,9 +88,9 @@
       # Port number
       port = 6864
       known-peers = [
-      "node0-partnernet.vostoknodes.com:6864",
-      "node1-partnernet.vostoknodes.com:6864",
-      "node2-partnernet.vostoknodes.com:6864"
+      "node0-partnernet.wavesenterprise.com:6864",
+      "node1-partnernet.wavesenterprise.com:6864",
+      "node2-partnernet.wavesenterprise.com:6864"
       ]
       # Node name to send during handshake. Comment this string out to set random node name.
       # String with IP address and port to send as external address during handshake. Could be set automatically if uPnP is enabled.
@@ -130,7 +130,7 @@
       # Optional connection string to docker host
       # docker-host = "unix:///var/run/docker.sock"
       # Optional string to node REST API if we use remote docker host
-      # node-rest-api = "https://clinton.vostokservices.com/node-0"
+      # node-rest-api = "https://clinton.weservices.com/node-0"
       execution-limits {
        timeout = 10s
        memory = 512

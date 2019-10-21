@@ -17,7 +17,7 @@
       waves-crypto = yes
       chain-id = V
       amount = 1
-      wallet = "c:/nodes/vostoknodes/node0/keystore.dat"
+      wallet = ${user.home}"/nodeName/keystore.dat"
       wallet-password = "some string as password"
       reload-node-wallet {
         enabled = false
@@ -44,7 +44,7 @@
 
   ::
 
-    vostok {
+    node {
     # Type of cryptography
     waves-crypto = yes
 
@@ -52,8 +52,8 @@
     owner-address = ""
 
     # Vostok "home" and data directories to store the state
-    # directory = ${user.home}"/vostok"
-    # data-directory = ${vostok.directory}"/data"
+    # directory = ${user.home}"/nodeName"
+    # data-directory = ${nodeName.directory}"/data"
   
     # Settings for Privacy Data Exchange
     # Uncomment and fill to enable
@@ -175,11 +175,11 @@
     port = 6864
     
     # Peers network addresses and ports
-    #   Example: known-peers = ["mainnet-node-0.vostoknodes.com:6864", "mainnet-node-1.vostoknodes.com:6864"]
+    #   Example: known-peers = ["node-0.wavesenterprise.com:6862", "node-1.wavesenterprise.com:6862"]
     known-peers = [ ]
     
     # Node name to send during handshake. Comment this string out to set random node name.
-    # node-name = "default-node-name"
+    # node-name = "nodeName"
 
     # String with IP address and port to send as external address during handshake. Could be set automatically if uPnP is enabled.
     declared-address = "0.0.0.0:6864"
@@ -187,7 +187,7 @@
   
     wallet {
     # Path to keystore. In case of GOST cryptography keys stored in a './keystore/' folder. In case of Waves-cryptography keys stored in a 'keystore.dat' file.
-    file = ${user.home}"/keystore.dat"
+    file = ${user.home}"/nodeName/keystore.dat"
     # Access password
     password = ""
     }
