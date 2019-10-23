@@ -16,7 +16,7 @@
 
       mainnet-authorization {
       type = "api-key" # "api-key" or "auth-service"
-      api-key = "vostok"
+      api-key = "key word"
 
       //      type = "auth-service"
       //      authorization-token = "xxxx"

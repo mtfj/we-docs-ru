@@ -8,14 +8,14 @@
 
 * ``accounts.conf`` - конфигурационный файл для генерации аккаунтов.
 * ``api-key-hash.conf`` - конфигурационный файл для генерации значений полей ``api-key-hash`` и ``privacy-api-key-hash`` при выборе авторизации по хешу ключевой строки ``api-key``.
-* ``nodename.conf`` - основной конфигурационный файл ноды, определяющий ее принципы работы и набор опций.
+* ``nodeName.conf`` - основной конфигурационный файл ноды, определяющий ее принципы работы и набор опций.
 
 .. _create-account-config:
 
 Конфигурационный файл для создания аккаунтов ``accounts.conf``
 ------------------------------------------------------------------
 
-При указании пути в параметрах файла ``accounts.conf`` необходимо использовать символ "прямого слэша" - ``/`` как разделитель уровней иерархии директорий. Пример конфигурационного файла приведен для ОС Windows. При работе в ОС Linux значение ``wallet`` должно соответствовать структуре каталогов операционной системы, например, ``/home/contract/we/keystore.dat``. При настройке ноды не допускается использование кириллических символов при указании путей до рабочей директории, хранилища ключей и т.д.
+При указании пути в параметрах файла ``accounts.conf`` необходимо использовать символ "прямого слэша" - ``/`` как разделитель уровней иерархии директорий. При работе в ОС Linux значение ``wallet`` должно соответствовать структуре каталогов операционной системы, например, ``/home/contract/we/keystore.dat``. При настройке ноды не допускается использование кириллических символов при указании путей до рабочей директории, хранилища ключей и т.д.
 
 ::
 
@@ -25,7 +25,7 @@
       waves-crypto = yes
       chain-id = V
       amount = 1
-      wallet = "c:/nodes/testnet-pos.wenodes.com/keystore.dat"
+      wallet = ${user.home}"/nodeName/keystore.dat"
       wallet-password = "some string as password"
       reload-node-wallet {
         enabled = false
@@ -80,7 +80,7 @@
 
 Данная опция становится активной после достижения суммарного количества блоков из параметров ``feature-check-blocks-period = 15000`` и ``blocks-for-feature-activation = 10000`` (25000 блоков), которые находятся в секции ``blockchain``. При подключении к Mainnet или Partnernet данные параметры не могут быть изменены. Ноды без активации данной опции не смогут подключиться к сети.
 
-Пример конфигурационного файла ноды представлен ниже. В данном примере отключены опции :ref:`анкоринга <anchoring-settings>`, :ref:`Docker <docker-configuration>` смарт-контрактов и :ref:`групп <privacy-config>` доступа к приватным данным. Также установлена :ref:`авторизация <authorization-config>` по хешу ключевой строки ``api-key`` и криптография Waves.
+Пример конфигурационного файла ноды представлен ниже. В данном примере отключены опции :ref:`анкоринга <anchoring-settings>`, :ref:`Docker <docker-configuration>` смарт-контрактов и :ref:`групп <privacy-config>` доступа к приватным данным. Также установлена :ref:`авторизация <authorization-config>` по хешу ключевой строки ``api-key`` и криптография Waves. Описание параметров конфигурационного файла ноды представлено на страничке :ref:`config-fields <Описание основных параметров и секций конфигурационного файла ноды>`.
 
 .. note:: Если вы планируете использовать дополнительные опции, установите поле ``enable`` выбранной опции в значение ``yes`` или ``true`` и настройте секцию опции в соответствии с описанием её настройки.
 
@@ -100,7 +100,6 @@
   # Blockchain settings
   blockchain {
     type = CUSTOM
-    consensus.type = pos
 
     custom {
       address-scheme-character = "A"
@@ -121,7 +120,7 @@
         }
       }
 
-      # Genesis settings
+      # Mainnet genesis settings
       genesis {
         average-block-delay: 60s
         initial-base-target: 153722867
@@ -172,6 +171,17 @@
     password = "some string as a password"
   }
 
+  # New blocks generator settings
+  miner {
+    enable = yes
+    quorum = 0
+    interval-after-last-block-then-generation-is-allowed = 35d
+    micro-block-interval = 5s
+    min-micro-block-age = 3s
+    max-transactions-in-micro-block = 500
+    minimal-block-generation-offset = 200ms
+  }
+
   # Node's REST API settings
     rest-api {
     # Enable/disable REST API
@@ -207,16 +217,25 @@
     distribution-address-limit = 1000
     }
 
-  # New blocks generator settings
-  miner {
-    enable = yes
-    quorum = 0
-    interval-after-last-block-then-generation-is-allowed = 35d
-    micro-block-interval = 5s
-    min-micro-block-age = 3s
-    max-transactions-in-micro-block = 500
-    minimal-block-generation-offset = 200ms
-  }
+   #Settings for Privacy Data Exchange
+    privacy {
+      storage {
+        enabled = false
+        url = "jdbc:postgresql://"${POSTGRES_ADDRESS}":"${POSTGRES_PORT}"/"${POSTGRES_DB}
+        driver = "org.postgresql.Driver"
+        profile = "slick.jdbc.PostgresProfile$"
+  
+        user = ${POSTGRES_USER}
+        password = ${POSTGRES_PASSWORD}
+        connectionPool = HikariCP
+        connectionTimeout = 5000
+        connectionTestQuery = "SELECT 1"
+        queueSize = 10000
+        numThreads = 20
+        schema = "public"
+        migration-dir = "db/migration"
+      }
+    }
 
   # Anchoring settings
   anchoring {
@@ -293,28 +312,7 @@
       max-buffer-time = 100ms
     }
   }
-
-
-   #Settings for Privacy Data Exchange
-    privacy {
-      storage {
-        enabled = false
-        url = "jdbc:postgresql://"${POSTGRES_ADDRESS}":"${POSTGRES_PORT}"/"${POSTGRES_DB}
-        driver = "org.postgresql.Driver"
-        profile = "slick.jdbc.PostgresProfile$"
-  
-        user = ${POSTGRES_USER}
-        password = ${POSTGRES_PASSWORD}
-        connectionPool = HikariCP
-        connectionTimeout = 5000
-        connectionTestQuery = "SELECT 1"
-        queueSize = 10000
-        numThreads = 20
-        schema = "public"
-        migration-dir = "db/migration"
-      }
-    }
-  }
+}
 
 
 

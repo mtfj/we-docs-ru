@@ -35,15 +35,12 @@
    :caption: Использование платформы
    :name: how-to-use
 
-   how-to-use/mainnet
-   how-to-use/partnernet
-   how-to-use/rest-api-node
-   how-to-use/rest-api-methods
-   how-to-use/rest-api-auth-methods
+   how-to-use/nets-connection
+   how-to-use/rest-api-common
    how-to-use/smart-contracts-docker
    how-to-use/role-management
-   how-to-use/pki
    how-to-use/operations-node
+   how-to-use/data-privacy-exchange
 
 .. how-to-use/smart-contracts-ride
 
