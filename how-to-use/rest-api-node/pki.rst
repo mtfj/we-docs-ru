@@ -64,7 +64,27 @@ POST /pki/verify
      "sigStatus" : "true"
      }
 
+.. _working-pki:
 
+Работа с методом POST /pki/verify
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Нода имеет возможность проверять УКЭП (Усиленная квалифицированная электронная подпись), используя метод API :ref:`Post /pki/verify <pki-api>`. Для корректности работы метода API :ref:`Post /pki/verify <pki-api>` необходимо установить корневой сертификат на ноду. Корневой сертификат УЦ однозначно идентифицирует центр сертификации и является основанием в цепочке доверия.
+
+Как установить корневой сертификат на ноду
+-------------------------------------------
+
+Корневой сертификат устанавливается в следующую папку со средой Java:
+
+    ::
+
+      -keystore /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/security/cacerts
+
+Пароль по умолчанию на хранилище сертификатов Java cacerts - ``changeit``. При желании вы можете изменить пароль. Установка сертификатов выполняется следующей командой:
+
+    ::
+
+      sudo keytool -import -alias testAliasCA_cryptopro -keystore /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/security/cacerts -file ~/Downloads/cert.cer
 
 
 

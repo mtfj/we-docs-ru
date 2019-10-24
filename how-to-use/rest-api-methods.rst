@@ -6,7 +6,7 @@
 
 .. toctree::
    :titlesonly:
-   :maxdepth: 1
+   :maxdepth: 2
 
    rest-api-node/activation.rst
    rest-api-node/address.rst
