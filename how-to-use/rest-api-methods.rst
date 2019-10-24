@@ -1,8 +1,8 @@
 
 .. _rest-api-methods:
 
-Методы REST API
-====================
+Методы REST API ноды
+======================
 
 .. toctree::
    :titlesonly:
@@ -27,4 +27,3 @@
    rest-api-node/utils.rst
    
    
-.. rest-api-node/transactions-example.rst

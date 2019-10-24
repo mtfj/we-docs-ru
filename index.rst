@@ -25,10 +25,10 @@
    how-the-platform-works/data-structures
    how-the-platform-works/smart-contracts
    how-the-platform-works/anchoring
-   how-the-platform-works/kafka
    how-the-platform-works/authorization-service
 
 ..   how-the-platform-works/pki-description
+     how-the-platform-works/kafka
 
 .. toctree::
    :maxdepth: 2
