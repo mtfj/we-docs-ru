@@ -6,67 +6,73 @@
 
 Подробно о работе с REST API можно почитать в :ref:`этом <rest-api-node>` разделе. Доступ к REST API сервиса авторизации осуществляется по протоколу HTTPS.
 
-Методы авторизации auth
------------------------------
+GET ​/status
+~~~~~~~~~~~~~~
 
-.. _rest-api-auth-login:
+Получение статуса сервиса авторизации.
 
-POST ​/auth​/login
-~~~~~~~~~~~~~~~~~~~~
-
-Создание пары токенов - **access** и **refresh**.
-
-
-POST ​/auth​/token
-~~~~~~~~~~~~~~~~~~~~~~~~
+POST ​/v1​/user
+~~~~~~~~~~~~~~~
 
 
 
 
-POST ​/auth​/refresh
-~~~~~~~~~~~~~~~~~~~~~~~
-
-
-GET ​/auth​/publicKey
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-Методы автризации user
-----------------------------
-
-
-
-GET ​/user​/doesEmailExist
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-GET ​/user​/confirm​/{code}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-POST ​/user​/create
-~~~~~~~~~~~~~~~~~~~~
-
-
-POST ​/user​/resendEmail
+GET ​/v1​/user​/profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-POST ​/user​/password​/restore
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-POST ​/user​/password​/reset
+POST ​/v1​/user​/address
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+GET ​/v1​/user​/doesEmailExist
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+POST ​/v1​/user​/password​/restore
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+POST ​/v1​/user​/password​/reset
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+GET ​/v1​/user​/confirm​/{code}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+POST ​/v1​/user​/resendEmail
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+POST ​/v1​/auth​/login
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+POST ​/v1​/auth​/token
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+POST ​/v1​/auth​/refresh
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-GET ​/user​/{id}
-~~~~~~~~~~~~~~~~~~
-
-
-POST ​/user​/{id}​/addresses
+GET​ /v1​/auth​/publicKey
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 
 
