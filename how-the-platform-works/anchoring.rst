@@ -13,7 +13,7 @@
 ----------------------------------------------------
 
  .. figure:: img/anchoring-scheme.png
-          :scale: 100 %
+          :scale: 80 %
           :align: center
           :figwidth: 100 %
           :alt: Схема анкоринга в Mainnet

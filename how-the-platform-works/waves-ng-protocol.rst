@@ -44,8 +44,8 @@ Waves-NG — разработан Waves Platform на основе `Bitcoin-NG <
 
 Схема разделения комиссий
 
-.. image:: img/miner_reward.jpg
-    :scale: 80%
+.. image:: img/miner_reward.png
+    :scale: 100%
     :align: center
 
 3. Разрешение конфликтов
