@@ -124,8 +124,8 @@
       genesis {
         average-block-delay: 60s
         initial-base-target: 153722867
-        timestamp: 1552467772740
-        block-timestamp: 1552467772740
+        timestamp: 1559260800000
+        block-timestamp: 1559260800000
         initial-balance: 1625000000000000
         genesis-public-key-base-58: ""
         signature: ""
@@ -221,19 +221,19 @@
     privacy {
       storage {
         enabled = false
-        url = "jdbc:postgresql://"${POSTGRES_ADDRESS}":"${POSTGRES_PORT}"/"${POSTGRES_DB}
-        driver = "org.postgresql.Driver"
-        profile = "slick.jdbc.PostgresProfile$"
+        #url = "jdbc:postgresql://"${POSTGRES_ADDRESS}":"${POSTGRES_PORT}"/"${POSTGRES_DB}
+        #driver = "org.postgresql.Driver"
+        #profile = "slick.jdbc.PostgresProfile$"
   
-        user = ${POSTGRES_USER}
-        password = ${POSTGRES_PASSWORD}
-        connectionPool = HikariCP
-        connectionTimeout = 5000
-        connectionTestQuery = "SELECT 1"
-        queueSize = 10000
-        numThreads = 20
-        schema = "public"
-        migration-dir = "db/migration"
+        #user = ${POSTGRES_USER}
+        #password = ${POSTGRES_PASSWORD}
+        #connectionPool = HikariCP
+        #connectionTimeout = 5000
+        #connectionTestQuery = "SELECT 1"
+        #queueSize = 10000
+        #numThreads = 20
+        #schema = "public"
+        #migration-dir = "db/migration"
       }
     }
 
@@ -311,8 +311,8 @@
       # Max time for buffer. When time is out, the node processes all messages in batch
       max-buffer-time = 100ms
     }
+   }
   }
-}
 
 
 
