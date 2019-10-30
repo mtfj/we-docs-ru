@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# 8dfd8e546bf7432f88f97aba41b46564
+#: ../../how-to-setup/configuration/docker-config.rst:5
+msgid "Настройка Docker"
+msgstr ""
+
+# 02033ea36809436a93c819890824b766
+#: ../../how-to-setup/configuration/docker-config.rst:7
+msgid ""
+"Установка и исполнение docker-контрактов задается секцией ``docker-"
+"engine`` в :ref:`конфигурационном файле ноды <create-node-config>`."
+msgstr ""
+
+# c2c65113d80b43d2910906c9fc65db4c
+#: ../../how-to-setup/configuration/docker-config.rst:57
+msgid "**Параметры:**"
+msgstr ""
+
+# 216f844152aa4987aee954616e981bc3
+#: ../../how-to-setup/configuration/docker-config.rst:60
+msgid ""
+"``enable`` - включение обработки транзакций для docker-контрактов "
+"(yes/no)."
+msgstr ""
+
+# bc1bc28ec18c454c946808638a394110
+#: ../../how-to-setup/configuration/docker-config.rst:61
+msgid "``docker-auth`` - секция базовой авторизации по логину и паролю."
+msgstr ""
+
+# 71d4627e8efd4acd9141c2e5057901fe
+#: ../../how-to-setup/configuration/docker-config.rst:62
+msgid "``docker-host`` - URL-адрес Docker-хоста."
+msgstr ""
+
+# adbdbb387e874142be03166b4f601e6c
+#: ../../how-to-setup/configuration/docker-config.rst:63
+msgid ""
+"``node-rest-api`` - URL-адрес к REST API ноды при использовании "
+"Docker-хоста."
+msgstr ""
+
+# e612504d1f284c3ab27411f100df7cdc
+#: ../../how-to-setup/configuration/docker-config.rst:64
+msgid ""
+"``integration-tests-mode-enable`` - режим тестирования Docker-контрактов "
+"(yes/no)."
+msgstr ""
+
+# 51cd4ac1d2d449a989a3230614f4fd74
+#: ../../how-to-setup/configuration/docker-config.rst:65
+msgid "``execution-limits`` - секция ограничений на выполнение Docker-контрактов:"
+msgstr ""
+
+# bc616139f9f0439b8150d68be78d4e6a
+#: ../../how-to-setup/configuration/docker-config.rst:67
+msgid "``timeout`` - таймаут на выполнение контракта (в секундах);"
+msgstr ""
+
+# 1099129bc5254ae9b7b56eced8987fb3
+#: ../../how-to-setup/configuration/docker-config.rst:68
+msgid "``memory`` - ограничение по памяти для контейнера контракта (в Мб);"
+msgstr ""
+
+# 39235504449a48be89685ca4561312f3
+#: ../../how-to-setup/configuration/docker-config.rst:69
+msgid "``memory-swap`` - файл подкачки памяти для контракта (в Мб)."
+msgstr ""
+
+# 7bb4c6443a5a4dbead0391f27367fa46
+#: ../../how-to-setup/configuration/docker-config.rst:71
+msgid ""
+"``reuse-containers`` - повторное использование существующего "
+"Docker-контракта."
+msgstr ""
+
+# 374faf668ebe465585e95c1a373b07fd
+#: ../../how-to-setup/configuration/docker-config.rst:72
+msgid ""
+"``remove-container-after`` - обязательность удаления контейнера после "
+"исполнения (yes/no)."
+msgstr ""
+
+# aefb6c7170d44903b3bcbfca467a230b
+#: ../../how-to-setup/configuration/docker-config.rst:73
+msgid "``allow-net-access`` - доступ к сети (yes/no)."
+msgstr ""
+
+# dfdca8873d8b43c9866ea260f94ea0b5
+#: ../../how-to-setup/configuration/docker-config.rst:74
+msgid "``remote-registries`` - адреса удаленных репозиториев и доступов к ним."
+msgstr ""
+
+# 75dbb74e4f2c42a8aad8ae6ecb47903e
+#: ../../how-to-setup/configuration/docker-config.rst:75
+msgid ""
+"``check-registry-auth-on-startup`` - обязательность проверки авторизации "
+"к репозиториям при запуске ноды (yes/no)."
+msgstr ""
+
+# 36a6dde5a24a4a91bab88fb7ba42376a
+#: ../../how-to-setup/configuration/docker-config.rst:76
+msgid ""
+"``contract-execution-messages-cache`` - секция настройки кеш-памяти "
+"Docker-контракта. При достижении лимита буфера нода обработает все "
+"сообщения в пакетном режиме:"
+msgstr ""
+
+# 435bcad96eb742249a047d260b4ddec2
+#: ../../how-to-setup/configuration/docker-config.rst:78
+msgid "``expire-after`` - время жизни сообщений в кеш-памяти в минутах;"
+msgstr ""
+
+# c0f8623299a24c488e8b068f440dacdd
+#: ../../how-to-setup/configuration/docker-config.rst:79
+msgid "``max-buffer-size`` - максимальное количество сообщений в буфере;"
+msgstr ""
+
+# 02b3bf205b3048e2b31ece5f7f361100
+#: ../../how-to-setup/configuration/docker-config.rst:80
+msgid "``max-buffer-time`` - максимальное время для буфера в миллисекундах."
+msgstr ""
+

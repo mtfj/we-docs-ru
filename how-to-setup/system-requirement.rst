@@ -1,3 +1,6 @@
+
+.. _system-requirements:
+
 Системные требования
 =======================
 
@@ -34,6 +37,11 @@
 
 - `node.js <https://nodejs.org/en/download/>`_ LTS версии 10+
 - `npm <https://www.npmjs.com/>`_ 6+  
-- `Postgresql <https://www.postgresql.org/download/>`_ 11 версии
+- `PostgreSQL <https://www.postgresql.org/download/>`_ 11 версии
 
+**Требования к окружению для сервиса авторизации**
+
+- `PostgreSQL <https://www.postgresql.org/download/>`_ 11 версии
+
+.. hint:: Для дата-сервиса и сервиса авторизации должны быть отдельные БД PostgreSQL.
 

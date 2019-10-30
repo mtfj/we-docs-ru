@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# e848763f73e34535b3f7bca94c9c4086
+#: ../../how-to-setup/config-node-opers.rst:5
+msgid "Конфигурация ноды"
+msgstr ""
+
+# a179e6eee99a4bd78af70c0ea0cb78d9
+#: ../../how-to-setup/config-node-opers.rst:7
+msgid "Конфигурация ноды включает в себя следующие шаги:"
+msgstr ""
+
+# 0fad7d1e3e0b4324a8222c9866d75d1b
+#: ../../how-to-setup/config-node-opers.rst:23
+msgid ""
+"На странице `GitHub <https://github.com/waves-enterprise/WE-releases>`_ "
+"Waves Enterprise вы можете получить примеры конфигурационных файлов и "
+"дистрибутивы последнего релиза платформы."
+msgstr ""
+

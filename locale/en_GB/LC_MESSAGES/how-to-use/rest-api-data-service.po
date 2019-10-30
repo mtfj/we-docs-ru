@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# 473608c5668f4bcc8e27ecfafc524d0a
+#: ../../how-to-use/rest-api-data-service.rst:5
+msgid "Методы REST API для сервиса подготовки данных"
+msgstr ""
+
+# 791b895bd5824df2b476ea01c288ee98
+#: ../../how-to-use/rest-api-data-service.rst:8
+msgid "Транзакции"
+msgstr ""
+
+# 59f6ee6ff2a74eac85850b33db32c2c6
+#: ../../how-to-use/rest-api-data-service.rst:11
+msgid "GET /transactions"
+msgstr ""
+
+# 19153e2084d04d388b7ea7e8fa38e7d7
+#: ../../how-to-use/rest-api-data-service.rst:13
+msgid ""
+"Возвращает список транзакций, соответствующий условиям поискового запроса"
+" и применённым фильтрам."
+msgstr ""
+
+# c8d7afbf50c34239aecb1d4652a92c70
+#: ../../how-to-use/rest-api-data-service.rst:15
+msgid ""
+"За один запрос через метод API **GET /transactions** возвращается не "
+"более 500 транзакций."
+msgstr ""
+
+# a824aaa425f7412f97cb86d7c32afea7
+# f061347ef4784416b259f0599c285294
+# 326d0a41570745069aa312af00d986e9
+# faa80b7c83a64ed5a071f4c35942cc39
+# 19e192f84f5e45859f41061b75506b31
+# bb6aa47a41c042f282f942bb1f024a6e
+# 07dd1fd5528947118ff5ec4b089f64ad
+# b868a07f993b4a3b8dfc3a917865f70e
+# 67d8c77f6c4f44238cee1857b8c423f4
+# 58b09b0d4f984307b8eaa9e838985c35
+# d17ca2a66a2b49a9a5cc69b9057b3ed2
+#: ../../how-to-use/rest-api-data-service.rst:17
+#: ../../how-to-use/rest-api-data-service.rst:40
+#: ../../how-to-use/rest-api-data-service.rst:53
+#: ../../how-to-use/rest-api-data-service.rst:77
+#: ../../how-to-use/rest-api-data-service.rst:109
+#: ../../how-to-use/rest-api-data-service.rst:137
+#: ../../how-to-use/rest-api-data-service.rst:166
+#: ../../how-to-use/rest-api-data-service.rst:210
+#: ../../how-to-use/rest-api-data-service.rst:225
+#: ../../how-to-use/rest-api-data-service.rst:240
+#: ../../how-to-use/rest-api-data-service.rst:266
+msgid "**Ответ метода:**"
+msgstr ""
+
+# cae079c05dbb441e8ddc6c7f605bb09c
+#: ../../how-to-use/rest-api-data-service.rst:36
+msgid "GET /transactions/count"
+msgstr ""
+
+# 20c6828bc7c54c738d9622cac47b31f2
+#: ../../how-to-use/rest-api-data-service.rst:38
+msgid ""
+"Возвращает количество транзакций, соответствующих условиям поискового "
+"запроса и применённым фильтрам."
+msgstr ""
+
+# 136aff9b27a8499188980382b086622d
+#: ../../how-to-use/rest-api-data-service.rst:49
+msgid "GET /transactions/id/{id}"
+msgstr ""
+
+# f8c6e0c40263451cb90b49a653dfe481
+#: ../../how-to-use/rest-api-data-service.rst:51
+msgid "Возвращает транзакцию по идентификатору {id}."
+msgstr ""
+
+# e036310647014fcab587855593168cf6
+#: ../../how-to-use/rest-api-data-service.rst:70
+msgid "Наборы токенов"
+msgstr ""
+
+# 0b977d910b804a77969ca0c1ddc8078e
+#: ../../how-to-use/rest-api-data-service.rst:73
+msgid "GET /assets"
+msgstr ""
+
+# 87e39b60075141fea9236b61094402bd
+#: ../../how-to-use/rest-api-data-service.rst:75
+msgid ""
+"Возвращает список доступных в блокчейне наборов токенов (в виде "
+"транзакций выпуска токенов)."
+msgstr ""
+
+# 3a62bb796d1e44149b2d3930c051b00c
+#: ../../how-to-use/rest-api-data-service.rst:102
+msgid "Пользователи"
+msgstr ""
+
+# 1d22eccc84834066abe09059388e5ebf
+#: ../../how-to-use/rest-api-data-service.rst:105
+msgid "GET /users"
+msgstr ""
+
+# 37e749be168b4a86b22fa5244c826ffe
+#: ../../how-to-use/rest-api-data-service.rst:107
+msgid ""
+"Возвращает список пользователей, соответствующий условиям поискового "
+"запроса и применённым фильтрам."
+msgstr ""
+
+# fff837824987408fb04da21cc1e129c4
+#: ../../how-to-use/rest-api-data-service.rst:133
+msgid "GET /users/{userAddress}"
+msgstr ""
+
+# 0653de13b6cc4bcda3b214127f1a07dd
+#: ../../how-to-use/rest-api-data-service.rst:135
+msgid "Возвращает информацию о пользователе по его адресу."
+msgstr ""
+
+# b70eea1a91214589b6d6b96103527fa5
+#: ../../how-to-use/rest-api-data-service.rst:159
+msgid "Блоки"
+msgstr ""
+
+# 2008982c59224119a2827ad67362b1e2
+#: ../../how-to-use/rest-api-data-service.rst:162
+msgid "GET /blocks/{height}"
+msgstr ""
+
+# 78426f48688f486dbc25cd686d7430e9
+#: ../../how-to-use/rest-api-data-service.rst:164
+msgid "Возвращает блок на указанной высоте."
+msgstr ""
+
+# b0b60dd03c44440ba5b3e2b842de110c
+#: ../../how-to-use/rest-api-data-service.rst:203
+msgid "Транзакции с данными"
+msgstr ""
+
+# a8298df5c55849a9a7505bcd79f98b35
+#: ../../how-to-use/rest-api-data-service.rst:206
+msgid "GET /api/v1/txIds/{key}"
+msgstr ""
+
+# 92ad68afc7ab43bcb0c59d55c80dc14e
+#: ../../how-to-use/rest-api-data-service.rst:208
+msgid ""
+"Возвращает список идентификаторов транзакций с данными, содержащих "
+"указанный ключ."
+msgstr ""
+
+# 1311728202354ff1bdbc4213986302c3
+#: ../../how-to-use/rest-api-data-service.rst:221
+msgid "GET /api/v1/txIds/{key}/{value}"
+msgstr ""
+
+# abcf62abc53e4105b0a5b15d5386f123
+#: ../../how-to-use/rest-api-data-service.rst:223
+msgid ""
+"Возвращает список идентификаторов транзакций с данными, содержащих "
+"указанный ключ и значение."
+msgstr ""
+
+# e1f4dfd6a667410ca5c04a7169707404
+#: ../../how-to-use/rest-api-data-service.rst:236
+msgid "GET /api/v1/txData/{key}"
+msgstr ""
+
+# cbf6d02f65c44bc88189aa709773fdcc
+#: ../../how-to-use/rest-api-data-service.rst:238
+msgid "Возвращает тела транзакций с данными, содержащие указанный ключ."
+msgstr ""
+
+# 024abcaab1a9424ab603c4befb8105d2
+#: ../../how-to-use/rest-api-data-service.rst:262
+msgid "GET /api/v1/txData/{key}/{value}"
+msgstr ""
+
+# 33e418d2baf14497a9c65f048d2dd223
+#: ../../how-to-use/rest-api-data-service.rst:264
+msgid ""
+"Возвращает тела транзакций с данными, содержащие указанный ключ и "
+"значение."
+msgstr ""
+

@@ -32,16 +32,26 @@
     port = 6862
 
     # Authorization strategy should be either 'oauth2' or 'api-key', default is 'api-key'
-    auth-type = "api-key"
+    auth {
+      type = "api-key"
 
-    # Hash of API key string
-    api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
+      # Hash of API key string
+      api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
 
-    # Hash of API key string for PrivacyApi routes
-    privacy-api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
+      # Hash of API key string for PrivacyApi routes
+      privacy-api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
+    }
+    # For OAuth2:
+    # auth {
+    #   type: "oauth2"
 
-    # OAuth2 service public key to verify auth tokens
-    oauth-public-key = ""
+    #   # OAuth2 service public key to verify auth tokens
+    #   public-key: "AuthorizationServicePublicKeyInBase64"
+
+    #   # OAuth2 settings for initial sync
+    #   service-url: "auth.service.url"
+    #   service-token: "auth-token"
+    # }
 
     # Enable/disable CORS support
     cors = yes
@@ -60,14 +70,18 @@
 * ``enable`` - активация опции REST API на ноде.
 * ``bind-address`` - сетевой адрес ноды для привязки REST API.
 * ``port`` - порт прослушивания REST API запросов.
+* ``cors`` - поддержка кросс-доменных запросов к REST API.
+* ``transactions-by-address-limit`` - максимальное количество транзакций, возвращаемых методом ``/transactions/address/{address}/limit/{limit}``.
+* ``distribution-address-limit`` - максимальное количество адресов, указываемых в поле ``limit`` и возвращаемых методом ``GET ​/assets​/{assetId}​/distribution​/{height}​/limit​/{limit}``.
+
+Секция ``auth``
+
 * ``auth-type`` - тип авторизации. ``oauth2`` - авторизация по токену, ``api-key`` - авторизация по хешу ключевой строки.
 * ``api-key-hash``- хеш от ключевой строки доступа к REST API.
 * ``privacy-api-key-hash`` - хеш от ключевой строки доступа к методам ``privacy``.
 * ``oauth-public-key`` - публичный ключ сервиса авторизации.
-* ``cors`` - поддержка кросс-доменных запросов к REST API.
-* ``api-key-different-host`` - активация поддержки REST API ключа от других хостов.
-* ``transactions-by-address-limit`` - максимальное количество транзакций, возвращаемых методом ``/transactions/address/{address}/limit/{limit}``.
-* ``distribution-address-limit`` - максимальное количество адресов, указываемых в поле ``limit`` и возвращаемых методом ``GET ​/assets​/{assetId}​/distribution​/{height}​/limit​/{limit}``.
+* ``service-url`` - 
+* ``service-token`` - 
 
 .. _auth-api-key-setup:
 

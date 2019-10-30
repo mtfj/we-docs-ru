@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-29 15:22+0300\n"
+"POT-Creation-Date: 2019-10-25 11:55+0300\n"
 "PO-Revision-Date: 2019-07-29 15:22+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.7.0\n"
 
 # ef546206159c4af3b4bf2519c2f45456
 #: ../../how-to-use/rest-api-node/crypto.rst:4
@@ -27,54 +26,57 @@ msgstr "Crypto"
 # fc88ca75516b4a5f995a6c69b1f7ac78
 #: ../../how-to-use/rest-api-node/crypto.rst:6
 msgid ""
-"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`."
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
 msgstr ""
-"The rules for generating queries to the node are given in module :ref:`rest-"
-"api-node`."
+"The rules for generating queries to the node are given in module :ref"
+":`rest-api-node`."
 
 # 18ed28f720ef4e62a708ba552cc5512e
 #: ../../how-to-use/rest-api-node/crypto.rst:8
+#, fuzzy
 msgid ""
-"Описание шифрования текстовых данных представлено в подразделе :ref:"
-"`Зашифрование текстовых данных в транзакциях <crypto-data-tx>`."
+"Описание шифрования текстовых данных представлено в подразделе "
+":ref:`Шифрование текстовых данных в транзакциях <crypto-data-tx>`."
 msgstr ""
-"The description of text data encryption is presented in the subsection :ref:"
-"`Encrypting text data in transactions <crypto-data-tx>`."
+"The description of text data encryption is presented in the subsection "
+":ref:`Encrypting text data in transactions <crypto-data-tx>`."
 
 # 3d39878cc152419ab72357c554711e77
 #: ../../how-to-use/rest-api-node/crypto.rst:10
+#, fuzzy
 msgid ""
-"Ноды версии **1.0** и ниже используют кодировку **Base58** для зашифрования/"
-"расшифрования текстовых данных. Начиная с версии **1.0.2**, используется "
-"кодировка **Base64**. При наличии в сети нод разных версий используйте методы "
-"``crypto`` следующим образом:"
+"Ноды версии **1.0** и ниже используют кодировку **Base58** для "
+"шифрования/расшифрования текстовых данных. Начиная с версии **1.0.2**, "
+"используется кодировка **Base64**. При наличии в сети нод разных версий "
+"используйте методы ``crypto`` следующим образом:"
 msgstr ""
-"Nodes of the **1.0** version and below use **Base58** encoding to encrypt/"
-"decrypt text data. Starting from the **1.0.2** version the **Base64** encoding "
-"is used. If there are different versions of nodes in the network, use the "
-"``crypto`` methods as follows:"
+"Nodes of the **1.0** version and below use **Base58** encoding to "
+"encrypt/decrypt text data. Starting from the **1.0.2** version the "
+"**Base64** encoding is used. If there are different versions of nodes in "
+"the network, use the ``crypto`` methods as follows:"
 
 # d42451e16a574fe8b9c015a02e954998
 #: ../../how-to-use/rest-api-node/crypto.rst:12
 msgid ""
-"Если данные принимаются от нод новых версий на ноде старой версии, то данные "
-"из строки ``encryptedText`` необходимо преобразовать из **Base64** в "
-"**Base58**."
+"Если данные принимаются от нод новых версий на ноде старой версии, то "
+"данные из строки ``encryptedText`` необходимо преобразовать из **Base64**"
+" в **Base58**."
 msgstr ""
-"In case of accepting data from newer version nodes by the older version node "
-"you need to convert data from the ``encryptedText`` string from **Base64** to "
-"**Base58**."
+"In case of accepting data from newer version nodes by the older version "
+"node you need to convert data from the ``encryptedText`` string from "
+"**Base64** to **Base58**."
 
 # 4764c7c2970f4553887c8946e4ab068d
 #: ../../how-to-use/rest-api-node/crypto.rst:13
 msgid ""
-"Если данные принимаются от нод старых версий на ноде новой версии, то данные "
-"из строки ``encryptedText`` необходимо преобразовать из **Base58** в "
-"**Base64**."
+"Если данные принимаются от нод старых версий на ноде новой версии, то "
+"данные из строки ``encryptedText`` необходимо преобразовать из **Base58**"
+" в **Base64**."
 msgstr ""
-"In case of accepting data from older version nodes by the newer version node "
-"you need to convert data from the ``encryptedText`` string from **Base58** to "
-"**Base64**."
+"In case of accepting data from older version nodes by the newer version "
+"node you need to convert data from the ``encryptedText`` string from "
+"**Base58** to **Base64**."
 
 # 0c72f5cd73ed4749b98e78f0ed37d5f4
 #: ../../how-to-use/rest-api-node/crypto.rst:18
@@ -83,7 +85,8 @@ msgstr "POST /crypto/encryptSeparate"
 
 # 4a1e74af43d44e84b514e76248c98884
 #: ../../how-to-use/rest-api-node/crypto.rst:20
-msgid "Зашифровывает текст отдельно для каждого получателя уникальным ключом."
+#, fuzzy
+msgid "Шифрует текст отдельно для каждого получателя уникальным ключом."
 msgstr "Encrypts the text separately for the each recipient with the unique key."
 
 # eb6abb4846774b41a1adb881401c4ecf
@@ -107,12 +110,13 @@ msgstr "POST /crypto/encryptCommon"
 
 # 430615c230784c4db1a721ec41c019be
 #: ../../how-to-use/rest-api-node/crypto.rst:54
+#, fuzzy
 msgid ""
-"Зашифровывает данные единым ключом CEK для всех получателей, CEK оборачивается "
+"Шифрует данные единым ключом CEK для всех получателей, CEK оборачивается "
 "уникальными KEK для каждого получателя."
 msgstr ""
-"Encrypts the data with a single CEK key for all recipients and the CEK wraps "
-"into a unique KEK for the each recipient."
+"Encrypts the data with a single CEK key for all recipients and the CEK "
+"wraps into a unique KEK for the each recipient."
 
 # f10f199714724917ba99ac2a8ca13d58
 #: ../../how-to-use/rest-api-node/crypto.rst:85
@@ -122,23 +126,32 @@ msgstr "POST /crypto/decrypt"
 # 0bba5d8d89974abaa068cf2436ec9f7c
 #: ../../how-to-use/rest-api-node/crypto.rst:87
 msgid ""
-"Расшифровывает данные. Расшифровка доступна в случае, если ключ получателя "
-"сообщения находится в keystore ноды."
+"Расшифровывает данные. Расшифровка доступна в случае, если ключ "
+"получателя сообщения находится в keystore ноды."
 msgstr ""
-"Decrypts the data. The decryption is available only if the message recipient's "
-"key is in the node's keystore."
+"Decrypts the data. The decryption is available only if the message "
+"recipient's key is in the node's keystore."
 
 # f64520d741c842c6961e8c5a89e4463a
 #~ msgid ""
-#~ "Метод ``crypto`` предоставляет возможность зашифрования/расшифрования "
-#~ "текстовых данных транзакций при помощи сессионных ключей. Зашифрование "
-#~ "текстовых данных может выполняться как индивидуально для каждого получателя "
-#~ "по уникальному ключу, так и с применением единого ключа для всех "
-#~ "получателей. Ограничение на размер данных при применении метода ``crypto`` "
-#~ "- 165Кб."
+#~ "Метод ``crypto`` предоставляет возможность "
+#~ "зашифрования/расшифрования текстовых данных "
+#~ "транзакций при помощи сессионных ключей. "
+#~ "Зашифрование текстовых данных может "
+#~ "выполняться как индивидуально для каждого "
+#~ "получателя по уникальному ключу, так и"
+#~ " с применением единого ключа для всех"
+#~ " получателей. Ограничение на размер данных"
+#~ " при применении метода ``crypto`` - "
+#~ "165Кб."
 #~ msgstr ""
-#~ "The ``crypto`` method provides the ability to encrypt/decrypt transactions "
-#~ "text data using session keys. The text data encryption can be performed "
-#~ "either individually for each recipient using a unique key, or using a "
-#~ "single key for all recipients. The data size limit is 165 Kbytes when using "
-#~ "the ``crypto`` method."
+#~ "The ``crypto`` method provides the "
+#~ "ability to encrypt/decrypt transactions text"
+#~ " data using session keys. The text"
+#~ " data encryption can be performed "
+#~ "either individually for each recipient "
+#~ "using a unique key, or using a "
+#~ "single key for all recipients. The "
+#~ "data size limit is 165 Kbytes when"
+#~ " using the ``crypto`` method."
+

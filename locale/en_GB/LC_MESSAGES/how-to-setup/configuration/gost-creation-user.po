@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# 7a08fd3fa0514932af0d1152765d7135
+#: ../../how-to-setup/configuration/gost-creation-user.rst:5
+msgid "Создание аккаунта при использовании криптографии ГОСТ"
+msgstr ""
+
+# e11039ccae1b443eb163f267fb74d93b
+#: ../../how-to-setup/configuration/gost-creation-user.rst:7
+msgid ""
+"Для :ref:`ГОСТ-криптографии <crypto-gost>` необходимо использовать "
+"биологический датчик случайных чисел, автоматическое создание пары ключей"
+" невозможно. При использовании :ref:`ГОСТ-криптографии <crypto-gost>` "
+"после запуска команды создания участников на экран будет выведено окно "
+"КриптоПро инициализации биологического датчика случайных чисел."
+msgstr ""
+
+# 7d0551542e5a4856a27617f82db0ae94
+#: ../../how-to-setup/configuration/gost-creation-user.rst:12
+msgid ""
+"После выполнения утилиты в папке, определенной параметром ``wallet``, "
+"будут сохранены закрытые ключи участников, а на экране отобразятся адреса"
+" и открытые ключи в виде строк:"
+msgstr ""
+
+# 4f2f4076b5cd4cb09976a8c132b47a49
+#: ../../how-to-setup/configuration/gost-creation-user.rst:14
+msgid ""
+"``[main] accounts-generator - Address: "
+"3PCKG8vUUQhbqyQnKuokEXmje5FByPHWiBt; public key: "
+"6GffUw1XkAnpM7upBu7RPkWfBZSGfDKpPDUY5TygvrL6``"
+msgstr ""
+

@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# d2ef1420c17c46088acb3d40aa2a52c0
+#: ../../how-to-setup/configuration/accounts-generate.rst:5
+msgid "Создание аккаунтов"
+msgstr ""
+
+# 1fef733b503e4db69d5eafb2a5957aeb
+#: ../../how-to-setup/configuration/accounts-generate.rst:7
+msgid ""
+"Аккаунт ноды включает в себя адрес и ключевую пару - публичный и "
+"приватный ключи. Адрес и публичный ключ демонстрируются пользолвателю во "
+"время создания аккаунта в командной строке. Приватный ключ ноды "
+"записывается в хранилище ключей ``keystore.dat``."
+msgstr ""
+
+# a0d431c7e60a49da806b6fa7a2c635ec
+#: ../../how-to-setup/configuration/accounts-generate.rst:12
+msgid "Генерирование ключевых пар"
+msgstr ""
+
+# 745b0154b35947269a81316d446ba98a
+#: ../../how-to-setup/configuration/accounts-generate.rst:14
+msgid ""
+"Адрес ноды и ключевая пара будущих участников сети создаются при помощи "
+"утилиты генератора. Получить последнюю версию генератора можно на "
+"странице проекта на `GitHub <https://github.com/waves-enterprise/WE-"
+"releases>`_. Для запуска утилиты необходимо в качестве одного из "
+"параметров указать файл ``accounts.conf``, в котором определяются "
+"параметры генерации ключей. При создании ключевой пары придумайте и "
+"введите пароль, сохраните его для последующей конфигурации. Данный пароль"
+" будет использоваться при создании глобальной переменной "
+"``WE_NODE_OWNER_PASSWORD`` далее. Если не хотите устанавливать пароль от "
+"ключевой пары ноды, нажмите ``enter``. Команда для запуска генератора:"
+msgstr ""
+
+# 74948ed28bde41afadcfe3bd99602faf
+#: ../../how-to-setup/configuration/accounts-generate.rst:16
+msgid "``java -jar generators-x.x.x.jar AccountsGeneratorApp accounts.conf``"
+msgstr ""
+
+# e7290429ac094cb4ad1526b3026ef6a1
+#: ../../how-to-setup/configuration/accounts-generate.rst:21
+msgid "Глобальные переменные"
+msgstr ""
+
+# 36b70e7c8aac4863af7bac7244f92412
+#: ../../how-to-setup/configuration/accounts-generate.rst:23
+msgid ""
+"Для обеспечения дополнительной безопасности рекомендуется использовать "
+"пароль для ключевой пары ноды. Платформа Waves Enterprise поддерживает "
+"два способа использования пароля:"
+msgstr ""
+
+# 6038f3751251492a8ea6f7bd772bd70c
+#: ../../how-to-setup/configuration/accounts-generate.rst:25
+msgid "Ввод пароля в ручном режиме при каждом старте ноды."
+msgstr ""
+
+# 8b67ffa03ef340d285ef7d96f48620ea
+#: ../../how-to-setup/configuration/accounts-generate.rst:26
+msgid "Создание глобальных переменных в операционной системе."
+msgstr ""
+
+# c175a6a7f71d4f4ca7fd5604592bf604
+#: ../../how-to-setup/configuration/accounts-generate.rst:28
+msgid ""
+"При использовании ручного ввода пароля создавать глобальные переменные "
+"необязательно. Если вы планируете разворачивать ноду в контейнерах или "
+"подобных сервисах, то удобнее будет задать в ОС следующие глобальные "
+"переменные:"
+msgstr ""
+
+# 6cf31cefabb24cc4987726e17e02c686
+#: ../../how-to-setup/configuration/accounts-generate.rst:30
+msgid ""
+"``WE_NODE_OWNER_PASSWORD`` - пароль от ключевой пары ноды, который "
+"вводится на этапе создания этой ключевой пары."
+msgstr ""
+
+# 2d33f147329448bf9656a395870c8a78
+#: ../../how-to-setup/configuration/accounts-generate.rst:31
+msgid ""
+"``WE_NODE_OWNER_PASSWORD_EMPTY`` - ``true`` или ``false``, установите "
+"значение ``true``, если не хотите устанавливать пароль на ключевую пару "
+"ноды, в таком случае создавать переменную ``WE_NODE_OWNER_PASSWORD`` "
+"необходимости нет. Если вы используете пароль, установите значение "
+"``false`` и пропишите в переменную ``WE_NODE_OWNER_PASSWORD`` пароль от "
+"ключевой пары ноды."
+msgstr ""
+

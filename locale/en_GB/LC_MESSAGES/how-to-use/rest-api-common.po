@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# 2326469dacd742389b580261e3373426
+#: ../../how-to-use/rest-api-common.rst:5
+msgid "REST API"
+msgstr ""
+
+# 3a82ffe980a24baab45fe4a17d15ca18
+#: ../../how-to-use/rest-api-common.rst:7
+msgid ""
+"Блокчейн-платформа Waves Enterprise предоставляет возможность "
+"взаимодействия с блокчейном как в части получения данных (транзакции, "
+"блоки, балансы и др.), так и в части записи информации в блокчейн "
+"(подписание и отправка транзакций) при помощи RESTful API ноды. REST API "
+"позволяет пользователям удалённо взаимодействовать с нодой через запросы "
+"и ответы в формате JSON. Работа с API происходит по протоколу HTTPS. "
+"Удобным интерфейсом к API служит известный фреймворк Swagger."
+msgstr ""
+
+# 6b88091b3c774d06960594b5a7e28ecc
+#: ../../how-to-use/rest-api-common.rst:20
+msgid "Как использовать REST API"
+msgstr ""
+
+# 0d09601437214d35948227a2144b52b9
+#: ../../how-to-use/rest-api-common.rst:22
+msgid ""
+"Все вызовы методов API — это GET, POST или DELETE HTTPS-запросы к URL "
+"``https://yournetwork.com/node-N/api-docs/swagger.json`` с набором "
+"параметров. В интерфейсе Swagger выбираются нужные группы запросов и "
+"далее маршруты с точками доступа. Маршрут в Swagger это URL к "
+"HTTP-методу, а точка доступа (endpoint) - конечная часть маршрута, само "
+"обращение к методу. Пример:"
+msgstr ""
+
+# 16db6f6128714d159f6a4a114de4edfc
+#: ../../how-to-use/rest-api-common.rst:24
+msgid "**URL к HTTP-методу**"
+msgstr ""
+
+# 44a720f5f6214b6581ca367bdea08e4d
+#: ../../how-to-use/rest-api-common.rst:29
+msgid ""
+"Для запросов, требующих нижеперечисленных действий, необходима "
+"обязательная авторизация по ``api-key-hash``. Тип авторизации "
+"устанавливается в конфигурационном файле ноды. Если выбран тип "
+"авторизации по ``api-key-hash``, то при авторизации необходимо указывать "
+"значение секретной фразы, hash которой указан в конфигурационном файле "
+"ноды (поле ``rest-api.api-key-hash``)."
+msgstr ""
+
+# a0f37f61588140e2af73ba662c98ada8
+#: ../../how-to-use/rest-api-common.rst:31
+msgid "доступ к keystore ноды (например, метод sign);"
+msgstr ""
+
+# 8e04729f0eed4710864d3df938fd63a4
+#: ../../how-to-use/rest-api-common.rst:32
+msgid "доступ к операциям с группами доступа к приватным данным;"
+msgstr ""
+
+# ff867adfb2b44514a6ea89cf8c99b18c
+#: ../../how-to-use/rest-api-common.rst:33
+msgid "доступ к конфигурации ноды."
+msgstr ""
+
+# e9189db3d5434674ba958c94fa23e21f
+#: ../../how-to-use/rest-api-common.rst:35
+msgid ""
+"При авторизации по токену в соответствующем поле указывается значение "
+"**access** токена. Если выбрана авторизация по токену, в таком случае "
+"закрыты все методы REST API для доступа к ноде."
+msgstr ""
+
+# fae38efb6d744bd79388bfb43b5d1693
+#: ../../how-to-use/rest-api-common.rst:38
+msgid "Методы авторизации"
+msgstr ""
+
+# 39a0d52605b64d1c905038b2cf179328
+#: ../../how-to-use/rest-api-common.rst:40
+msgid ""
+"В зависимости от метода авторизации указываются разные значения для "
+"получения доступа к REST API ноды."
+msgstr ""
+
+# 1ff3b3d7c29749c69fb672e21cb6870e
+#: ../../how-to-use/rest-api-common.rst:45
+msgid "``OAuth2 Bearer (apiKey)`` - значение **access** токена."
+msgstr ""
+
+# 9b665c41ffe6423f95262319d9b9e58a
+#: ../../how-to-use/rest-api-common.rst:46
+msgid ""
+"``ApiKey or PrivacyApiKey (apiKey)`` - значение ``api-key-hash`` как для "
+"общего доступа к REST API ноды, так и для доступа к методам :ref:`privacy"
+" <privacy-api>`."
+msgstr ""
+
+# db9bff983ad64323aae13e4aa86ca112
+#: ../../how-to-use/rest-api-common.rst:49
+msgid "Авторизация по ``api-key-hash``"
+msgstr ""
+
+# 1d09204198aa469b87231771a3a9853c
+#: ../../how-to-use/rest-api-common.rst:51
+msgid ""
+"Генерация значения ``api-key-hash`` выполняется при :ref:`конфигурации "
+"ноды <rest-api-access>`. Также получить значение поля ``rest-api.api-key-"
+"hash`` можно при помощи метода :ref:`/utils/hash/secure <utils-hash>` "
+"REST API ноды. Для подписания запросов ключем из keystore ноды в поле "
+"``password`` запроса ``POST /transaction/sign`` требуется указания пароля"
+" доступа к keystore."
+msgstr ""
+
+# ccb36325242e464f8b4019c5ba624832
+#: ../../how-to-use/rest-api-common.rst:53
+msgid "Пример запроса:"
+msgstr ""
+
+# 1836b3d5efc04270bb33bb5a0879f7f4
+#: ../../how-to-use/rest-api-common.rst:63
+msgid "Авторизация по токену"
+msgstr ""
+
+# a57da0a220d04f0f925acd7532db95cd
+#: ../../how-to-use/rest-api-common.rst:65
+msgid ""
+"Если используется :ref:`сервис авторизации <authorization-service>`, для "
+"доступа к ноде и другим сервисам клиент получает пару токенов - "
+"**refresh** и **access**. Токены можно получить через REST API сервиса "
+"авторизации."
+msgstr ""
+

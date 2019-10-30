@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-03 11:50+0300\n"
-"PO-Revision-Date: 2019-09-03 15:18+0300\n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: 2019-10-29 17:30+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
-# 36136c00060a42a0bd1c6a8f4235e5d7
+# 14a256458fc34c29b88275054c43bb3b
 #: ../../how-the-platform-works/registration-node.rst:4
-msgid "Регистрация участников"
-msgstr "Registration of new participants"
+msgid "Управление доступом"
+msgstr "Access managing"
 
 # b37d67e613f14b368857dd2f6c53a485
 #: ../../how-the-platform-works/registration-node.rst:6
@@ -115,3 +115,7 @@ msgstr ""
 "the next request after the participant is removed from the network will "
 "be denied, due to the lack of credentials of the connected participant "
 "in the blockchain node table."
+
+# 36136c00060a42a0bd1c6a8f4235e5d7
+#~ msgid "Регистрация участников"
+#~ msgstr "Registration of new participants"

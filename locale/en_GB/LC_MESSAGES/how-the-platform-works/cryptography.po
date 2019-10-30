@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 15:55+0300\n"
+"POT-Creation-Date: 2019-10-25 11:55+0300\n"
+"PO-Revision-Date: 2019-10-29 17:29+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 5e7b34fa14a24a7b897301f77c8d3fa1
 #: ../../how-the-platform-works/cryptography.rst:4
@@ -28,8 +28,8 @@ msgstr "Cryptography"
 #: ../../how-the-platform-works/cryptography.rst:6
 msgid ""
 "Для обеспечения безопасности в платформе Waves Enterprise используются "
-"криптографически стойкие алгоритмы, соответствующие требованиям ГОСТ, а также "
-"квалифицированные электронные подписи."
+"криптографически стойкие алгоритмы, соответствующие требованиям ГОСТ, а "
+"также квалифицированные электронные подписи."
 msgstr ""
 "To ensure security, the Waves Enterprise platform uses cryptographically "
 "resistant algorithms complying with GOST requirements, as well as qualified "
@@ -41,8 +41,8 @@ msgid ""
 "Платформа предоставляет выбор используемой криптографии, которая базируется "
 "на одном из стандартов:"
 msgstr ""
-"The platform provides a choice of cryptography to be used based on one of the "
-"standards:"
+"The platform provides a choice of cryptography to be used based on one of "
+"the standards:"
 
 # d0c802c185664e44bc03c32205f9cb06
 #: ../../how-the-platform-works/cryptography.rst:10
@@ -61,8 +61,8 @@ msgid ""
 "РФ)."
 msgstr ""
 "Elliptical curve Curve25519 - for projects which do not require strict "
-"compliance with GOST (commercial companies, organizations outside the Russian "
-"Federation)."
+"compliance with GOST (commercial companies, organizations outside the "
+"Russian Federation)."
 
 # 63648804f3454e50b47000eb29f66a7c
 #: ../../how-the-platform-works/cryptography.rst:14
@@ -83,8 +83,8 @@ msgstr ""
 msgid ""
 "Base64 — стандарт кодирования двоичных данных при помощи 64 символов ASCII. "
 "Алфавит кодирования содержит латинские символы и цифры A-Z, a-z и 0-9 (62 "
-"знака) и 2 служебных символа. Каждые 3 исходных байта кодируются 4 символами "
-"(увеличение на ¹⁄₃)."
+"знака) и 2 служебных символа. Каждые 3 исходных байта кодируются 4 "
+"символами (увеличение на ¹⁄₃)."
 msgstr ""
 "Base64 is a binary data encoding standard using 64 ASCII characters. The "
 "encoding alphabet contains Latin symbols and numbers A-Z, a-z and 0-9 (62 "
@@ -94,14 +94,14 @@ msgstr ""
 # 9eb47f23b6ec4b8182c454b2658efaa6
 #: ../../how-the-platform-works/cryptography.rst:20
 msgid ""
-"Base58 — вариант кодирования двоичных данных в виде буквенно-цифрового текста "
-"на основе латинского алфавита. Содержит 58 символов, исключены используемые в "
-"base64 символы 0, O, I, l, +, / . Применяется для передачи данных в "
-"разнородных сетях (транспортное кодирование)."
+"Base58 — вариант кодирования двоичных данных в виде буквенно-цифрового "
+"текста на основе латинского алфавита. Содержит 58 символов, исключены "
+"используемые в base64 символы 0, O, I, l, +, / . Применяется для передачи "
+"данных в разнородных сетях (транспортное кодирование)."
 msgstr ""
-"BASE58 is a variant of encoding binary data in the form of alphanumeric text "
-"based on the Latin alphabet. It contains 58 characters, the characters used "
-"in Base64, such as 0, O, I, L, +,/ are excluded. It is used for data "
+"BASE58 is a variant of encoding binary data in the form of alphanumeric "
+"text based on the Latin alphabet. It contains 58 characters, the characters "
+"used in Base64, such as 0, O, I, L, +,/ are excluded. It is used for data "
 "transmission in heterogeneous networks (transport coding)."
 
 # 5c2db17bd33145b59c39fe09ffbc764c
@@ -116,29 +116,41 @@ msgid ""
 "технология. Криптографическая защита информации. Функция хэширования\". "
 "Используется функция «Стрибог» с размером блоков выходных данных 256 бит."
 msgstr ""
-"Hashing algorithm is implemented according to GOST R 34.11 2012 'Information "
-"Technology. Cryptographic Protection of Information. Hashing Function'. The "
-"Stribog function is used with 256 bits output blocks."
+"Hashing algorithm is implemented according to GOST R 34.11 2012 "
+"'Information Technology. Cryptographic Protection of Information. Hashing "
+"Function'. The Stribog function is used with 256 bits output blocks."
+
+# 953589615acd4c17ab23575a324b5059
+#: ../../how-the-platform-works/cryptography.rst:30
+msgid ""
+"Алгоритм шифрования реализован по ГОСТ 28147-89 \"Системы обработки "
+"информации. Защита криптографическая. Алгоритм криптографического "
+"преобразования\"."
+msgstr ""
+"The encryption algorithm is implemented according to GOST 'Information "
+"processing systems. Cryptographic protection. Algorithm of cryptographic "
+"transformation'."
 
 # 0d6962c021704d0fb31d91a5a42ca42b
-#: ../../how-the-platform-works/cryptography.rst:30
+#: ../../how-the-platform-works/cryptography.rst:32
 msgid ""
 "Алгоритмы формирования и проверки ЭЦП реализованы по ГОСТ Р 34.10-2012 "
 "\"Информационная технология. Криптографическая защита информации. Процессы "
-"формирования и проверки электронной цифровой подписи\". Длина ключей 256 бит."
+"формирования и проверки электронной цифровой подписи\". Длина ключей 256 "
+"бит."
 msgstr ""
-"EDS generation and verification algorithms are implemented according to GOST "
-"R 34.10-2012 'Information Technology. Cryptographic Protection of "
+"EDS generation and verification algorithms are implemented according to "
+"GOST R 34.10-2012 'Information Technology. Cryptographic Protection of "
 "Information. Electronic Digital Signature Generation and Verification "
 "Processes'. The key length is 256 bits."
 
 # 2b9221e8326940b0b8f1088b7c80697b
-#: ../../how-the-platform-works/cryptography.rst:35
+#: ../../how-the-platform-works/cryptography.rst:37
 msgid "Использование эллиптической кривой Curve25519 (криптография Waves)"
 msgstr "Using an elliptical curve Curve25519 (Waves cryptography)"
 
 # 3b63dcad562f4b3e81cf10df0a2262c0
-#: ../../how-the-platform-works/cryptography.rst:37
+#: ../../how-the-platform-works/cryptography.rst:39
 msgid ""
 "Алгоритм хэширования реализован последовательным хешированием функциями "
 "Blake2b256 и Keccak256. Размер блоков выходных данных 256 бит."
@@ -147,126 +159,129 @@ msgstr ""
 "Blake2b256 and Keccak256. The size of output blocks is 256 bits."
 
 # 0a9f653c549b47bd9732d241bee6c288
-#: ../../how-the-platform-works/cryptography.rst:39
+#: ../../how-the-platform-works/cryptography.rst:41
 msgid ""
 "Алгоритмы формирования и проверки ЭЦП реализованы на базе эллиптической "
 "кривой Curve25519 (ED25519 с ключами X25519). Длина ключей 256 бит."
 msgstr ""
 "EDS generation and verification algorithms are implemented on the basis of "
-"elliptical curve Curve25519 (ED25519 with X25519 keys). The key length is 256 "
-"bits."
+"elliptical curve Curve25519 (ED25519 with X25519 keys). The key length is "
+"256 bits."
 
 # 014c01e65e164c03a27dc23989cba754
-#: ../../how-the-platform-works/cryptography.rst:44
-msgid "Зашифрование текстовых данных в транзакциях"
+#: ../../how-the-platform-works/cryptography.rst:46
+msgid "Шифрование текстовых данных в транзакциях"
 msgstr "Encrypting text data in transactions"
 
 # e9151e0763dd416fbb3f8e8d724e78b1
-#: ../../how-the-platform-works/cryptography.rst:46
+#: ../../how-the-platform-works/cryptography.rst:48
 msgid ""
-"Платформа Waves Enterprise предоставляет возможность зашифрования/"
+"Платформа Waves Enterprise предоставляет возможность шифрования/"
 "расшифрования текстовых данных при помощи сессионных ключей. Опция "
-"применяется для зашифрования любого вида текстовой информации, например, "
+"применяется для шифрования любого вида текстовой информации, например, "
 "параметры Docker контрактов или данные из транзакций :ref:`Data Transaction "
-"<DataTransaction>`. Зашифрование текстовых данных может выполняться как "
-"индивидуально для каждого получателя, с формированием уникального экземпляра "
-"шифротекста, так и с формированием единого шифротекста для группы "
-"получателей. Ограничение на размер зашифровываемых данных - 165Кб. Алгоритмы "
-"хеширования соответствуют выбранной схеме криптографии (ГОСТ или Waves)."
+"<DataTransaction>`. Шифрование текстовых данных может выполняться как "
+"индивидуально для каждого получателя, с формированием уникального "
+"экземпляра шифротекста, так и с формированием единого шифротекста для "
+"группы получателей. Ограничение на размер шифруемых данных - 165Кб. "
+"Алгоритмы хеширования соответствуют выбранной схеме криптографии (ГОСТ или "
+"Waves)."
 msgstr ""
 "The Waves Enterprise platform allows to encrypt/decrypt the text data using "
-"the session keys. The option is used to encrypt any kind of text information, "
-"for example, Docker contract parameters or data from :ref:`Data Transactions "
-"<DataTransaction>`.Encryption of text data can be performed both individually "
-"for each recipient, with forming of a unique instance of the encrypted text, "
-"or with forming of a single encrypted text for a group of recipients. Limit "
-"size to encrypt data is 165 Kbytes. Hashing algorithms correspond to the "
-"chosen cryptography scheme (GOST or Waves)."
+"the session keys. The option is used to encrypt any kind of text "
+"information, for example, Docker contract parameters or data from :ref:"
+"`Data Transactions <DataTransaction>`.Encryption of text data can be "
+"performed both individually for each recipient, with forming of a unique "
+"instance of the encrypted text, or with forming of a single encrypted text "
+"for a group of recipients. Limit size to encrypt data is 165 Kbytes. "
+"Hashing algorithms correspond to the chosen cryptography scheme (GOST or "
+"Waves)."
 
 # 11c548c3ba634e47b6851422f07be312
-#: ../../how-the-platform-works/cryptography.rst:49
-msgid "Алгоритм зашифрования"
+#: ../../how-the-platform-works/cryptography.rst:51
+msgid "Алгоритм шифрования"
 msgstr "Encryption algorithm"
 
 # 07b8e6d6609e48fcb5d11dc0c1c469c8
-#: ../../how-the-platform-works/cryptography.rst:51
+#: ../../how-the-platform-works/cryptography.rst:53
 msgid ""
-"Для зашифрования/расшифрования данных применяются симметричные ключи CEK и "
-"KEK. CEK (Content Encryption Key) это ключ для зашифрования текстовых данных, "
-"KEK (Key Encryption Key) это ключ для зашифрования CEK. Ключ CEK формируется "
-"нодой случайным образом с применением соответствующих алгоритмов хеширования. "
-"Ключ KEK формируется нодой на базе алгоритма Diffie-Hellman, используя "
-"публичные и приватные ключи отправителя и получателей, и применяется для "
-"зашифровывания ключа CEK."
+"Для шифрования/расшифрования данных применяются симметричные ключи CEK и "
+"KEK. CEK (Content Encryption Key) это ключ для шифрования текстовых данных, "
+"KEK (Key Encryption Key) это ключ для шифрования CEK. Ключ CEK формируется "
+"нодой случайным образом с применением соответствующих алгоритмов "
+"хеширования. Ключ KEK формируется нодой на базе алгоритма Diffie-Hellman, "
+"используя публичные и приватные ключи отправителя и получателей, и "
+"применяется для шифровывания ключа CEK."
 msgstr ""
 "Symmetric CEK and KEK keys are used to encrypt/decrypt data. CEK (Content "
-"Encryption Key) is the key for the encrypting text data, KEK (Key Encryption "
-"Key) is the key for encrypting the CEK. The CEK key is generated by a node "
-"randomly using the appropriate hashing algorithms. The KEK key is generated "
-"by a node based on Diffie-Hellman algorithm, using public and private keys of "
-"sender and recipients, and is used to encrypt the CEK key."
+"Encryption Key) is the key for the encrypting text data, KEK (Key "
+"Encryption Key) is the key for encrypting the CEK. The CEK key is generated "
+"by a node randomly using the appropriate hashing algorithms. The KEK key is "
+"generated by a node based on Diffie-Hellman algorithm, using public and "
+"private keys of sender and recipients, and is used to encrypt the CEK key."
 
 # 6d0a6a66671e4da2aab18d987cc7874d
-#: ../../how-the-platform-works/cryptography.rst:53
+#: ../../how-the-platform-works/cryptography.rst:55
 msgid ""
 "Симметричный ключ СЕК недоступен для прочтения и не отображается в процессе "
 "шифрования. От отправителя к получателю он передается в зашифрованном виде "
 "(wrappedKey) по открытым каналам связи вместе с зашифрованным сообщением. "
-"Одним из таких каналов может являться запись в блокчейн - DataTransaction или "
-"стейт смарт-контракта. Ключ КЕК от отправителя к получателю не передается, он "
-"восстанавливается получателем на основе своего закрытого ключа и известного "
-"публичного ключа отправителя (алгоритм Diffie-Hellman key exchange)."
+"Одним из таких каналов может являться запись в блокчейн - DataTransaction "
+"или стейт смарт-контракта. Ключ КЕК от отправителя к получателю не "
+"передается, он восстанавливается получателем на основе своего закрытого "
+"ключа и известного публичного ключа отправителя (алгоритм Diffie-Hellman "
+"key exchange)."
 msgstr ""
 "The symmetric CEK key is unreachable and does not appear in the encryption "
-"process. It is transmitted from the sender to the recipient in the encrypted "
-"form (wrappedKey) via open communication channels along with the encrypted "
-"message. One of such channels can be a record to the blockchain — a "
-"DataTransaction or a smart contract state. The KEK key does not transmit from "
-"the sender to recipients, it is restored by the recipient based on its "
+"process. It is transmitted from the sender to the recipient in the "
+"encrypted form (wrappedKey) via open communication channels along with the "
+"encrypted message. One of such channels can be a record to the blockchain — "
+"a DataTransaction or a smart contract state. The KEK key does not transmit "
+"from the sender to recipients, it is restored by the recipient based on its "
 "private key and the known public key of the sender (Diffie-Hellman key "
 "exchange algorithm)."
 
 # 7e4725f01eec449c8ca91551ce039a1d
-#: ../../how-the-platform-works/cryptography.rst:55
+#: ../../how-the-platform-works/cryptography.rst:57
 msgid ""
-"Зашифрование/расшифрование текстовых данных выполняется при помощи метода :"
-"ref:`crypto <crypto>`. Данный метод позволяет зашифровывать текст отдельно "
-"для каждого получателя или для всех получателей вместе."
+"Шифрование/расшифрование текстовых данных выполняется при помощи метода :"
+"ref:`crypto <crypto>`. Данный метод позволяет шифровать текст отдельно для "
+"каждого получателя или для всех получателей вместе."
 msgstr ""
-"Text data encryption/decryption is performed using the :ref:`crypto <crypto>` "
-"method. This method allows to encrypt the text individually for each "
-"recipient or for all recipients together."
+"Text data encryption/decryption is performed using the :ref:`crypto "
+"<crypto>` method. This method allows to encrypt the text individually for "
+"each recipient or for all recipients together."
 
 # c4257a1e50a44e4e9f9b4ec8ce3f35ea
-#: ../../how-the-platform-works/cryptography.rst:63
-msgid "Процедура зашифрования текстовых данных на базе алгоритма Diffie-Hellman"
+#: ../../how-the-platform-works/cryptography.rst:65
+msgid "Процедура шифрования текстовых данных на базе алгоритма Diffie-Hellman"
 msgstr ""
 "Encryption procedure of the text data based on the Diffie-Hellman algorithm"
 
 # cddde26fc10d4edb81cd31a401c9b536
-#: ../../how-the-platform-works/cryptography.rst:65
+#: ../../how-the-platform-works/cryptography.rst:67
 msgid ""
-"Процесс зашифрования/расшифрования данных включает в себя следующие действия:"
+"Процесс шифрования/расшифрования данных включает в себя следующие действия:"
 msgstr "Encryption/decryption process includes the following actions:"
 
 # 2f681fb97bf849ebb6cc7a99e7a7631f
-#: ../../how-the-platform-works/cryptography.rst:67
+#: ../../how-the-platform-works/cryptography.rst:69
 msgid ""
-"Для зашифровывания данных для каждого получателя отдельно используется метод :"
-"ref:`POST /crypto/encryptSeparate <encryptSeparate>`. Укажите в JSON запросе "
-"следующие параметры:"
+"Для шифрования данных для каждого получателя отдельно используется метод :"
+"ref:`POST /crypto/encryptSeparate <encryptSeparate>`. Укажите в JSON "
+"запросе следующие параметры:"
 msgstr ""
 "Use the :ref:`POST /crypto/encryptSeparate <encryptSeparate>` method to "
-"encrypt data for each recipient separately. Specify the following parameters "
-"inside the JSON request:"
+"encrypt data for each recipient separately. Specify the following "
+"parameters inside the JSON request:"
 
 # 537afa470ff94343be88077e5886b297
-#: ../../how-the-platform-works/cryptography.rst:69
+#: ../../how-the-platform-works/cryptography.rst:71
 msgid "``sender`` - адрес отправителя."
 msgstr "``sender`` - the sender address."
 
 # ca140ebd7f714d378bdedd3a4d1dbdab
-#: ../../how-the-platform-works/cryptography.rst:70
+#: ../../how-the-platform-works/cryptography.rst:72
 msgid ""
 "``password`` - пароль от ключевой пары отправителя, создаваемый вместе с "
 "аккаунтом."
@@ -275,31 +290,31 @@ msgstr ""
 "same time as the account itself."
 
 # 78cdf557b88e460cab1a33b36baedc16
-#: ../../how-the-platform-works/cryptography.rst:71
-msgid "``encryptionText`` - текст для зашифрования."
+#: ../../how-the-platform-works/cryptography.rst:73
+msgid "``encryptionText`` - текст для шифрования."
 msgstr "``encryptionText`` - the text for the encryption."
 
 # 8be58116f6ec4e26bb7ed82d93128ea1
-#: ../../how-the-platform-works/cryptography.rst:72
+#: ../../how-the-platform-works/cryptography.rst:74
 msgid "``recipientsPublicKeys`` - массив публичных ключей получателей."
 msgstr ""
 "``recipientsPublicKeys`` - an array with recipients public keys list inside."
 
 # 5fde9af793bc41488f69bfa5f01a2e69
-#: ../../how-the-platform-works/cryptography.rst:74
+#: ../../how-the-platform-works/cryptography.rst:76
 msgid ""
-"Для зашифровывания данных для всех получателей единым ключом CEK используется "
+"Для шифрования данных для всех получателей единым ключом CEK используется "
 "метод :ref:`POST /crypto/encryptCommon <encryptCommon>`. Укажите в JSON "
 "запросе параметры, аналогичные методу :ref:`POST /crypto/encryptSeparate "
 "<encryptSeparate>`."
 msgstr ""
 "Use the :ref:`POST /crypto/encryptCommon <encryptCommon>` method to encrypt "
-"data for all recipients with a single CEK key. Specify the same parameters as "
-"inside the :ref:`POST /crypto/encryptSeparate <encryptSeparate>` method into "
-"the JSON request."
+"data for all recipients with a single CEK key. Specify the same parameters "
+"as inside the :ref:`POST /crypto/encryptSeparate <encryptSeparate>` method "
+"into the JSON request."
 
 # 34e9ce34517d4c6a9fd8edbf263bfe8c
-#: ../../how-the-platform-works/cryptography.rst:76
+#: ../../how-the-platform-works/cryptography.rst:78
 msgid ""
 "Для расшифровывания данных используется метод :ref:`POST /crypto/decrypt "
 "<decrypt>`. Укажите в JSON запросе следующие параметры:"
@@ -308,12 +323,12 @@ msgstr ""
 "Specify the following parameters inside the JSON request:"
 
 # 5afe611269ac42d1be8130c954ee0816
-#: ../../how-the-platform-works/cryptography.rst:78
+#: ../../how-the-platform-works/cryptography.rst:80
 msgid "``recipient`` - адрес получателя."
 msgstr "``recipient`` - the recipient address."
 
 # ae20ecc9fe784b5fb5e6e5033454765b
-#: ../../how-the-platform-works/cryptography.rst:79
+#: ../../how-the-platform-works/cryptography.rst:81
 msgid ""
 "``password`` - пароль от ключевой пары получателя, создаваемый вместе с "
 "аккаунтом."
@@ -322,17 +337,17 @@ msgstr ""
 "the same time as the account itself."
 
 # 225acc3933d94d7b8d0a805ff17b8668
-#: ../../how-the-platform-works/cryptography.rst:80
+#: ../../how-the-platform-works/cryptography.rst:82
 msgid "``encryptedText`` - зашифрованный текст."
 msgstr "``encryptedText`` - the encrypted text data."
 
 # be911d0fcaf440699f8e4654be552505
-#: ../../how-the-platform-works/cryptography.rst:81
-msgid "``wrappedKey`` - обёрнутый ключ, полученный при зашифровании данных."
+#: ../../how-the-platform-works/cryptography.rst:83
+msgid "``wrappedKey`` - обёрнутый ключ, полученный при шифровании данных."
 msgstr "``wrappedKey`` - the wrapped key obtained by encoding the data."
 
 # 43cbd2d6c9464cb881f58adf1c4a27b3
-#: ../../how-the-platform-works/cryptography.rst:82
+#: ../../how-the-platform-works/cryptography.rst:84
 msgid "``senderPublicKey`` - публичный ключ отправителя."
 msgstr "``senderPublicKey`` - the sender public key."
 
@@ -356,18 +371,18 @@ msgstr "``senderPublicKey`` - the sender public key."
 
 # 8da9aa38c414459986456371cb6a4eca
 #~ msgid ""
-#~ "Нода зашифровывает текстовые данные при помощи ключа CEK. Если необходимо "
-#~ "формирование зашифрованных данных для каждого получателя отдельно, то "
-#~ "формируются уникальные CEK ключи для каждого получателя. Таким образом, "
-#~ "каждый получатель принимает текстовые данные, зашифрованные только для "
-#~ "него. В случае использования общего CEK ключа зашифрованные данные у всех "
-#~ "получателей будут одинаковые."
+#~ "Нода зашифровывает текстовые данные при помощи ключа CEK. Если "
+#~ "необходимо формирование зашифрованных данных для каждого получателя "
+#~ "отдельно, то формируются уникальные CEK ключи для каждого получателя. "
+#~ "Таким образом, каждый получатель принимает текстовые данные, "
+#~ "зашифрованные только для него. В случае использования общего CEK ключа "
+#~ "зашифрованные данные у всех получателей будут одинаковые."
 #~ msgstr ""
-#~ "The node uses the CEK key for encrypting the text data. If it is necessary "
-#~ "to make encrypted data for each recipient separately, unique CEK keys are "
-#~ "formed for each recipient. Thus, each recipient receives the text data "
-#~ "encrypted only for him/her. If a shared CEK key is used, all recipients "
-#~ "will have the same encrypted data."
+#~ "The node uses the CEK key for encrypting the text data. If it is "
+#~ "necessary to make encrypted data for each recipient separately, unique "
+#~ "CEK keys are formed for each recipient. Thus, each recipient receives "
+#~ "the text data encrypted only for him/her. If a shared CEK key is used, "
+#~ "all recipients will have the same encrypted data."
 
 # aa414403f78b46aa88389ee4113a7c14
 #~ msgid ""
@@ -390,16 +405,16 @@ msgstr "``senderPublicKey`` - the sender public key."
 #~ "Зашифрованные данные вместе с ключами wrapedKey кладутся в транзакцию, "
 #~ "которая попадает в блокчейн."
 #~ msgstr ""
-#~ "The encrypted data including the wrapedKey keys is put into a transaction "
-#~ "that goes into blockchain."
+#~ "The encrypted data including the wrapedKey keys is put into a "
+#~ "transaction that goes into blockchain."
 
 # eee01d65f6e6433c8a72bf4bcabdab27
 #~ msgid ""
 #~ "Расшифрование текстовых данных транзакции выполняется нодой с "
 #~ "использованием KEK и CEK ключей в обратном процессу зашифрования порядке."
 #~ msgstr ""
-#~ "The decryption of the transaction text data is performed by the node using "
-#~ "the KEK and CEK keys in the reverse encryption process."
+#~ "The decryption of the transaction text data is performed by the node "
+#~ "using the KEK and CEK keys in the reverse encryption process."
 
 # a133c564e90749a09658960363a5116e
 # 8946096d3ff84089b64a829d3a3245a1

@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# d6e5388e20e24a55bb3218f4ae255882
+#: ../../how-to-setup/configuration/config-prepare.rst:5
+msgid "Подготовка конфигурационных файлов"
+msgstr ""
+
+# 13e20036ca144cc4a8d944e5554d84ef
+#: ../../how-to-setup/configuration/config-prepare.rst:7
+msgid "В конфигурации ноды используются следующие файлы:"
+msgstr ""
+
+# 5caeb90565764db0b8d1065635487cc7
+#: ../../how-to-setup/configuration/config-prepare.rst:9
+msgid "``accounts.conf`` - конфигурационный файл для генерации аккаунтов."
+msgstr ""
+
+# c58ebea78d2b4f4880b9945170c544cb
+#: ../../how-to-setup/configuration/config-prepare.rst:10
+msgid ""
+"``api-key-hash.conf`` - конфигурационный файл для генерации значений "
+"полей ``api-key-hash`` и ``privacy-api-key-hash`` при выборе авторизации "
+"по хешу ключевой строки ``api-key``."
+msgstr ""
+
+# 5d54a2cc6883439497dd9218aab353e0
+#: ../../how-to-setup/configuration/config-prepare.rst:11
+msgid ""
+"``nodeName.conf`` - основной конфигурационный файл ноды, определяющий ее "
+"принципы работы и набор опций."
+msgstr ""
+
+# c7914f07f2dc468b9020a9839889e246
+#: ../../how-to-setup/configuration/config-prepare.rst:16
+msgid "Конфигурационный файл для создания аккаунтов ``accounts.conf``"
+msgstr ""
+
+# 820941816e194d1fb2d869f41cc49cc0
+#: ../../how-to-setup/configuration/config-prepare.rst:18
+msgid ""
+"При указании пути в параметрах файла ``accounts.conf`` необходимо "
+"использовать символ \"прямого слэша\" - ``/`` как разделитель уровней "
+"иерархии директорий. При работе в ОС Linux значение ``wallet`` должно "
+"соответствовать структуре каталогов операционной системы, например, "
+"``/home/contract/we/keystore.dat``. При настройке ноды не допускается "
+"использование кириллических символов при указании путей до рабочей "
+"директории, хранилища ключей и т.д."
+msgstr ""
+
+# faced8ae30f642219cb5814e25ab88cc
+#: ../../how-to-setup/configuration/config-prepare.rst:36
+msgid "Описание параметров конфигурационного файла представлено ниже."
+msgstr ""
+
+# 1720d5908fcb43669818cc715888d997
+#: ../../how-to-setup/configuration/config-prepare.rst:38
+msgid ""
+"``waves-crypto`` – выбор криптографического алгоритма (\"yes\" - "
+"использовать криптографию :ref:`Waves <crypto-waves>`, \"no\" - "
+"использовать :ref:`ГОСТ-криптографию <crypto-gost>`);"
+msgstr ""
+
+# d8c160300edc4918a79c2c173e8e0158
+#: ../../how-to-setup/configuration/config-prepare.rst:39
+msgid ""
+"``chain-id`` – идентифицирующий байт сети, значение потребуется дальше "
+"для внесения в параметр ``address-scheme-character`` в конфигурационный "
+"файл ноды;"
+msgstr ""
+
+# 59df090c63234c058f4083ba3e841f90
+#: ../../how-to-setup/configuration/config-prepare.rst:40
+msgid "``amount`` – количество генерируемых ключевых пар;"
+msgstr ""
+
+# 2166e882b65f4e3bae7769a078713b93
+#: ../../how-to-setup/configuration/config-prepare.rst:41
+msgid ""
+"``wallet`` – путь до каталога хранения ключей на ноде, значение "
+"потребуется дальше для внесения в параметр ``wallet > file`` в "
+"конфигурационный файл ноды. Для криптографии Waves указывается путь до "
+"файла ``keystore.dat`` (пример, ``${user.home}/we/keystore.dat``), для "
+"ГОСТ-криптографии - путь до директории (``${user.home}/we/keystore/``);"
+msgstr ""
+
+# 266ab96217f84260833aa53531dfdfe7
+#: ../../how-to-setup/configuration/config-prepare.rst:42
+msgid ""
+"``wallet-password`` – пароль для доступа к закрытым ключам ноды, значение"
+" потребуется дальше для внесения в параметр ``wallet > password`` в "
+"конфигурационный файл ноды;"
+msgstr ""
+
+# d6b401e3d2b64af5a98fceeb25d782a7
+#: ../../how-to-setup/configuration/config-prepare.rst:43
+msgid ""
+"``reload-node-wallet`` - опция для обновления keyStore ноды без "
+"перезапуска приложения, по умолчанию установлено в значение \"Выключено\""
+" (``false``). В параметре ``url`` указывается путь до метода ``/utils"
+"/reload-wallet`` REST API ноды."
+msgstr ""
+
+# 8f7bb4f4d0bd46598239b75a50043241
+#: ../../how-to-setup/configuration/config-prepare.rst:48
+msgid "Конфигурационный файл ``api-key-hash.conf``"
+msgstr ""
+
+# 90fdb9eef30f40c68e70b3a8b11e2089
+#: ../../how-to-setup/configuration/config-prepare.rst:50
+msgid ""
+"Конфигурационный файл ``api-key-hash.conf`` нужен только для генерации "
+"значений полей ``api-key-hash`` и ``privacy-api-key-hash`` при выборе "
+"авторизации по хешу ключевой строки ``api-key``."
+msgstr ""
+
+# 50608e1c45054aa4bc07be752f4966b7
+#: ../../how-to-setup/configuration/config-prepare.rst:61
+msgid "**Описание параметров:**"
+msgstr ""
+
+# a1fdfa2b6de8463ca050b6c2421b37e9
+#: ../../how-to-setup/configuration/config-prepare.rst:63
+msgid ""
+"waves-crypto – выбор криптографического алгоритма (\"yes\" - использовать"
+" криптографию :ref:`Waves <crypto-waves>`, \"no\" - использовать "
+":ref:`ГОСТ-криптографию <crypto-gost>`);"
+msgstr ""
+
+# 11903d7e11914ca290d071160ae32fb6
+#: ../../how-to-setup/configuration/config-prepare.rst:64
+msgid ""
+"api-key – ключ, который необходимо придумать. Значение данного ключа "
+"потребуется указать в запросах к REST API ноды (подробнее на странице "
+":ref:`REST API ноды <rest-api-node>`)."
+msgstr ""
+
+# f92f02484ada40778b52fd9bc30aa776
+#: ../../how-to-setup/configuration/config-prepare.rst:69
+msgid "Конфигурационный файл ноды ``nodeName.conf``"
+msgstr ""
+
+# d11430905103465fae6c3b4c52e04098
+#: ../../how-to-setup/configuration/config-prepare.rst:71
+msgid ""
+"Если планируется подключение к существующей сети, то для упрощения "
+"подключения запросите готовый конфигурационный файл ноды у одного из "
+"участников сетевого взаимодействия или у администратора вашей сети. При "
+"создании сети с нуля или подключении к сети \"Waves Enterprise Mainnet\" "
+"пример конфигурационного файла ноды можно взять на странице проекта на "
+"`GitHub <https://github.com/waves-enterprise/WE-"
+"releases/tree/master/configs>`_."
+msgstr ""
+
+# 12de830696b24cb3874e7fea38a08a70
+#: ../../how-to-setup/configuration/config-prepare.rst:73
+msgid ""
+"Для нод версии 1.0.3 и выше в конфигурационном файле ноды в корневой "
+"секции ``node`` необходимо наличие следующего параметра:"
+msgstr ""
+
+# f51225bb593c4f528b0e6d2335938d46
+#: ../../how-to-setup/configuration/config-prepare.rst:81
+msgid ""
+"Данная опция становится активной после достижения суммарного количества "
+"блоков из параметров ``feature-check-blocks-period = 15000`` и ``blocks-"
+"for-feature-activation = 10000`` (25000 блоков), которые находятся в "
+"секции ``blockchain``. При подключении к Mainnet или Partnernet данные "
+"параметры не могут быть изменены. Ноды без активации данной опции не "
+"смогут подключиться к сети."
+msgstr ""
+
+# f5e5f573b29f4ad0a79ab6726805654c
+#: ../../how-to-setup/configuration/config-prepare.rst:83
+msgid ""
+"Пример конфигурационного файла ноды представлен ниже. В данном примере "
+"отключены опции :ref:`анкоринга <anchoring-settings>`, :ref:`Docker "
+"<docker-configuration>` смарт-контрактов и :ref:`групп <privacy-config>` "
+"доступа к приватным данным. Также установлена :ref:`авторизация "
+"<authorization-config>` по хешу ключевой строки ``api-key`` и "
+"криптография Waves. Описание параметров конфигурационного файла ноды "
+"представлено на страничке :ref:`config-fields <Описание основных "
+"параметров и секций конфигурационного файла ноды>`."
+msgstr ""
+
+# 764ad9df80424a038e2f9eb1f5cafaac
+#: ../../how-to-setup/configuration/config-prepare.rst:85
+msgid ""
+"Если вы планируете использовать дополнительные опции, установите поле "
+"``enable`` выбранной опции в значение ``yes`` или ``true`` и настройте "
+"секцию опции в соответствии с описанием её настройки."
+msgstr ""
+

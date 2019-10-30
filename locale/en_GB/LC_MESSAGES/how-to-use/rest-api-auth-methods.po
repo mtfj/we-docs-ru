@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# 7ab012b3832c4850822beebbeeaab659
+#: ../../how-to-use/rest-api-auth-methods.rst:5
+msgid "Методы REST API для сервиса авторизации"
+msgstr ""
+
+# bb0352bcd4444cd1ba634a84c20d842f
+#: ../../how-to-use/rest-api-auth-methods.rst:7
+msgid ""
+"Подробно о работе с REST API можно почитать в :ref:`этом <rest-api-node>`"
+" разделе. Доступ к REST API сервиса авторизации осуществляется по "
+"протоколу HTTPS. Методы, закрытые авторизацией, отмечены значком |lock|."
+msgstr ""
+
+# 95daa21efbf84e1ea324da2d8df90c75
+#: ../../how-to-use/rest-api-auth-methods.rst:12
+msgid "GET ​/status"
+msgstr ""
+
+# 48e6c035f55a4ffa88e08b2b6b7c3eb4
+#: ../../how-to-use/rest-api-auth-methods.rst:14
+msgid "Получение статуса сервиса авторизации."
+msgstr ""
+
+# 6b3e039236d44fae9736c2a8e2ecec33
+# f5003e69ee8e493ea7b0743e25ab7965
+# a848849139b2402b9c17d35fe372fe94
+# 12ff345d60be4cd0834d10715cba70f0
+# ab99b4e2be2f407fbc62eb73ce40114c
+# 868c2055b741426cb14140ef043616e6
+# c592e804f2bb43b3a7f154715be3b291
+# 93067a54b0434020ad02c2e32e233621
+# 6b8a746a5b314ea39052c2bd4d999ac9
+# 67ec961f79f84a04a3b8bb74bf2cf822
+# e4bc958cfd7e4dd0acd4f9e1d2e34426
+# 92135fe8e53642688e23f9853c7add22
+#: ../../how-to-use/rest-api-auth-methods.rst:16
+#: ../../how-to-use/rest-api-auth-methods.rst:39
+#: ../../how-to-use/rest-api-auth-methods.rst:57
+#: ../../how-to-use/rest-api-auth-methods.rst:90
+#: ../../how-to-use/rest-api-auth-methods.rst:103
+#: ../../how-to-use/rest-api-auth-methods.rst:124
+#: ../../how-to-use/rest-api-auth-methods.rst:146
+#: ../../how-to-use/rest-api-auth-methods.rst:172
+#: ../../how-to-use/rest-api-auth-methods.rst:195
+#: ../../how-to-use/rest-api-auth-methods.rst:221
+#: ../../how-to-use/rest-api-auth-methods.rst:244
+#: ../../how-to-use/rest-api-auth-methods.rst:259
+msgid "**Ответ метода**"
+msgstr ""
+
+# 63aba2b370c44d9a90e5975521809ce5
+#: ../../how-to-use/rest-api-auth-methods.rst:25
+msgid "POST ​/v1​/user"
+msgstr ""
+
+# 5ea9848945ad4367a5b2a0ebca6ab954
+#: ../../how-to-use/rest-api-auth-methods.rst:27
+msgid "Регистрация нового пользователя."
+msgstr ""
+
+# 1bd34ec6e2bd4034a2f7b58418accde6
+# e501ccbbc2954ebc9a8959c097802208
+# 13d045b091744c1aaa4c277a607dfe8b
+# cb2d5e3eb665400aa01101056acdea9e
+# 08d9ff8c207c4777b042a900953e097a
+# 050bbc56fb494154abe64b5a03d3074c
+# bba30d46fbc04b3db2b4323943fc8d82
+# fd69df14319f450690e03b04f567fb89
+#: ../../how-to-use/rest-api-auth-methods.rst:29
+#: ../../how-to-use/rest-api-auth-methods.rst:81
+#: ../../how-to-use/rest-api-auth-methods.rst:116
+#: ../../how-to-use/rest-api-auth-methods.rst:137
+#: ../../how-to-use/rest-api-auth-methods.rst:164
+#: ../../how-to-use/rest-api-auth-methods.rst:185
+#: ../../how-to-use/rest-api-auth-methods.rst:213
+#: ../../how-to-use/rest-api-auth-methods.rst:236
+msgid "**Запрос метода**"
+msgstr ""
+
+# 35502c3a01c14a06919e41e72ad93206
+#: ../../how-to-use/rest-api-auth-methods.rst:50
+msgid "GET ​/v1​/user​/profile"
+msgstr ""
+
+# ac95b402e89647199aaf9832c20d724d
+#: ../../how-to-use/rest-api-auth-methods.rst:55
+msgid "Получение данных пользователя."
+msgstr ""
+
+# 5355e4a9bc1e46eb9711f0193c56cb54
+#: ../../how-to-use/rest-api-auth-methods.rst:74
+msgid "POST ​/v1​/user​/address"
+msgstr ""
+
+# 6629e270a7e74b309016567eb86ed4ca
+#: ../../how-to-use/rest-api-auth-methods.rst:79
+msgid "Получение адреса пользователя."
+msgstr ""
+
+# fff87db51d1049ad83871ad541ecc433
+#: ../../how-to-use/rest-api-auth-methods.rst:99
+msgid "GET ​/v1​/user​/doesEmailExist"
+msgstr ""
+
+# 2e13689f800b4b0c86f8afb2c225971e
+#: ../../how-to-use/rest-api-auth-methods.rst:101
+msgid "Проверка адреса электронной почты пользователя."
+msgstr ""
+
+# 55c86e97e86f4b3da129983ded73804d
+#: ../../how-to-use/rest-api-auth-methods.rst:112
+msgid "POST ​/v1​/user​/password​/restore"
+msgstr ""
+
+# ec56bd07c5b34795ba5c5bd1489c8896
+#: ../../how-to-use/rest-api-auth-methods.rst:114
+msgid "Восстановление пароля доступа к аккаунту пользователя."
+msgstr ""
+
+# 916e7ca4ce02496988b389daf63ae00f
+#: ../../how-to-use/rest-api-auth-methods.rst:133
+msgid "POST ​/v1​/user​/password​/reset"
+msgstr ""
+
+# 88899cac82d54c638ec1afd1ff295b3f
+#: ../../how-to-use/rest-api-auth-methods.rst:135
+msgid "Сброс пароля пользователя."
+msgstr ""
+
+# 38e4553778a64fd0b25a13ee755c745e
+#: ../../how-to-use/rest-api-auth-methods.rst:155
+msgid "GET ​/v1​/user​/confirm​/{code}"
+msgstr ""
+
+# 92c148118c4942f9b6d7b5c0949c3f01
+#: ../../how-to-use/rest-api-auth-methods.rst:157
+msgid ""
+"Ввод кода подтверждения для восстановления пароля для доступа к аккаунту "
+"пользователя."
+msgstr ""
+
+# 8c7f45ac930e423fafe37fc7d27e9278
+#: ../../how-to-use/rest-api-auth-methods.rst:160
+msgid "POST ​/v1​/user​/resendEmail"
+msgstr ""
+
+# 5109edc38c084f23a9abddba3c9705a2
+#: ../../how-to-use/rest-api-auth-methods.rst:162
+msgid ""
+"Повторная отправка кода восстановления пароля на указанный электронный "
+"адрес."
+msgstr ""
+
+# 6d58664de64441dd8162ad9d84b0ce45
+#: ../../how-to-use/rest-api-auth-methods.rst:181
+msgid "POST ​/v1​/auth​/login"
+msgstr ""
+
+# e70cf752a6d84b3b817f0c024ba9260f
+#: ../../how-to-use/rest-api-auth-methods.rst:183
+msgid "Регистрация нового пользователя в сервисе авторизации."
+msgstr ""
+
+# d1ed08c33d5640ecb33af1a08a44b5e8
+#: ../../how-to-use/rest-api-auth-methods.rst:206
+msgid "POST ​/v1​/auth​/token"
+msgstr ""
+
+# bf6c2560508e4ac89c1ca475c886073c
+#: ../../how-to-use/rest-api-auth-methods.rst:211
+msgid "Регистрация внешних сервисов и приложений в сервисе авторизации."
+msgstr ""
+
+# 9926deeb997c42719ef0a89d5053d26b
+#: ../../how-to-use/rest-api-auth-methods.rst:232
+msgid "POST ​/v1​/auth​/refresh"
+msgstr ""
+
+# 235a404f98794e50ac914e03d6d9753f
+#: ../../how-to-use/rest-api-auth-methods.rst:234
+msgid "Получение нового refresh токена."
+msgstr ""
+
+# cf70c163c7ed431793109901e2548696
+#: ../../how-to-use/rest-api-auth-methods.rst:255
+msgid "GET​ /v1​/auth​/publicKey"
+msgstr ""
+
+# 5044df9b7c00418389bdfe68756a0e99
+#: ../../how-to-use/rest-api-auth-methods.rst:257
+msgid "Получение публичного ключа сервиса авторизации."
+msgstr ""
+

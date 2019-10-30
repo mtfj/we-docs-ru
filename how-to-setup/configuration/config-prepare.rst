@@ -194,22 +194,29 @@
     port = 6862
 
     # Authorization strategy should be either 'oauth2' or 'api-key', default is 'api-key'
-    auth-type = "api-key"
+    auth {
+      type = "api-key"
 
-    # Hash of API key string
-    api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
+      # Hash of API key string
+      api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
 
-    # Hash of API key string for PrivacyApi routes
-    privacy-api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
+      # Hash of API key string for PrivacyApi routes
+      privacy-api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
+    }
+    # For OAuth2:
+    # auth {
+    #   type: "oauth2"
 
-    # OAuth2 service public key to verify auth tokens
-    oauth-public-key = ""
+    #   # OAuth2 service public key to verify auth tokens
+    #   public-key: "AuthorizationServicePublicKeyInBase64"
+
+    #   # OAuth2 settings for initial sync
+    #   service-url: "auth.service.url"
+    #   service-token: "auth-token"
+    # }
 
     # Enable/disable CORS support
     cors = yes
-
-    # Enable/disable X-API-Key from different host
-    api-key-different-host = no
 
     # Max number of transactions
     # returned by /transactions/address/{address}/limit/{limit}

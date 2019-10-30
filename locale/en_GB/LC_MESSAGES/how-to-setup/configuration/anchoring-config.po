@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# cde3c6726c074c4184a545d707c7bb23
+#: ../../how-to-setup/configuration/anchoring-config.rst:5
+msgid "Настройка анкоринга"
+msgstr ""
+
+# b9568cb7282949c4875df2f8d27caf35
+#: ../../how-to-setup/configuration/anchoring-config.rst:7
+msgid ""
+"Если используете опцию :ref:`анкоринга <anchoring>`, необходимо настроить"
+" блок ``anchoring``."
+msgstr ""
+
+# b9ace6e4d0924b27b0da96a172395d6d
+#: ../../how-to-setup/configuration/anchoring-config.rst:41
+msgid "**Параметры анкоринга**"
+msgstr ""
+
+# 49bdc027f5ba4d7a90791f791c15e9a4
+#: ../../how-to-setup/configuration/anchoring-config.rst:43
+msgid ""
+"``height-range`` - число блоков, через которое нода приватного блокчейна "
+"отправляет в Mainnet транзакции для анкоринга."
+msgstr ""
+
+# 189fe1cf88ab447cb0406380363bb981
+#: ../../how-to-setup/configuration/anchoring-config.rst:44
+msgid ""
+"``height-above`` - число блоков в Mainnet, через которое нода приватного "
+"блокчейна создаёт подтверждающую анкоринг транзакцию с данными первой "
+"транзакции. Рекомендуется устанавливать значение, близкое к максимальной "
+"величине отката в Mainnet ``max-rollback``."
+msgstr ""
+
+# 80f02f8a7ac8413bb456a085145ffb10
+#: ../../how-to-setup/configuration/anchoring-config.rst:45
+msgid ""
+"``threshold`` - число блоков, которое отнимается от текущей высоты "
+"приватного блокчейна. В транзакцию для анкоринга, отправляемую в Mainnet,"
+" попадёт информация из блока на высоте ``current-height - threshold``. "
+"Если устанавливается значение 0, то берётся информация из текущего блока."
+" Рекомендуется устанавливать значение, близкое к максимальной величине "
+"отката в приватном блокчейне ``max-rollback``."
+msgstr ""
+
+# dd3c2d5a00674dc98aadebf92114e212
+#: ../../how-to-setup/configuration/anchoring-config.rst:47
+msgid "**Параметры авторизации при использовании анкоринга**"
+msgstr ""
+
+# e4d623599db448ae970fb07deb8cea91
+#: ../../how-to-setup/configuration/anchoring-config.rst:49
+msgid ""
+"``type`` - тип авторизации при использовании анкоринга. ``api-key`` - "
+"авторизация по ``api-key-hash``, ``auth-service`` - авторизация по "
+"специальному токену."
+msgstr ""
+
+# 175b173c58dd4219823be2b693e7ba43
+#: ../../how-to-setup/configuration/anchoring-config.rst:51
+msgid ""
+"В случае выбора авторизации по ``api-key-hash`` достаточно указать "
+"значение ключа в параметре ``api-key`` ниже. Если вы выбираете "
+"авторизацию по токену, необходимо указать ``type = \"auth-service\"``, "
+"раскомментировать параметры ниже и установить для них значения:"
+msgstr ""
+
+# 4f96d67c52a047d3b40e41abb9c2aa12
+#: ../../how-to-setup/configuration/anchoring-config.rst:53
+msgid "``authorization-token`` - постоянный авторизационный токен."
+msgstr ""
+
+# a90bf48891104e4e97bcdb8c2525f79a
+#: ../../how-to-setup/configuration/anchoring-config.rst:54
+msgid "``authorization-service-url`` - URL-адрес сервиса авторизации."
+msgstr ""
+
+# d9308cb04de048eebf3f3a807b6cb778
+#: ../../how-to-setup/configuration/anchoring-config.rst:55
+msgid "``token-update-interval`` - интервал обновления авторизационного токена."
+msgstr ""
+
+# 7967d09c982d4dcc8f8baac373839248
+#: ../../how-to-setup/configuration/anchoring-config.rst:57
+msgid "**Параметры для доступа Mainnet**"
+msgstr ""
+
+# 8d850da5a3814138963b0bd986454aa0
+#: ../../how-to-setup/configuration/anchoring-config.rst:59
+msgid ""
+"Для ноды, которая будет отправлять транзакции анкоринга в Mainnet, "
+"генерируется отдельный файл ``keystore.dat`` с ключевой парой для доступа"
+" в Mainnet."
+msgstr ""
+
+# db3303d0a7eb48d9bbbb7056b8836aef
+#: ../../how-to-setup/configuration/anchoring-config.rst:61
+msgid "``mainnet-scheme-byte`` - байт сети Mainnet."
+msgstr ""
+
+# 7352cda19e6747e89e3f3866b5838433
+#: ../../how-to-setup/configuration/anchoring-config.rst:62
+msgid ""
+"``mainnet-node-address`` - сетевой адрес ноды в сети Mainnet, на который "
+"будут отправляться транзакции для анкоринга."
+msgstr ""
+
+# 1e83896f55d64013b515f6250b6d3b5b
+#: ../../how-to-setup/configuration/anchoring-config.rst:63
+msgid ""
+"``mainnet-node-port`` - номер порта ноды в сети Mainnet, на который будут"
+" отправляться транзакции для анкоринга."
+msgstr ""
+
+# 83d51a55cb8f45e2bfd65f41419240ca
+#: ../../how-to-setup/configuration/anchoring-config.rst:64
+msgid ""
+"``mainnet-node-recipient-address`` - адрес ноды в сети Mainnet, на "
+"который будут записываться транзакции для анкоринга, подписанные ключевой"
+" парой данного адреса."
+msgstr ""
+
+# 2b7e72e6341e419e988c7b800b82f9f8
+#: ../../how-to-setup/configuration/anchoring-config.rst:66
+msgid ""
+"Сетевой адрес и порт для анкоринга в сеть Mainnet/Partnernet можно "
+"получить у сотрудников технической поддержки Waves Enterprise. Если "
+"используется несколько приватных блокчейнов с взаимным анкорингом, то "
+"необходимо использовать соответствующие сетевые настройки частных сетей."
+msgstr ""
+
+# e578c297f7624eec9801b79f6193fcf9
+#: ../../how-to-setup/configuration/anchoring-config.rst:68
+msgid ""
+"**Параметры файла с ключевой парой для подписания транзакций анкоринга в "
+"Mainnet, секция wallet**"
+msgstr ""
+
+# d7a9b5c2655a42c0af5539a9a6150be9
+#: ../../how-to-setup/configuration/anchoring-config.rst:70
+msgid ""
+"``file`` - имя файла и путь до каталога хранения файла с ключевой парой "
+"для подписания транзакций анкоринга в сети Mainnet. Файл находится на "
+"ноде приватной сети."
+msgstr ""
+
+# 686a305d1949462784e63eb7497acc83
+#: ../../how-to-setup/configuration/anchoring-config.rst:71
+msgid "``password`` - пароль от файла с ключевой парой."
+msgstr ""
+
+# 52740ab0f90245c5bb5c7b7976157586
+#: ../../how-to-setup/configuration/anchoring-config.rst:73
+msgid "**Параметры комиссий**"
+msgstr ""
+
+# 7c3bd1b4ebfd4c0cb3fe070047f88a4b
+#: ../../how-to-setup/configuration/anchoring-config.rst:75
+msgid "``mainnet-fee`` - плата за выпуск транзакции для анкоринга в сети Mainnet."
+msgstr ""
+
+# b301f1b98a7542729267d0a946e44ba3
+#: ../../how-to-setup/configuration/anchoring-config.rst:76
+msgid "``sidechain-fee`` - плата за выпуск транзакции в приватном блокчейне."
+msgstr ""
+

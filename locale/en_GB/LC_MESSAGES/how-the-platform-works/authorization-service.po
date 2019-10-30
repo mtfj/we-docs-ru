@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: 2019-10-29 17:06+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
+
+# 6415d8eef97a4ee4918a051c67de7378
+#: ../../how-the-platform-works/authorization-service.rst:5
+msgid "Сервис авторизации"
+msgstr "Authorization service"
+
+# 4eaa5bc5d31d4665ad9959e050d749e7
+#: ../../how-the-platform-works/authorization-service.rst:7
+msgid ""
+"Сервис авторизации является внешним по отношению к ноде и обеспечивает "
+"авторизацию всех компонентов блокчейн-сети. Сервис авторизации построен "
+"на базе протокола `OAuth 2.0 <https://en.wikipedia.org/wiki/OAuth>`_. "
+"OAuth 2.0 является открытым фреймворком для реализации механизма "
+"авторизации, позволяющим предоставлять третьей стороне ограниченный "
+"доступ к защищенным ресурсам пользователя без передачи третьей стороне "
+"логина и пароля. В общем виде поток данных между участниками "
+"информационного взаимодействия на базе протокола OAuth 2.0 представлен "
+"ниже."
+msgstr ""
+"The authorization service is an external service and it provides "
+"authorization for all components of the blockchain network. Service is "
+"built on the basis of `OAuth 2.0 <https://en.wikipedia.org/wiki/OAuth> "
+"`_ authorization protocol. OAuth 2.0 is the open framework for "
+"realization of the authorization mechanism, allowing to give to the "
+"third part the limited access to the protected resources without "
+"credentials transfer to the third part. The data flow scheme between "
+"participants of information interaction on the OAuth 2.0 basis is "
+"presented below."
+
+# 15b8dac53cfc444c99d5fc754348229e
+#: ../../how-the-platform-works/authorization-service.rst:16
+msgid "Общая схема авторизации на базе протокола OAuth 2.0"
+msgstr "Basic authorization scheme based on OAuth 2.0 protocol"
+
+# 22f69509b1224c75a4b826183f7ca7b7
+#: ../../how-the-platform-works/authorization-service.rst:18
+msgid ""
+"Средством авторизации является `JSON Web Token <https://jwt.io/>`_. "
+"Токены используются для авторизации каждого запроса от клиента к серверу "
+"и имеют ограниченное время жизни. Клиент получает два вида токена - "
+"access и refresh. Access токен используется для авторизации запросов на "
+"доступ к защищенным ресурсам и для хранения дополнительной информации о "
+"пользователе. Refresh токен используется для получения нового access "
+"токена и обновления refresh токена."
+msgstr ""
+"`JSON Web Token <https://jwt.io/>`_ is the authorization unit. Tokens "
+"are used to authorize each request from the client to the server and "
+"have a limited lifetime. The client receives two types of token - access "
+"and refresh. Access token is used to authorize requests for access to "
+"protected resources and to store additional information about the user. "
+"The refresh token is used to get a new access token and to refresh the "
+"refresh token."
+
+# 2151f7d1f423424b81fe92331253aa6e
+#: ../../how-the-platform-works/authorization-service.rst:26
+msgid "Схема авторизации на блокчейн-платформе Waves Enterprise"
+msgstr ""
+"The authorization scheme of the Waves Enterprise blockchain platform"
+
+# d125f40cbfdc49f3b8b6e0525ef215d2
+#: ../../how-the-platform-works/authorization-service.rst:28
+msgid "В общем виде схема авторизацию включает в себя следующие операции:"
+msgstr ""
+"In general, the authorization scheme includes the following operations:"
+
+# d8f4f81c51fd4888bf9ae73088b0a7df
+#: ../../how-the-platform-works/authorization-service.rst:30
+msgid ""
+"Клиент (компонент блокчейн-сети, такой как корпоративный клиент, дата-"
+"сервис или сторонее приложение) единоразово предоставляет свои "
+"аутентификационные данные сервису авторизации."
+msgstr ""
+"The client (it could be any blockchain network component like the web "
+"client, data service or an external application) once provides its "
+"authentication data to the authorization service."
+
+# d4b04daec0104e9eb381ebe47a336462
+#: ../../how-the-platform-works/authorization-service.rst:31
+msgid ""
+"В случае успешного прохождения процедуры первичной аутентификации сервис "
+"авторизации сохраняет аутентификационные данные клиента в хранилище "
+"данных, генерирует и отправляет клиенту подписанные access и refresh "
+"токены. В токенах указываются время жизни токена и основные данные "
+"клиента, такие как идентификатор и роль. Аутентификационные данные "
+"клиентов хранятся в конфигурационном файле сервиса авторизации. Каждый "
+"раз перед отправкой запроса стороннему сервису клиент проверяет время "
+"жизни access токена и, в случае истечения срока жизни токена, обращается "
+"к сервису авторизации для получения нового access токена. Для запросов к "
+"сервису авторизации используется refresh токен."
+msgstr ""
+"If the initial authentication procedure is successful, the authorization "
+"service stores the client's authentication data in the database, "
+"generates and sends signed access and refresh tokens to the client. "
+"Tokens include the lifetime info and basic customer data, such as an ID "
+"and a role. Client authentication data are stored in the authorization "
+"service configuration file. The client checks the lifetime of the access "
+"token each time before sending a request to a third-party service. In "
+"case of expiration of the token, the client refers to the authorization "
+"service to obtain a new access token. The refresh token is used for "
+"requests to the authorization service."
+
+# f6e325be1d6d4258b8d849ef292fd4ab
+#: ../../how-the-platform-works/authorization-service.rst:32
+msgid ""
+"Используя актуальный access токен, клиент отправляет запрос на получение "
+"данных стороннего сервиса."
+msgstr ""
+"The client sends a request of receiving data from a third-party service "
+"using the current access token."
+
+# 19bdd746acab46fa800747282f6c407e
+#: ../../how-the-platform-works/authorization-service.rst:33
+msgid ""
+"Сторонний сервис проверяет время жизни access токена, его целостность, а "
+"также сравнивает полученный ранее публичный ключ сервиса авторизации с "
+"ключом, содержащимся в подписи access токена. В случае успешной проверки "
+"сторонний сервис предоставляет клиенту запрашиваемые данные."
+msgstr ""
+"The external application checks the lifetime of the access token, its "
+"integrity, and compares the previously obtained public key of the "
+"authorization service with the key contained in the signature of the "
+"access token. In case of successful verification, this service provides "
+"the requested data to the client."

@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 - 2019, Waves Enterprise
+# This file is distributed under the same license as the Waves Enterprise
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves Enterprise 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-29 14:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# 31d1677e4ea244bdae006ad52491abac
+#: ../../how-to-use/data-privacy-exchange.rst:5
+msgid "Обмен конфиденциальными данными"
+msgstr ""
+
+# ac4ffd492ab849979760f0829c189915
+#: ../../how-to-use/data-privacy-exchange.rst:7
+msgid ""
+"Перед тем, как обмениваться конфиденциальными данными, вам нужно создать "
+"группы доступа. Используя транзакции, вы можете :ref:`добавлять <add-"
+"privacy-policy>` или :ref:`изменять <update-privacy-policy>` группы "
+"доступа к конфиденциальным данным."
+msgstr ""
+
+# a18454a9be2444089f2cd22fb3401310
+#: ../../how-to-use/data-privacy-exchange.rst:12
+msgid "Создание группы доступа к конфиденциальным данным"
+msgstr ""
+
+# 4a70605f2a664150822d6ee784f569e7
+#: ../../how-to-use/data-privacy-exchange.rst:14
+msgid ""
+"Группу доступа к конфиденциальным данным может создать любой участник "
+"сети. Перед созданием группы необходимо определиться с кругом участников "
+"сети, которые будут получать конфиденциальные данные. Далее любой из "
+"участников выполняет следующие действия:"
+msgstr ""
+
+# 8411a47a6cdf412086f14aac1a6334c6
+#: ../../how-to-use/data-privacy-exchange.rst:16
+msgid ""
+"Участник сети, который будет владельцем группы доступа, создаёт "
+"транзакцию :ref:`112 CreatePolicy <CreatePolicyTransaction>` со "
+"следующими основными параметрами:"
+msgstr ""
+
+# 7acb91cd35914a948e9087b96f90fce0
+#: ../../how-to-use/data-privacy-exchange.rst:18
+msgid "sender - публичный ключ создателя группы доступа."
+msgstr ""
+
+# 04e51e31ad58455b9a7165374f623b19
+#: ../../how-to-use/data-privacy-exchange.rst:19
+msgid "description - описание группы доступа."
+msgstr ""
+
+# 577ce4086c924669b954c685bd7265ab
+#: ../../how-to-use/data-privacy-exchange.rst:20
+msgid "policyName - имя группы доступа."
+msgstr ""
+
+# b7271cc7028e4de98f7335ca54f13d69
+#: ../../how-to-use/data-privacy-exchange.rst:21
+msgid ""
+"recipients - публичные ключи участников группы доступа, которые будут "
+"иметь право получать конфиденциальные данные."
+msgstr ""
+
+# 327e381e8432407bb91e01c5e1f61099
+#: ../../how-to-use/data-privacy-exchange.rst:22
+msgid ""
+"owners - публичные ключи владельцев группы доступа, которые, помимо "
+"доступа к данным, смогут изменять состав участников группы."
+msgstr ""
+
+# 8bb4557b96344191a1ac1762848b6648
+#: ../../how-to-use/data-privacy-exchange.rst:24
+msgid ""
+"Транзакция с созданием группы доступа вместе с остальными попадает в "
+"блок, и её принимают другие ноды."
+msgstr ""
+
+# af9e629dfcf449bcb7035acc3c3014d3
+#: ../../how-to-use/data-privacy-exchange.rst:25
+msgid ""
+"После принятия транзакции доступ к отправляемым в сеть конфиденциальным "
+"данным получают все участники, зарегистрированные в созданной группе "
+"доступа."
+msgstr ""
+
+# aeeedf9855c7427e864b83d7937db18b
+#: ../../how-to-use/data-privacy-exchange.rst:30
+msgid "Изменение группы доступа"
+msgstr ""
+
+# 3f1c0b843a5e4a1897f0e73d6b466c7c
+#: ../../how-to-use/data-privacy-exchange.rst:32
+msgid ""
+"Изменять группы доступа могут только их владельцы. Выполняются следующие "
+"действия для изменения списка участников в группе доступа:"
+msgstr ""
+
+# 2325b847b5684c11a765f735476acb14
+#: ../../how-to-use/data-privacy-exchange.rst:34
+msgid ""
+"Владелец группы доступа создаёт транзакцию :ref:`113 UpdatePolicy "
+"<UpdatePolicyTransaction>` со следующими основными параметрами:"
+msgstr ""
+
+# c8f7af2694844313b82b6732695772a9
+#: ../../how-to-use/data-privacy-exchange.rst:36
+msgid "policyId - идентификатор группы доступа."
+msgstr ""
+
+# b646409f1b074c27b2d732d797a618a7
+#: ../../how-to-use/data-privacy-exchange.rst:37
+msgid "sender - публичный ключ владельца группы доступа."
+msgstr ""
+
+# dd882c4d7fdb41cd98f464279846ac98
+#: ../../how-to-use/data-privacy-exchange.rst:38
+msgid ""
+"opType - опция добавления (``add``) или удаления (``remove``) участников "
+"группы."
+msgstr ""
+
+# e8d3f45fbe654f07beb006f1a9b34565
+#: ../../how-to-use/data-privacy-exchange.rst:39
+msgid ""
+"recipients - публичные ключи участников группы доступа, которые "
+"добавляются или удаляются из группы доступа."
+msgstr ""
+
+# b54816cc9c6745ee83758f331dc88a38
+#: ../../how-to-use/data-privacy-exchange.rst:40
+msgid ""
+"owners - публичные ключи владельцев группы доступа, которые добавляются "
+"или удаляются из группы доступа."
+msgstr ""
+
+# 13225ec7ac49463d998a8b8fd31f0b61
+#: ../../how-to-use/data-privacy-exchange.rst:41
+msgid ""
+"Транзакция с изменением группы доступа вместе с остальными попадает в "
+"блок, и её принимают другие ноды."
+msgstr ""
+
+# 0ccee40eede3477eb85a617bf4755703
+#: ../../how-to-use/data-privacy-exchange.rst:42
+msgid ""
+"После принятия транзакции в сети обновляется информация об участниках "
+"изменённой группы."
+msgstr ""
+
+# f7da2e54337f4d1eb62afe003589b225
+#: ../../how-to-use/data-privacy-exchange.rst:45
+msgid "Процесс обмена конфиденциальными данными"
+msgstr ""
+
+# aac76689b3a5494b8b92757b249bd01d
+#: ../../how-to-use/data-privacy-exchange.rst:47
+msgid ""
+"Через метод API :ref:`POST /privacy/sendData <privacy-api>` можно "
+"отправить данные размером не более 20МБ."
+msgstr ""
+
+# 3f77cbd14de044bb8f398f60064bda4d
+#: ../../how-to-use/data-privacy-exchange.rst:49
+msgid ""
+"Пользователь отправляет данные в сеть, используя инструмент API "
+":ref:`POST /privacy/sendData <privacy-api>` (параметры API: отправитель, "
+"пароль, ID группы, тип данных, информация о данных, данные и хеш)."
+msgstr ""
+
+# bbf62e4346ad474a86853052c54eb511
+#: ../../how-to-use/data-privacy-exchange.rst:50
+msgid ""
+"Участники группы доступа используют инструмент ``GET "
+"/privacy/getData/{hash}`` для получения информации о данных и их "
+"последующей загрузки."
+msgstr ""
+
+# db7f4074add54cad99e407c2b7b09886
+#: ../../how-to-use/data-privacy-exchange.rst:52
+msgid ""
+"Выполните следующие действия для создания значений в поля ``data`` и "
+"``hash``:"
+msgstr ""
+
+# a30d77ea76d140faa72f199e124e62fe
+#: ../../how-to-use/data-privacy-exchange.rst:54
+msgid "Переведите байтовую последовательность данных в кодировку **Base64**."
+msgstr ""
+
+# 64526c7daff94e39aee888d3b397dff3
+#: ../../how-to-use/data-privacy-exchange.rst:55
+msgid ""
+"Результат преобразования данных поместите в поле ``\"data\": "
+"\"29sCt...RgdC60LL\"`` запроса API :ref:`POST /privacy/sendData <privacy-"
+"api>`."
+msgstr ""
+
+# 5a9105588f974b9e84eaf51c9b98df00
+#: ../../how-to-use/data-privacy-exchange.rst:56
+msgid ""
+"В поле ``\"hash\": \"9wetTB...SU2zr1Uh\"`` укажите хеш-сумму от данных по"
+" алгоритму **SHA-256**. Результат хеширования нужно указывать в кодировке"
+" **Base58**."
+msgstr ""
+
+# 5b3de0be4f9d4dcab6e11612e8b8c06f
+#: ../../how-to-use/data-privacy-exchange.rst:57
+msgid "Отправьте данные в сеть, нажав кнопку **Try it out!**."
+msgstr ""
+
+# 4ce682236ea3480aa7b2852842886c08
+#: ../../how-to-use/data-privacy-exchange.rst:58
+msgid ""
+"В результате отправки данных в сеть нода автоматически сформирует "
+"транзакцию :ref:`114 PolicyDataHash <PolicyDataHashTransaction>`."
+msgstr ""
+

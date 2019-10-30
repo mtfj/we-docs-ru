@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 16:02+0300\n"
+"PO-Revision-Date: 2019-10-29 17:52+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 14d6be03adb14b3aaabfdde73e42776c
 #: ../../how-the-platform-works/smart-contracts/about.rst:4

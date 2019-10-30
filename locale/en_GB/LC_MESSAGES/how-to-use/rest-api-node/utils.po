@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-17 16:18+0300\n"
+"POT-Creation-Date: 2019-10-21 14:16+0300\n"
 "PO-Revision-Date: 2019-05-06 14:13+0300\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: en\n"
-"X-Generator: Poedit 2.2.1\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
 
 # bedf04b64d874c3aa31cf490e6bded77
 #: ../../how-to-use/rest-api-node/utils.rst:2
@@ -30,8 +29,8 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
-"The rules for generating queries to the node are given in module :ref:"
-"`rest-api-node`."
+"The rules for generating queries to the node are given in module :ref"
+":`rest-api-node`."
 
 # 1e24ffaa6f05407488f40e593f0efced
 #: ../../how-to-use/rest-api-node/utils.rst:7
@@ -50,9 +49,9 @@ msgstr "Returns secure (double) hash of specified message."
 # 5f874168220144e8baee0b618034c8f6
 #: ../../how-to-use/rest-api-node/utils.rst:11
 #: ../../how-to-use/rest-api-node/utils.rst:33
-#: ../../how-to-use/rest-api-node/utils.rst:85
-#: ../../how-to-use/rest-api-node/utils.rst:104
-#: ../../how-to-use/rest-api-node/utils.rst:123
+#: ../../how-to-use/rest-api-node/utils.rst:59
+#: ../../how-to-use/rest-api-node/utils.rst:78
+#: ../../how-to-use/rest-api-node/utils.rst:97
 msgid "**Запрос метода:**"
 msgstr "**Method query:**"
 
@@ -67,13 +66,11 @@ msgstr "**Method query:**"
 # 601dff20a0304f01ab7a0b15f3a4610c
 #: ../../how-to-use/rest-api-node/utils.rst:17
 #: ../../how-to-use/rest-api-node/utils.rst:39
-#: ../../how-to-use/rest-api-node/utils.rst:53
 #: ../../how-to-use/rest-api-node/utils.rst:66
-#: ../../how-to-use/rest-api-node/utils.rst:92
-#: ../../how-to-use/rest-api-node/utils.rst:110
-#: ../../how-to-use/rest-api-node/utils.rst:129
-#: ../../how-to-use/rest-api-node/utils.rst:144
-#: ../../how-to-use/rest-api-node/utils.rst:157
+#: ../../how-to-use/rest-api-node/utils.rst:84
+#: ../../how-to-use/rest-api-node/utils.rst:103
+#: ../../how-to-use/rest-api-node/utils.rst:118
+#: ../../how-to-use/rest-api-node/utils.rst:131
 msgid "**Ответ метода:**"
 msgstr "**Method response:**"
 
@@ -87,71 +84,68 @@ msgstr "POST /utils/hash/fast"
 msgid "Возвращает hash от заданного сообщения."
 msgstr "Returns hash of specified message."
 
-# 65563d8e89e24d20831d69beb27e1305
-#: ../../how-to-use/rest-api-node/utils.rst:49
-msgid "GET /utils/seed/{length}"
-msgstr "GET /utils/seed/{length}"
-
-# fe946ce4d9b94db7b3a19127b5470763
-#: ../../how-to-use/rest-api-node/utils.rst:51
-msgid "Возвращает случайный seed заданной {length} длины."
-msgstr "Returns random seed of specified {length}."
-
-# 04230e413bce4bdb8f9e34ba7ba7ef20
-#: ../../how-to-use/rest-api-node/utils.rst:62
-msgid "GET /utils/seed"
-msgstr "GET /utils/seed"
-
-# 73a404f294984a5c806f750cdc955483
-#: ../../how-to-use/rest-api-node/utils.rst:64
-msgid "Возвращает случайный seed."
-msgstr "Returns random seed."
-
 # db02a9d1c4294ea19116e1fd0da06e89
-#: ../../how-to-use/rest-api-node/utils.rst:75
+#: ../../how-to-use/rest-api-node/utils.rst:49
 msgid "POST /utils/script/compile"
 msgstr "POST /utils/script/compile"
 
 # 14c4df21f09f44a698ae95457a1493f1
-#: ../../how-to-use/rest-api-node/utils.rst:77
+#: ../../how-to-use/rest-api-node/utils.rst:51
 msgid "**Параметры ответа:**"
 msgstr "**Response parameters:**"
 
 # ac0c8aa6ce134a18aba3d83ee7d88057
-#: ../../how-to-use/rest-api-node/utils.rst:102
+#: ../../how-to-use/rest-api-node/utils.rst:76
 msgid "или"
 msgstr "or"
 
 # c8451e102b9540c2b9bdb0d2115c88b5
-#: ../../how-to-use/rest-api-node/utils.rst:119
+#: ../../how-to-use/rest-api-node/utils.rst:93
 msgid "POST /utils/script/estimate"
 msgstr "POST /utils/script/estimate"
 
 # 62a704aedaab4889b8f7fa31e3e4ef72
-#: ../../how-to-use/rest-api-node/utils.rst:121
+#: ../../how-to-use/rest-api-node/utils.rst:95
 msgid "Декодирование base64 скрипта."
 msgstr "Decoding base64 script."
 
 # 81533ae266e441f6ac33e170fe456cd3
-#: ../../how-to-use/rest-api-node/utils.rst:141
+#: ../../how-to-use/rest-api-node/utils.rst:115
 msgid "GET /utils/time"
 msgstr "GET /utils/time"
 
 # ed8e5dfee1774fc082b359d349d2cedc
-#: ../../how-to-use/rest-api-node/utils.rst:142
+#: ../../how-to-use/rest-api-node/utils.rst:116
 msgid "Возвращает текущее время на ноде."
 msgstr "Returns current node time."
 
 # 7ada4a043e6f44d3b440147b773e1bde
-#: ../../how-to-use/rest-api-node/utils.rst:154
+#: ../../how-to-use/rest-api-node/utils.rst:128
 msgid "POST /utils/reload-wallet"
 msgstr "POST /utils/reload-wallet"
 
 # 683f7e9edcc4420e801aeaac9114724b
-#: ../../how-to-use/rest-api-node/utils.rst:155
+#: ../../how-to-use/rest-api-node/utils.rst:129
 msgid ""
 "Перезагружает keystore ноды. Выполняется, если новая ключевая пара была "
 "создана в keystore без перезапуска ноды."
 msgstr ""
 "Reloads node keystore. Runs if new key pair was created in keystore "
 "without restarting node."
+
+# 65563d8e89e24d20831d69beb27e1305
+#~ msgid "GET /utils/seed/{length}"
+#~ msgstr "GET /utils/seed/{length}"
+
+# fe946ce4d9b94db7b3a19127b5470763
+#~ msgid "Возвращает случайный seed заданной {length} длины."
+#~ msgstr "Returns random seed of specified {length}."
+
+# 04230e413bce4bdb8f9e34ba7ba7ef20
+#~ msgid "GET /utils/seed"
+#~ msgstr "GET /utils/seed"
+
+# 73a404f294984a5c806f750cdc955483
+#~ msgid "Возвращает случайный seed."
+#~ msgstr "Returns random seed."
+
