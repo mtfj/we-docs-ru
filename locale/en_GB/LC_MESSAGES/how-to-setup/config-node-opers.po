@@ -4,29 +4,31 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Waves Enterprise 0.9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-29 14:11+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-10-30 10:31+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # e848763f73e34535b3f7bca94c9c4086
 #: ../../how-to-setup/config-node-opers.rst:5
 msgid "Конфигурация ноды"
-msgstr ""
+msgstr "Node configuration"
 
 # a179e6eee99a4bd78af70c0ea0cb78d9
 #: ../../how-to-setup/config-node-opers.rst:7
 msgid "Конфигурация ноды включает в себя следующие шаги:"
-msgstr ""
+msgstr "The node configuration includes the following steps:"
 
 # 0fad7d1e3e0b4324a8222c9866d75d1b
 #: ../../how-to-setup/config-node-opers.rst:23
@@ -35,4 +37,6 @@ msgid ""
 "Waves Enterprise вы можете получить примеры конфигурационных файлов и "
 "дистрибутивы последнего релиза платформы."
 msgstr ""
-
+"You can download the latest distributives and configuration files "
+"examples from the `GitHub <https://github.com/waves-enterprise/WE-"
+"releases>`_ Waves Enterprise release page."

@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-29 14:11+0300\n"
-"PO-Revision-Date: 2019-09-03 14:33+0300\n"
+"PO-Revision-Date: 2019-10-30 15:07+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 96f9c179ec7b4887837729ca47a353bc
 #: ../../how-to-setup/system-requirement.rst:5
@@ -116,51 +117,48 @@ msgstr "**Node environment requirements for the Waves cryptography usage**"
 # b4f2e856beb043078f5da694cde24290
 #: ../../how-to-setup/system-requirement.rst:20
 msgid ""
-"`Oracle JRE 1.8 (64-bit) "
-"<http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_ или "
-"`OpenJDK 12.0.1 <https://jdk.java.net/12/>`_"
+"`Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_ или `OpenJDK 12.0.1 <https://jdk.java.net/12/>`_"
 msgstr ""
-"`JRE 1.8 (64-bit) "
-"<http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_ or "
-"`OpenJDK 12.0.1 <https://jdk.java.net/12/>`_"
+"`JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_ or `OpenJDK 12.0.1 <https://jdk.java.net/12/>`_"
 
 # 228b391992014ad8af6c61d3b15c3eb3
 #: ../../how-to-setup/system-requirement.rst:22
 msgid ""
-"**Требования к окружению для ноды при использовании криптографии "
-"CryptoPro JCP**"
+"**Требования к окружению для ноды при использовании криптографии CryptoPro JCP**"
 msgstr "**Node environment requirements for the CryptoPro JCP cryptography usage**"
 
 # 38018bc0d08e4411bb21221e24c35d7d
 #: ../../how-to-setup/system-requirement.rst:24
 msgid ""
-"`Oracle JRE 1.8 (64-bit) "
-"<http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_"
+"`Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_"
 msgstr ""
-"`Oracle JRE 1.8 (64-bit) "
-"<http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_"
+"`Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/"
+"downloads/2133155>`_"
 
 # 5c4f2e2c4acf4074ae134e3a333f473a
 #: ../../how-to-setup/system-requirement.rst:25
 msgid ""
-"`CryptoPro JCP 2.0.39014 "
-"<https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_"
+"`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/"
+"jcp/jcp-2.0.39014.zip>`_"
 msgstr ""
-"`CryptoPro JCP 2.0.39014 "
-"<https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_"
+"`CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/"
+"jcp/jcp-2.0.39014.zip>`_"
 
 # ab68b92a873a48ecab67a4cd8827044c
 #: ../../how-to-setup/system-requirement.rst:27
 msgid ""
-"Платформа Waves Enterprise поддерживает только версию ``2.0.39014`` для "
-"ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти "
-"регистрацию на сайте. Для получения дистрибутива Oracle JRE 1.8 "
-"необходимо также зарегистрироваться на официальном сайте компании Oracle."
+"Платформа Waves Enterprise поддерживает только версию ``2.0.39014`` для ПО "
+"CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на "
+"сайте. Для получения дистрибутива Oracle JRE 1.8 необходимо также "
+"зарегистрироваться на официальном сайте компании Oracle."
 msgstr ""
-"The Waves Enterprise platform only supports ``2.0.39014`` version for the"
-" CryptoPro JCP software. You need to register on the site before "
-"downloading the installation package. Also you need to register on the "
-"Oracle site to get the Oracle JRE 1.8 distributive."
+"The Waves Enterprise platform only supports ``2.0.39014`` version for the "
+"CryptoPro JCP software. You need to register on the site before downloading the "
+"installation package. Also you need to register on the Oracle site to get the "
+"Oracle JRE 1.8 distributive."
 
 # 228b391992014ad8af6c61d3b15c3eb3
 #: ../../how-to-setup/system-requirement.rst:29
@@ -197,20 +195,17 @@ msgstr "**Corporate client and data service environment requirements**"
 # 94cf6ebc817f4bbc9eac5032b5b4eba7
 #: ../../how-to-setup/system-requirement.rst:40
 #: ../../how-to-setup/system-requirement.rst:44
-#, fuzzy
 msgid "`PostgreSQL <https://www.postgresql.org/download/>`_ 11 версии"
-msgstr "`Postgresql <https://www.postgresql.org/download/>`_  version 11"
+msgstr "`PostgreSQL <https://www.postgresql.org/download/>`_ version 11"
 
 # 228b391992014ad8af6c61d3b15c3eb3
 #: ../../how-to-setup/system-requirement.rst:42
-#, fuzzy
 msgid "**Требования к окружению для сервиса авторизации**"
-msgstr "**Corporate client and data service environment requirements**"
+msgstr "**Authorization service environment requirements**"
 
 # f3f3a3f5cf554300ae68d10a09251fbd
 #: ../../how-to-setup/system-requirement.rst:46
-msgid ""
-"Для дата-сервиса и сервиса авторизации должны быть отдельные БД "
-"PostgreSQL."
+msgid "Для дата-сервиса и сервиса авторизации должны быть отдельные БД PostgreSQL."
 msgstr ""
-
+"There must be separate PostgreSQL databases for the data service and the "
+"authorization service."
