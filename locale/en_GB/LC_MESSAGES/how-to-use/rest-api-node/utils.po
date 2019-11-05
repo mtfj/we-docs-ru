@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-21 14:16+0300\n"
-"PO-Revision-Date: 2019-05-06 14:13+0300\n"
+"PO-Revision-Date: 2019-11-05 15:33+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # bedf04b64d874c3aa31cf490e6bded77
 #: ../../how-to-use/rest-api-node/utils.rst:2
@@ -29,8 +30,8 @@ msgid ""
 "Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
 "node`."
 msgstr ""
-"The rules for generating queries to the node are given in module :ref"
-":`rest-api-node`."
+"The rules for generating queries to the node are given in module :ref:"
+"`rest-api-node`."
 
 # 1e24ffaa6f05407488f40e593f0efced
 #: ../../how-to-use/rest-api-node/utils.rst:7
@@ -148,4 +149,3 @@ msgstr ""
 # 73a404f294984a5c806f750cdc955483
 #~ msgid "Возвращает случайный seed."
 #~ msgstr "Returns random seed."
-

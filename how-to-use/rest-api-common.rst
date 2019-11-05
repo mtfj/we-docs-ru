@@ -48,7 +48,7 @@ REST API
 Авторизация по ``api-key-hash``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Генерация значения ``api-key-hash`` выполняется при :ref:`конфигурации ноды <rest-api-access>`. Также получить значение поля ``rest-api.api-key-hash`` можно при помощи метода :ref:`/utils/hash/secure <utils-hash>` REST API ноды. Для подписания запросов ключем из keystore ноды в поле ``password`` запроса ``POST /transaction/sign`` требуется указания пароля доступа к keystore.
+Генерация значения ``api-key-hash`` выполняется при :ref:`конфигурации ноды <auth-api-key-setup>`. Также получить значение поля ``rest-api.api-key-hash`` можно при помощи метода :ref:`/utils/hash/secure <utils-hash>` REST API ноды. Для подписания запросов ключем из keystore ноды в поле ``password`` запроса ``POST /transaction/sign`` требуется указания пароля доступа к keystore.
 
 Пример запроса:
 

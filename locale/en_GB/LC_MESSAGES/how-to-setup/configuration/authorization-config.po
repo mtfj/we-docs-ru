@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Waves Enterprise 0.9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-29 14:11+0300\n"
-"PO-Revision-Date: 2019-10-31 14:29+0300\n"
+"POT-Creation-Date: 2019-11-05 15:34+0300\n"
+"PO-Revision-Date: 2019-11-05 15:41+0300\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # ffa933e71afe44a7b7923b57a1a1f16d
@@ -31,8 +31,8 @@ msgid ""
 "Блокчейн-платформа Waves Enterprise поддерживает следующие два типа "
 "авторизации для доступа к REST API ноды:"
 msgstr ""
-"The Waves Enterprise blockchain platform supports the following two "
-"types of authorization for the node's REST API access:"
+"The Waves Enterprise blockchain platform supports the following two types "
+"of authorization for the node's REST API access:"
 
 # 9d133c9c6db64aad99338eba86005827
 #: ../../how-to-setup/configuration/authorization-config.rst:9
@@ -50,18 +50,27 @@ msgid ""
 "Тип авторизации указывается в секции настройки REST API ``rest-api`` "
 "конфигурационного файла ноды. Авторизация по хешу ключевой строки ``api-"
 "key`` является простым средством управления доступом к ноде с низким "
-"уровнем безопасности. В случае попадения хеша ключевой строки ``api-"
-"key`` к злоумышленнику, тот получает полный доступ к ноде. Применение "
-"авторизации с использованием отдельного сервиса авторизации, где доступ "
-"к ноде предоставляется по специальному токену, повышает безопасность "
+"уровнем безопасности. В случае попадания хеша ключевой строки ``api-key`` "
+"к злоумышленнику, тот получает полный доступ к ноде. Применение "
+"авторизации с использованием отдельного сервиса авторизации, где доступ к "
+"ноде предоставляется по специальному токену, повышает безопасность "
 "блокчейн сети до высокого уровня. Подробнее о сервисе авторизации можно "
 "почитать в разделе :ref:`Сервис авторизации <authorization-service>`."
 msgstr ""
+"The authorization type is specified in the REST API configuration section "
+"of the node configuration file. ``api-key`` string hash authorization type "
+"is a simple method of the access management to a node with a low level "
+"security. If the ``api-key`` hash is leaking out to the attacker, he is "
+"getting the full access to the node. When you utilize the separate "
+"authorization service with access tokens, you increase the security level "
+"of your blockchain network to the high level. You can read more "
+"information about the authorization service in the :ref:`Authorization "
+"service <authorization-service>` section."
 
 # 2c33abbdf6854fc3879675d8c2bf1c31
 #: ../../how-to-setup/configuration/authorization-config.rst:17
 msgid "Секция ``rest-api`` конфигурационного файла ноды"
-msgstr ""
+msgstr "``rest-api`` section of the node configuration file"
 
 # 8388fa7221f64891960a1b9314480ea0
 #: ../../how-to-setup/configuration/authorization-config.rst:19
@@ -70,31 +79,34 @@ msgid ""
 "выбрать и настроить тип авторизации, а также указать ограничения для "
 "некоторых методов REST API."
 msgstr ""
+"The ``rest-api`` section allows to bound the node network address to the "
+"REST API interface, to choose and configure the authorization type, also "
+"to specify the limits for some REST API methods."
 
 # 24ae069a7b1d49a1ae8264f7c5c7ddb1
 #: ../../how-to-setup/configuration/authorization-config.rst:68
 msgid "**Описание параметров**"
-msgstr ""
+msgstr "**Parameters description**"
 
 # 6a194fcd48e441369c2bd9b81422334c
 #: ../../how-to-setup/configuration/authorization-config.rst:70
 msgid "``enable`` - активация опции REST API на ноде."
-msgstr ""
+msgstr "``enable`` - REST API option activation."
 
 # abc9a51cf6c94adfbe43c919d2cdecbe
 #: ../../how-to-setup/configuration/authorization-config.rst:71
 msgid "``bind-address`` - сетевой адрес ноды для привязки REST API."
-msgstr ""
+msgstr "``bind-address`` - a network address to bind the REST API interface."
 
 # 6080283325064d31b41859832186a7c2
 #: ../../how-to-setup/configuration/authorization-config.rst:72
 msgid "``port`` - порт прослушивания REST API запросов."
-msgstr ""
+msgstr "``port`` - a port to listen to REST API requests."
 
 # 7e1ece1006f04497abb190df5a6b6d50
 #: ../../how-to-setup/configuration/authorization-config.rst:73
 msgid "``cors`` - поддержка кросс-доменных запросов к REST API."
-msgstr ""
+msgstr "``cors`` - enable/disable CORS support."
 
 # b01f3b2ae65f4881a7b5758d1247fb04
 #: ../../how-to-setup/configuration/authorization-config.rst:74
@@ -102,31 +114,37 @@ msgid ""
 "``transactions-by-address-limit`` - максимальное количество транзакций, "
 "возвращаемых методом ``/transactions/address/{address}/limit/{limit}``."
 msgstr ""
+"``transactions-by-address-limit`` - a maximum number of transactions "
+"returned by ``/transactions/address/{address}/limit/{limit}`` method."
 
 # a6330123d2ca4e6ab669f6941bc469e2
 #: ../../how-to-setup/configuration/authorization-config.rst:75
 msgid ""
 "``distribution-address-limit`` - максимальное количество адресов, "
-"указываемых в поле ``limit`` и возвращаемых методом ``GET ​/assets​/"
-"{assetId}​/distribution​/{height}​/limit​/{limit}``."
+"указываемых в поле ``limit`` и возвращаемых методом ``GET ​/assets​/{assetId}​"
+"/distribution​/{height}​/limit​/{limit}``."
 msgstr ""
+"``distribution-address-limit`` - ``GET ​/assets​/{assetId}​/distribution​/"
+"{height}​/limit​/{limit}``."
 
 # edd8509660074d1081052afcee68bc02
 #: ../../how-to-setup/configuration/authorization-config.rst:77
 msgid "Секция ``auth``"
-msgstr ""
+msgstr "``auth`` unit"
 
 # c4ae1281aecf4a0db015be57776a6ab1
 #: ../../how-to-setup/configuration/authorization-config.rst:79
 msgid ""
-"``auth-type`` - тип авторизации. ``oauth2`` - авторизация по токену, "
-"``api-key`` - авторизация по хешу ключевой строки."
+"``auth-type`` - тип авторизации. ``oauth2`` - авторизация по токену, ``api-"
+"key`` - авторизация по хешу ключевой строки."
 msgstr ""
+"``auth-type`` - the authorization type. ``oauth2`` - the token "
+"authorization, ``api-key`` - the string hash authorization."
 
 # 06736c32d41040bcb0814acb44fd5b55
 #: ../../how-to-setup/configuration/authorization-config.rst:80
 msgid "``api-key-hash``- хеш от ключевой строки доступа к REST API."
-msgstr ""
+msgstr "``api-key-hash``- a hash of API key string."
 
 # c124d262537349c389f9751f6d03ddea
 #: ../../how-to-setup/configuration/authorization-config.rst:81
@@ -134,26 +152,32 @@ msgid ""
 "``privacy-api-key-hash`` - хеш от ключевой строки доступа к методам "
 "``privacy``."
 msgstr ""
+"``privacy-api-key-hash`` - a hash of API key string for ``privacy`` "
+"methods."
 
 # bfaf6d16e4fb448f95b1884e7898c7ed
 #: ../../how-to-setup/configuration/authorization-config.rst:82
 msgid "``oauth-public-key`` - публичный ключ сервиса авторизации."
-msgstr ""
+msgstr "``oauth-public-key`` - a public key of the authorization service."
 
-# 6084d9dfbab84d5b8197f67ffdc3a0ca
+# bfaf6d16e4fb448f95b1884e7898c7ed
 #: ../../how-to-setup/configuration/authorization-config.rst:83
-msgid "``service-url`` -"
-msgstr ""
+msgid "``service-url`` - сетевой адрес сервиса авторизации."
+msgstr "``oauth-public-key`` - a public key of the authorization service."
 
-# 26b45dd1bd4b497a83def36334ec6001
+# 1e0299c7ce8546f3b4761ab27fb70073
 #: ../../how-to-setup/configuration/authorization-config.rst:84
-msgid "``service-token`` -"
+msgid ""
+"``service-token`` - сервисный токен ноды для получения access токена для "
+"авторизации между участниками блокчейн-сети."
 msgstr ""
+"``service-token`` - a node service token for getting the access token for "
+"the authorization between participants of the blockchain network."
 
 # 5ac498c7c0394511b258097bf7b6ce6c
 #: ../../how-to-setup/configuration/authorization-config.rst:89
 msgid "Использование авторизации по хешу ключевой строки"
-msgstr ""
+msgstr "When you use the key string hash for the authorization"
 
 # 9374a796a5754b1bb02d1636d95bc95d
 #: ../../how-to-setup/configuration/authorization-config.rst:91
@@ -166,6 +190,12 @@ msgid ""
 "определяются параметры создания ``api-key-hash``. Команда для запуска "
 "утилиты:"
 msgstr ""
+"Specify the ``api-key`` value for the ``auth-type`` parameter. Create the "
+"``api-key-hash`` for the REST API access by using the `generators-x.x.x."
+"jar <https://github.com/waves-enterprise/WE-releases/releases>`_ utility. "
+"To run the utility, you need to specify the ``api-key-hash.conf`` file as "
+"one of the parameters, which defines the parameters of creating the ``api-"
+"key-hash``. Use the following command to run the generator:"
 
 # 417d774d69984bb3a5dde882b90b4adb
 #: ../../how-to-setup/configuration/authorization-config.rst:97
@@ -173,24 +203,41 @@ msgid ""
 "Полученное в результате исполнения утилиты значение укажите в параметре "
 "``api-key-hash`` конфигурационного файла ноды."
 msgstr ""
+"Specify the value obtained as a result of the utility execution in the "
+"parameter ``api-key-hash`` in the node configuration file."
 
 # 75c5c98fe2384d63952f30e7bc25038a
 #: ../../how-to-setup/configuration/authorization-config.rst:101
 msgid ""
-"Для доступа к методам :ref:`privacy <privacy-api>` создайте ``privacy-"
-"api-key-hash`` аналогичным методом, как и ``api-key-hash``, описанным "
-"выше. Полученное значение укажите в параметре ``privacy-api-key-hash`` "
+"Для доступа к методам :ref:`privacy <privacy-api>` создайте ``privacy-api-"
+"key-hash`` аналогичным методом, как и ``api-key-hash``, описанным выше. "
+"Полученное значение укажите в параметре ``privacy-api-key-hash`` "
 "конфигурационного файла ноды."
 msgstr ""
+"Create the ``privacy-api-key-hash`` by the same way as the ``api-key-"
+"hash`` to get the :ref:`privacy <privacy-api>` methods access. Specify the "
+"value obtained as a result of the utility execution in the parameter "
+"``privacy-api-key-hash`` in the node configuration file."
 
 # 0865ffc2be0f412faf9787c4ba7e0ea1
 #: ../../how-to-setup/configuration/authorization-config.rst:106
 msgid "Использование авторизации по токену"
-msgstr ""
+msgstr "When you use the token authorization"
 
 # d41aa4deceb5418f9960794cda80b201
 #: ../../how-to-setup/configuration/authorization-config.rst:108
 msgid ""
-"В параметре ``auth-type`` установите значение ``api-key``, в параметре "
+"В параметре ``auth-type`` установите значение ``oauth2``, в параметре "
 "``oauth-public-key`` укажите публичный ключ сервиса авторизации."
 msgstr ""
+"Specify the ``oauth2`` value for the ``auth-type`` parameter, write the "
+"public key of the authorization service into the ``oauth-public-key`` "
+"parameter."
+
+# 6084d9dfbab84d5b8197f67ffdc3a0ca
+#~ msgid "``service-url`` -"
+#~ msgstr "``service-url`` -"
+
+# 26b45dd1bd4b497a83def36334ec6001
+#~ msgid "``service-token`` -"
+#~ msgstr "``service-token`` -"

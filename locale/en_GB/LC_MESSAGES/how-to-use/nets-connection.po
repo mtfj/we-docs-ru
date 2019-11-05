@@ -4,32 +4,33 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Waves Enterprise 0.9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-29 14:11+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-05 14:08+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 6a5bfcdeebbe485a85d88094cdb0aa24
 #: ../../how-to-use/nets-connection.rst:5
 msgid "Подключение к Mainnet и Partnernet"
-msgstr ""
+msgstr "Mainnet and Partnernet connection"
 
 # 93dc646cfa534d5793d6a9d7e950bc68
 #: ../../how-to-use/nets-connection.rst:10
 msgid "Работа в сети \"Waves Enterprise Mainnet\""
-msgstr ""
+msgstr "Working inside the “Waves Enterprise Mainnet”"
 
 # 5327617b46194e3f8412022e579b20f9
 #: ../../how-to-use/nets-connection.rst:23
 msgid "Работа в сети \"Waves Enterprise Partnernet\""
-msgstr ""
-
+msgstr "Working inside the “Waves Enterprise Partnernet”"

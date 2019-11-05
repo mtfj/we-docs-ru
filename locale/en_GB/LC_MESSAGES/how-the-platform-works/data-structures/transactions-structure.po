@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WE\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-29 14:11+0300\n"
-"PO-Revision-Date: 2019-10-29 17:43+0300\n"
+"POT-Creation-Date: 2019-11-05 15:34+0300\n"
+"PO-Revision-Date: 2019-11-05 15:35+0300\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -105,14 +105,19 @@ msgstr "3"
 msgid ":ref:`Issue Transaction <issueTransaction>`"
 msgstr ""
 
-# 1677546655b14151854f256cc7448b6f
+# 58b327fa396a4d6ea5b1e99d30848f40
+# 310cf6886bae4263b3871b3089761d02
+# bd4042e79ef0418080c0e76eef984ca5
+# e6a085023a9f4e8f8ce7433733787416
+# 335cf7e5a599442c96359d4effcba421
+# 789f1eb57528402787c411cceffe7e5c
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:16
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:18
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:22
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:26
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:29
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:35
-msgid "1VST"
+msgid "1WEST"
 msgstr ""
 
 # 8df1738aac664d96ab5b0bb3a36c1dfa
@@ -130,13 +135,17 @@ msgstr "4"
 msgid ":ref:`Transfer Transaction <TransferTransaction>`"
 msgstr ""
 
-# 4cd81fde82af43148229a0741f7902c2
+# 384c8bff7fe24d358714963d43f4e46b
+# 4e57ce2a8d0a44718520e66d2e55b3f5
+# afdbea8da31649b0b3d83d0fd7d1bc74
+# a8e2a6fc23904176b2fc16155069d9ed
+# 12d284830ed34bf59e54718e1ee8ac2f
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:17
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:20
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:21
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:28
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:34
-msgid "0.01VST"
+msgid "0.01WEST"
 msgstr ""
 
 # 003bf07b16094059ab54fee1ecc9a9e8
@@ -169,12 +178,15 @@ msgstr "6"
 msgid ":ref:`Burn Transaction <BurnTransaction>`"
 msgstr ""
 
-# 062edd9f589c4dc48640c5fd04596035
+# 10719f4e1e794c79b6b78126c70bcff8
+# 5decb0264ab54441be858ac79e7d2976
+# ee2a087652634eb2bedc491ae723234b
+# 2ebfbffe195447e59c2e7ab1dfa30364
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:19
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:23
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:24
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:37
-msgid "0.05VST"
+msgid "0.05WEST"
 msgstr ""
 
 # 9c36a46a6a7f443e8324ed3f4523551c
@@ -272,10 +284,11 @@ msgstr "13"
 msgid ":ref:`SetScript Transaction <SetScriptTransaction>`"
 msgstr ""
 
-# c52f141826d548e8a8733cb04563145b
+# b7fb5fd4c29d46d6be680d1f7d9a3b66
+# 80c4ec7f8b534ed096ed389e0ababca0
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:25
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:36
-msgid "0.5VST"
+msgid "0.5WEST"
 msgstr ""
 
 # 3d9c72b87bb741be80c55f023db85104
@@ -354,10 +367,11 @@ msgstr "104"
 msgid ":ref:`CallContract Transaction <CallContractTransaction>`"
 msgstr ""
 
-# f8e9b40492ee4e91b1cd86f47cc9d551
+# 794a5542918841929cc05fddd3d4c56a
+# adc7c842ed8f4bc2980aa8d5031bfd10
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:30
 #: ../../how-the-platform-works/data-structures/transactions-structure.rst:32
-msgid "0.1VST"
+msgid "0.1WEST"
 msgstr ""
 
 # aff8ed9645994bcd893ff0b3a2bfb561
