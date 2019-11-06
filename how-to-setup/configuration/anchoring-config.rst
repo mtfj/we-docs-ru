@@ -15,19 +15,17 @@
       threshold = 1
 
       mainnet-authorization {
-      type = "api-key" # "api-key" or "auth-service"
-      api-key = "key word"
-
-      //      type = "auth-service"
-      //      authorization-token = "xxxx"
-      //      authorization-service-url = "http://localhost:3000"
-      //      token-update-interval = "7 minutes"
+      type = "oauth2"
+      authorization-token = "PawC6b86r2pNRTR5e88wvcL3gfkG87w2Lqkvk4Jph2PUG3zPLedCTjnjh2ZTw3Rf"
+      authorization-service-url = "https://washington.testnet.com/authServiceAddress/v1/auth/token"
+      token-update-interval = "60s"
       }
 
       mainnet-scheme-byte = "K"
-      mainnet-node-address = "http://node-1"
+      mainnet-node-address = "http://node.washington"
       mainnet-node-port = 6862
       mainnet-node-recipient-address = "3JWveBpXS1EcDpxcoAwVNAjFfUMrxaALgZt"
+      mainnet-private-key-password = ""
 
        wallet {
        file = "node-1_mainnet-wallet.dat"
