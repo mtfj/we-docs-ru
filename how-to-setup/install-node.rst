@@ -102,15 +102,15 @@ Mac
 |       :target: `linux1`_   |      :target: `mac1`_     |
 +----------------------------+---------------------------+
 
-Скачайте и установите пакет `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ , согласно вашему типу ОС. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
+Скачайте и установите пакет `CryptoPro JCP 2.0.40035 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.40035.zip>`_ , согласно вашему типу ОС. Для скачивания дистрибутива необходимо пройти регистрацию на сайте.
 
-.. warning:: Платформа Waves Enterprise поддерживает только версию CryptoPro ``2.0.39014`` !
+.. warning:: Платформа Waves Enterprise поддерживает только версию CryptoPro ``2.0.40035`` !
 
-В состав дистрибутива `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ входит справочная документация. Инструкцию по установке можно найти в папке *Doc/\ЖТЯИ.00091-01-JCP*. Проверьте правильность пути до исполняемого пакета JRE. Для использования `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_ достаточно опций:
+В состав дистрибутива `CryptoPro JCP 2.0.40035 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.40035.zip>`_ входит справочная документация. Инструкцию по установке можно найти в папке *Doc/\ЖТЯИ.00091-01-JCP*. Проверьте правильность пути до исполняемого пакета JRE. Для использования `CryptoPro JCP <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.40035.zip>`_ достаточно опций:
 
 * Криптопровайдер JCP.
 * Модуль шифрования.
-* CAdES, XAdES требуют установки зависимых пакетов ``bcpkix-jdk15on-1.50.jar`` и ``bcprov-jdk15on-1.50.jar``. Скопируйте файлы *jcp-2.0.39014.zip/dependencies/bcpkix-jdk15on-1.50.jar* и *jcp-2.0.39014.zip/dependencies/bcprov-jdk15on-1.50.jar* в  **$JAVA_HOME/jre/lib/ext** (после ручной установки).
+* CAdES, XAdES требуют установки зависимых пакетов ``bcpkix-jdk15on-1.50.jar`` и ``bcprov-jdk15on-1.50.jar``. Скопируйте файлы *jcp-2.0.40035.zip/dependencies/bcpkix-jdk15on-1.50.jar* и *jcp-2.0.40035.zip/dependencies/bcprov-jdk15on-1.50.jar* в  **$JAVA_HOME/jre/lib/ext** (после ручной установки).
 
 .. _linux1:
 
