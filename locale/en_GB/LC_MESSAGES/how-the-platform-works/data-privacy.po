@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 15:55+0300\n"
+"POT-Creation-Date: 2019-11-07 17:12+0300\n"
+"PO-Revision-Date: 2019-11-07 17:13+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 7b737175b9b34f98a1d0bba5703365b6
 #: ../../how-the-platform-works/data-privacy.rst:4
@@ -93,10 +93,10 @@ msgstr "the list of the policy owners with editing rights (policyOwners)."
 #: ../../how-the-platform-works/data-privacy.rst:24
 msgid ""
 "Создание группы доступа происходит при помощи отправки в блокчейн транзакции :"
-"ref:`CreatePolicy <CreatPolicyTransaction>` (type = 112, создание группы)."
+"ref:`CreatePolicy <CreatePolicyTransaction>` (type = 112, создание группы)."
 msgstr ""
 "The access group is created by sending transaction :ref:`CreatePolicy "
-"<CreatPolicyTransaction>` (type = 112, group creation) into the blockchain."
+"<CreatePolicyTransaction>` (type = 112, group creation) into the blockchain."
 
 # 473f8a9986844d03b471dc365d51eed4
 #: ../../how-the-platform-works/data-privacy.rst:26

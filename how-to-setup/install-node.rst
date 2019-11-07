@@ -25,7 +25,7 @@
 Linux (Ubuntu)
 ~~~~~~~~~~~~~~~~
 
-1. Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ ноды в формате deb-пакета и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/waves-enterprise/WE-releases/tree/master/configs>`_.
+1. Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ ноды и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/waves-enterprise/WE-releases/tree/master/configs>`_.
 
 2. Отредактируйте конфигурационный файл в соответствии с руководством :ref:`"Конфигурация ноды" <configuration>`.
 
@@ -60,10 +60,10 @@ Mac
 
 1. Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases>`_ ноды в jar-формате и шаблон конфигурационного файла со страницы проекта в `GitHub <https://github.com/waves-enterprise/WE-releases/tree/master/configs>`_. Самая свежая версия приложений находится в шапке страницы:
 
- .. figure:: img/latest.png
+ .. image:: img/latest.png
 
-    - node-x.x.x.jar - приложение ноды Waves Enterprise;
-    - generators-x.x.x.jar - утилита для настройки параметров ноды Waves Enterprise и создания аккаунтов пользователей.
+ - node-x.x.x.jar - приложение ноды Waves Enterprise;
+ - generators-x.x.x.jar - утилита для настройки параметров ноды Waves Enterprise и создания аккаунтов пользователей.
 
 2. Отредактируйте конфигурационный файл в соответствии с руководством :ref:`Конфигурация ноды <configuration>`.
 

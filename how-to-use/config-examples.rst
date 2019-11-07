@@ -102,7 +102,6 @@
       genesis {
         average-block-delay: 40s
         initial-base-target: 10000000000
-        timestamp: 1559320391040
         block-timestamp: 1559320391040
         initial-balance: 100000000000000000
         genesis-public-key-base-58: "D7tDsKd7DQ7H9m6fPRyk1GsNQxjAQXsETtuVgqSaaXDs"

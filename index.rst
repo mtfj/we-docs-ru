@@ -59,9 +59,10 @@
 .. toctree::
    :maxdepth: 2
    :caption: Дополнительная информация
-   :name: glossary
+   :name: additional-info
 
    glossary
+   changelog
 
 
 .. .. toctree::

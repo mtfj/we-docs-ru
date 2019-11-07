@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 13:37+0300\n"
-"PO-Revision-Date: 2019-11-06 13:41+0300\n"
+"POT-Creation-Date: 2019-11-07 14:23+0300\n"
+"PO-Revision-Date: 2019-11-07 14:29+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -27,17 +27,17 @@ msgstr "Additional services installation"
 # f296167b2a6e4643ac7bfa7bd3265db7
 #: ../../how-to-setup/install-client.rst:6
 msgid ""
-"Для полноценной работы необходимо установить дополнительно приложения "
-"`Docker CE <https://docs.docker.com/install/>`_ и `Docker-compose "
-"<https://docs.docker.com/compose/install/>`_. Полные требования к "
-"окружению для блокчейн-платформы Waves Enterprise вы можете посмотреть в "
-"разделе :ref:`Системные требования <system-requirements>`."
+"Для полноценной работы необходимо установить дополнительно приложения `Docker "
+"CE <https://docs.docker.com/install/>`_ и `Docker-compose <https://docs."
+"docker.com/compose/install/>`_. Полные требования к окружению для блокчейн-"
+"платформы Waves Enterprise вы можете посмотреть в разделе :ref:`Системные "
+"требования <system-requirements>`."
 msgstr ""
-"The additional services set needs the apps `Docker CE <https://docs."
-"docker.com/install/>`_ and `Docker-compose <https://docs.docker.com/"
-"compose/install/>`_ for the fully running. You can check the full list "
-"of environment requirements for the Waves Enterprise platform in the :"
-"ref:`System requirements <system-requirements>` page."
+"The additional services set needs the apps `Docker CE <https://docs.docker."
+"com/install/>`_ and `Docker-compose <https://docs.docker.com/compose/install/"
+">`_ for the fully running. You can check the full list of environment "
+"requirements for the Waves Enterprise platform in the :ref:`System "
+"requirements <system-requirements>` page."
 
 # 3826008c3b0e4c8caebdb20b45aca98f
 #: ../../how-to-setup/install-client.rst:8
@@ -73,93 +73,95 @@ msgstr "The authorization service."
 msgid "БД PostgreSQL."
 msgstr "PostgreSQL DB."
 
+# 0d42601f16134e2b95cd9413ad62bda6
+#: ../../how-to-setup/install-client.rst:15
+msgid "Nginx-proxy."
+msgstr "Nginx-proxy."
+
 # 30ef011de04a4ddaaf8b96133b7f6659
-#: ../../how-to-setup/install-client.rst:16
-msgid "Выполните следующие действия для установки клиентской версии:"
+#: ../../how-to-setup/install-client.rst:17
+msgid "Выполните следующие действия для установки всех дополнительных сервисов:"
 msgstr "Follow these steps to deploy the additional services set:"
 
 # e63b45d4dd984e27a26492b0fbebed33
-#: ../../how-to-setup/install-client.rst:18
+#: ../../how-to-setup/install-client.rst:19
 msgid ""
-"Скачайте и установите дистрибутив `Docker CE <https://docs.docker.com/"
-"install/>`_. Для скачивания потребуется регистрация на сайте."
+"Скачайте и установите дистрибутив `Docker CE <https://docs.docker.com/install/"
+">`_. Для скачивания потребуется регистрация на сайте."
 msgstr ""
-"Download and install the installation package `Docker CE <https://docs."
-"docker.com/install/>`_. Registration on the site is need for downloading."
+"Download and install the installation package `Docker CE <https://docs.docker."
+"com/install/>`_. Registration on the site is need for downloading."
 
 # f296167b2a6e4643ac7bfa7bd3265db7
 #: ../../how-to-setup/install-client.rst
 msgid ""
-"1.2. После установки убедитесь, что успешно установились приложения "
-"`Docker CE <https://docs.docker.com/install/>`_ и `Docker-compose "
-"<https://docs.docker.com/compose/install/>`_ (часть дистрибутива Docker "
-"CE):"
+"1.2. После установки убедитесь, что успешно установились приложения `Docker "
+"CE <https://docs.docker.com/install/>`_ и `Docker-compose <https://docs."
+"docker.com/compose/install/>`_ (часть дистрибутива Docker CE):"
 msgstr ""
-"1.2 After installation check if applications `Docker CE <https://docs."
-"docker.com/install/>`_ and `Docker-compose <https://docs.docker.com/"
-"compose/install/>`_ (the part of the Docker CE installation package) "
-"have been successfully installed:"
+"1.2 After installation check if applications `Docker CE <https://docs.docker."
+"com/install/>`_ and `Docker-compose <https://docs.docker.com/compose/install/"
+">`_ (the part of the Docker CE installation package) have been successfully "
+"installed:"
 
 # e3b63b0a558449fd96c58b3ad21e4cca
 #: ../../how-to-setup/install-client.rst
 msgid ""
-"Для операционных систем семейств Linux и macOS используются команды "
-"``docker --version`` и ``docker-compose --version``."
+"Для операционных систем семейств Linux и macOS используются команды ``docker "
+"--version`` и ``docker-compose --version``."
 msgstr ""
 "You can use the commands ``docker --version`` and ``docker-compose --"
 "version`` for macOS and Linux OS."
 
 # 33bebc4e911d4175b57aaae6c77486fc
-#: ../../how-to-setup/install-client.rst:27
+#: ../../how-to-setup/install-client.rst:28
 msgid ""
-"Скачайте и разархивируйте файл `frontend-deployment.zip <https://github."
-"com/waves-enterprise/WE-releases/releases>`_."
+"Скачайте и разархивируйте файл `frontend-deployment.zip <https://github.com/"
+"waves-enterprise/WE-releases/releases>`_."
 msgstr ""
 "Download and unzip the file `frontend-deployment.zip <https://github.com/"
 "waves-enterprise/WE-releases/releases>`_."
 
 # aec95d898a53477e9534dcfcd822ba2f
-#: ../../how-to-setup/install-client.rst:28
+#: ../../how-to-setup/install-client.rst:29
 msgid ""
-"В конфигурационном файле приложения ``frontend-deployment/config/nginx-"
-"proxy.env`` укажите путь до REST API и hostname ноды:"
+"В конфигурационном файле приложения ``frontend-deployment/config/nginx-proxy."
+"env`` укажите путь до REST API и hostname ноды:"
 msgstr ""
-"Specify the path to REST API and node hostname in the configuration file "
-"of the application ``frontend-deployment/config/nginx-proxy.env``:"
+"Specify the path to REST API and node hostname in the configuration file of "
+"the application ``frontend-deployment/config/nginx-proxy.env``:"
 
 # 44066ad59b9343c48415de9b22a149d7
-#: ../../how-to-setup/install-client.rst:37
+#: ../../how-to-setup/install-client.rst:38
 msgid ""
-"В конфигурационном файле приложения ``frontend-deployment/config/"
-"postgres.env`` в параметрах ``POSTGRES_USER`` и ``POSTGRES_PASSWORD`` "
-"укажите логин и пароль для пользователя соответственно. Рекомендуется "
-"использовать сложные комбинации букв, цифр и символов для повышения "
-"уровня безопасности."
+"В конфигурационном файле приложения ``frontend-deployment/config/postgres."
+"env`` в параметрах ``POSTGRES_USER`` и ``POSTGRES_PASSWORD`` укажите логин и "
+"пароль для пользователя соответственно. Рекомендуется использовать сложные "
+"комбинации букв, цифр и символов для повышения уровня безопасности."
 msgstr ""
 "Specify a user login and a password in the ``POSTGRES_USER`` и "
-"``POSTGRES_PASSWORD`` parameters of the configuration file of the "
-"application ``frontend-deployment/config/postgres.env``. We recommend to "
-"use complex combinations of letters, numbers and symbols to increase "
-"your safety level."
+"``POSTGRES_PASSWORD`` parameters of the configuration file of the application "
+"``frontend-deployment/config/postgres.env``. We recommend to use complex "
+"combinations of letters, numbers and symbols to increase your safety level."
 
 # 8b0c25e950d247329cb23d82edc259cc
-#: ../../how-to-setup/install-client.rst:48
+#: ../../how-to-setup/install-client.rst:49
 msgid "Запустите скрипт развертывания командой ``bash ./deploy.sh``."
 msgstr "Run the deployment script using the command ``bash ./deploy.sh``."
 
 # ee920413652341bab4c02710fb31e83d
-#: ../../how-to-setup/install-client.rst:49
+#: ../../how-to-setup/install-client.rst:50
 msgid ""
-"Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, "
-"что клиент системы успешно развернут."
+"Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, что "
+"клиент системы успешно развернут."
 msgstr ""
-"Open the browser and go to ``localhost`` to check if the system client "
-"is successfully deployed."
+"Open the browser and go to ``localhost`` to check if the system client is "
+"successfully deployed."
 
 # 51761b03442f4dbba5879c7011690a22
 #~ msgid ""
-#~ "**Последовательность действий для установки клиентской части "
-#~ "приложения и необходимых для его запуска сервисов**"
+#~ "**Последовательность действий для установки клиентской части приложения и "
+#~ "необходимых для его запуска сервисов**"
 #~ msgstr ""
 #~ "**The sequence of actions for installation of the client part of the "
 #~ "application and necessary start services**"
@@ -178,8 +180,8 @@ msgstr ""
 
 # 71b8e711415a4dc38b80b528793ccf33
 #~ msgid ""
-#~ "Ознакомиться с подробным описанием компонентов установленного "
-#~ "приложение можно в разделе :ref:`Описание клиента <client>`."
+#~ "Ознакомиться с подробным описанием компонентов установленного приложение "
+#~ "можно в разделе :ref:`Описание клиента <client>`."
 #~ msgstr ""
-#~ "For the detailed description of components of the installed "
-#~ "application see module :ref:`Client description <client>`."
+#~ "For the detailed description of components of the installed application "
+#~ "see module :ref:`Client description <client>`."

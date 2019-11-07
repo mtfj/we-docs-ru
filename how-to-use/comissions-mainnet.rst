@@ -14,7 +14,6 @@
 4	  :ref:`Transfer Transaction <TransferTransaction>`                               0.01VST                Перевод токенов        
 5	  :ref:`Reissue Transaction <ReissueTransaction>`                                 1VST                   Перевыпуск токенов    
 6	  :ref:`Burn Transaction <BurnTransaction>`                                       0.05VST                Сжигание токенов        
-7	  :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`                                                       
 8	  :ref:`Lease Transaction <LeaseTransaction>`                                     0.01VST                Передача токенов в аренду
 9	  :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.01VST                Отмена аренды токенов        
 10	  :ref:`Create Alias Transaction <CreateAliasTransaction>`                        1VST                   Создание псевдонима         

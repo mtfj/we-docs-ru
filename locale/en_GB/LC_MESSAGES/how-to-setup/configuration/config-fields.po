@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Waves Enterprise 0.9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 15:34+0300\n"
-"PO-Revision-Date: 2019-11-05 15:43+0300\n"
+"POT-Creation-Date: 2019-11-07 14:23+0300\n"
+"PO-Revision-Date: 2019-11-07 14:54+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -301,21 +301,8 @@ msgstr ""
 "``initial-base-target`` - an initial base number for the managing the mining "
 "process."
 
-# 7e56fe8bf1294fefbbe709b3f49e4c72
-#: ../../how-to-setup/configuration/config-fields.rst:64
-msgid ""
-"``timestamp`` - числовой код даты и времени. Время указывается в миллисекундах, "
-"значение должно состоять из 13 цифр. Если вы берёте стандартное значение "
-"``timpstamp``, состоящее из 10 цифр, то в конце необходимо добавить три любые "
-"цифры."
-msgstr ""
-"``timestamp`` - a time and data code. The time is specified in milliseconds and "
-"the value must consist of 13 digits. If you specify the standard value "
-"``timestamp`` consisting of 10 digits, then you need to add any three digits at "
-"the end."
-
 # 5a229cde86e04ab6855f603b993621b1
-#: ../../how-to-setup/configuration/config-fields.rst:65
+#: ../../how-to-setup/configuration/config-fields.rst:64
 msgid ""
 "``block-timestamp`` - числовой код даты и времени. Время указывается в "
 "миллисекундах, значение должно состоять из 13 цифр. Если вы берёте стандартное "
@@ -328,12 +315,12 @@ msgstr ""
 "three digits at the end."
 
 # af0aad326e304a2f8e0b870194092bcf
-#: ../../how-to-setup/configuration/config-fields.rst:66
+#: ../../how-to-setup/configuration/config-fields.rst:65
 msgid "``initial-balance`` - начальный баланс сети."
 msgstr "``initial-balance`` - an initial balance in smallest units."
 
 # c0a491e844e04a90a14e32efd1c3c193
-#: ../../how-to-setup/configuration/config-fields.rst:67
+#: ../../how-to-setup/configuration/config-fields.rst:66
 msgid ""
 "``genesis-public-key-base-58`` - хеш публичного ключа генезис-блока, "
 "зашифрованный в Base58."
@@ -342,12 +329,12 @@ msgstr ""
 "encrypted in Base58."
 
 # 0adb4d25fe174de3af0de9ba1ec8dee1
-#: ../../how-to-setup/configuration/config-fields.rst:68
+#: ../../how-to-setup/configuration/config-fields.rst:67
 msgid "``signature`` - подпись генезис-блока, зашифрованная в Base58."
 msgstr "``signature`` - the genesis block signature, encrypted in Base58."
 
 # b0aad6425c974aefb06d060b4b95b509
-#: ../../how-to-setup/configuration/config-fields.rst:69
+#: ../../how-to-setup/configuration/config-fields.rst:68
 msgid ""
 "``transactions`` - список участников сети с первоначальным балансом, создание "
 "которых войдёт в генезис-блок в виде генезис-транзакций."
@@ -356,7 +343,7 @@ msgstr ""
 "creation of which will be included in the genesis block."
 
 # 3dac28a9484747ddb50a32adc431e28b
-#: ../../how-to-setup/configuration/config-fields.rst:70
+#: ../../how-to-setup/configuration/config-fields.rst:69
 msgid ""
 "``network-participants`` - список сетевых участников с ролями, создание которых "
 "войдёт в генезис-блок в виде генезис-транзакций."
@@ -365,27 +352,27 @@ msgstr ""
 "the creation of which will be included in the genesis block."
 
 # d2fd22f3b0364c0d8d4a1b38f036c4e3
-#: ../../how-to-setup/configuration/config-fields.rst:75
+#: ../../how-to-setup/configuration/config-fields.rst:74
 msgid "Секция ``network``"
 msgstr "``network`` section"
 
 # 1e9a49f71d13411d861deafd4573e487
-#: ../../how-to-setup/configuration/config-fields.rst:77
+#: ../../how-to-setup/configuration/config-fields.rst:76
 msgid "``bind-address`` - сетевой адрес ноды."
 msgstr "``bind-address`` - the node network address."
 
 # c525b02f0224479da6bbafdf304e48bb
-#: ../../how-to-setup/configuration/config-fields.rst:78
+#: ../../how-to-setup/configuration/config-fields.rst:77
 msgid "``port`` - номер порта."
 msgstr "``port`` - the port number."
 
 # 1bcfc17a02a34a82944e66df33885d0c
-#: ../../how-to-setup/configuration/config-fields.rst:79
+#: ../../how-to-setup/configuration/config-fields.rst:78
 msgid "``known-peers`` - список известных сетевых адресов нод."
 msgstr "``known-peers`` - a list of IP addresses of well known nodes."
 
 # d5244e9b211d4554a48edd8a04506bb1
-#: ../../how-to-setup/configuration/config-fields.rst:80
+#: ../../how-to-setup/configuration/config-fields.rst:79
 msgid ""
 "``declared-address`` - сетевой адрес ноды вместе с номером порта для процедуры "
 "handshake."
@@ -394,32 +381,32 @@ msgstr ""
 "address during the handshake."
 
 # 89f57d90c1c64dac92fec6bf7007910a
-#: ../../how-to-setup/configuration/config-fields.rst:85
+#: ../../how-to-setup/configuration/config-fields.rst:84
 msgid "Секция ``wallet``"
 msgstr "``wallet`` section"
 
 # fee334659c65462f984e50ad910f8f6b
-#: ../../how-to-setup/configuration/config-fields.rst:87
+#: ../../how-to-setup/configuration/config-fields.rst:86
 msgid "``file`` - директория для хранения приватных ключей."
 msgstr "``file`` - a path to the private keys storage."
 
 # 4aa101872ce643b68ffacf92106d15b8
-#: ../../how-to-setup/configuration/config-fields.rst:88
+#: ../../how-to-setup/configuration/config-fields.rst:87
 msgid "``password`` - пароль для доступа к файлу с приватными ключами."
 msgstr "``password`` - a password for the private keys file access."
 
 # d074f050c2af4e2699c6dd9a33a7a082
-#: ../../how-to-setup/configuration/config-fields.rst:93
+#: ../../how-to-setup/configuration/config-fields.rst:92
 msgid "Секция ``miner``"
 msgstr "``miner`` section"
 
 # 3694c7a0280742f199a29ebf2aebb3aa
-#: ../../how-to-setup/configuration/config-fields.rst:95
+#: ../../how-to-setup/configuration/config-fields.rst:94
 msgid "``enable`` - активация опции майнинга."
 msgstr "``enable`` - a miner option activation."
 
 # 6f4387acbc43420a9d36954643c99e35
-#: ../../how-to-setup/configuration/config-fields.rst:96
+#: ../../how-to-setup/configuration/config-fields.rst:95
 msgid ""
 "``quorum`` - необходимое количество соединений для создания блока. Значение "
 "``0`` позволит генерировать блоки оффлайн."
@@ -429,7 +416,7 @@ msgstr ""
 "generation."
 
 # a8cffa9aa74d49669b6059eac3d74830
-#: ../../how-to-setup/configuration/config-fields.rst:97
+#: ../../how-to-setup/configuration/config-fields.rst:96
 msgid ""
 "``interval-after-last-block-then-generation-is-allowed`` - создание блока только "
 "в том случае, если последний блок не старше указанного периода времени."
@@ -438,17 +425,17 @@ msgstr ""
 "generation only if the last block is not older the given period of time."
 
 # 79d10366e0fd4257a095b637a9c6d406
-#: ../../how-to-setup/configuration/config-fields.rst:98
+#: ../../how-to-setup/configuration/config-fields.rst:97
 msgid "``micro-block-interval`` - интервал между микроблоками."
 msgstr "``micro-block-interval`` - an interval between microblocks."
 
 # 77fe5d939552489898cfd324414a3efb
-#: ../../how-to-setup/configuration/config-fields.rst:99
+#: ../../how-to-setup/configuration/config-fields.rst:98
 msgid "``min-micro-block-age`` - минимальный возраст микроблока."
 msgstr "``min-micro-block-age`` - a minimal age of the microblock."
 
 # f217aa2bdbe44d939043bfead3c0d8df
-#: ../../how-to-setup/configuration/config-fields.rst:100
+#: ../../how-to-setup/configuration/config-fields.rst:99
 msgid ""
 "``max-transactions-in-micro-block`` - максимальное количество транзакций в "
 "микроблоке."
@@ -457,7 +444,7 @@ msgstr ""
 "microblock."
 
 # faf09feca687457dad442052a48b888f
-#: ../../how-to-setup/configuration/config-fields.rst:101
+#: ../../how-to-setup/configuration/config-fields.rst:100
 msgid ""
 "``minimal-block-generation-offset`` - минимальный временной интервал между "
 "блоками."
@@ -465,15 +452,27 @@ msgstr ""
 "``minimal-block-generation-offset`` - a minimal time interval between blocks."
 
 # 9edc1b26b09048dd8261cb0ee2a86d23
-#: ../../how-to-setup/configuration/config-fields.rst:106
+#: ../../how-to-setup/configuration/config-fields.rst:105
 msgid "Секция ``features``"
 msgstr "``features`` section"
 
 # 567eb80540664a38892f2310db425751
-#: ../../how-to-setup/configuration/config-fields.rst:108
+#: ../../how-to-setup/configuration/config-fields.rst:107
 msgid "``supported`` - список поддерживаемых опций."
 msgstr "``supported`` - a list of supported options."
 
 # 31a3f8cc495749ff86f5626089be0129
 #~ msgid "``initial-base-target`` -"
 #~ msgstr "``initial-base-target`` - "
+
+# 7e56fe8bf1294fefbbe709b3f49e4c72
+#~ msgid ""
+#~ "``timestamp`` - числовой код даты и времени. Время указывается в "
+#~ "миллисекундах, значение должно состоять из 13 цифр. Если вы берёте "
+#~ "стандартное значение ``timpstamp``, состоящее из 10 цифр, то в конце "
+#~ "необходимо добавить три любые цифры."
+#~ msgstr ""
+#~ "``timestamp`` - a time and data code. The time is specified in milliseconds "
+#~ "and the value must consist of 13 digits. If you specify the standard value "
+#~ "``timestamp`` consisting of 10 digits, then you need to add any three digits "
+#~ "at the end."

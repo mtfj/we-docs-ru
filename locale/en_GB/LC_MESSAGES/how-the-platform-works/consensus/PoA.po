@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 16:07+0300\n"
+"POT-Creation-Date: 2019-11-07 17:12+0300\n"
+"PO-Revision-Date: 2019-11-07 17:13+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 7d139dc003f54715a2b735b8b345cff6
 #: ../../how-the-platform-works/consensus/PoA.rst:2
@@ -425,12 +425,17 @@ msgid ""
 "Изменение параметров консенсуса (время раунда и периода синхронизации) "
 "выполняется на основании данных конфигурационного файла ноды (см. врезку) "
 "на высоте \"from-height\". Если одна из нод не укажет новые параметры, то "
-"произойдет форк. Пример конфигурации : ::"
+"произойдет форк."
 msgstr ""
 "Changing consensus parameters (time of round and synchronization period) "
 "is performed on the basis of the node configuration file (see the insert) "
 "at the height \"from-height\". If one of the nodes fails to specify new "
-"parameters, the transaction will fork. Sample configuration : ::"
+"parameters, the transaction will fork."
+
+# a0623752d363495ab733ba79cdbd38e6
+#: ../../how-the-platform-works/consensus/PoA.rst:91
+msgid "Пример конфигурации:"
+msgstr "Sample configuration:"
 
 # 61f98c61cdb140beb8676e24cb6d4099
 #~ msgid ""
