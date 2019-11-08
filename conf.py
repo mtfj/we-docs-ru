@@ -185,7 +185,8 @@ latex_elements = {
 'cmappkg': '\\usepackage{cmap}',
 'fontenc': '\\usepackage[T1,T2A]{fontenc}',
 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
-'tableofcontents': '\\sphinxtableofcontents'
+'maketitle': '\\sphinxmaketitle',
+'tableofcontents': '\\sphinxtableofcontents',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
