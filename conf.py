@@ -189,6 +189,8 @@ latex_elements = {
 'tableofcontents': '\\sphinxtableofcontents',
 }
 
+latex_additional_files = ["sphinx.sty"]
+
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
