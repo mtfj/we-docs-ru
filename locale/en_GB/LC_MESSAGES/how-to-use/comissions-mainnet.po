@@ -7,22 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 17:12+0300\n"
-"PO-Revision-Date: 2019-11-07 17:19+0300\n"
-"Last-Translator: \n"
-"Language: en\n"
-"Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2019-06-19 16:25+0300\n"
+"PO-Revision-Date: 2019-06-19 17:20+0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # b351f82ca36341bbb5195dbc1d3d2230
 #: ../../how-to-use/comissions-mainnet.rst:4
-msgid "Комиссии в сети \"Waves Enterprise Mainnet\""
-msgstr "Fees in the \"Waves Enterprise Mainnet\""
+msgid "Комиссии в сети \"Vostok Mainnet\""
+msgstr "Fees in the \"Vostok Mainnet\""
 
 # 026eadf7248c4e0599507fbf99cefa5b
 #: ../../how-to-use/comissions-mainnet.rst:9
@@ -59,19 +59,20 @@ msgstr ":ref:`Genesis transaction <GenesisTransaction>`"
 # dd8e7273ceb14dec979b570e668cc363
 # 3072d2a5ec934b50b2c5732241a9f45d
 #: ../../how-to-use/comissions-mainnet.rst:11
-#: ../../how-to-use/comissions-mainnet.rst:25
-#: ../../how-to-use/comissions-mainnet.rst:29
-#: ../../how-to-use/comissions-mainnet.rst:31
+#: ../../how-to-use/comissions-mainnet.rst:26
+#: ../../how-to-use/comissions-mainnet.rst:30
+#: ../../how-to-use/comissions-mainnet.rst:32
 msgid "отсутствует"
 msgstr "no fee"
 
 # 6c79e52006a04becba71f7a4bfe778d3
 #: ../../how-to-use/comissions-mainnet.rst:11
 msgid ""
-"Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод"
+"Первоначальная привязка баланса к адресам создаваемых при старте блокчейна "
+"нод"
 msgstr ""
-"Initial binding of the balance to the addresses of nodes created at the start "
-"of the blockchain"
+"Initial binding of the balance to the addresses of nodes created at the "
+"start of the blockchain"
 
 # 325bd37ed9d443a29a92f33a5d3e99d9
 #: ../../how-to-use/comissions-mainnet.rst:12
@@ -101,10 +102,10 @@ msgstr ":ref:`Issue Transaction <issueTransaction>`"
 # 29792d4e8fe34430824a0bf2f671813d
 #: ../../how-to-use/comissions-mainnet.rst:13
 #: ../../how-to-use/comissions-mainnet.rst:15
-#: ../../how-to-use/comissions-mainnet.rst:19
-#: ../../how-to-use/comissions-mainnet.rst:24
-#: ../../how-to-use/comissions-mainnet.rst:27
-#: ../../how-to-use/comissions-mainnet.rst:33
+#: ../../how-to-use/comissions-mainnet.rst:20
+#: ../../how-to-use/comissions-mainnet.rst:25
+#: ../../how-to-use/comissions-mainnet.rst:28
+#: ../../how-to-use/comissions-mainnet.rst:34
 msgid "1VST"
 msgstr "1VST"
 
@@ -130,11 +131,11 @@ msgstr ":ref:`Transfer Transaction <TransferTransaction>`"
 # 072e58915c454c8396bef448809b61df
 # c37266fe13f7422cbeba7a2c7721010e
 #: ../../how-to-use/comissions-mainnet.rst:14
-#: ../../how-to-use/comissions-mainnet.rst:17
 #: ../../how-to-use/comissions-mainnet.rst:18
-#: ../../how-to-use/comissions-mainnet.rst:26
-#: ../../how-to-use/comissions-mainnet.rst:30
-#: ../../how-to-use/comissions-mainnet.rst:32
+#: ../../how-to-use/comissions-mainnet.rst:19
+#: ../../how-to-use/comissions-mainnet.rst:27
+#: ../../how-to-use/comissions-mainnet.rst:31
+#: ../../how-to-use/comissions-mainnet.rst:33
 msgid "0.01VST"
 msgstr "0.01VST"
 
@@ -173,9 +174,9 @@ msgstr ":ref:`Burn Transaction <BurnTransaction>`"
 # 84d1b83b79704d7f879848af29beb44d
 # 6af5c3fb4ee94cebb816458c9b94c3ec
 #: ../../how-to-use/comissions-mainnet.rst:16
-#: ../../how-to-use/comissions-mainnet.rst:20
 #: ../../how-to-use/comissions-mainnet.rst:21
-#: ../../how-to-use/comissions-mainnet.rst:35
+#: ../../how-to-use/comissions-mainnet.rst:22
+#: ../../how-to-use/comissions-mainnet.rst:36
 msgid "0.05VST"
 msgstr "0.05VST"
 
@@ -184,82 +185,92 @@ msgstr "0.05VST"
 msgid "Сжигание токенов"
 msgstr "Tokens burn"
 
-# 72c82720dc4d49c5a73df5c661fc5e65
+# 519dce6d26a7491383599ce3d149e604
 #: ../../how-to-use/comissions-mainnet.rst:17
+msgid "7"
+msgstr "7"
+
+# 1788b8eaf8f74ed68f881062e0f0702b
+#: ../../how-to-use/comissions-mainnet.rst:17
+msgid ":ref:`Exchange Transaction (не используется) <ExchangeTransaction>`"
+msgstr ":ref:`Exchange Transaction (not used) <ExchangeTransaction>`"
+
+# 72c82720dc4d49c5a73df5c661fc5e65
+#: ../../how-to-use/comissions-mainnet.rst:18
 msgid "8"
 msgstr "8"
 
 # f383b4761efd41d6a607a5451c984685
-#: ../../how-to-use/comissions-mainnet.rst:17
+#: ../../how-to-use/comissions-mainnet.rst:18
 msgid ":ref:`Lease Transaction <LeaseTransaction>`"
 msgstr ":ref:`Lease Transaction <LeaseTransaction>`"
 
 # 599a7f8da66943b8a0cceb0a98643447
-#: ../../how-to-use/comissions-mainnet.rst:17
+#: ../../how-to-use/comissions-mainnet.rst:18
 msgid "Передача токенов в аренду"
 msgstr "Tokens lease"
 
 # e446f96ae3da4a14a1866bb2386b3e7c
-#: ../../how-to-use/comissions-mainnet.rst:18
+#: ../../how-to-use/comissions-mainnet.rst:19
 msgid "9"
 msgstr "9"
 
 # e70ba0afe16b48c5b41c0ab773d101ef
-#: ../../how-to-use/comissions-mainnet.rst:18
+#: ../../how-to-use/comissions-mainnet.rst:19
 msgid ":ref:`Lease Cancel Transaction <LeaseCancelTransaction>`"
 msgstr ":ref:`Lease Cancel Transaction <LeaseCancelTransaction>`"
 
 # 5bd8cc123cf14a299e17686fe5fb2351
-#: ../../how-to-use/comissions-mainnet.rst:18
+#: ../../how-to-use/comissions-mainnet.rst:19
 msgid "Отмена аренды токенов"
 msgstr "Cancel of the tokens lease"
 
 # f13fb986239f49f38c1d73d5da93ec87
-#: ../../how-to-use/comissions-mainnet.rst:19
+#: ../../how-to-use/comissions-mainnet.rst:20
 msgid "10"
 msgstr "10"
 
 # c1060765d1b64e408e38c1d32dd4e04b
-#: ../../how-to-use/comissions-mainnet.rst:19
+#: ../../how-to-use/comissions-mainnet.rst:20
 msgid ":ref:`Create Alias Transaction <CreateAliasTransaction>`"
 msgstr ":ref:`Create Alias Transaction <CreateAliasTransaction>`"
 
 # 13207c7a6dc041d0a05f8893b7b23766
-#: ../../how-to-use/comissions-mainnet.rst:19
+#: ../../how-to-use/comissions-mainnet.rst:20
 msgid "Создание псевдонима"
 msgstr "Alias creation"
 
 # 0987509ee89a444e8f12f4ca820630bc
-#: ../../how-to-use/comissions-mainnet.rst:20
+#: ../../how-to-use/comissions-mainnet.rst:21
 msgid "11"
 msgstr "11"
 
 # 2a377dcdfb0741ffb63a01f5f296f68d
-#: ../../how-to-use/comissions-mainnet.rst:20
+#: ../../how-to-use/comissions-mainnet.rst:21
 msgid ":ref:`MassTransfer Transaction <MassTransferTransaction>`"
 msgstr ":ref:`MassTransfer Transaction <MassTransferTransaction>`"
 
 # 540a7e99f4bd4313b04f2f9a7d3771f4
-#: ../../how-to-use/comissions-mainnet.rst:20
+#: ../../how-to-use/comissions-mainnet.rst:21
 msgid ""
 "Массовый перевод токенов. Указана минимальная комиссия, размер комиссии "
 "зависит от количества адресов в транзакции"
 msgstr ""
-"Mass tokens transfer. Minimum commission is specified, the fee depends on the "
-"number of addresses in the transaction"
+"Mass tokens transfer. Minimum commission is specified, the fee depends on "
+"the number of addresses in the transaction"
 
 # 20cd450c352d4a339d76fd09a8300d71
-#: ../../how-to-use/comissions-mainnet.rst:21
+#: ../../how-to-use/comissions-mainnet.rst:22
 msgid "12"
 msgstr "12"
 
 # 1ca48a3e0af1462e87443198667a053b
-#: ../../how-to-use/comissions-mainnet.rst:21
+#: ../../how-to-use/comissions-mainnet.rst:22
 msgid ":ref:`Data Transaction <DataTransaction>`"
 msgstr ":ref:`Data Transaction <DataTransaction>`"
 
 # 608fd5e157ea4c909c55e97062d1a4d5
-#: ../../how-to-use/comissions-mainnet.rst:21
+#: ../../how-to-use/comissions-mainnet.rst:22
 msgid ""
 "Транзакция с данными в виде полей с парой ключ-значение. Комиссия всегда "
 "взимается с автора транзакции. Указана минимальная комиссия, размер комиссии "
@@ -270,228 +281,222 @@ msgstr ""
 "depends on data volume"
 
 # ab7940fb3c8f4b5a98c82f2acb26ec04
-#: ../../how-to-use/comissions-mainnet.rst:22
+#: ../../how-to-use/comissions-mainnet.rst:23
 msgid "13"
 msgstr "13"
 
 # 78ce4b78e7c84e1c9dee6dbc2d3f0bfe
-#: ../../how-to-use/comissions-mainnet.rst:22
+#: ../../how-to-use/comissions-mainnet.rst:23
 msgid ":ref:`SetScript Transaction <SetScriptTransaction>`"
 msgstr ":ref:`SetScript Transaction <SetScriptTransaction>`"
 
 # a00dcd591746457ebd704ddd6839a053
 # 47c8a19ecda548b8a523441cd47a5fa3
-#: ../../how-to-use/comissions-mainnet.rst:22
-#: ../../how-to-use/comissions-mainnet.rst:34
+#: ../../how-to-use/comissions-mainnet.rst:23
+#: ../../how-to-use/comissions-mainnet.rst:35
 msgid "0.5VST"
 msgstr "0.5VST"
 
 # 21990ce7524d4f25851e601adfdab0f6
-#: ../../how-to-use/comissions-mainnet.rst:22
+#: ../../how-to-use/comissions-mainnet.rst:23
 msgid "Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту"
-msgstr "Transaction which is binding a script with a RIDE contract to an account"
+msgstr ""
+"Transaction which is binding a script with a RIDE contract to an account"
 
 # ef29e5ddd3d04817a519f02a9cf5b217
-#: ../../how-to-use/comissions-mainnet.rst:23
+#: ../../how-to-use/comissions-mainnet.rst:24
 msgid "14"
 msgstr "14"
 
 # 98f801701d064635ad44e2051efaa079
-#: ../../how-to-use/comissions-mainnet.rst:23
+#: ../../how-to-use/comissions-mainnet.rst:24
 msgid "SponsorFee Transaction (не используется)"
 msgstr "SponsorFee Transaction (not used)"
 
 # a9db961ed939469196842139550615a7
-#: ../../how-to-use/comissions-mainnet.rst:24
+#: ../../how-to-use/comissions-mainnet.rst:25
 msgid "15"
 msgstr "15"
 
 # 322876f76af64780be5179cb73fdbc15
-#: ../../how-to-use/comissions-mainnet.rst:24
+#: ../../how-to-use/comissions-mainnet.rst:25
 msgid ":ref:`SetAssetScript <SetAssetScriptTransaction>`"
 msgstr ":ref:`SetAssetScript <SetAssetScriptTransaction>`"
 
 # 875485afee7e4f0d9707a8d08b5de46b
-#: ../../how-to-use/comissions-mainnet.rst:24
+#: ../../how-to-use/comissions-mainnet.rst:25
 msgid "Транзакция, привязывающая скрипт с RIDE-контрактом к ассету"
 msgstr "Transaction which is binding a script with a RIDE contract to an asset"
 
 # 79c78126c879431f8ad1a4d78aeea7e9
-#: ../../how-to-use/comissions-mainnet.rst:25
+#: ../../how-to-use/comissions-mainnet.rst:26
 msgid "101"
 msgstr "101"
 
 # 2a0851022c534071b29bbe54c1954d3c
-#: ../../how-to-use/comissions-mainnet.rst:25
+#: ../../how-to-use/comissions-mainnet.rst:26
 msgid ":ref:`Genesis Permission Transaction <GenesisPermitTransaction>`"
 msgstr ":ref:`Genesis Permission Transaction <GenesisPermitTransaction>`"
 
 # aefb6c223ec840b291010452f05d512b
-#: ../../how-to-use/comissions-mainnet.rst:25
+#: ../../how-to-use/comissions-mainnet.rst:26
 msgid "Назначение первого администратора сети для дальнейшей раздачи прав"
 msgstr ""
 "Assignment of the first network administrator for further distribution of "
 "rights"
 
 # c1880bcb053844429cc45d216919e357
-#: ../../how-to-use/comissions-mainnet.rst:26
+#: ../../how-to-use/comissions-mainnet.rst:27
 msgid "102"
 msgstr "102"
 
 # e29e2c8d2b5b40f9bd37d13684f12e8a
-#: ../../how-to-use/comissions-mainnet.rst:26
+#: ../../how-to-use/comissions-mainnet.rst:27
 msgid ":ref:`Permission Transaction <PermitTransaction>`"
 msgstr ":ref:`Permission Transaction <PermitTransaction>`"
 
 # 247935a022e445e08be750297c7ac4d2
-#: ../../how-to-use/comissions-mainnet.rst:26
+#: ../../how-to-use/comissions-mainnet.rst:27
 msgid "Выдача/отзыв прав у аккаунта"
 msgstr "Issuance/withdrawal of rights from the account"
 
 # c7ce86ee91c74aa78f009c78f98c445e
-#: ../../how-to-use/comissions-mainnet.rst:27
+#: ../../how-to-use/comissions-mainnet.rst:28
 msgid "103"
 msgstr "103"
 
 # a0f92859e77c48e3bf8e32f9f14b4f6f
-#: ../../how-to-use/comissions-mainnet.rst:27
+#: ../../how-to-use/comissions-mainnet.rst:28
 msgid ":ref:`CreateContract Transaction <CreateContractTransaction>`"
 msgstr ":ref:`CreateContract Transaction <CreateContractTransaction>`"
 
 # 8f40e2a5dad4492dac8602fb3bd25a00
-#: ../../how-to-use/comissions-mainnet.rst:27
+#: ../../how-to-use/comissions-mainnet.rst:28
 msgid "Создание Docker-контракта"
 msgstr "Docker-contract creation"
 
 # fc33b75093b648d2a65f0fd085785da4
-#: ../../how-to-use/comissions-mainnet.rst:28
+#: ../../how-to-use/comissions-mainnet.rst:29
 msgid "104"
 msgstr "104"
 
 # 13ec86a7aa7649cd85cb03abf84d2e34
-#: ../../how-to-use/comissions-mainnet.rst:28
+#: ../../how-to-use/comissions-mainnet.rst:29
 msgid ":ref:`CallContract Transaction <CallContractTransaction>`"
 msgstr ":ref:`CallContract Transaction <CallContractTransaction>`"
 
 # 3bfed9bbd2574d99be24d38500a95f50
-#: ../../how-to-use/comissions-mainnet.rst:28
+#: ../../how-to-use/comissions-mainnet.rst:29
 msgid "0.1VST"
 msgstr "0.1VST"
 
 # 87e329c442c44db98aeaa9b8cb0a370e
-#: ../../how-to-use/comissions-mainnet.rst:28
+#: ../../how-to-use/comissions-mainnet.rst:29
 msgid "Вызов Docker-контракта"
 msgstr "Docker-contract call"
 
 # 533fc83ead1d4784afdda80272710af1
-#: ../../how-to-use/comissions-mainnet.rst:29
+#: ../../how-to-use/comissions-mainnet.rst:30
 msgid "105"
 msgstr "105"
 
 # 4d1bbeca224d47a4a35181f871514891
-#: ../../how-to-use/comissions-mainnet.rst:29
+#: ../../how-to-use/comissions-mainnet.rst:30
 msgid ":ref:`ExecutedContract Transaction <ExecutedContractTransaction>`"
 msgstr ":ref:`ExecutedContract Transaction <ExecutedContractTransaction>`"
 
 # 0a2dd67b63d34344adf66fe564122377
-#: ../../how-to-use/comissions-mainnet.rst:29
+#: ../../how-to-use/comissions-mainnet.rst:30
 msgid "Выполнение Docker-контракта"
 msgstr "Docker-contract execution"
 
 # cf8546029cd64e8dbdf30f0850622e3c
-#: ../../how-to-use/comissions-mainnet.rst:30
+#: ../../how-to-use/comissions-mainnet.rst:31
 msgid "106"
 msgstr "106"
 
 # ed38e3d8ce4e4377a9520f6c2a02a520
-#: ../../how-to-use/comissions-mainnet.rst:30
+#: ../../how-to-use/comissions-mainnet.rst:31
 msgid ":ref:`DisableContract Transaction <DisableContractTransaction>`"
 msgstr ":ref:`DisableContract Transaction <DisableContractTransaction>`"
 
 # 4ff3251ee21c4758bd6c70065307abb2
-#: ../../how-to-use/comissions-mainnet.rst:30
+#: ../../how-to-use/comissions-mainnet.rst:31
 msgid "Отключение Docker-контракта"
 msgstr "Docker-contract disable"
 
 # 95752470c1864a61b6d12c0480ef106f
-#: ../../how-to-use/comissions-mainnet.rst:31
+#: ../../how-to-use/comissions-mainnet.rst:32
 msgid "110"
 msgstr "110"
 
 # faf6392ecb2849339cc12776764c7f5a
-#: ../../how-to-use/comissions-mainnet.rst:31
+#: ../../how-to-use/comissions-mainnet.rst:32
 msgid ":ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`"
-msgstr ":ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`"
+msgstr ""
+":ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`"
 
 # 5969ff604a3a412e8105d69d53126b06
-#: ../../how-to-use/comissions-mainnet.rst:31
+#: ../../how-to-use/comissions-mainnet.rst:32
 msgid "Регистрация ноды в генезис-блоке при старте блокчейна"
 msgstr "Node registration in the genesis block with the blockchain start"
 
 # a6125874471e41fcb3751f5c4fedd9cc
-#: ../../how-to-use/comissions-mainnet.rst:32
+#: ../../how-to-use/comissions-mainnet.rst:33
 msgid "111"
 msgstr "111"
 
 # 36e85936456f4d748fa38ac499c7579c
-#: ../../how-to-use/comissions-mainnet.rst:32
+#: ../../how-to-use/comissions-mainnet.rst:33
 msgid ":ref:`RegisterNode Transaction <RegisterNodeTransaction>`"
 msgstr ":ref:`RegisterNode Transaction <RegisterNodeTransaction>`"
 
 # b6d2d4a097d84fafb1e4360528fd8597
-#: ../../how-to-use/comissions-mainnet.rst:32
+#: ../../how-to-use/comissions-mainnet.rst:33
 msgid "Регистрация новой ноды в сети"
 msgstr "A new node registration"
 
 # a2bfda05558e45a9ae45005d052e59b0
-#: ../../how-to-use/comissions-mainnet.rst:33
+#: ../../how-to-use/comissions-mainnet.rst:34
 msgid "112"
 msgstr "112"
 
 # 1de2529f1d714425b19142d5df1f807f
-#: ../../how-to-use/comissions-mainnet.rst:33
+#: ../../how-to-use/comissions-mainnet.rst:34
 msgid ":ref:`CreatePolicy Transaction <CreatePolicyTransaction>`"
 msgstr ":ref:`CreatePolicy Transaction <CreatePolicyTransaction>`"
 
 # be36e5bdc4fa43229ec79e07ed5fdf1a
-#: ../../how-to-use/comissions-mainnet.rst:33
+#: ../../how-to-use/comissions-mainnet.rst:34
 msgid "Создание группы доступа к конфиденциальным данным"
 msgstr "Access group creation"
 
 # b67541c9598c4958b8019c47e04173c8
-#: ../../how-to-use/comissions-mainnet.rst:34
+#: ../../how-to-use/comissions-mainnet.rst:35
 msgid "113"
 msgstr "113"
 
 # ac50b9e7dd4d4e82b50e9113cc472adf
-#: ../../how-to-use/comissions-mainnet.rst:34
+#: ../../how-to-use/comissions-mainnet.rst:35
 msgid ":ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`"
 msgstr ":ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`"
 
 # dcae200fb183458faed55c98b49b1f8e
-#: ../../how-to-use/comissions-mainnet.rst:34
+#: ../../how-to-use/comissions-mainnet.rst:35
 msgid "Изменение группы доступа"
 msgstr "Update the access group"
 
 # e40a3bbb9c2a419699dff9229f7803f9
-#: ../../how-to-use/comissions-mainnet.rst:35
+#: ../../how-to-use/comissions-mainnet.rst:36
 msgid "114"
 msgstr "114"
 
 # 012d1d09d50b45489d46db8e24e0da61
-#: ../../how-to-use/comissions-mainnet.rst:35
+#: ../../how-to-use/comissions-mainnet.rst:36
 msgid ":ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`"
 msgstr ":ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`"
 
 # 58b8318e45d9400d971951a1627c971d
-#: ../../how-to-use/comissions-mainnet.rst:35
+#: ../../how-to-use/comissions-mainnet.rst:36
 msgid "Отправка в сеть хеша данных"
 msgstr "A data hash sending to the net"
-
-# 519dce6d26a7491383599ce3d149e604
-#~ msgid "7"
-#~ msgstr "7"
-
-# 1788b8eaf8f74ed68f881062e0f0702b
-#~ msgid ":ref:`Exchange Transaction (не используется) <ExchangeTransaction>`"
-#~ msgstr ":ref:`Exchange Transaction (not used) <ExchangeTransaction>`"

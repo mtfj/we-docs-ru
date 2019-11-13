@@ -10,6 +10,8 @@
 
 В разделе рассматривается пример создания и запуска простого смарт-контракта. Контракт выполняет суммирование 2х чисел, переданных на вход контракта в :ref:`call-транзакции <first-contract-tutorial-call>`.
 
+.. `Скачать <contracts-sample/sum-contract-kv_1.0.zip>`_ исходный код контракта.
+
 Листинг программы ``contract.py`` на Python:
 
 .. code:: python
@@ -67,6 +69,8 @@
 
 1. Скачать и установить `Docker for Developers <https://www.docker.com/get-started>`_ для вашей операционной системы.
 
+.. hint:: Для операционной системы Windows в настройках Docker включить признак "Expose deamon on .... without TLS".
+
 2. Подготовить образ контракта. В папке ``sum-contract-kv`` создать следующие файлы:
 
 .. image:: ../../../img/sum-contract-structure.png
@@ -90,8 +94,6 @@
     RUN apk add --no-cache --update iptables
     CMD exec /bin/sh -c "trap : TERM INT; (while true; do sleep 1000; done) & wait"
 
-.. important:: В контейнер со смарт-контрактом необходимо установить `iptables <https://en.wikipedia.org/wiki/Iptables>`_.
-
 3. Установить образ в Docker registry. Выполнить в терминале следующие команды:
 
 .. code:: js
@@ -103,66 +105,35 @@
     docker start registry
     docker push localhost:5000/sum-contract-kv
 
-4. Для получения информации о контейнере выполнить в терминале следующую команду:
 
-.. code:: js
+4. Подписать транзакцию на создание смарт-контракта. В рассматриваемом примере транзакция подписывается ключом, сохраненным в keystore ноды.
 
-    docker inspect 57c2c2d2643d
-    [
-    {
-        "Id": "sha256:57c2c2d2643da042ef8dd80010632ffdd11e3d2e3f85c20c31dce838073614dd",
-        "RepoTags": [
-            "wenode:latest"
-        ],
-        "RepoDigests": [],
-        "Parent": "sha256:d91d2307057bf3bb5bd9d364f16cd3d7eda3b58edf2686e1944bcc7133f07913",
-        "Comment": "",
-        "Created": "2019-10-25T14:15:03.856072509Z",
-        "Container": "",
-        "ContainerConfig": {
-            "Hostname": "",
-            "Domainname": "",
-            "User": "",
-            "AttachStdin": false,
-            "AttachStdout": false,
-            "AttachStderr": false,
-
-Идентификатор смарт-контракта ``Id`` является значением поля ``imageHash`` для использования в транзакциях с созданным смарт-контрактом.
-
-5. Подписать транзакцию на создание смарт-контракта. В рассматриваемом примере транзакция подписывается ключом, сохраненным в keystore ноды.
-
-.. hint:: Для создания ключевой пары и адреса участника используется утилита `generators.jar <https://github.com/waves-enterprise/WE-releases>`_. Порядок действий создания ключевой пары приведен в подразделе :ref:`Генерирование ключевых пар  <generate-keys-pair>`. Правила формирования запросов к ноде приведены в разделе :ref:`REST API ноды <rest-api-node>`.
+.. hint:: Для создания ключевой пары и адреса участника используется утилита `generators.jar <https://github.com/vostokplatform/Vostok-Releases/releases>`_. Порядок действий создания ключевой пары приведен в подразделе :ref:`Генерирование ключевых пар  <generate-keys-pair>`. Правила формирования запросов к ноде приведены в разделе :ref:`REST API ноды <rest-api-node>`.
 
 **Тело запроса**
 
 .. code:: js
 
     {
-      "fee": 100000000,
-      "image": "stateful-increment-contract:latest",
-      "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
-      "contractName": "stateful-increment-contract",
-      "sender": "3PudkbvjV1nPj1TkuuRahh4sGdgfr4YAUV2",
-      "password": "",
-      "params": [],
-      "type": 103,
-      "version": 1
-     }
+        "type": 103,
+        "sender":"3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
+        "image":"localhost:5000/sum-contract-kv",
+        "params":[],
+        "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
+        "fee":500000
+    }
 
 **Пример запроса**
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '    { \ 
-            "fee": 100000000, \
-            "image": "stateful-increment-contract:latest", \
-            "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65", \
-            "contractName": "stateful-increment-contract", \
-            "sender": "3PudkbvjV1nPj1TkuuRahh4sGdgfr4YAUV2", \
-            "password": "", \
-            "params": [], \
-            "type": 103, \
-            "version": 1 \
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '    { \ 
+            "type": 103, \ 
+            "sender":"3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 
+            "image":"localhost:5000/sum-contract-kv", \ 
+            "params":[], \ 
+            "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662", \ 
+            "fee":500000 \ 
         }' 'http://localhost:6862/transactions/sign'
 
 **Пример ответа**
@@ -170,66 +141,66 @@
 .. code:: js
 
     {
-        "type": 103,
-        "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
-        "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew",
-        "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M",
-        "fee": 500000,
-        "timestamp": 1550591678479,
-        "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
-        "version": 1, 
-        "image": "stateful-increment-contract:latest", 
-        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
-        "contractName": "stateful-increment-contract",
-        "params": [], 
-        "height": 1619 
+    "type": 103,
+    "id": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2",
+    "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
+    "senderPublicKey": "2YvzcVLrqLCqouVrFZynjfotEuPNV9GrdauNpgdWXLsq",
+    "fee": 500000,
+    "timestamp": 1549443811183,
+    "proofs": [
+        "YSomSCKBhQWHKHR8f8ZMp7EzuA6Uouu1oq5WA5VDiZ8o2adL4XMQP3jgccketjGCEpnTnCjm5bABZG486CVR5ZM"
+    ],
+    "version": 1,
+    "image": "localhost:5000/sum-contract-kv",
+    "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
+    "params": []
     }
 
-6. Отправить подписанную транзакцию в блокчейн. Ответ от метода sign необходимо передать на вход для метода broadcast.
+5. Отправить подписанную транзакцию в блокчейн. Ответ от метода sign необходимо передать на вход для метода broadcast.
 
 **Пример запроса**
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '{ \ 
-    {
-        "type": 103, \
-        "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky", \
-        "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew", \
-        "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M", \
-        "fee": 500000, \
-        "timestamp": 1550591678479, \
-        "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], \
-        "version": 1, \
-        "image": "stateful-increment-contract:latest", \
-        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65", \
-        "contractName": "stateful-increment-contract", \
-        "params": [], \
-        "height": 1619 \
-    }
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '{ \ 
+    "type": 103, \ 
+    "id": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2", \ 
+    "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 
+    "senderPublicKey": "2YvzcVLrqLCqouVrFZynjfotEuPNV9GrdauNpgdWXLsq", \ 
+    "fee": 500000, \ 
+    "timestamp": 1549443811183, \ 
+    "proofs": [ \ 
+        "YSomSCKBhQWHKHR8f8ZMp7EzuA6Uouu1oq5WA5VDiZ8o2adL4XMQP3jgccketjGCEpnTnCjm5bABZG486CVR5ZM" \ 
+    ], \ 
+    "version": 1, \ 
+    "image": "localhost:5000/sum-contract-kv", \ 
+    "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662", \ 
+    "params": [] \ 
     }' 'http://localhost:6862/transactions/broadcast'
 
-7. По id транзакции убедиться, что транзакция с инициализацией контракта размещена в блокчейне.
+5. По id транзакции убедиться, что транзакция с инициализацией контракта размещена в блокчейне.
 
+http://localhost:6862/transactions/info/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
 
 **Пример ответа**
 
 .. code:: js
 
     {
-        "type": 103,
-        "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
-        "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew",
-        "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M",
-        "fee": 500000,
-        "timestamp": 1550591678479,
-        "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
-        "version": 1, 
-        "image": "stateful-increment-contract:latest", 
-        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
-        "contractName": "stateful-increment-contract",
-        "params": [], 
-        "height": 1619 
+    "type": 103,
+    "id": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7   nqh5wTXvJeYGo2",
+    "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
+    "senderPublicKey": "2YvzcVLrqLCqouVrFZynjfotEuPNV9GrdauNpgdWXLsq",
+    "fee": 500000,
+    "timestamp": 1549365501462,
+    "proofs": [
+        "2ZK1Y1ecfQXeWsS5sfcTLM5W1KA3kwi9Up2H7z3Q6yVzMeGxT9xWJT6jREQsmuDBcvk3DCCiWBdFHaxazU8pbo41"
+    ],
+    "version": 1,
+    "image": "localhost:5000/contract256",
+    "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
+    "params": [],
+    "height": 1256
     }
 
 Исполнение смарт-контракта
@@ -270,7 +241,7 @@
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '{ \ 
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '{ \ 
         "contractId": "2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2", \ 
         "fee": 10, \ 
         "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 
@@ -327,7 +298,7 @@
 
 .. code:: js
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: key word' -d '{ \ 
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-API-Key: vostok' -d '{ \ 
     "type": 104, \ 
     "id": "9fBrL2n5TN473g1gNfoZqaAqAsAJCuHRHYxZpLexL3VP", \ 
     "sender": "3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58", \ 
@@ -354,6 +325,8 @@
     }' 'http://localhost:6862/transactions/broadcast'
 
 3. Получить результат выполнения смарт-контракта по его идентификатору.
+
+http://localhost:6862/contracts/2sqPS2VAKmK77FoNakw1VtDTCbDSa7nqh5wTXvJeYGo2
 
 **Пример ответа**
 

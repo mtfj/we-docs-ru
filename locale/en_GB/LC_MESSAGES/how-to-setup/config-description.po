@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 19:41+0300\n"
+"POT-Creation-Date: 2019-08-07 17:48+0300\n"
+"PO-Revision-Date: 2019-08-08 15:53+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 02abe6990eac4af69ccb2e5a74522f94
 #: ../../how-to-setup/config-description.rst:5
@@ -28,19 +28,19 @@ msgstr "Description of the node configuration file parameters"
 #: ../../how-to-setup/config-description.rst:7
 msgid ""
 "Конфигурационный файл ноды содержит основные настройки для работы блокчейна "
-"Waves Enterprise. В состав файла входят следующие секции:"
+"Vostok. В состав файла входят следующие секции:"
 msgstr ""
-"The node configuration file contains the main settings for the  Waves Enterprise "
-"platform. It includes the following sections:"
+"The node configuration file contains the main settings for the Vostok platform. "
+"It includes the following sections:"
 
 # b9b8867f6553477098f4c69c20f7481e
 #: ../../how-to-setup/config-description.rst:9
 msgid ""
-":ref:`Waves Enterprise <vostok-sect-conf>` - общая секция, куда входят все "
-"секции настройки блокчейна."
+":ref:`vostok <vostok-sect-conf>` - общая секция, куда входят все секции "
+"настройки блокчейна."
 msgstr ""
-":ref:`Waves Enterprise <vostok-sect-conf>` - general section, which includes all "
-"sections of blockchain settings."
+":ref:`vostok <vostok-sect-conf>` - general section, which includes all sections "
+"of blockchain settings."
 
 # fc44d6afad304fa49403197ce0c65eb5
 #: ../../how-to-setup/config-description.rst:10
@@ -168,16 +168,16 @@ msgid ""
 "Логический тип ``no`` или ``yes``, используемый для активации различных опций."
 msgstr "Boolean ``no`` or ``yes`` which used for option activation."
 
-# cf90e984f77b4ff9a2995f69d06d68af
+# e271c606977242b586b7e60377c357a9
 #: ../../how-to-setup/config-description.rst:33
-msgid "Секция ``Waves Enterprise``"
-msgstr "``rest-api`` section"
+msgid "Секция ``vostok``"
+msgstr "``vostok`` section"
 
 # 1c68287f29c84a329478dfd915316469
 #: ../../how-to-setup/config-description.rst:35
 msgid ""
-"Секция ``Waves Enterprise`` включает все остальные секции настроек блокчейна, а "
-"также следующие отдельные параметры:"
+"Секция ``vostok`` включает все остальные секции настроек блокчейна, а также "
+"следующие отдельные параметры:"
 msgstr ""
 "The ``vostok`` section includes all other sections of blockchain settings, as "
 "well as the following individual parameters:"
@@ -315,13 +315,13 @@ msgstr ""
 # 49a9fc1866f647988f57b3f55cf82293
 #: ../../how-to-setup/config-description.rst:62
 msgid ""
-"``address-scheme-character`` - байт сети, для \"Waves Enterprise Mainnet\" - "
-"``V``, для \"Waves Enterprise Partnernet\" - ``P``. Данный параметр используется "
-"для предотвращения конфликта адресов из разных сетей."
+"``address-scheme-character`` - байт сети, для \"Vostok Mainnet\" - ``V``, для "
+"\"Vostok Partnernet\" - ``P``. Данный параметр используется для предотвращения "
+"конфликта адресов из разных сетей."
 msgstr ""
 "``address-scheme-character`` - the address feature character which is used to "
-"prevent mixing up addresses from different networks. For the \"Waves Enterprise "
-"Mainnet\" - ``V`` and for the \"Waves Enterprise Partnernet\" - ``P``."
+"prevent mixing up addresses from different networks. For the \"Vostok Mainnet\" "
+"- ``V`` and for the \"Vostok Partnernet\" - ``P``."
 
 # af51aed0c3d845dc883c97332490deba
 #: ../../how-to-setup/config-description.rst:63
@@ -1331,7 +1331,3 @@ msgstr "``migration-dir`` - a path to the data migration directory."
 # d677a80ef40c44c6ae77059882d95a43
 #~ msgid "``block-timestamp`` -"
 #~ msgstr "``block-timestamp`` -"
-
-# e271c606977242b586b7e60377c357a9
-#~ msgid "Секция ``vostok``"
-#~ msgstr "``vostok`` section"

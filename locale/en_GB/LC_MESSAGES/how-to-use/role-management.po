@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-29 14:11+0300\n"
-"PO-Revision-Date: 2019-11-05 15:31+0300\n"
+"POT-Creation-Date: 2019-05-29 15:39+0300\n"
+"PO-Revision-Date: 2019-05-29 16:08+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,12 +16,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # 09bb6f2238924effb069e573686af65f
 #: ../../how-to-use/role-management.rst:4
-msgid "Управление ролями участников"
+msgid "Управление полномочиями участников"
 msgstr "Role management"
 
 # 2d46f03922a248abb03c304cfe41f485

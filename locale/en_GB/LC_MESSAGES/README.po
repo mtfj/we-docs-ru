@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-20 15:37+0300\n"
-"PO-Revision-Date: 2019-09-03 15:52+0300\n"
+"POT-Creation-Date: 2019-08-28 18:28+0300\n"
+"PO-Revision-Date: 2019-08-20 16:09+0300\n"
 "Last-Translator: \n"
 "Language: en_GB\n"
 "Language-Team: \n"
@@ -18,25 +18,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-# 24c3c6b3417f4805b89db5f60abcea34
+# 7deb209c01564b7ab635f17ff3df3c29
 #: ../../README.md:1
-msgid "Waves Enterprise docs"
+msgid "Vostok docs"
 msgstr ""
 
-# b95a440ba5164f4e95db8d227d5ed661
+# 7bab073a6be94395bc62a3ffff9bf7d0
 #: ../../README.md:3
 msgid ""
-"Waves Enterprise Blockchain Platform is a universal solution for a "
-"scalable digital infrastructure that combines properties of public and "
-"private blockchains for enterprise and state usage. The enterprise "
-"blockchain platform solves the problem of trust between the parties not "
-"at the level of business logic, but at the level of the platform "
-"operation protocol. Supported PoS and PoA consensuses guarantee "
-"correctness of data added to the blockchain, while decentralization "
-"provides counterparty independence in terms of data access."
+"Vostok Blockchain Platform is a universal solution for a scalable digital"
+" infrastructure that combines properties of public and private "
+"blockchains for enterprise and state usage. The enterprise blockchain "
+"platform solves the problem of trust between the parties not at the level"
+" of business logic, but at the level of the platform operation protocol. "
+"Supported PoS and PoA consensuses guarantee correctness of data added to "
+"the blockchain, while decentralization provides counterparty independence"
+" in terms of data access."
 msgstr ""
 
-# ef1dddf221594e1ab6eef6550b635fcc
-#~ msgid "Waves Enterprise docs"
+# 8315bcea63024a73a09ad5e0eb73f335
+#: ../../README.md:5
+msgid ""
+"dev-new-javainstall \"@TODO need help for creating linked icons "
+"WIN/LIN/MAC by front-end developer\"."
+msgstr ""
+
+# e91f215195e44b589863514ee1229a84
+#~ msgid "Vostok docs"
 #~ msgstr ""
 

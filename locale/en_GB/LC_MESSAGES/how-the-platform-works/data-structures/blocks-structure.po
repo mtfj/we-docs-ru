@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-14 10:36+0300\n"
-"PO-Revision-Date: 2019-10-14 11:16+0300\n"
+"POT-Creation-Date: 2019-05-24 16:12+0300\n"
+"PO-Revision-Date: 2019-05-24 16:18+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # 00f6fc020b3845229719f832f6bad10b
@@ -28,10 +28,10 @@ msgstr "Blocks"
 #: ../../how-the-platform-works/data-structures/blocks-structure.rst:4
 msgid ""
 "В этом разделе приведена структура хранения блоков в блокчейн-платформе "
-"Waves Enterprise."
+"Восток."
 msgstr ""
-"This module contains the structure of block storage in the Waves "
-"Enterprise blockchain."
+"This module contains the structure of block storage in the Vostok "
+"blockchain."
 
 # ce6ba1847f5e4bc08257141cf894ef3f
 # 40c71efa04eb41ed901ea1ad929adc05
@@ -81,6 +81,11 @@ msgstr "Version (0x02 for Genesis block, 0x03 for common block)"
 msgid "Byte"
 msgstr "Byte"
 
+# de253e66b9e54f7aa78b7eca3c882ef1
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "0"
+msgstr "0"
+
 # 3d6c3dd0c4594273ae59c50f11641d3b
 # 49730555a6824952bc55719284a96606
 # 09320902e3b34d48953bb633b422688b
@@ -101,15 +106,6 @@ msgstr "Timestamp"
 #: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
 msgid "Long"
 msgstr "Long"
-
-# 5923f2f873504dd585caa6d7e87ea2cf
-# 794776638c4a47ff84d4e3285a46b8ea
-# dfbcad4fc70e43b5ae6dae713313a1c8
-# 57c9233d039d4f9680dce3806e22934e
-# 832ac0616dd54f42880360d9d8783ba7
-#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
-msgid "8"
-msgstr "8"
 
 # 52e36380e0e14009981f1d8acd8077e2
 # 9f748f8d767b4d568abf119a8f89bd7f
@@ -182,6 +178,15 @@ msgstr "5"
 #: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
 msgid "Base target"
 msgstr "Base target"
+
+# 5923f2f873504dd585caa6d7e87ea2cf
+# 794776638c4a47ff84d4e3285a46b8ea
+# dfbcad4fc70e43b5ae6dae713313a1c8
+# 57c9233d039d4f9680dce3806e22934e
+# 832ac0616dd54f42880360d9d8783ba7
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "8"
+msgstr "8"
 
 # 871fb148c4664918a345be3de2afb151
 # 3428240c472f467ab5634312cfc9ffef
@@ -317,7 +322,3 @@ msgstr "Version (0x02 for Genesis block,, 0x03 for common block)"
 # 42495cc2cf184b1d9cab12f8229c43cf
 #~ msgid "Размерность"
 #~ msgstr "Size"
-
-# de253e66b9e54f7aa78b7eca3c882ef1
-#~ msgid "0"
-#~ msgstr "0"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-03 14:31+0300\n"
-"PO-Revision-Date: 2019-09-03 14:49+0300\n"
+"POT-Creation-Date: 2019-05-06 12:31+0300\n"
+"PO-Revision-Date: 2019-05-06 12:34+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # 30c3a7643fe644b693a592a8c0cd4c6f
 #: ../../overview/links.rst:2
@@ -26,23 +26,19 @@ msgstr "Official resources"
 
 # 0748b3704e984f39b3bbfabeadb99fe0
 #: ../../overview/links.rst:3
-msgid "Официальный сайт блокчейн-платформы `Waves Enterprise`_"
-msgstr "Official site of the blockchain-platform `Waves Enterprise`_"
+msgid "Официальный сайт блокчейн-платформы Восток_"
+msgstr "Official site of the blockchain platform Vostok_"
 
 # 2dd987d3d04f4b8daae92f3f4cef2a45
-#: ../../overview/links.rst:4
+#: ../../overview/links.rst:5
 msgid "Github_ проекта"
 msgstr "Github_ project"
 
 # 0748b3704e984f39b3bbfabeadb99fe0
-#: ../../overview/links.rst:5
+#: ../../overview/links.rst:7
 msgid "Официальный сайт блокчейн-платформы Waves_"
 msgstr "Official site of the blockchain-platform Waves_"
 
 # 0207ce598f7e47a9b6f84ab0e2eefe86
 #~ msgid "`Github проекта <https://github.com/vostokplatform>`_"
 #~ msgstr "'Project Github <https://github.com/vostokplatform>`_"
-
-# 0748b3704e984f39b3bbfabeadb99fe0
-#~ msgid "Официальный сайт блокчейн-платформы Восток_"
-#~ msgstr "Official site of the blockchain platform Vostok_"

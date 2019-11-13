@@ -45,6 +45,32 @@ POST /utils/hash/fast
      "hash": "DJ35ymschUFDmqCnDJewjcnVExVkWgX7mJDXhFy9X8oQ"
    }
 
+GET /utils/seed/{length}
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Возвращает случайный seed заданной {length} длины.
+
+**Ответ метода:**
+
+.. code:: js
+
+   {
+     "seed": "3XcHLU6bYRax1c"
+   }
+
+GET /utils/seed
+~~~~~~~~~~~~~~~
+
+Возвращает случайный seed.
+
+**Ответ метода:**
+
+.. code:: js
+
+   {
+     "seed": "2uwLAe7Rp7TuNiBTKsmTEJ5wxGqkBHjcyPq2tMXiWye7"
+   }
+
 POST /utils/script/compile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 

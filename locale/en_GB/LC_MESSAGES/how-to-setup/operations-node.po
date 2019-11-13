@@ -3,25 +3,24 @@
 # This file is distributed under the same license as the Vostok package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Waves Enterprise\n"
+"Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 17:13+0300\n"
-"PO-Revision-Date: 2019-09-02 17:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en_US\n"
-"X-Generator: Poedit 2.0.6\n"
 
 # e628f7e807444feea2abbea8c3345338
 #: ../../how-to-setup/operations-node.rst:5
 msgid "Основные операции в сети"
-msgstr "Main operations of net"
+msgstr ""
 
 # cc8f57058ea04955a95ca879abb2af2b
 #: ../../how-to-setup/operations-node.rst:7
@@ -30,45 +29,38 @@ msgid ""
 "создания новой блокчейн-сети. Разворачивать блокчейн-сеть вы можете со "
 "старта всего одной ноды, добавляя новые ноды по мере необходимости."
 msgstr ""
-"At the beginning you should start a your first node. Then you can add "
-"more other nodes to your net."
 
 # 5da08208b12d46a8b01efb84372b1077
 #: ../../how-to-setup/operations-node.rst:9
 msgid "Далее вы можете выполнить следующие операции:"
-msgstr "You need to do operations from this list:"
+msgstr ""
 
 # 38fd3bf551694a67a2d9139ec384b888
 #: ../../how-to-setup/operations-node.rst:11
 msgid ""
 ":ref:`Подключите <connect-existing-net>` новую ноду к уже существующей "
 "сети."
-msgstr ":ref:`Add <connect-existing-net>` a new node to your current net."
+msgstr ""
 
 # eb00530710474bca89c5dc98ccb72b64
 #: ../../how-to-setup/operations-node.rst:12
 msgid ":ref:`Удалите <delete-node>` лишние ноды из сети."
-msgstr ":ref:`Delete <delete-node>` all unnecessary nodes from your net."
+msgstr ""
 
 # 12e4a2cfbdbb4aa1a255399310add15f
 #: ../../how-to-setup/operations-node.rst:17
 msgid "Подключение новой ноды к существующей сети"
-msgstr "Add a new node to current net"
+msgstr ""
 
 # 1920c40a764b4915b9c21610350781c8
 #: ../../how-to-setup/operations-node.rst:19
 msgid ""
 "Новые ноды можно добавлять в сеть в любой момент времени. Настройка "
-"конфигурационных файлов новой ноды описана в подразделе :ref:"
-"`Подключение к существующей сети <configuration>`. Выполните все "
-"указанные в приведённом подразделе действия и :ref:`запустите <node-"
-"start>` ноду. Далее выполняются следующие действия:"
+"конфигурационных файлов новой ноды описана в подразделе :ref:`Подключение"
+" к существующей сети <configuration>`. Выполните все указанные в "
+"приведённом подразделе действия и :ref:`запустите <node-start>` ноду. "
+"Далее выполняются следующие действия:"
 msgstr ""
-"New nodes can be added to the network at any time. Configuring the "
-"configuration files of the new node is described in the subsection :ref:"
-"`Acconnect to the existing network <configuration>`. Perform all the "
-"actions specified in this subsection and :ref:`run <node-start>` node. "
-"Then the following actions are performed:"
 
 # 1afb738877524c469918de98d5efc10e
 #: ../../how-to-setup/operations-node.rst:22
@@ -76,20 +68,15 @@ msgid ""
 "Пользователь новой ноды передаёт публичный ключ и описание ноды "
 "администратору сети."
 msgstr ""
-"New node's user post to administrator (Connection-manager) nodes-net his "
-"public-key with node notation list."
 
 # dd7b42e7217f4f25a5ff930152206dcd
 #: ../../how-to-setup/operations-node.rst:23
 msgid ""
 "Администратор сети (нода с ролью \"Connection-manager\") использует "
-"полученные публичный ключ и описание ноды при создании транзакции :ref:"
-"`111 RegisterNode <RegisterNodeTransaction>` с параметром ``\"opType\": "
-"\"add\"``."
+"полученные публичный ключ и описание ноды при создании транзакции "
+":ref:`111 RegisterNode <RegisterNodeTransaction>` с параметром "
+"``\"opType\": \"add\"``."
 msgstr ""
-"Node on \"Connection-manager\" role  use public-key and node's "
-"description for transaction :ref:`111 RegisterNode "
-"<RegisterNodeTransaction>` with type ``\"opType\": \"add\"``."
 
 # e7d9ed5b953d492d8739f35d2bc678d2
 #: ../../how-to-setup/operations-node.rst:24
@@ -98,10 +85,6 @@ msgid ""
 "Вследствие транзакции среди сохраняемых данных каждый участник сети "
 "хранит обязательно публичный ключ и адрес новой ноды."
 msgstr ""
-"The transaction goes to the block and further to the node states of the "
-"network members. As a result of the transaction, each member of the "
-"network must store the public key and address of the new node among the "
-"stored data."
 
 # 5d9ab2ee878e43f48f085c46027afb5a
 #: ../../how-to-setup/operations-node.rst:25
@@ -110,23 +93,19 @@ msgid ""
 "дополнительные роли при помощи транзакции :ref:`102 Permit "
 "<PermitTransaction>`."
 msgstr ""
-"The node in role ``Connection manager`` can add additional roles to the "
-"new node using the transaction :ref:`102 Permit <PermitTransaction>` ."
 
 # 55e2209a28434adbbc635a9d0007a530
 #: ../../how-to-setup/operations-node.rst:26
 msgid "Пользователь :ref:`запускает <node-start>` ноду."
-msgstr "User :ref:` starts <node-start>` the node."
+msgstr ""
 
 # ba6f52e9ae2744768d49545d01ac46b3
 #: ../../how-to-setup/operations-node.rst:27
 msgid ""
 "После запуска нода отправляет :ref:`handshake-сообщение <network-message-"
-"auth-handshake>` со своим публичным ключом участникам из списка \"peers"
-"\" своего конфигурационного файла."
+"auth-handshake>` со своим публичным ключом участникам из списка \"peers\""
+" своего конфигурационного файла."
 msgstr ""
-"Node sends :ref:`handshake-сообщение <network-message-auth-handshake>` a "
-"datagram with it's public-key from \"peers\" - configuration file."
 
 # 014521306fd34ffcbe260589039093ae
 #: ../../how-to-setup/operations-node.rst:28
@@ -137,12 +116,6 @@ msgid ""
 "сети. Если проверка успешна, участник сети обновляет свою БД и рассылает "
 "в сеть сообщение :ref:`Peers Message <network-message-PeersMessage>`."
 msgstr ""
-"Network members compare the public key from the :ref:`handshake message "
-"<network-messagee-auth-handshake>` and the key from the transaction :ref:"
-"`111 RegisterNode <RegisterNodeTransaction>` sent by the network "
-"administrator. If the check is successful, the network member updates "
-"his or her database and sends the message :ref:`Peers Message <network-"
-"message-Peers Message>` to the network."
 
 # ae7c0a8227a8425784af398462b87983
 #: ../../how-to-setup/operations-node.rst:29
@@ -150,13 +123,11 @@ msgid ""
 "Успешно подключившись, новая нода выполняет синхронизацию с сетью и "
 "получает таблицу адресов участников сети."
 msgstr ""
-"If node has successful connection, the new node synchronizes with the "
-"network and receives the address table of the network members."
 
 # d5664626c5654323b8d1691441d1b4f1
 #: ../../how-to-setup/operations-node.rst:34
 msgid "Удаление ноды"
-msgstr "Delete node"
+msgstr ""
 
 # 331787d35b1b4cd487cfb669154e9fdc
 #: ../../how-to-setup/operations-node.rst:36
@@ -165,9 +136,6 @@ msgid ""
 "<RegisterNodeTransaction>` с параметром ``\"opType\": \"remove\"`` для "
 "удаления ноды из сети, в которую помещается её публичный ключ."
 msgstr ""
-"The node in role  ``Connection manager``  can delete a node form current "
-"net by  transaction :ref:`111 RegisterNode <RegisterNodeTransaction>` "
-"with  type- parameter ``\"opType\": \"remove\"``."
 
 # f83e52076db84c5d9706da29f915c79c
 #: ../../how-to-setup/operations-node.rst:37
@@ -175,28 +143,20 @@ msgid ""
 "Транзакция с удалением ноды вместе с остальными попадает в блок, и её "
 "принимают другие ноды."
 msgstr ""
-"The transaction with the node removal goes into the block together with "
-"the rest of them, and it is accepted by other nodes."
 
 # 6d60a790b2f4469785767e4c34e05d23
 #: ../../how-to-setup/operations-node.rst:38
 msgid ""
 "После принятия транзакции ноды находят в своем стейте публичный ключ, "
-"указанный в транзакции :ref:`111 RegisterNode "
-"<RegisterNodeTransaction>`, и удаляют его из стейта."
+"указанный в транзакции :ref:`111 RegisterNode <RegisterNodeTransaction>`,"
+" и удаляют его из стейта."
 msgstr ""
-"After accepting the transaction, the nodes find the public key specified "
-"in the transaction :ref:`111 RegisterNode <RegisterNodeTransaction>` in "
-"their statue and delete it from the statue."
 
 # dcf0bb9b4fc44e0ca9f1795cfee78b2c
 #: ../../how-to-setup/operations-node.rst:39
 msgid ""
-"Далее ноды удаляют сетевой адрес ноды с ключом, указанным в транзакции :"
-"ref:`111 RegisterNode <RegisterNodeTransaction>`, из списка ``network."
-"known-peers`` конфигурационного файла ноды."
+"Далее ноды удаляют сетевой адрес ноды с ключом, указанным в транзакции "
+":ref:`111 RegisterNode <RegisterNodeTransaction>`, из списка ``network"
+".known-peers`` конфигурационного файла ноды."
 msgstr ""
-"Next, the nodes remove the network address of the node with the key "
-"specified in the transaction :ref:`111 RegisterNode "
-"<RegisterNodeTransaction>` from the list of ```network.known-peers``` of "
-"the node configuration file."
+

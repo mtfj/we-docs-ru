@@ -1,20 +1,9 @@
 .. _install-client:
 
-Установка дополнительных сервисов
-======================================
+Установка клиента
+==============================
 
-Для полноценной работы необходимо установить дополнительно приложения `Docker CE <https://docs.docker.com/install/>`_ и `Docker-compose <https://docs.docker.com/compose/install/>`_. Полные требования к окружению для блокчейн-платформы Waves Enterprise вы можете посмотреть в разделе :ref:`Системные требования <system-requirements>`.
-
-Пакет дополнительных сервисов поставляется в виде Docker-контейнера, в котором содержатся следующие сервисы:
-
-* Корпоративный клиент.
-* Дата-сервис.
-* Дата-краулер.
-* Сервис авторизации.
-* БД PostgreSQL.
-* Nginx-proxy.
-
-Выполните следующие действия для установки всех дополнительных сервисов:
+Для полноценной работы необходимо установить дополнительно приложения `Docker CE <https://docs.docker.com/install/>`_ и `Docker-compose <https://docs.docker.com/compose/install/>`_. Выполните следующие действия для установки клиентской версии:
 
 1. Скачайте и установите дистрибутив `Docker CE <https://docs.docker.com/install/>`_. Для скачивания потребуется регистрация на сайте.
 
@@ -25,30 +14,22 @@
     
     | Для операционных систем семейств Linux и macOS используются команды ``docker --version`` и ``docker-compose --version``.
 
-2. Скачайте и разархивируйте файл `frontend-deployment.zip <https://github.com/waves-enterprise/WE-releases/releases>`_.
+2. Скачайте и разархивируйте файл `frontend-deployment.zip <https://github.com/vostokplatform/Vostok-Releases/releases>`_.
 3. В конфигурационном файле приложения ``frontend-deployment/config/nginx-proxy.env`` укажите путь до REST API и hostname ноды:
 
-    .. code:: js
+    .. code:: js 
         
         // nginx-proxy.env listing 
         
-        VOSTOK_NODE_ADDRESS=http://yournet.wavesenterprise.com:6862
-        VOSTOK_NODE_HOST=yournet.wavesenterprise.com:6862
+        VOSTOK_NODE_ADDRESS=http://yournet.vostoknodes.com:6862
+        VOSTOK_NODE_HOST=yournet.vostoknodes.com:6862
 
-4. В конфигурационном файле приложения ``frontend-deployment/config/postgres.env`` в параметрах ``POSTGRES_USER`` и ``POSTGRES_PASSWORD`` укажите логин и пароль для пользователя соответственно. Рекомендуется использовать сложные комбинации букв, цифр и символов для повышения уровня безопасности.
+4. Запустите скрипт развертывания командой ``bash ./deploy.sh``.
+5. Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, что клиент системы успешно развернут.
 
-    .. code:: js
-        
-        // postgres.env listing 
-        
-        POSTGRES_HOST=crawler-db
-        POSTGRES_DB=blockchain
-        POSTGRES_USER=user login
-        POSTGRES_PASSWORD=user password
-
-5. Запустите скрипт развертывания командой ``bash ./deploy.sh``.
-6. Откройте браузер и перейдите по адресу ``localhost``, чтобы убедиться, что клиент системы успешно развернут.
+.. note:: Ознакомиться с подробным описанием компонентов установленного приложение можно в разделе :ref:`Описание клиента <client>`.
 
 
-
-
+..     | 1.1. В ОС Windows при возникновении следующего окна с ошибкой установки включите аппаратную поддержку виртуализации в BIOS:
+        .. image:: img/virt_error.png
+        :height: 150

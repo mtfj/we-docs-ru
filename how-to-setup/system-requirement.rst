@@ -1,6 +1,3 @@
-
-.. _system-requirements:
-
 Системные требования
 =======================
 
@@ -22,26 +19,17 @@
 **Требования к окружению для ноды при использовании криптографии CryptoPro JCP**
 
 - `Oracle JRE 1.8 (64-bit) <http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_
-- `CryptoPro JCP 2.0.40035 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.40035.zip>`_
+- `CryptoPro JCP 2.0.39014 <https://www.cryptopro.ru/sites/default/files/private/jcp/jcp-2.0.39014.zip>`_
 
-.. warning:: Платформа Waves Enterprise поддерживает только версию ``2.0.40035`` для ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на сайте. Для получения дистрибутива Oracle JRE 1.8 необходимо также зарегистрироваться на официальном сайте компании Oracle.
+.. warning:: Платформа Vostok поддерживает только версию ``2.0.39014`` для ПО CryptoPro JCP. Для скачивания дистрибутива необходимо пройти регистрацию на сайте. Для получения дистрибутива Oracle JRE 1.8 необходимо также зарегистрироваться на официальном сайте компании Oracle.
 
-**Требования к окружению для корпоративного клиента**
+**Требования к окружению для корпоративного клиента и дата-сервиса**
 
 - `Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_
 - `Docker-compose <https://docs.docker.com/compose/install/>`_
 - `node.js <https://nodejs.org/en/download/>`_ LTS версии 10+
 - `npm <https://www.npmjs.com/>`_ 6+  
 
-**Требования к окружению для дата-сервиса**
 
-- `node.js <https://nodejs.org/en/download/>`_ LTS версии 10+
-- `npm <https://www.npmjs.com/>`_ 6+  
-- `PostgreSQL <https://www.postgresql.org/download/>`_ 11 версии
 
-**Требования к окружению для сервиса авторизации**
-
-- `PostgreSQL <https://www.postgresql.org/download/>`_ 11 версии
-
-.. hint:: Для дата-сервиса и сервиса авторизации должны быть отдельные БД PostgreSQL.
 

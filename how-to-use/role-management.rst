@@ -1,6 +1,6 @@
 .. _role-management:
 
-Управление ролями участников
+Управление полномочиями участников
 ====================================
 
 Список возможных ролей в блокчейн-платформе приведен в разделе :ref:`"Авторизация участников" <authorization>`.
@@ -60,11 +60,11 @@
         addresses = [
         "3N2cQFfUDzG2iujBrFTnD2TAsCNohDxYu8w"
         ]
-        storage = ${user.home}"/nodeName/keystore.dat"
+        storage = ${user.home}"/vostok/wallet/wallet.dat"
         password = "some string as password"
     }
     send-to = [
-        "devnet-aws-fr-2.we.wavesnodes.com:6864"
+        "devnet-aws-fr-2.vostok.wavesnodes.com:6864"
     ]
     grants = [
         {

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 16:00+0300\n"
+"POT-Creation-Date: 2019-08-01 17:30+0300\n"
+"PO-Revision-Date: 2019-08-01 17:32+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # b07b8a74b14c4c4cab81b0eb27b69dd9
 #: ../../how-the-platform-works/waves-ng-protocol.rst:2
@@ -27,10 +27,10 @@ msgstr "Waves-NG Protocol"
 # 7599be45e5574303833bccc257ca72e2
 #: ../../how-the-platform-works/waves-ng-protocol.rst:3
 msgid ""
-"Описание протокола работы блокчейна Waves Enterprise, обеспечивающего "
-"преимущество производительности относительно других блокчейнов."
+"Описание протокола работы блокчейна Vostok, обеспечивающего преимущество "
+"производительности относительно других блокчейнов."
 msgstr ""
-"Description of Waves Enterprise Operation Protocol which provides performance "
+"Description of Vostok Blockchain Operation Protocol which provides performance "
 "advantage relative to other blockchains."
 
 # ee2ff7ac865e4477829226cf5024b132
@@ -67,9 +67,8 @@ msgstr "Proof of ownership — acquisition of mining right in the PoS consensus.
 
 # 75177cde858c43ab9dba784df94d0195
 #: ../../how-the-platform-works/waves-ng-protocol.rst:11
-msgid "Нода — узел сети с запущенным приложением блокчейна Waves Enterprise."
-msgstr ""
-"Node — network host with the Waves Enterprise blockchain application running."
+msgid "Нода — узел сети с запущенным приложением блокчейна Vostok."
+msgstr "Node — network host with the Vostok blockchain application running."
 
 # 5c3d965ad63f4a4bbee177ccfb91de18
 #: ../../how-the-platform-works/waves-ng-protocol.rst:12
@@ -136,14 +135,14 @@ msgid ""
 "Waves-NG — разработан Waves Platform на основе `Bitcoin-NG <https://www.usenix."
 "org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf>`_ для повышения "
 "пропускной способности блокчейна Waves, на архитектуре которого реализован "
-"Waves Enterprise. Идея протокола — в каждом раунде майнинга создавать не 1 "
-"большой блок, а непрерывно создавать микроблоки. Маленькие блоки быстрее "
-"пересылать и проверять."
+"Vostok. Идея протокола — в каждом раунде майнинга создавать не 1 большой блок, "
+"а непрерывно создавать микроблоки. Маленькие блоки быстрее пересылать и "
+"проверять."
 msgstr ""
 "Waves-NG - developed by Waves Platform based on `Bitcoin-NG <https://www.usenix."
 "org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf>`_ to increase the "
-"throughput of the Waves blockchain based on whose architecture Waves Enterprise "
-"is implemented. The idea of the protocol is to create not 1 large block in each "
+"throughput of the Waves blockchain based on whose architecture Vostok is "
+"implemented. The idea of the protocol is to create not 1 large block in each "
 "round of mining but continuously create microblocks. Small blocks are faster to "
 "forward and check."
 

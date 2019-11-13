@@ -1,9 +1,9 @@
 Официальные ресурсы
 ========================================
-- Официальный сайт блокчейн-платформы `Waves Enterprise`_
+- Официальный сайт блокчейн-платформы Восток_
 - Github_ проекта
 - Официальный сайт блокчейн-платформы Waves_
-
-.. _`Waves Enterprise`: https://wavesenterprise.com/
-.. _Github: https://github.com/waves-enterprise/WE-releases
+.. _Восток: https://vostok.io
+.. _Vostok: https://vostok.io/?lang=en
+.. _Github: https://github.com/vostokplatform/Vostok-Releases/releases
 .. _Waves: https://wavesplatform.com

@@ -1,9 +1,9 @@
-Документация блокчейн-платформы Waves Enterprise
-==================================================
+Документация блокчейн-платформы Vostok
+=============================================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Блокчейн-платформа Waves Enterprise
+   :caption: Блокчейн-платформа Vostok
    :name: overview
 
    overview/overview
@@ -25,23 +25,20 @@
    how-the-platform-works/data-structures
    how-the-platform-works/smart-contracts
    how-the-platform-works/anchoring
-   how-the-platform-works/authorization-service
-
-..   how-the-platform-works/pki-description
-     how-the-platform-works/kafka
+   how-the-platform-works/pki-description
 
 .. toctree::
    :maxdepth: 2
    :caption: Использование платформы
    :name: how-to-use
 
-   how-to-use/nets-connection
-   how-to-use/rest-api-common
+   how-to-use/mainnet
+   how-to-use/partnernet
+   how-to-use/rest-api-node
+   how-to-use/rest-api-methods
    how-to-use/smart-contracts-docker
    how-to-use/role-management
-   how-to-use/operations-node
-   how-to-use/data-privacy-exchange
-
+   how-to-use/operations-node	
 .. how-to-use/smart-contracts-ride
 
 .. toctree::
@@ -51,18 +48,17 @@
 
    how-to-setup/system-requirement
    how-to-setup/install-node
-   how-to-setup/config-node-opers
+   how-to-setup/configuration-node
    how-to-setup/install-client
-
-
+   how-to-setup/docker-configuration
+   how-to-setup/install-nodes-docker
 
 .. toctree::
    :maxdepth: 2
    :caption: Дополнительная информация
-   :name: additional-info
+   :name: glossary
 
    glossary
-   changelog
 
 
 .. .. toctree::

@@ -1,13 +1,13 @@
 
 .. _config-examples:
 
-Примеры конфигурационных фалов для сети "Waves Enterprise Mainnet"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Примеры конфигурационных фалов для сети "Vostok Mainnet"
+============================================================
 
 Описание полной конфигурации ноды вы можете почитать :ref:`здесь <configuration>`.
 
 Пример конфигурационного файла ``accounts.conf``
-""""""""""""""""""""""""""""""""""""""""""""""""""""
+-----------------------------------------------------
 
 ::
 
@@ -17,7 +17,7 @@
       waves-crypto = yes
       chain-id = V
       amount = 1
-      wallet = ${user.home}"/nodeName/keystore.dat"
+      wallet = "c:/nodes/vostoknodes/node0/keystore.dat"
       wallet-password = "some string as password"
       reload-node-wallet {
         enabled = false
@@ -25,10 +25,10 @@
       }
     }
 
-Параметр ``chain-id`` содержит идентификационный байт сети, для сети "Waves Enterprise Mainnet" это значение ``V``.
+Параметр ``chain-id`` содержит идентификационный байт сети, для сети "Vostok Mainnet" это значение ``V``.
 
 Пример конфигурационного файла ``api-key-hash``
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+---------------------------------------------------
 
   ::
 
@@ -40,20 +40,20 @@
     }
 
 Пример конфигурационного файла ноды
-""""""""""""""""""""""""""""""""""""""""
+-------------------------------------
 
   ::
 
-    node {
+    vostok {
     # Type of cryptography
     waves-crypto = yes
 
     # Node owner address
     owner-address = ""
 
-    # Node "home" and data directories to store the state
-    # directory = ${user.home}"/nodeName"
-    # data-directory = ${nodeName.directory}"/data"
+    # Vostok "home" and data directories to store the state
+    # directory = ${user.home}"/vostok"
+    # data-directory = ${vostok.directory}"/data"
   
     # Settings for Privacy Data Exchange
     # Uncomment and fill to enable
@@ -102,6 +102,7 @@
       genesis {
         average-block-delay: 40s
         initial-base-target: 10000000000
+        timestamp: 1559320391040
         block-timestamp: 1559320391040
         initial-balance: 100000000000000000
         genesis-public-key-base-58: "D7tDsKd7DQ7H9m6fPRyk1GsNQxjAQXsETtuVgqSaaXDs"
@@ -174,11 +175,11 @@
     port = 6864
     
     # Peers network addresses and ports
-    #   Example: known-peers = ["node-0.wavesenterprise.com:6862", "node-1.wavesenterprise.com:6862"]
+    #   Example: known-peers = ["mainnet-node-0.vostoknodes.com:6864", "mainnet-node-1.vostoknodes.com:6864"]
     known-peers = [ ]
     
     # Node name to send during handshake. Comment this string out to set random node name.
-    # node-name = "nodeName"
+    # node-name = "default-node-name"
 
     # String with IP address and port to send as external address during handshake. Could be set automatically if uPnP is enabled.
     declared-address = "0.0.0.0:6864"
@@ -186,7 +187,7 @@
   
     wallet {
     # Path to keystore. In case of GOST cryptography keys stored in a './keystore/' folder. In case of Waves-cryptography keys stored in a 'keystore.dat' file.
-    file = ${user.home}"/nodeName/keystore.dat"
+    file = ${user.home}"/keystore.dat"
     # Access password
     password = ""
     }

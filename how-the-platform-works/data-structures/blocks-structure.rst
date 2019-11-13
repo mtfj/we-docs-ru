@@ -1,14 +1,14 @@
 Блоки
 =====================
 
-В этом разделе приведена структура хранения блоков в блокчейн-платформе Waves Enterprise.
+В этом разделе приведена структура хранения блоков в блокчейн-платформе Восток.
 
 .. csv-table::
    :header: "Порядковый номер поля", "Поле","Тип","Размер поля в байтах"
    :widths: 5, 30, 10, 5
   
-    1,"Version (0x02 for Genesis block, 0x03 for common block)",Byte,1
-    2,Timestamp,Long,8
+    1,"Version (0x02 for Genesis block, 0x03 for common block)",Byte,0
+    2,Timestamp,Long,1
     3,Parent block signature,Bytes,64
     4,Consensus block length (always 40 bytes),Int,4
     5,Base target,Long,8

@@ -3,9 +3,8 @@
 Транзакции
 =====================
 
-В этом разделе приведена структура хранения транзакций в блокчейн-платформе Waves Enterprise. Для некоторых типов транзакций введено версионирование.
-
-.. important:: Все транзакции используют поле ``timestamp``, содержащее временную метку в формате **Unix Timestamp** в миллисекундах.
+В этом разделе приведена структура хранения транзакций в блокчейн-платформе Восток.
+Для некоторых типов транзакций введено версионирование. Также транзакции, которые содержат вложенные данные, имеют ограничение на объём передаваемых данных - 165 КБ. Это такие транзакции, как :ref:`Data Transaction <DataTransaction>` и :ref:`CreateContract Transaction <CreateContractTransaction>`.
 
 .. table:: Типы транзакций
 
@@ -13,28 +12,31 @@
    №	  Тип транзакции                                                                  Комиссия               Описание                                               
    ===   =============================================================================   ====================   ======================================================================
    1	 :ref:`Genesis transaction <GenesisTransaction>`                                 отсутствует            Первоначальная привязка баланса к адресам создаваемых при старте блокчейна нод
-   3	 :ref:`Issue Transaction <issueTransaction>`                                     1WEST                   Выпуск токенов     
-   4	 :ref:`Transfer Transaction <TransferTransaction>`                               0.01WEST                Перевод токенов        
-   5	 :ref:`Reissue Transaction <ReissueTransaction>`                                 1WEST                   Перевыпуск токенов    
-   6	 :ref:`Burn Transaction <BurnTransaction>`                                       0.05WEST                Сжигание токенов        
-   8	 :ref:`Lease Transaction <LeaseTransaction>`                                     0.01WEST                Передача токенов в аренду
-   9	 :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.01WEST                Отмена аренды токенов        
-   10	 :ref:`Create Alias Transaction <CreateAliasTransaction>`                        1WEST                   Создание псевдонима         
-   11	 :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.05WEST                Массовый перевод токенов. Указана минимальная комиссия
-   12	 :ref:`Data Transaction <DataTransaction>`                                       0.05WEST                Транзакция с данными в виде полей с парой ключ-значение. Указана минимальная комиссия
-   13	 :ref:`SetScript Transaction <SetScriptTransaction>`                             0.5WEST                 Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
-   15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               1WEST                   Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
+   2	 Payment Transaction (не используется)                                                         
+   3	 :ref:`Issue Transaction <issueTransaction>`                                     1VST                   Выпуск токенов     
+   4	 :ref:`Transfer Transaction <TransferTransaction>`                               0.01VST                Перевод токенов        
+   5	 :ref:`Reissue Transaction <ReissueTransaction>`                                 1VST                   Перевыпуск токенов    
+   6	 :ref:`Burn Transaction <BurnTransaction>`                                       0.05VST                Сжигание токенов        
+   7	 :ref:`Exchange Transaction (не используется) <ExchangeTransaction>`                                                       
+   8	 :ref:`Lease Transaction <LeaseTransaction>`                                     0.01VST                Передача токенов в аренду
+   9	 :ref:`Lease Cancel Transaction <LeaseCancelTransaction>`                        0.01VST                Отмена аренды токенов        
+   10	 :ref:`Create Alias Transaction <CreateAliasTransaction>`                        1VST                   Создание псевдонима         
+   11	 :ref:`MassTransfer Transaction <MassTransferTransaction>`                       0.05VST                Массовый перевод токенов. Указана минимальная комиссия
+   12	 :ref:`Data Transaction <DataTransaction>`                                       0.05VST                Транзакция с данными в виде полей с парой ключ-значение. Указана минимальная комиссия
+   13	 :ref:`SetScript Transaction <SetScriptTransaction>`                             0.5VST                 Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
+   14	 SponsorFee Transaction (не используется)              
+   15    :ref:`SetAssetScript <SetAssetScriptTransaction>`                               1VST                   Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
    101   :ref:`Genesis Permission Transaction <GenesisPermitTransaction>`                отсутствует            Назначение первого администратора сети для дальнейшей раздачи прав
-   102   :ref:`Permission Transaction <PermitTransaction>`                               0.01WEST                Выдача/отзыв прав у аккаунта
-   103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1WEST                   Создание Docker-контракта      
-   104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.1WEST                 Вызов Docker-контракта         
+   102   :ref:`Permission Transaction <PermitTransaction>`                               0.01VST                Выдача/отзыв прав у аккаунта
+   103   :ref:`CreateContract Transaction <CreateContractTransaction>`                   1VST                   Создание Docker-контракта      
+   104   :ref:`CallContract Transaction <CallContractTransaction>`                       0.1VST                 Вызов Docker-контракта         
    105   :ref:`ExecutedContract Transaction <ExecutedContractTransaction>`               отсутствует            Выполнение Docker-контракта     
-   106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.1WEST                 Отключение Docker-контракта
+   106   :ref:`DisableContract Transaction <DisableContractTransaction>`                 0.1VST                 Отключение Docker-контракта
    110   :ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`         отсутствует            Регистрация ноды в генезис-блоке при старте блокчейна    
-   111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       0.01WEST                Регистрация новой ноды в сети    
-   112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       1WEST                   Создание группы доступа к конфиденциальным данным  
-   113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       0.5WEST                 Изменение группы доступа    
-   114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   0.05WEST                Отправка в сеть хеша данных       
+   111   :ref:`RegisterNode Transaction <RegisterNodeTransaction>`                       0.01VST                Регистрация новой ноды в сети    
+   112   :ref:`CreatePolicy Transaction <CreatePolicyTransaction>`                       1VST                   Создание группы доступа к конфиденциальным данным  
+   113   :ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`                       0.5VST                 Изменение группы доступа    
+   114   :ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`                   0.05VST                Отправка в сеть хеша данных       
    ===   =============================================================================   ====================   ======================================================================
 
 
@@ -42,31 +44,34 @@
    :header: "№","Тип транзакции","Комиссия","Описание"
    :widths: 10, 30, 25, 50
    1,:ref:`Genesis transaction <GenesisTransaction>`,отсутствует
-   3,:ref:`Issue Transaction <issueTransaction>`,1 - 1.004WEST,Выпуск токенов     
-   4,:ref:`Transfer Transaction <TransferTransaction>`,0.001 - 0.009WEST,Перевод токенов        
-   5,:ref:`Reissue Transaction <ReissueTransaction>`,1 - 1.008WEST,Перевыпуск токенов    
-   6,:ref:`Burn Transaction <BurnTransaction>`,0.001 - 0.009WEST,Сжигание токенов        
-   8,:ref:`Lease Transaction <LeaseTransaction>`,0.001 - 0.005WEST,Аренда токенов        
-   9,:ref:`Lease Cancel Transaction <LeaseCancelTransaction>`,0.001 - 0.005WEST,Отмена аренды токенов        
-   10,:ref:`Create Alias Transaction <CreateAliasTransaction>`,0.001 - 0.005WEST,Создание псевдонима         
-   11,:ref:`MassTransfer Transaction <MassTransferTransaction>`,0.001 - 0.009WEST,Массовый перевод токенов        
-   12,:ref:`Data Transaction <DataTransaction>`,0.001 - 0.005WEST,Транзакция с данными в виде полей с парой ключ-значение    
-   13,:ref:`SetScript Transaction <SetScriptTransaction>`,0.01 - 0.014WEST,Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
-   15,:ref:`SetAssetScript <SetAssetScriptTransaction>`,0.996 - 1WEST,Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
+   2,Payment Transaction (не используется)
+   3,:ref:`Issue Transaction <issueTransaction>`,1 - 1.004VST,Выпуск токенов     
+   4,:ref:`Transfer Transaction <TransferTransaction>`,0.001 - 0.009VST,Перевод токенов        
+   5,:ref:`Reissue Transaction <ReissueTransaction>`,1 - 1.008VST,Перевыпуск токенов    
+   6,:ref:`Burn Transaction <BurnTransaction>`,0.001 - 0.009VST,Сжигание токенов        
+   7,:ref:`Exchange Transaction (не используется) <ExchangeTransaction>`,0.003 - 0.007VST,Обмен токенами       
+   8,:ref:`Lease Transaction <LeaseTransaction>`,0.001 - 0.005VST,Аренда токенов        
+   9,:ref:`Lease Cancel Transaction <LeaseCancelTransaction>`,0.001 - 0.005VST,Отмена аренды токенов        
+   10,:ref:`Create Alias Transaction <CreateAliasTransaction>`,0.001 - 0.005VST,Создание псевдонима         
+   11,:ref:`MassTransfer Transaction <MassTransferTransaction>`,0.001 - 0.009VST,Массовый перевод токенов        
+   12,:ref:`Data Transaction <DataTransaction>`,0.001 - 0.005VST,Транзакция с данными в виде полей с парой ключ-значение    
+   13,:ref:`SetScript Transaction <SetScriptTransaction>`,0.01 - 0.014VST,Транзакция, привязывающая скрипт с RIDE-контрактом к аккаунту   
+   14,SponsorFee Transaction (не используется)              
+   15,:ref:`SetAssetScript <SetAssetScriptTransaction>`,0.996 - 1VST,Транзакция, привязывающая скрипт с RIDE-контрактом к ассету  
    101,:ref:`Genesis Permission Transaction <GenesisPermitTransaction>`,отсутствует,Назначение первого администратора сети для дальнейшей раздачи прав
-   102,:ref:`Permission Transaction <PermitTransaction>`,0WEST,Выдача/забор прав у аккаунта
-   103,:ref:`CreateContract Transaction <CreateContractTransaction>`,1 - 1.004WEST,Создание Docker-контракта      
-   104,:ref:`CallContract Transaction <CallContractTransaction>`,0.15 - 0.154WEST,Вызов Docker-контракта         
+   102,:ref:`Permission Transaction <PermitTransaction>`,0VST,Выдача/забор прав у аккаунта
+   103,:ref:`CreateContract Transaction <CreateContractTransaction>`,1 - 1.004VST,Создание Docker-контракта      
+   104,:ref:`CallContract Transaction <CallContractTransaction>`,0.15 - 0.154VST,Вызов Docker-контракта         
    105,:ref:`ExecutedContract Transaction <ExecutedContractTransaction>`,отсутствует,Выполнение Docker-контракта     
-   106,:ref:`DisableContract Transaction <DisableContractTransaction>`,0.15 - 0.154WEST,Отключение Docker-контракта
-   110,:ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`,0-0.004WEST,Регистрация ноды в генезис-блоке при старте блокчейна    
+   106,:ref:`DisableContract Transaction <DisableContractTransaction>`,0.15 - 0.154VST,Отключение Docker-контракта
+   110,:ref:`GenesisRegisterNode Transaction <GenesisRegisterNodeTransaction>`,0-0.004VST,Регистрация ноды в генезис-блоке при старте блокчейна    
    111,:ref:`RegisterNode Transaction <RegisterNodeTransaction>`,отсутствует,Регистрация новой ноды в сети    
    112,:ref:`CreatePolicy Transaction <CreatePolicyTransaction>`,отсутствует,Создание политики доступа к конфиденциальным данным  
    113,:ref:`UpdatePolicy Transaction <UpdatePolicyTransaction>`,отсутствует,Изменение политики доступа    
    114,:ref:`PolicyDataHash Transaction <PolicyDataHashTransaction>`,отсутствует,Отправка в сеть хэша данных 
 
 
-
+.. 107   :ref:`UpdateContract Transaction <UpdateContractTransaction>`                     0.15 - 0.154VST                
 
 
 .. _GenesisTransaction:
@@ -125,7 +130,6 @@
       "quantity": 100000000000,
       "description": "Some description",
       "sender": "3FSCKyfFo3566zwiJjSFLBwKvd826KXUaqR",
-      "password": "",
       "decimals": 8,
       "reissuable": true,
       "fee": 100000000
@@ -249,8 +253,7 @@
         "type": 5, 
         "version":2, 
         "quantity": 10000, 
-        "sender": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB",
-        "password": "",
+        "sender": "3N9vL3apA4j2L5PojHW8TYmfHx9Lo2ZaKPB", 
         "assetId": "7bE3JPwZC3QcN9edctFrLAKYysjfMEk1SDjZx5gitSGg", 
         "reissuable": true, 
         "fee": 100000001
@@ -310,7 +313,6 @@
         "type": 6,
         "version": 2,
         "sender": "3MtrNP7AkTRuBhX4CBti6iT21pQpEnmHtyw",
-        "password": "",
         "assetId": "7bE3JPwZC3QcN9edctFrLAKYysjfMEk1SDjZx5gitSGg",
         "quantity": 1000,
         "fee": 100000,
@@ -336,6 +338,30 @@
         "height": 1190
     }
 
+.. _ExchangeTransaction:
+
+7. ExchangeTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10
+
+   type             ,+          ,+      ,Byte
+   id               ,+          ,       ,Byte
+   sender           ,+          ,       ,PublicKeyAccount
+   senderPublicKey  ,+          ,+      ,PublicKeyAccount
+   fee              ,+          ,+      ,Long
+   timestamp        ,+          ,+      ,Long
+   proofs           ,+          ,+      ,List[ByteStr]
+   version          ,+          ,+      ,Byte
+   amount           ,+          ,+      ,Long
+   Price            ,+          ,+      ,Long
+   buyOrder         ,+(order1)  ,+      ,Bytes
+   sellOrder        ,+(order2)  ,+      ,Bytes
+   buyMatcherFee    ,+          ,+      ,Long
+   sellMatcherFee   ,+          ,+      ,Long
+   height           ,           ,       ,
 
 .. _LeaseTransaction:
 
@@ -572,40 +598,23 @@
 12. DataTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-.. warning:: Транзакция имеет ограничения:
-                                                                        
-       1. Количество данных в секции "data" передаваемого JSON должно быть не более 100 пар ``"key":"value"``,
-                                                                        
-                .. code:: js
-                        
-                        "data": [
-                              {
-                               "key": "objectId",
-                               "type": "string",
-                               "value": "obj:123:1234"
-                              }, {...}
-                             ]
-                                                                        
-       2. Байтовое представление транзакции после подписания не должно превышать размер в 150 КБ.
-
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size (Bytes)"
-   :widths: 10, 10, 10, 10, 10, 10
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
 
-   type             ,+      ,+      ,+      ,Byte             , 1
-   id               ,       ,+      ,       ,Byte             , 1
-   sender           ,+      ,+      ,       ,PublicKeyAccount , 32\64
-   senderPublicKey  ,+      ,+      ,+      ,PublicKeyAccount , 32\64
-   fee              ,+      ,+      ,+      ,Long             , 8
-   timestamp        ,+ (opt),+      ,+      ,Long             , 8
-   proofs           ,       ,+      ,+      ,List[ByteStr]    , 32767
-   version          ,+      ,+      ,       ,Byte             , 1
-   authorPublicKey  ,       ,+      ,+      ,PublicKeyAccount , 32\64
-   author           ,+      ,+      ,       ,                 , 32\64
-   data             ,+      ,+      ,+      ,                 , 32\64
-   password         ,+ (opt),       ,       ,String           , 32767
-   height           ,       ,+      ,       ,                 , 8
+   type             ,+      ,+      ,+      ,Byte
+   id               ,       ,+      ,       ,Byte
+   sender           ,+      ,+      ,       ,PublicKeyAccount
+   senderPublicKey  ,+      ,+      ,+      ,PublicKeyAccount
+   fee              ,+      ,+      ,+      ,Long
+   timestamp        ,+ (opt),+      ,+      ,Long
+   proofs           ,       ,+      ,+      ,List[ByteStr]
+   version          ,+      ,+      ,       ,Byte
+   authorPublicKey  ,       ,+      ,+      ,PublicKeyAccount
+   author           ,+      ,+      ,       ,
+   data             ,+      ,+      ,+      ,
+   password         ,+ (opt),       ,       ,String
+   height           ,       ,+      ,       ,
 
 **JSON для вызова метода sign** 
 
@@ -851,42 +860,35 @@
 103. CreateContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Байтовое представление транзакции после подписания не должно превышать размер в 150 КБ.
-
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
-   :widths: 10, 10, 10, 10, 10, 10
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
 
-   type             ,+      ,+      ,+      ,Byte               , 1
-   id               ,       ,+      ,       ,Byte               , 1
-   sender           ,+      ,+      ,       ,PublicKeyAccount   , 32\64
-   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount   , 32\64
-   password         ,+ (opt),       ,       ,String             , 32767
-   fee              ,+      ,+      ,+      ,Long               , 8
-   timestamp        ,+ (opt),+      ,+      ,Long               , 8
-   proofs           ,       ,+      ,+      ,List[ByteStr]      , 32767
-   version          ,       ,+      ,+      ,Byte               , 1
-   image            ,+      ,+      ,+      ,Array[Bytes]       , 32767
-   imageHash        ,+      ,+      ,+      ,Array[Bytes]       , 32767
-   contractName     ,+      ,+      ,+      ,Array[Bytes]       , 32767
-   params           ,+      ,+      ,+      ,List[DataEntry[_]] , 32767
-   height           ,       ,+      ,       ,                   , 8
+   type             ,+      ,+      ,+      ,Byte
+   id               ,       ,+      ,       ,Byte
+   sender           ,+      ,+      ,       ,PublicKeyAccount
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
+   fee              ,+      ,+      ,+      ,Long
+   timestamp        ,+ (opt),+      ,+      ,Long
+   proofs           ,       ,+      ,+      ,List[ByteStr]
+   version          ,       ,+      ,+      ,Byte
+   image            ,+      ,+      ,+      ,Array[Bytes]
+   imageHash        ,+      ,+      ,+      ,Array[Bytes]
+   params           ,+      ,+      ,+      ,List[DataEntry[_]]
+   height           ,       ,+      ,       ,
 
 **JSON для вызова метода sign** 
 
 .. code:: js
 
     {
-      "fee": 100000000,
-      "image": "stateful-increment-contract:latest",
-      "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
-      "contractName": "stateful-increment-contract",
-      "sender": "3PudkbvjV1nPj1TkuuRahh4sGdgfr4YAUV2",
-      "password": "",
-      "params": [],
-      "type": 103,
-      "version": 1
-     }
+        "type": 103,
+        "sender":"3PKyW5FSn4fmdrLcUnDMRHVyoDBxybRgP58",
+        "image":"localhost:5000/sum-contract-kv",
+        "params":[],
+        "imageHash": "930d18dacb4f49e07e2637a62115510f045da55ca16b9c7c503486828641d662",
+        "fee":500000
+    }
 
 **Broadcasted JSON**
 
@@ -901,9 +903,8 @@
         "timestamp": 1550591678479,
         "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
         "version": 1, 
-        "image": "stateful-increment-contract:latest", 
-        "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
-        "contractName": "stateful-increment-contract",
+        "image": "localhost:5000/lshevtsova", 
+        "imageHash": "a93c124016b87bbbf1c1deff9638c0f9393d31289d824401d280f85098d154f7", 
         "params": [], 
         "height": 1619 
     }
@@ -913,23 +914,21 @@
 104. CallContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Байтовое представление транзакции после подписания не должно превышать размер в 150 КБ.
-
 .. csv-table::
-   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type","Size(Bytes)"
-   :widths: 10, 10, 10, 10, 10, 10
+   :header: "Field","JSON to sign","Broadcasted JSON","Blockchain state","Type"
+   :widths: 10, 10, 10, 10, 10
 
-   type             ,+      ,+      ,+      ,Byte               , 1
-   id               ,       ,+      ,       ,Byte               , 1
-   sender           ,+      ,+      ,       ,PublicKeyAccount   , 32\64
-   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount   , 32\64
-   fee              ,+      ,+      ,+      ,Long               , 8
-   timestamp        ,+ (opt),+      ,+      ,Long               , 8
-   proofs           ,       ,+      ,+      ,List[ByteStr]      , 32767
-   version          ,       ,+      ,+      ,Byte               , 1
-   contractId       ,+      ,+      ,+      ,ByteStr            , 32767
-   params           ,+      ,+      ,+      ,List[DataEntry[_]] , 32767
-   height           ,       ,+      ,       ,                   , 8
+   type             ,+      ,+      ,+      ,Byte
+   id               ,       ,+      ,       ,Byte
+   sender           ,+      ,+      ,       ,PublicKeyAccount
+   senderPublicKey  ,       ,+      ,+      ,PublicKeyAccount
+   fee              ,+      ,+      ,+      ,Long
+   timestamp        ,+ (opt),+      ,+      ,Long
+   proofs           ,       ,+      ,+      ,List[ByteStr]
+   version          ,       ,+      ,+      ,Byte
+   contractId       ,+      ,+      ,+      ,ByteStr
+   params           ,+      ,+      ,+      ,List[DataEntry[_]]
+   height           ,       ,+      ,       ,
 
 **JSON для вызова метода sign**
 
@@ -953,8 +952,7 @@
                "value": 100
 
             }
-        ],
-        "version": 1
+        ]
     }
 
 **Broadcasted JSON**
@@ -991,8 +989,6 @@
 105. ExecutedContractTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: Байтовое представление транзакции после подписания не должно превышать размер в 150 КБ.
-
 .. csv-table::
    :header: "Field","Broadcasted JSON","Blockchain state","Type"
    :widths: 10, 10, 10, 10
@@ -1023,21 +1019,19 @@
         "proofs": [ "5whBipAWQgFvm3myNZe6GDd9Ky8199C9qNxLBHqDNmVAUJW9gLf7t9LBQDi68CKT57dzmnPJpJkrwKh2HBSwUer6" ], 
         "version": 1, 
         "tx": 
-             {
-                "type": 103,
-                "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky",
-                "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew",
-                "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M",
-                "fee": 500000,
-                "timestamp": 1550591678479,
-                "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
-                "version": 1, 
-                "image": "stateful-increment-contract:latest", 
-                "imageHash": "7d3b915c82930dd79591aab040657338f64e5d8b842abe2d73d5c8f828584b65",
-                "contractName": "stateful-increment-contract",
-                "params": [], 
-                "height": 1619 
-              }, 
+        { 
+            "type": 103,
+            "id": "ULcq9R7PvUB2yPMrmBdxoTi3bcRmQPT3JDLLLZVj4Ky", 
+            "sender": "3N3YTj1tNwn8XUJ8ptGKbPuEFNa9GFnhqew", 
+            "senderPublicKey": "3kW7vy6nPC59BXM67n5N56rhhAv38Dws5skqDsjMVT2M", 
+            "fee": 500000, 
+            "timestamp": 1550591678479, 
+            "proofs": [ "yecRFZm9iBLyDy93bDVaNo1PR5Qkkic7196GAgUt9TNH1cnQphq4yGQQ8Fxj4BYA4TaqYVw5qxtWzGMPQyVeKYv" ], 
+            "version": 1, 
+            "image": "localhost:5000/lshevtsova", 
+            "imageHash": "a93c124016b87bbbf1c1deff9638c0f9393d31289d824401d280f85098d154f7", 
+            "params": [] 
+        }, 
         "results": [], 
         "height": 1619 
     }

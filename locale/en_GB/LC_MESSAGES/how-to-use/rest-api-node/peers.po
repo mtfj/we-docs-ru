@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 16:03+0300\n"
-"PO-Revision-Date: 2019-11-05 15:32+0300\n"
+"POT-Creation-Date: 2019-05-24 16:12+0300\n"
+"PO-Revision-Date: 2019-05-24 16:26+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # be98c7ffc176468d905e17c96c0d4f4c
@@ -27,10 +27,11 @@ msgstr "Peers"
 # e61084ac7f414928aed36b2385eb311a
 #: ../../how-to-use/rest-api-node/peers.rst:4
 msgid ""
-"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-node`."
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
 msgstr ""
-"The rules for generating queries to the node are given in module :ref:`rest-"
-"api-node`."
+"The rules for generating queries to the node are given in module :ref:"
+"`rest-api-node`."
 
 # dbe3adb92acc47258f288a3b0efc021a
 #: ../../how-to-use/rest-api-node/peers.rst:7
@@ -65,8 +66,8 @@ msgstr "**Method Query:**"
 #: ../../how-to-use/rest-api-node/peers.rst:88
 #: ../../how-to-use/rest-api-node/peers.rst:100
 #: ../../how-to-use/rest-api-node/peers.rst:130
-#: ../../how-to-use/rest-api-node/peers.rst:148
-#: ../../how-to-use/rest-api-node/peers.rst:162
+#: ../../how-to-use/rest-api-node/peers.rst:150
+#: ../../how-to-use/rest-api-node/peers.rst:164
 msgid "**Ответ метода:**"
 msgstr "**Method Response:**"
 
@@ -133,11 +134,11 @@ msgstr "POST /peers/identity"
 # 964b7307d13d43f99f441563e5874b47
 #: ../../how-to-use/rest-api-node/peers.rst:114
 msgid ""
-"Получение публичного ключа пира, к которому подключается нода для передачи "
-"конфиденциальных данных."
+"Получение публичного ключа пира, к которому подключается нода для "
+"передачи конфиденциальных данных."
 msgstr ""
-"Gets the public key of the peer which is used by the node for the connection "
-"and the confidential data transfer."
+"Gets the public key of the peer which is used by the node for the "
+"connection and the confidential data transfer."
 
 # bb94ca6d0a15400ea43d45de3536ea89
 # 108e57715a684c9dac327eb7cd8a52b1
@@ -149,11 +150,11 @@ msgstr "Parameters:"
 # c247f3eebde7453994af5070a6e5f3ea
 #: ../../how-to-use/rest-api-node/peers.rst:127
 msgid ""
-"address - блокчейн-адрес, который соответствует параметру \"privacy.owner-"
-"address\" в конфигурационном файле ноды;"
+"address - блокчейн-адрес, который соответствует параметру \"privacy."
+"owner-address\" в конфигурационном файле ноды;"
 msgstr ""
-"address - the blockchain address corresponding to the \"privacy.owner-address"
-"\" parameter in the node configuration file;"
+"address - the blockchain address corresponding to the \"privacy.owner-"
+"address\" parameter in the node configuration file;"
 
 # 834eb8f8be8749d9a1c0e2f20c51c905
 #: ../../how-to-use/rest-api-node/peers.rst:128
@@ -163,13 +164,13 @@ msgstr "signature - electronic signature of the \"address\" field value."
 # 65827280865c46bb82bdcea5967eddc0
 #: ../../how-to-use/rest-api-node/peers.rst:140
 msgid ""
-"publicKey - публичный ключ пира, связанный с параметром \"privacy.owner-address"
-"\" в его конфигурационном файле. Если выключен режим проверки handshakes, то "
-"параметр publicKey не отображается."
+"publicKey - публичный ключ пира, связанный с параметром \"privacy.owner-"
+"address\" в его конфигурационном файле. Если выключен режим проверки "
+"handshakes, то параметр publicKey не отображается."
 msgstr ""
-"publicKey - the peer public key associated with \"privacy.owner-address\" "
-"parameter in the configuration file. This parameter does not appear if the "
-"mode of the handshake checking turned off."
+"publicKey - the peer public key associated with \"privacy.owner-address"
+"\" parameter in the configuration file. This parameter does not appear "
+"if the mode of the handshake checking turned off."
 
 # 79c30b99878b4f218a2d4430923c5034
 #: ../../how-to-use/rest-api-node/peers.rst:144
@@ -178,26 +179,29 @@ msgstr "GET /peers/hostname/{address}"
 
 # 0d3ec8a2030a40e5b2aff9b9af2c79ae
 #: ../../how-to-use/rest-api-node/peers.rst:146
-msgid "Получение hostname и IP-адреса ноды по ее адресу в сети Waves Enterprise."
+msgid "Получение hostname и IP-адреса ноды по ее адресу в сети Vostok."
 msgstr ""
-"Gets the hostname and IP Address of the node by its address in the Waves "
-"Enterprise net."
+"Gets the hostname and IP Address of the node by its address in the "
+"Vostok net."
+
+# 8d0dd1be3cb74125a2bbf6b74375d4b3
+#: ../../how-to-use/rest-api-node/peers.rst:148
+msgid ""
+"Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+"hostname/3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8"
+msgstr ""
+"Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
+"hostname/3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8"
 
 # 064f734c7d554b9f8f1063a2fb3e8281
-#: ../../how-to-use/rest-api-node/peers.rst:158
+#: ../../how-to-use/rest-api-node/peers.rst:160
 msgid "GET /peers/allowedNodes"
 msgstr "GET /peers/allowedNodes"
 
 # 9815c4344bc744cc8d09750eddf506f2
-#: ../../how-to-use/rest-api-node/peers.rst:160
+#: ../../how-to-use/rest-api-node/peers.rst:162
 msgid ""
-"Получение актуального списка разрешенных участников сети на момент запроса."
-msgstr "Gets the actual list of allowed participants at the request moment."
-
-# 8d0dd1be3cb74125a2bbf6b74375d4b3
-#~ msgid ""
-#~ "Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
-#~ "hostname/3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8"
-#~ msgstr ""
-#~ "Request example: http://2.testnet-pos.vostoknodes.com:6862/privacy/"
-#~ "hostname/3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8"
+"Получение актуального списка разрешенных участников сети на момент "
+"запроса."
+msgstr ""
+"Gets the actual list of allowed participants at the request moment."

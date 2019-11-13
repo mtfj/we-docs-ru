@@ -66,5 +66,5 @@ GET /node/version
 .. code:: js
 
     {
-      "version": "Waves Enterprise v0.9.0"
+      "version": "Vostok v0.6.6"
     }

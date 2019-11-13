@@ -143,14 +143,16 @@ POST /peers/identity
 GET /peers/hostname/{address}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Получение hostname и IP-адреса ноды по ее адресу в сети Waves Enterprise.
+Получение hostname и IP-адреса ноды по ее адресу в сети Vostok.
+
+Пример запроса: http://2.testnet-pos.vostoknodes.com:6862/privacy/hostname/3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8
 
 **Ответ метода:**
 
 .. code:: js
 
   {
-    "hostname": "node1.we.io",
+    "hostname": "node1.vostok.io",
     "ip": "10.0.0.1"
   }
 

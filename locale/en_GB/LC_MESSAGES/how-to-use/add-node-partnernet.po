@@ -7,31 +7,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-19 16:56+0300\n"
-"PO-Revision-Date: 2019-09-19 17:28+0300\n"
+"POT-Creation-Date: 2019-08-02 15:25+0300\n"
+"PO-Revision-Date: 2019-08-02 15:28+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.2.1\n"
 
 # 94232416104a444a9f02835d6d8f02b2
 #: ../../how-to-use/add-node-partnernet.rst:5
-msgid "Подключение ноды в сеть \"Waves Enterprise Partnernet\""
-msgstr "Connection of the node to the “ Waves Enterprise Partnernet”"
+msgid "Подключение ноды в сеть \"Vostok Partnernet\""
+msgstr "Connection of the node to the “Vostok Partnernet”"
 
 # 45a30ea7d01e41ab807d044d7e242653
 #: ../../how-to-use/add-node-partnernet.rst:7
 msgid ""
-"Выполните следующие действия для подключения ноды в сеть \"Waves Enterprise "
-"Partnernet\":"
-msgstr ""
-"Follow these steps for the node connection to the “Waves Enterprise "
-"Partnernet”:"
+"Выполните следующие действия для подключения ноды в сеть \"Vostok Partnernet"
+"\":"
+msgstr "Follow these steps for the node connection to the “Vostok Partnernet”:"
 
 # a24fb492e9ab45c48f910105978c41ff
 #: ../../how-to-use/add-node-partnernet.rst:9
@@ -45,11 +43,11 @@ msgstr ""
 # 4af0880a1a074e6d9c04c7e2529e9b2f
 #: ../../how-to-use/add-node-partnernet.rst:10
 msgid ""
-"Скачайте `актуальный релиз <https://github.com/waves-enterprise/WE-releases/"
+"Скачайте `актуальный релиз <https://github.com/vostokplatform/Vostok-Releases/"
 "releases>`_ ноды и генератора в jar-формате."
 msgstr ""
-"Download the `current release <https://github.com/waves-enterprise/WE-"
-"releases/releases>`_ of the node and generator in the jar format."
+"Download the `current release <https://github.com/vostokplatform/Vostok-"
+"Releases/releases>`_ of the node and generator in the jar format."
 
 # ff54ea6d6ad742dea8ca8e164e75186b
 #: ../../how-to-use/add-node-partnernet.rst:11
@@ -72,17 +70,17 @@ msgstr ""
 #: ../../how-to-use/add-node-partnernet.rst:12
 msgid ""
 "Создайте конфигурационный файл ноды, взяв шаблон с `сайта проекта на GitHub "
-"<https://github.com/waves-enterprise/WE-releases/blob/master/configs/"
-"partnernet.conf>`_. Заполните все поля, помеченные строкой **#FILL**. Если "
+"<https://github.com/vostokplatform/Vostok-Releases/blob/master/configs/"
+"partnerNet.conf>`_. Заполните все поля, помеченные строкой **#FILL**. Если "
 "нода будет майнить, укажите значение ``yes`` параметра ``enable`` блока "
 "``miner`` и запросите права майнера в заявке на подключение. В противном "
 "случае укажите значение ``no``. Также укажите в качестве параметра ``url`` "
 "блока ``privacy {storage {}}`` адрес к БД PostgreSQL."
 msgstr ""
 "Create the node configuration file using the template from the project "
-"`GitHub <https://github.com/waves-enterprise/WE-releases/blob/master/configs/"
-"partnernet.conf>`_. Please, fill all the fields marked with **#FILL** string. "
-"If you want the node to be a miner specify the value ``yes`` of the "
+"`GitHub <https://github.com/vostokplatform/Vostok-Releases/blob/master/"
+"configs/partnerNet.conf>`_. Please, fill all the fields marked with **#FILL** "
+"string. If you want the node to be a miner specify the value ``yes`` of the "
 "``enable`` parameter of the ``miner`` block and request the miner rights "
 "inside the connection application. Otherwise specify the ``no`` value. Also "
 "specify the PostgreSQL DB address as a value of the ``url`` parameter of the "
@@ -103,11 +101,11 @@ msgstr ""
 # 91d843d8813d4bb38c6f0b6bf66e4f15
 #: ../../how-to-use/add-node-partnernet.rst:14
 msgid ""
-"Зайдите на сайт `<https://support.wavesenterprise.com/servicedesk>`_ и "
-"зарегистрируйтесь."
+"Зайдите на сайт `<https://support.vostok.io/servicedesk/customer/portal/3>`_ "
+"и зарегистрируйтесь."
 msgstr ""
-"Go to the website `<https://support.wavesenterprise.com/servicedesk>_ and "
-"perform the registration."
+"Go to the website `<https://support.vostok.io/servicedesk/customer/"
+"portal/3>`_ and perform the registration."
 
 # 7c69ab6718ca4bf0903471764797094a
 #: ../../how-to-use/add-node-partnernet.rst:15
@@ -131,16 +129,16 @@ msgstr ""
 #: ../../how-to-use/add-node-partnernet.rst:17
 msgid ""
 "Дождитесь рассмотрения заявки на подключение. После успешной регистрации "
-"можете начинать работу в сети \"Waves Enterprise Partnernet\"."
+"можете начинать работу в сети \"Vostok Partnernet\"."
 msgstr ""
 "Please, wait for the connection application consideration. You can start "
-"working in the \"Waves Enterprise Partnernet\" after successful registration."
+"working in the \"Vostok Partnernet\" after successful registration."
 
 # 91d777397d7d4949a0e9c86033f1b489
 #: ../../how-to-use/add-node-partnernet.rst:18
 msgid ""
-"После получения разрешения на подключение к сети \"Waves Enterprise Partnernet"
-"\" :ref:`запустите <node-start>` ноду."
+"После получения разрешения на подключение к сети \"Vostok Partnernet\" :ref:"
+"`запустите <node-start>` ноду."
 msgstr ":ref:`Run <node-start>` the node after getting the application approve."
 
 # 0df3520bcdeb41baa883624e4913c81f

@@ -25,13 +25,13 @@ POST /privacy/sendData
       "type": "file",
       "info": {
         "filename":"Service contract #100/5.doc",
-        "size": 2048,
+        "size": "2048",
         "timestamp": 1000000000,
         "author": "AIvanov@org.com",
         "comment": "some comments"
        },
        "data": "TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCBieSB0aGlzIHNpbmd1bGFyIHBhc3Npb24gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaCBpcyBhIGx1c3Qgb2YgdGhlIG1pbmQsIHRoYXQgYnkgYSBwZXJzZXZlcmFuY2Ugb2YgZGVsaWdodCBpbiB0aGUgY29udGludWVkIGFuZCBpbmRlZmF0aWdhYmxlIGdlbmVyYXRpb24gb2Yga25vd2xlZGdlLCBleGNlZWRzIHRoZSBzaG9ydCB2ZWhlbWVuY2Ugb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=",
-       "hash": "FRog42mnzTA292ukng6PHoEK9Mpx9GZNrEHecfvpwmta"
+       "hash": "e67ad392ab4d933f39d5723aeed96c18c491140e119d590103e7fd6de15623f1"
     }
 
 Параметры:
@@ -43,24 +43,6 @@ POST /privacy/sendData
 - info - информация о данных;
 - data - данные в бинарном представлении;
 - hash - хеш от данных.
-
-Ответ метода:
-
-.. code:: js
-
-    {
-      "senderPublicKey": "Gt3o1ghh2M2TS65UrHZCTJ82LLcMcBrxuaJyrgsLk5VY",
-      "policyId": "4gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaC",
-      "sender": "3HYW75PpAeVukmbYo9PQ3mzSHdKUgEytUUz",
-      "dataHash": "FRog42mnzTA292ukng6PHoEK9Mpx9GZNrEHecfvpwmta",
-      "proofs": [
-      "2jM4tw4uDmspuXUBt6492T7opuZskYhFGW9gkbq532BvLYRF6RJn3hVGNLuMLK8JSM61GkVgYvYJg9UscAayEYfc"
-      ],
-      "fee": 110000000,
-      "id": "H3bdFTatppjnMmUe38YWh35Lmf4XDYrgsDK1P3KgQ5aa",
-      "type": 114,
-      "timestamp": 1571043910570
-     }
 
 GET /privacy/{policy-id}/recipients
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -139,8 +121,8 @@ GET /privacy/{policy-id}/hashes
     "eedfdNBVqYXrapgJP9atQccdBPAgJPwHDKkh6A"
     ]
 
-GET /privacy/getData/{policy-item-hash}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GET /privacy/{policy-id}/getData/{policy-item-hash}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
@@ -155,8 +137,8 @@ GET /privacy/getData/{policy-item-hash}
     c29tZV9iYXNlNjRfZW5jb2RlZF9zdHJpbmc=
     
 
-GET /privacy/getInfo/{policy-item-hash}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GET /privacy/{policy-id}/getInfo/{policy-item-hash}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://img.shields.io/badge/API--KEY-required-red.svg
 
@@ -173,8 +155,8 @@ GET /privacy/getInfo/{policy-item-hash}
       "policy": "4gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaC",
       "type": "file",
       "info": {
-        "filename": "Contract №100/5.doc",
-        "size": 2048,
+        "filename":"Contract №100/5.doc",
+        "size": "2048",
         "timestamp": 1000000000,
         "author": "AIvanov@org.com",
         "comment": "Comment"
@@ -212,12 +194,12 @@ POST /privacy/getInfos
    { "policiesDataHashes":
      [
       {
-       "policyId": "somepolicyId_1",
-       "datahashes": [ "datahash_1","datahash_2" ]
+       "policyId":"somepolicyId_1",
+       "datahashes":[ "datahash_1","datahash_2" ]
       },
       {
-        "policyId": "somepolicyId_2",
-        "datahashes": [ "datahash_3","datahash_4" ]
+        "policyId":"somepolicyId_2",
+        "datahashes":[ "datahash_3","datahash_4" ]
       }
      ]
     }
@@ -237,7 +219,7 @@ POST /privacy/getInfos
                "type":"file",
                "info":{
                   "filename":"Contract №100/5.doc",
-                  "size":2048,
+                  "size":"2048",
                   "timestamp":1000000000,
                   "author":"AIvanov@org.com",
                   "comment":"Comment"

@@ -3,7 +3,7 @@
 Общее описание клиента
 ========================================
 
-Клиент Waves Enterprise — это удобный способ управления вашим блокчейном Waves Enterprise. `<https://client.wavesenterprise.com>`_ — предназначен для работы в публичной сети Waves Enterprise.
+Клиент Vostok — это удобный способ управления вашим блокчейном Vostok. `<https://client.vostok.io>`_ — предназначен для работы в публичной сети Vostok.
 
 .. image:: img/client-infr.png
 

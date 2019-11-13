@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vostok master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-02 15:12+0300\n"
-"PO-Revision-Date: 2019-09-02 17:33+0300\n"
+"POT-Creation-Date: 2019-06-19 19:04+0300\n"
+"PO-Revision-Date: 2019-06-19 19:05+0300\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -16,13 +16,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.0.6\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 # f80e527fd6a6423c9997915218726f13
 #: ../../how-to-use/config-examples.rst:5
-msgid "Примеры конфигурационных фалов для сети \"Waves Enterprise Mainnet\""
-msgstr "Examples of the \"Waves Enterprise Mainnet\" configuration files"
+msgid "Примеры конфигурационных фалов для сети \"Vostok Mainnet\""
+msgstr "Examples of the \"Vostok Mainnet\" configuration files"
 
 # 3429f9cea7f844849c42fc045bb6569d
 #: ../../how-to-use/config-examples.rst:7
@@ -39,11 +39,11 @@ msgstr "The ``accounts.conf`` file example"
 # 94f6f1a0923e4147927cecbd8cb0dc53
 #: ../../how-to-use/config-examples.rst:28
 msgid ""
-"Параметр ``chain-id`` содержит идентификационный байт сети, для сети \"Waves "
-"Enterprise Mainnet\" это значение ``V``."
+"Параметр ``chain-id`` содержит идентификационный байт сети, для сети \"Vostok "
+"Mainnet\" это значение ``V``."
 msgstr ""
 "The ``chain-id`` parameter contains the identification network byte, for the "
-"\"Waves Enterprise Mainnet\" in is ``V``."
+"\"Vostok Mainnet\" in is ``V``."
 
 # bfdc8f57ba124162bd4c9ef9c01a8780
 #: ../../how-to-use/config-examples.rst:31
