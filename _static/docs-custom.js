@@ -1,12 +1,7 @@
 function setDocLink() {
     var div = document.createElement('div');
     div.className = 'doc-link';
-    div.innerHTML =
-        '<div>' +
-        '<a class="reference internal" href="https://docs.wavesenterprise.com/wedocs.pdf">Документация</a>' +
-        '<span class="doc-link__label">.pdf</span>' +
-        '</div>' +
-        '<div class="version-text">Release WE 1.0</div>'
+    div.innerHTML = '<div class="version-text">Release WE 1.0</div>';
     var menu = document.querySelector('.wy-side-scroll');
     menu.appendChild(div);
 }
