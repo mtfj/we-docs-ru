@@ -1,12 +1,7 @@
 function setDocLink() {
     var div = document.createElement('div');
     div.className = 'doc-link';
-    div.innerHTML = 
-    '<div>' +
-        '<a class="reference internal" href="https://docs.vostok.io/vostokdocs.pdf">Документация</a>' + 
-        '<span class="doc-link__label">.pdf</span>' +
-    '</div>' +
-    '<div class="version-text">Release 1.0.2</div>'
+    div.innerHTML = '<div class="version-text">Release 1.0.2</div>';
     var menu = document.querySelector('.wy-side-scroll');
     menu.appendChild(div);
 }
